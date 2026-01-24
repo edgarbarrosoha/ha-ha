@@ -1,0 +1,92 @@
+---
+config:
+  layout: dagre
+---
+flowchart LR
+ subgraph FASE1["1. DISEÑO"]
+        %% Aquí hay que sugerir el diseño del proceso de participación para dieseñar el SIC-Q. La idea es que el SIC-Q no se sienta como una
+        %% imposición, pero desde su concepción sea un proceso participativo. Debería de responder la pregunta ¿
+        %% ¿Cómo debería de ser el SICQ? Para que el ciudadano pueda participar de manera efectiva y satisfactoria, es
+        %% necesario que el proceso de participación sea transparente, inclusivo y participativo. Esto implica que el
+        %% ciudadano tenga acceso a información relevante y que pueda expresar sus opiniones y sugerencias de manera efectiva.
+        %% Además, es importante que el proceso de participación sea fácil de seguir y que el ciudadano pueda interactuar con el
+        %% sistema de manera intuitiva y sencilla
+        %% TASK: diseña un proceso participativo para diseñar el SIC-Q. Cuántos talleres, encuestaa o agentes entreistadores de IA
+        %% o qué tipo de recursos necesitamos construir para que sea un proceso participativo efectivo y que le de legitimidad al
+        %% SIC-Q.
+        D1? Para "Integración de actores clave desde<br>el inicio del proyecto para garantizar<br>legitimidad y apropiación colectiva.<br>Definición de APIs de consulta y<br>conexión con servicios gubernamentales."]
+  end
+ subgraph FASE2["2. DESCUBRIMIENTO"]
+        DESC1["CANALES DIGITALES<br>WhatsApp, redes sociales,<br>sitio web, publicidad online"]
+        DESC2["CANALES ANÁLOGOS<br>Talleres comunitarios, charlas,<br>encuestas presenciales, eventos"]
+  end
+ subgraph FASE3["3. REGISTRO"]
+        REG_TITLE["El ciudadano llega a la plataforma<br>y elige cómo quiere interactuar"]
+        REG1["MODO EXPLORA<br>Sin crear cuent  a.<br>Permite ver el mapa de ideas,<br>leer propuestas y conocer<br>tendencias. Solo lectura."]
+        REG2["MODO PARTICIPA<br>Requiere registro verificado:<br>Email, celular, seudónimo,<br>CURP, código postal,<br>verificación INE o Llave MX."]
+  end
+ subgraph FASE3B["3B. CONVERSIÓN"]
+        SL_CTA["Después de explorar, el sistema<br>invita al ciudadano a participar.<br>Pregunta: Quieres opinar?<br>Si acepta, pasa a registro."]
+  end
+ subgraph FASE4["4. ORIENTACIÓN"]
+        ORI["Un asistente de IA pregunta:<br>Como te gustaría participar hoy?<br>Guía al ciudadano hacia la<br>acción más adecuada según<br>su intención."]
+        ORI1["PROPONER<br>El ciudadano tiene una idea<br>que quiere compartir.<br>La IA le ayuda a articularla."]
+        ORI2["IMPULSAR<br>El ciudadano quiere opinar<br>sobre ideas existentes.<br>Explora y da like."]
+        ORI3["TRANSFORMAR<br>El ciudadano adopta una propuesta<br>que le importa y la promueve.<br>Recibe herramientas para compartir."]
+        ORI4["CONVERSAR<br>El ciudadano quiere entender.<br>Pregunta y recibe contexto<br>para decidir cómo participar."]
+  end
+ subgraph FASE5["5. PARTICIPACIÓN"]
+        PART1["FLUJO PROPONER<br>Diálogo guiado con IA.<br>Estructuración automática.<br>Verificación de duplicados.<br>Publicación de propuesta."]
+        PART2["FLUJO IMPULSAR<br>Explorar mapa de ideas.<br>Filtrar por tema o ubicación.<br>Dar like para apoyar.<br>Opcionalmente comentar."]
+        PART3["FLUJO TRANSFORMAR<br>Seleccionar propuesta a adoptar.<br>Recibir enlace personal de tracking.<br>Compartir en redes y WhatsApp.<br>Ver cuántos likes llegaron gracias a ti."]
+        PART4["FLUJO CONVERSAR<br>Consultar contexto público.<br>Recibir fuentes y estatus.<br>Derivar a proponer/impulsar<br>o transformar."]
+  end
+ subgraph FASE6["6. ALMACENAMIENTO"]
+        DB["BASE DE DATOS DE PARTICIPACIÓN<br>Todas las propuestas, likes,<br>comentarios, clusters semánticos<br>y datos de usuarios se almacenan<br>para su procesamiento."]
+        CON["BASE DE CONOCIMIENTO EXTERNA<br>Documentos de planeación estatal,<br>encuestas previas, datos INEGI,<br>información sociodemográfica,<br>reportes y PDFs históricos."]
+  end
+ subgraph FASE7["7. SENSE MAKING"]
+        SM["MOTOR DE INTELIGENCIA COLECTIVA<br>Procesa ambas bases de datos.<br>Aplica clustering semántico,<br>detecta consensos emergentes,<br>identifica prioridades colectivas,<br>analiza tendencias temporales,<br>sintetiza propuestas similares."]
+  end
+ subgraph FASE8["8. ANÁLISIS HA"]
+        HA["HORIZONS ARCHITECTURE<br>Marco teórico de complejidad e<br>inteligencia híbrida.<br>Taxonomía fractal (ejes: Tiempo +<br>Complejidad Simultánea) con 6<br>dimensiones: Legado, Comunidad,<br>Aprendizaje, Tecnología, Contexto,<br>Proyectos.<br>Ontología agentiva + coordinación<br>temporal no lineal."]
+  end
+ subgraph FASE9["9. INFORMES"]
+        SICQ["INFORMES DE INTELIGENCIA COLECTIVA<br>Documentos estructurados que<br>presentan hallazgos, prioridades<br>ciudadanas, propuestas viables,<br>y recomendaciones de acción<br>para tomadores de decisiones."]
+  end
+ subgraph FASE10["10. GOBIERNO"]
+        GOB1["SECRETARÍA DE PLANEACIÓN<br>Y PARTICIPACIÓN CIUDADANA<br>Recibe informes de IC.<br>Evalúa viabilidad técnica y<br>presupuestal. Implementa<br>propuestas aprobadas.<br>Genera respuestas oficiales."]
+        GOB2["INSTITUTO DEL FUTURO<br>Órgano autónomo que trasciende<br>administraciones. Garantiza<br>continuidad del sistema.<br>Vincula inteligencia colectiva<br>con política pública de<br>largo plazo."]
+  end
+ subgraph FASE11["11. FEEDBACK"]
+        FB["RETROALIMENTACIÓN AL CIUDADANO<br>El sistema notifica al ciudadano<br>qué pasó con su propuesta:<br>- En revisión técnica<br>- Aprobada para implementación<br>- Requiere más apoyo<br>- No viable con explicación<br>Cierra el loop de participación."]
+  end
+ subgraph FASE12["12. CICLO"]
+        CICLO["CICLO VIRTUOSO<br>El ciudadano que recibe feedback<br>desarrolla confianza en el sistema.<br>La confianza genera más participación.<br>Más participación genera mejor<br>inteligencia colectiva.<br>El sistema se fortalece con el uso."]
+  end
+    FASE1 --> FASE2
+    DESC1 --> REG_TITLE
+    DESC2 --> REG_TITLE
+    REG_TITLE --> REG1 & REG2
+    REG1 --> SL_CTA
+    SL_CTA -. Acepta participar .-> REG2
+    REG2 --> ORI
+    ORI --> ORI1 & ORI2 & ORI3 & ORI4
+    ORI1 --> PART1
+    ORI2 --> PART2
+    ORI3 --> PART3
+    ORI4 --> PART4
+    PART1 --> DB
+    PART2 --> DB
+    PART3 --> DB
+    PART4 --> DB
+    DB --> SM
+    CON --> SM
+    SM --> HA
+    HA --> SICQ
+    SICQ --> GOB1 & GOB2
+    GOB1 <--> GOB2
+    GOB1 --> FB
+    GOB2 --> FB
+    FB --> CICLO
+    CICLO -. Regresa a participar .-> REG_TITLE

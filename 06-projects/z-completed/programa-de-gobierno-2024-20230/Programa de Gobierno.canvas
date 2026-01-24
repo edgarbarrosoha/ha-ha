@@ -1,0 +1,30 @@
+{
+	"nodes":[
+		{"id":"def695b2164f101f","type":"text","text":"Presentación","x":-820,"y":-330,"width":280,"height":60},
+		{"id":"30b306322f3cb9de","type":"text","text":"Introducción","x":-820,"y":-240,"width":280,"height":60},
+		{"id":"25ebaf3c3617437b","type":"text","text":"El rol de la IA","x":-820,"y":-140,"width":280,"height":60},
+		{"id":"197c8948a42cd9be","type":"text","text":"Marco institucional de  la planeación IPLANEG","x":-820,"y":-40,"width":280,"height":56},
+		{"id":"7ae3c3310d92f67a","type":"text","text":"Alilneación PND","x":-820,"y":60,"width":280,"height":60},
+		{"id":"24b23d69481813e7","type":"text","text":"Alilneación PED","x":-820,"y":160,"width":280,"height":60},
+		{"id":"67785fcb3c20b972","type":"text","text":"Proceso de elaboración del Programa","x":-520,"y":-330,"width":280,"height":60},
+		{"id":"f539fe5cc601fb96","type":"text","text":"Consulta Social y Resultados","x":-520,"y":-240,"width":280,"height":60},
+		{"id":"673cc78ee48b5d31","type":"text","text":"Las prioridades de Guanajuato","x":-520,"y":-140,"width":280,"height":60},
+		{"id":"610a476b84fd668f","type":"text","text":"Filosofía del Gobierno de la Gente","x":-520,"y":-40,"width":280,"height":60},
+		{"id":"39370a128c5d0e8e","type":"text","text":"Planteamiento estrátegico","x":-520,"y":60,"width":280,"height":60},
+		{"id":"f01a8837549cb2d8","type":"text","text":"Programa de Gobierno","x":-520,"y":-490,"width":280,"height":60},
+		{"id":"d2bb836159ad561b","type":"text","text":"Folleto","x":440,"y":-490,"width":280,"height":60},
+		{"id":"4026be891e707136","type":"text","text":"Indicadores y metas","x":-220,"y":-330,"width":280,"height":60},
+		{"id":"0f21da9f352bb2e5","type":"text","text":"Regionalización","x":-220,"y":-240,"width":280,"height":60},
+		{"id":"ccd4379fa99340fb","type":"text","text":"Monitoreo IPLANEG","x":-220,"y":-140,"width":280,"height":60},
+		{"id":"98c420bcde72aa7c","type":"text","text":"Transversalidad CA","x":440,"y":-390,"width":280,"height":60},
+		{"id":"cce564be87afbfaa","type":"text","text":"Regionalización EB/Rosanna","x":440,"y":-300,"width":280,"height":60},
+		{"id":"efff76df94e91622","type":"text","text":"Ejes tansversales","x":440,"y":-200,"width":280,"height":60},
+		{"id":"539a124c5173f177","type":"text","text":"Diagramas de correlación para cada eje EB/Rosanna","x":440,"y":-110,"width":280,"height":70},
+		{"id":"d7ec496dbe0fdbcd","type":"text","text":"Datos Talleres Nuevo Comienzo","x":440,"y":-10,"width":280,"height":70},
+		{"id":"2a155c7a0b196f01","type":"text","text":"Diagramas de correlación para cada eje EB/Rosanna","x":440,"y":90,"width":280,"height":70},
+		{"id":"f42f6fabbd707cd7","type":"text","text":"Metas","x":-220,"y":-40,"width":280,"height":56},
+		{"id":"521043f8b2a8d86b","type":"text","text":"Análisis de correlación","x":-220,"y":60,"width":280,"height":60},
+		{"id":"d7012209e5cc3c8d","type":"text","text":"Prompt Esperanza","x":-520,"y":160,"width":280,"height":60}
+	],
+	"edges":[]
+}

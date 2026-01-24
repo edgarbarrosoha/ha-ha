@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"d028780e997d7b8d","type":"text","text":"Documento integrado 90 páginas","x":-125,"y":-30,"width":250,"height":60},
+		{"id":"31339244b1e6d410","type":"text","text":"Documento integrado 90 páginas (Periódico oficial)","x":-125,"y":-30,"width":250,"height":90},
+		{"id":"ae117a689f460bd7","type":"text","text":"Diagnóstico situacional de GTO","x":-300,"y":-400,"width":146,"height":100},
+		{"id":"6efff1480fc3a4b5","type":"text","text":"Planteamiento estratégico","x":-510,"y":-400,"width":185,"height":100},
+		{"id":"0a1571c5e5367f66","type":"text","text":"Justificación ejes transversales","x":-125,"y":-400,"width":185,"height":100},
+		{"id":"fc1dc27de34f4fb4","type":"text","text":"Justificación ejes estratégicos","x":80,"y":-400,"width":185,"height":100},
+		{"id":"94d090e80723d5cc","type":"text","text":"Metas e indicadores","x":280,"y":-400,"width":185,"height":100},
+		{"id":"51a60e317605efa1","x":-125,"y":100,"width":250,"height":80,"type":"text","text":"30 Páginas (Edición editorial)"}
+	],
+	"edges":[
+		{"id":"c7ee60ce4ffb437d","fromNode":"6efff1480fc3a4b5","fromSide":"bottom","toNode":"d028780e997d7b8d","toSide":"top"},
+		{"id":"bef04319e088f7d7","fromNode":"31339244b1e6d410","fromSide":"bottom","toNode":"51a60e317605efa1","toSide":"top"},
+		{"id":"1ae37eb4dbdc9245","fromNode":"ae117a689f460bd7","fromSide":"bottom","toNode":"d028780e997d7b8d","toSide":"top"},
+		{"id":"300b79ed0a75da06","fromNode":"0a1571c5e5367f66","fromSide":"bottom","toNode":"d028780e997d7b8d","toSide":"top"},
+		{"id":"9893a696b091e827","fromNode":"fc1dc27de34f4fb4","fromSide":"bottom","toNode":"d028780e997d7b8d","toSide":"top"},
+		{"id":"2ea874271ed09102","fromNode":"94d090e80723d5cc","fromSide":"bottom","toNode":"d028780e997d7b8d","toSide":"top"}
+	]
+}
