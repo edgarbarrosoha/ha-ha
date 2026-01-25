@@ -1,0 +1,43 @@
+- Consulta
+	- Comunicación social (Términos de Referencia (Hay que apurarlo))
+		- Recordar, análisis de datos, 
+		- Los cuestionarios
+			- Cuestionario en línea (redes sociales)
+			- Cuestionario Centros del nuevo comienzo 
+			- Cuestionario de las escuelas (Mónica) - Secundaria, prepa, padres de familia y docentes
+			- Link y QR 
+			- ¿Qué premio va a  tener la gente? Sugerir mecanismo y lista de merch
+		- Que los cuestionarios sean de opciones (contestaron 1100 (muy poquitos))
+		- Nos diera información por subregiones
+			- Qué les preocupa
+			- Orgullos
+			- Qué les da esperanza
+			- El propósito, es que las subregiones 
+		- Chela espera que se entere la banda
+		- Estrategia de reafirma
+		- La propuesta de campaña
+		- Documento de campaña: escuelas de tiempo completo. (Costo)
+			- Lo de las guarderías y escuelas de tiempo completo
+			- Cuestionarios diferenciados a los de educación: Alumnos y padres de familia. 
+			- Padres de familia diferenciados.
+		- La encuesta en línea busca tener una penetración mayor en el estado
+		- Preguntas y opciones: 7 preguntas 
+		- Población abierta: 8 preguntas
+			- Me gané algo - Incentivo  -> 
+			- Resolver cómo llegar a las mujeres más vulnerables
+	- ### Hablando de los 6 talleres presenciales
+		- Hay representantes más técnicos 
+		- TRANQUILIDAD - CONFÍA: Validación. Cabildear con Jorge - Seguridad
+		- IGUALDAD - Reforzando y no entrar al detalle 
+	- Campos de base de datos
+		- Socios demográficos
+		- Municipio 
+		- Edad
+		- Grupo
+		- Aviso de privacidad
+
+
+- Economía 
+- Campo
+- Nuevo Comienzo
+- Secretaría de Gobierno
