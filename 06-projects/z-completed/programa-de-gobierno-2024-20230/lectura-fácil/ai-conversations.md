@@ -1,5 +1,0 @@
-CONTEXTO: 
-- HA fue el equipo que hizo el programa de gobierno 2024-2030 del gobierno de Guanajuato. Ese documento ya lo terminamos (está en tu base de  conocimiento). 
-- Sin embargo, como parte de nuestros entregables, tenemos que elaborar una versión con la normativa y criterios de "Lectura Fácil", de los cuáles tienes información en tu base de conocimiento. A esta versión llamaremos "PG_Lectura_Fácil".  
-- Primero necesitamos elaborar "las reglas del juego", es decir los criterios para seleccionar las partes del programa de gobierno que serán parte de la versión más corta y sintetizada de la versión PG_Lectura_Fácil. 
-- TASK: Elabora las reglas del juego, es decir los criterios para la selección de las partes que llevará la versión PG_Lectura_Fácil, con base en todo tu conocimiento en tu base de conocimiento y entrenamiento. 
