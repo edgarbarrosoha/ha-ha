@@ -13,3 +13,6 @@
 
 # OS / temp
 Thumbs.db
+
+# Large PDFs (keep outside git)
+*.pdf
