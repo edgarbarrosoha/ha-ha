@@ -1,9 +1,0 @@
-# Obsidian (local UI state)
-.obsidian/workspace*
-.obsidian/cache/
-.obsidian/graph.json
-.obsidian/backlink.json
-.obsidian/plugins/**/data.json
-
-# OS noise
-.DS_Store
