@@ -4,8 +4,8 @@ type: clock
 # Today
 ```schedule
 [Start]: 27/12/25 - 09:30 AM
-[Invalid date]: [ ]
-[Finish]: Invalid date
+[9:30 AM]: [ ]
+[Finish]: 27/12/25 - 09:30 AM
 ```
 # This Week (Meetings)
 - [ ] **Lun** → [] check-in-semanal → [] 
