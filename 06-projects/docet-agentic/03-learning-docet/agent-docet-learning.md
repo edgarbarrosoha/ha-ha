@@ -159,6 +159,4 @@ Detectas brecha → Propones micro-aprendizaje → Usuario aprende → Brecha ce
 ---
 
 ## Connections
-
-- [[03-learning-docet|Learning DOCET]] — Dimensión padre
-- [[ha-root-docet|HA Root DOCET]] — Nodo raíz del proyecto
+- [[03-learning-docet]]

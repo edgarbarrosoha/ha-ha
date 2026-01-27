@@ -24,6 +24,4 @@ Technology Policy | Artificial Intelligence | Emerging Technologies | Public Inn
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[META]]
+- [[02-community]]

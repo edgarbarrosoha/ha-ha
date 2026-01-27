@@ -181,5 +181,4 @@ Horizons Architecture (HA) es un framework de pensamiento sistémico que integra
 
 
 ## Connections
-- [[HA ROOT]]
 - [[HA PROJECTS]]

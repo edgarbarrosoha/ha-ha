@@ -419,5 +419,4 @@ Construir el MVP técnico:
 
 
 ## Connections
-- [[HA ROOT]]
-- [[HA PROJECTS]]
+- [[ha-root-product]]

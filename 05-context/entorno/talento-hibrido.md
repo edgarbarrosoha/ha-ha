@@ -123,3 +123,6 @@ HA necesita personas que operen en la intersección humano-IA. Este talento es e
 ---
 
 *Fuentes: Glassdoor, LinkedIn, experiencia directa*
+
+## Connections
+- [[05-context]]

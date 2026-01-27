@@ -159,3 +159,6 @@ www.bbvanetcash.mx
 https://www.bbvanetcash.mx/SMXBDNT85/mexiconetpibee_v7/servlet/OperacionCBTFServlet?proceso=firmas_pibee_pr&operacion=firmas_pibee_op…
 
 1/1
+
+## Connections
+- [[05-context-docet]]

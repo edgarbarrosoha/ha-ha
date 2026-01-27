@@ -59,10 +59,7 @@ For HA-HA: Know the market, competition, and landscape to position for unicorn s
 5. **AI regulation** evolution
 
 ## Connections
-
-- **Receives from:** @root (what's happening questions), @legacy (strategic context)
-- **Sends to:** @legacy (constraints), @projects (external dependencies)
-- **Queries:** external sources, @community (stakeholder intelligence)
+- [[02-community]]
 
 ## Subagents
 
@@ -83,7 +80,4 @@ For HA-HA: Know the market, competition, and landscape to position for unicorn s
 *Context is not background. It's the stage. Know the stage to own the performance.*
 
 ## Connections
-
-- [[02-community]] — Dimension index
-- [[HA COMMUNITY]] — Community dimension
-- [[HA ROOT]] — Central hub of Horizons Architecture
+- [[02-community]]

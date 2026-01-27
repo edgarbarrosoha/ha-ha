@@ -355,4 +355,3 @@ Use or adapt this approach to match your own complex endeavors, organizational c
 o1-pro
 ## Connections
 - [[04-technology-ha-core]]
-- [[ha-root-ha-core]]

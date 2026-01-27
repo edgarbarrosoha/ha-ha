@@ -534,3 +534,6 @@ actividades entregadas posteriores a la ausencia, serán evaluadas sobre
 **3;** en el caso de las **faltas justificadas presentando la evidencia
 del justificante,** la calificación será evaluada sobre 5. Si no se
 entrega la actividad, la calificación es 0.]{.mark}
+
+## Connections
+- [[05-context-docet]]

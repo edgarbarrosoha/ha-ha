@@ -374,3 +374,6 @@ folders:
 |                                    | - [Conoce e identifica diferentes partes del cuerpo y |
 |                                    |   entiende sus funciones básicas.]{.mark}             |
 +====================================+=======================================================+
+
+## Connections
+- [[05-context-docet]]

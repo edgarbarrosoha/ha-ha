@@ -290,4 +290,3 @@ El equipo integra desarrollo de IA con metodologías de investigación, lo que p
 
 ## Connections
 - [[05-context-sic-q]]
-- [[ha-root-sic-q]]

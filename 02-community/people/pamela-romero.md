@@ -22,6 +22,4 @@ Omnichannel Strategy | Category Management | Floorplanning | Assortment Optimiza
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[TEC DE MONTERREY]]
+- [[02-community]]

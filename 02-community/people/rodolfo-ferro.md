@@ -27,6 +27,4 @@ AI & Machine Learning | Blockchain Development | Python Programming | Data Scien
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[HA External Providers]]
+- [[02-community]]

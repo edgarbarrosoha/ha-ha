@@ -140,3 +140,6 @@ Reflexión sobre el bimestre
 Comentarios a compartir con los padres
 Acuerdos y plan de acción para mejorar la experiencia de aprendizaje del alumno
 
+
+## Connections
+- [[05-context-docet]]

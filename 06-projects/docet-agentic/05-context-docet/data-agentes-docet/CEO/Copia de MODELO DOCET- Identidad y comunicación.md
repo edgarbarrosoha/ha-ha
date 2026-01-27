@@ -805,3 +805,6 @@ Reverse Engineering: Perfil del Padre de Familia
 En nuestra institución, consideramos a los padres de familia como socios estratégicos y corresponsables en la educación integral de sus hijos. Los padres son agentes activos en la formación de la comunidad, cuyo compromiso y participación son pilares fundamentales para el éxito educativo.
 
 https://docs.google.com/spreadsheets/d/1XcmdajhX-TbzggYgJoEak5GD2JHiwcL5WmTstnr7_gg/edit?gi
+
+## Connections
+- [[05-context-docet]]

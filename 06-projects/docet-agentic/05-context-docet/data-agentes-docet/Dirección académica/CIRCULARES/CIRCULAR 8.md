@@ -171,3 +171,6 @@ Infantil y Juvenil.
 Se adjunta programa en el siguiente enlace
 
 ### ***"El objetivo de la educación es la virtud y el deseo de convertirse en un buen ciudadano." (Platón)***
+
+## Connections
+- [[05-context-docet]]

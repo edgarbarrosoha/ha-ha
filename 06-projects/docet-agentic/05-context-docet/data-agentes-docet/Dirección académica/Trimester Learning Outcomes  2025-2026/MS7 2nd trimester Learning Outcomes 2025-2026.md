@@ -382,3 +382,6 @@ folders:
 |                                    |   art and culture, recognizing their importance in    |
 |                                    |   society.                                            |
 +====================================+=======================================================+
+
+## Connections
+- [[05-context-docet]]

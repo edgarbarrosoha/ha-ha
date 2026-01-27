@@ -60,4 +60,3 @@ Se define una táctica de "revelación" para maximizar el impacto ante el gobern
 
 ## Connections
 - [[06-projects-sic-q]]
-- [[ha-root-sic-q]]

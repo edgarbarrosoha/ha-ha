@@ -466,3 +466,6 @@ II\. LEARNING OUTCOMES
 |                                    |                                                                     |
 |                                    | ### Uses art as a medium for self-expression.                       |
 +====================================+=====================================================================+
+
+## Connections
+- [[05-context-docet]]

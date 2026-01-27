@@ -51,5 +51,4 @@ updated: 2025-12-25
 
 
 ## Connections
-- [[HA ROOT]]
 - [[HA PROJECTS]]

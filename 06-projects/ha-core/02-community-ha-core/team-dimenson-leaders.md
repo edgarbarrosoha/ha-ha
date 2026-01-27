@@ -6,4 +6,3 @@ Contexto - Oscar & Edgar
 Proyectos - Javi 
 ## Connections
 - [[02-community-ha-core]]
-- [[ha-root-ha-core]]

@@ -354,4 +354,3 @@ Los criterios aquí establecidos se informan de las siguientes prácticas intern
 
 ## Connections
 - [[06-projects-sic-q]]
-- [[ha-root-sic-q]]

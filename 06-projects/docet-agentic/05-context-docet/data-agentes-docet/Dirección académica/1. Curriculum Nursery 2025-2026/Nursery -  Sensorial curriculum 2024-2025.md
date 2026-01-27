@@ -130,3 +130,6 @@ I.  **INTRODUCCIÓN**
 |             | Profundiza en la identificación de objetos, sonidos y     |
 |             | texturas a través de la experiencia sensorial.            |
 +=============+===========================================================+
+
+## Connections
+- [[05-context-docet]]

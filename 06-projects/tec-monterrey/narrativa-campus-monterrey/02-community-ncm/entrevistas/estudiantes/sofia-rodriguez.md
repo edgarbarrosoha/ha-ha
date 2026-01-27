@@ -207,4 +207,3 @@ No, de verdad, es un gusto, muchas gracias a todo el equipo por darme aquí el e
 
 ## Connections
 - [[02-community-ncm]]
-- [[ha-root-ncm]]

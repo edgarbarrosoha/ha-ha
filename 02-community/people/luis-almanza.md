@@ -26,8 +26,4 @@ Startup Acceleration | Venture Capital | Innovation Ecosystems | Lean Startup | 
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[HA External Providers]]
-- [[Rocío Ramírez]]
-- [[Ulrick Noel]]
+- [[02-community]]

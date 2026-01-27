@@ -378,4 +378,3 @@ Once a week, ask:
 
 ## Connections
 - [[03-learning-ncm]]
-- [[ha-root-ncm]]

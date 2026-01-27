@@ -14,7 +14,4 @@
 	- [ ] Hacer empresa suiza
 
 ## Connections
-
-- [[01-legacy]] — Dimension index
-- [[HA LEGACY]] — Legacy dimension
-- [[HA ROOT]] — Central hub of Horizons Architecture
+- [[01-legacy]]

@@ -180,6 +180,4 @@ A través del Nexus puedes:
 ---
 
 ## Connections
-
-- [[06-projects-docet|Projects DOCET]] — Dimensión padre
-- [[ha-root-docet|HA Root DOCET]] — Nodo raíz del proyecto
+- [[06-projects-docet]]

@@ -133,4 +133,3 @@ Refinamiento de Teoría
 
 ## Connections
 - [[03-learning-ha-core]]
-- [[ha-root-ha-core]]

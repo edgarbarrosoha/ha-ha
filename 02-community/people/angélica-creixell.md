@@ -23,6 +23,4 @@ Strategic Planning | Institutional Communications | Higher Education Leadership 
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[TEC DE MONTERREY]]
+- [[02-community]]

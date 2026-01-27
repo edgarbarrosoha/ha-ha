@@ -25,3 +25,6 @@ DO NOT EDIT! -->
     <DT><A HREF="https://drive.google.com/open?id=13HG2EVdRTDxqmJdkdLzwFG3nIq7bKcQ4" ADD_DATE="1755132143">BIENVENIDA A PADRES</A>
   </DL><p>
 </DL><p>
+
+## Connections
+- [[05-context-docet]]

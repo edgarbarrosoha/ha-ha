@@ -9,6 +9,4 @@ kumu_id: "PER-DANIEL-0017"
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[Bimbo]]
+- [[02-community]]

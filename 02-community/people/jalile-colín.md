@@ -20,6 +20,4 @@ Project Management | Technological Innovation
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[Bimbo]]
+- [[02-community]]

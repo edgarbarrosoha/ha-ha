@@ -266,3 +266,6 @@ I.  **INTRODUCCIÓN**
 |             | Describe y explica características comunes de seres vivos |
 |             | y elementos que observa.                                  |
 +=============+===========================================================+
+
+## Connections
+- [[05-context-docet]]

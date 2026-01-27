@@ -268,4 +268,3 @@ Cada vez que se ejecute este prompt, añade una entrada aquí:
 
 ## Connections
 - [[04-technology-ncm]]
-- [[ha-root-ncm]]

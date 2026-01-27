@@ -95,3 +95,6 @@ Con qué cuento para iniciar.
 ## Slide 7
 
                       ¡Feliz inicio de semestre!
+
+## Connections
+- [[05-context-docet]]

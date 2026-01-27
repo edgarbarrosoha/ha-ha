@@ -65,3 +65,6 @@ De igual manera se inicia el After School en esta fecha.
 *["Art does not reproduce what we see. It makes us see."]{.mark}*
 
 *[― **Paul Klee**]{.mark}*
+
+## Connections
+- [[05-context-docet]]

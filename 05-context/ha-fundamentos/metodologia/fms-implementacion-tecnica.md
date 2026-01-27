@@ -35,3 +35,6 @@ Para crear un nivel de zoom más profundo dentro de un proyecto existente:
 3. Añade `context.md` y `dashboard.md` específicos del Módulo X.
 4. Ejecuta `ha-project-start` desde esa carpeta.
 El script detectará automáticamente la memoria local y cargará ese contexto específico.
+
+## Connections
+- [[05-context]]

@@ -160,3 +160,6 @@ los estudiantes adquieren la herramienta matemática necesaria para comprenderlo
 bitácoras, portafolios, presentaciones y autoevaluación, no solo en el resultado numérico.
 4. Desarrollo Socioemocional: Se enfatiza la ética (comercio justo), la colaboración, la responsabilidad
 social (donación) y la construcción de una autoestima financiera positiva y resiliente.
+
+## Connections
+- [[05-context-docet]]

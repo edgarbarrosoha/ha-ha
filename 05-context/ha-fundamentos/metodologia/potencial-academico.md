@@ -191,3 +191,6 @@ In closing, **Horizons Architecture’s dual development paths are mutually rein
     
 15. UNDP and Nesta’s _Collective Intelligence for Climate_ report (2021) analyzed 115 case studies and found that most initiatives focus on climate **adaptation** and involve methods like crowdsourcing data or local community knowledge ([Collective Intelligence for Climate Action](https://www.undp.org/acceleratorlabs/untapped/collective-intelligence-climate-action#:~:text=Our%20analysis%20of%20collective%20intelligence,climate%20adaptation%20versus%20climate%20mitigation)) ([UNTAPPED: Collective Intelligence for Climate Action - ReliefWeb](https://reliefweb.int/report/world/untapped-collective-intelligence-climate-action#:~:text=UNDP%20Accelerator%20Labs%20and%20Nesta%27s,climate%20initiatives%20across%2045%20countries)). It highlighted an opportunity to better connect these grassroots intelligence efforts with broader systems. HA could serve as that connecting framework, and the existence of such a study shows the groundwork of interest in collective intelligence approaches for global challenges.
 
+
+## Connections
+- [[05-context]]

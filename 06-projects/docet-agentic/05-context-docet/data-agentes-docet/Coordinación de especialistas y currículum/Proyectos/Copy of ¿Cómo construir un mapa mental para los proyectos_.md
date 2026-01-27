@@ -166,3 +166,6 @@ Ejemplo mapa mental y áreas del currículum:
 
 ![](media/image2.png){width="6.229166666666667in"
 height="8.623502843394576in"}
+
+## Connections
+- [[05-context-docet]]

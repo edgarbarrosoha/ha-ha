@@ -652,3 +652,6 @@ Meta: estimar capital de trabajo y CCC para un kiosco escolar.
 Pasos: inventario inicial y rotación (20′) → cuentas por cobrar/pagar (20′) → cálculo de días
 inventario/por cobrar/por pagar (20′) → CCC y acciones de mejora (20′) → riesgos (10′).
 Evidencia: tabla con cálculos, plan de mejora y riesgos.
+
+## Connections
+- [[05-context-docet]]

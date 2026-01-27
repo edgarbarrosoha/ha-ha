@@ -66,3 +66,6 @@ Horizons Architecture is not just a productivity system; it is a **governance mo
 By treating AI agents not as tools, but as **members of a confederated community**, HA solves the alignment problem structurally. The AI cannot "take over" because it is compartmented by design, yet it can "achieve big things" because it is coordinated by protocol.
 
 **HA is the infrastructure for a coherent, scalable, and human-aligned digital society of mind.**
+
+## Connections
+- [[05-context]]

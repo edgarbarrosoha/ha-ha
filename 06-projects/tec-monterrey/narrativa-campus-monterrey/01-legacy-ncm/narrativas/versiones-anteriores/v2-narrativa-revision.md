@@ -208,4 +208,3 @@ Porque responden a la pregunta de transformación. Son las que rompen los silos 
 
 ## Connections
 - [[01-legacy-ncm]]
-- [[ha-root-ncm]]

@@ -305,3 +305,6 @@ c)  También puede indicar baja tolerancia a la frustración si dejó ítems
 - **Conclusiones Generales:**
 
 **Elaborado por:** Valeria Guerrero
+
+## Connections
+- [[05-context-docet]]

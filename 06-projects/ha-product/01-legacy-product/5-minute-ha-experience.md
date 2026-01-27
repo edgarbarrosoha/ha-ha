@@ -322,4 +322,3 @@ Start with: "What's on your mind today?"
 
 ## Connections
 - [[01-legacy-product]]
-- [[ha-root-product]]

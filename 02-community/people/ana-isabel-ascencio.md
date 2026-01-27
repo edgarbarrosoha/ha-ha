@@ -23,4 +23,4 @@ kumu_id: "PER-ANAISA-0114"
 Machine Learning | Statistical Analysis | Data Visualization | NLP | Predictive Modeling | Analytics Strategy | Public Sector Data Analysis
 
 ## Connections
-- [[HA COMMUNITY]]
+- [[02-community]]

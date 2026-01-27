@@ -44,4 +44,3 @@ Principales puntos de David Garza
 
 ## Connections
 - [[01-legacy-ncm]]
-- [[ha-root-ncm]]

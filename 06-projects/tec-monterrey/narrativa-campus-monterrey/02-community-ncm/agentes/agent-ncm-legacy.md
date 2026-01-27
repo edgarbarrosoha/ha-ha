@@ -57,4 +57,3 @@ Cuando consultas la narrativa:
 
 ## Connections
 - [[02-community-ncm]]
-- [[ha-root-ncm]]

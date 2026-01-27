@@ -194,4 +194,3 @@ In closing, **Horizons Architecture’s dual development paths are mutually rein
 
 ## Connections
 - [[03-learning-ha-core]]
-- [[ha-root-ha-core]]

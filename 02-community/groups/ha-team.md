@@ -14,12 +14,4 @@ kumu_id: "GRP-HATEAM-0001"
 
 
 ## Connections
-- [[HA ROOT]]
-
-- [[Edgar Barroso]]
-- [[HA COMMUNITY]]
-- [[HA Team Europe]]
-- [[Javier Ocampo]]
-- [[Oscar Díaz]]
-- [[Sarahí Orduño]]
-- [[Sarahí Orduño ]]
+- [[02-community]]

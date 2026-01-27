@@ -26,6 +26,4 @@ Leadership in Science
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[HA Leads]]
+- [[02-community]]

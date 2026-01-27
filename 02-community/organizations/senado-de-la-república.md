@@ -24,7 +24,4 @@ Legislation | Federal representation | Checks and balances | Foreign policy | Ap
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[ Kikis Magaña]]
-- [[HA Leads]]
+- [[02-community]]

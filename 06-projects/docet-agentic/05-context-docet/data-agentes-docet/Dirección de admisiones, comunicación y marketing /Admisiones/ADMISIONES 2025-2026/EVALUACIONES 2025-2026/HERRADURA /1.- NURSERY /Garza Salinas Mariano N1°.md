@@ -369,3 +369,6 @@ motricidad fina, como pintar, insertar y manipular piezas de
 rompecabezas. Esto indica una buena coordinación ojo-mano y precisión.
 Es un niño muy independiente en sus rutinas personales, lo cual es una
 fortaleza para el entorno escolar.
+
+## Connections
+- [[05-context-docet]]

@@ -217,3 +217,6 @@ que les pudieran interesar a nuestros alumnos y a ustedes papás.**
 pero la verdad es que ... está aprendiendo a aprender"
 
 Jean Ayres
+
+## Connections
+- [[05-context-docet]]

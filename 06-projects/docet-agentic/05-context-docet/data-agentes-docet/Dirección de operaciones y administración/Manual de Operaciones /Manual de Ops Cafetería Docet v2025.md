@@ -619,3 +619,6 @@ En caso de detección se reporta a Dirección para enterarlo.
     proteger los alimentos más sensibles (lácteos, carnes, etc.)
 
 ![](media/image1.png){width="6.645833333333333in" height="5.1875in"}
+
+## Connections
+- [[05-context-docet]]

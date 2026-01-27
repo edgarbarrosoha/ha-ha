@@ -83,4 +83,3 @@ Here are the additional mandatory points to include in the narrative, derived sp
 
 ## Connections
 - [[06-projects-ncm]]
-- [[ha-root-ncm]]

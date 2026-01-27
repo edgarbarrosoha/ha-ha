@@ -245,3 +245,6 @@ alternativas "atreverse", "curiosidad indagadora", "audacia".
 Mi recomendación: aceptar "travieso" con límites claros, calificado y
 testeado. Así conservan el guiño lúdico que busca el CEO, sin
 comprometer claridad, inclusión ni rigor ante familias y profesorado.
+
+## Connections
+- [[05-context-docet]]

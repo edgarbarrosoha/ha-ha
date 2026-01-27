@@ -200,4 +200,3 @@ Gracias a ustedes.
 
 ## Connections
 - [[02-community-ncm]]
-- [[ha-root-ncm]]

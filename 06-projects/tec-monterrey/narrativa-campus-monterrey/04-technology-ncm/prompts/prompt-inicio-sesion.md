@@ -38,4 +38,3 @@ Copiar y pegar el prompt anterior al iniciar una nueva sesión de Claude Code.
 
 ## Connections
 - [[04-technology-ncm]]
-- [[ha-root-ncm]]

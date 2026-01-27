@@ -28,6 +28,4 @@ Software Development | Agile Methodologies | Scrum | Team Leadership | Object-Or
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[HA Dev Team]]
+- [[02-community]]

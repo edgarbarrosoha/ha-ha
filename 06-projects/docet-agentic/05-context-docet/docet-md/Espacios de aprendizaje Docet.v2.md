@@ -826,3 +826,6 @@ escuela donde cada espacio refleja y refuerza nuestra visión:
 transformar la educación para que los alumnos descubran, creen y
 compartan soluciones con propósito, conscientes de su entorno y del
 impacto que pueden generar en el mundo.
+
+## Connections
+- [[05-context-docet]]

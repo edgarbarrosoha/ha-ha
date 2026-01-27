@@ -30,6 +30,4 @@ Civic Engagement & Innovation
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[HA External Providers]]
+- [[02-community]]

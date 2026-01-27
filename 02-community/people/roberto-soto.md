@@ -9,6 +9,4 @@ kumu_id: "PER-ROBERT-0236"
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[Tec de Monterrey]]
+- [[02-community]]

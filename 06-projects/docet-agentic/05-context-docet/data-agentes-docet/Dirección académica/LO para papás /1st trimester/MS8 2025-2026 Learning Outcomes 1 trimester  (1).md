@@ -231,3 +231,6 @@ Cinematography:
 narrative.
 ●​ Directs and edits a short film, demonstrating expertise in pacing, timing, and visual flow.
 ●​ Collaborates with cast and crew, demonstrating effective communication.
+
+## Connections
+- [[05-context-docet]]

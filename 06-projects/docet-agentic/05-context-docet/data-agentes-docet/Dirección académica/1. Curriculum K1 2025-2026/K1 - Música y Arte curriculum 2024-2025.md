@@ -206,3 +206,6 @@ IV\. DOSIFICACIÓN ANUAL
 |           |   Develops a sense of responsibility and respect for      |
 |           |   their tools and materials.                              |
 +===========+===========================================================+
+
+## Connections
+- [[05-context-docet]]

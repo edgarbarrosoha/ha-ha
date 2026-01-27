@@ -125,3 +125,6 @@ Referencias:
 Correa, O. & Estrella, C. (2011). Enfoque Reggio Emilia. Recuperado el 15 de
 Julio de 2016 de
 http://dspace.ucuenca.edu.ec/bitstream/123456789/2237/1/tps740.pdf
+
+## Connections
+- [[05-context-docet]]

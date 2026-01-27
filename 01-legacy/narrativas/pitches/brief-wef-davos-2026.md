@@ -70,7 +70,4 @@ We have a spinoff at Tec de Monterrey called Horizons Architecture. They're buil
 - [https://www.upu.int/UPU/media/upu/publications/Union Postale/2025/2025unionPostaleAutumnFinal_EN.pdf](https://www.upu.int/UPU/media/upu/publications/Union%20Postale/2025/2025unionPostaleAutumnFinal_EN.pdf)
 
 ## Connections
-
-- [[01-legacy]] — Dimension index
-- [[HA LEGACY]] — Legacy dimension
-- [[HA ROOT]] — Central hub of Horizons Architecture
+- [[01-legacy]]

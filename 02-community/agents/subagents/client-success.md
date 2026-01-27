@@ -78,3 +78,6 @@ The best sales come from happy clients:
 ---
 
 *A client's success is our success. Their growth is our growth.*
+
+## Connections
+- [[02-community]]

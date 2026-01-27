@@ -13,6 +13,4 @@ HA Dev Team
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[HA Dev Team]]
+- [[02-community]]

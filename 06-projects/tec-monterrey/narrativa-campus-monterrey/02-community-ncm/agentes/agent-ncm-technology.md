@@ -53,4 +53,3 @@ Sistema de consejo agéntico para narrativas:
 
 ## Connections
 - [[02-community-ncm]]
-- [[ha-root-ncm]]

@@ -208,4 +208,3 @@ En conjunto, estos casos muestran que la **IA puede enriquecer la participación
 
 ## Connections
 - [[06-projects-sic-q]]
-- [[ha-root-sic-q]]

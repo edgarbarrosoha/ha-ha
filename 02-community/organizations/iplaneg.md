@@ -28,7 +28,4 @@ State Planning
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[Graciela Amaro]]
-- [[HA Projects]]
+- [[02-community]]

@@ -12,6 +12,4 @@ FEMSA
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[FEMSA]]
+- [[02-community]]

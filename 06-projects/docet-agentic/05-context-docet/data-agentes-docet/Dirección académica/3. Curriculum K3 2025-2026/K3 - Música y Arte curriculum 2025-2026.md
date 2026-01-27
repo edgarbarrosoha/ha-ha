@@ -203,3 +203,6 @@ IV\. DOSIFICACIÓN ANUAL
 |           |                                                           |
 |           | Artist: Frida Khalo                                       |
 +===========+===========================================================+
+
+## Connections
+- [[05-context-docet]]

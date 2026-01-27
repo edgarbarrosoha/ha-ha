@@ -954,3 +954,6 @@
                          food labels and debunking nutrition myths, making them
                          informed consumers.]{.mark}
   -------------------------------------------------------------------------------------
+
+## Connections
+- [[05-context-docet]]

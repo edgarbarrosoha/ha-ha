@@ -1875,3 +1875,6 @@ rollo
 referencia https://www.homedepot.com.mx/p/pro-stronger-cordon-de-henequen-torcido-cafe-6858-m-bt50-780107
 parisina
 
+
+## Connections
+- [[05-context-docet]]

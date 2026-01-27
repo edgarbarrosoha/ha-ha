@@ -251,3 +251,6 @@ So let me be very clear and aligned with you:
 - This actually **strengthens** your ecosystem-unicorn thesis.
     
 - It also justifies why the book is foundational: it defines the system before the interfaces harden.
+
+## Connections
+- [[05-context]]

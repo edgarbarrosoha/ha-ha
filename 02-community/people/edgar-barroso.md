@@ -27,7 +27,4 @@ Artificial Intelligence|· Generative AI | Hybrid Intelligence | Innovation Stra
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[HA Founding Team]]
-- [[HA Team]]
+- [[02-community]]

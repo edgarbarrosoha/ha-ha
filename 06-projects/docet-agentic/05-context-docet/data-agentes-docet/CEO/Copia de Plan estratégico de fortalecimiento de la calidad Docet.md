@@ -238,3 +238,6 @@ Los equipos traducen los acuerdos a la práctica diaria bajo supervisión.
 
 - **10.3. Consolidación de la eficiencia:** Guías que definen los
   tiempos de solución para el soporte técnico.
+
+## Connections
+- [[05-context-docet]]

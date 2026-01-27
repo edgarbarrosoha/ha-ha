@@ -20,21 +20,4 @@ HA identifies key agents and institutions, fostering collaborative networks alig
 → [[HA COMMUNITY|Ver directorio completo A-Z]]
 
 ## Connections
-
-- [[AMAZON EU]]
-- [[HA Accounting]]
-- [[HA Banking]]
-- [[HA Dev Team]]
-- [[HA External Dev]]
-- [[HA External Providers]]
-- [[HA Founding Team]]
-- [[HA Leads]]
-- [[HA Legal Team]]
-- [[HA Partners]]
-- [[HA ROOT]]
-- [[HA Research]]
-- [[HA Team]]
-- [[HA Team Europe]]
-- [[TALISIS]]
-- [[UPU]]
-- [[WELLCOME]]
+- [[02-community]]

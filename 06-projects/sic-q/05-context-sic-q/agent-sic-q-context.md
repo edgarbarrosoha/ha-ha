@@ -163,4 +163,3 @@ Cuando respondas:
 
 ## Connections
 - [[05-context-sic-q]]
-- [[ha-root-sic-q]]

@@ -23,7 +23,4 @@ Innovation Programs | Social Entrepreneurship|· Human-Centered Design | Frugal 
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[HA External Providers]]
-- [[HA Team Europe]]
+- [[02-community]]

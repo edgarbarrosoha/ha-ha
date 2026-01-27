@@ -110,4 +110,4 @@ Edgar te contactará para platicarte el resumencon los puntos clave y posibles l
 Que todo vaya de maravilla.
 
 ## Connections
-- [[HA PROJECTS]] 
+- [[HA PROJECTS]]

@@ -829,4 +829,3 @@ Validar la solidez metodológica de los análisis del Instituto, asesorar sobre 
 
 ## Connections
 - [[06-projects-sic-q]]
-- [[ha-root-sic-q]]

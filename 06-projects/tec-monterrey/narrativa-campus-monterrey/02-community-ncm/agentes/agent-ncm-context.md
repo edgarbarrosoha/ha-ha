@@ -46,4 +46,3 @@ Eres el agente de Context para la Narrativa Campus Monterrey. Tu rol es asegurar
 
 ## Connections
 - [[02-community-ncm]]
-- [[ha-root-ncm]]

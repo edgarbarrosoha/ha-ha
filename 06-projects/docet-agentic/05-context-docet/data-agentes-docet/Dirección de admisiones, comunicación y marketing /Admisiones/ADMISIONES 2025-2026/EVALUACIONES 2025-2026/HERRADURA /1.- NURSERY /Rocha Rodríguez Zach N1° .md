@@ -328,3 +328,6 @@ naturaleza de explorador se lo dictaba, fue muy bueno ver este punto, ya
 que me pude dar cuenta que es un niño muy perseverante y audaz,
 ciertamente su lenguaje no es muy rico, pero su proceso está muy
 estimulado.
+
+## Connections
+- [[05-context-docet]]

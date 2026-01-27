@@ -429,4 +429,3 @@ Juntos, son **el legado de Querétaro para las siguientes décadas**.
 
 ## Connections
 - [[06-projects-sic-q]]
-- [[ha-root-sic-q]]

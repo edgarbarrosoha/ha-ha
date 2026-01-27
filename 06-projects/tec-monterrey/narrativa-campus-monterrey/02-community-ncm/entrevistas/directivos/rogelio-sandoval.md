@@ -358,4 +358,3 @@ Me queda claro, Rogelio, que imaginan una comunidad donde las fronteras entre es
 
 ## Connections
 - [[02-community-ncm]]
-- [[ha-root-ncm]]

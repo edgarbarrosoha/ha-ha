@@ -9,6 +9,4 @@ kumu_id: "PER-ANDRES-0097"
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[HA External Providers]]
+- [[02-community]]

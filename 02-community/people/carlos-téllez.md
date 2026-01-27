@@ -24,4 +24,4 @@ kumu_id: "PER-CARLOS-0012"
 Intellectual Property Strategy | Technology Transfer | Research & Development | Teaching | Higher Education
 
 ## Connections
-- [[HA COMMUNITY]]
+- [[02-community]]

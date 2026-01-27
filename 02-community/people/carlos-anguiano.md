@@ -11,6 +11,4 @@ Investigador
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[HA Team Europe]]
+- [[02-community]]

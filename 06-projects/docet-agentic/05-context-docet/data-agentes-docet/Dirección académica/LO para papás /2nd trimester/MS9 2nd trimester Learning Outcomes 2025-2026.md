@@ -211,3 +211,6 @@ Memory book:
 ●​ Creates a color palette for the memory book.
 ●​ Designs and creates the pages using the previously learnt material (this includes making the space for
 the pictures).
+
+## Connections
+- [[05-context-docet]]

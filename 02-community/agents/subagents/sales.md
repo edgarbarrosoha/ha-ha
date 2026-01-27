@@ -76,3 +76,6 @@ Revenue model:
 ---
 
 *Every deal is a relationship. Every relationship serves the Legacy.*
+
+## Connections
+- [[02-community]]

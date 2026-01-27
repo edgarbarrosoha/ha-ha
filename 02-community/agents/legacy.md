@@ -58,11 +58,7 @@ For any opportunity or project, ask:
 - Pricing strategy evolution
 
 ## Connections
-
-- **Receives from:** @root (strategic questions)
-- **Sends to:** @projects (priorities), all dimensions (alignment criteria)
-- **Queries:** @context (market), @community (stakeholder values)
-- **Reports to:** HA-EB @legacy (roll-up)
+- [[02-community]]
 
 ## Subagents
 
@@ -73,7 +69,4 @@ None directly. @strategist at HA-EB handles high-level financial strategy.
 *Legacy is not what we do. It's what remains. The unicorn is the legacy.*
 
 ## Connections
-
-- [[02-community]] — Dimension index
-- [[HA COMMUNITY]] — Community dimension
-- [[HA ROOT]] — Central hub of Horizons Architecture
+- [[02-community]]

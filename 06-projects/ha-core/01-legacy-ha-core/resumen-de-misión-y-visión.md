@@ -23,4 +23,3 @@
 
 ## Connections
 - [[01-legacy-ha-core]]
-- [[ha-root-ha-core]]

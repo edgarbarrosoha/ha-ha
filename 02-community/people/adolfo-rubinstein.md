@@ -22,6 +22,4 @@ Public Health | Epidemiology | Policy Implementation | Clinical Research | Impac
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[WELLCOME]]
+- [[02-community]]

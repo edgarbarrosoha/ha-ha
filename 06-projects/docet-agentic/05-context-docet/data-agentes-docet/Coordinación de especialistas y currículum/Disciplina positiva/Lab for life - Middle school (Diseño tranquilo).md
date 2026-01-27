@@ -199,3 +199,6 @@ FALTA DE RESPONSABILIDAD=PÉRDIDA DEL PRIVILEGIO"
 -Las psicólogas de nivel entrarán en las sesiones de Lab para la Vida. Las coordinadoras de nivel cada semana entrará a un salón en lugar de la psicóloga.
 
 -En mutuo acuerdo entre maestra y psicóloga/coordinación, se determinará quien dirige la actividad y quien apoya de manera activa en la dinámica.
+
+## Connections
+- [[05-context-docet]]

@@ -176,7 +176,4 @@ zen-app/
 ---
 
 ## Connections
-
-- [[large-prompts-per-ha-agent|Large Prompts per Agent]]
-- [[haizing-prompt|Full HAizing Prompt]]
-- [[ha-root-ha-core|HA-Core Root]]
+- [[04-technology-ha-core]]

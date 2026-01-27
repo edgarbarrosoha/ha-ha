@@ -124,3 +124,6 @@ Abril 2026
 - Pintura de canchas de Basketball
 
 - Limpieza a profundidad de toldos (cada 3 meses)
+
+## Connections
+- [[05-context-docet]]

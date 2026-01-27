@@ -78,4 +78,3 @@ In short, it is a self-similar data & process architecture that:
 This synergy—the robust, fractal-based, time-aware, dimension-driven system plus adaptive, collaborative AI—is what differentiates HA as truly unique.
 ## Connections
 - [[05-context-ha-core]]
-- [[ha-root-ha-core]]

@@ -45,5 +45,4 @@ HA puede posicionarse como un nuevo campo académico que une:
 ← [[02-community-ha-core|Community]] | [[04-technology-ha-core|Technology]] →
 
 ## Connections
-- [[03-learning-ha-core]]
 - [[ha-root-ha-core]]

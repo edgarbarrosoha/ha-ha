@@ -794,3 +794,6 @@ TRANSITORIO
 PRIMERO. - Este Acuerdo entrará en vigor al día siguiente de su publicación en el Diario Oficial de la Federación.
 SEGUNDO. - Las disposiciones relativas a las educaciones en los cobros de las colegiaturas y demás conceptos a que se refiere el presente Acuerdo serán aplicables para el
 ciclo escolar 1992-1993 y subsecuentes.
+
+## Connections
+- [[05-context-docet]]

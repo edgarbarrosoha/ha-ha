@@ -22,4 +22,4 @@ kumu_id: "PER-ALEJAN-0119"
 Public Policy | Transformational Leadership | Strategic Development | Higher Education Innovation | Governance | Fundraising
 
 ## Connections
-- [[HA COMMUNITY]]
+- [[02-community]]

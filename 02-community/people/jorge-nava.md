@@ -11,4 +11,4 @@ kumu_id: "PER-JORGEN-0156"
 Opinno
 
 ## Connections
-- [[HA COMMUNITY]]
+- [[02-community]]

@@ -508,3 +508,6 @@ Permite a Docet "tener su producto" comercialmente y generar ingresos vendiéndo
 
 **Horizons Architecture Systems**
 Enero 2026
+
+## Connections
+- [[05-context-docet]]

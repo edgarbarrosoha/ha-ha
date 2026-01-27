@@ -135,3 +135,6 @@ hacia metas compartidas. Ayuda a enfrentar situaciones de estrés.
 ● ESPIRITUALIDAD: Búsqueda de conexión con lo sagrado. Búsqueda del
 propósito de vida. Involucra la creencia de que hay una dimensión de la
 vida que está más allá de la comprensión humana.
+
+## Connections
+- [[05-context-docet]]

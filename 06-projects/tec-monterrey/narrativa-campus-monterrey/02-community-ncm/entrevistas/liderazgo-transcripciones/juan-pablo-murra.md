@@ -812,4 +812,3 @@ Juan Pablo Murra: Muchas gracias.
 
 ## Connections
 - [[02-community-ncm]]
-- [[ha-root-ncm]]

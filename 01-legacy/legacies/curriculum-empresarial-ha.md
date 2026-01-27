@@ -314,7 +314,4 @@ Economista (UG), doctoranda (Universidad Politécnica de Madrid). Colaboración 
 | **Operaciones** | javier@horizonsarchitecture.ai |
 
 ## Connections
-
-- [[01-legacy]] — Dimension index
-- [[HA LEGACY]] — Legacy dimension
-- [[HA ROOT]] — Central hub of Horizons Architecture
+- [[01-legacy]]

@@ -171,4 +171,3 @@ Cuando respondas:
 
 ## Connections
 - [[02-community-sic-q]]
-- [[ha-root-sic-q]]

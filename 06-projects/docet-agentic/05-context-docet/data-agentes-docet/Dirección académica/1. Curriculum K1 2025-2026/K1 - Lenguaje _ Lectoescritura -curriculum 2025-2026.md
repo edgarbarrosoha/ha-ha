@@ -286,3 +286,6 @@ I.  **INTRODUCTION**
 |             | - Logra relacionar imágenes con el sonido inicial de la   |
 |             |   mayoría de las vocales.                                 |
 +=============+===========================================================+
+
+## Connections
+- [[05-context-docet]]

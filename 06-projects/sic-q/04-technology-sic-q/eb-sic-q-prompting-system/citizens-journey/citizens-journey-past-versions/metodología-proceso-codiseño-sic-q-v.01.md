@@ -207,4 +207,3 @@ Diseñar el SIC-Q de manera participativa. Llegar con una propuesta sólida (el 
 
 ## Connections
 - [[04-technology-sic-q]]
-- [[ha-root-sic-q]]

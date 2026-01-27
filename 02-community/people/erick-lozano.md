@@ -11,7 +11,4 @@ kumu_id: "PER-ERICKL-0020"
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[HA Dev Team]]
-- [[Oscar Díaz]]
+- [[02-community]]

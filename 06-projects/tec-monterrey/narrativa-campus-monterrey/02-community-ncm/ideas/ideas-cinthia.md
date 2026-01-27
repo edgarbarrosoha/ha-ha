@@ -21,4 +21,3 @@ Estos hallazgos proporcionan una base sólida para la narrativa de María Adriá
 
 ## Connections
 - [[02-community-ncm]]
-- [[ha-root-ncm]]

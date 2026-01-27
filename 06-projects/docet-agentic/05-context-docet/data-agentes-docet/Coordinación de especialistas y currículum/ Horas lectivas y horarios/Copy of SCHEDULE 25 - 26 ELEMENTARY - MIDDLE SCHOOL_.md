@@ -5898,3 +5898,6 @@ Getting Ready
 2:15 - 2:45
 Guard duty Elementary
 
+
+## Connections
+- [[05-context-docet]]

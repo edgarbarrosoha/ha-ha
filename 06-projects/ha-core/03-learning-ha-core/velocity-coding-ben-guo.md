@@ -45,4 +45,3 @@ Notas: Velocity Coding - Building at the Speed
                                                   
 ## Connections
 - [[03-learning-ha-core]]
-- [[ha-root-ha-core]]

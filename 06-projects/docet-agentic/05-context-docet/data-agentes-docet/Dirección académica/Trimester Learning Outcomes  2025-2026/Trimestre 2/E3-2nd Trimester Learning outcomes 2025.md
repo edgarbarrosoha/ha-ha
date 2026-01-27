@@ -451,3 +451,6 @@ folders:
 |                                     |   motoras básicas y específicas, demostrando una     |
 |                                     |   mejora en la coordinación y el control corporal.   |
 +=====================================+======================================================+
+
+## Connections
+- [[05-context-docet]]

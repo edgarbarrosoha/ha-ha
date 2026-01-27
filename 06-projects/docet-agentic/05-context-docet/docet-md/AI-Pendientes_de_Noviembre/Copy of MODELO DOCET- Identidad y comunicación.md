@@ -755,3 +755,6 @@ photography
 Renaissance and Baroque
  art.
 ART LAB: Reverse engineering per grade
+
+## Connections
+- [[05-context-docet]]

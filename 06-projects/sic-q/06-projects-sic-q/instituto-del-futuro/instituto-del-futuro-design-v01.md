@@ -534,4 +534,3 @@ El Instituto adopta íntegramente el **Código de Ética del SIC-Q** (v.0.1) con
 
 ## Connections
 - [[06-projects-sic-q]]
-- [[ha-root-sic-q]]

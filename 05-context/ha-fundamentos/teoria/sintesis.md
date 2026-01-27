@@ -101,7 +101,4 @@ Horizons Architecture establishes a **methodological infrastructure** for comple
 The framework is not designed for application as a static methodology, but rather for co-development by its users, creating a shared architecture for navigating contemporary complexities and systematically exploring potential futures.
 
 ## Connections
-
-- [[05-context]] — Dimension index
-- [[HA CONTEXT]] — Context dimension
-- [[HA ROOT]] — Central hub of Horizons Architecture
+- [[05-context]]

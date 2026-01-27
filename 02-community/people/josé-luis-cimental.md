@@ -25,6 +25,4 @@ Venture Capital | Investment Analysis ·|Strategic Planning | M&A · Market Rese
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[Angel Hub]]
+- [[02-community]]

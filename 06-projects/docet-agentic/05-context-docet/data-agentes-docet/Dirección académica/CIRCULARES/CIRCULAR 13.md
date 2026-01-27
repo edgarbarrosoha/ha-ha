@@ -235,3 +235,6 @@ también un proveedor de visiones alternativas del mundo y un
 fortalecedor de la voluntad para explorarlas\"]{.mark}***
 
 **[Jerome Bruner]{.mark}**
+
+## Connections
+- [[05-context-docet]]

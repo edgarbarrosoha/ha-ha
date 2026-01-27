@@ -314,7 +314,4 @@ Economist (UG), PhD candidate (Universidad Politécnica de Madrid). Collaboratio
 | **Operations** | javier@horizonsarchitecture.ai |
 
 ## Connections
-
-- [[01-legacy]] — Dimension index
-- [[HA LEGACY]] — Legacy dimension
-- [[HA ROOT]] — Central hub of Horizons Architecture
+- [[01-legacy]]

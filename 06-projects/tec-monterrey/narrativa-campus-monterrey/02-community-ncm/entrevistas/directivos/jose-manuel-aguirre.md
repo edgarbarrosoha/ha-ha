@@ -156,4 +156,3 @@ Adiós, José Manuel. Que tengas un excelente día.
 
 ## Connections
 - [[02-community-ncm]]
-- [[ha-root-ncm]]

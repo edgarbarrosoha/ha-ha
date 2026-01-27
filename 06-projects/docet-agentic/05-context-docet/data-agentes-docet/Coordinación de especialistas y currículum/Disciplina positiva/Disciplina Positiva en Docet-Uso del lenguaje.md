@@ -156,3 +156,6 @@ El maestro debe ver qué cambios puede realizar en la estructura de su clase par
 puedan seguir mejor instrucciones y rutinas. Tal vez sea necesario volver a repasar/vivir ciertas
 rutinas con los niños que aún no han logrado dominar. Por otro lado, puede ser que como maestro
 deba modificar algunas de estas rutinas de manera que los niños puedan seguirlas.
+
+## Connections
+- [[05-context-docet]]

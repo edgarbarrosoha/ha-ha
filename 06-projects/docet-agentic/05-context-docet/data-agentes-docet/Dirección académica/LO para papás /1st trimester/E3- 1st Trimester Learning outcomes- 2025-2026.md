@@ -244,3 +244,6 @@ en la coordinación y el control corporal.
 ●​ Fortalece su capacidad para trabajar en equipo, aplica estrategias básicas y comprenderá conceptos
 avanzados de cooperación y respeto por las reglas, todo dentro de un entorno lúdico y estructurado
 que fomente una actitud positiva hacia la actividad física y el deporte.
+
+## Connections
+- [[05-context-docet]]

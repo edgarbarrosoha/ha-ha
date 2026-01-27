@@ -1053,3 +1053,6 @@ No solo aplica la habilidad de
 manera autónoma, sino que
 inspira a otros y los ayuda a
 ponerla en práctica.
+
+## Connections
+- [[05-context-docet]]

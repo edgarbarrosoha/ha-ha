@@ -115,5 +115,4 @@ Cuando respondas:
 
 
 ## Connections
-- [[HA ROOT]]
-- [[HA PROJECTS]]
+- [[ha-root-sic-q]]

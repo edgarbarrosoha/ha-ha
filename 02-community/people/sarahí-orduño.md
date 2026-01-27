@@ -29,7 +29,4 @@ Project Management | Entrepreneurship | Client Relations | Strategic Planning | 
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[HA Team]]
-- [[Propuesta SEDEC AGS]]
+- [[02-community]]

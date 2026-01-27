@@ -19,7 +19,4 @@ Academic Support | University Assistance
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[HA Council]]
-- [[HA Partners]]
+- [[02-community]]

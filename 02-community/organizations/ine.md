@@ -25,4 +25,4 @@ kumu_id: "INS-INE-0007"
 Electoral Administration
 
 ## Connections
-- [[HA COMMUNITY]]
+- [[02-community]]

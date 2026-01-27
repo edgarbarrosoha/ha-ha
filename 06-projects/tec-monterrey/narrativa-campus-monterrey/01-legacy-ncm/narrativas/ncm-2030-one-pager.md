@@ -71,4 +71,3 @@ Las tensiones (excelencia vs. escala, innovación vs. rigor, equidad vs. estrate
 
 ## Connections
 - [[01-legacy-ncm]]
-- [[ha-root-ncm]]

@@ -1243,4 +1243,3 @@ Despite the challenges and the need for extensive future work, Horizons Architec
 
 ## Connections
 - [[05-context-sic-q]]
-- [[ha-root-sic-q]]

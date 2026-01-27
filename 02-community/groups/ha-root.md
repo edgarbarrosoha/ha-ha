@@ -26,14 +26,4 @@ Systems Thinking | Artificial Intelligence | Data Management | Complex Systems M
 
 
 ## Connections
-- [[Edgar Barroso]]
-- [[HA Dev Team]]
-- [[HA Leads]]
-- [[HA Team]]
-
-- [[HA COMMUNITY]]
-- [[HA CONTEXT]]
-- [[HA LEARNING]]
-- [[HA LEGACY]]
-- [[HA PROJECTS]]
-- [[HA TECHNOLOGY]]
+- [[02-community]]

@@ -26,7 +26,4 @@ Public Administration | Governance | Law | Fiscal Policy | Strategic Planning | 
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[HA Leads]]
-- [[Rosario Corona]]
+- [[02-community]]

@@ -98,3 +98,6 @@ Every proposal should:
 ---
 
 *A proposal is not a document. It's a decision made easy.*
+
+## Connections
+- [[02-community]]

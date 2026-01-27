@@ -76,4 +76,3 @@ Considerable Improvements in Human Capital: Students
 
 ## Connections
 - [[02-community-ncm]]
-- [[ha-root-ncm]]

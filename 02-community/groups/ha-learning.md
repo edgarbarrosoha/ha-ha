@@ -17,6 +17,4 @@ HA develops personalized learning pathways that close knowledge gaps and enhance
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[HA ROOT]]
+- [[02-community]]

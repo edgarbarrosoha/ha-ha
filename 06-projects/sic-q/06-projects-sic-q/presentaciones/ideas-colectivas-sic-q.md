@@ -214,4 +214,3 @@ Cada actividad del proyecto explora las mismas 6 preguntas desde diferentes pers
 
 ## Connections
 - [[06-projects-sic-q]]
-- [[ha-root-sic-q]]

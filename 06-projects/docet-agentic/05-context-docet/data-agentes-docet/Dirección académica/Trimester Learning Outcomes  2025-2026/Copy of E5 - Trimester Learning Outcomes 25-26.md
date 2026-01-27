@@ -386,3 +386,6 @@ folders:
 |                                    |   exploration techniques to create theatrical         |
 |                                    |   performances.                                       |
 +====================================+=======================================================+
+
+## Connections
+- [[05-context-docet]]

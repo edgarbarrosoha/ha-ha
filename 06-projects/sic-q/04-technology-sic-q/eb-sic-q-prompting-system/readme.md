@@ -39,5 +39,4 @@ SIC-Q is an AI-assisted collective intelligence system concept designed to scale
 
 
 ## Connections
-- [[HA ROOT]]
-- [[HA PROJECTS]]
+- [[04-technology-sic-q]]

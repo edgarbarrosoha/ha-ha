@@ -151,5 +151,4 @@ Articular una narrativa persuasiva que posicione al Campus Monterrey como punta 
 ```
 
 ## Connections
-- [[HA ROOT]]
 - [[HA PROJECTS]]

@@ -1239,3 +1239,6 @@ comprensión del objetivo. Y
 requiere ayuda para comprender
 los conceptos previos al
 aprendizaje esperado.
+
+## Connections
+- [[05-context-docet]]

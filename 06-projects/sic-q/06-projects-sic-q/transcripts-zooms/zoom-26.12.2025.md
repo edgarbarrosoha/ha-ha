@@ -669,4 +669,3 @@ Y cuando quieran una pregunta específica, como lo de Sergio de "oye, pero tenem
 
 ## Connections
 - [[06-projects-sic-q]]
-- [[ha-root-sic-q]]

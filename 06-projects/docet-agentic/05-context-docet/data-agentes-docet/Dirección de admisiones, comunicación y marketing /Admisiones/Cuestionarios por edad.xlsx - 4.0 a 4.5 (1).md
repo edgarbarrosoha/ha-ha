@@ -57,3 +57,6 @@ Se viste sin ayuda.
 Atiende, sin ayuda, sus necesidades fisiológicas, pidiendo privacidad en el baño.
 
 Observaciones Generales
+
+## Connections
+- [[05-context-docet]]

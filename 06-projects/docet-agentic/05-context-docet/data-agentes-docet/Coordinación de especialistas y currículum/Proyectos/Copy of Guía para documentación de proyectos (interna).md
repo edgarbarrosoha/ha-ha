@@ -90,3 +90,6 @@ Elementos del periódico de preescolar
 
 ![](media/image1.png){width="4.93573053368329in"
 height="6.984375546806649in"}
+
+## Connections
+- [[05-context-docet]]

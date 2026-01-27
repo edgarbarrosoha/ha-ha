@@ -82,7 +82,7 @@ aliases: [HA Network, Red HA]
 
 - [[ha-network|Network Hub]]
 - [[ha-map-of-content|Mapa de Contenido]]
-- [[dashboard|Dashboard]]
+- [[00-ha-ha-root/tasks/to-do/dashboard|Dashboard]]
 - [[HA COMMUNITY|Índice de Comunidad]]
 
 ---

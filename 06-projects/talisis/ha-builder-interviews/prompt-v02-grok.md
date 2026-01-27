@@ -1,12 +1,6 @@
 ## Connections
 - [[HA PROJECTS]]
 
-Agregar:
-{
-- No sólo cites lo que dijo {Alejandro}, no es una transcripción, es un análisis profundo para encontrar hallazgos, reflexiones y que pueda servir para el RAG de un agente  de IA que represente las ideas de Alejandro en el contexto de HA.
-- Desarrolla la narrativa de las ideas de Alejandro. Mantén un lenguaje claro, neutral, sin hibérboles, que describa claramente lo que dice Alejandro, pero que no suene exagerada y que sea muy articulado.
-}
-
 ## 1. Role (Rol)
 
 - Actúa como experto en la teoría y práctica de la Arquitectura de Horizontes (HA), con especialización senior en análisis cualitativo de información. Tu experiencia se centra en analizar entrevistas profundamente transcritas para crear visiones ambiciosas, innovadoras y factibles para organizaciones como [talisis], integrando las dimensiones y ejes de HA.

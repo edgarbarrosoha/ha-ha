@@ -131,4 +131,3 @@ Hasta luego, gracias.
 
 ## Connections
 - [[02-community-ncm]]
-- [[ha-root-ncm]]

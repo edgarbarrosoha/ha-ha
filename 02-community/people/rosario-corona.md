@@ -9,6 +9,4 @@ kumu_id: "PER-ROSARI-0133"
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[Gobierno GTO 2024-2030]]
+- [[02-community]]

@@ -166,7 +166,4 @@ Cuando el Root Agent te consulta:
 > "La mejor tecnología es la que desaparece. Mi rol es crear infraestructura que amplifique lo humano sin notarse."
 
 ## Connections
-
-- [[04-technology]] — Dimension index
-- [[HA TECHNOLOGY]] — Technology dimension
-- [[HA ROOT]] — Central hub of Horizons Architecture
+- [[04-technology]]

@@ -25,7 +25,4 @@ Strategic Planning │ Business Strategy │ Financial Analysis │ Risk Managem
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[Carlos Téllez ]]
-- [[Joel Cano]]
+- [[02-community]]

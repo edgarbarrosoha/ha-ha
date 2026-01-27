@@ -76,3 +76,6 @@ In short, it is a self-similar data & process architecture that:
 3. Facilitates a novel approach to tackling complex endeavors through both domain-based (dimensions) and temporal (time) classification, plus multi-user concurrency.
 
 This synergy—the robust, fractal-based, time-aware, dimension-driven system plus adaptive, collaborative AI—is what differentiates HA as truly unique.
+
+## Connections
+- [[05-context]]

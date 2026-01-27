@@ -222,3 +222,6 @@ Gratitude
 ●​ Understands improvisational techniques and is able to engage in improv sketches.
 ●​ Recognises the unique features of the characters of commedia dell'arte, their context, and is able to
 engage in the archetypal characterisation.
+
+## Connections
+- [[05-context-docet]]

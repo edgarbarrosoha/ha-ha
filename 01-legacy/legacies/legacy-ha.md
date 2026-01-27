@@ -106,11 +106,4 @@ Desarrollar capacidades internas en el equipo de Escuela de Gobierno y Transform
 ---
 
 ## Connections
-
-- [[01-legacy]] — Dimension index
-- [[HA LEGACY]] — Legacy dimension
-- [[HA ROOT]] — Central hub of Horizons Architecture
-
----
-
-*Este documento es un sistema vivo. Se actualiza conforme los proyectos avanzan y los legados se clarifican.*
+- [[01-legacy]]

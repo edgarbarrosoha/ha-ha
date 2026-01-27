@@ -497,3 +497,6 @@ Extras:
 
 -   Zonas de documentación comunes: muros de proyecto o vitrinas
     compartidas para mostrar procesos y prototipos.
+
+## Connections
+- [[05-context-docet]]

@@ -355,4 +355,3 @@ Si hubiera que elegir **5–7 bullets numéricos “estrella”** para mencionar
 Cada uno de esos puntos ancla directamente una línea de tu narrativa: **contexto, problema, oportunidad, diferenciador, visión y retorno** — y todos están respaldados por **fuentes oficiales o institucionales, no periodísticas**.
 ## Connections
 - [[06-projects-sic-q]]
-- [[ha-root-sic-q]]

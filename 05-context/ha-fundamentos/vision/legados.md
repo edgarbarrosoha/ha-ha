@@ -106,3 +106,6 @@ Desarrollar capacidades internas en el equipo de Escuela de Gobierno y Transform
 ---
 
 *Este documento es un sistema vivo. Se actualiza conforme los proyectos avanzan y los legados se clarifican.*
+
+## Connections
+- [[05-context]]

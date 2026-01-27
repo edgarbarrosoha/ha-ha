@@ -27,7 +27,4 @@ Territorial & Ecological Planning
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[IPLANEG]]
-- [[Ulises Pérez ]]
+- [[02-community]]

@@ -25,6 +25,4 @@ Innovation | Digital Transformation | Artificial Intelligence (AI) | Emerging Te
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[EGADE]]
+- [[02-community]]

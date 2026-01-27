@@ -23,4 +23,4 @@ kumu_id: "PER-AARONA-0201"
 Digital Transformation | Industrial Automation | AI & Computer Vision | Generative AI | Edge Computing | Project Management | IT Infrastructure | Process Optimization | PLC Programming | Industry 4.0 | Team Leadership | Strategic Implementation | Data Analysis & Visualization
 
 ## Connections
-- [[HA COMMUNITY]]
+- [[02-community]]

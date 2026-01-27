@@ -970,3 +970,6 @@ Guard duty Elementary
 Guard duty Elementary
 Guard duty Elementary
 
+
+## Connections
+- [[05-context-docet]]

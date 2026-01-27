@@ -411,3 +411,6 @@ folders:
 |                                    |   of expression, experimenting with space, materials, |
 |                                    |   and viewer interaction.                             |
 +====================================+=======================================================+
+
+## Connections
+- [[05-context-docet]]

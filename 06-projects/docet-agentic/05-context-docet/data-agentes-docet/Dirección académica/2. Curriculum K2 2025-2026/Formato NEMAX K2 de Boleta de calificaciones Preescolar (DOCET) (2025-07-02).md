@@ -929,3 +929,6 @@ P
 I
 
 N
+
+## Connections
+- [[05-context-docet]]

@@ -17,22 +17,4 @@ HA suggests roadmaps with concrete and feasible activities, using artificial int
 
 
 ## Connections
-- [[TEC-MONTERREY]]
-- [[TEC-MILENIO]]
-- [[SIC-Q]]
-- [[LEMONTECH]]
-- [[HA-PRODUCT]]
-- [[HA-CORE]]
-- [[HA-ATELIER]]
-- [[DOCET-AGENTIC]]
-- [[COPILOT]]
-- [[ATT]]
-- [[HA COMMUNITY]]
-
-- [[AT&T]]
-- [[HA ROOT]]
-- [[Polos]]
-- [[TALISIS]]
-- [[TEC DE MONTERREY]]
-- [[UPU]]
-- [[XIGNUX]]
+- [[02-community]]

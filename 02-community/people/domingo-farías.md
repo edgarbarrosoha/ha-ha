@@ -9,6 +9,4 @@ kumu_id: "PER-DOMING-0136"
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[TALISIS]]
+- [[02-community]]

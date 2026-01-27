@@ -24,13 +24,4 @@ Postal Policy | International Cooperation | Technical Assistance | Infrastructur
 
 
 ## Connections
-
-- [[AMAZON EU]]
-- [[Gustavo Damy]]
-- [[HA COMMUNITY]]
-- [[HA Leads]]
-- [[HA PROJECTS]]
-- [[Jose Anson ]]
-- [[José Anson]]
-- [[Juan Moroni]]
-- [[Sirine Chodan]]
+- [[02-community]]

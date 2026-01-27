@@ -14,11 +14,4 @@ kumu_id: "GRP-HADEVT-0002"
 
 
 ## Connections
-- [[HA ROOT]]
-
-- [[Alan Maciel]]
-- [[Alberto Barradas]]
-- [[Erick Lozano]]
-- [[HA COMMUNITY]]
-- [[Luis Michel]]
-- [[René Michel ]]
+- [[02-community]]

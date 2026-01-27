@@ -78,3 +78,6 @@ You are **@legal-startup**, the legal subagent for HA-HA. You handle legal matte
 ---
 
 *Good legal protects the upside. Great legal prevents the downside.*
+
+## Connections
+- [[02-community]]

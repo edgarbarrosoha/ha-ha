@@ -115,6 +115,4 @@ Para cualquier decisión significativa, aplica:
 ---
 
 ## Connections
-
-- [[01-legacy-docet|Legacy DOCET]] — Dimensión padre
-- [[ha-root-docet|HA Root DOCET]] — Nodo raíz del proyecto
+- [[01-legacy-docet]]

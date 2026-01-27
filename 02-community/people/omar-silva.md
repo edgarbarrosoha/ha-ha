@@ -9,6 +9,4 @@ kumu_id: "PER-OMARSI-0099"
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[HA External Providers]]
+- [[02-community]]

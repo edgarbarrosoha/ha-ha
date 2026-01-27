@@ -3088,3 +3088,6 @@ Here is a detailed elaboration of talisis's engagement with authorities and its 
 While the provided sources do not list specific, outstanding "trámites o permisos pendientes" for talisis, the organisation is clearly engaged in a continuous and proactive process of managing compliance with existing regulations (fiscal, labour, data privacy, educational), undergoing academic reaccreditation, and actively working to formalise and integrate its internal processes and data architecture. These ongoing efforts are crucial for maintaining operational efficiency, ensuring quality, and adapting to the dynamic external environment, which collectively contributes to the overall 'regularisation' and long-term sustainability of the institution.
 
 To gain a more precise understanding of potential future regulatory bottlenecks, it would be beneficial to inquire whether talisis maintains a centralised and actively managed register of all licenses, permits, and accreditations, including their respective expiry dates and renewal statuses. This would enable the proactive identification of any upcoming mandatory regularisation processes and their associated timelines and requirements.
+
+## Connections
+- [[HA PROJECTS]]

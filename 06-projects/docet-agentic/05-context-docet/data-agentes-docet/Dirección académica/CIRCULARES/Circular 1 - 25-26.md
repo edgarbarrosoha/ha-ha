@@ -216,3 +216,6 @@ CRECER JUNTOS, CRECER SIEMPRE
 *Documento de uso exclusivo para la comunidad Docet
 
 www.docet.edu.mx
+
+## Connections
+- [[05-context-docet]]

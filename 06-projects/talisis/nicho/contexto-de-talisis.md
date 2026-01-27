@@ -1,10 +1,6 @@
 ## Connections
 - [[HA PROJECTS]]
 
-# Análisis Integral de talisis y sus Líneas de Negocio en el Ecosistema Educativo Mexicano
-
-talisis se ha consolidado como una plataforma educativa integral que abarca desde la primera infancia hasta la educación superior y la formación corporativa, integrando modelos innovadores y alianzas estratégicas. Con más de 150,000 estudiantes en 160 centros educativos en México y presencia internacional[1](https://www.hubspot.es/case-studies/talisis)[2](https://quienessomos.talisis.com/), la empresa ha construido un ecosistema educativo diversificado bajo el paraguas de Grupo Topaz, conglomerado fundado en 2011 con intereses en sectores clave como energía, desarrollo inmobiliario y educación[2](https://quienessomos.talisis.com/)[3](https://mx.indeed.com/cmp/talisis). A continuación, se explora su estructura organizacional, sus unidades de negocio y su impacto en la transformación educativa.
-
 ## Fundamentos Estratégicos y Visión Corporativa
 
 ## Orígenes y Propósito Humanista

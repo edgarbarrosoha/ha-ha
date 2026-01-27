@@ -86,4 +86,3 @@ Hasta pronto, Diana. Seguimos en contacto.
 
 ## Connections
 - [[02-community-ncm]]
-- [[ha-root-ncm]]

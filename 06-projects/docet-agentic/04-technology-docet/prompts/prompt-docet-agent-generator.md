@@ -279,6 +279,4 @@ Según el documento "Bio de perfiles de agentes directivos", los AVATARES a crea
 ---
 
 ## Connections
-
-- [[04-technology-docet|Technology DOCET]] — Dimensión padre
-- [[ha-root-docet|HA Root DOCET]] — Nodo raíz del proyecto
+- [[04-technology-docet]]

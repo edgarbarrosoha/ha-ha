@@ -178,3 +178,6 @@ place*](https://www.azquotes.com/quote/460136)
 
 [**[Howard
 Gardner]{.underline}**](https://www.azquotes.com/author/5337-Howard_Gardner)
+
+## Connections
+- [[05-context-docet]]

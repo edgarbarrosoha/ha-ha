@@ -23,6 +23,4 @@ Communication | Microsoft Excel | Team Leadership | Social Responsibility
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[HA External Providers]]
+- [[02-community]]

@@ -210,3 +210,6 @@ Art & Cinematography:
 ●​ Applies cinematography skills, including photography direction techniques, to capture high-quality footage.
 ●​ Learns and applies editing techniques to create a cohesive narrative.
 ●​ Researches to support the filmmaking process and strengthen the final product.
+
+## Connections
+- [[05-context-docet]]

@@ -143,3 +143,6 @@ Educación superior es el mercado principal de HA. Tec de Monterrey, Tec Milenio
 ---
 
 *Fuentes: UNESCO, OECD, HolonIQ, experiencia directa*
+
+## Connections
+- [[05-context]]

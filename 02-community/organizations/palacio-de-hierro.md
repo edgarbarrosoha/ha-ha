@@ -26,10 +26,4 @@ Retail Management | Brand Experience | Customer Service | Luxury Marketing | Omn
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[Bernd Michael Benemann Latisnere]]
-- [[HA Leads]]
-- [[Jose Rodriguez Lopez ]]
-- [[Ricardo Rayas Ortega]]
-- [[Roberto Rafael Rosete Jimenez]]
+- [[02-community]]

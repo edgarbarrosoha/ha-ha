@@ -399,4 +399,3 @@ Diseñar cualquier presentación para él —incluida una sobre AH— alrededor 
 
 ## Connections
 - [[02-community-sic-q]]
-- [[ha-root-sic-q]]

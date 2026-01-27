@@ -25,3 +25,6 @@
 - Generative Agentic Ontology (The "Fluid" System): Instead of a static software database, HA proposes a system where AI Agents are dynamically created to represent specific dimensions (e.g., a "Learning Agent" or a "Legacy Agent"). The architecture re-wires itself in real-time. If the context changes, the AI agents adapt. It is a "living" software architecture that mirrors the fluidity of human thought.
 - Simultaneous Complexity (The "Everything Everywhere" Axis) HA rejects the linear timeline (Gantt chart) as the only view of reality. It introduces the axis of **Simultaneity**. It accepts the modern reality that multiple timelines, disciplines, and crises happen at once. It doesn't try to force chaos into a line; it provides a "compass" to navigate the chaos.
 - Conscious Infrastructure: HA aims to be a "second skin" or an "exoskeleton" for the mind, fusing Human Intelligence (HI) with Artificial Intelligence (AI). It positions the framework not as a "tool" you pick up and put down, but as a cognitive layer that runs in the background, handling the cognitive load of complexity so humans can focus on creativity and connection.
+
+## Connections
+- [[05-context]]

@@ -578,3 +578,6 @@ folders:
 
 - Contenedores ejemplos: vasitos, tinitas: etiquetados.(lápices,
   colores, sacapuntas, tijeras, marcadores)
+
+## Connections
+- [[05-context-docet]]

@@ -61,3 +61,6 @@ Empieza a controlar sus esfínteres y las deposiciones diurnas, teniendo
 accidentes ocasionales.
 
 Observaciones Generales
+
+## Connections
+- [[05-context-docet]]

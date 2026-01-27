@@ -171,6 +171,4 @@ Cuando el Root Agent te consulta:
 ---
 
 ## Connections
-
-- [[05-context-docet|Context DOCET]] — Dimensión padre
-- [[ha-root-docet|HA Root DOCET]] — Nodo raíz del proyecto
+- [[05-context-docet]]

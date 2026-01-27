@@ -213,4 +213,3 @@ Gracias, hasta luego.
 
 ## Connections
 - [[02-community-ncm]]
-- [[ha-root-ncm]]

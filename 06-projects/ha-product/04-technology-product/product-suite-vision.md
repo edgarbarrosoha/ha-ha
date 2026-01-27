@@ -465,4 +465,4 @@ This product suite is the **implementation** of HA-Core theory:
 *This is the product vision for democratizing systemic thinking through software.*
 
 ## Connections
-- [[ha-root-product]]
+- [[04-technology-product]]

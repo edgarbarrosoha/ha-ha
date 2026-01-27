@@ -542,3 +542,6 @@ matemáticas.
 
 • Formar responsabilidad individual, así la búsqueda del bien común en
 proyectos significativos para los alumnos.
+
+## Connections
+- [[05-context-docet]]

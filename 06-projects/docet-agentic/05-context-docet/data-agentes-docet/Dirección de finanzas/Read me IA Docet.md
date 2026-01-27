@@ -128,3 +128,6 @@ buscamos por cada rol:
 
 *Este es el primer paso para construir una institución que use la
 tecnología para ser más humana. ¡Gracias por tu colaboración!*
+
+## Connections
+- [[05-context-docet]]

@@ -38,4 +38,3 @@ Copiar y pegar el prompt anterior al iniciar una nueva sesión de Claude Code.
 
 ## Connections
 - [[04-technology-sic-q]]
-- [[ha-root-sic-q]]

@@ -2137,3 +2137,6 @@ ESPECIFICACIONES
 DONDE COMPRARLO 
 AUTORIZADO?
 
+
+## Connections
+- [[05-context-docet]]

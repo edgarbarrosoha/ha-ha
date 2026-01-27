@@ -150,3 +150,6 @@ correctamente con las imágenes correspondientes. Actualmente, Lucía se
 encuentra en proceso de consolidación en el reconocimiento de letras y
 números, así como en el desarrollo de la escritura. Lucía esta lista
 para ingresar a Docet.
+
+## Connections
+- [[05-context-docet]]

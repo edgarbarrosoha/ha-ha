@@ -32,6 +32,4 @@ Team Leadership
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[SEG]]
+- [[02-community]]

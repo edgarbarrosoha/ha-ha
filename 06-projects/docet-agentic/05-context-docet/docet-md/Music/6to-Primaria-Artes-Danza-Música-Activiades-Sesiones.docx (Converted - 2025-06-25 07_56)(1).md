@@ -662,3 +662,6 @@ Aprendizajes esperados:
 > • Integrar el conocimiento de todas las disciplinas a través del arte.
 >
 > • Crear un sentido de comunidad con su salón y con Docet.
+
+## Connections
+- [[05-context-docet]]

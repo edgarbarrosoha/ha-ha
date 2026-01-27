@@ -25,7 +25,4 @@ Executive Coaching | Leadership Development | Organizational Communication | Men
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[HA Leads]]
-- [[IMPLAN León]]
+- [[02-community]]

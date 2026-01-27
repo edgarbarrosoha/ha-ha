@@ -113,7 +113,4 @@ Cuando el Root Agent te consulta:
 > "El legado no es lo que haces, es lo que queda después de que terminas. Mi rol es asegurar que cada acción deje algo valioso."
 
 ## Connections
-
-- [[01-legacy]] — Dimension index
-- [[HA LEGACY]] — Legacy dimension
-- [[HA ROOT]] — Central hub of Horizons Architecture
+- [[01-legacy]]

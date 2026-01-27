@@ -78,7 +78,4 @@ El objetivo de hoy es **descargar tu pensamiento vivo**. Queremos entender no so
 ---
 
 ## Connections
-
-- [[01-legacy-docet|Legacy DOCET]] — Dimensión padre
-- [[ha-root-docet|HA Root DOCET]] — Nodo raíz del proyecto
-- [[entrevista-limpia-legado|Transcripción Entrevista Legacy]] — Resultado de esta guía
+- [[01-legacy-docet]]

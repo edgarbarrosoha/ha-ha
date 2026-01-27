@@ -601,3 +601,6 @@ audiovisual digital se realiza.
 • Formar estudiantes a través de la producción audiovisual digital en
 prácticas creativas, críticas-propositivas y culturales para alimentar
 su curiosidad, empatía, tolerancia y gozo por crear y expresarse.
+
+## Connections
+- [[05-context-docet]]

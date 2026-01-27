@@ -151,4 +151,3 @@ El concepto de "planeación dinámica" implica **aceptar la incertidumbre** y co
 
 ## Connections
 - [[02-community-sic-q]]
-- [[ha-root-sic-q]]

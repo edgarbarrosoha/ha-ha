@@ -317,3 +317,6 @@ que considera más viables.
 Evidencia de Aprendizaje: La estación de experiencia y las fichas de inversión recibidas.
 Consejo Pedagógico: Este formato celebra la diversidad de inteligencias y demuestra el aprendizaje de
 una manera mucho más profunda y auténtica que una presentación tradicional.
+
+## Connections
+- [[05-context-docet]]

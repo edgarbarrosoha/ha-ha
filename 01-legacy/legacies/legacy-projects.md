@@ -156,11 +156,4 @@ Cada proyecto se describe usando los principios de la dimensión **Legado** de H
 ---
 
 ## Connections
-
-- [[01-legacy]] — Dimension index
-- [[HA LEGACY]] — Legacy dimension
-- [[HA ROOT]] — Central hub of Horizons Architecture
-
----
-
-*Última actualización: Diciembre 2024*
+- [[01-legacy]]

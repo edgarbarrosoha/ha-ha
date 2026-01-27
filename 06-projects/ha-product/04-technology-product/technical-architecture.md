@@ -472,4 +472,4 @@ ha-app/
 - [ ] Invite first 100 users
 
 ## Connections
-- [[ha-root-product]]
+- [[04-technology-product]]

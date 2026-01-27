@@ -84,3 +84,6 @@ presentes en cada cierre de proyecto:**
 
 - Enviar google forms de retroalimentación del proyecto a los papás al
   finalizar el cierre.
+
+## Connections
+- [[05-context-docet]]

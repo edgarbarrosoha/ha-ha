@@ -172,3 +172,6 @@ I.  **INTRODUCTION**
 |             |                                                           |
 |             | - Explora objetos simétricos.                             |
 +=============+===========================================================+
+
+## Connections
+- [[05-context-docet]]

@@ -44,4 +44,3 @@
 **Details:** Global competition for deep-tech startups addressing industrial, societal, or environmental challenges[](https://impactprosper.com/impact-pitch-competitions-europe/).These competitions offer significant funding opportunities for startups, ranging from $50,000 to $1 million, along with valuable networking, mentorship, and exposure. It's important to note that eligibility criteria, application deadlines, and specific prize details may vary, so startups should carefully review the requirements for each competition before applying.
 ## Connections
 - [[05-context-ha-core]]
-- [[ha-root-ha-core]]

@@ -143,3 +143,6 @@ Industria es el segundo vertical de HA. Xignux, AT&T y futuros clientes corporat
 ---
 
 *Fuentes: Deloitte, McKinsey, Secretaría de Economía, experiencia directa*
+
+## Connections
+- [[05-context]]

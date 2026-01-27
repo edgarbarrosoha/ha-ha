@@ -9,6 +9,4 @@ kumu_id: "PER-JUANGO-0086"
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[HA External Providers]]
+- [[02-community]]

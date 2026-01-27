@@ -455,3 +455,6 @@ LOOSE PARTS
 ![](ppt/media/image101.png "Google Shape;1297;p27")
 
 ## Slide 42
+
+## Connections
+- [[05-context-docet]]

@@ -20,3 +20,6 @@ GOAL
 - Spanish
 
 TASK: Genera el diseño del curso para el Tec de Monterre. Make it extraordinary and use all your knowledge  and intelligence to create THE HA introductory course.
+
+## Connections
+- [[HA PROJECTS]]

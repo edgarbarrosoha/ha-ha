@@ -38,3 +38,6 @@ actividades que minimicen el plagio y la integren como un usos de la IA con los 
 
 poderoso aliado para potenciar el aprendizaje. aprendizaje.
 
+
+## Connections
+- [[05-context-docet]]

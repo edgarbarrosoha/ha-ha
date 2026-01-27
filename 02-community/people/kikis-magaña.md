@@ -8,4 +8,4 @@ kumu_id: "PER-KIKISM-0081"
 # Kikis Magaña
 
 ## Connections
-- [[HA COMMUNITY]]
+- [[02-community]]

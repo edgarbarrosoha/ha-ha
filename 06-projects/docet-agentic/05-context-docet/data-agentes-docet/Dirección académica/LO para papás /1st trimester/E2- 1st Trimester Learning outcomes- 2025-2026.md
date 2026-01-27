@@ -225,3 +225,6 @@ specifically drawing on the main characteristics of Greek pottery.
 Roman art:
 ●​ Applies the trecandís technique (mosaic) to create a mural design that shows an understanding of Roman
 art and composition.
+
+## Connections
+- [[05-context-docet]]

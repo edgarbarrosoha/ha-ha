@@ -13,3 +13,6 @@
 	- Qué podría ser el balance óptimo entre soncrónico, asincrónico y presencial
 	- Cómo se vería el syllabus
 	
+
+## Connections
+- [[HA PROJECTS]]

@@ -62,4 +62,3 @@ Gracias a ti, Poncho, por tu tiempo y disposición. Seguiremos en contacto para 
 
 ## Connections
 - [[02-community-ncm]]
-- [[ha-root-ncm]]

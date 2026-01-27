@@ -27,6 +27,4 @@ Statistics
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[CEMEX]]
+- [[02-community]]

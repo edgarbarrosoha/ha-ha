@@ -171,3 +171,6 @@ retomar la terapia hasta que Emmanuel logre lo esperado en este aspecto.
 Con este compromiso de parte de los papás y no habiendo ninguna
 situación a nivel cognitivo, Docet puede recibir a Emmanuel y darle
 seguimiento.
+
+## Connections
+- [[05-context-docet]]

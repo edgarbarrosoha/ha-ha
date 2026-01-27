@@ -381,3 +381,6 @@ a 200 y la hoja de cálculo proyecta automáticamente los nuevos ingresos, costo
 Evidencia: La hoja de cálculo completada con la proyección a 200 unidades.
 Consejo Pedagógico: Esta actividad les da a los estudiantes un vistazo al poder de las herramientas
 financieras para modelar el futuro y tomar decisiones estratégicas sobre el crecimiento.
+
+## Connections
+- [[05-context-docet]]

@@ -9,6 +9,4 @@ kumu_id: "PER-MARIAN-0084"
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[LTP ]]
+- [[02-community]]

@@ -9,4 +9,4 @@ kumu_id: "PER-ULISES-0169"
 # Ulises Pérez
 
 ## Connections
-- [[HA COMMUNITY]]
+- [[02-community]]

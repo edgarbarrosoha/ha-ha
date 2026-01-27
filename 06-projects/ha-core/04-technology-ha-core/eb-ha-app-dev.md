@@ -12,4 +12,3 @@ Ah, I see what you mean - you want our conversation to flow at the same gentle a
 I still see the normal cursos after a couple of interactions, the jumps and the point is not "breathing and is jumping as well. Nothing should be moving to fast or with corners. Everything should be a curve. In the same renglón, the human text should dissolve into the machine text and vice versa.
 ## Connections
 - [[04-technology-ha-core]]
-- [[ha-root-ha-core]]

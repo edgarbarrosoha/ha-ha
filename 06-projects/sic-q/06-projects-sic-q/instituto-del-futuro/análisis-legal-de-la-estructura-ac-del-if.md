@@ -825,4 +825,3 @@ FASE 5: OPERACIÓN
 
 ## Connections
 - [[06-projects-sic-q]]
-- [[ha-root-sic-q]]

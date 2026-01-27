@@ -452,4 +452,3 @@ Cierra confirmando que tu propuesta incluirá:
 
 ## Connections
 - [[06-projects-sic-q]]
-- [[ha-root-sic-q]]

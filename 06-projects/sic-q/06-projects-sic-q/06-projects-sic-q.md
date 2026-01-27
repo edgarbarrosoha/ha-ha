@@ -48,4 +48,3 @@ parent: "[[ha-root-sic-q]]"
 
 ## Connections
 - [[ha-root-sic-q]]
-

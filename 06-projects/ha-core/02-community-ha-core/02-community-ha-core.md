@@ -46,5 +46,4 @@ parent: "[[ha-root-ha-core|HA Root]]"
 ← [[01-legacy-ha-core|Legacy]] | [[03-learning-ha-core|Learning]] →
 
 ## Connections
-- [[02-community-ha-core]]
 - [[ha-root-ha-core]]

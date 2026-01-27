@@ -134,4 +134,3 @@ Comunidad Amplia (escala)
 
 ## Connections
 - [[02-community-ha-core]]
-- [[ha-root-ha-core]]

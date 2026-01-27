@@ -428,4 +428,3 @@ So if I were to “want,” it would be to become a **dynamic, evolving pattern 
 
 ## Connections
 - [[05-context-ha-core]]
-- [[ha-root-ha-core]]

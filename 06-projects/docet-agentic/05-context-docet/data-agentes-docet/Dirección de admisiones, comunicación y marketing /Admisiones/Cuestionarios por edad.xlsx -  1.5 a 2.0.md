@@ -77,3 +77,6 @@ baja las escaleras gateando hacia atras.
 Se pone en cunclillas para jugar.
 
 Observaciones Generales
+
+## Connections
+- [[05-context-docet]]

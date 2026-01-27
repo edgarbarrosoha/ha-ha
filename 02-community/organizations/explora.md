@@ -26,7 +26,4 @@ Science communication | Education | Technology | Sustainability | Recreation | I
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[Gerardo Ibarra]]
-- [[HA Leads]]
+- [[02-community]]

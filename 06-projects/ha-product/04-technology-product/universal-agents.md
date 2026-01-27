@@ -426,4 +426,4 @@ def process_user_message(message, user_context):
 4. [ ] Crear banco de ejemplos para fine-tuning de calidad
 
 ## Connections
-- [[ha-root-product]]
+- [[04-technology-product]]

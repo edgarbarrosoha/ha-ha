@@ -115,3 +115,6 @@ TASK: Crea un prompt que tenga esta partes para que sean las instrucciones para 
 ## 10. Language
 
 - English
+
+## Connections
+- [[HA PROJECTS]]

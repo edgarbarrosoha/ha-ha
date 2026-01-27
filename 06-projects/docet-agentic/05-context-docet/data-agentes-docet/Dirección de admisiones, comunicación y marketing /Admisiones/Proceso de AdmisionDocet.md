@@ -98,3 +98,6 @@ NOISINOV 30 OSITOYd
 
 Mm
 69? Docet
+
+## Connections
+- [[05-context-docet]]

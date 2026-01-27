@@ -377,3 +377,6 @@ Estrategias de lenguaje:
 -Materiales para centros y rotaciones (palabras-imágenes. reproducción de la escritura).
 
 -Grabaciones entre ellos.
+
+## Connections
+- [[05-context-docet]]

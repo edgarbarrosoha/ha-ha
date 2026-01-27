@@ -152,4 +152,3 @@ Imagina que su sobrino de 17 años pueda preguntarle al SIC: *"¿Qué carreras e
 
 ## Connections
 - [[06-projects-sic-q]]
-- [[ha-root-sic-q]]

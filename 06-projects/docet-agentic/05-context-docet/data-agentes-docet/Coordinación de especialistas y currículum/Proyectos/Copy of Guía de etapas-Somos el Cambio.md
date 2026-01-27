@@ -202,3 +202,6 @@ Plattner, J. (s/f).
 
 Guía del proceso creativo: Una introducción al design thinking.
 Institute of Design at Stanford: Estados Unidos.
+
+## Connections
+- [[05-context-docet]]

@@ -26,4 +26,4 @@ kumu_id: "COM-BIMBO-0004"
 Food Production
 
 ## Connections
-- [[HA COMMUNITY]]
+- [[02-community]]

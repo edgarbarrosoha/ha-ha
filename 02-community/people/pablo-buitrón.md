@@ -24,9 +24,4 @@ Executive Education | Leadership Development | Talent Management | Business Stra
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[Cristian Granados]]
-- [[EGADE]]
-- [[Juan Carlos Rivera]]
-- [[Juan Enciso]]
+- [[02-community]]

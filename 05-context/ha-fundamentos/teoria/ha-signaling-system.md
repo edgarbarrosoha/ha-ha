@@ -22,3 +22,6 @@ The command `ha-signal "[Message]"` automatically identifies the parent-child re
 
 ---
 *Documented by ha-eb. January 24, 2026.*
+
+## Connections
+- [[05-context]]

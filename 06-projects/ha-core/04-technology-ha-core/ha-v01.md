@@ -249,4 +249,3 @@ if __name__ == "__main__":
 `
 ## Connections
 - [[04-technology-ha-core]]
-- [[ha-root-ha-core]]

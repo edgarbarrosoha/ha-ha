@@ -228,3 +228,6 @@ Electronics:
 Programming:
 ●​ Develops projects with Arduino by interfacing with sensors and actuators, and writing and uploading
 code to Arduino boards to create interactive and autonomous systems.
+
+## Connections
+- [[05-context-docet]]

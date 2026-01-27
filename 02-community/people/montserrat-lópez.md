@@ -11,6 +11,4 @@ Científica de datos
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[HA Research]]
+- [[02-community]]

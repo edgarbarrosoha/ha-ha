@@ -539,3 +539,6 @@ En resumen, la persona participante ideal de INTERFAZ es catalizadora de cambio 
     
 
 ¿Por qué INTERFAZ? Andrés necesita ir más allá de la digitalización básica. Requiere un enfoque sistémico (AH), herramientas avanzadas (IA, datos), habilidades de liderazgo y comunicación política para "vender" su proyecto internamente, y una metodología (proyecto integrado) para construir una solución robusta y no solo otro piloto aislado.
+
+## Connections
+- [[HA PROJECTS]]

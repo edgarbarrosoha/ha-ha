@@ -8,4 +8,4 @@ kumu_id: "PER-SEBAST-0059"
 # Sebastián Sánchez
 
 ## Connections
-- [[HA COMMUNITY]]
+- [[02-community]]

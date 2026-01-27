@@ -215,3 +215,6 @@ reciprocity.
 ●​ Engages in characterization through makeup, costume, and principles of biomechanics (clown).
 ●​ Understands the features of a theatre, principles of lighting, and knows how to use them to create an
 ambience.
+
+## Connections
+- [[05-context-docet]]

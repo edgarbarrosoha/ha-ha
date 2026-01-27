@@ -199,3 +199,6 @@ un desarrollo cognitivo y gráfico adecuado. Refleja una niña con buena
 imagen de sí misma, creatividad, y posiblemente con una personalidad
 expresiva. No se observan indicadores gráficos que sugieran conflictos
 emocionales evidentes.
+
+## Connections
+- [[05-context-docet]]

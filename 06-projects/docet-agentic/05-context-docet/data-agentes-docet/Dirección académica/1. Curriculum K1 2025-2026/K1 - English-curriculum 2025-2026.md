@@ -149,3 +149,6 @@ I.  **INTRODUCTION**
 | 3**         |                                                                       |
 |             | - Listens and follows read aloud stories.                             |
 +=============+=======================================================================+
+
+## Connections
+- [[05-context-docet]]

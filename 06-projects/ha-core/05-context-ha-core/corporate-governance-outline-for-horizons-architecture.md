@@ -283,4 +283,3 @@
 2. Embracing innovation while maintaining integrity through a commitment to HA’s ethical principles and AI-based oversight.
 ## Connections
 - [[05-context-ha-core]]
-- [[ha-root-ha-core]]

@@ -85,4 +85,3 @@ Construye una narrativa que responda a estas preguntas estratégicas:
 
 ## Connections
 - [[04-technology-ncm]]
-- [[ha-root-ncm]]

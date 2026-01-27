@@ -27,6 +27,4 @@ Multilingual Collaboration
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[UPU]]
+- [[02-community]]

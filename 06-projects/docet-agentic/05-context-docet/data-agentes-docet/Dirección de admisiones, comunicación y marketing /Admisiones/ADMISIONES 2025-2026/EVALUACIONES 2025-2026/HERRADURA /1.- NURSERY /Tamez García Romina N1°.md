@@ -354,3 +354,6 @@ Creo que sería muy recomendable seguir el proceso de lenguaje, ya que a
 su edad, según nos marca la etapa de desarrollo, debería estar
 pronunciando de 20 a 50 palabras, dar seguimiento a la intención que los
 papás tienen de llevarla a clases de estimulación de lenguaje.
+
+## Connections
+- [[05-context-docet]]

@@ -499,3 +499,6 @@ escritura.
 Las actividades realizadas y revisadas en hojas de trabajo dentro del
 salón de clases así como en los laboratorios, deberán de ser archivadas
 en los folders y carpetas correspondientes.
+
+## Connections
+- [[05-context-docet]]

@@ -24,6 +24,4 @@ Risk Analysis
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[EGyTP]]
+- [[02-community]]

@@ -101,5 +101,4 @@ Horizons Architecture establishes a **methodological infrastructure** for comple
 The framework is not designed for application as a static methodology, but rather for co-development by its users, creating a shared architecture for navigating contemporary complexities and systematically exploring potential futures.
 
 ## Connections
-- [[HA ROOT]]
-- [[HA PROJECTS]]
+- [[ha-root-ha-core]]

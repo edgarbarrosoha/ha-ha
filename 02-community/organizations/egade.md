@@ -25,8 +25,4 @@ Higher Education | Business Administration | Entrepreneurship | Leadership Devel
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[Alexandra Solano]]
-- [[Pablo Buitrón]]
-- [[TEC DE MONTERREY]]
+- [[02-community]]

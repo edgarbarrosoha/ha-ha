@@ -12,6 +12,4 @@ CIDE
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[HA Research]]
+- [[02-community]]

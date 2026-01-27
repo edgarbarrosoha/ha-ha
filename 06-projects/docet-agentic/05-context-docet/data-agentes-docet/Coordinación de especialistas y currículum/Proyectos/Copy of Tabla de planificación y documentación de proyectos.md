@@ -62,3 +62,6 @@ folders:
 
 \*Fuente: Chard, Kogan, Castillo. (2018). El aprendizaje por proyectos
 en educación infantil y primaria. Morata:México.
+
+## Connections
+- [[05-context-docet]]

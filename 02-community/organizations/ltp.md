@@ -10,7 +10,4 @@ kumu_id: "COM-LTP-0018"
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[ECSyG]]
-- [[Edna Jaime ]]
+- [[02-community]]

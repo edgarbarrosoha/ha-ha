@@ -162,3 +162,6 @@ height="0.7744in"}
 
 ![](Pictures/10000201000000A200000038A0C41CF45F593D75.png){width="2.25in"
 height="0.7744in"}
+
+## Connections
+- [[05-context-docet]]

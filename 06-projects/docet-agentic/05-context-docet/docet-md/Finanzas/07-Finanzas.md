@@ -370,3 +370,6 @@ Evidencia de Aprendizaje: La presentación digital interactiva completada.
 Consejo Pedagógico: Dar múltiples sesiones para la construcción y una para el ensayo reduce la
 ansiedad y mejora la calidad final. El enfoque en la narrativa visual enseña a los estudiantes a "contar la
 historia" detrás de los números.
+
+## Connections
+- [[05-context-docet]]

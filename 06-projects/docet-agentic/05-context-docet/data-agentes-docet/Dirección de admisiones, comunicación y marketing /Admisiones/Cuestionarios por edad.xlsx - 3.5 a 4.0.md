@@ -55,3 +55,6 @@ Se pone sus zapatos sin anudarlos
 Limpia su nariz al recordarle e indicarle cómo hacerlo.
 
 Observaciones Generales
+
+## Connections
+- [[05-context-docet]]

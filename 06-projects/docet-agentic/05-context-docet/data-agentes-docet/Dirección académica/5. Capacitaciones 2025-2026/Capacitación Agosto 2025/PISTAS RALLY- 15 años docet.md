@@ -366,3 +366,6 @@ creciendo sin parar.\"
 sube al tercer piso, ahí está el lugar.\
 En el edificio circular, con ciencia y razón, los laboratorios guardan
 la siguiente misión.\"*
+
+## Connections
+- [[05-context-docet]]

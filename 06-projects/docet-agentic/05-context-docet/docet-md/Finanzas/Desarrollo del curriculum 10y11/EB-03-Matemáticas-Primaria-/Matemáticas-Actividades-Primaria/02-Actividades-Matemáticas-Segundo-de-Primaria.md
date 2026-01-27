@@ -594,3 +594,6 @@ matemáticas.
 • Crear un sentido de comunidad con su salón y con Docet.
 
 • Formar responsabilidad individual y colectiva en proyectos.
+
+## Connections
+- [[05-context-docet]]

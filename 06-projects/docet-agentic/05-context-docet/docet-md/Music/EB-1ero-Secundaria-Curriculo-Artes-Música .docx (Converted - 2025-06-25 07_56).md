@@ -741,3 +741,6 @@ consumen, crean y aprecian las expresiones artísticas de nuestros días;
 pues estas son un reflejo de quiénes somos y nos dan la pauta para
 reflexionar acerca de quiénes queremos ser. Finalmente, en Docet estamos
 educando para el futuro.
+
+## Connections
+- [[05-context-docet]]

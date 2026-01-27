@@ -906,3 +906,6 @@ He leído y analizado profundamente el archivo ha-fundamentos-compiled.md. Entie
 │   3. No, suggest changes (esc)                                                               │
 │                                                                                              │
 ╰───────────────────────────────────────────────────────────────────────────────────────────
+
+## Connections
+- [[05-context]]

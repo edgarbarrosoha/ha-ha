@@ -118,3 +118,6 @@ HA aspira a ser una disciplina académica además de un producto. Necesitamos en
 ---
 
 *Fuentes: Sitios universitarios, Google Scholar, redes académicas*
+
+## Connections
+- [[05-context]]

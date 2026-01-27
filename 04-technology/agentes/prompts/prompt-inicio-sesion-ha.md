@@ -44,3 +44,6 @@ Cada proyecto HA-enabled tiene su propia memoria:
 |----------|---------|
 | SIC-Q | `06-projects/sic-q/04-technology-sic-q/claude-terminal-memory/memory-sic-q.md` |
 | NCM | `06-projects/tec-monterrey/narrativa-campus-monterrey/04-technology-ncm/claude-terminal-memory/memory-ncm.md` |
+
+## Connections
+- [[04-technology]]

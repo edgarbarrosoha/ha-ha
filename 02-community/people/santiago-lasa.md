@@ -26,6 +26,4 @@ Regulatory Compliance | Risk Management | RegTech | Regulatory Reporting | AI-Co
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[HA Leads]]
+- [[02-community]]

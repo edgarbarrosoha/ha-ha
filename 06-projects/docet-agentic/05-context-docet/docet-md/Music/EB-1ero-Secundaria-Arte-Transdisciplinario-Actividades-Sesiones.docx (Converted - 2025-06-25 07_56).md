@@ -529,3 +529,6 @@ Aprendizajes esperados:
 >
 > • Crear en los alumnos un sentido de comunidad con su salón y con
 > Docet.
+
+## Connections
+- [[05-context-docet]]

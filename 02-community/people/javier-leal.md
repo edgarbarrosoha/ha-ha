@@ -29,6 +29,4 @@ Community Design
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[HA Leads]]
+- [[02-community]]

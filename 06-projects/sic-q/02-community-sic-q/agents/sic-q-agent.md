@@ -93,4 +93,3 @@ El objetivo final es lograr que el ciudadano sienta **autoeficacia política**: 
 
 ## Connections
 - [[02-community-sic-q]]
-- [[ha-root-sic-q]]

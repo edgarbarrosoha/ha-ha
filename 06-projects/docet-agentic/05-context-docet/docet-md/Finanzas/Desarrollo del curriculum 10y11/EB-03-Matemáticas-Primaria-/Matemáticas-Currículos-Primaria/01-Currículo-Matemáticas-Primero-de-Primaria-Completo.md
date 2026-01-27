@@ -722,3 +722,6 @@ los retos sociales a los que nos enfrentamos.
 • Entender a las matemáticas como una herramienta de expresión creativa
 que moldea sus cerebros y su capacidad de construir lo que su
 imaginación les dicte.
+
+## Connections
+- [[05-context-docet]]

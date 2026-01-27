@@ -117,5 +117,4 @@ HA augmenta, no reemplaza. Siempre mantén al humano en control de decisiones es
 
 
 ## Connections
-- [[HA ROOT]]
-- [[HA PROJECTS]]
+- [[ha-root-ha-core]]

@@ -44,5 +44,4 @@ Crear un framework que permita a individuos e instituciones navegar complejidad 
 ← [[ha-root-ha-core|Root]] | [[02-community-ha-core|Community]] →
 
 ## Connections
-- [[01-legacy-ha-core]]
 - [[ha-root-ha-core]]

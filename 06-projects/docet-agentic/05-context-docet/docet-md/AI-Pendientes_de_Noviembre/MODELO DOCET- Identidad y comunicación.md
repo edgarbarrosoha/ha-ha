@@ -1124,3 +1124,6 @@ la inteligencia artificial
 para potenciar sus ideas y proyectos: grabando podcasts, produciendo música, creando representaciones artísticas y colaborando con otros laboratorios para crear experiencias únicas y 
 divertidas.
 En Docet, la música es el lenguaje que transmite una forma de pensar, de sentir y de transformar lo que los rodea.
+
+## Connections
+- [[05-context-docet]]

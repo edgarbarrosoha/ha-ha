@@ -22,4 +22,4 @@ kumu_id: "COM-KETXAL-0016"
 Digital Solutions | Software Development | Innovation | User Experience
 
 ## Connections
-- [[HA COMMUNITY]]
+- [[02-community]]

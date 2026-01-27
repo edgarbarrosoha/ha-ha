@@ -203,4 +203,3 @@ Porque responden a la pregunta de transformación. Son las únicas que rompen lo
 
 ## Connections
 - [[01-legacy-ncm]]
-- [[ha-root-ncm]]

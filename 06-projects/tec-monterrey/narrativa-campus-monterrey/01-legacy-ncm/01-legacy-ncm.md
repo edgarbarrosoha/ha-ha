@@ -70,5 +70,3 @@ Este principio guía las decisiones cuando todo lo demás cambia. No es nostalgi
 
 ## Connections
 - [[ha-root-ncm]]
-- [[HA ROOT]]
-- [[HA PROJECTS]]

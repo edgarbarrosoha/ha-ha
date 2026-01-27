@@ -69,3 +69,6 @@ Se lava y seca las manos sin ayuda.
 Controla sus esfínteres y deposiciones.
 
 Observaciones Generales
+
+## Connections
+- [[05-context-docet]]

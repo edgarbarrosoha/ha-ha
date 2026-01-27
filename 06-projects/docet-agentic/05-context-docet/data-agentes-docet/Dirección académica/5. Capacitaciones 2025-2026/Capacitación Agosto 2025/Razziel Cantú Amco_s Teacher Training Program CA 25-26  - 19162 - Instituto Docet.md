@@ -126,3 +126,6 @@ Qué tomar en cuenta:
 ¡Llevamos el arte de educar a un nuevo nivel, contigo!
 
 al
+
+## Connections
+- [[05-context-docet]]

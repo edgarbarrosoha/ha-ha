@@ -644,4 +644,3 @@ Rogelio Sandoval: Perfecto. Muchas gracias. Gracias Y gracias. Nos vemos Edgar.
 
 ## Connections
 - [[06-projects-ncm]]
-- [[ha-root-ncm]]

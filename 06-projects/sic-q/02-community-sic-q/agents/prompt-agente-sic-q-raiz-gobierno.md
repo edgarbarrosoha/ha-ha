@@ -466,4 +466,3 @@ _Desarrollado por: Horizons Architecture + Instituto del Futuro de Querétaro_
 
 ## Connections
 - [[02-community-sic-q]]
-- [[ha-root-sic-q]]

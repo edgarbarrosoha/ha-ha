@@ -9,6 +9,4 @@ kumu_id: "PER-MIGUEL-0154"
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[TEC DE MONTERREY]]
+- [[02-community]]

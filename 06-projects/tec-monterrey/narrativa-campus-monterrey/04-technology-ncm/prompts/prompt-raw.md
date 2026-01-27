@@ -10,4 +10,3 @@ Ahora el Reto es como lo planteamos sin que esto sea la Biblia. Cómo creamos un
 
 ## Connections
 - [[04-technology-ncm]]
-- [[ha-root-ncm]]

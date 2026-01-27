@@ -433,4 +433,3 @@ El objetivo final no es procesar propuestas sino construir confianza. Cada ciuda
 _Documento elaborado como parte del diseño del Sistema de Inteligencia Colectiva de Querétaro (SIC-Q).Horizons Architecture, 2026._
 ## Connections
 - [[04-technology-sic-q]]
-- [[ha-root-sic-q]]

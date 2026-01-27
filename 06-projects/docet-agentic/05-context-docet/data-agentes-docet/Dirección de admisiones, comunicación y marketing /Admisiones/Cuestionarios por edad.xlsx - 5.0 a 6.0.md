@@ -75,3 +75,6 @@ rebota y atrapa pelotas pequeñas.
 engoma y pega figuras adecuadamente.
 
 Observaciones Generales
+
+## Connections
+- [[05-context-docet]]

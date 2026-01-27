@@ -359,3 +359,6 @@ información financiera.
 
 - Dirección de Comunicación y Marketing: apoyo en pricing, captación y
   sostenibilidad del crecimiento.
+
+## Connections
+- [[05-context-docet]]

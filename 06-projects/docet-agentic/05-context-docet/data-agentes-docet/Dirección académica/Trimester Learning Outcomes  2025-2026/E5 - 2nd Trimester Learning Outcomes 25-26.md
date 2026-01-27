@@ -395,3 +395,6 @@ folders:
 |                                     |   commedia dell\'arte, their context, and is able to  |
 |                                     |   engage in the archetypal characterisation.          |
 +=====================================+=======================================================+
+
+## Connections
+- [[05-context-docet]]

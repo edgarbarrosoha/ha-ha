@@ -26,6 +26,4 @@ kumu_id: "PER-FRANCI-0022"
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[HA External Providers]]
+- [[02-community]]

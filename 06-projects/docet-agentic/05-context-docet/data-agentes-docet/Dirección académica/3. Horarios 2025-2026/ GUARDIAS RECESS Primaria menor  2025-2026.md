@@ -193,3 +193,6 @@ Equipo 1°, 2° Y 3°
   16 - 20 Feb.  23 - 27 Feb.    Josefina       Dany           Ale G/Jimena   Renata          Rocío 
   2- 6 Mar.  9 - 13 Mar.        Rocío          Josefina       Dany           Ale G/Jimena    Renata
   16 - 20 Mar.  23 - 27 Mar.    Mariel         Rocío          Josefina       Dany            Ale G/Jimena
+
+## Connections
+- [[05-context-docet]]

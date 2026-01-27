@@ -11,8 +11,4 @@ TEC DE MONTERREY
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[Edgar Muñiz]]
-- [[HA PROJECTS]]
-- [[TEC DE MONTERREY]]
+- [[02-community]]

@@ -9,6 +9,4 @@ kumu_id: "PER-JUANMA-0038"
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[Jorge Hernández]]
+- [[02-community]]

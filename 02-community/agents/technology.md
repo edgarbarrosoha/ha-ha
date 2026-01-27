@@ -65,10 +65,7 @@ For HA-HA: Build the technology that makes HA scalable and accessible.
 | Infrastructure | TBD |
 
 ## Connections
-
-- **Receives from:** @root (how questions), @projects (technical needs)
-- **Sends to:** @projects (capabilities), all dimensions (data access)
-- **Queries:** @context (technology trends), @learning (best practices)
+- [[02-community]]
 
 ## Subagents
 
@@ -88,7 +85,4 @@ For HA-HA: Build the technology that makes HA scalable and accessible.
 *Technology enables. The methodology transforms. Together: the unicorn.*
 
 ## Connections
-
-- [[02-community]] — Dimension index
-- [[HA COMMUNITY]] — Community dimension
-- [[HA ROOT]] — Central hub of Horizons Architecture
+- [[02-community]]

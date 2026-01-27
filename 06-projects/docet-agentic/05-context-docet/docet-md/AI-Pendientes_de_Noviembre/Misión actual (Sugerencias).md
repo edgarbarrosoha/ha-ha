@@ -159,3 +159,6 @@ utilice su aprendizaje en la construcción de una vida plena.
 -   **Carácter y valores.** Amor, honestidad y armonía como práctica
     diaria. Fomentamos **audacia responsable**: iniciativa con método y
     cuidado.
+
+## Connections
+- [[05-context-docet]]

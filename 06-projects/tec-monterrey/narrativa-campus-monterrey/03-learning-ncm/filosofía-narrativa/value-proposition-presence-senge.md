@@ -139,4 +139,3 @@ If you want, I can also:
 
 ## Connections
 - [[03-learning-ncm]]
-- [[ha-root-ncm]]

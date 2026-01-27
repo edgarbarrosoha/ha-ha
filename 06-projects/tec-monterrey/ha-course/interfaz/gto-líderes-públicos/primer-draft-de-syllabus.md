@@ -217,3 +217,6 @@ Este documento presenta el plan estratégico y el temario del **Diplomado en Lid
 4. **Red de colaboración post-diplomado:** ≥50% participantes siguen activos
     
 5. **Gestión eficiente de recursos:** Presupuesto controlado con calidad asegurada
+
+## Connections
+- [[HA PROJECTS]]

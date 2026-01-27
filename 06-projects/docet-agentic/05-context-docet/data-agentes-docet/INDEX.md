@@ -522,5 +522,4 @@ Obsidian index of all converted notes.
 
 
 ## Connections
-- [[HA ROOT]]
-- [[HA PROJECTS]]
+- [[05-context-docet]]

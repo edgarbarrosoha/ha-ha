@@ -12,6 +12,4 @@ SAPAL
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[SAPAL]]
+- [[02-community]]

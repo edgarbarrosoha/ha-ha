@@ -1135,3 +1135,6 @@ folders:
 |                                    |   demostrando habilidades motoras básicas, así como   |
 |                                    |   coordinación y control corporal.]{.mark}            |
 +====================================+=======================================================+
+
+## Connections
+- [[05-context-docet]]

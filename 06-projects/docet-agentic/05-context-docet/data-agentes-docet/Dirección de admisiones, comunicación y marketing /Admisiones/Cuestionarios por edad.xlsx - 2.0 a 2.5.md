@@ -79,3 +79,6 @@ Brinca con los dos pies en un espacio (sin avanzar).
 Imita trazos circulares, horizontales y verticales.
 
 Observaciones Generales
+
+## Connections
+- [[05-context-docet]]

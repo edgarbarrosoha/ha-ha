@@ -360,3 +360,6 @@ muestre el "antes y después".
 Evidencia de Aprendizaje: La presentación (en el formato elegido) y la gráfica comparativa utilizada.
 Consejo Pedagógico: Ofrecer formatos alternativos asegura que todos los niños puedan comunicar sus
 logros de la manera que mejor se adapte a sus fortalezas, fomentando la inclusión y la creatividad.
+
+## Connections
+- [[05-context-docet]]

@@ -100,3 +100,6 @@ I.  **INTRODUCTION**
 ![](media/image2.png){width="8.5in" height="11.0in"}
 
 **III. ADDITIONAL RESOURCES AND PROJECT IDEAS**
+
+## Connections
+- [[05-context-docet]]

@@ -570,3 +570,6 @@ computacionales.
 • Entender las prácticas básicas relacionadas con emprendimiento,
 incluida la capacidad de organizar, diseñar proyectos y trabajar
 productivamente como miembro y/o líder de un equipo de arte digital.
+
+## Connections
+- [[05-context-docet]]

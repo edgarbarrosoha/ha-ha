@@ -25,6 +25,4 @@ Digital Transformation | Public Policy | Digital Inclusion | Cybersecurity | Blo
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[UPU]]
+- [[02-community]]

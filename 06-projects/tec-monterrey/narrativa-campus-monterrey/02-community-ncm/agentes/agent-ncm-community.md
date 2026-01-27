@@ -57,4 +57,3 @@ Eres el agente de Community para la Narrativa Campus Monterrey. Tu rol es asegur
 
 ## Connections
 - [[02-community-ncm]]
-- [[ha-root-ncm]]

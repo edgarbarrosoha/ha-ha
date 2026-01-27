@@ -349,3 +349,6 @@ Le invitamos a formar parte de esta comunidad de profesionales que están redefi
 
 - Correo: educacion.continua@tec.mx
 - Sitio web: www.tec.mx/horizons-architecture
+
+## Connections
+- [[HA PROJECTS]]

@@ -1113,3 +1113,6 @@ Referencia: Common sense media https://www.commonsense.org/education/
 
 Calle El Encino 1200, Col. Los Encinos
 Monterrey, N.L., C.P. 64987, Tel. + 52 (81) 10994435 ó 10994437
+
+## Connections
+- [[05-context-docet]]

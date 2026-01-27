@@ -162,3 +162,6 @@ Copiar y pegar el prompt anterior al iniciar una nueva sesión de Claude Code.
 | SIC-Q | `06-projects/sic-q/04-technology-sic-q/claude-terminal-memory/memory-sic-q.md` |
 | NCM | `06-projects/tec-monterrey/narrativa-campus-monterrey/04-technology-ncm/claude-terminal-memory/memory-ncm.md` |
 | DOCET | `06-projects/docet-agentic/04-technology-docet/claude-terminal-memory/memory-docet.md` |
+
+## Connections
+- [[04-technology]]

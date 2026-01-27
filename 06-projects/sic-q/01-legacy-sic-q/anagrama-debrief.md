@@ -48,4 +48,3 @@ No, todavía no tenemos un sitio web. Actualmente no tenemos dominio ni cuenta d
 
 ## Connections
 - [[01-legacy-sic-q]]
-- [[ha-root-sic-q]] 

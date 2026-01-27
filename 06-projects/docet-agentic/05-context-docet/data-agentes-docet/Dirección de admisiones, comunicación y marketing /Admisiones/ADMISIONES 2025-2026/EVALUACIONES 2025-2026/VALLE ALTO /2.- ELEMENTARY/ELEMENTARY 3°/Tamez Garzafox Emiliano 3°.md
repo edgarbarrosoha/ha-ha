@@ -184,3 +184,6 @@ b)  Pudo haber respondido impulsivamente, sin detenerse a razonar del
 
 c)  También puede indicar baja tolerancia a la frustración si dejó ítems
     sin responder o los evitó por no querer equivocarse.
+
+## Connections
+- [[05-context-docet]]

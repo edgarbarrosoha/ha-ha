@@ -392,3 +392,6 @@ folders:
 |                                    |   through the creative process of a theatrical         |
 |                                    |   performance.                                         |
 +====================================+========================================================+
+
+## Connections
+- [[05-context-docet]]

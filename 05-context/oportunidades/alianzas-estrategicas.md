@@ -151,3 +151,6 @@ TOTAL: [weighted sum]
 ---
 
 *Fuentes: Análisis interno, benchmarks de partnerships*
+
+## Connections
+- [[05-context]]

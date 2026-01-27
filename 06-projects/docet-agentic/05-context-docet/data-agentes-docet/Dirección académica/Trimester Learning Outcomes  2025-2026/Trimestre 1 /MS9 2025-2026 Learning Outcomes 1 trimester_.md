@@ -327,3 +327,6 @@ folders:
 |                                    |   demonstrating skills audio, and visual elements to  |
 |                                    |   create an immersive environment.                    |
 +====================================+=======================================================+
+
+## Connections
+- [[05-context-docet]]

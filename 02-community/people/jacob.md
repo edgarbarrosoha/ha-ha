@@ -9,4 +9,4 @@ kumu_id: "PER-JACOB-0116"
 # Jacob 
 
 ## Connections
-- [[HA COMMUNITY]]
+- [[02-community]]

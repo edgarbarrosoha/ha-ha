@@ -424,3 +424,6 @@ para el entrevistador
 
 - Se puede tomar una foto tipo \"set de entrevistas\" como recuerdo
   divertido.
+
+## Connections
+- [[05-context-docet]]

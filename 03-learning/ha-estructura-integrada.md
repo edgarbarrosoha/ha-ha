@@ -869,3 +869,6 @@ transversal:
     subfolders: ["weekly", "monthly", "quarterly", "annual"]
 
 ```
+
+## Connections
+- [[03-learning]]

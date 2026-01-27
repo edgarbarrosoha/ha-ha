@@ -22,4 +22,4 @@ kumu_id: "COM-ANKERB-0002"
 Organizational Design │ Talent Development │ Leadership │ Human Capability │ Organizational Complexity │ Management Strategy
 
 ## Connections
-- [[HA COMMUNITY]]
+- [[02-community]]

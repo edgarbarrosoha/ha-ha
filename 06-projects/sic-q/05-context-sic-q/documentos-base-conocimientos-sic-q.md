@@ -178,4 +178,3 @@ Lista de información mínima necesaria para construir una base de conocimientos
 
 ## Connections
 - [[05-context-sic-q]]
-- [[ha-root-sic-q]]

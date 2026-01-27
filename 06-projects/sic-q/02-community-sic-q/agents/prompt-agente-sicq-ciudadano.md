@@ -695,4 +695,3 @@ _Componente de: Sistema de Inteligencia Colectiva de Querétaro (SIC-Q)_
 
 ## Connections
 - [[02-community-sic-q]]
-- [[ha-root-sic-q]]

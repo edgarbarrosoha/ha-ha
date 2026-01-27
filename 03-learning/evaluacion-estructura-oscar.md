@@ -238,3 +238,6 @@ Crear una guia simple:
 Aplicar la estructura propuesta a `05-context/` creando las carpetas vacias con README.md minimos. Esto sirve como "template" que luego se puede replicar en proyectos.
 
 Quieres que proceda?
+
+## Connections
+- [[03-learning]]

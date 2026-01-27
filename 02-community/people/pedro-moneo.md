@@ -25,7 +25,4 @@ Innovation Strategy | Venture Building | Venture Capital | Open Innovation | Ent
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[Cristian Habib Montero]]
-- [[Opinno]]
+- [[02-community]]

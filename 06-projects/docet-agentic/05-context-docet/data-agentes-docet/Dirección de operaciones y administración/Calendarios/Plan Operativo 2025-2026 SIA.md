@@ -274,3 +274,6 @@ Junio 2026
 - Evaluación de Personal
 
 Julio 2026
+
+## Connections
+- [[05-context-docet]]

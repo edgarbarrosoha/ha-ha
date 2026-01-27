@@ -247,4 +247,3 @@ El Equipo de Arquitectura de Horizontes
 
 ## Connections
 - [[06-projects-ha-core]]
-- [[ha-root-ha-core]]

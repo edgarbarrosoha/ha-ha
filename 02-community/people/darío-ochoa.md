@@ -25,6 +25,4 @@ Sustainability Strategy | ESG Management | Corporate Affairs | Institutional Rel
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[FEMSA]]
+- [[02-community]]

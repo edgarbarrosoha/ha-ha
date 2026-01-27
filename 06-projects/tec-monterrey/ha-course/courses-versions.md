@@ -998,3 +998,6 @@ Al finalizar, la persona participante será capaz de:
 Con este diseño, el Tec de Monterrey no solo ofrecerá un curso; creará una **experiencia transformadora** que posiciona a Horizons Architecture como el marco de referencia para afrontar los desafíos complejos de la próxima década. ¡Listos para convertirlo en un clásico Tec!
 
 ---
+
+## Connections
+- [[HA PROJECTS]]

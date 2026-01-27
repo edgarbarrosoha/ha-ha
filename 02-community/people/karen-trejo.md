@@ -9,6 +9,4 @@ kumu_id: "PER-KARENT-0079"
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[HA External Providers]]
+- [[02-community]]

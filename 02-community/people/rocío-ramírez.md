@@ -24,6 +24,4 @@ Production Planning | Inventory Management | Warehouse Supervision | Materials P
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[Luis Almanza]]
+- [[02-community]]

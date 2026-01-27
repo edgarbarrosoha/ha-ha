@@ -107,4 +107,3 @@ Detecta cuando HA se desvía:
 
 ## Connections
 - [[01-legacy-ha-core]]
-- [[ha-root-ha-core]]

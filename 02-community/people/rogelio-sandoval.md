@@ -23,6 +23,4 @@ IT Solutions | Sales Strategy | Marketing Strategy | Customer Experience | Enter
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[TEC DE MONTERREY]]
+- [[02-community]]

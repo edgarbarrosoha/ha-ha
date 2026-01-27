@@ -47,4 +47,3 @@ El propósito final es convencer al Secretario Rangel de que esta arquitectura n
 
 ## Connections
 - [[04-technology-sic-q]]
-- [[ha-root-sic-q]]

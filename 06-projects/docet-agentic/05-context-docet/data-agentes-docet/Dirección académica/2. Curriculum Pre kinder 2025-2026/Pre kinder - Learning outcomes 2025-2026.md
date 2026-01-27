@@ -350,3 +350,6 @@ LEARNING OUTCOMES
 |                                    |                                                                                                                                                                |
 |                                    | ### Realiza obras artísticas con técnicas inspiradas en diversos artistas nacionales e internacionales.                                                        |
 +====================================+================================================================================================================================================================+
+
+## Connections
+- [[05-context-docet]]

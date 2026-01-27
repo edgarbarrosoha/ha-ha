@@ -64,3 +64,6 @@ Participantes
 20 .- Abilene Guillén - Compras
 
 21.- Maricarmen De La Hoya - Dirección Académica
+
+## Connections
+- [[05-context-docet]]

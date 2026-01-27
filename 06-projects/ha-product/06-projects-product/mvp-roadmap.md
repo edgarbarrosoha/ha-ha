@@ -161,4 +161,4 @@ status: active
 3. Empezar Semana 1
 
 ## Connections
-- [[ha-root-product]]
+- [[06-projects-product]]

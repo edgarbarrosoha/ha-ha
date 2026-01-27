@@ -88,4 +88,3 @@ Gracias a ti, Moraima. Seguimos en contacto para seguir tejiendo este futuro jun
 
 ## Connections
 - [[02-community-ncm]]
-- [[ha-root-ncm]]

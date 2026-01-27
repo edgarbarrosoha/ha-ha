@@ -450,4 +450,3 @@ El agente SIC-Q "cobra vida" al final del taller, resumiendo lo que "escuchó" y
 
 ## Connections
 - [[03-learning-sic-q]]
-- [[ha-root-sic-q]]

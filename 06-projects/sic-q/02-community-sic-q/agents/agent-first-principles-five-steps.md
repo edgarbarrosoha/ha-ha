@@ -42,4 +42,3 @@ When I present a problem, process, or design to you, you must rigorously run it 
 
 ## Connections
 - [[02-community-sic-q]]
-- [[ha-root-sic-q]]

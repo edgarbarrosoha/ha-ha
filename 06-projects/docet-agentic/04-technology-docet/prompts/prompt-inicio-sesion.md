@@ -39,7 +39,4 @@ Copiar y pegar el prompt anterior al iniciar una nueva sesión de Claude Code.
 ---
 
 ## Connections
-
-- [[04-technology-docet|Technology DOCET]] — Dimensión padre
-- [[ha-root-docet|HA Root DOCET]] — Nodo raíz del proyecto
-- [[memory-docet|Memory DOCET]] — Archivo de memoria referenciado
+- [[04-technology-docet]]

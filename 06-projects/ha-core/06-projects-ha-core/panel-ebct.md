@@ -39,4 +39,3 @@ Una arquitectura que evoluciona con quienes la usan.
 - **Aliados estratégicos**: Los clientes de muchos años se vuelven parte del sistema mismo, no usuarios externos.
 ## Connections
 - [[06-projects-ha-core]]
-- [[ha-root-ha-core]]

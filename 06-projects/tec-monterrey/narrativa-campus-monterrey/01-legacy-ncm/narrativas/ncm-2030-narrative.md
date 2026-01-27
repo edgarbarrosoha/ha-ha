@@ -496,5 +496,3 @@ Las cuatro apuestas (Distrito, Posgrados, Selectividad, Facultad) son el marco e
 
 ## Connections
 - [[01-legacy-ncm]]
-- [[ha-root-ncm]]
-

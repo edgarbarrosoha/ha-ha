@@ -31,4 +31,4 @@ Public Governance |
 International Cooperation
 
 ## Connections
-- [[HA COMMUNITY]]
+- [[02-community]]

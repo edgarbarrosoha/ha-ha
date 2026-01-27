@@ -24,7 +24,4 @@ Venture Capital | Startup Investment | Business Development | Entrepreneurship |
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[Fondos de Inversión]]
-- [[José Luis Cimental]]
+- [[02-community]]

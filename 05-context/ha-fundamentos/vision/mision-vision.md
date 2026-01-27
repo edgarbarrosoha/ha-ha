@@ -20,3 +20,6 @@
 - Long-term (24-60 months): Scale global operations, balance consulting and SaaS offerings, and achieve meaningful status within 5 years⁠[1](https://www.notion.so/HA-Strategy-af5eb99b0cfb4b43803a696c6c96df1d?pvs=53#4bf21bed4fae499fbbd6fa88f941300e)⁠
 ---
 [versión completa](https://www.notion.so/horizonsarchitecure/HA-Strategy-af5eb99b0cfb4b43803a696c6c96df1d?pvs=4 )
+
+## Connections
+- [[05-context]]

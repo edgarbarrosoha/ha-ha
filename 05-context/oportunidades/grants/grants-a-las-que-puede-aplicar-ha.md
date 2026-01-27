@@ -22,3 +22,6 @@
 - **LAB Company Builder**:
     - **Description**: Focuses on life sciences startups and provides up to $750,000 in funding and access to top-level scientific ecosystems.
     - **Deadline**: September 15, 2024.
+
+## Connections
+- [[05-context]]

@@ -135,4 +135,3 @@ Cuando el Root Agent te consulta:
 
 ## Connections
 - [[05-context-ha-core]]
-- [[ha-root-ha-core]]

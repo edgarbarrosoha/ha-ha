@@ -27,7 +27,4 @@ Digital Transformation
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[Cuitláhuac Osorio]]
-- [[HA Leads]]
+- [[02-community]]

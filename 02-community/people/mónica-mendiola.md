@@ -12,4 +12,4 @@ kumu_id: "PER-MONICA-0216"
 HA External Providers
 
 ## Connections
-- [[HA COMMUNITY]]
+- [[02-community]]

@@ -23,6 +23,4 @@ Strategic Planning | Project Management | Decision Theory | Operations Research 
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[Consejo Mexicano de Negocios]]
+- [[02-community]]

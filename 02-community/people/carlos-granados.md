@@ -32,6 +32,4 @@ Financial Optimization & Strategic Planning
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[TALISIS]]
+- [[02-community]]

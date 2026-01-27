@@ -52,10 +52,7 @@ For HA-HA: Build and evolve the HA methodology while developing team capabilitie
 | Team | Skills, gaps | Training programs |
 
 ## Connections
-
-- **Receives from:** @root (knowledge questions), @projects (lessons)
-- **Sends to:** @projects (capabilities), @community (training needs)
-- **Queries:** @context (external knowledge sources)
+- [[02-community]]
 
 ## Subagents
 
@@ -73,7 +70,4 @@ None directly at HA-HA level. Uses HA-EB @researcher for deep research.
 *We learn while doing. We teach while learning. The methodology evolves.*
 
 ## Connections
-
-- [[02-community]] — Dimension index
-- [[HA COMMUNITY]] — Community dimension
-- [[HA ROOT]] — Central hub of Horizons Architecture
+- [[02-community]]

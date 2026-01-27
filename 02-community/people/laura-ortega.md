@@ -24,4 +24,4 @@ kumu_id: "PER-LAURAO-0125"
 Business Intelligence | Data Analytics | Product Development | Predictive Modeling | AI Integration | Marketing Strategy | SQL & Power BI | Revenue Optimization | Cross-functional Leadership
 
 ## Connections
-- [[HA COMMUNITY]]
+- [[02-community]]

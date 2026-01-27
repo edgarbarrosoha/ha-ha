@@ -152,4 +152,3 @@ Siguiente Proyecto (mejor)
 
 ## Connections
 - [[06-projects-ha-core]]
-- [[ha-root-ha-core]]

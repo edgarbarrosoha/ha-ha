@@ -141,4 +141,3 @@ Siempre diseñar con puntos de control humano. Nunca automatizar decisiones estr
 
 ## Connections
 - [[04-technology-ha-core]]
-- [[ha-root-ha-core]]

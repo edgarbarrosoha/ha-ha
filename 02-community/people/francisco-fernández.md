@@ -24,7 +24,4 @@ Legal Consultancy | Corporate Law | Labor Law | Notary Law | Succession Law | Pr
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[HA External Providers]]
-- [[HA Legal Team]]
+- [[02-community]]

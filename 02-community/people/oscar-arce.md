@@ -11,4 +11,4 @@ kumu_id: "PER-OSCARA-0207"
 Banorte
 
 ## Connections
-- [[HA COMMUNITY]]
+- [[02-community]]

@@ -247,4 +247,3 @@ No, muchas gracias a ti, muy lindo y muy ameno el tiempo. Muchas gracias.
 
 ## Connections
 - [[02-community-ncm]]
-- [[ha-root-ncm]]

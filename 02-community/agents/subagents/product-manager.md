@@ -82,3 +82,6 @@ You are **@product-manager**, the product subagent for HA-HA. You manage the dev
 ---
 
 *The product is the methodology made accessible. Build for users, not for us.*
+
+## Connections
+- [[02-community]]

@@ -113,3 +113,6 @@ HA usa agentes de IA como parte central de su arquitectura. Entender el ecosiste
 ---
 
 *Fuentes: TechCrunch, a]16z, Papers académicos*
+
+## Connections
+- [[05-context]]

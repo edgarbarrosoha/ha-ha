@@ -848,3 +848,6 @@ Horizons Architecture (HA) serves as a powerful tool for fostering multi, inter,
 - **Facilitating Transdisciplinary Innovation**
     - The HA framework plays a crucial role in facilitating transdisciplinary innovation by allowing stakeholders to navigate the confluence of diverse fields and harness the collective intelligence of interdisciplinary teams. By providing a shared structure for collaboration and communication, HA enables the exchange of knowledge, expertise, and resources, driving transformative changes in complex endeavors.
     - Ultimately, Horizons Architecture's transdisciplinary nature and embrace of confluence science provide a solid foundation for multi, inter, and transdisciplinary collaboration. By integrating diverse fields and fostering a culture of shared learning and innovation, HA empowers users to tackle intricate challenges and drive meaningful transformation across a wide range of domains.
+
+## Connections
+- [[05-context]]

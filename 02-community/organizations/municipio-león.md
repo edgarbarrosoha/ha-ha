@@ -23,7 +23,4 @@ Local administration | Urban management | Public services | Regional development
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[Carlos Torres]]
-- [[HA Leads]]
+- [[02-community]]

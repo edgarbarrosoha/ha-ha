@@ -142,3 +142,6 @@ Este directorio es parte del ecosistema de documentación de HA:
 ---
 
 *Horizons Architecture — Helping humans achieve*
+
+## Connections
+- [[05-context]]

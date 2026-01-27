@@ -14,4 +14,4 @@ kumu_id: "PER-HECTOR-0005"
 # Héctor "El Pájaro"
 
 ## Connections
-- [[HA COMMUNITY]]
+- [[02-community]]

@@ -27,6 +27,4 @@ Product Design | UX Research | User Insights | Service Design | Storytelling | I
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[HA External Providers]]
+- [[02-community]]

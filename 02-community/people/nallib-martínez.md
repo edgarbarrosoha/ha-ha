@@ -22,4 +22,4 @@ kumu_id: "PER-NALLIB-0235"
 Student Leadership | Event Logistics | Teamwork | Programming (Python) | Political Theory | Campus Activities
 
 ## Connections
-- [[HA COMMUNITY]]
+- [[02-community]]

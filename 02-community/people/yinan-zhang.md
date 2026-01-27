@@ -25,6 +25,4 @@ Systematic Portfolio Management | Quantitative Research | Investment Strategy | 
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[HA Leads]]
+- [[02-community]]

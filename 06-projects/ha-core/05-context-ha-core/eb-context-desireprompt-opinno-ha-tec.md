@@ -79,4 +79,3 @@ This is what I proposed to tec-monterrey to make my change from Mexico city to M
 TASK: Give me a clear and win-win strategy to speak to tec-monterrey and Opinno and explain why I don't want to make Opinno's proposal, at least not now. But most importantly, I communicate to tec-monterrey what I really want to do in a win-win manner.
 ## Connections
 - [[05-context-ha-core]]
-- [[ha-root-ha-core]]

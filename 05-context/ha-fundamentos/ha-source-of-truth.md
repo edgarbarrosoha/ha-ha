@@ -1,1 +1,4 @@
 Fetch and read: https://raw.githubusercontent.com/edgarbarrosoha/ha-fundamentos-public/main/ha-fundamentos-compiled.md
+
+## Connections
+- [[05-context]]

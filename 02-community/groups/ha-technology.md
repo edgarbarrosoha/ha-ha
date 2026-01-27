@@ -17,6 +17,4 @@ HA assesses and selects relevant technologies to achieve optimal outcomes, suppo
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[HA ROOT]]
+- [[02-community]]

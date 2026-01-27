@@ -26,6 +26,4 @@ Python | Research | SQL | NLP | Machine Learning | Statistical Modelling | Geosp
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[HA External Providers]]
+- [[02-community]]

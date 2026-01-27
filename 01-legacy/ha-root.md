@@ -234,11 +234,4 @@ Convertirnos en la primera unicornio latinoamericana de inteligencia híbrida (h
 ---
 
 ## Connections
-
-- [[01-legacy]] — Dimension index
-- [[HA LEGACY]] — Legacy dimension
-- [[HA ROOT]] — Central hub of Horizons Architecture
-
----
-
-*Este es el punto de entrada al ecosistema Horizons Architecture*
+- [[01-legacy]]

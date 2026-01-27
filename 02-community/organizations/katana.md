@@ -11,6 +11,4 @@ kumu_id: "COM-KATANA-0020"
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[HA External Providers]]
+- [[02-community]]

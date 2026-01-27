@@ -410,3 +410,6 @@ inversión no son solo matemáticas, sino también de valores.
 Evidencia de Aprendizaje: Un párrafo escrito por cada alumno justificando su voto final.
 Consejo Pedagógico: Esta actividad eleva la conversación de "cuánto puedo ganar" a "cómo quiero que
 mi dinero impacte el mundo", sembrando la semilla de la ciudadanía financiera responsable.
+
+## Connections
+- [[05-context-docet]]

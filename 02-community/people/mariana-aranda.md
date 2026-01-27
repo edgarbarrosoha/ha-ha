@@ -26,7 +26,4 @@ Web Design | WordPress + Elementor Pro | Website Optimization | SEO | Project Ma
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[Javier Ocampo]]
-- [[Sarahí Orduño ]]
+- [[02-community]]

@@ -24,7 +24,4 @@ Strategic Consulting
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[Cutter Consortium]]
-- [[INE ]]
+- [[02-community]]

@@ -228,3 +228,6 @@ movement, light, color, and their main characteristics, resulting in several art
 Installation art:
 ●​ Introduces installation art as a contemporary form of expression, experimenting with space, materials,
 and viewer interaction.
+
+## Connections
+- [[05-context-docet]]

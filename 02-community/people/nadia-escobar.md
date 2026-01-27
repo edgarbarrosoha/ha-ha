@@ -12,4 +12,4 @@ kumu_id: "PER-NADIAE-0226"
 HA Legal Team
 
 ## Connections
-- [[HA COMMUNITY]]
+- [[02-community]]

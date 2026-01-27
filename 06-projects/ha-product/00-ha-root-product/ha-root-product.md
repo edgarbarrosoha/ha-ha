@@ -60,5 +60,4 @@ Un asistente que:
 
 
 ## Connections
-- [[HA ROOT]]
 - [[HA PROJECTS]]

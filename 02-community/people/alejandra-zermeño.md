@@ -24,6 +24,4 @@ Strategic Design | Experience Design | Interdisciplinary Collaboration | Innovat
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[Laura Segarra]]
+- [[02-community]]

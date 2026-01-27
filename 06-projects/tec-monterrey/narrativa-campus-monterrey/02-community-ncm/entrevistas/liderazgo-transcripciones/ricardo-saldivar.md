@@ -802,4 +802,3 @@ Ricardo Saldívar: muy mal. Esos tan personas que tienen mesita.
 
 ## Connections
 - [[02-community-ncm]]
-- [[ha-root-ncm]]

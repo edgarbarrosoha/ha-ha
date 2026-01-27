@@ -19,4 +19,3 @@ Fuente: guillermo-torre.md
 
 ## Connections
 - [[01-legacy-ncm]]
-- [[ha-root-ncm]]

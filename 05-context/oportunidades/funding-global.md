@@ -168,3 +168,6 @@ HA busca escalar. Funding (VC, grants, revenue) determina velocidad y tipo de cr
 ---
 
 *Fuentes: Crunchbase, VC websites, experiencia directa*
+
+## Connections
+- [[05-context]]

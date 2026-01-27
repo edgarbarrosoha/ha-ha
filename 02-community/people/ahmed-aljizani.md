@@ -24,6 +24,4 @@ Supply Chain Management | Logistics | Business Process Design | Data Analysis | 
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[HA Leads]]
+- [[02-community]]

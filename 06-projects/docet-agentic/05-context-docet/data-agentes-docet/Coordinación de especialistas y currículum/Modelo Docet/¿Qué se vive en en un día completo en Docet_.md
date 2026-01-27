@@ -1060,3 +1060,6 @@ C.  **Trabajo en equipo:** Los alumnos también tienen momentos en el día
 >
 > En todos los traslados de salones los alumnos deben de estar
 > acompañados con un maestro.
+
+## Connections
+- [[05-context-docet]]

@@ -599,3 +599,6 @@ cultural.
 
 • Integrar la práctica musical y la exposición a la música como parte
 integral de la vida de los estudiantes.
+
+## Connections
+- [[05-context-docet]]

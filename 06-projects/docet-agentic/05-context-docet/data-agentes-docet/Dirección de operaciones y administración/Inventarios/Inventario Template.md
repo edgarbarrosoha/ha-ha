@@ -33,3 +33,6 @@ Re-purchase needed
 Category 1
 Sold out
 
+
+## Connections
+- [[05-context-docet]]

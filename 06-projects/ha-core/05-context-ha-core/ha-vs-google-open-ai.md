@@ -31,4 +31,3 @@
 - Google, OpenAI, and Anthropic do not offer an **end-to-end fractal network** that integrates data across six specific dimensions and orchestrates it on a shared timeline for large groups of humans. Their AI labs produce generalized intelligence models, while **HA** produces a **framework** for systematically applying advanced models to real-world complexities where **human authorship, fractal expansions, domain interplay, and multi-stakeholder management** are paramount.
 ## Connections
 - [[05-context-ha-core]]
-- [[ha-root-ha-core]]

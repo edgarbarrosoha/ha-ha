@@ -9,6 +9,4 @@ kumu_id: "PER-BRENDA-0132"
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[Rafa]]
+- [[02-community]]

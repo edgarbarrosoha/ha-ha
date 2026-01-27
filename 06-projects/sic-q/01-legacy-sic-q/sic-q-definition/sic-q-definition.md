@@ -186,4 +186,3 @@ tags:
 
 ## Connections
 - [[01-legacy-sic-q]]
-- [[ha-root-sic-q]]

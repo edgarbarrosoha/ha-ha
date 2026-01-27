@@ -176,4 +176,3 @@ El consejo dialogará internamente y producirá una narrativa en el formato espe
 
 ## Connections
 - [[04-technology-ncm]]
-- [[ha-root-ncm]]

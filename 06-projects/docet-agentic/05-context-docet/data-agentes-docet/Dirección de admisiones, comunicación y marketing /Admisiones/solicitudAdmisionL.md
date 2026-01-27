@@ -415,3 +415,6 @@ certifico que la información médica contenida en este
 documento es verídica y actualizada a la fecha de la solicitud. Cedula Profesional
 (I certify that all information provided here is accurate and complete to the best of my knowleadge).
 Firma / Sign
+
+## Connections
+- [[05-context-docet]]

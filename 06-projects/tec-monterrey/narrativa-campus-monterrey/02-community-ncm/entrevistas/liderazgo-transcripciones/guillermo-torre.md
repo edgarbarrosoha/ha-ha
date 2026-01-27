@@ -710,4 +710,3 @@ Edgar Barroso - Mario Adrián Flores: Este. Muchísimas gracias. Bueno, muchas g
 
 ## Connections
 - [[02-community-ncm]]
-- [[ha-root-ncm]]

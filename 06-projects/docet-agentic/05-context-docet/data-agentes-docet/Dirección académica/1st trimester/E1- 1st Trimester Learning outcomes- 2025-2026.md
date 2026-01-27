@@ -233,3 +233,6 @@ Ritmo:
 Juegos predeportivos:
 ●​ Fútbol, atletismo y béisbol: Es capaz de participar activamente en juegos predeportivos y recreativos,
 demostrando habilidades motoras básicas, así como coordinación y control corporal.
+
+## Connections
+- [[05-context-docet]]

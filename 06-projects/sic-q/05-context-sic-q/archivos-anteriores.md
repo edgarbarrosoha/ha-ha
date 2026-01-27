@@ -2126,4 +2126,3 @@ En resumen, Go Vocal funciona como un hub de participación digital que **simpl
 
 ## Connections
 - [[05-context-sic-q]]
-- [[ha-root-sic-q]]

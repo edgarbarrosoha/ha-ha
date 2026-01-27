@@ -564,3 +564,6 @@ Most people who talk about building unicorns are dreaming. You're architecting.
 Now go build it.
 
 What else do you need from me today?
+
+## Connections
+- [[05-context]]

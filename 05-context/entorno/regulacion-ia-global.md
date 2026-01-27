@@ -107,3 +107,6 @@ HA opera en la intersección humano-IA. La regulación define qué podemos hacer
 ---
 
 *Fuentes: EU AI Act, NIST, reguladores nacionales*
+
+## Connections
+- [[05-context]]

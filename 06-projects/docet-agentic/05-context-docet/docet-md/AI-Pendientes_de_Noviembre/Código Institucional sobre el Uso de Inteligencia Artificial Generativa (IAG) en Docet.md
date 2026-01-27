@@ -329,3 +329,6 @@ Implementar → Medir/Documentar → Compartir → Recalibrar**. La tecnología
 se emplea para **crear y comprender** el mundo, con **evidencia del
 proceso, verificación y cuidado de datos**, sin bloquear la innovación
 de quienes aprenden y enseñan.
+
+## Connections
+- [[05-context-docet]]

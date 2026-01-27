@@ -650,3 +650,6 @@ Al finalizar los alumnos podrán:
 
 -   Experimentar la traslación de un objeto analógico (sus dibujos) a un
     objeto digital (sus fotos).
+
+## Connections
+- [[05-context-docet]]

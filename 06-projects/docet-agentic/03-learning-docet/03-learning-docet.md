@@ -75,13 +75,7 @@ El agente de Learning sugiere capacitación **cuando se necesita**, no como curs
 ---
 
 ## Connections
-
-- [[ha-root-docet|HA Root DOCET]] — Nodo raíz del proyecto
-- [[agent-docet-learning|Agente Learning DOCET]] — Agente de esta dimensión
-- [[02-community-docet|Community DOCET]] — Dimensión anterior
-- [[04-technology-docet|Technology DOCET]] — Dimensión siguiente
-
----
+- [[ha-root-docet]]
 
 ## Navegación
 

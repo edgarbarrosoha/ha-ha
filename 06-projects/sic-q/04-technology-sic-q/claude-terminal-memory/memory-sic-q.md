@@ -55,4 +55,3 @@ SIC-Q (Sistema de Inteligencia Colectiva de Querétaro) es una plataforma de par
 
 ## Connections
 - [[04-technology-sic-q]]
-- [[ha-root-sic-q]]

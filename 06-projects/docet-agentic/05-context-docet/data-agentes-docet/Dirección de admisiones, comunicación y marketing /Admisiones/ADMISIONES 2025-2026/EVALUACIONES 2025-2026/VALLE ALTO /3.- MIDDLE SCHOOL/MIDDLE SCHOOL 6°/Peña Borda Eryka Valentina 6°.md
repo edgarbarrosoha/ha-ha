@@ -193,3 +193,6 @@ ejemplo poner "tink" en lugar de "think".
 **Recomendaciones Académicas**
 
 **Conclusiones Generales:**
+
+## Connections
+- [[05-context-docet]]

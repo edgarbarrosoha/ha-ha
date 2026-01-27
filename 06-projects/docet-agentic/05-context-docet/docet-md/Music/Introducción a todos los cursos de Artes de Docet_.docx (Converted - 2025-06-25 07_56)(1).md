@@ -290,3 +290,6 @@ Aprendizajes, habilidades y proyectos esperados de la clase de artes:
 
 -   Formar hábitos para incluir el arte en cualquiera de sus expresiones
     o prácticas en la vida de nuestros estudiantes.
+
+## Connections
+- [[05-context-docet]]

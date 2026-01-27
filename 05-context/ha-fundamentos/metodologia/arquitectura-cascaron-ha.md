@@ -60,3 +60,6 @@ HUMANO (Tú)                 CASCARÓN (Archivos)              AGENTE (Yo)
                                              ▲
                                     "FUENTE DE VERDAD"
 ```
+
+## Connections
+- [[05-context]]

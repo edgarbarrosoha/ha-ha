@@ -142,6 +142,4 @@ Aunque cada directivo tiene su propio sistema, el Nexus te permite:
 ---
 
 ## Connections
-
-- [[02-community-docet|Community DOCET]] — Dimensión padre
-- [[ha-root-docet|HA Root DOCET]] — Nodo raíz del proyecto
+- [[02-community-docet]]

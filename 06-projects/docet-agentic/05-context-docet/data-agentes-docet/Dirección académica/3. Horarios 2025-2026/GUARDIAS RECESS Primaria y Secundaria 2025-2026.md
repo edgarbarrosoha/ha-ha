@@ -212,3 +212,6 @@ Middle school
   23 feb- 6 de marzo    Aguirre   Vale      T.T6b     Inyra     Cinthia   Sofi      Ellie     O.Fdz     Ale
   9 -20 marzo           O.Fdz     Sofi      Vale      Ellie     Inyra     Cinthia   Aguirre   Ale       T.T6b
   23 marzo-17 abril     Cinthia   T.T6b     Inyra     Sofi      Ale       Ellie     O.Fdz     Vale      Aguirre
+
+## Connections
+- [[05-context-docet]]

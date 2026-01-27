@@ -202,3 +202,6 @@ edgar@horizonsarchitecture.ai
 javier@horizonsarchitecture.ai
 
 **
+
+## Connections
+- [[HA PROJECTS]]

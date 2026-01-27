@@ -15,4 +15,3 @@ The layers are as follows, arranged from fastest to slowest:
 
 ## Connections
 - [[03-learning-ncm]]
-- [[ha-root-ncm]]

@@ -442,3 +442,6 @@ y del dinero, con evidencia pública y acumulativa. Se aprende haciendo,
 en comunidad con las familias, desde valores de **amor, honestidad y
 armonía**, y con tecnología usada para **crear y comprender** el
 mundo---no para consumirlo.
+
+## Connections
+- [[05-context-docet]]

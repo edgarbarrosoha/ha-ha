@@ -158,12 +158,4 @@ Usuario (Directivo)
 
 
 ## Connections
-
-- [[HA ROOT]] — Sistema padre
-- [[HA PROJECTS]] — Contexto de proyectos HA
-- [[01-legacy-docet|Legacy DOCET]] — Dimensión de propósito
-- [[02-community-docet|Community DOCET]] — Dimensión de stakeholders
-- [[03-learning-docet|Learning DOCET]] — Dimensión de capacidades
-- [[04-technology-docet|Technology DOCET]] — Dimensión de herramientas
-- [[05-context-docet|Context DOCET]] — Dimensión de entorno
-- [[06-projects-docet|Projects DOCET]] — Dimensión de ejecución
+- [[HA PROJECTS]]

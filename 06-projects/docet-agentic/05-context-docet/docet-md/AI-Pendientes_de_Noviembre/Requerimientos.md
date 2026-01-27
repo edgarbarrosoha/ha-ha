@@ -24,3 +24,6 @@ Adjunto la presentación con la información que hemos estado trabajando.
 Muchas gracias Edgar por tu apoyo y por inspirarnos.
 
 Quedamos atentas,
+
+## Connections
+- [[05-context-docet]]

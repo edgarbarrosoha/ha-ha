@@ -28,6 +28,4 @@ Machine Learning
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[TEC DE MONTERREY]]
+- [[02-community]]

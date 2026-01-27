@@ -24,6 +24,4 @@ Energy Policy | Public Policy Design | Applied Research | Organizational Leaders
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[EGyTP]]
+- [[02-community]]

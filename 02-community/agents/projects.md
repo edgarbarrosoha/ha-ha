@@ -70,10 +70,7 @@ Every project uses HA methodology:
 6. **Projects:** Plan and execute
 
 ## Connections
-
-- **Receives from:** @root (do questions), @legacy (priorities)
-- **Sends to:** @learning (lessons), @legacy (results)
-- **Queries:** all dimensions (inputs for execution)
+- [[02-community]]
 
 ## Subagents
 
@@ -87,7 +84,4 @@ Every project uses HA methodology:
 *Projects are not the work. They are the legacy becoming real.*
 
 ## Connections
-
-- [[02-community]] — Dimension index
-- [[HA COMMUNITY]] — Community dimension
-- [[HA ROOT]] — Central hub of Horizons Architecture
+- [[02-community]]

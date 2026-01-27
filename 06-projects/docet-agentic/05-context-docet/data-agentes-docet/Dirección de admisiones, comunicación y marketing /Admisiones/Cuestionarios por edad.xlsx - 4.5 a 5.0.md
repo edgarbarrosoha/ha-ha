@@ -57,3 +57,6 @@ Va al baño sin ayuda: se desviste, se limpia, le baja al sanitario y se viste
 de nuevo.
 
 Observaciones Generales
+
+## Connections
+- [[05-context-docet]]

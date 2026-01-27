@@ -172,3 +172,6 @@ esta revisión.
 siente"*
 
 *― **Daniel Goleman***
+
+## Connections
+- [[05-context-docet]]

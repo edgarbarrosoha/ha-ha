@@ -24,6 +24,4 @@ Organizational Readiness | Leadership Development | Strategic Execution | Talent
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[ANKER BIOS]]
+- [[02-community]]

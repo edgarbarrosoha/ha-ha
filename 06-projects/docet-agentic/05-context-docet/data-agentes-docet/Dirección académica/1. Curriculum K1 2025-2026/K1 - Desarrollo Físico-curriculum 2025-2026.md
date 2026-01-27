@@ -239,3 +239,6 @@ I.  **INTRODUCTION**
 |             |                                                           |
 |             | - Puede patear una pelota chica hacia un objeto cercano.  |
 +=============+===========================================================+
+
+## Connections
+- [[05-context-docet]]

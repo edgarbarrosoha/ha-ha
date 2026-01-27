@@ -26,6 +26,4 @@ Sustainable Development | International Cooperation | Economic Development | Pub
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[HA Leads]]
+- [[02-community]]

@@ -438,12 +438,4 @@ Total: 7 folders, 17 files (7 indexes + 7 agents + 3 content files)
 ---
 
 ## Connections
-
-- [[04-technology/prompts/haizing-prompt|HAizing Prompt v1]]
-- [[06-projects/ha-core/04-technology-ha-core/haizing-prompt-compact|Compact Version]]
-- [[03-learning/metodologias/6-dimensiones|The 6 Dimensions]]
-- [[00-ha-root/ha-root|HA Startup Root]]
-
----
-
-*This is the definitive prompt for creating HA structures. Version 2.0.*
+- [[04-technology]]

@@ -90,3 +90,6 @@ Convertirnos en la primera unicornio latinoamericana de inteligencia híbrida (h
 ---
 
 *Este archivo debe actualizarse al final de cada sesión.*
+
+## Connections
+- [[04-technology]]

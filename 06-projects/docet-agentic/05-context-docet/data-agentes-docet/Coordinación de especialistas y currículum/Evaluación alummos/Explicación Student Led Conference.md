@@ -174,3 +174,6 @@ casa preparándolas como más me gustan).
 
 Después de establecer las metas, se termina la reunión con una despedida
 y felicitación a todos por lo alcanzado durante este primer semestre.
+
+## Connections
+- [[05-context-docet]]

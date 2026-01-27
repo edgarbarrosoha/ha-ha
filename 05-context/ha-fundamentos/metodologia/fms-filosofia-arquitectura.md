@@ -38,7 +38,4 @@ El sistema admite profundidad infinita. Un Proyecto puede contener Subproyectos.
 ```
 
 ## Connections
-
-- [[05-context]] — Dimension index
-- [[HA CONTEXT]] — Context dimension
-- [[HA ROOT]] — Central hub of Horizons Architecture
+- [[05-context]]

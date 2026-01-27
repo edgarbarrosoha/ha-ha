@@ -595,4 +595,3 @@ IV. En última instancia, ante los tribunales competentes del Estado de Queréta
 
 ## Connections
 - [[06-projects-sic-q]]
-- [[ha-root-sic-q]]

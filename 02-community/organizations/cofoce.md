@@ -24,7 +24,4 @@ nternational trade | Exports | Foreign trade
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[Carlos Rodríguez]]
-- [[HA Leads]]
+- [[02-community]]

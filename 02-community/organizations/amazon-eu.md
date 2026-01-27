@@ -25,10 +25,4 @@ e-Commerce | Retail | Operations | Internet | Innovation | Technology Developmen
 
 
 ## Connections
-
-- [[Andrea Cheang]]
-- [[David Duquesne]]
-- [[Gabriel Zylka]]
-- [[HA COMMUNITY]]
-- [[Iveta Brezinska]]
-- [[UPU]]
+- [[02-community]]

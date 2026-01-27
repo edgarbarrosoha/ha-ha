@@ -9,4 +9,4 @@ kumu_id: "PER-RICARD-0117"
 # Ricardo 
 
 ## Connections
-- [[HA COMMUNITY]]
+- [[02-community]]

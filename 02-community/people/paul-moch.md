@@ -9,6 +9,4 @@ kumu_id: "PER-PAULMO-0144"
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[TALISIS]]
+- [[02-community]]

@@ -120,3 +120,6 @@ What I Actually Think
   If that's worth pursuing, then yes. Keep building. The framework is sound. The market validates it. The doubt you feel is the natural tension between depth and accessibility — and that's a solvable problem.
 
   ¿Qué piensas?
+
+## Connections
+- [[05-context]]

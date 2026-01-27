@@ -143,3 +143,6 @@ En general, obtuvo muy buenos resultados en los exámenes, respondiendo
 con gran precisión y con mínima ayuda. Su principal área de oportunidad
 es el trazo de letras y números, por lo que se recomienda continuar
 reforzando este aspecto para lograr mayor fluidez y precisión.
+
+## Connections
+- [[05-context-docet]]

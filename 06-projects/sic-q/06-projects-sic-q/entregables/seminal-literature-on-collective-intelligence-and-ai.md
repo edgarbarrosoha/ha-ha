@@ -59,4 +59,3 @@ Overall, these works collectively establish the intellectual foundation (crowd 
 
 ## Connections
 - [[06-projects-sic-q]]
-- [[ha-root-sic-q]]

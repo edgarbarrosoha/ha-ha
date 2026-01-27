@@ -237,3 +237,6 @@ salón de clase.
 
 © Adaptado de Disciplina Positiva por Jane Nelsen 2001. Traducción : Norma Ruz. Título original en inglés: Positive Discipline, Jane Nelsen Ballantine Books 2006
 Translation reviewed by Lupe Fisch May 2004 with funding from the Puget Sound Adlerian Society and the Horizons Foundation
+
+## Connections
+- [[05-context-docet]]

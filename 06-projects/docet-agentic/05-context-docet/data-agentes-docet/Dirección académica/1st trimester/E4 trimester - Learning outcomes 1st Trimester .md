@@ -226,3 +226,6 @@ exploration.
 formalization of theatre expression.
 ●​ Develops and exposes vocal and physical expression through the creative process of a theatrical
 performance.
+
+## Connections
+- [[05-context-docet]]

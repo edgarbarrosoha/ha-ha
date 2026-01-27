@@ -25,13 +25,4 @@ Public Policy | Governance | Research | Leadership Development | Social Innovati
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[Adolfo de Unánue]]
-- [[EGyTP Educación continua]]
-- [[Edmundo Molina]]
-- [[Fernando Gómez]]
-- [[Luis Serra]]
-- [[Miguel Angel Santos]]
-- [[Roberto Ponce]]
-- [[TEC DE MONTERREY]]
+- [[02-community]]

@@ -14,4 +14,3 @@ parent: "[[03-learning-sic-q]]"
 
 ## Connections
 - [[03-learning-sic-q]]
-- [[ha-root-sic-q]]

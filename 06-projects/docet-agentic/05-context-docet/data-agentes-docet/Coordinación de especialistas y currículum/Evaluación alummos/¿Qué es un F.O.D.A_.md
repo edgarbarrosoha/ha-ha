@@ -167,3 +167,6 @@ comprometen a cambiar algo, mejorar algo o continuar realizando alguna
 práctica o acción que les ha funcionado hasta el momento.
 
 Acción a realizar + definir cuándo, dónde, cómo, con quién.
+
+## Connections
+- [[05-context-docet]]

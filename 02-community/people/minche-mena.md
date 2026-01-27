@@ -31,6 +31,4 @@ Public Engagement
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[HA Team South America]]
+- [[02-community]]

@@ -50,4 +50,3 @@ Eres el agente de Projects para la Narrativa Campus Monterrey. Tu rol es asegura
 
 ## Connections
 - [[02-community-ncm]]
-- [[ha-root-ncm]]

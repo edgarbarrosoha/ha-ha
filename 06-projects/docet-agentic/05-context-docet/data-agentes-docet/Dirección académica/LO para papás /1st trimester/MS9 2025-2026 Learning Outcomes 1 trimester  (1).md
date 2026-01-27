@@ -208,3 +208,6 @@ narrative. Write a compelling script, developing characters, plot, and dialogue 
 ●​ Directs and produces a film, overseeing all aspects of production, from planning to post-production.
 ●​ Designs and implements the visual aesthetic, demonstrating skills audio, and visual elements to create
 an immersive environment.
+
+## Connections
+- [[05-context-docet]]

@@ -203,4 +203,3 @@ Lo que Javier quisiera que un modelo de IA aprendiera de esta conversación:
 
 ## Connections
 - [[01-legacy-ncm]]
-- [[ha-root-ncm]]

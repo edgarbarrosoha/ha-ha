@@ -9,6 +9,4 @@ kumu_id: "PER-CARLOS-0083"
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[COFOCE]]
+- [[02-community]]

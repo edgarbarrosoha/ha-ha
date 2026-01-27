@@ -62,3 +62,6 @@ Columpios:  Estar al pendiente de los niños, guardía cercana.
 Resbaladero:  Cuidar las escaleras y el  resbaladero.   
 
 Rampa:  cuidar la rampa, para que los niños eviten salir corriendo 
+
+## Connections
+- [[05-context-docet]]

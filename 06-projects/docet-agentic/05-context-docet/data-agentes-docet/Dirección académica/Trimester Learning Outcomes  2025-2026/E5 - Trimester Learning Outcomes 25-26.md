@@ -1138,3 +1138,6 @@ folders:
 |                                    | - Exposes an advanced understanding of dramaturgy and |
 |                                    |   storytelling devices through an integral project.   |
 +====================================+=======================================================+
+
+## Connections
+- [[05-context-docet]]

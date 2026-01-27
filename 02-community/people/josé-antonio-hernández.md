@@ -23,6 +23,4 @@ Strategic sourcing | Negotiation | Supply chain optimization | Logistics managem
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[UVEG]]
+- [[02-community]]

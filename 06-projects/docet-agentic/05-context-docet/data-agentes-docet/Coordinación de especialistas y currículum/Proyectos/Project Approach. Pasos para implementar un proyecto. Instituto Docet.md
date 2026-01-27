@@ -461,3 +461,6 @@ making curriculum come alive.* Scholastic: New York.
 height="0.18666666666666668in"}Chard, S. (2014). *The project approach.*
 Recuperado el 25 de Marzo de 2016 de
 [http://projectapproach.org/about/project-approach/]{.underline}
+
+## Connections
+- [[05-context-docet]]

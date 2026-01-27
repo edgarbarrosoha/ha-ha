@@ -235,3 +235,6 @@ CEO, Horizons Architecture Systems
 
   
 **
+
+## Connections
+- [[05-context-docet]]

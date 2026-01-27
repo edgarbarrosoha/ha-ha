@@ -350,3 +350,6 @@ FRECUENCIA DE LA CLASE: [45 minutos]{.mark}
 +==============+==========+==========+============+=========+==========+
 
 Tab 2
+
+## Connections
+- [[05-context-docet]]

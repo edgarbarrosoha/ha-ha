@@ -25,6 +25,4 @@ Artificial Intelligence | Machine Learning | Data Science | Data Engineering | A
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[HA External Providers]]
+- [[02-community]]

@@ -26,9 +26,4 @@ Retail | Beverage Industry | Logistics | Sustainability | Corporate Strategy | D
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[Darío Ochoa]]
-- [[Gabriela Gómez]]
-- [[HA Leads]]
-- [[Héctor Brosig]]
+- [[02-community]]

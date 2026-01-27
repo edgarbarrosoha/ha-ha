@@ -1260,4 +1260,3 @@ Si quieres, en un siguiente paso te lo bajo a un **paquete de iniciativas de Azu
 
 ## Connections
 - [[04-technology-ha-core]]
-- [[ha-root-ha-core]]

@@ -24,4 +24,4 @@ kumu_id: "PER-CRISTI-0014"
 Project & Strategy Management
 
 ## Connections
-- [[HA COMMUNITY]]
+- [[02-community]]

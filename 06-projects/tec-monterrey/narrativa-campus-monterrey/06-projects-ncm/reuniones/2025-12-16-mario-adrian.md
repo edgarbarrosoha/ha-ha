@@ -200,4 +200,3 @@ Thank you, thank you.
 
 ## Connections
 - [[06-projects-ncm]]
-- [[ha-root-ncm]]

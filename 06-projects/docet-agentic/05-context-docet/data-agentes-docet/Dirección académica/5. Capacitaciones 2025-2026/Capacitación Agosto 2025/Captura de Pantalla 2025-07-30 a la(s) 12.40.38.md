@@ -33,3 +33,6 @@ Aprende cómo usar las herramientas mágicas para hacer Diseña actividades gami
 
 materiales educativos de alta calidad para tus estudiantes. aprendizaje de tus alumnos.
 
+
+## Connections
+- [[05-context-docet]]

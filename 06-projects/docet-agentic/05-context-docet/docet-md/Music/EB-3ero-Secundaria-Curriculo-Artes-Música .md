@@ -480,3 +480,6 @@ Nota: para cubrir estos tópicos, es posible ligar el estudio histórico
 del arte con la práctica y la creación artística. Los contenidos deben
 de ser presentados de una manera creativa y apropiada a los estudiantes
 dependiendo de su edad, intereses y talentos.
+
+## Connections
+- [[05-context-docet]]

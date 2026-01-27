@@ -588,3 +588,6 @@ musicales.
 
 • Reconocer de manera básica la diversidad de géneros musicales y
 estilos del pasado y del presente, y su contexto social y cultural.
+
+## Connections
+- [[05-context-docet]]

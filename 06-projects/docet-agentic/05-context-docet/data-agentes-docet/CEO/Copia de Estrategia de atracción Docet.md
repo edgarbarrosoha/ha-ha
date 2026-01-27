@@ -102,3 +102,6 @@ Cambio).
 
 La alianza con **Somos el Cambio** es un diferenciador único. Debe
 vivirse visual y narrativamente.
+
+## Connections
+- [[05-context-docet]]

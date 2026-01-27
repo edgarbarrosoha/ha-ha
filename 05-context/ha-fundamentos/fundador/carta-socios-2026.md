@@ -151,3 +151,6 @@ Dejemos que HA nos ayude a lograr. Que el legado que construimos no sea solo pro
 _Platicamos en nuestra próxima reunión._
 
 —Edgar
+
+## Connections
+- [[05-context]]

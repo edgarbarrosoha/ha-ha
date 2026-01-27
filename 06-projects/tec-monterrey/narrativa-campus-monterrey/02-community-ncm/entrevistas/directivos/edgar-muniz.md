@@ -81,4 +81,3 @@ Gracias, Edgar. Ha sido un espacio valioso para imaginar ese futuro vibrante del
 
 ## Connections
 - [[02-community-ncm]]
-- [[ha-root-ncm]]

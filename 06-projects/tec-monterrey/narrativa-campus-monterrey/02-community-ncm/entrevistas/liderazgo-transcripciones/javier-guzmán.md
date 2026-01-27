@@ -884,4 +884,3 @@ Edgar Barroso Systems: Hasta luego.
 
 ## Connections
 - [[02-community-ncm]]
-- [[ha-root-ncm]]

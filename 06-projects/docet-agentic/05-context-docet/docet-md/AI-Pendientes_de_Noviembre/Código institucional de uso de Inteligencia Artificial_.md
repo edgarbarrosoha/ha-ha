@@ -239,3 +239,6 @@ Su apoyo es indispensable para la implementación de este código.
 2.  Úsala para potenciar tus habilidades al máximo.
 
 3.  Demuestra lo que aprendiste.
+
+## Connections
+- [[05-context-docet]]

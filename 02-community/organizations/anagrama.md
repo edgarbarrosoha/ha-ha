@@ -26,6 +26,4 @@ Logo Design │ Branding │ Visual Identity │ Illustration │ Packaging │ 
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[HA External Providers]]
+- [[02-community]]

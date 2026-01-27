@@ -218,3 +218,6 @@ motivation and established goals.
 ●​ Understands the principles of object theatre and engages in puppeteering techniques.
 ●​ Comprehends and uses storyboard and artistic exploration techniques to create theatrical
 performances.
+
+## Connections
+- [[05-context-docet]]

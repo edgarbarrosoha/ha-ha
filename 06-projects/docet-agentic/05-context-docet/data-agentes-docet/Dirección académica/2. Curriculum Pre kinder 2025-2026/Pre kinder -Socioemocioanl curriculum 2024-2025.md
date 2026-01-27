@@ -129,3 +129,6 @@ I.  **INTRODUCCIÓN**
 |             | Elige los recursos que necesita para realizar diferentes  |
 |             | actividades                                               |
 +=============+===========================================================+
+
+## Connections
+- [[05-context-docet]]

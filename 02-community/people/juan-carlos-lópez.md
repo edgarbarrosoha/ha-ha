@@ -24,8 +24,4 @@ General Management | Sales Strategy | Project Management | Trade Marketing | Mer
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[HA External Providers]]
-- [[IECA]]
-- [[María Micalco]]
+- [[02-community]]

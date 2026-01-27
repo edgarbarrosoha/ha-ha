@@ -360,3 +360,6 @@ proyectos con un aplauso general.
 Evidencia de Aprendizaje: El reporte creativo (video, diorama o tríptico) y la presentación oral.
 Consejo Pedagógico: El ambiente debe ser de celebración, no de examen. El objetivo es que los niños
 se sientan orgullosos de su trabajo y aprendan a comunicar sus logros con confianza.
+
+## Connections
+- [[05-context-docet]]

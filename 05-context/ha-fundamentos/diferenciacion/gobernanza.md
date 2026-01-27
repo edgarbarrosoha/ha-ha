@@ -281,3 +281,6 @@
 
 1. Adapting governance to support growth through continuous innovation, aligned with HA’s _Legacy_ and _Projects_ dimensions.
 2. Embracing innovation while maintaining integrity through a commitment to HA’s ethical principles and AI-based oversight.
+
+## Connections
+- [[05-context]]

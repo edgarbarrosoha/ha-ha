@@ -1721,3 +1721,6 @@ DONDE COMPRARLO
 6to
 7mo
 
+
+## Connections
+- [[05-context-docet]]

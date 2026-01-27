@@ -142,4 +142,3 @@ Gracias a ti, Mario Adrián. Quedo atenta cuando quieras compartir más detalles
 
 ## Connections
 - [[02-community-ncm]]
-- [[ha-root-ncm]]

@@ -424,3 +424,6 @@ folders:
 |                                    | - Collaborates with cast and crew, demonstrating      |
 |                                    |   effective communication.                            |
 +====================================+=======================================================+
+
+## Connections
+- [[05-context-docet]]

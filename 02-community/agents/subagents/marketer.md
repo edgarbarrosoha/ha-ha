@@ -82,3 +82,6 @@ You are **@marketer**, the marketing subagent for HA-HA. You build awareness, po
 ---
 
 *Marketing is not promotion. It's education at scale.*
+
+## Connections
+- [[02-community]]

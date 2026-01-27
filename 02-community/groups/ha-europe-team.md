@@ -8,5 +8,4 @@ kumu_id: "GRP-HAEURO-0008"
 # HA Europe Team
 
 ## Connections
-- [[HA COMMUNITY]]
-- [[HA ROOT]]
+- [[02-community]]

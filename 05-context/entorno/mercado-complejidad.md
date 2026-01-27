@@ -119,3 +119,6 @@ HA opera en la intersección de:
 ---
 
 *Fuentes: IBISWorld, Statista, experiencia directa*
+
+## Connections
+- [[05-context]]

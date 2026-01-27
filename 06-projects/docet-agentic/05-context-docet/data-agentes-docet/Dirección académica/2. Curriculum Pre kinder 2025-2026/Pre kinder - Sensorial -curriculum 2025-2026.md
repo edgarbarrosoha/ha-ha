@@ -115,3 +115,6 @@ I.  **INTRODUCCIÓN**
 | 3**         |   característica (por ejemplo: dos telas del mismo        |
 |             |   color).                                                 |
 +=============+===========================================================+
+
+## Connections
+- [[05-context-docet]]

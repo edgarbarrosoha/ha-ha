@@ -392,3 +392,6 @@ El diplomado se desarrolla en un total de **96 horas** distribuidas de la siguie
 El **Diplomado INTERFAZ en Innovación Pública** articula la formación en políticas públicas, liderazgo, comunicación política e inteligencia artificial para imaginar y activar nuevas formas de hacer lo público. Desde el primer módulo, cada participante se sitúa en el cruce entre ideas, actores y tecnologías, desarrollando un proyecto con el potencial de incidir en espacios concretos, construir narrativas emergentes y habilitar formas de liderazgo más conectadas, colaborativas y sostenibles.
 
 **Arquitectura de Horizontes** provee el andamiaje conceptual y operativo que permite navegar la complejidad desde múltiples dimensiones, los profesores del tec-monterrey el conocimiento de frontera, mientras que la comunidad de INTERFAZ se convierte en el entorno de contacto donde la acción pública se rediseña con propósito, datos y comunidad.
+
+## Connections
+- [[HA PROJECTS]]

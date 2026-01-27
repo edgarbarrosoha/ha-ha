@@ -222,3 +222,6 @@ Art
 applying styles and principles inspired by these movements.
 ●​ Develops a respectful and sensitive attitude toward art and culture, recognizing their importance in
 society.
+
+## Connections
+- [[05-context-docet]]

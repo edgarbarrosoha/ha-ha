@@ -130,4 +130,3 @@ Mexico. (2017). *Ley General de Proteccion de Datos Personales en Posesion de Su
 
 ## Connections
 - [[05-context-sic-q]]
-- [[ha-root-sic-q]]

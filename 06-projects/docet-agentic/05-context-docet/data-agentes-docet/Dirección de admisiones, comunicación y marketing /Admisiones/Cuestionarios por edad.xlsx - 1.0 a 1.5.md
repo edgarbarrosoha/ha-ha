@@ -83,3 +83,6 @@ Da paso sin ayuda.
 De pie puede inclinarse y volver a incorporarse (flexionando rodillas)
 
 Observaciones Generales
+
+## Connections
+- [[05-context-docet]]

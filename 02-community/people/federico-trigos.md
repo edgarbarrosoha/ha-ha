@@ -26,6 +26,4 @@ Transdisciplinary Business Analytics | Quantitative Modeling | Industrial Statis
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[TEC DE MONTERREY]]
+- [[02-community]]

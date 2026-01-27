@@ -95,13 +95,7 @@ parent: "[[ha-root-docet|HA Root DOCET]]"
 ---
 
 ## Connections
-
-- [[ha-root-docet|HA Root DOCET]] — Nodo raíz del proyecto
-- [[agent-docet-context|Agente Context DOCET]] — Agente de esta dimensión
-- [[04-technology-docet|Technology DOCET]] — Dimensión anterior
-- [[06-projects-docet|Projects DOCET]] — Dimensión siguiente
-
----
+- [[ha-root-docet]]
 
 ## Navegación
 

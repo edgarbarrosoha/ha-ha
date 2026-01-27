@@ -128,3 +128,6 @@ HA tiene "human oversight" como principio central. El debate global sobre ética
 ---
 
 *Fuentes: UNESCO, OECD, Stanford HAI, papers académicos*
+
+## Connections
+- [[05-context]]

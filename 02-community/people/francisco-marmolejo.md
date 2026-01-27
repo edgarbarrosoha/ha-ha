@@ -22,6 +22,4 @@ Process Redesign | Resource Planning | Mathematical Modeling | Quality and Produ
 
 
 ## Connections
-- [[HA COMMUNITY]]
-
-- [[HA Leads]]
+- [[02-community]]
