@@ -108,3 +108,5 @@
     Schedule a follow-up session or create an online community where participants can share progress, challenges, and further questions. This will transform the workshop from a one-off event into an ongoing collaborative journey.
     
 By combining these science-based techniques and innovative dynamics, you will not only provide a robust learning experience but also set a new benchmark for AI workshops within international organizations. The goal is for each participant to leave with actionable insights and a strong desire to engage in future workshops, thereby cementing your reputation as a facilitator who delivers truly transformative experiences.
+## Connections
+- [[HA PROJECTS]]

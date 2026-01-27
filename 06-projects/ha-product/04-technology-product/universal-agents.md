@@ -424,3 +424,6 @@ def process_user_message(message, user_context):
 2. [ ] Definir estructura exacta de {user_context}
 3. [ ] Implementar routing inteligente
 4. [ ] Crear banco de ejemplos para fine-tuning de calidad
+
+## Connections
+- [[ha-root-product]]

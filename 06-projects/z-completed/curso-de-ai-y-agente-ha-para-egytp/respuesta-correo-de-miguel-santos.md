@@ -62,3 +62,6 @@
 2. Agendar **sesión de arranque** para habilitar accesos y priorizar preguntas/casos.
 3. Definir **preferencias de alojamiento** y lineamientos de datos para el agente.
 
+
+## Connections
+- [[HA PROJECTS]]

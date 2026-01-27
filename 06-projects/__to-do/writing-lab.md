@@ -7,3 +7,6 @@ Utilizando estas instrucciones: [[prompt-integracion-narrativa]]
 
 en este archivo: [[ncm-2030-narrative]]
 
+
+## Connections
+- [[HA PROJECTS]]

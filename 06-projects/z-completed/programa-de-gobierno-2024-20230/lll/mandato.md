@@ -57,3 +57,5 @@ III. Multicampus Model
 2. ¿Qué enfoques estratégicos en el diseño del modelo multicampus permitirían que cada campus aproveche sus vocaciones y recursos locales para maximizar su impacto en la comunidad?
 3. ¿Cómo puede implementarse un sistema de gobernanza colaborativa para gestionar el modelo multicampus, y qué roles desempeñarían el Presidente Ejecutivo, el Rector y el VP de Aprendizaje para el Futuro en este proceso?
 4. ¿Qué métricas y sistemas de evaluación son necesarios para asegurar y monitorear que la calidad educativa se mantenga y mejore continuamente en todos los campus bajo el modelo multicampus?
+## Connections
+- [[HA PROJECTS]]

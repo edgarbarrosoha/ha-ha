@@ -195,3 +195,9 @@ edgar.barroso@tec.mx
 ---
 
 *"El Tec puede ser a Hybrid Intelligence lo que Stanford fue a Design Thinking. Primer movedor. La institución que definió la disciplina. En 10 años, cuando toda organización necesite frameworks de colaboración humano-IA, preguntarán: ¿de dónde vino esto? La respuesta debería ser Tec de Monterrey."*
+
+## Connections
+
+- [[01-legacy]] — Dimension index
+- [[HA LEGACY]] — Legacy dimension
+- [[HA ROOT]] — Central hub of Horizons Architecture

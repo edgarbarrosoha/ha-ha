@@ -50,3 +50,5 @@ Universities increasingly leverage AI in teaching and learning to enhance educat
 - While AI offers numerous benefits, it also presents ethical, legal, and social challenges, including privacy and security concerns. Addressing these challenges is crucial for the responsible implementation of AI in education(Namaziandost & Rezai, 2024).
 
 AI's integration into university teaching and learning offers significant benefits, including personalized learning and improved engagement. However, to ensure ethical and effective use, it is essential to address the associated challenges. Developing comprehensive frameworks and policies is vital to guide universities in leveraging AI responsibly and effectively.
+## Connections
+- [[HA PROJECTS]]

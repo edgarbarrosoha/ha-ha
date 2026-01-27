@@ -1029,3 +1029,6 @@ El presente outline describe un documento que inicia con la **Introducción** y 
 
 ---
 
+
+## Connections
+- [[HA PROJECTS]]

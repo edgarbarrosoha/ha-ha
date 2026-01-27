@@ -120,3 +120,6 @@ La visión es modernizar la administración pública y promover la inclusión di
 ---
 
 - Escuchar las necesidades reales de la ciudadanía, priorizando un gobierno cercano, receptivo, transparente y con rendición de cuentas.
+
+## Connections
+- [[HA PROJECTS]]

@@ -71,3 +71,9 @@ None directly. @strategist at HA-EB handles high-level financial strategy.
 ---
 
 *Legacy is not what we do. It's what remains. The unicorn is the legacy.*
+
+## Connections
+
+- [[02-community]] — Dimension index
+- [[HA COMMUNITY]] — Community dimension
+- [[HA ROOT]] — Central hub of Horizons Architecture

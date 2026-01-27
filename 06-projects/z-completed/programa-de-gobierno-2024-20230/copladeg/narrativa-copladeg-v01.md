@@ -116,3 +116,5 @@ La integración del sistema HA y el agente "Esperanza" transforma el proceso del
     
 
 Este enfoque robustecido con IA no solo moderniza la elaboración del planteamiento estratégico, sino que refuerza el compromiso de construir un Guanajuato más seguro, equitativo y en sintonía con las verdaderas necesidades de su gente.
+## Connections
+- [[HA PROJECTS]]

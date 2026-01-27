@@ -1639,3 +1639,5 @@ El futuro no es algo que simplemente sucede: es algo que construimos en comunida
 En unidad, haremos de Guanajuato un estado donde la prosperidad sea compartida, donde la justicia sea una realidad cotidiana, donde el futuro beneficie a todas las personas. Esta es nuestra misión, nuestro compromiso y nuestra determinación inquebrantable.
 
 El futuro de Guanajuato está en nuestras manos. Es hora de construirlo.
+## Connections
+- [[HA PROJECTS]]

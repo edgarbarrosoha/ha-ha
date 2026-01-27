@@ -726,3 +726,5 @@ _"Un Guanajuato más fuerte y unido es posible cuando sus propuestas reflejan la
 #### **Cierre Inspirador**
 
 _"La validación ciudadana en esta consulta social es más que un acto de participación, es un compromiso colectivo por el bienestar de Guanajuato. Juntas y juntos, construimos un estado donde cada propuesta nace de las necesidades reales de su gente y cada acción está respaldada por su confianza."_
+## Connections
+- [[HA PROJECTS]]

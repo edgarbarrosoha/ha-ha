@@ -38,3 +38,5 @@
 6.1. Conclusiones generales  
 6.2. Propuestas para el desarrollo del programa (fases y responsables)  
 6.3. Referencias y anexos (si aplica)
+## Connections
+- [[HA PROJECTS]]

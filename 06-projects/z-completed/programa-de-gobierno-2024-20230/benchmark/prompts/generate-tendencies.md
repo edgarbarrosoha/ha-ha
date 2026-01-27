@@ -76,3 +76,5 @@ V01
 # Sección a desarrollar:
 
 TASK: Desarrola esta sección con una lista de referencias de mejores Tendencias futuras globales sobre mejores prácticas en Programas de Gobierno en el mundo actuales, y el futuro de los programas de gobierno que sean comparables con el estado de Guanajuato. Primero haz una lista:
+## Connections
+- [[HA PROJECTS]]

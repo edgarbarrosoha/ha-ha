@@ -499,3 +499,5 @@ Este flujo permite al tec-monterrey establecer un ecosistema educativo intercone
 - **Compromiso de Liderazgo**: La oficina del VP está comprometida en liderar esta iniciativa transformadora.
     
 - **Llamado a la Acción**: Solicitamos el apoyo del Consejo para respaldar y participar activamente en la implementación de este plan estratégico.
+## Connections
+- [[HA PROJECTS]]

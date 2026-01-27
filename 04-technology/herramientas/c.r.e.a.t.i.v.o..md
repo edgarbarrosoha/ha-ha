@@ -581,3 +581,9 @@ Diseña **empleados digitales autónomos** con identidad, misiones y protocolos 
 ### **O - Output:**
 
 `Formato: Lista numerada con título, descripción breve (2-3 líneas) y ejemplo por cada consejo.`
+
+## Connections
+
+- [[04-technology]] — Dimension index
+- [[HA TECHNOLOGY]] — Technology dimension
+- [[HA ROOT]] — Central hub of Horizons Architecture

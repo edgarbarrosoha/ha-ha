@@ -99,3 +99,9 @@ The Horizons Architecture thus serves not merely as an analytical framework but 
 Horizons Architecture establishes a **methodological infrastructure** for complex problem transformation, enabling human-machine collaboration through consistent structures including temporal horizons and knowledge domains. By embedding agentic logic within a structured taxonomy of dimensions and enabling adaptive AI generation at the point of inquiry, HA presents an **integration of cognitive, computational, and coordinative capabilities**.
 
 The framework is not designed for application as a static methodology, but rather for co-development by its users, creating a shared architecture for navigating contemporary complexities and systematically exploring potential futures.
+
+## Connections
+
+- [[05-context]] — Dimension index
+- [[HA CONTEXT]] — Context dimension
+- [[HA ROOT]] — Central hub of Horizons Architecture

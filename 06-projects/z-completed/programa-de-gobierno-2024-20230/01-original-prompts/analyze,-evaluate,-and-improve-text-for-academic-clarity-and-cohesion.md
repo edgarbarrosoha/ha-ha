@@ -35,3 +35,5 @@ Provide specific suggestions to improve the text:
 
 TASK 03: 
 Rewrite and improve the subsection considering these suggestions, don't forget to add academic caution.
+## Connections
+- [[HA PROJECTS]]

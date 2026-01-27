@@ -36,3 +36,9 @@ El sistema admite profundidad infinita. Un Proyecto puede contener Subproyectos.
            │
            └──> _agent_memory (Local)
 ```
+
+## Connections
+
+- [[05-context]] — Dimension index
+- [[HA CONTEXT]] — Context dimension
+- [[HA ROOT]] — Central hub of Horizons Architecture

@@ -307,3 +307,5 @@ Here’s a template for both tables:
 |20|1|Knowledge Insights|Think Tanks provide insights on trends and challenges.|
 
 This structure can be directly imported into KUMU for a dynamic visualization, allowing for real-time exploration of relationships and support among the nodes in tec-monterrey's ATV initiative.
+## Connections
+- [[HA PROJECTS]]

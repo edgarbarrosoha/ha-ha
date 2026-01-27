@@ -400,3 +400,5 @@ The successful coordination of 26,563 participants across diverse stakeholder gr
 For the academic community, this case provides empirical evidence supporting HA's theoretical propositions while revealing practical implementation strategies. The systematic application of complexity science principles, hybrid intelligence approaches, and systems thinking methodologies in a high-stakes real-world context offers both validation of theoretical concepts and guidance for future applications.
 
 As transdisciplinary engineering continues to evolve, frameworks like HA that can systematically integrate structural organization, adaptive intelligence, and temporal coordination may prove essential for addressing the increasingly complex challenges that transcend traditional disciplinary boundaries. The Guanajuato case suggests that such integration is not only theoretically sound but practically achievable when properly structured and implemented.
+## Connections
+- [[HA PROJECTS]]

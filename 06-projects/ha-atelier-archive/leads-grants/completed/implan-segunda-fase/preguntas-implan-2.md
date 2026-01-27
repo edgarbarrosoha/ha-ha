@@ -27,3 +27,6 @@ De ser posible:
 - Por zona del territorio: rural sierra, ciudad (zona urbana), zona sur rural
 - Por delegación municipal
 
+
+## Connections
+- [[HA PROJECTS]]

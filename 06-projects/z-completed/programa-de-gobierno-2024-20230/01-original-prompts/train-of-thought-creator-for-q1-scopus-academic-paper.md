@@ -59,3 +59,5 @@ _Example:_
 
 
 }
+## Connections
+- [[HA PROJECTS]]

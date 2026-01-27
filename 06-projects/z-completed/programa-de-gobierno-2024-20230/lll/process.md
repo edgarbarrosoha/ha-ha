@@ -85,3 +85,6 @@ Through this process, we created a vision and strategy that is both **mission-dr
 As we present this strategy to the Board of tec-monterrey, we do so with a **shared commitment**: to shape an enduring legacy in education, empower a dynamic community, and leverage technology responsibly to fulfill Tec’s transformative mission in Lifelong Learning. This initiative is not just a response to a mandate; it’s a collective step forward, positioning Tec as a beacon of lifelong education for generations to come.
 
 ---
+
+## Connections
+- [[HA PROJECTS]]

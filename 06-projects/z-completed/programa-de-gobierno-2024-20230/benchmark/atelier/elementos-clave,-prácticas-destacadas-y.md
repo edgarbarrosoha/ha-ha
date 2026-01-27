@@ -163,3 +163,5 @@
 - Implementación alineada con los Objetivos de Desarrollo Sostenible (ODS).
     
 - Liderazgo público-social como motor del desarrollo sostenible[9](https://repositorio.cepal.org/bitstreams/55cfe013-0aff-481a-89e1-bfe920dbe07f/download).
+## Connections
+- [[HA PROJECTS]]

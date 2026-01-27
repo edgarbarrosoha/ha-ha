@@ -72,3 +72,6 @@ Please remit payment via wire transfer to the following account:
 Payment is due within 30 days of the invoice date as per Agreement Clause 3.2. Please include the invoice number in the transfer description.
 
 **Thank you for your business.**
+
+## Connections
+- [[HA PROJECTS]]

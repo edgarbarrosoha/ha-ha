@@ -91,4 +91,5 @@ New York, NY, USA
 Standard Chartered Bank  
 New York, NY, USA
 
----
+## Connections
+- [[HA PROJECTS]]

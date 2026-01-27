@@ -88,3 +88,6 @@ La aplicación de HA en este documento permite realizar un diagnóstico estructu
 Este marco metodológico enriquece el proceso de análisis del Programa de Gobierno, proporcionando una base analítica sólida que contribuye a una administración más eficiente, transparente y participativa. Al integrar estos elementos, HA facilita la comparación de experiencias internacionales y la adaptación de estrategias probadas a la realidad local, alineándose con la visión de modernización y transformación que persigue el Estado de Guanajuato.
 
 En resumen, la Arquitectura de Horizontes ofrece una herramienta estratégica y adaptable para evaluar y mejorar los Programas de Gobierno. Su estructura basada en seis dimensiones clave, junto con la incorporación de tecnología de inteligencia artificial a través de varios modelos LLM, respalda una gestión pública orientada al logro de resultados sostenibles y a la generación de valor a corto plazo, conforme a los lineamientos establecidos en el Plan Estatal de Desarrollo.
+
+## Connections
+- [[HA PROJECTS]]

@@ -13,3 +13,5 @@ The transdisciplinary approach deals with complex problems by identifying impact
 TE2025 seeks to bring together academics, practitioners, students, and other stakeholders to share their views on using the transdisciplinary approach to engineer a better world.
 
 Similar to previous TE conferences, our participants will be in contact with current research related to Transdisciplinary Engineering and will also experience active involvement in workshops, panel discussions, industrial visits and poster sessions. Furthermore, we are enthusiastic about having prominent keynote speakers share their visions to inspire and expand the horizon of our participants around our conference's main topics.
+## Connections
+- [[HA PROJECTS]]

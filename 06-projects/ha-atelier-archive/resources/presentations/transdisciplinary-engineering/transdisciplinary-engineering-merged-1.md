@@ -2357,3 +2357,5 @@ Transdisciplinary Engineering (TE) is the exchange of knowledge in the context o
 You are cordially invited to join our community. The membership is free and you can apply through our online application form. To learn more about the benefits, please visit [https://intsoctransde.org/membership/](https://intsoctransde.org/membership/)
 
 [Apply for Membership](https://suelattanzio.wixsite.com/website)
+## Connections
+- [[HA PROJECTS]]

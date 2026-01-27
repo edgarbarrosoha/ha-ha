@@ -69,3 +69,5 @@ _“La universidad no debe orientarse hacia sí misma, sino hacia las comunidade
 Jessica González presenta una visión pragmática y humana para transformar el aprendizaje y la educación universitaria. Su enfoque en partir de un propósito claro y diseñar soluciones flexibles y personalizadas demuestra una profunda comprensión de las necesidades de los aprendices en un mundo en constante cambio.
 
 Además, su énfasis en el uso estratégico de la inteligencia artificial, la experimentación ágil y la conexión con las comunidades refuerza la idea de una universidad que no solo responde a los retos actuales, sino que lidera el cambio. Su propuesta combina innovación tecnológica con una visión inclusiva, posicionando al tec-monterrey como un líder en aprendizaje a lo largo de la vida y como un motor de impacto social tangible.
+## Connections
+- [[HA PROJECTS]]

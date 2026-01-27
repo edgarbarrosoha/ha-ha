@@ -77,3 +77,5 @@ _“El aprendizaje debe adaptarse a la vida del estudiante, no al revés”_, af
 Enrique Cortéz plantea una visión profundamente transformadora, centrada en la personalización y el acompañamiento continuo. Desde su enfoque en un “asesor” que guía a las personas durante toda su vida hasta su propuesta de integrar IA para diseñar experiencias educativas únicas, su visión redefine el aprendizaje como un proceso dinámico, inclusivo y adaptativo.
 
 Su modelo futuro de universidad rompe con las estructuras tradicionales para crear trayectorias flexibles que empoderen a los estudiantes, preparándolos para un mundo en constante cambio. Al integrar tecnología avanzada con un enfoque humano, Enrique propone un camino para que el tec-monterrey no solo se adapte al futuro de la educación, sino que lo lidere
+## Connections
+- [[HA PROJECTS]]

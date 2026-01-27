@@ -177,3 +177,5 @@ Horizons Architecture (HA) is a scalable framework integrating collective human 
   - Website: [www.horizonsarchitecture.com](http://www.horizonsarchitecture.com)
 
 ---
+## Connections
+- [[HA PROJECTS]]

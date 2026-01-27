@@ -321,3 +321,5 @@ Without naming HA, the course integrates:
 - **Temporal reasoning:** from immediate utility to long-term institutional change.
     
 - **Reflective intelligence:** combining computation and ethics.
+## Connections
+- [[HA PROJECTS]]

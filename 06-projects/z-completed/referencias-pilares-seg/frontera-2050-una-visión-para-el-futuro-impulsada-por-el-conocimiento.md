@@ -546,3 +546,5 @@ While these strategies offer promising pathways for enhancing R&D in Mexico, it 
 - Rivera-Dommarco, J., Colchero, M. A., Pérez-Ferrer, C., & Barquera, S. (2024). Perspective: Mexico’s experience in building a toolkit for obesity and NCDs prevention. Advances in Nutrition, 15(3), 100180. [https://doi.org/10.1016/j.advnut.2024.100180](https://www.google.com/url?sa=E&q=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.advnut.2024.100180)
     
 - The effect of public policy on high BMI trends of Mexican children: An interrupted time series analysis. (2023). The Lancet Global Health, 11, Supplement 3, S21. [https://doi.org/10.1016/s2214-109x(23)00104-3](https://www.google.com/url?sa=E&q=https%3A%2F%2Fdoi.org%2F10.1016%2Fs2214-109x(23)00104-3)
+## Connections
+- [[HA PROJECTS]]

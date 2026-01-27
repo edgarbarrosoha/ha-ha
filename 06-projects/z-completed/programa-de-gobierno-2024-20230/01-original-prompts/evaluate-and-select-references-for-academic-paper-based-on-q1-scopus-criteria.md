@@ -24,3 +24,6 @@ CRITERIA:
 - **Parenthetical vs. Narrative**: Use parenthetical citations (e.g., (Smith, 2020)) when the study supports your claim but the authors are not part of the narrative. Use a narrative format when mentioning authors as part of your sentence, e.g., "Smith (2020) argues..."
 - **Multiple Works by the Same Author**: If citing multiple works by the same author, list them chronologically. Example: (Smith, 2015, 2020).
 - **Multiple Authors**: For a work by two authors, include both surnames (Smith & Jones, 2020). For three or more, list the first author followed by 'et al.' (Smith et al., 2020).
+
+## Connections
+- [[HA PROJECTS]]

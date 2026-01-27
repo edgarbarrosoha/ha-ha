@@ -56,3 +56,5 @@ The Contractor shall closely collaborate with UDP Lead Architect (Edgar Barroso)
 *   **Operational coordination:** With UDP PM (José Anson) for timeline management and final acceptance.
 *   **Implementation authority:** Responsible for all frontend code, CSS/Styling, and hosting configuration (e.g., Vercel/AWS Frontend) under Lead Architect supervision.
 *   **Meetings:** Participates in bi-weekly design reviews and sprint planning.
+## Connections
+- [[HA PROJECTS]]

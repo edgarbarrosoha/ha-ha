@@ -23,3 +23,5 @@ El curso ofrece una **perspectiva integral y prospectiva** de las telecomunica
 Quedo atento para coordinar la reunión.
 
 Saludos,
+## Connections
+- [[HA PROJECTS]]

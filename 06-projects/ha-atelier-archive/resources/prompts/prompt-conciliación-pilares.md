@@ -62,3 +62,5 @@ graph TD
 ```
 
 Este gráfico muestra cómo cada pilar se activa en un momento específico de la vida de la alumna, pero el bienestar integral (Vida 2050) es un factor constante que permea todas las etapas. Ejemplifica cómo el sistema diseñado no solo se enfoca en el desarrollo académico y profesional, sino también en la salud y felicidad de los estudiantes a lo largo de su vida.
+## Connections
+- [[HA PROJECTS]]

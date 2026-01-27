@@ -335,3 +335,5 @@ Una presentación verdaderamente memorable:
 ---
 
 > "La presentación memorable no es la que entrega más información, sino la que transforma más perspectivas."
+## Connections
+- [[HA PROJECTS]]

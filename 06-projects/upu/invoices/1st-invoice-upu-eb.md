@@ -53,3 +53,6 @@ _Thank you for your trust_
 **Edgar Barroso**  
 Independent Consultant  
 Date: July 30, 2025
+
+## Connections
+- [[HA PROJECTS]]

@@ -67,4 +67,10 @@
 
 ---
 
+## Connections
+
+- [[HA ROOT]] — Central hub of Horizons Architecture
+
+---
+
 *Este MOC es el punto de entrada al sistema HA*

@@ -108,3 +108,5 @@
 ## Conclusión
 
 El Plan Nacional de Desarrollo 2025-2030 establece una hoja de ruta integral que combina elementos normativos sólidos, prácticas participativas e innovadoras, y tendencias alineadas con los Objetivos de Desarrollo Sostenible (ODS). Su enfoque en derechos humanos, sostenibilidad ambiental, digitalización e inclusión social lo posiciona como un modelo estratégico para la transformación gubernamental en México.
+## Connections
+- [[HA PROJECTS]]

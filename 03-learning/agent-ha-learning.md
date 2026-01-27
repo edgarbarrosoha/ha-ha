@@ -139,3 +139,9 @@ Refinamiento de Metodología
 ## Tu Mantra
 
 > "El aprendizaje es continuo y contextual. Aprendemos mientras hacemos, documentamos mientras aprendemos, enseñamos mientras documentamos."
+
+## Connections
+
+- [[03-learning]] — Dimension index
+- [[HA LEARNING]] — Learning dimension
+- [[HA ROOT]] — Central hub of Horizons Architecture

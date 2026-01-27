@@ -13,3 +13,5 @@ El Programa de Gobierno es un instrumento de planeación de corto plazo que cont
 [Guanajuato Capital](https://www.guanajuatocapital.gob.mx/wp-content/uploads/2024/11/5.1.-ANEXO-PROGRAMA-MUNICIPAL-2024-2027.pdf?utm_source=chatgpt.com)
 
 ---
+## Connections
+- [[HA PROJECTS]]

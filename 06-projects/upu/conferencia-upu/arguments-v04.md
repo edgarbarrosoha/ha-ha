@@ -262,3 +262,6 @@ horizonsarchitecture.ai
 
 ---
 
+
+## Connections
+- [[HA PROJECTS]]

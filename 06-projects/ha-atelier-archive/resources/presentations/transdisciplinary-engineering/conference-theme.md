@@ -17,3 +17,5 @@ The conference will be organized across three tracks: 
 1. Research 
 2. Education
 3. Practice
+## Connections
+- [[HA PROJECTS]]

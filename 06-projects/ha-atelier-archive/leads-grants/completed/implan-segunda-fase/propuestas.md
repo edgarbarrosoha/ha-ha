@@ -132,3 +132,5 @@ Este Plan de Fortalecimiento Digital no es solo sobre tecnología; es sobre **co
 
 Atentamente
 El equipo de Arquitectura de Horizontes
+## Connections
+- [[HA PROJECTS]]

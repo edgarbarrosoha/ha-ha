@@ -408,3 +408,5 @@ Proporcionar a los participantes una comprensión estratégica sobre cómo imple
 **Nota Final:**
 
 Este módulo ha sido diseñado para equipar a los participantes con conocimientos prácticos y herramientas estratégicas para liderar la integración de la inteligencia artificial en sus organizaciones. Al aplicar lo aprendido, los asistentes estarán preparados para impulsar modelos de negocio innovadores, sostenibles y adaptables, aprovechando el potencial transformador de la IA para generar un impacto económico y social positivo.
+## Connections
+- [[HA PROJECTS]]

@@ -133,3 +133,5 @@ The role of AI, and how they can use AI to adapt their strategies to the regions
 ## 10. Language
 
 - Español de México.
+## Connections
+- [[HA PROJECTS]]

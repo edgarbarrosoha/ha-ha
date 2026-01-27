@@ -96,3 +96,6 @@ I appreciate the opportunity to present this proposal and am available to discus
 Sincerely,
 
 **Edgar Barroso**
+
+## Connections
+- [[HA PROJECTS]]

@@ -75,3 +75,5 @@ OCDE/CAF. (2023). Revisión del Gobierno Digital en América Latina y el Caribe.
 Secretaría Técnica de Planificación del Desarrollo Económico y Social. (s.f.). Guía para la elaboración del Plan Estratégico Institucional (PEI). [https://www.stp.gov.py/v1/wp-content/uploads/2023/06/GUIA-PEI.pdf](https://www.stp.gov.py/v1/wp-content/uploads/2023/06/GUIA-PEI.pdf)
 
 BID. (2023, marzo 13). Modernización del Estado. [https://www.iadb.org/es/quienes-somos/temas/modernizacion-del-estado](https://www.iadb.org/es/quienes-somos/temas/modernizacion-del-estado)
+## Connections
+- [[HA PROJECTS]]

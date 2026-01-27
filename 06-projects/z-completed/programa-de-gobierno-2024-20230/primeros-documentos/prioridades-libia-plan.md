@@ -184,3 +184,5 @@ Es importante reconocer que los dos documentos tienen propósitos diferentes y o
     
 
 Comprender estas convergencias y divergencias es esencial para evaluar la continuidad y el impacto potencial de estos planes en el futuro de Guanajuato. Un análisis más detallado de los planes de implementación específicos y los mecanismos de seguimiento del progreso de ambos documentos ofrecería una imagen más completa de su alineación y efectividad para impulsar la agenda de desarrollo de Guanajuato.
+## Connections
+- [[HA PROJECTS]]

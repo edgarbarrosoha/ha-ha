@@ -70,3 +70,5 @@ Para Elsa, _“el futuro de la universidad radica en su capacidad de reinventars
 Elsa Fernández plantea un enfoque estratégico que equilibra planificación estructurada con adaptabilidad. Su énfasis en comprender a las audiencias, establecer KPIs claros y fomentar la innovación constante refleja una visión pragmática pero ambiciosa para el futuro del Tec.
 
 Además, su modelo universitario adaptable y vivo aborda los desafíos de un mundo en constante cambio, destacando la importancia de la tecnología, el talento y la disposición para reinventarse. En conjunto, su visión posiciona al Tec como una institución que no solo responde a las demandas actuales, sino que lidera el cambio en la educación global.
+## Connections
+- [[HA PROJECTS]]

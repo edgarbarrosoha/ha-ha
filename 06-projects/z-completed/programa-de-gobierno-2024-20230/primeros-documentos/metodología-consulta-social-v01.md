@@ -622,3 +622,6 @@ El diseño y la implementación del cuestionario tienen en cuenta ciertos desaf�
 ### **Conclusión**
 
 Si bien el cuestionario enfrenta limitaciones inherentes a su diseño y alcance, las estrategias planteadas para mitigarlas aseguran que los resultados sean lo más representativos y confiables posible. Reconocer estos desafíos refuerza la transparencia del proceso y garantiza que el Programa de Gobierno 2024-2030 se construya sobre una base sólida y equitativa.
+
+## Connections
+- [[HA PROJECTS]]

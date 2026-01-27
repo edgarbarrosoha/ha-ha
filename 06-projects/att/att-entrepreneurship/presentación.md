@@ -183,3 +183,6 @@ cssclasses: []
 Muchas gracias por su tiempo
 edgarbarroso@tec.mx
 @edgarbarroso
+
+## Connections
+- [[HA PROJECTS]]

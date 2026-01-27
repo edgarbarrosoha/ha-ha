@@ -401,3 +401,5 @@
         - **Correo electrónico:** [edgar.barroso@example.com](mailto:edgar.barroso@example.com)
             
         - **LinkedIn:** [linkedin.com/in/edgarbarroso](https://linkedin.com/in/edgarbarroso)
+## Connections
+- [[HA PROJECTS]]

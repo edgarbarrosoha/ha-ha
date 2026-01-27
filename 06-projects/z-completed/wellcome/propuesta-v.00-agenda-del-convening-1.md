@@ -381,3 +381,6 @@ Esta sesión final es altamente interactiva y se enfoca en la asignación de res
 **Entregable:** Un **Plan de Acción con Responsables y Cronograma a 30/60/90 días**, y un acuerdo sobre el mecanismo de gobernanza post-convenio.
 
 
+
+## Connections
+- [[HA PROJECTS]]

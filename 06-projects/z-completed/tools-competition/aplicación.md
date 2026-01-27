@@ -119,3 +119,5 @@ This dataset enables research into personalized learning, hybrid human-AI collab
 - Explore strategies to enhance educational equity by examining how underrepresented students interact within the network and benefit from hybrid intelligence support.
 - Conduct longitudinal studies to assess the long-term impact of transdisciplinary, project-based learning on career readiness and vocational outcomes.
 We aim to contribute to learning science and engineering, inform educational policy, and drive evidence-based innovations that improve learner outcomes and promote equity in vocational education.
+## Connections
+- [[HA PROJECTS]]

@@ -65,3 +65,5 @@ El sistema se mantiene actualizado mediante:
 Revisiones periódicas de seguridad, actualización de métodos de protección y un protocolo claro para el manejo de incidentes de seguridad.
 
 ---
+## Connections
+- [[HA PROJECTS]]

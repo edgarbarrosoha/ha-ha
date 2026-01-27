@@ -85,3 +85,9 @@ Every project uses HA methodology:
 ---
 
 *Projects are not the work. They are the legacy becoming real.*
+
+## Connections
+
+- [[02-community]] — Dimension index
+- [[HA COMMUNITY]] — Community dimension
+- [[HA ROOT]] — Central hub of Horizons Architecture

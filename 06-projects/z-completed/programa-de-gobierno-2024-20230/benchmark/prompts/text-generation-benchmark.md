@@ -287,3 +287,5 @@ FINAL TASK: GENERATE TEXT. Take your time, make only the best versions to your m
 {
 
 }
+## Connections
+- [[HA PROJECTS]]

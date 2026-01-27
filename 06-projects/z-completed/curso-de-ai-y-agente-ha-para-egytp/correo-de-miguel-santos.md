@@ -12,3 +12,5 @@ Para el otro tema – creación de unidad de servicio de AI para todos los depar
 Un abrazo, un placer haber compartido contigo estos días,
 
 ¡Feliz fin de semana!
+## Connections
+- [[HA PROJECTS]]

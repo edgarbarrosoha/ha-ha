@@ -833,3 +833,6 @@ Speaker Name: Dialogue text content here."></textarea>
     </script>
 </body>
 </html>
+
+## Connections
+- [[HA PROJECTS]]

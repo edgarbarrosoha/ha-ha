@@ -17,3 +17,5 @@ These documents cover the complete scope for the UI/UX design and frontend deplo
 Please let me know if everything looks correct or if you require any adjustments before we move forward with the signatures.
 
 Best regards,
+## Connections
+- [[HA PROJECTS]]

@@ -59,3 +59,5 @@
 - Se elaboraron versiones adaptadas del Programa para niñas, niños, personas con discapacidad y pueblos indígenas.
 - Se desarrolló y puso en línea el sitio web del proyecto ([guanajuatointeligente.com](http://guanajuatointeligente.com/)) para alojar información del proceso y documentos finales.
 - Se produjeron tres videos informativos sobre el Programa y la consulta social.**
+## Connections
+- [[HA PROJECTS]]

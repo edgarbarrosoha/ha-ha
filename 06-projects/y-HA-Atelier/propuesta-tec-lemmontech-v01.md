@@ -146,3 +146,5 @@ Escuela de Ciencias Sociales y Gobierno
 **Edgar Barroso**
 Profesor 
 Tecnológico de Monterrey
+## Connections
+- [[HA PROJECTS]]

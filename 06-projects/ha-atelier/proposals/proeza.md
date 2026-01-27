@@ -312,3 +312,5 @@ Daniel Martínez Valle es un líder con visión sistémica que prioriza el pro
 [[25]](https://citrofrut.com/sostenibilidad/environment/#:~:text=renewable%20energy%20use,CFE%29%20provisions) Environment | Citrofrut
 
 [https://citrofrut.com/sostenibilidad/environment/](https://citrofrut.com/sostenibilidad/environment/)
+## Connections
+- [[HA PROJECTS]]

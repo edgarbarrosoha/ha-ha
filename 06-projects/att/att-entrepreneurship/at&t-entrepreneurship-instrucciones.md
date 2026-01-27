@@ -37,3 +37,5 @@ Contenidos sugeridos: 
 ¿Me podrías ayudar a confirmar el día y la hora porfa?
 
 Muchas gracias
+## Connections
+- [[HA PROJECTS]]

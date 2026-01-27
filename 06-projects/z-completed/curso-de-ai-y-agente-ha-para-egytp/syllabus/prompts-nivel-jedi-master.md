@@ -1654,3 +1654,5 @@ Has recibido una crítica sobre tu modelo inicial.
 """
 # (Salida esperada: Las ecuaciones de Lotka-Volterra con el término de capacidad de carga K)
 ```
+## Connections
+- [[HA PROJECTS]]

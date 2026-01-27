@@ -153,4 +153,12 @@ HA navega complejidad. Entender las fuerzas macro que crean complejidad nos posi
 
 ---
 
+## Connections
+
+- [[05-context]] — Dimension index
+- [[HA CONTEXT]] — Context dimension
+- [[HA ROOT]] — Central hub of Horizons Architecture
+
+---
+
 *Actualizar trimestralmente*

@@ -35,3 +35,5 @@ SUMMARY WITH REFERENCES IN APA:
 
 
 }
+## Connections
+- [[HA PROJECTS]]

@@ -25,3 +25,5 @@
 
 - **4. Tabla Resumen Integrada (Comunidad):**  
   Consolidar la información en una tabla resumen.
+## Connections
+- [[HA PROJECTS]]

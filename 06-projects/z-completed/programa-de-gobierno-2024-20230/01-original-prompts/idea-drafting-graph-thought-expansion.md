@@ -16,3 +16,5 @@ Please expand this idea using a graph-thinking approach, where key elements are 
 Node 1 --> Connected to Node 2 (relationship) --> Node 3 (relationship) --> etc. Illustrate multi-dimensional relationships where necessary, and briefly summarize the overall structure and how the idea evolves through the connections.
 
 And mermaid code. 
+## Connections
+- [[HA PROJECTS]]

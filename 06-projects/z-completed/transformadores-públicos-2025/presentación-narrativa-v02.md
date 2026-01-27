@@ -244,3 +244,6 @@ _Alternancias que mantienen el compromiso cognitivo sin sacrificar profundidad_
 - **Sinteticen conocimiento y complejidad** - Integra datos, análisis y significado
 
 ---
+
+## Connections
+- [[HA PROJECTS]]

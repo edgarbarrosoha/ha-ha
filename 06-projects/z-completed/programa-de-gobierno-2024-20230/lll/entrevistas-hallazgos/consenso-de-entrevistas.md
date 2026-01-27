@@ -170,3 +170,5 @@ Los entrevistados convergen en una visión transformadora donde el aprendizaje a
 - Marcas internas (Tec, Tecmilenio, Educación Continua)
 - Diferenciación
 - Visión de futuro
+## Connections
+- [[HA PROJECTS]]

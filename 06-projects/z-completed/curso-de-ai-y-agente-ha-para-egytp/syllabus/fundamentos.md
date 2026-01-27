@@ -427,3 +427,6 @@ Aquí está la sección actualizada con el análisis comparativo de los modelos 
 3. **Modelos Pequeños Potentes**: Phi-3, Gemma-2 compitiendo con modelos 10x más grandes
 4. **Agentes Autónomos**: Todos los proveedores principales desarrollando capacidades agénticas
 5. **Multimodalidad Nativa**: Integración profunda imagen-texto-audio-video
+
+## Connections
+- [[HA PROJECTS]]

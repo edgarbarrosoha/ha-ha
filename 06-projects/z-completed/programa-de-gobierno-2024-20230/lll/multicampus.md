@@ -389,3 +389,6 @@ By adopting this strategy, tec-monterrey can create a resilient and vibrant mult
 ---
 
 **Note:** This strategic priority aligns with modern organizational theories that emphasize adaptability, decentralization, and leveraging diversity as strengths in complex systems. It addresses the concerns of having "lesser" campuses by ensuring each campus has a distinct and valuable role within the university, contributing uniquely to its collective success.
+
+## Connections
+- [[HA PROJECTS]]

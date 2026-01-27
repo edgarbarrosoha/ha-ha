@@ -272,3 +272,9 @@ edgar@horizonsarchitecture.com
 - Mara — Personal life planning
 
 **2026 Priority:** The book—the canonical text that establishes HA as a discipline.
+
+## Connections
+
+- [[01-legacy]] — Dimension index
+- [[HA LEGACY]] — Legacy dimension
+- [[HA ROOT]] — Central hub of Horizons Architecture

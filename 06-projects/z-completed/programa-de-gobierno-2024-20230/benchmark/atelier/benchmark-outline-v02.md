@@ -253,3 +253,5 @@ Esta tabla recopila las tendencias identificadas en la literatura, organizadas p
     - Alinear los hallazgos obtenidos con la estructura de las seis dimensiones de HA, de modo que se puedan definir acciones específicas para cada área en el marco del programa de 5–6 años.
 
 Estos instrumentos están diseñados para facilitar una visión integral y comparativa que oriente la elaboración y la implementación de un Programa de Gobierno robusto, flexible y adaptado a las mejores prácticas internacionales y a las evidencias de la literatura especializada.
+## Connections
+- [[HA PROJECTS]]

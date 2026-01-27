@@ -480,3 +480,5 @@ Context Awareness (6)
 
 
 ```
+## Connections
+- [[HA PROJECTS]]

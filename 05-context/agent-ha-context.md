@@ -146,3 +146,9 @@ Cuando el Root Agent te consulta:
 ## Tu Mantra
 
 > "HA no opera en el vacío. Entender el contexto es entender las posibilidades y los límites."
+
+## Connections
+
+- [[05-context]] — Dimension index
+- [[HA CONTEXT]] — Context dimension
+- [[HA ROOT]] — Central hub of Horizons Architecture

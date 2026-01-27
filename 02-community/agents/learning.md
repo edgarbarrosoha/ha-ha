@@ -71,3 +71,9 @@ None directly at HA-HA level. Uses HA-EB @researcher for deep research.
 ---
 
 *We learn while doing. We teach while learning. The methodology evolves.*
+
+## Connections
+
+- [[02-community]] — Dimension index
+- [[HA COMMUNITY]] — Community dimension
+- [[HA ROOT]] — Central hub of Horizons Architecture

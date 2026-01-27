@@ -65,3 +65,5 @@ Key Questions:
 Notepad:
 
 * No notes
+## Connections
+- [[HA PROJECTS]]

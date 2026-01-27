@@ -162,3 +162,5 @@ While the benefits of AI in education are significant, there are also challenges
 1. **How ​​has collaboration between managers and educational leaders been effectively coordinated in multi-campus institutions?** 
 
 • **¿Por qué plataformas de aprendizaje en línea como Coursera y Udemy están experimentando pérdidas financieras, y cuáles son los principales retos financieros que enfrentan las plataformas de educación en línea en el contexto actual?**
+## Connections
+- [[HA PROJECTS]]

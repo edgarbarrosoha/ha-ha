@@ -121,3 +121,5 @@ El panorama educativo está cambiando. Las plataformas de educación en línea t
 **Conclusión**
 
 Reafirmamos la importancia de alinear nuestros mandatos con la HA y la adopción de IA. La oficina del VP está comprometida con esta iniciativa y solicita el apoyo del Consejo.
+## Connections
+- [[HA PROJECTS]]

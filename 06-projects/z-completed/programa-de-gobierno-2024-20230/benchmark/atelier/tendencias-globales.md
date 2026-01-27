@@ -340,3 +340,5 @@ This table should give you a solid framework for understanding how the global tr
 - **United Nations e-Government Survey:** Este informe anual evalúa el nivel de desarrollo de la administración pública digital en diferentes países.
 - **World Economic Forum:** El Foro Económico Mundial publica informes sobre las tendencias tecnológicas y su impacto en la sociedad y la economía.
 - **International City/County Management Association (ICMA):** La ICMA es una asociación profesional que ofrece recursos y herramientas para los gobiernos locales.
+## Connections
+- [[HA PROJECTS]]

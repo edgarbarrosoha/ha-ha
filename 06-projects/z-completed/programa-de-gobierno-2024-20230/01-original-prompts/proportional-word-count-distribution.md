@@ -34,3 +34,5 @@ Based on the document type, structure, and total word count, create a proportion
 
 **Final Output:**
 Provide a clear breakdown of the document’s proportional word count by section, including the flexibility to modify sections based on user input or field-specific best practices.
+## Connections
+- [[HA PROJECTS]]

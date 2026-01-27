@@ -1088,3 +1088,5 @@ V.01
     - Herramientas de Arquitectura de Horizontes y Casa Antena
 - **Q&A final y canales de contacto**
     - Asesorías, documentación y comunidad de práctica
+## Connections
+- [[HA PROJECTS]]

@@ -21,3 +21,5 @@ Mente el equipo de arquitectura de horizontes, creará un pequeño párrafo que 
 La última parte es que los estudiantes presentan sus proyectos usando las presentaciones de MacDown que les hizo el agente de arquitectura de horizontes, de manera muy breve, son ocho equipos, tendríamos alrededor de una hora y media para hacerlo. Por favor calcula cuál sería la duración ideal y también deja tiempo para última reflexiones y cierre del taller y del evento que han estado trabajando durante los últimos tres días.
 
 TASK: haz este taller de maneras climática y ordenada y explicativa que permite entender perfectamente al equipo que va a implementar este taller, las diferentes fases, la parte técnica cómo se pueden organizar y sobretodo cómo se podría ser de manera fácil, nosotros estamos pensando en usar plantillas de de plástico para poder reutilizarlas, en donde esté la partitura de arquitectura de horizontes, y también estaremos un formato nuevo para contrastar los legados y los hitos de los legados.
+## Connections
+- [[HA PROJECTS]]

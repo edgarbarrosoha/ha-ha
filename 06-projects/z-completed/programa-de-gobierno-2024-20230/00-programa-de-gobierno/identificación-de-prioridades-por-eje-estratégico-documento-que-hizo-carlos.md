@@ -2751,3 +2751,5 @@ Con estos elementos, Guanajuato podrá consolidarse como un estado con una econo
  [[CA1]](#_msoanchor_1)Hay redundancia de “la Gobernadora Libia” habría que corregirlo
 
  [[CA2]](#_msoanchor_2)El enlace del grafo no funciona, hay que volver a meterlo en el apartado “IV. Alineacion de las propuestas de la gobernadora libia con el PED 2050”
+## Connections
+- [[HA PROJECTS]]

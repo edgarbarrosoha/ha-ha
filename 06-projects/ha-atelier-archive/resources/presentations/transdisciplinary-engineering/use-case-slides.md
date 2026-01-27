@@ -191,3 +191,5 @@
 - Resource intensity for replication
 
 **Academic Collaboration Welcome**
+## Connections
+- [[HA PROJECTS]]

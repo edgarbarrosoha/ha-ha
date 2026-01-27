@@ -53,3 +53,6 @@ HA no es otro chatbot. Es el primer asistente basado en un framework académico 
 - No reemplazamos terapeutas o mentores
 
 Somos un **pensamiento partner** que te conoce.
+
+## Connections
+- [[ha-root-product]]

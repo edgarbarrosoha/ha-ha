@@ -572,3 +572,5 @@ Al adoptar este enfoque de gobernanza por fases, comenzando con una clara descom
 
   
 **
+## Connections
+- [[HA PROJECTS]]

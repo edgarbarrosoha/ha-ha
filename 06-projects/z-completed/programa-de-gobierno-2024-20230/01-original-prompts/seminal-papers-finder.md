@@ -17,3 +17,5 @@ For each paper, provide:
 - Brief Summary (no more than 2-3 sentences) explaining its relevance and theoretical contributions.
 
 Present the results clearly in a list format. PRINT ONLY RESULTS.
+## Connections
+- [[HA PROJECTS]]

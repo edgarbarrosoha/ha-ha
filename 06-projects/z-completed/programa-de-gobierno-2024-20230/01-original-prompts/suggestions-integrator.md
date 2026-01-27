@@ -38,3 +38,6 @@ Follow these steps to ensure a balanced and coherent final result:
 9. **Feedback Loop**: After integrating suggestions, assess the text’s quality and provide a summary of the changes made. If any suggestions were partially or fully rejected due to conflicts, explain the rationale behind those decisions.
     
 Your output should be the revised, fully integrated version of the text, ready for review.
+
+## Connections
+- [[HA PROJECTS]]

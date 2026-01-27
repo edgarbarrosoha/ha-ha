@@ -434,3 +434,6 @@ def evaluate_prompt_quality(prompt, test_cases):
 ```
 
 ---
+
+## Connections
+- [[HA PROJECTS]]

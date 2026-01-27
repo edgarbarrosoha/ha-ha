@@ -6,3 +6,6 @@
   
 - **Futuras Áreas de Investigación:**  
   Identificación de posibles extensiones y mejoras en la metodología.
+
+## Connections
+- [[HA PROJECTS]]

@@ -60,3 +60,5 @@ Revisa tu respuesta y realiza el proofreading. Por cada observación de mejora i
 ---
 
 y vuelo a pedirle autoevaluación…
+## Connections
+- [[HA PROJECTS]]

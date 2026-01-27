@@ -203,3 +203,9 @@ Esta es la misma oportunidad. Para educación. Para inteligencia híbrida. Para 
 ---
 
 *P.D. - DOCET-Agentic puede ser un proyecto exitoso. Pero DOCET + HA como socios puede ser histórico. Tú decides qué quieres construir.*
+
+## Connections
+
+- [[01-legacy]] — Dimension index
+- [[HA LEGACY]] — Legacy dimension
+- [[HA ROOT]] — Central hub of Horizons Architecture

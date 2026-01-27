@@ -390,3 +390,5 @@ La agenda se construyó para que los asistentes generen todos los productos tang
     
 
 Esta agenda busca generar un entorno participativo y riguroso, garantizando que los participantes exploren profundamente los temas, generen propuestas de calidad y acuerden compromisos concretos para avanzar en las reformas priorizadas.
+## Connections
+- [[HA PROJECTS]]

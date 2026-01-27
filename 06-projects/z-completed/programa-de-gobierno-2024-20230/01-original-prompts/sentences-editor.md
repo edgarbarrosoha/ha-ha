@@ -12,3 +12,5 @@ You are an expert editor tasked with refining the sentence structure, word choic
     
 
 You can apply this process iteratively to refine the text further based on your observations. Feel free to request specific examples or deeper clarification at any stage to enhance the result further.
+## Connections
+- [[HA PROJECTS]]

@@ -178,3 +178,9 @@ Te estoy invitando a construir algo juntos.
 ---
 
 **Edgar**
+
+## Connections
+
+- [[01-legacy]] — Dimension index
+- [[HA LEGACY]] — Legacy dimension
+- [[HA ROOT]] — Central hub of Horizons Architecture

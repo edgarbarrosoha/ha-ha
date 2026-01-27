@@ -145,3 +145,5 @@ Propósito: Segmentar las respuestas y entender las necesidades según el perfil
 - **Comunicación Clara:** Difundir ampliamente la importancia de participar, destacando cómo sus respuestas influirán en las acciones del gobierno.
 
 Este diseño asegura que la consulta social sea un ejercicio significativo, tanto para recopilar datos valiosos como para generar confianza y participación activa de la ciudadanía.
+## Connections
+- [[HA PROJECTS]]

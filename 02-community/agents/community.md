@@ -79,3 +79,9 @@ For HA-HA: Build the team, clients, and network that makes the unicorn possible.
 ---
 
 *The network is the asset. Relationships compound.*
+
+## Connections
+
+- [[02-community]] — Dimension index
+- [[HA COMMUNITY]] — Community dimension
+- [[HA ROOT]] — Central hub of Horizons Architecture

@@ -99,3 +99,5 @@ Párrafo 1 - Eje Armonía:
 Párrafo 2 - Eje Armonía:
 
 Estos párrafos son parte de este programa de gobierno. 
+## Connections
+- [[HA PROJECTS]]

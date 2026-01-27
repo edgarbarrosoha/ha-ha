@@ -62,3 +62,6 @@ type: clock
 ---
 # Completed ✓
 
+
+## Connections
+- [[HA PROJECTS]]

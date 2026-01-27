@@ -5,3 +5,5 @@ Find the three seminal and most recent (last 5 years) and relevant Q1 Scopus pap
 
 
 }
+## Connections
+- [[HA PROJECTS]]

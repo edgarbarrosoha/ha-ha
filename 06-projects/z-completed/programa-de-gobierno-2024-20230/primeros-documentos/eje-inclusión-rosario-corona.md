@@ -144,3 +144,5 @@ La visión es modernizar la administración pública y promover la inclusión di
 - Impulsar un desarrollo sostenible que combine crecimiento económico con protección ambiental.
 ---
 Muchas gracias
+## Connections
+- [[HA PROJECTS]]

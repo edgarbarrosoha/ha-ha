@@ -320,5 +320,6 @@ Start with: "What's on your mind today?"
 4. [ ] Build simple web version
 5. [ ] Add "go deeper" flows for each dimension
 
----
-
+## Connections
+- [[01-legacy-product]]
+- [[ha-root-product]]

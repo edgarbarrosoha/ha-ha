@@ -156,3 +156,6 @@ Thank you for sharing your insights on these pressing topics. It's clear that AI
 
 Now, I'd like to open the floor to any additional comments from our panelists or questions from the audience.
 
+
+## Connections
+- [[HA PROJECTS]]

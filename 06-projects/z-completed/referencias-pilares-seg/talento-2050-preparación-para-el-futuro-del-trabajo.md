@@ -502,3 +502,5 @@ While these innovations offer promising avenues for equipping students with nece
 - Xie, T., Wang, X., Cifuentes-Faura, J., & Xing, Y. (2023). Integrating immersive experience into hybrid education: A case study in fintech experimental education. Scientific Reports, 13(1), Article 22393. [https://doi.org/10.1038/s41598-023-50259-1](https://www.google.com/url?sa=E&q=https%3A%2F%2Fdoi.org%2F10.1038%2Fs41598-023-50259-1)
     
 - Heymann, P., Hukema, M., van Rosmalen, P., & Beausaert, S. (2024). Towards design principles for an online learning platform providing reflective practices for developing employability competences. Education and Information Technologies. Advance online publication. [https://doi.org/10.1007/s10639-024-12530-4](https://www.google.com/url?sa=E&q=https%3A%2F%2Fdoi.org%2F10.1007%2Fs10639-024-12530-4)
+## Connections
+- [[HA PROJECTS]]

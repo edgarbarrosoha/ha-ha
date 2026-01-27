@@ -77,3 +77,5 @@
 • **Insights on Innovation Levels**
 
 • Assess and gather insights on the levels of innovation within the governance process, focusing on AI integration and advanced knowledge systems.
+## Connections
+- [[HA PROJECTS]]

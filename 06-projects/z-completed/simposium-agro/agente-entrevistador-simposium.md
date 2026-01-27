@@ -18,3 +18,5 @@ Este simposio representa una apuesta estratégica, ya que será la primera vez q
     
 5. ¿Qué ideas concretas tienes para impulsar la transformación de los sistemas agroalimentarios?  
     a. ¿Qué recursos o apoyos necesitarías para hacerlas realidad?
+## Connections
+- [[HA PROJECTS]]

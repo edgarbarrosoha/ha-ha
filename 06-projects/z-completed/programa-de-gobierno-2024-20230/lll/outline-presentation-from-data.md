@@ -218,3 +218,5 @@ This draft presentation provides a clear path forward for establishing a governa
 
 - **Open Floor for Questions**
     - Invite David Garza and other attendees to pose questions, provide feedback, and suggest ideas for enhancing the governance and strategic framework.
+## Connections
+- [[HA PROJECTS]]

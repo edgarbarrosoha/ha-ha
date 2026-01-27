@@ -25,3 +25,5 @@ Just as an example, the format should look EXACTLY likes this, so that it is a c
 {
 A range of studies provide empirical evidence supporting the effectiveness of hybrid human-machine intelligence frameworks in managing system complexities. Zou (2024) and Ye (2022) both highlight the importance of balance and integration in these systems, with Zou emphasizing the need for a threshold to optimize performance, and Ye proposing a parallel cognition approach. Trianni (2023) and Sherson (2023) further explore the potential of hybrid collective intelligence and a multi-dimensional framework for developing and deploying AI-human systems. 
 }
+## Connections
+- [[HA PROJECTS]]

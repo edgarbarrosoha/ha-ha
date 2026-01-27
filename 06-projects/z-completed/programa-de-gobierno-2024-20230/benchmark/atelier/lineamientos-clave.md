@@ -17,3 +17,5 @@ La inclusión de perspectivas transversales constituye otro lineamiento esencial
 En materia de evaluación y mejora continua, se adoptan las metodologías del Centro Latinoamericano de Administración para el Desarrollo (CLAD) sobre la gestión de calidad en el sector público, estableciendo ciclos regulares de revisión y actualización de estrategias basados en evidencia y resultados medibles.
 
 Finalmente, se incorporan las mejores prácticas en gestión del cambio y desarrollo organizacional, reconociendo que la implementación exitosa del Programa de Gobierno requiere una transformación cultural en las instituciones públicas y el desarrollo de capacidades específicas en los servidores públicos.
+## Connections
+- [[HA PROJECTS]]

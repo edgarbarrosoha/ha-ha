@@ -263,3 +263,5 @@ El verdadero reto ético de nuestro tiempo no es prevenir el apocalipsis de la I
 La pregunta que deberíamos hacernos no es "¿Puede la IA reemplazar a los humanos?" sino "¿Qué aspectos de la experiencia humana estamos dispuestos a defender como irreemplazables, incluso si la alternativa sintética es 'mejor' por cualquier métrica medible?"
 
 Porque al final, ese podría ser el reto ético más importante de todos: definir qué valores humanos son tan fundamentales que los preservaríamos incluso a costa de la eficiencia, la optimización y el progreso medible. Y tener el coraje de defenderlos cuando llegue el momento.
+## Connections
+- [[HA PROJECTS]]

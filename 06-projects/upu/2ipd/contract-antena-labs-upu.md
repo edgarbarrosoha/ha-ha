@@ -123,3 +123,6 @@ Date and place: Zurich 09.01.2025
 
 ***
 
+
+## Connections
+- [[HA PROJECTS]]

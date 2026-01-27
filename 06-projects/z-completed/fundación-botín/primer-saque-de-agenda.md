@@ -40,3 +40,5 @@
 4.  **Plantillas y Entregables "Plug-and-Play":**
     *   **Cómo:** Se diseñarán los lienzos digitales (Canvas AH 6D y Roadmap 5 años) en una herramienta colaborativa (Miro, Notion, etc.). Estarán listos en las carpetas de cada equipo.
     *   **Por qué:** Para eliminar la fricción técnica y permitir que los equipos se concentren el 100% del tiempo en el pensamiento y la colaboración, no en el formato.
+## Connections
+- [[HA PROJECTS]]

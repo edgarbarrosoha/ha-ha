@@ -93,3 +93,5 @@ Presenta el guion completo con:
 - Un inicio breve y contextual.
 - El cuerpo de la entrevista con las 6 preguntas dimensionales y sus respectivas directivas de seguimiento entre corchetes.
 - Un cierre conciso y profesional.
+## Connections
+- [[HA PROJECTS]]

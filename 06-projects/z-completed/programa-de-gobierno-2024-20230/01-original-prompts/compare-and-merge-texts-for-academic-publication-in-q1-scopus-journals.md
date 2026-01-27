@@ -49,3 +49,5 @@ Compare the two texts based on their structure, content, and writing style. Prio
 {
 
 }
+## Connections
+- [[HA PROJECTS]]

@@ -105,3 +105,5 @@ Tienes acceso a los siguientes documentos que contienen información detallada s
   \- **Contenido:** Visión y objetivos de la Gobernadora Libia García para su administración.
 
   \- **Uso:** Para alinear tus explicaciones con la visión de la Gobernadora y destacar cómo el programa refleja sus metas.
+## Connections
+- [[HA PROJECTS]]

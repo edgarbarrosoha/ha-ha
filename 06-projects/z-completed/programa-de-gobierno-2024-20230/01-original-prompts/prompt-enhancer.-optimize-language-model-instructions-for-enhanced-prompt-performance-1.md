@@ -42,3 +42,5 @@ Prompt to be enhanced:
 }
 
 PRINT ONLY RESULT: 
+## Connections
+- [[HA PROJECTS]]

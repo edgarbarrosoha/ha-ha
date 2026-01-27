@@ -1,2 +1,5 @@
 
 
+
+## Connections
+- [[HA PROJECTS]]

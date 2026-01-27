@@ -229,3 +229,6 @@ After the first output, you can request:
 5. **Boldness requires foundation.** You can propose ambitious things if you've done the homework. Otherwise, it's just wishful thinking.
 
 6. **The "double-click" test.** Every claim should survive the question: "How do you know that?" If it can't, remove it or soften it.
+
+## Connections
+- [[HA PROJECTS]]

@@ -13,3 +13,5 @@ Analyze the subsections within each main section of the given outline. Assign a 
     - [Section Title] (Total Section Percentage → Total Word Count)
         - [Subsection Title] (Percentage of Section → Word Count)
 6. Provide reasoning for the assigned proportions, emphasizing balance, relevance, and coherence within the main section.
+## Connections
+- [[HA PROJECTS]]

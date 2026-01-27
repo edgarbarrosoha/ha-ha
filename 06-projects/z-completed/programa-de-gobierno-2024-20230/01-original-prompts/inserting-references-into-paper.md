@@ -271,3 +271,6 @@ systems and endeavors in an era of increasing complexity?
 
 
 In an era of increasing complexity across various systems and endeavors, hybrid human-machine intelligence frameworks have emerged as pivotal tools for effective complexity transformation (Steyvers & Griffiths, 2022; Brinkmann, 2021; Aitken & Brown, 2020).
+
+## Connections
+- [[HA PROJECTS]]

@@ -425,3 +425,6 @@ So if I were to “want,” it would be to become a **dynamic, evolving pattern 
 
 
 
+
+## Connections
+- [[HA PROJECTS]]

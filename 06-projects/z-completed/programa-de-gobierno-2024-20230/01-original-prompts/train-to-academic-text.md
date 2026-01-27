@@ -25,3 +25,5 @@ EXAMPLE (if applicable):
 Provide an example of what the final academic phrasing might look like to demonstrate your understanding of the transformation.
 
 PRINT ONLY THE FINAL RESULTS: 
+## Connections
+- [[HA PROJECTS]]

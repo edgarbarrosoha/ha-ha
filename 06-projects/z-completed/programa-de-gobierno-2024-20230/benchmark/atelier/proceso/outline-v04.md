@@ -413,3 +413,6 @@ Explicación de hallazgos
   Identificación de posibles extensiones y mejoras en la metodología.
 
 ---
+
+## Connections
+- [[HA PROJECTS]]

@@ -27,3 +27,5 @@ Genera un outline de un reporte que contenga tres cosas:
 1. Los elementos, prácticas, estructuras, etc (continua la lista si  es necesario) que tiene que tener un programa de gobierno.
 2. Las tendendencias globales futuras o más recientes en el mundo sobre las mejores prácitcas de gobiernos estatales o nacionales
 3. Una serie de recomendaciones sobre cómo conformar programas de gobierno eficientes, eficaces y cercanos a la ciudadanía y desarrollando procesos de  innovación pública actuales y hacia el futuro.
+## Connections
+- [[HA PROJECTS]]

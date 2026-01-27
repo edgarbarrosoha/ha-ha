@@ -38,4 +38,10 @@ graph TD
 
 ---
 
+## Connections
+
+- [[HA ROOT]] — Central hub of Horizons Architecture
+
+---
+
 *Este nodo es el punto central del grafo HA*

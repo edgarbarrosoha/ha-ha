@@ -63,3 +63,5 @@ Ley general de alimentación adecuada y sostenible
 - La **transparencia aumentada por IA** —trazabilidad de decisiones, visualización de impactos, memoria de acuerdos— genera condiciones para confianza sostenida.
     
 - Ejemplo: Plataformas de gobernanza alimentaria donde comunidades indígenas, agroindustria y gobierno visualizan en tiempo real cómo sus decisiones afectan a otros actores, facilitadas por IA pero gobernadas por protocolos humanos de respeto y reciprocidad.
+## Connections
+- [[HA PROJECTS]]

@@ -110,3 +110,6 @@ La visión es que las juventudes desarrollen un proyecto de vida en Guanajuato, 
 ---
 
 - Escuchar las necesidades reales de la ciudadanía, priorizando un gobierno cercano, receptivo, transparente y con rendición de cuentas.
+
+## Connections
+- [[HA PROJECTS]]

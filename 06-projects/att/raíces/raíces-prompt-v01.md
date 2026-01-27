@@ -36,3 +36,5 @@ Nota: Todo esto se hará dentro del marco de HA.
 - El presupuesto para este programa es de $120k USD y sería ejecutado en los próximos 6 meses. 
 
 TASK: Diseña una propuesta para att que explique claramente el diseño y proceso que explique las etapas, las actividades, los entregables, el cronograma y el presupuesto y el impacto.
+## Connections
+- [[HA PROJECTS]]

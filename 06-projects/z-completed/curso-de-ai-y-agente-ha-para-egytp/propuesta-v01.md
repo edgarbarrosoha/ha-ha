@@ -110,3 +110,5 @@ Miguel, Vanessa, muchas gracias por la confianza depositada en HA. Estamos entus
 
 **Contacto:** Sarahí Orduño 
 sarahi@horizonsarchitecture.ai
+## Connections
+- [[HA PROJECTS]]

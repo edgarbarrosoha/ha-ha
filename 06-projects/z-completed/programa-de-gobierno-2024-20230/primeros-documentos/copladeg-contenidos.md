@@ -8,3 +8,5 @@
 8. Ejercicio de retroalimentación para las y los integrantes del COPLADEG
 9. Conclusiones
 10. Cierre de la reunión
+## Connections
+- [[HA PROJECTS]]

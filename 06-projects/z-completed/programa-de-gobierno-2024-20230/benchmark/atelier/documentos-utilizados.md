@@ -1510,3 +1510,5 @@ Informe Regional de Desarrollo Humano | Atrapados: Alta desigualdad y bajo creci
 Este Informe Regional de Desarrollo Humano sostiene que la región se encuentra, de hecho, en
 
 ](https://www.undp.org/es/latin-america/publicaciones/informe-regional-de-desarrollo-humano-atrapados-alta-desigualdad-y-bajo-crecimiento-en-america-latina-y-el-caribe#:~:text=Este%20Informe%20Regional%20de%20Desarrollo,trampa%20para%20liberarse%20de%20ella)
+## Connections
+- [[HA PROJECTS]]

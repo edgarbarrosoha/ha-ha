@@ -29,3 +29,5 @@ The course should touch on the following key aspects (adapted to the subject mat
 - Providing both sequential and non-linear strategies for students to engage with content, offering flexibility in how they navigate the subject.
 - Including basic-to-advanced modules to ensure the course is modular and adaptable to varying levels of complexity, accommodating both beginners and experts.
 - Ensuring the course is general-purpose, adaptable to different fields and contexts, maintaining balanc
+## Connections
+- [[HA PROJECTS]]

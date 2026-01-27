@@ -65,3 +65,5 @@ Regards,
 }
 
 Check out the images also to get more context of what we should focus on. 
+## Connections
+- [[HA PROJECTS]]

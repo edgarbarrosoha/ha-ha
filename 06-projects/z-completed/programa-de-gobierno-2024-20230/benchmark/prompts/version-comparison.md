@@ -41,3 +41,6 @@ Este enfoque metodológico combinado (HA + IA) se aplica específicamente con el
 # V.03
 
 
+
+## Connections
+- [[HA PROJECTS]]

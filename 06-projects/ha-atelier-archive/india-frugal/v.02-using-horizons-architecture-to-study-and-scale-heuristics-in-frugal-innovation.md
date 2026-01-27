@@ -86,3 +86,5 @@ Together, these features allow researchers and practitioners to systematically d
  KDD.org. (n.d.). *Frugal AI*. KDD Exploration Files. Retrieved from [https://kdd.org/exploration_files/p72-Frugal_AI.pdf](https://kdd.org/exploration_files/p72-Frugal_AI.pdf)
 
  Ibid.
+## Connections
+- [[HA PROJECTS]]

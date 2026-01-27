@@ -24,3 +24,5 @@ El cupo es limitado y el proceso de postulación no tiene costo.
 
 - 📌 Formulario de inscripción: [http://www.1-clic.org](http://www.1-clic.org/)
 - ℹ️ Más información sobre el programa: [http://www.1-clic.org](http://www.1-clic.org/)
+## Connections
+- [[HA PROJECTS]]

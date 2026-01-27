@@ -62,3 +62,5 @@ El primero inspira; el segundo **transforma.**
   
 
 ChatGPT can make mistakes. Check important info. See Cookie Preferences.
+## Connections
+- [[HA PROJECTS]]

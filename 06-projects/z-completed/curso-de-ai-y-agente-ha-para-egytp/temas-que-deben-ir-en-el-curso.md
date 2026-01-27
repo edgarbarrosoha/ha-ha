@@ -489,3 +489,5 @@ Esta versión actualizada del módulo proporciona herramientas reales y comercia
 - Advance
     
 - Futuristic
+## Connections
+- [[HA PROJECTS]]

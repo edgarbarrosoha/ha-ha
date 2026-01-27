@@ -183,3 +183,5 @@ Ordena los siguientes ejes del más importante (1) al menos importante (6) para 
 ¡Listo! Esas son todas las preguntas. Muchas gracias por compartir tu opinión y ayudarnos a construir el Guanajuato que queremos. Tu participación es muy valiosa.
 
 #PriorizaGTO
+## Connections
+- [[HA PROJECTS]]

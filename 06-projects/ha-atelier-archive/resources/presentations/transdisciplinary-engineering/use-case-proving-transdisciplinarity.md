@@ -136,3 +136,5 @@ This is the future of transdisciplinary engineering. Not just building things, b
 Thank you."
 
 **(Presenter opens the floor for Q&A.)**
+## Connections
+- [[HA PROJECTS]]

@@ -8,3 +8,6 @@ Transform the following statement into {one} well-thought but clear and concise,
 
 
 
+
+## Connections
+- [[HA PROJECTS]]

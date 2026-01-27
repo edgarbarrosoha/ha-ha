@@ -295,3 +295,5 @@
 • ¿Qué herramientas y metodologías pueden utilizarse para evaluar de manera integral el bienestar físico y emocional de los estudiantes dentro del entorno educativo?
 
 • ¿Cómo puede medirse el impacto de las políticas educativas enfocadas en la salud y bienestar en los resultados a largo plazo, tanto en el ámbito académico como en la vida personal de los estudiantes?
+## Connections
+- [[HA PROJECTS]]

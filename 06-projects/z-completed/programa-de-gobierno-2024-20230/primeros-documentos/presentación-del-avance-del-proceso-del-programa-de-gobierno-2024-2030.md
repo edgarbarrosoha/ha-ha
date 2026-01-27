@@ -350,3 +350,6 @@ Transición: Esperanza no es solo una herramienta, es un puente que conecta las 
 ## 12. Con: Un modelo de inclusión, innovación y colaboración
 
 El Programa de Gobierno 2024-2030 no solo es un documento técnico. Es un modelo dinámico que incorpora las voces ciudadanas, la colaboración estratégica y la tecnología avanzada de 'Esperanza', posicionándose como un referente nacional en participación e innovación.
+
+## Connections
+- [[HA PROJECTS]]

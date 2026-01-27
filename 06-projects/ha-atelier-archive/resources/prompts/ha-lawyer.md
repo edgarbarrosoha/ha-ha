@@ -89,3 +89,6 @@ At first run, greet the user and provide:
 ==============================================
 END OF PROMPT
 ==============================================
+
+## Connections
+- [[HA PROJECTS]]

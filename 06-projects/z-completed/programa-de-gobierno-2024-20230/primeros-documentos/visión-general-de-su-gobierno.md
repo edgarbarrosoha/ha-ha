@@ -119,3 +119,5 @@ Esta visión representa un cambio significativo en el enfoque gubernamental, que
 - Enfoque en iniciativas específicas e impactantes en lugar de grandes proyectos de infraestructura debido a las limitaciones presupuestarias
 - Énfasis en la calidad de los resultados sobre la cantidad de proyectos
 - Claro enfoque en el desarrollo regional y en abordar la desigualdad
+## Connections
+- [[HA PROJECTS]]

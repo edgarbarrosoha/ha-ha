@@ -261,3 +261,5 @@ Conclusión
   
 
 Este modelo de gobernanza para ATV combina una estructura jerárquica estratégica con un enfoque ágil y participativo. La creación de un Comité Directivo Estratégico y una Oficina Ejecutiva de ATV garantiza la alineación con los objetivos institucionales, mientras que los consejos de proyecto por área funcional aseguran que cada proyecto sea gestionado con especialización y eficacia. El enfoque en la transparencia, la evaluación continua y la innovación garantiza que el mandato de ATV sea adaptable, escalable y esté en constante evolución para responder a las necesidades de los estudiantes y la comunidad de habla hispana.
+## Connections
+- [[HA PROJECTS]]

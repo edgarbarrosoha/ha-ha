@@ -26,3 +26,6 @@
 
 - **4. Tabla Resumen Integrada (Proyectos):**  
   Consolidar los hallazgos en una tabla resumen.
+
+## Connections
+- [[HA PROJECTS]]

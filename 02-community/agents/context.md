@@ -81,3 +81,9 @@ For HA-HA: Know the market, competition, and landscape to position for unicorn s
 ---
 
 *Context is not background. It's the stage. Know the stage to own the performance.*
+
+## Connections
+
+- [[02-community]] — Dimension index
+- [[HA COMMUNITY]] — Community dimension
+- [[HA ROOT]] — Central hub of Horizons Architecture

@@ -25,3 +25,6 @@
 
 - **4. Tabla Resumen Integrada (Contexto):**  
   Consolidar la información en una tabla resumen.
+
+## Connections
+- [[HA PROJECTS]]

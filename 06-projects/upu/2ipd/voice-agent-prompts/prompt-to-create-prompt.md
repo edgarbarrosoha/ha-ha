@@ -86,3 +86,5 @@ Statistical Correlations: The identified relationships between the index compone
 
 # TASK: 
 Improve the agent's prompt to focus on the type of questions the client wants the agent to answer and to have an overall great useful and empathetic agent.
+## Connections
+- [[HA PROJECTS]]

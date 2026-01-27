@@ -470,3 +470,6 @@ ha-app/
 - [ ] Pricing + Stripe
 - [ ] Landing page
 - [ ] Invite first 100 users
+
+## Connections
+- [[ha-root-product]]

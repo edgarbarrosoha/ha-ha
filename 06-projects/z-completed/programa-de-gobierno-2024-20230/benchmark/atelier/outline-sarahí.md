@@ -129,3 +129,5 @@ Enfoque del documento
   
 
 Este marco prioriza identificar elementos que conviertan al PG en un instrumento práctico para su implementación y evaluación. Además, subraya el valor de la accesibilidad y la interacción con la población, asegurando que el programa trascienda como una herramienta funcional, no solo un documento estratégico.
+## Connections
+- [[HA PROJECTS]]

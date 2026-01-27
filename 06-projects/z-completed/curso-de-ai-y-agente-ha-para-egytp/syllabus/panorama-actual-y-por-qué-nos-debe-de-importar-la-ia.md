@@ -358,3 +358,6 @@ Dada esta diversidad, propongo un acuerdo para que esta sesión sea valiosa para
 
 ---
 
+
+## Connections
+- [[HA PROJECTS]]

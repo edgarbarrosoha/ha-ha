@@ -45,3 +45,5 @@ Outline the essential components informed by HA’s six dimensions:
 • Implementing specific, aligned initiatives.
 
 • Driving progress through targeted actions.
+## Connections
+- [[HA PROJECTS]]

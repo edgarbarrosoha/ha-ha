@@ -121,3 +121,9 @@ HA-HA can access HA-EB agents for shared capabilities:
 ---
 
 *Every agent serves the unicorn. The unicorn is the legacy.*
+
+## Connections
+
+- [[02-community]] — Dimension index
+- [[HA COMMUNITY]] — Community dimension
+- [[HA ROOT]] — Central hub of Horizons Architecture

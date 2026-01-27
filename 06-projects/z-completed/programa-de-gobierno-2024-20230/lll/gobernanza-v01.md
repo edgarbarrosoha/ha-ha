@@ -141,3 +141,5 @@ Para cada mandato, se creará un comité especializado encargado de la planifica
 La implementación exitosa de los mandatos estratégicos del tec-monterrey requiere una estructura de gobernanza que promueva la colaboración, la responsabilidad y la transparencia. Al establecer un Consejo de Liderazgo Estratégico respaldado por comités especializados y una oficina de gestión de proyectos, la institución puede coordinar eficazmente los esfuerzos necesarios para transformar su modelo educativo y expandir su impacto en el mundo hispanohablante.
 
 Esta propuesta de gobernanza está diseñada para ser flexible y adaptativa, permitiendo ajustes según las necesidades cambiantes y los aprendizajes obtenidos en el camino. Con una dirección clara y una ejecución disciplinada, el tec-monterrey estará bien posicionado para alcanzar sus objetivos y liderar la educación del futuro.
+## Connections
+- [[HA PROJECTS]]

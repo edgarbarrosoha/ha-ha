@@ -207,3 +207,6 @@ Necesidad Humana (HCD Insight)` -> `Nuestra Respuesta (Innovación)` -> `Cómo C
 
 
 
+
+## Connections
+- [[HA PROJECTS]]

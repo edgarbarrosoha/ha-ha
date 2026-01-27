@@ -55,3 +55,5 @@ _Example:_
 - A sequence that **reflects the text's core message** while making the argument **compelling** and **easy to follow**.
 
 PRINT ONLY THE FINAL RESULTS
+## Connections
+- [[HA PROJECTS]]

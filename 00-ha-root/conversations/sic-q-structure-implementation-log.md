@@ -135,3 +135,7 @@ Aquí tienes un prompt listo para copiar/usar con otro LLM para replicar exactam
   - Confirmar rutas finales de las 6 anclas y del ha-root.
 
   Si quieres, puedo adaptar este prompt a un proyecto específico o convertirlo en una checklist ejecutable.
+
+## Connections
+
+- [[HA ROOT]] — Central hub of Horizons Architecture

@@ -67,3 +67,5 @@ v. 01 Given a simple input or instruction, apply graph thinking to break down th
 6. Including prompts that account for varying levels of complexity, from basic to advanced scenarios, allowing for modular use.
 7. Incorporating feedback loops and iteration points to refine the prompt based on agent dialogue and context-specific needs.
 8. Ensuring the prompt is adaptable to different fields, balancing flexibility, focus, and the ability to guide expert-level discussions.
+## Connections
+- [[HA PROJECTS]]

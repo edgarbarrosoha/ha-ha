@@ -83,3 +83,5 @@ _“El objetivo es desarrollar competencias, detonar aprendizajes significativos
 Sandra Castañeda propone una visión centrada en la relevancia, la innovación y la conexión humana. En ATV, su énfasis en la vanguardia y la agilidad resalta la importancia de anticiparse a las necesidades del mercado. En cuanto al modelo universitario, su enfoque equilibrado entre tecnología y humanidad asegura que el aprendizaje siga siendo significativo en un entorno cada vez más automatizado.
 
 Su propuesta de integrar la experiencia existente del Tec con las capacidades de la IA no solo moderniza la educación, sino que también posiciona al Tec como un líder en el desarrollo de modelos educativos flexibles y adaptativos. Este enfoque no solo responde a los desafíos actuales, sino que prepara al Tec para liderar el cambio en un futuro incierto pero lleno de posibilidades.
+## Connections
+- [[HA PROJECTS]]

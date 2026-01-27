@@ -73,3 +73,5 @@ Crear una narrativa unificadora y poderosa que respalde el liderazgo de la gober
     - Refleje los valores y visión de la gobernadora Lydia García Muñoz.
     - Promueva la cohesión social y el progreso del estado.
     - Sea difícil de contradecir por su positividad y aspiración universal.
+## Connections
+- [[HA PROJECTS]]

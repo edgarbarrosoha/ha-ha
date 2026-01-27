@@ -109,3 +109,5 @@ You are absolutely correct to highlight the distinction between the Plan Estatal
     
 
 By incorporating this understanding of the PED and the PG, we are aligning our analysis of global best practices and HA dimensions with the realities of government planning in Guanajuato.
+## Connections
+- [[HA PROJECTS]]

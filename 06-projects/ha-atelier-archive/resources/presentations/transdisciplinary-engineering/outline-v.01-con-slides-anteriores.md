@@ -135,3 +135,5 @@
         *   This appears to be a focused application or a separate talk utilizing HA principles for the postal sector, covering AI's economic impact, adoption trends, challenges, opportunities, specific use cases, the HA framework applied to postal services (Legacy, Community, etc.), and future outlook (HAI Readiness).
 
 This outline should provide a clear, structured overview of the presentation's flow and key sections.
+## Connections
+- [[HA PROJECTS]]

@@ -86,3 +86,6 @@ TASK 02: Escribe un primer draft en conexión con el primer párrafo
 
 ---
 
+
+## Connections
+- [[HA PROJECTS]]

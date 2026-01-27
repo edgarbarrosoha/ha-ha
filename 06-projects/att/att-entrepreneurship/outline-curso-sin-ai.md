@@ -139,3 +139,5 @@
 - **Planificación a Largo Plazo para el Impacto Sostenible:**
     
     - Desarrollo de estrategias tecnológicas que maximicen el impacto futuro, alineadas con el legado de la empresa. (Sección 7.1)
+## Connections
+- [[HA PROJECTS]]

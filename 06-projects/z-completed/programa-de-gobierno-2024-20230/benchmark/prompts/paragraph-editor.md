@@ -139,3 +139,6 @@ Restructure the source material to reflect the above specifications. Prioritize 
 
 
 
+
+## Connections
+- [[HA PROJECTS]]

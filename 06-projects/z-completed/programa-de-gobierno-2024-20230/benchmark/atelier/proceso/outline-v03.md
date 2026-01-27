@@ -257,3 +257,5 @@ A continuación, se presenta la estructura por dimensión:
 ---
 
 Esta estructura modular y sintetizada permite realizar un análisis integral y enfocado en cada dimensión clave de la HA, asegurando que los programas de gobierno se formulen con una base sólida, sustentada en la evidencia empírica y académica, y adaptada a las tendencias presentes y futuras.
+## Connections
+- [[HA PROJECTS]]

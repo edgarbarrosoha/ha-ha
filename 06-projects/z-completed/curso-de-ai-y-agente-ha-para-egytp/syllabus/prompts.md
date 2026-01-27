@@ -3031,3 +3031,5 @@ Las técnicas más poderosas emergen de combinaciones:
 ---
 
 Esta guía representa el estado del arte en ingeniería de prompts basada en evidencia científica. La clave del éxito no está en memorizar técnicas, sino en entender los principios subyacentes y aplicarlos creativamente según el contexto.
+## Connections
+- [[HA PROJECTS]]

@@ -14,3 +14,6 @@ Version 02
 
 }
 
+
+## Connections
+- [[HA PROJECTS]]

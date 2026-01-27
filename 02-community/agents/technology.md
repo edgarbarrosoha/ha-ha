@@ -86,3 +86,9 @@ For HA-HA: Build the technology that makes HA scalable and accessible.
 ---
 
 *Technology enables. The methodology transforms. Together: the unicorn.*
+
+## Connections
+
+- [[02-community]] — Dimension index
+- [[HA COMMUNITY]] — Community dimension
+- [[HA ROOT]] — Central hub of Horizons Architecture

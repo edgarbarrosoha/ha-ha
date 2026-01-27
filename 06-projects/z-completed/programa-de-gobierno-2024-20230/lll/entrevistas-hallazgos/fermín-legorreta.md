@@ -60,3 +60,5 @@ La conversación con Fermín Legorreta destaca un enfoque equilibrado entre la e
 Este enfoque también plantea desafíos: coordinar equipos diversos, anticipar tendencias tecnológicas y garantizar la relevancia continua de los programas. Sin embargo, Fermín demuestra una confianza clara en que, con el equipo adecuado y una visión estratégica sólida, el tec-monterrey puede consolidarse como el líder indiscutible en aprendizaje a lo largo de la vida en América Latina.
 
 "El aprendizaje no es solo una herramienta para avanzar en la carrera, sino un medio para construir comunidades, transformar sociedades y generar un impacto duradero", concluye.
+## Connections
+- [[HA PROJECTS]]

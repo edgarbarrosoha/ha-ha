@@ -861,3 +861,5 @@ Para dotar de mayor profundidad al proceso y reforzar su continuidad, se propone
 - **Rendición de Cuentas y Retroalimentación Ciudadana:** Transparentar los avances, facilitar la participación ciudadana y reforzar la legitimidad de las políticas.
 
 > **Objetivo Principal:** Mantener un ciclo de mejora continua que garantice la efectividad de las acciones, impulsando la adaptación del programa a lo largo de la administración y fortaleciendo la respuesta gubernamental ante situaciones emergentes.
+## Connections
+- [[HA PROJECTS]]

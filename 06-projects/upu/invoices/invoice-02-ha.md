@@ -88,6 +88,8 @@ New York, NY, USA
 
 **SCBLUS33XXX**  
 (ABA 026-002-561)  
-Standard Chartered Bank  
+Standard Chartered Bank
 New York, NY, USA
 
+## Connections
+- [[HA PROJECTS]]

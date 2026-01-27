@@ -115,3 +115,5 @@
 Los mandatos presentados delinean una ruta ambiciosa hacia la transformación y fortalecimiento del tec-monterrey como líder educativo en el mundo hispanohablante. La integración del ATV, la adopción de IA y la consolidación del modelo multicampus son pilares que, si se gestionan eficazmente, posicionarán a la institución a la vanguardia de la educación global.
 
 Es esencial abordar estos mandatos con una visión estratégica, considerando los desafíos y oportunidades que presentan. La colaboración entre las diferentes áreas de la institución, la inversión en tecnología y personal, y una comunicación clara y efectiva serán factores determinantes para el éxito de estas iniciativas.
+## Connections
+- [[HA PROJECTS]]

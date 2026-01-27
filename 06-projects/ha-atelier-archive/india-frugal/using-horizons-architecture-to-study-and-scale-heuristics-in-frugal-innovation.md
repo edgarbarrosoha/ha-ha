@@ -93,3 +93,5 @@ Frugal innovation thrives on ingenuity under constraint. Heuristics – simple r
 [[1]](https://kdd.org/exploration_files/p72-Frugal_AI.pdf#:~:text=of%20limited%20resources,to%20cover%20all%20the%20as) [[2]](https://kdd.org/exploration_files/p72-Frugal_AI.pdf#:~:text=In%20the%20past%2C%20frugal%20innovation,raising%20barriers%20to%20recent%20innovation) p72-Frugal_AI.pdf
 
 [https://kdd.org/exploration_files/p72-Frugal_AI.pdf](https://kdd.org/exploration_files/p72-Frugal_AI.pdf)
+## Connections
+- [[HA PROJECTS]]

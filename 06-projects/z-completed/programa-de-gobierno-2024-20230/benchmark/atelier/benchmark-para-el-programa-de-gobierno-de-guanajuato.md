@@ -467,3 +467,6 @@ La adopción de un método de benchmarking, la evaluación crítica de datos, el
 | **Total Estimado**                | **18,000**           |
 
 Este esquema se presenta como una guía flexible. El número de palabras en cada sección puede ajustarse según las necesidades específicas de análisis, profundidad de investigación y disponibilidad de información. El propósito es brindar un andamiaje sólido para la elaboración de un documento profesional que, además de tener bases académicas y metodológicas, sea claro, accesible y orientado a la acción.  
+
+## Connections
+- [[HA PROJECTS]]

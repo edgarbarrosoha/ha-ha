@@ -14,3 +14,5 @@ TASK 01: Can you adapt this text to include these ideas and write them in accord
 TASK 02: Act like a peer reviewer of a Q1 Scopus, review what you came out with, provide feedback and go to TASK 03:
 
 TASK 03: Rewrite the paragraph integrating the suggestions in TASK 02.
+## Connections
+- [[HA PROJECTS]]

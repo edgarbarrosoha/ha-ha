@@ -598,3 +598,5 @@ Claro, aquí tienes las referencias organizadas en orden alfabético según el p
 23. **Programa de las Naciones Unidas para el Desarrollo en México.** (2025). Catálogo de Iniciativas 2024.
 24. **Provencio Durazo, E., & Cordera Campos, R. (Coords.).** (2023). Horizontes 2030 para el desarrollo (Colección Informe del Desarrollo en México). Universidad Nacional Autónoma de México.
 25. **Swiss Confederation, Federal Chancellery.** (2025). Digital Switzerland Strategy 2025.
+## Connections
+- [[HA PROJECTS]]

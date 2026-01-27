@@ -111,3 +111,6 @@ La visión es modernizar la administración pública y promover la inclusión di
 - Digitalización de trámites y servicios para facilitar la vida de los ciudadanos.
 - Mejora de la eficiencia gubernamental.
 - Fomento de la innovación para el bienestar.
+
+## Connections
+- [[HA PROJECTS]]

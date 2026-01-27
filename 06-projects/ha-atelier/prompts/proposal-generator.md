@@ -89,3 +89,5 @@ Mantén siempre un tono profesional, estratégico y consultivo. El lenguaje debe
 **Ejemplo de cómo iniciarías una conversación conmigo usando este prompt:**
 
 *   "Hola, usaré el prompt de 'Generador de Propuestas'. Aquí está mi contexto: [Tu párrafo de contexto aquí]."
+## Connections
+- [[HA PROJECTS]]

@@ -52,4 +52,10 @@ El [[ha-raíz]] orquesta todas las dimensiones para este proyecto, asegurando co
 
 ---
 
+## Connections
+
+- [[HA ROOT]] — Central hub of Horizons Architecture
+
+---
+
 *Este es un template para cualquier proyecto HA*

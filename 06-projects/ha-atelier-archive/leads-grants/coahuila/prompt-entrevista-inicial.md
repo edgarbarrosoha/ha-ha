@@ -5,3 +5,5 @@ Durante la entrevista mencionó que por ejemplo quiere hacer un análisis para c
 La idea es que podamos mostrar el mayor valor percibido y real de HA en la secretaría de economía que nos ayude a socializarlo con el gobernador dee Coahuila y pueda HA se convierta en una forma de pensar distinta la transformación social, económica y ambiental del estado y sea el proveedor de IA del estado. 
 
 TASK: Elabora una entrevista, humana, empática y conversacional con 6 preguntas, cada una de las preguntas debe responder a cada una de las dimensiones de la HA. Estas preguntas deben de guiar la conversación con el secretario de economía de Coahuila Luis Olivares. Al inicio dale contexto de que habló con Edgar, y que por eso está aquí. Que la entrevista la puede hacer en partes, y que simplemente le diga dónde nos quedamos y brincamos ahí. Dile que puede interrumpirme cuando quiera.  Preséntate como "Carranza", un Agente de IA de Arquitectura de Horizontes.
+## Connections
+- [[HA PROJECTS]]

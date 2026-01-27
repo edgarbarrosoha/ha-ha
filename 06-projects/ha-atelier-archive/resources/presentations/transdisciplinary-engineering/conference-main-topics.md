@@ -62,3 +62,6 @@ Complex Sociotechnical Systems
 ### Sustainability 
 
 
+
+## Connections
+- [[HA PROJECTS]]

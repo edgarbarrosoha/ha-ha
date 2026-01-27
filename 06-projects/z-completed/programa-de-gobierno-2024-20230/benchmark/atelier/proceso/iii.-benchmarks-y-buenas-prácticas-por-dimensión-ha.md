@@ -317,3 +317,6 @@ En conclusión, la dimensión de **Legado** es esencial para que el Programa de 
         - Estudios de casos en los que la gestión por proyectos ha permitido resultados tangibles en periodos de 5–6 años.
     - Tendencias Futuras:
         - Implementación de metodologías ágiles y modelos de gestión colaborativa para la ejecución de proyectos.
+
+## Connections
+- [[HA PROJECTS]]

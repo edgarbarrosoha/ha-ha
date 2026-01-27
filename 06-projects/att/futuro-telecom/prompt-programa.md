@@ -144,3 +144,5 @@ Este curso promete un enfoque académicamente sólido, pero atractivo, ideal par
   - Lugar: Corporativo att México
 
 }
+## Connections
+- [[HA PROJECTS]]

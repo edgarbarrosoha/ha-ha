@@ -83,3 +83,6 @@ ORIGINAL Paragraph:
 From this perspective, and acknowledging the current breadth of interdisciplinary research, computational methods have been pivotal in fields such as socio-economic systems for analyzing large-scale data from social media platforms to understand and predict market trends (XXXX, XXXX) {How have computational methods, particularly through the use of large-scale data from social media, transformed our understanding and prediction of socio-economic systems?} {Authors like Lazer et al. (2009) discussing computational social science and its impact on socio-economic analyses could be cited}. 
 
 }
+
+## Connections
+- [[HA PROJECTS]]

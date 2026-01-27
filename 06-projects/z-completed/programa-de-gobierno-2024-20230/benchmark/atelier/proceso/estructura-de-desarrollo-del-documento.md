@@ -408,3 +408,6 @@ Esta dimensión se centra en la ejecución concreta de acciones y la materializa
 ---
 
 Esta estructura metodológica por dimensión, organizada en tres niveles (Elemento → Mejor Práctica → Tendencia), facilita un análisis integral que combina evidencia empírica (benchmarks) y académica (revisión de literatura) para identificar y proyectar estrategias clave en la formulación y ejecución de programas de gobierno.
+
+## Connections
+- [[HA PROJECTS]]

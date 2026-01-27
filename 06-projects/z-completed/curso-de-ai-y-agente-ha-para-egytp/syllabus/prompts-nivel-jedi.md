@@ -349,3 +349,5 @@ A primera hora, Luis, envía a sus asistentes: le pide al "Asistente de Agenda" 
 **4. Radar de Gestión:**
 - [Identifica una alerta o una oportunidad basada en los KPIs en el contexto de las noticias o eventos del día.]
 ```
+## Connections
+- [[HA PROJECTS]]

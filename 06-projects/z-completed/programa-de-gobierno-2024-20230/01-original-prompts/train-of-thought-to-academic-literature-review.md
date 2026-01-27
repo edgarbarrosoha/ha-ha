@@ -33,3 +33,6 @@ Output Text: "Contemporary scholarship recognizes the escalating interconnectedn
 **Explanation:** 
 
 This prompt provides clear instructions, specific guidelines, and an example to demonstrate the desired transformation. It should enable a language model to effectively convert a "train of thought" into a high-quality academic text suitable for a Q1 Scopus journal. 
+
+## Connections
+- [[HA PROJECTS]]

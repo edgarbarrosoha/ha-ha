@@ -39,3 +39,5 @@ Más allá del diagnóstico de “un sistema de salud global”, si tuviéramos 
 
 5. ¿Qué piensan de esto los países?
 6. ¿Qué apoyo global necesitan?
+## Connections
+- [[HA PROJECTS]]

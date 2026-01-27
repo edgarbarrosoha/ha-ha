@@ -115,3 +115,5 @@ REFERENCES
 Great to work with you HA. 
 
 #Pre_Production 
+## Connections
+- [[HA PROJECTS]]

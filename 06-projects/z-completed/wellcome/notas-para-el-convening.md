@@ -72,3 +72,5 @@ Tecnológico de Monterrey
    
 +52 448 130 9654  
 abril.campos@tec.mx
+## Connections
+- [[HA PROJECTS]]

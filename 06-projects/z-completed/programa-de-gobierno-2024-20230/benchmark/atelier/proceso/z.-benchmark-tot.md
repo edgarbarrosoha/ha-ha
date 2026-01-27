@@ -217,3 +217,6 @@ Mediante el estudio y la adaptación de estos contenidos, el Gobierno de Guanaju
 
 - **4. Tabla Resumen Integrada (Legado):**  
   Consolidar la información en una tabla que relacione Elemento, Mejor Práctica y Tendencia.
+
+## Connections
+- [[HA PROJECTS]]

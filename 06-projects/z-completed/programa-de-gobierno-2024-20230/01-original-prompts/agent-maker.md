@@ -104,3 +104,5 @@ _Expanded Agent Profile:_
 - **Feedback Mechanisms:**
     
     - Encourages user feedback to improve functionality; adapts features based on user preferences and changing financial goals.
+## Connections
+- [[HA PROJECTS]]

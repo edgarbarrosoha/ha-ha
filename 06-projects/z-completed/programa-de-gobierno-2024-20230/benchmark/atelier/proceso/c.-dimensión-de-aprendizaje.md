@@ -25,3 +25,5 @@
 
 - **4. Tabla Resumen Integrada (Aprendizaje):**  
   Consolidar los hallazgos en una tabla.
+## Connections
+- [[HA PROJECTS]]

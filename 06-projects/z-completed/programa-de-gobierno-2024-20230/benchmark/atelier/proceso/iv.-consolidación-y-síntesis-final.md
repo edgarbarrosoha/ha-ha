@@ -8,3 +8,5 @@
 
 - **Implicaciones para la Formulación de Programas de Gobierno:**  
   Cómo aplicar estos hallazgos para mejorar la eficiencia, transparencia y sostenibilidad de los programas.
+## Connections
+- [[HA PROJECTS]]

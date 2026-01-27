@@ -59,3 +59,5 @@ _“La convivencia y el aprendizaje compartido son lo que realmente importa. Nec
 Julio Noriega presenta un enfoque integrador que combina innovación tecnológica con una profunda sensibilidad hacia las necesidades humanas. Su propuesta para ATV enfatiza la importancia de conectar los puntos: mapear lo que se tiene, integrar esfuerzos y ofrecer contenido accesible y personalizado. En cuanto al modelo universitario, sus ideas sobre reconocer el valor de las preguntas y fomentar una cultura de aprendizaje abierto reflejan un cambio hacia una educación más inclusiva y adaptativa.
 
 Su visión sugiere que el Tec no solo puede adaptarse a los cambios del mundo, sino liderarlos, al crear un sistema educativo donde la tecnología y la humanidad se entrelacen para construir una comunidad de aprendizaje que realmente marque la diferencia.
+## Connections
+- [[HA PROJECTS]]

@@ -21,3 +21,6 @@ V01
 | **Technology (Tecnología)** | - Integrar Tecnologías de la Información y Comunicación (TIC) para la eficiencia administrativa.  <br>- Fomentar la innovación en servicios gubernamentales y trámites digitales.  <br>- Implementar herramientas de análisis de datos para la toma de decisiones. |
 | **Context (Contexto)**      | - Adaptar estrategias a la realidad socioeconómica, política y ambiental del estado.  <br>- Considerar la alineación con estrategias nacionales y tendencias internacionales.  <br>- Incorporar planes de gestión de riesgos ante contingencias o crisis.          |
 | **Projects (Proyectos)**    | - Establecer metas SMART con indicadores de medición de impacto.  <br>- Implementar estrategias y acciones concretas con calendarios y responsables definidos.  <br>- Asegurar la correcta asignación de recursos y el seguimiento de resultados.                  |
+
+## Connections
+- [[HA PROJECTS]]

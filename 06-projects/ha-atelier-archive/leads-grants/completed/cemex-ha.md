@@ -57,3 +57,5 @@ transition: fade
 ## Conclusion
 
 Horizons Architecture provides a comprehensive, AI-powered solution for managing complex projects, enhancing efficiency and collaboration across your organization.
+## Connections
+- [[HA PROJECTS]]

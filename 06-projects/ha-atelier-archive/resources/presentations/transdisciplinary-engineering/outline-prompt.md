@@ -155,3 +155,5 @@ Y este un outline de lo que hicimos en el Caso de uos de HA sobre la elaboració
 }
 
 TASK: Elabora un outline basado en la presentación en PDF que estoy subiendo que es la presentación Standard de HA y cómo se puede adaptar para esta conferencia incluyendo un caso de uso, y los principios de ingeniería transdiscuplinaria. 
+## Connections
+- [[HA PROJECTS]]

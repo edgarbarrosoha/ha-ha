@@ -39,3 +39,5 @@ Fecha: 26 de septiembre de 2024.
   
   
 **
+## Connections
+- [[HA PROJECTS]]

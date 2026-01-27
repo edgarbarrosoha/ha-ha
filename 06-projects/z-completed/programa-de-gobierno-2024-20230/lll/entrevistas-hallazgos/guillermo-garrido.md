@@ -70,3 +70,5 @@ La visión de Guillermo combina pragmatismo, innovación y un fuerte enfoque en 
 Su propuesta de una universidad-plataforma también sugiere una transformación radical: de un modelo educativo rígido a uno que priorice la flexibilidad y la relevancia para los estudiantes y el mercado laboral. Este enfoque, aunque ambicioso, está profundamente alineado con las tendencias globales de aprendizaje y trabajo.
 
 Guillermo deja claro que, para liderar en aprendizaje a lo largo de la vida, el Tec debe apostar por estrategias enfocadas, tecnología avanzada y modelos disruptivos que respondan tanto a las necesidades actuales como a las emergentes.
+## Connections
+- [[HA PROJECTS]]

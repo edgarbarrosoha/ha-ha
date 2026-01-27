@@ -238,3 +238,6 @@ La continuidad en los esfuerzos de planeación se refuerza cuando el gobierno in
 En suma, la elaboración de un Programa de Gobierno que atienda las necesidades actuales de Guanajuato y anticipe los desafíos futuros representa un reto complejo, pero al mismo tiempo ofrece una gran oportunidad de innovación y colaboración. Este documento se perfila como un apoyo en la conceptualización y estructuración de dicho PG, con la convicción de que la adopción de referentes comparativos, la participación amplia de la ciudadanía y un enfoque integral de planeación pueden transformar la gestión pública en un instrumento real de bienestar social.
 
 La experiencia demuestra que los gobiernos más eficaces y cercanos a la gente son aquellos que planifican con rigor, escuchan las voces de la sociedad y asumen la responsabilidad de los resultados. La disposición a aprender y a adaptarse, fortalecida por el diálogo constante entre distintos actores, es la clave para convertir un plan gubernamental en un verdadero motor de desarrollo. Así, se espera que las reflexiones y recomendaciones que siguen a lo largo de este documento actúen como catalizadores de cambio positivo, y que contribuyan a construir, entre todas y todos, un Guanajuato más equitativo, próspero y sostenible.
+
+## Connections
+- [[HA PROJECTS]]

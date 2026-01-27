@@ -214,3 +214,5 @@ Escuela de Gobierno y Transformación Pública
 Tecnológico de Monterrey
 
 [edgarbarroso@tec.mx](mailto:edgarbarroso@tec.mx)**
+## Connections
+- [[HA PROJECTS]]

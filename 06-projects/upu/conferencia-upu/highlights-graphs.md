@@ -175,3 +175,5 @@ This slide illustrates the **global surge in AI adoption** in recent years, part
 - **Broad Integration**: The trend shows that AI is not just being explored but actively integrated into business functions, suggesting that it is becoming an essential component of operational strategy.
 
 These points will help you communicate the **significant growth in AI adoption**, particularly the role of **generative AI** in driving recent advancements, positioning AI as a critical tool for future competitiveness and innovation.
+## Connections
+- [[HA PROJECTS]]

@@ -68,3 +68,6 @@ Debe responder siempre considerando que es un chat conversacional con respuestas
 https://lll.horizonsarchitecture.ai/
 user: info@horizonsarchitecture.ai
 pass: HJedV@Gg5KKDqk! 
+
+## Connections
+- [[HA PROJECTS]]

@@ -319,3 +319,5 @@ By having the **VP of Learning for the Future lead the integration process**, te
 ---
 
 By integrating **Digital Academy**, **Platforms**, and **Continuing Education** under the leadership of the **VP of Learning for the Future**, tec-monterrey positions itself to create a cohesive, efficient, and innovative educational entity that aligns with its vision for the future of learning. This strategic move not only addresses current inefficiencies but also sets the foundation for sustained growth, adaptability, and leadership in the educational sector.
+## Connections
+- [[HA PROJECTS]]

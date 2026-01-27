@@ -11,3 +11,5 @@ Mayor énfasis en la planificación estratégica: si bien algunas reglamentacion
 Gestión de riesgos reforzada: si bien se hace hincapié en el control y la supervisión internos, hay un enfoque limitado en la gestión proactiva de riesgos. Esto podría mejorarse mediante la implementación de marcos de gestión de riesgos empresariales (ERM) en todas las entidades estatales, la realización de evaluaciones de riesgos periódicas y el desarrollo de planes de mitigación de riesgos.
 •
 Gestión y análisis de datos mejorados: si bien varias reglamentaciones mencionan la recopilación y la gestión de datos, existe la necesidad de capacidades de análisis de datos más sofisticadas. Esto podría implicar el establecimiento de una unidad centralizada de análisis de datos, la capacitación en análisis de datos para los empleados del gobierno y el uso de herramientas de visualización de datos para comunicar información a los responsables de la toma de decisiones.
+## Connections
+- [[HA PROJECTS]]

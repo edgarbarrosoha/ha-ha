@@ -17,3 +17,5 @@ Voy a estar en León hasta el miércoles que viene, por si te parece razonable q
 Y mira, si ahora no es el momento, ni el canal, ni soy la persona adecuada para hacer esto, lo entiendo perfectamente. Solo quiero traer este tema a tu atención y que sepas que aquí estoy para lo que se ofrezca, haya o no haya presupuesto. Yo veo tu sexenio como una ventana de oportunidad irrepetible y que hay que aprovechar al máximo. No quisiera que esa ventana de oportunidad se cerrara sin al menos mandarte este mensaje.
 
 Saludos Gobernadora.
+## Connections
+- [[HA PROJECTS]]

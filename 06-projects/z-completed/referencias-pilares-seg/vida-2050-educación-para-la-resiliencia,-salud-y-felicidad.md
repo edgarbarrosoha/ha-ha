@@ -527,3 +527,5 @@ In conclusion, a combination of quantitative and qualitative tools, along with a
 - Finneran, R. (2024). Feeling rules and emotional capital in a student voice wellbeing initiative. British Journal of Sociology of Education, 45(3), 447–463. [https://doi.org/10.1080/01425692.2024.2362821](https://www.google.com/url?sa=E&q=https%3A%2F%2Fdoi.org%2F10.1080%2F01425692.2024.2362821)
     
 - A systematic review and meta-analysis of longitudinal studies of the antecedents and consequences of wellbeing among university students. (2022). International Journal of Wellbeing, 12(2), 163–206. [https://doi.org/10.5502/ijw.v12i2.1897](https://www.google.com/url?sa=E&q=https%3A%2F%2Fdoi.org%2F10.5502%2Fijw.v12i2.1897)
+## Connections
+- [[HA PROJECTS]]

@@ -99,4 +99,10 @@
 
 ---
 
+## Connections
+
+- [[HA ROOT]] — Central hub of Horizons Architecture
+
+---
+
 *Este es el punto de entrada al sistema HA en Obsidian*

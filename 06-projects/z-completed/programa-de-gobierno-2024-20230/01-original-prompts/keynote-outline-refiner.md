@@ -15,3 +15,5 @@ Additionally, identify potential areas for improvement in the presentation style
 - Ensure that the outline is optimized to capture the audience's attention and deliver a powerful, memorable presentation.
 
 At the end of your analysis, deliver a refined outline that is ready to serve as a solid foundation for delivering an impactful keynote presentation.
+## Connections
+- [[HA PROJECTS]]

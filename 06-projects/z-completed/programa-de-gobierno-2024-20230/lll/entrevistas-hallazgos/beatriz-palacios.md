@@ -84,3 +84,5 @@ _“Debemos diseñar una universidad que identifique oportunidades en todos los 
 Beatriz Palacios presenta una visión estratégica y transformadora que combina innovación tecnológica con un enfoque humano. Su propuesta de eliminar las barreras tradicionales de la educación y centrarse en soluciones accesibles y prácticas posiciona al Tec como un líder en la educación a lo largo de la vida.
 
 Desde su enfoque en la personalización y relevancia del aprendizaje hasta su visión de un modelo universitario inclusivo y flexible, Beatriz ofrece una hoja de ruta clara para enfrentar los desafíos educativos del futuro. Al integrar la IA y aprovechar las fortalezas actuales del Tec, su visión impulsa una transformación profunda que responde no solo a las necesidades actuales, sino también a las demandas emergentes del mundo en constante cambio.
+## Connections
+- [[HA PROJECTS]]

@@ -188,3 +188,5 @@ Redacta la propuesta en: **{IDIOMA_DE_LA_PROPUESTA}** (Mantén el tono profesion
 
 **TRANSCRIPCIÓN DE LA ENTREVISTA:**
 {PEGAR_AQUI_LA_ENTREVISTA}
+## Connections
+- [[HA PROJECTS]]

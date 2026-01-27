@@ -84,3 +84,6 @@ Para dotar de mayor profundidad al proceso y reforzar su continuidad, se propone
 La estructura propuesta para el Programa de Gobierno 2024–2030 se integra de forma natural con las seis dimensiones de HA. Al abordar cada etapa —desde el análisis preliminar y la consulta ciudadana, hasta la aprobación y la posterior ejecución— se fortalecen componentes como **Legado** (definición de objetivos de largo plazo), **Comunidad** (participación de actores clave), **Aprendizaje** (ajuste continuo y capacitación de los equipos), **Tecnología** (apoyo en plataformas digitales y herramientas de análisis), **Contexto** (adecuación a realidades específicas estatales y nacionales) y **Proyectos** (acciones concretas con indicadores de resultados).
 
 Este modelo garantiza la coherencia entre la planeación a largo plazo (articulada por el PED) y las metas de corto y mediano plazo propias del Programa de Gobierno, asegurando una visión integral que responda a las demandas ciudadanas y al enfoque estratégico de la administración en turno.
+
+## Connections
+- [[HA PROJECTS]]

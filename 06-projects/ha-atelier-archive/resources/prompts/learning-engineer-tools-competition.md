@@ -35,3 +35,6 @@ HA is growing its user base and collaborates with global researchers using anony
 ### Future Prospects and Data Access
 
 With user base expansion, HA aims to launch an Open Data Science Framework. This will provide the broader research community with access protocols, qualification criteria, and guidelines for privacy and ethical use, benefiting the learning community at large.
+
+## Connections
+- [[HA PROJECTS]]

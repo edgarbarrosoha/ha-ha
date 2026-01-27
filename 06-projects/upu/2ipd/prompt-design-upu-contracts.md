@@ -26,3 +26,5 @@ We should charge CHF 11,500
 The information of Antena Labs, I will provide it afterwards, just make empty placeholders. 
 	
 	Make it in English.
+## Connections
+- [[HA PROJECTS]]

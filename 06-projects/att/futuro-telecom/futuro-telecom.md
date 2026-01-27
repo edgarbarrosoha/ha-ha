@@ -901,3 +901,5 @@ Modalidad: Híbrida (presencial y virtual)
 - Networking con expertos y profesionales
 - Acceso a recursos y herramientas especializadas
 - Certificación conjunta att - Tecnológico de Monterrey
+## Connections
+- [[HA PROJECTS]]

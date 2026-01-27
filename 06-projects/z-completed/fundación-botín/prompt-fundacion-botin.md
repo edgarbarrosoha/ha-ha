@@ -16,3 +16,5 @@ Los participantes pueden tener un chat multiagente como lo  ves en la imagen. Es
  TASK: Crea una agenda minuto a minuto de este taller. Considera un Working lunch para que tengan más tiempo. Es decir, de las 10:45 a las 14:30. Haz la experiencia miemorable, inspiradora (con rigor académico). Ayúdame a entender cómo podemos hacer este taller, dadas las limitaciones de tiempo. Qué podemos ir adelantando, por ejemplo, con base en sus perfiles, podemos ir haciendo los equipos con más sinergias entre los participantes. Podemos ir haciendo la base de conocimiento de papers de prospectiva, y de  datos sociales, económicos y ambientales. 
  
  Usa  tu máxima capacidad para hacer esto. 
+## Connections
+- [[HA PROJECTS]]

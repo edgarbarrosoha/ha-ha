@@ -78,3 +78,6 @@ Phone: [Phone Number]
 **Edgar Barroso**  
 Independent Consultant  
 Date: July 31, 2025
+
+## Connections
+- [[HA PROJECTS]]

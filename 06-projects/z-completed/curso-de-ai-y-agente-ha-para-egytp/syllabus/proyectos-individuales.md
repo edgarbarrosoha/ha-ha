@@ -131,3 +131,5 @@ Cada participante recibe una hoja de ruta personalizada:
 5. **Cierre Reflexivo**: La meta-cognición consolida el aprendizaje y crea accountability
 
 Este diseño balancea trabajo individual profundo con momentos de síntesis colectiva, maximizando tanto el aprendizaje técnico como la reflexión sobre el proceso de adopción de IA.
+## Connections
+- [[HA PROJECTS]]

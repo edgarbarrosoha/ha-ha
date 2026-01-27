@@ -96,3 +96,6 @@ horizonsarchitecture.ia | sarahi@horizonsarchitecture.ia
 
 TASK: Using this information and the information from the paper, elaborate on a presentation outline for a one-hour talk that introduces HA, briefly explain the transition from research HA at tec-monterrey to a spinoff, and one use case in depth (Guanajuato Government Program), mentions other use cases and briefly present future work of HA as research. 
 
+
+## Connections
+- [[HA PROJECTS]]

@@ -166,3 +166,5 @@ Pues este, esperamos que sí sea. Que sobre todo que nos centremos, luego de rep
 Y yo sí creo que lo único que puede suplir esa falta, porque cuando hay mucho recurso pues vas a tener obras extraordinarias y la gente lo va a ver y va a decir "Ay mira consiguieron tres hospitales, cinco puentes, ocho escuelas nuevas" y eso pues obviamente te va a posicionar. Durante la falta de eso creo que lo único que puede suplir pues es la cercanía, es la atención personal, es el estar pendiente de lo que viven todos los días, de atender pues esas cosas que para ellos hacen la diferencia.
 
 Y espero no haber reprobado.
+## Connections
+- [[HA PROJECTS]]

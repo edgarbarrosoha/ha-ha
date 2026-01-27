@@ -88,3 +88,5 @@ Además, quiere que las mujeres tengan más oportunidades, entender y apoyar a l
     
 
 Al optar por el estilo **"Neutral"**, aseguras que el programa de gobierno sea comprensible y accesible, sin perder la formalidad y el respeto que merece un documento de esta naturaleza. Esto se alinea con el deseo de la gobernadora de comunicar su visión y sus políticas de manera efectiva, sin caer en extremos de complejidad o simplicidad excesiva.
+## Connections
+- [[HA PROJECTS]]

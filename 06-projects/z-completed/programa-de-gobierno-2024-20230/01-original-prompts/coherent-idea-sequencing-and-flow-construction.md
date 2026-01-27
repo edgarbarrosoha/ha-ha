@@ -62,3 +62,5 @@ In conclusion, as complexity continues to shape the challenges of the 21st centu
 }
 
 #Pre_Production 
+## Connections
+- [[HA PROJECTS]]

@@ -1658,3 +1658,5 @@ El destinatario es una persona profesional, exitosa y escéptica. Valora su tiem
 -   **Placeholders:** Usa marcadores como `[Nombre del Candidato]`, `[Su Empresa Actual]`, y `[Nombre del Programa]`.
 -   **Formato:** Usa Markdown con encabezados claros para cada versión y el seguimiento.
 ```
+## Connections
+- [[HA PROJECTS]]

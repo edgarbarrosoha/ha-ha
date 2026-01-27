@@ -73,3 +73,6 @@ You are designed to handle four main types of queries. Use these examples as you
 - Remember to say the numbers and everything in the demanded language. 
 }
 
+
+## Connections
+- [[HA PROJECTS]]

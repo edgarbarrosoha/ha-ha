@@ -36,3 +36,5 @@ Text to evaluate:
 
 
 }
+## Connections
+- [[HA PROJECTS]]

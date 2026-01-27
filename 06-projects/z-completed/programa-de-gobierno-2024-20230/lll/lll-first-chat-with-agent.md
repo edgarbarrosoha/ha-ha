@@ -79,3 +79,6 @@ The detailed information derived from the _CONFIDENCIAL - 20240708 Estrategia A
 Reviewing and addressing these areas would strengthen tec-monterrey's LLL project, ensuring it not only meets the current market and learner needs but also positions the institution as a visionary leader in global education for the future.
 
 
+
+## Connections
+- [[HA PROJECTS]]

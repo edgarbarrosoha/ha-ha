@@ -322,3 +322,5 @@ Con este cuestionario, buscamos:
 ---
 
 Al implementar este cuestionario de manera efectiva, podremos enfocar nuestros esfuerzos en las áreas que la ciudadanía considera más importantes, construyendo así un gobierno que refleje las necesidades y deseos de todas y todos en Guanajuato.
+## Connections
+- [[HA PROJECTS]]

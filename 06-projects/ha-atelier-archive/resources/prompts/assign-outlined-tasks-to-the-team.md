@@ -11,3 +11,5 @@ Aquí el outline:
 Es importante resaltar que buscamos aprovechar al máximo las fortalezas individuales y la sinergia del equipo para asegurar la calidad y el impacto del entregable. Por favor, asigna un tag [e.g., Oscar] al lado de cada sección del outline para indicar la asignación propuesta.
 
 Gracias por tu colaboración en este proceso estratégico. Tu análisis detallado y propuesta de asignaciones serán fundamentales para el éxito del proyecto.
+## Connections
+- [[HA PROJECTS]]

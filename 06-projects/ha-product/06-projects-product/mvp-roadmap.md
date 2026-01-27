@@ -159,3 +159,6 @@ status: active
 1. Decidir quién desarrolla
 2. Setup del repo
 3. Empezar Semana 1
+
+## Connections
+- [[ha-root-product]]

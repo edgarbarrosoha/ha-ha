@@ -171,3 +171,5 @@ v.03
 - Maintain a conversational yet authoritative tone to keep the audience engaged.
 - Ensure smooth transitions between sections to avoid disjointed ideas.
 - Use visuals or metaphors where possible to enhance understanding and retention.
+## Connections
+- [[HA PROJECTS]]

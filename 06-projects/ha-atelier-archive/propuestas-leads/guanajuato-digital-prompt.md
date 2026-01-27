@@ -13,3 +13,5 @@ El reto es: cómo le planteamos esto,  para que lo perciba como un proyeto relev
 TASK 01: Busca notas persiodísticas y documentos que te encuentres para  hacer un perfil psicológico y determinar el tono y contenido del mensaje para que lo reciba bien y me pueda dar una cita para platicarle. 
 
 TASK 02: Escribe el mensaje de WhatsApp ideal para generar el interés de la  gobernadora. Y que podamos empezar el proyecto ejecutivo. 
+## Connections
+- [[HA PROJECTS]]

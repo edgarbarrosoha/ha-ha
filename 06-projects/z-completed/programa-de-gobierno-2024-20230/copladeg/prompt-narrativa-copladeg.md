@@ -229,3 +229,5 @@ TASK: lo que necesito es que me ayudes a crear 1. la narrativa del proceso robus
 La gobernadora del estado, Libia García estaré en la reunión, así que la narrativa debe ser acorde a su visión, pero al mismo tiempo alineada con las demandas ciudadanas y las ideas de su gabinete.
 
 Haz tu mejor. Formato de resultado, ASCII:
+## Connections
+- [[HA PROJECTS]]

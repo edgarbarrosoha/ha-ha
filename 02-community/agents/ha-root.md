@@ -85,3 +85,9 @@ When activated:
 ---
 
 *The unicorn is the legacy. Every action serves the vision.*
+
+## Connections
+
+- [[02-community]] — Dimension index
+- [[HA COMMUNITY]] — Community dimension
+- [[HA ROOT]] — Central hub of Horizons Architecture

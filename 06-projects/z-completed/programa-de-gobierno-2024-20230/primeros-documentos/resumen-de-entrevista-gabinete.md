@@ -517,3 +517,5 @@ La Gobernadora ha dejado claro que el éxito de su administración no se medirá
 > “Durante la falta de recursos, creo que lo único que puede suplir eso es la cercanía, la atención personal, el estar pendiente de lo que viven todos los días.”
 
 Con estas directrices, la Gobernadora reafirma su visión de un gobierno eficiente, realista y profundamente conectado con las personas a las que sirve, asegurando que cada esfuerzo se traduzca en un impacto positivo en la vida de los guanajuatenses.
+## Connections
+- [[HA PROJECTS]]

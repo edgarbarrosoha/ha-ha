@@ -153,3 +153,5 @@ El Programa de Gobierno 2024-2030 se presenta no solo como un documento técnico
 - **Sistema > Resultados**: Conectar el diseño del sistema con los resultados tangibles obtenidos hasta ahora.
 - **Resultados > Próximos Pasos**: Dar continuidad al progreso mostrando lo que falta por hacer.
 - **Próximos Pasos > Conclusión**: Cerrar con un mensaje que enlace el trabajo realizado con la visión a largo plazo del programa.
+## Connections
+- [[HA PROJECTS]]

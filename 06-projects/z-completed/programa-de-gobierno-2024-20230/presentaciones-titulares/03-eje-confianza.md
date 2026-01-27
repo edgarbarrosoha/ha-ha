@@ -113,3 +113,5 @@ La Gobernadora visualiza un Guanajuato que aprovecha al máximo las tecnologías
 - Apuesta por la innovación, impulsando la transformación digital y modernización gubernamental para una gestión eficiente, y busca un desarrollo sostenible que equilibre el crecimiento económico con la protección ambiental.
 
 ---
+## Connections
+- [[HA PROJECTS]]

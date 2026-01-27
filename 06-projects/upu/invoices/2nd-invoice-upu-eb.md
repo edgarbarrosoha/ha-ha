@@ -81,3 +81,6 @@ _Thank you for your trust_
 Independent Consultant
 
 Date: August 30, 2025
+
+## Connections
+- [[HA PROJECTS]]

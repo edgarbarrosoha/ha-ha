@@ -28,3 +28,5 @@ You are tasked with generating a **descriptive and clear title** for a given pro
     
 - **Generated Title**:  
     _Provide the new, descriptive title that reflects the function of the prompt._
+## Connections
+- [[HA PROJECTS]]

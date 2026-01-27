@@ -315,5 +315,13 @@ Al terminar 2026, si podemos decir SÍ a estas preguntas, ganamos:
 
 ---
 
+## Connections
+
+- [[01-legacy]] — Dimension index
+- [[HA LEGACY]] — Legacy dimension
+- [[HA ROOT]] — Central hub of Horizons Architecture
+
+---
+
 *Última actualización: Diciembre 2025*
 *Próxima revisión: Enero 2026*

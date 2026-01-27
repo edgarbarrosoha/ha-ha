@@ -12,3 +12,9 @@
 		- [ ] Poncho
 		- [ ] Tec de Monterrey
 	- [ ] Hacer empresa suiza
+
+## Connections
+
+- [[01-legacy]] — Dimension index
+- [[HA LEGACY]] — Legacy dimension
+- [[HA ROOT]] — Central hub of Horizons Architecture

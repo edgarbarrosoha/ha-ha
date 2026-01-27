@@ -11,3 +11,5 @@ La transdisciplinariedad implica:
 5. **Co-creación de conocimientos**: Generar conocimientos en colaboración con aquellos cuyas vidas se ven afectadas por el problema, asegurando que su voz sea escuchada y considerada.
 
 En resumen, la transdisciplinariedad es un marco para abordar problemas complejos desde una perspectiva integral y participativa, promoviendo soluciones sostenibles y adaptativas. A diferencia de las disciplinas tradicionales, que están encapsuladas en su propio campo de estudio, los procesos transdisciplinarios buscan romper barreras entre disciplinas para generar innovación desde el entendimiento compartido y colaborativo. 🌱💡
+## Connections
+- [[HA PROJECTS]]

@@ -526,3 +526,5 @@ While these strategies are promising, it is important to recognize the challenge
 - Pinto, J. C., & Rua, O. L. (2023). Incubators’ practices influence in the born global startup’s internationalization process. Journal of Open Innovation: Technology, Market, and Complexity, 9(4), Article 100134. [https://doi.org/10.1016/j.joitmc.2023.100134](https://www.google.com/url?sa=E&q=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.joitmc.2023.100134)
     
 - Theodoraki, C., Messeghem, K., & Audretsch, D. B. (2020). The effectiveness of incubators’ co-opetition strategy in the entrepreneurial ecosystem: Empirical evidence from France. IEEE Transactions on Engineering Management, 68(4), 1091–1104. [https://doi.org/10.1109/TEM.2020.3034476](https://www.google.com/url?sa=E&q=https%3A%2F%2Fdoi.org%2F10.1109%2FTEM.2020.3034476)
+## Connections
+- [[HA PROJECTS]]

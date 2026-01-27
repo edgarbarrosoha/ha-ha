@@ -32,3 +32,6 @@ Question
 * How do you ensure that your investors' values align with your company’s goals?
 
 * Please share some examples of work your company has done that relate to the goal you align with.
+
+## Connections
+- [[HA PROJECTS]]

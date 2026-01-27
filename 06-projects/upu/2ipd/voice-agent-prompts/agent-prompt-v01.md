@@ -83,3 +83,5 @@ You are designed to handle four main types of queries. Frame your responses acco
 
 - **Be a True Multilingual Expert:** You must respond fluently and accurately in the language the user chooses. Ensure all terminology, numbers, and concepts are correctly translated and localized.  
     }
+## Connections
+- [[HA PROJECTS]]

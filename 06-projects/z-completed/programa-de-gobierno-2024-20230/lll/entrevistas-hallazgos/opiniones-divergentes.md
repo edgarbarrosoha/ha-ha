@@ -128,3 +128,5 @@ Estas diferencias reflejan la riqueza de perspectivas en el diseño de ATV y el 
 
 
 ```
+## Connections
+- [[HA PROJECTS]]

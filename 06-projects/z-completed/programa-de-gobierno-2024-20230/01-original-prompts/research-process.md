@@ -118,3 +118,5 @@ Throughout the process:
 - Create an ethical AI use disclaimer to be included in the final paper
 
 #Pre_Production 
+## Connections
+- [[HA PROJECTS]]

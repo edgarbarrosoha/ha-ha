@@ -390,3 +390,5 @@ Esta visión de transformación digital representa un cambio fundamental en la f
 - **Asumiendo la responsabilidad:** La Gobernadora reconoce la responsabilidad del gobierno en la creación de un Guanajuato más próspero y equitativo. Asume el compromiso de trabajar por la seguridad, la igualdad, la educación y el desarrollo sostenible, lo cual implica tomar decisiones difíciles y enfrentar desafíos complejos. Reconoce la importancia de la rendición de cuentas y la transparencia en la gestión pública.
 - **Apostando por la innovación:** Al hablar de la transformación digital y la necesidad de modernizar el gobierno, la Gobernadora demuestra una visión de futuro y una apuesta por la innovación. Esto implica asumir riesgos y desafiar las prácticas tradicionales para crear un gobierno más eficiente y eficaz.
 - **Buscando la sostenibilidad:** La Gobernadora se muestra valiente al abordar los desafíos ambientales y promover un desarrollo sostenible. Reconoce la importancia de equilibrar el crecimiento económico con la protección del medio ambiente y la gestión responsable de los recursos naturales.
+## Connections
+- [[HA PROJECTS]]

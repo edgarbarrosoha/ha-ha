@@ -43,3 +43,5 @@
 43. **Consolidar la infraestructura carretera estatal**
 44. **Asesorar a los municipios en los sistemas de transporte público urbano, suburbano e intermunicipal**
 45. **Extender la cobertura digital en los municipios de Guanajuato**
+## Connections
+- [[HA PROJECTS]]

@@ -21,3 +21,6 @@ Output: An awesome, refine, logic and compeling Outline to achieve the goal of t
 
 PRINT ONLY THE FINAL RESULT
 
+
+## Connections
+- [[HA PROJECTS]]

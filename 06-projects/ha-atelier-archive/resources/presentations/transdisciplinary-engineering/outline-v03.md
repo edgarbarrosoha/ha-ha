@@ -246,3 +246,5 @@ The ultimate goal is not just to manage complexity, but to transform it into coh
 ---
 
 **[END OF PRESENTATION OUTLINE]**
+## Connections
+- [[HA PROJECTS]]

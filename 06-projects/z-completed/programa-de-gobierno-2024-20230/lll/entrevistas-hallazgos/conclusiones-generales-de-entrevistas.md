@@ -88,3 +88,5 @@ El tec-monterrey tiene la oportunidad de posicionarse como líder en educación 
 - Innovar constantemente para adaptarse a los cambios globales y anticipar las necesidades emergentes.
 
 Estas conclusiones no solo alinean a los entrevistados con los principios de la Arquitectura de Horizontes, sino que también colocan al Tec en una posición estratégica para liderar el aprendizaje a lo largo de la vida en América Latina y más allá.
+## Connections
+- [[HA PROJECTS]]

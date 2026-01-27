@@ -171,3 +171,5 @@ Si la candidatura resulta ganadora, se debe activar un proceso de transición qu
 ---
 
 Este análisis ofrece una base para elaborar la propuesta que se presentará a Virginia “Kikis” Magaña. El éxito de la campaña dependerá de convertir su trabajo legislativo y su liderazgo social en una narrativa de cambio pragmática, cohesionando a su partido y a sus aliados para disputar la hegemonía del PAN en Guanajuato en 2030.
+## Connections
+- [[HA PROJECTS]]

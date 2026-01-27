@@ -130,3 +130,5 @@ Para movilizar a una organización tan grande como el Tec hacia un cambio signif
 ### **Conclusión para Víctor Gutiérrez**
 
 Liderar esta iniciativa requiere un enfoque visionario y operativo. Al equilibrar disrupción con estabilidad, y al combinar tecnología avanzada con un propósito humano, Víctor puede posicionar al Tec como líder global en aprendizaje continuo. Este proyecto tiene el potencial de redefinir la educación en América Latina y de convertir al Tec en un referente internacional de innovación educativa.
+## Connections
+- [[HA PROJECTS]]

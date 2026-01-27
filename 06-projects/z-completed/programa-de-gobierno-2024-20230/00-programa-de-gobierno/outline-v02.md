@@ -450,3 +450,5 @@ Los programas derivados del Programa de Gobierno 2024 - 2030 se enlistan a conti
 ---
 
 *Nota: Las secciones marcadas como (HA) indican que se espera la inclusión de "Hallazgos Clave" una vez que se desarrolle el contenido del documento.*
+## Connections
+- [[HA PROJECTS]]
