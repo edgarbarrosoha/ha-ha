@@ -159,6 +159,20 @@ Estas cuatro apuestas no operan en el vacío—necesitan habilitadores que las a
 
 Las cuatro apuestas y los habilitadores dibujan el qué. Ahora viene el cómo: traducir esas apuestas en proyectos concretos con entregables, milestones y responsables.
 
+### No empezamos de cero
+
+Antes de describir los cinco proyectos, es importante reconocer algo: no estamos diseñando desde cero. El Campus Monterrey ya tiene bases sólidas sobre las cuales construir. Lo que esta estrategia hace es sistematizar, conectar y escalar lo que ya existe.
+
+En talento, contamos con 10,570 profesores totales (incluyendo cátedra), de los cuales 2,085 son de tiempo completo—63.7% con doctorado, 42.5% con posgrado en el extranjero, 21.7% de universidades Top 100, 14.4% extranjeros. Tenemos 377 investigadores en el SNI, 582 investigadores activos, y la Faculty of Excellence ya opera con más de 40 docentes de 14 nacionalidades. En el DIM participan 312 profesores e investigadores. El programa Profesores a Futuro atrae EXATEC con doctorados de universidades Top 20. Los CADis internacionales desarrollan facultad con estancias en el extranjero. Los fondos externos captados alcanzan $135.38 MDP anuales. Estas no son metas—son realidades que podemos amplificar.
+
+En infraestructura de innovación, el Distrito de Innovación Monterrey ya tiene pilares operando: Expedition FEMSA con 32 iniciativas y 136 proyectos activos; el Hub de Innovación Eduardo Garza T. madurando prototipos y startups; el Centro de Biotecnología FEMSA y el Centro de Ingeniería y Diseño Carlos Álvarez funcionando; CEDES Nano produciendo investigación de frontera; Venture Café—el primero en América Latina—generando networking. Hay 82 empresas vinculadas al ecosistema (de una meta de generar 600 startups de base científica y 16,000 empleos intensivos en conocimiento), más de 470 eventos realizados con más de 24,800 asistentes, 1,262 estudiantes y 312 profesores participando activamente en el DIM. Los primeros 3 X Labs de Ingeniería-TecSalud ya operan dentro del hospital.
+
+En estudiantes, la matrícula de 26,496 se distribuye en preparatoria (5,546), profesional (17,911) y posgrado (3,039, de los cuales 1,803 son presenciales). La composición es diversa: 52% foráneos y extranjeros en profesional, 65% en posgrado. El 41% de preparatoria y 37% de profesional tienen PIN sobresaliente. En el hospital participan 439 estudiantes de pregrado y 438 residentes médicos. El piloto de selectividad en PrepaTec Cumbres demostró que podemos atraer talento excepcional: 358 solicitantes, 230 admitidos, 179 A Plus. EGOB Monterrey crece de 39 a 100 estudiantes presenciales. Los programas de alta selectividad en BFI, BBA, Medicina e Ingenierías ya operan.
+
+En métricas de investigación, publicamos 1,258 artículos anuales—527 en journals Q1Q2 con contribución original. El FWCI sin autocitas es 1.08. Las citas quinquenales superan 49,000. El hospital se posiciona #4 privado en México y #12 en Latinoamérica. El ECAG opera con 42% de participación (meta 70%) y busca >80% de satisfacción.
+
+Lo que falta no es empezar, sino conectar. Los proyectos existen pero operan en paralelo. Los indicadores se miden pero no en sistema. El talento está pero no siempre se encuentra. La estrategia 2030 no crea algo nuevo—sistematiza lo que ya funciona y cierra las brechas que impiden que el todo sea mayor que la suma de las partes.
+
 Para aterrizar las apuestas, las convertimos en cinco proyectos estratégicos que operan como sistema:
 
 | Apuesta / Componente       | Se materializa en...                                                                                 |
@@ -186,6 +200,10 @@ Los nombres están en inglés porque pensar en grande pasa por ser el campus má
 **Acercar y concentrar el talento que después vamos a conectar**
 
 Todo empieza aquí. Antes de crear intersecciones, necesitamos tener a las personas correctas en el mismo lugar. Density significa acercar—al campus, a los proyectos, a las conversaciones—a quienes tienen el conocimiento, la experiencia y la capacidad de generar impacto. No solo profesorado: también personas de la industria, del gobierno, del sector social, que quieran resolver problemas junto con la academia.
+
+**Lo que ya tenemos:** La base de Density es sólida. Contamos con 10,570 profesores totales (incluyendo cátedra), de los cuales 2,085 son de tiempo completo. De estos, 63.7% tienen doctorado, 42.5% con posgrado en el extranjero, y 21.7% de universidades Top 100. El 14.4% son profesores extranjeros. Hay 377 investigadores en el SNI y 582 investigadores activos en el campus. En el DIM participan 312 profesores e investigadores. La Faculty of Excellence ya opera con más de 40 docentes de 14 nacionalidades. Expedition atrajo investigadores del top 2% mundial. Programas como Profesores a Futuro y CADis internacionales ya están atrayendo y desarrollando talento. Los fondos externos captados alcanzan $135.38 MDP anuales.
+
+**Lo que falta:** Un mapa estructurado de los 100 perfiles globales a atraer. Un programa formal de sabáticos invertidos. Residencias cruzadas sistematizadas con industria. Un sistema de retención para los "50 que no podemos perder". La meta de 20-30% de profesores extranjeros (hoy estamos en 14.4%).
 
 Hoy el Tec tiene 705 SNI, 40+ Faculty of Excellence, y Expedition operando. Pero ¿sabemos exactamente qué tenemos? ¿Quiénes son las 50 personas que no podemos perder? ¿A quiénes deberíamos estar buscando en el mundo? ¿Qué conexiones con industria, gobierno y organizaciones nos faltan para que cada escuela tenga la densidad necesaria?
 
@@ -228,6 +246,10 @@ Hoy el Tec tiene 705 SNI, 40+ Faculty of Excellence, y Expedition operando. Pero
 **Conectar el talento para producir lo que ninguna disciplina lograría sola**
 
 Con la densidad construida, el siguiente paso es conectarla. La innovación ocurre en los bordes—donde una disciplina se encuentra con otra, donde la academia se cruza con la industria, donde un problema social encuentra solución técnica. Una persona de ingeniería biomédica y una de cirugía en el mismo proyecto. Alguien de ciencia de datos y alguien de historia analizando el mismo fenómeno. Una diseñadora industrial y un equipo de oncología desarrollando un dispositivo.
+
+**Lo que ya tenemos:** Intersections tiene la infraestructura más madura. Expedition FEMSA opera con 32 iniciativas y 136 proyectos activos de investigación aplicada. El Hub de Innovación Eduardo Garza T. madura prototipos y startups. El Centro de Biotecnología FEMSA y el Centro de Ingeniería y Diseño Carlos Álvarez integran múltiples escuelas. CEDES Nano produce investigación de frontera. Venture Café—el primero en América Latina—genera networking constante. Hay 82 empresas vinculadas al ecosistema. Se realizaron más de 470 eventos con más de 24,800 asistentes. 1,262 estudiantes y 312 profesores participan activamente en el DIM. Los primeros 3 X Labs de Ingeniería-TecSalud ya operan dentro del hospital, co-diseñando soluciones clínicas. Las publicaciones alcanzan 1,258 anuales, con 527 en Q1Q2.
+
+**Lo que falta:** Un proyecto bandera ("big boat") que posicione globalmente al campus. Fondos semilla interdisciplinarios formalizados. Un programa integrado ingeniería-medicina. Embajadores de facultad como conectores activos. Sistema de tracking de emprendimientos derivados. Escalar de 3 a 25+ X Labs. Medir formalmente proyectos y publicaciones multi-escuela. El DIM tiene metas ambiciosas: 16,000 empleos intensivos en conocimiento (hoy 5,345) y 600 startups de base científica (hoy 210). Patentes solicitadas tampoco se reportan formalmente.
 
 Necesitamos generar colisiones deliberadas—choques moleculares que produzcan reacciones. Cuando los humanos nos conocemos, es sorprendente la afinidad que encontramos y el propósito compartido que descubrimos. Pero sin esos encuentros, las conexiones no surgen. El Tec ya tiene nodos fuertes y colaboraciones valiosas. Pero muchas dependen de encuentros fortuitos. La oportunidad es convertir esa casualidad en sistema—y extenderla más allá de la academia, hacia la industria, el gobierno y la sociedad.
 
@@ -273,6 +295,10 @@ Necesitamos generar colisiones deliberadas—choques moleculares que produzcan r
 
 Las y los mejores estudiantes del país y la región tienen opciones. Pueden ir a cualquier universidad. Si esperamos a que nos encuentren, llegamos tarde. La estrategia es identificarlos antes—cuando ganan una olimpiada, cuando destacan en un concurso de robótica, cuando lideran un proyecto de impacto social—y hacer que el Tec sea parte de su decisión desde temprano. Pero no buscamos solo talento académico; buscamos estudiantes con hambre. Hambre de hacer las cosas bien, de crecer, de comerse el mundo. Esa actitud—más que cualquier puntaje—es lo que convierte a un estudiante sobresaliente en alguien que transforma.
 
+**Lo que ya tenemos:** Una matrícula de 26,496 estudiantes distribuidos en preparatoria (5,546), profesional (17,911) y posgrado (3,039, de los cuales 1,803 son presenciales). La composición es diversa: 52% foráneos y extranjeros en profesional, 65% en posgrado. El 41% de preparatoria y 37% de profesional tienen PIN sobresaliente. El piloto de PrepaTec Cumbres validó el modelo de selectividad: 358 solicitantes, 230 admitidos, 179 A Plus. Programas de alta selectividad ya operan en BFI, BBA, Medicina e Ingenierías de cupo limitado. EGOB Monterrey crece de 39 a 100 estudiantes presenciales. Existen 439 estudiantes de pregrado en el hospital y 438 residentes médicos. La vinculación con colegios proveedores desarrolla journey de preparación desde secundaria. Admisión holística con IA está en desarrollo.
+
+**Lo que falta:** Un radar de talento con IA para identificar proactivamente estudiantes en olimpiadas y concursos antes de que apliquen. Sistema de contactos proactivos (meta: 3,000+). Tracks selectivos con cupos limitados en más programas. 100% de posgrado vinculado a proyectos de investigación (hoy no se mide). Portafolio de evidencias validado para egresados. Sistema de mentoría continua toda la carrera.
+
 Y una vez que llegan, el reto es transformarlos: en personas que investigan, que innovan, que lideran. El posgrado es particularmente importante—es donde convergen la mejor facultad, estudiantes con ambición, y los problemas reales de la industria y la sociedad.
 
 **Lo que haremos:**
@@ -316,6 +342,10 @@ Y una vez que llegan, el reto es transformarlos: en personas que investigan, que
 
 Un campus puede tener talento, colaboración y estudiantes—y aún así no funcionar como sistema. Las partes existen pero no se ven entre sí, no se encuentran, no saben unas de otras. Pulse es la infraestructura de inteligencia artificial que hace visible lo invisible, conecta lo desconectado, y permite que el ecosistema opere como un todo.
 
+**Lo que ya tenemos:** AURA está en desarrollo como sistema de IA para conectar personas, proyectos y capacidades del ecosistema. La alfabetización en IA para toda la comunidad (colaboradores, profesores, estudiantes) está iniciando. Existen iniciativas de agentes para agilizar procesos administrativos y plataformas de recomendación para plan de vida estudiantil. Puntos de consulta con expertos en IA se están estableciendo.
+
+**Lo que falta:** Pulse es el proyecto con menor madurez—0% de los indicadores propuestos existen formalmente. No hay mapa vivo de colaboraciones en tiempo real. No existe un agente IA (Cynthia) con capacidad de facilitar conexiones activamente. No hay integración de sistemas (BANNER, RRHH, finanzas). La meta de IA integrada en 100% de los programas está lejos (~10% estimado). Necesitamos construir desde cero: el mapa de colaboraciones, las 6,000+ conexiones facilitadas, los 6,000+ usuarios activos mensuales.
+
 **Lo que haremos:**
 
 | Iniciativa                      | Descripción                                                                                                                                                                                                          |
@@ -351,6 +381,10 @@ Un campus puede tener talento, colaboración y estudiantes—y aún así no func
 **El sistema de medición que indica si vamos en camino**
 
 Lo que no se mide no se mejora. Históricamente hemos medido: publicaciones, citas, matrículas. Evolution mide lo que antes no medíamos—la salud del campus como ecosistema conectado—y nos da la señal de si vamos bien o si necesitamos ajustar.
+
+**Lo que ya tenemos:** Indicadores de investigación operando: 1,258 publicaciones totales, 527 Q1Q2, 49,067 citas quinquenales, FWCI de 1.08, $135.38 MDP en fondos externos, 377 SNII, 582 investigadores. Rankings internacionales: Hospital #4 privado en México, #12 en Latinoamérica (IntelLat/Expansión). ECAG operando con 42% de participación actual (meta 70%) y meta de satisfacción >80%. Indicadores de facultad medidos anualmente: % con doctorado (63.7%), % con posgrado extranjero (42.5%), % de universidades Top 100 (21.7%), % extranjeros (14.4%). Indicadores de matrícula medidos semestralmente: PIN sobresaliente (41% prepa, 37% profesional), % foráneos/extranjeros (52% profesional, 65% posgrado).
+
+**Lo que falta:** Los indicadores existentes cubren solo 30% de lo que necesita Evolution. No existe un dashboard consolidado para liderazgo. No medimos indicadores de conexión (densidad de red, pares inusuales, migración de ideas). No medimos velocidad (tasa de conversión de pilotos, días desde propuesta hasta entregable). No medimos atracción sistémica (tasa de aceptación de talento, pull externo, tasa de retorno). No trackeamos impacto completo (emprendimientos generados, políticas públicas influenciadas). No hay benchmark formal con universidades peer. No hay sistema de alertas automáticas.
 
 **Indicadores del ecosistema:**
 
@@ -467,18 +501,78 @@ Don Eugenio decía: "Lo que uno es y puede poseer es una oportunidad de servicio
 |SNI|570|705|
 |Faculty of Excellence|0|40+|
 
+### Matriz de Madurez por Proyecto
+
+| Proyecto | Indicadores existentes | Cobertura | Infraestructura | Procesos | Nivel |
+|----------|------------------------|-----------|-----------------|----------|-------|
+| **Density** | 12 de 4 requeridos | ✅ 100% | ✅ Alta | ✅ Alta | Alto |
+| **Intersections** | 8 de 5 requeridos | ⚠️ 60% | ✅ Alta | ✅ Alta | Alto |
+| **The Pool** | 14 de 4 requeridos | ⚠️ 75% | ⚠️ Media | ⚠️ Media | Medio |
+| **Pulse** | 0 de 4 requeridos | ❌ 0% | ❌ Baja | ❌ Baja | En desarrollo |
+| **Evolution** | 6 de 10 requeridos | ⚠️ 30% | ⚠️ Media | ⚠️ Media | Medio |
+
+### Roadmap de Indicadores por Desarrollar
+
+| Año | Indicadores a crear |
+|-----|---------------------|
+| **2026** | Proyectos multi-escuela activos, % posgrado en proyectos, usuarios Cynthia (prototipo), Dashboard v1 |
+| **2027** | Publicaciones coautoría multi-escuela, contactos proactivos Radar, conexiones facilitadas Cynthia, benchmark 5 indicadores vs peers |
+| **2028** | Emprendimientos derivados, tasa conversión Radar, densidad de red, pares inusuales |
+
+### Prioridades de Desarrollo
+
+| Prioridad | Gap crítico | Proyecto |
+|-----------|-------------|----------|
+| **Alta** | Sistema de IA integrado (Cynthia) | Pulse |
+| **Alta** | Radar de talento con IA | The Pool |
+| **Alta** | Dashboard + indicadores ecosistema | Evolution |
+| Media | Proyecto bandera global | Intersections |
+| Media | Sabáticos invertidos formalizados | Density |
+| Media | Posgrados 100% vinculados | The Pool |
+
+### Indicadores que Cruzan Múltiples Perfiles
+
+Varios indicadores alimentan más de un proyecto estratégico, lo que permite eficiencias en medición:
+
+| Indicador | Density | Intersections | The Pool | Pulse | Evolution |
+|-----------|---------|---------------|----------|-------|-----------|
+| Fondos externos captados | ✅ | ✅ | — | — | ✅ |
+| Publicaciones Q1Q2 | ✅ | ✅ | — | — | ✅ |
+| Estudiantes en DIM | — | ✅ | ✅ | — | ✅ |
+| % PIN sobresaliente | — | — | ✅ | — | ✅ |
+| Empresas vinculadas | ✅ | ✅ | — | — | ✅ |
+| SNII | ✅ | — | — | — | ✅ |
+
+### Fuentes de Datos y Frecuencia
+
+| Fuente | Indicadores | Frecuencia |
+|--------|-------------|------------|
+| Radiografía Facultad 2025 | Profesores TC, % doctorado, % posgrado extranjero, % Top 100, % extranjeros, total profesores | Anual |
+| Indicadores Investigación MTY | SNII, investigadores, publicaciones, citas, FWCI, fondos externos | Anual |
+| DIM Avances 25-26 | Iniciativas Expedition, proyectos activos, empresas vinculadas, eventos, asistentes, estudiantes DIM, profesores DIM | Semestral |
+| Matrícula Ago-Dic 2025 | Matrícula total, por nivel, PIN sobresaliente, % foráneos/extranjeros | Semestral |
+| Hospital Zambrano Hellion | Estudiantes pregrado, residentes médicos, rankings | Anual/Semestral |
+| Plan EGTP | EGOB presenciales, ECAG participación y satisfacción | Trimestral |
+| Selectividad (pilotos) | Solicitantes, admitidos, A Plus | Por piloto |
+| Plan 2030 | Faculty of Excellence, metas estratégicas | Anual |
+| Rankings externos | Expansión, IntelLat | Anual |
+
 ### Fuentes
 
 - Consulta amplia con voces del ecosistema Tec: Juan Pablo Murra, David Garza, Ricardo Saldívar, José Antonio Fernández, Carlos Saldívar, Javier Guzmán (Vicepresidente de Investigación), entre otros.
-    
+
 - Entrevistas con decanaturas, estudiantes y equipo de liderazgo del campus.
-    
+
 - Talleres con Decanos Nacionales (25+ ideas).
-    
+
 - Reportes de operación Expedition (Año 1).
-    
+
 - Plan Estratégico 2030.
-    
+
+- Radiografía facultad 2025, Indicadores investigación MTY, DIM avances 25-26.
+
+- Matrícula agosto-diciembre 2025, Plan EGTP, Hospital Zambrano Hellion.
+
 
 ### Preguntas frecuentes
 
@@ -496,3 +590,5 @@ Las cuatro apuestas (Distrito, Posgrados, Selectividad, Facultad) son el marco e
 
 ## Connections
 - [[01-legacy-ncm]]
+- [[mapeo-indicadores-narrativa]]
+- [[mapeo-proyectos-narrativa]]
