@@ -1,0 +1,173 @@
+- [ ] Xignux
+- [ ] Wellcome
+- [ ] Talisis
+- [ ] UPU
+- [ ] Escuela de Gobierno
+- [ ] GAIN
+---
+- [ ] **AURA II**
+    - [ ] Pendiente con Lali del proyecto
+- [ ] Descripción: Estamos haciendo el agente inteligente AURA para el edificio Expedition del Tec de Monterrey.
+- [ ] Deadline: 26 de marzo
+- [ ] Prioridad: 1
+- [ ] Business Unit: TEC+HA
+- [ ] Leader: Oscar Díaz
+---
+- [ ] **GUANAJUATO INTELIGENTE**
+    - [ ] Esperar a la gobernadora
+- [ ] Descripción: Lead para poner la capa de inteligencia al estado
+- [ ] Deadline: Lead N/A
+- [ ] Prioridad: 1
+- [ ] Business Unit: HA
+- [ ] Leader: Edgar Barroso
+---
+- [ ]  **IECA** 
+    - [ ] Darle seguimiento con Gaby y hacer un plan
+- [ ] Descripción: Diseñar cursos virtuales dados por Avatars de IA para el IECA. 
+- [ ] Deadline: 26 de marzo
+- [ ] Prioridad: 1
+- [ ] Business Unit: HA
+- [ ] Leader: Gaby German
+---
+- [ ]  **HA SUIZA** 
+    - [ ]  Tener claros los requisitos
+    - [ ]  Entender el tipo de empresa que vamos a hacer acá
+    - [ ]  Estudiar alemán
+- [ ] Descripción: Establecer la empresa HA en Suiza para poder tener clientes aquí. 
+- [ ] Deadline: 26 de marzo
+- [ ] Prioridad: 1
+- [ ] Business Unit: HA
+- [ ] Leader: Edgar Barroso
+---
+- [ ] **CIUDADANÍA SUIZA** 
+    - [ ] Hablar con migración y entender el proceso
+    - [ ] Practicar alemán
+- [ ] Descripción: Solicitar la ciudadanía suiza, sólo tengo que pasar el examen B1, tengo nivel A2, todos los demás requisitos los cumplo. 
+- [ ] Deadline: 26 de marzo
+- [ ] Prioridad: 1
+- [ ] Business Unit: HA
+- [ ] Leader: Edgar Barroso
+---
+- [ ] **PUBLiC•A** 
+    - [ ]  Darle seguimiento con Miguel Toro
+    - [ ]  Contactar a Gabe para ver mi clase de profesional
+- [ ] Descripción: Propuesta de diseño para un programa similar a Transformadores Públicos pero para estudiantes de pregrado. 
+- [ ] Deadline: 26 de marzo
+- [ ] Prioridad: 1
+- [ ] Business Unit: HA
+- [ ] Leader: Miguel Toro
+----
+- [ ]  **CLASIFICADOR Y EVALUADOR OSC** 
+    - [ ]  Entregar la clasificación
+    - [ ]  Hacer propuesta
+    - [ ]  Hacer pruebas
+- [ ] Descripción: Hacer una sistema de IA para clasificar ONGs para la secretaría del Nuevo Comienzo.
+- [ ] Deadline: 26 de marzo
+- [ ] Prioridad: 1
+- [ ] Business Unit: HA
+- [ ] Leader: Oscar Díaz
+---
+- [ ] **HA R&D Team** 
+    - [ ]  Ver a Vale Calzada en febrero
+- [ ] Descripción: Buscar talento tecnológico para R&D de HA. 
+- [ ] Deadline: 26 de marzo
+- [ ] Prioridad: 1
+- [ ] Business Unit: HA
+- [ ] Leader: Edgar Barroso
+---
+- [ ]  **HA R&D** 
+    - [ ]  Hacer el HA Agents Demo
+    - [ ]  HA como ENTE
+    - [ ]  Tener el demo de ontología generativa (conectarlo a la conversación de la taxonomía fija)
+- [ ] Descripción: Generar el "ENTE" de HA como una estructura agéntica que ayude a las personas y organizaciones a lograr sus legados.
+- [ ] Deadline: 26 de marzo
+- [ ] Prioridad: 1
+- [ ] Business Unit: HA
+- [ ] Leader: Edgar Barroso + Oscar Díaz
+---
+- [ ] **Ernst** 
+    - [ ]  Retomar las conversaciones con Ernst
+- [ ] Descripción: Lead de consultor suizo para hacer proyectos en colaboración en Suiza.
+- [ ] Deadline: 26 de marzo
+- [ ] Prioridad: 1
+- [ ] Business Unit: HA
+- [ ] Leader: Edgar Barroso
+---
+- [ ] **BETTY HOLANDA** 
+    - [ ]  Talleres en Holanda
+- [ ] Descripción: Difundir la teoría de HA en Holanda para ver si expandimos el mercado de HA por allá.
+- [ ] Deadline: 26 de marzo
+- [ ] Prioridad: 1
+- [ ] Business Unit: HA
+- [ ] Leader: Betty Huerta
+---
+- [ ] **IMPLAN** (Estamos terminando una consultoría con IMPLAN de la ciudad de León y nos falta entregar el último agente):
+    - [ ]  Preguntar a Oscar cómo va con el agente
+- [ ] Descripción: Terminar un proyecto de consultoría y la creación de una agente de IA „Ari“ con la información del IMPLAN.  
+- [ ] Deadline: 26 de marzo
+- [ ] Prioridad: 1
+- [ ] Business Unit: HA
+- [ ] Leader: Oscar Díaz
+---
+- [ ] **SAPAL**:
+    - [ ]  Darle seguimiento a cómo hacer esto
+- [ ] Descripción: Desarrollar un agente de IA para SAPAL de la ciudad de León que se encargue de manejar información interna. 
+- [ ] Deadline: 26 de marzo
+- [ ] Prioridad: 1
+- [ ] Business Unit: HA
+- [ ] Leader: Sarahí Orduño + Oscar Díaz
+---
+- [ ] **HA** 
+    - [x]  Premio Rómulo Garza
+    - [ ]  Conseguir clientes nuevos para 2025
+    - [ ]  Subir a tres socios estratégicos a HA)
+        - [ ]  Nicho
+        - [ ]  Poncho
+        - [ ]  Tec de Monterrey: encontrar con quien tengo que hablar para ver los siguientes pasos.
+- [ ] Descripción: Resumen de los objetivos como CEO que tengo. 
+- [ ] Deadline: 26 de marzo
+- [ ] Prioridad: 1
+- [ ] Business Unit: HA
+- [ ] Leader: Edgar Barroso
+---
+- [ ] **HA RESEARCH** 
+    - [ ]  Proponer el HYBRID INTELLIGENCE LAB en el Tec
+    - [ ]  Entender el capital social del Tec actual
+    - [ ]  (Theoretical Paper HA) Empezar a construir la parte de la descripción de HA
+    - [ ]  (Paper escribiendo con Margaret Miller y Ernesto Stein) Retomar el paper de Financial con Oscar
+    - [ ]  (Propuesta de investigación para tenas de obesidad) Darle seguimiento a la propuesta de Héctor
+- [ ] Descripción: Mi trabajo como investigador en el Tec para publicar en Q1 scopus Journals. 
+- [ ] Deadline: 26 de marzo
+- [ ] Prioridad: 1
+- [ ] Business Unit: HA
+- [ ] Leader: Edgar Barroso + Oscar Díaz
+---
+- [ ] **UPU**
+    - [ ] Esperando el ToR
+    - [ ] Checar las fechas del Innovation Challenge
+- [ ] Descripción: Lograr un contrato para desarrollar un sistema de IA para la Universal Postal Union de Naciones Unidas
+- [ ] Deadline: 26 de marzo
+- [ ] Prioridad: 1
+- [ ] Business Unit: HA
+- [ ] Leader: Edgar Barroso
+---
+- [ ] **CASA ANTENA** 
+    - [ ] Seguir comprando las cosas que faltan para habilitar el primer departamento antes de semana santa.
+- [ ] Descripción: Consolidar dos departamentos como ARIBNB para tener ingresos pasivos 
+- [ ] Deadline: 26 de marzo
+- [ ] Prioridad: 1
+- [ ] Business Unit: HA
+- [ ] Leader: Gaby German
+---
+- [ ] **DOCET**
+    - [ ] Hablar con Maricarmen
+--- 
+- [x]  **OPERACIÓN HERNIA**
+    - [x]  Recuperación
+- [x] Descripción: Recuperación de una hernia umbilical
+- [x] Deadline: 1 de febrero
+- [x] Prioridad: 1
+- [x] Business Unit: EB
+- [x] Leader: Edgar Barroso
+
+
