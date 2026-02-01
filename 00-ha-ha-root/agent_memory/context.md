@@ -34,7 +34,7 @@
 - PAT:proposal-flow | Opportunity → scope call → proposal → negotiate → close | REF: None
 
 ### Corrections
-*No corrections recorded yet*
+- [2026-01-31] COR: Writing with implied superiority ("this is not X, it's Y") | LESSON: Write neutral, clear, let quality speak. Avoid comparative claims.
 
 ### Key People
 *Add key business contacts here with context*
@@ -44,26 +44,32 @@
 ## ZONE C: State (Dynamic)
 
 ### Last Session
-- **Date:** Not initialized
-- **Type:** —
-- **Achievements:** —
+- **Date:** 2026-01-31
+- **Type:** Product Development + Structure
+- **Achievements:** Entrepreneurship syllabus + learning-products HA structure created
 
 ### Active Threads
-*Add active business initiatives here*
+- Entrepreneurship course: Tools/canvases to develop
+- Entrepreneurship course: Leiden University adaptation
+- Learning products Q1: Plan de Vida, hooks, 3h/6h workshops
 
 ### Waiting For
-*Add items awaiting external response*
+- Xignux → respuesta
+- Financial Paper → Ricardo
+- Proeza → seguimiento
+- FEMSA SER → respuesta de correo
 
 ### Next Session Priorities
-1. Initialize HA-HA with current business state
-2. Review active pipeline
-3. Sync with HA-EB on priorities
+1. Develop course tools (System Map, Positionality Map, etc.)
+2. Adapt Entrepreneurship course for Leiden specifics
+3. Review other Q1 learning products roadmap
 
 ### Recent Sessions
 
 | Date | Session | Focus | Key Achievement |
 |------|---------|-------|-----------------|
-| *None yet* | | | |
+| 2026-01-31 | 2 | Learning Products | Entrepreneurship syllabus + HA project structure |
+| 2026-01-30 | 1 | Initialization | Vault restructure, working-memory created |
 
 ---
 
