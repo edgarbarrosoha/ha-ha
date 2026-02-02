@@ -1,4 +1,12 @@
-**
+---
+type: propuesta
+version: v01
+created: 2025-12-03
+modified: 2025-12-03
+status: sent
+client: Docet
+recipient: Alfonso Romo
+---
 
 # Propuesta del Sistema de Inteligencia Aumentada (SIA-DOCET)
 

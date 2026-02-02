@@ -1,3 +1,11 @@
+---
+type: one-pager
+created: 2026-02-01
+modified: 2026-02-02
+status: draft
+client: Docet
+---
+
 # DOCET-AI — Escenarios Comerciales
 
 **Cliente:** Docet (Escuela K-9)

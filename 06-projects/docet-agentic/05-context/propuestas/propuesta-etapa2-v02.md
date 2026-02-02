@@ -1,3 +1,11 @@
+---
+type: propuesta
+version: v02
+created: 2026-01-01
+modified: 2026-02-02
+status: draft
+client: Docet
+---
 # Propuesta de Implementación — DOCET‑AI
 
 ## Etapa 2: Sistema en Producción (Fases 2.1–2.3)
@@ -8,7 +16,7 @@
 
 **Fecha:** Enero 2026
 
-**Versión:** v1.3
+**Versión:** v2
 
 **Estatus:** Propuesta
 
