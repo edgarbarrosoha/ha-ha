@@ -92,6 +92,17 @@ parent: "[[ha-root-docet|HA Root DOCET]]"
 
 - [[agent-docet-context|Agente Context DOCET]]
 
+### 📂 `propuestas/` — Documentos comerciales (pre-aprobación)
+
+| Documento | Descripción | Estado |
+|-----------|-------------|--------|
+| [[one-pager-docet-ai\|One Pager]] | Resumen ejecutivo del proyecto | Activo |
+| [[propuesta-etapa2-v1.3\|Propuesta Etapa 2]] | Propuesta formal de producción | Activa |
+| [[propuesta-etapa1-v01\|Propuesta Etapa 1]] | Propuesta original (prototipo) | Archivo |
+| [[anexo-explicacion-escenarios\|Anexo: Explicación de Escenarios]] | Material de apoyo interno | Referencia |
+
+> Una vez firmados, los contratos se mueven a `06-projects-docet/contratos/`
+
 ---
 
 ## Connections

@@ -101,6 +101,11 @@ parent: "[[ha-root-docet|HA Root DOCET]]"
 
 - [[agent-docet-projects|Agente Projects DOCET]]
 
+### 📂 `contratos/` — Documentos firmados (post-aprobación)
+
+> Aquí se almacenan las versiones firmadas de propuestas aprobadas.
+> Las propuestas en negociación están en `05-context-docet/propuestas/`
+
 ---
 
 ## Connections

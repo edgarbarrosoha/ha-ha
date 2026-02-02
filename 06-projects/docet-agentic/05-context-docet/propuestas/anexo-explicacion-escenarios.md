@@ -3,7 +3,11 @@
 **Documento interno de trabajo**
 **Fecha:** Enero 2026
 **Contexto:** Escuela K-9 con aproximadamente 1,000 alumnos
-**Elaborado por:** Horizons Architecture Systems
+**Elaborado por:** HA Architecture Systems
+
+> **Nota:** Este documento es material explicativo/didáctico. Los números y términos definitivos están en `propuesta-etapa2-v1.3.md`. Usar este anexo para entender la lógica detrás de los escenarios, no como referencia de precios.
+>
+> **Aviso sobre estimaciones:** Todos los montos son **rangos referenciales**. Los valores finales se determinarán durante el descubrimiento, considerando requerimientos específicos y precios vigentes de proveedores de modelos de IA (que evolucionan rápidamente).
 
 ---
 
