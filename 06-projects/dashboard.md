@@ -30,7 +30,8 @@
 1. [ ] Learning Products: Develop tools/canvases for Entrepreneurship course
 2. [ ] Learning Products: Adapt Entrepreneurship course for Leiden
 3. [ ] Docet AI: Follow up with Eliud (perfiles, funciones, data)
-4. [ ] SIC-Q: Report for Toño and Edgar
+4. [x] SIC-Q: Presentación al Gobernador v.04
+5. [ ] SIC-Q: Preparar demo en vivo (tener video de respaldo)
 
 ---
 
@@ -68,7 +69,7 @@
 
 | Project | Status | Next Step | Link |
 | ------- | ------ | --------- | ---- |
-| **SIC-Q** | → | Report for Toño and Edgar | |
+| **SIC-Q** | → | Presentación al gobernador lista (v.04) — preparar demo en vivo | [[presentación-gob-v.04]] |
 | **Docet AI** | → | Follow up with Eliud: perfiles, funciones, data | |
 | **Tec-Visión** | → | First draft of all information | |
 | **HA Mycellium** | → | Logical infrastructure design | |
@@ -100,6 +101,7 @@
 
 | Date | Achievement |
 | ---- | ----------- |
+| 2026-02-02 | SIC-Q: Presentación al Gobernador v.04 completa — tono pulido, narrativa clara, sin grandilocuencia |
 | 2026-01-31 | Learning-products HA structure created with 5 product folders |
 | 2026-01-31 | Entrepreneurship with HA course syllabus complete (14 weeks, agentic layer) |
 | 2026-01-30 | HA-HA vault initialized with working memory and context |
