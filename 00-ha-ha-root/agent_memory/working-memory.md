@@ -2,6 +2,24 @@
 
 ## Sessions
 
+### 2026-02-02 | Session 6 | SYSTEM REFINEMENT
+- **Focus:** Boot sequence and start report tone
+- **Achievements:**
+  - Deleted CLAUDE.md (not needed — HA finds BOOT.md by exploring)
+  - Refined start report: conversational partner tone, not dry system report
+- **Decisions:**
+  - Start report should remind what we were working on, unfinished items, and suggest next steps
+- **Open threads:** None
+
+### 2026-02-02 | Session 5 | DOCUMENTATION & SYSTEM CONFIG
+- **Focus:** TEC Monterrey one-pager update + HA-HA boot configuration
+- **Achievements:**
+  - Updated `ncm-2030-one-pager.md` to reflect comprehensive narrative (added posición única, habilitadores sistémicos, baseline data, 4→5 mapping table)
+  - Created `CLAUDE.md` for automatic ha-ha-start recognition
+- **Decisions:**
+  - CLAUDE.md follows ha-eb pattern with HA-native content (not Claude-centric)
+- **Open threads:** None
+
 ### 2026-02-02 | Session 4 | DASHBOARD POPULATION
 - **Focus:** Populate Dashboard from Vault Projects
 - **Achievements:**

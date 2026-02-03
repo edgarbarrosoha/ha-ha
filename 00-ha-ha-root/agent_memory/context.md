@@ -33,6 +33,7 @@
 - PAT:client-comms | New lead → research, personalize, warm follow-up | REF: style-guide.md
 - PAT:proposal-flow | Opportunity → scope call → proposal → negotiate → close | REF: None
 - PAT:dashboard-pop | Explore projects → extract (status, tasks, blockers, dates) → populate template | REF: ha-tec/dashboard.md
+- PAT:start-report | Session start → remind what we worked on, unfinished items, suggest next steps | REF: None
 
 ### Corrections
 - [2026-01-31] COR: Writing with implied superiority ("this is not X, it's Y") | LESSON: Write neutral, clear, let quality speak. Avoid comparative claims.
@@ -46,8 +47,8 @@
 
 ### Last Session
 - **Date:** 2026-02-02
-- **Type:** Operations / Dashboard
-- **Achievements:** Dashboard populated from all 8 vault projects — comprehensive view with categories, details, dates, pipeline
+- **Type:** System Refinement
+- **Achievements:** Deleted CLAUDE.md; Refined start report to conversational partner tone
 
 ### Active Threads
 - SIC-Q: Demo en vivo + video respaldo para Gobernador
@@ -74,10 +75,11 @@
 
 | Date | Session | Focus | Key Achievement |
 |------|---------|-------|-----------------|
+| 2026-02-02 | 6 | Refinement | Start report tone — partner briefing |
+| 2026-02-02 | 5 | Docs / Config | One-pager update |
 | 2026-02-02 | 4 | Dashboard | Populated from 8 projects |
-| 2026-02-02 | 3 | SIC-Q | Presentación al Gobernador v.04 completa |
-| 2026-01-31 | 2 | Learning Products | Entrepreneurship syllabus + HA project structure |
-| 2026-01-30 | 1 | Initialization | Vault restructure, working-memory created |
+| 2026-02-02 | 3 | SIC-Q | Presentación al Gobernador v.04 |
+| 2026-01-31 | 2 | Learning Products | Entrepreneurship syllabus |
 
 ---
 
