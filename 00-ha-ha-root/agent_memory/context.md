@@ -32,6 +32,7 @@
 ### Patterns
 - PAT:client-comms | New lead → research, personalize, warm follow-up | REF: style-guide.md
 - PAT:proposal-flow | Opportunity → scope call → proposal → negotiate → close | REF: None
+- PAT:dashboard-pop | Explore projects → extract (status, tasks, blockers, dates) → populate template | REF: ha-tec/dashboard.md
 
 ### Corrections
 - [2026-01-31] COR: Writing with implied superiority ("this is not X, it's Y") | LESSON: Write neutral, clear, let quality speak. Avoid comparative claims.
@@ -45,30 +46,35 @@
 
 ### Last Session
 - **Date:** 2026-02-02
-- **Type:** SIC-Q Presentation
-- **Achievements:** Presentación al Gobernador v.04 completa — tono pulido, sin grandilocuencia
+- **Type:** Operations / Dashboard
+- **Achievements:** Dashboard populated from all 8 vault projects — comprehensive view with categories, details, dates, pipeline
 
 ### Active Threads
-- SIC-Q: Preparar demo en vivo para presentación al Gobernador (tener video de respaldo)
-- Entrepreneurship course: Tools/canvases to develop
-- Entrepreneurship course: Leiden University adaptation
-- Learning products Q1: Plan de Vida, hooks, 3h/6h workshops
+- SIC-Q: Demo en vivo + video respaldo para Gobernador
+- Docet-Agentic: Awaiting Alfonso Romo Phase 1 approval (BLOCKER)
+- TEC Monterrey: Awaiting JP Murra feedback on narrative v1
+- Learning Products: Canvas design (System Map, Positionality Map)
+- Learning Products: Leiden adaptation
 
 ### Waiting For
+- Alfonso Romo → Aprobación Fase 1 Docet (CRÍTICO)
+- Juan Pablo Murra → Feedback narrativa TEC
+- Gobierno QRO → Alineación Instituto del Futuro
 - Xignux → respuesta
 - Financial Paper → Ricardo
 - Proeza → seguimiento
 - FEMSA SER → respuesta de correo
 
 ### Next Session Priorities
-1. Develop course tools (System Map, Positionality Map, etc.)
-2. Adapt Entrepreneurship course for Leiden specifics
-3. Review other Q1 learning products roadmap
+1. SIC-Q demo preparation (video backup)
+2. Learning Products canvas design
+3. Follow up on critical blockers (Alfonso, JP)
 
 ### Recent Sessions
 
 | Date | Session | Focus | Key Achievement |
 |------|---------|-------|-----------------|
+| 2026-02-02 | 4 | Dashboard | Populated from 8 projects |
 | 2026-02-02 | 3 | SIC-Q | Presentación al Gobernador v.04 completa |
 | 2026-01-31 | 2 | Learning Products | Entrepreneurship syllabus + HA project structure |
 | 2026-01-30 | 1 | Initialization | Vault restructure, working-memory created |
