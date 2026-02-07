@@ -15,7 +15,8 @@ type: clock
 
 # Priorities
 
-- [!] SIC-Q: Preparar demo en vivo (tener video de respaldo) — presentación al Gobernador
+- [!] SIC-Q: Redactar propuesta v06 con replanteamiento de 3 etapas acumulativas
+- [!] SIC-Q: Mapear datos existentes del gobierno para Etapa 1 (Agente SIC-Q Institucional)
 - [!] Docet-Agentic: Obtener aprobación Fase 1 de Alfonso Romo (BLOCKER)
 - [ ] Learning Products: Diseñar System Map Canvas y Positionality Map
 - [ ] TEC Monterrey: Incorporar feedback de JP cuando llegue
@@ -25,7 +26,10 @@ type: clock
 
 # To dos
 
-- [ ] SIC-Q: @research international benchmarks for citizen participation
+- [x] SIC-Q: Citizens Journey v04 (simplificación 11→5 fases)
+- [x] SIC-Q: Replanteamiento estratégico (3 etapas acumulativas)
+- [!] SIC-Q: Propuesta v06 con replanteamiento
+- [ ] SIC-Q: Co-diseño con 3 grupos académicos (inicia feb 2026)
 - [ ] SIC-Q: @draft pilot consultation flow
 - [ ] Docet: Seguimiento con Eliud — perfiles, funciones, data
 - [ ] HA-Core: Organizar panel EBCT
@@ -41,7 +45,8 @@ type: clock
 
 - [<] **Alfonso Romo** → Aprobación Fase 1 Docet-Agentic (CRÍTICO)
 - [<] **Juan Pablo Murra** → Feedback narrativa v1 TEC Monterrey
-- [<] **Gobierno QRO** → Alineación modelo Instituto del Futuro (SIC-Q)
+- [<] **Gobierno QRO** → Decisión legal CURP vs INE + alineación Instituto del Futuro (SIC-Q)
+- [<] **Antonio Rangel** → Validar replanteamiento 3 etapas + definir alcance piloto
 - [<] Xignux → respuesta
 - [<] Financial Paper → Ricardo
 - [<] Proeza → seguimiento
@@ -55,7 +60,7 @@ type: clock
 
 | **Project** | **Status** | **Next steps** | **Links** |
 | ----------- | ---------- | -------------- | --------- |
-| **SIC-Q** | 🔶 En desarrollo | Demo en vivo + video respaldo | `sic-q/` |
+| **SIC-Q** | 🔶 Replanteamiento estratégico | Propuesta v06 + mapeo datos gobierno | `sic-q/` |
 
 ## Education & AI Systems
 
@@ -85,11 +90,17 @@ type: clock
 
 ## SIC-Q (Sistema de Inteligencia Colectiva de Querétaro)
 **Cliente:** CEPACI Querétaro / Gobierno de Querétaro
-**Modelo:** 12 fases de participación ciudadana con IA
+**Modelo:** 3 etapas acumulativas — Inteligencia → Canales ciudadanos → Servicios gobierno
 - [x] Propuesta v05 completa
 - [x] Presentación Gobernador v.04
-- [>] Especificación técnica — en progreso
-- [ ] Modelo gobernanza Instituto del Futuro
+- [x] Citizens Journey v04 (simplificación 11→5 fases)
+- [x] Reporte de simplificación (12 cambios priorizados)
+- [x] Replanteamiento estratégico (SIC ≠ plataforma de participación)
+- [x] Desarrollo del replanteamiento (producto E1, IF como hilo conductor, feedback stakeholders)
+- [>] Co-diseño con 3 grupos académicos — inicia feb 2026
+- [!] Propuesta v06 con 3 etapas acumulativas
+- [!] Mapeo datos existentes gobierno (Etapa 1: Agente SIC-Q Institucional)
+- [ ] Formalizar Instituto del Futuro en El Consejo A.C.
 - [ ] Diseño consulta piloto
 
 ## Docet-Agentic (SIA-DOCET)
@@ -162,7 +173,8 @@ type: clock
 | Fecha | Evento | Proyecto |
 |-------|--------|----------|
 | **Feb 2026** | Demo Fase 1 Milestone | Docet-Agentic |
-| **Feb 2026** | Presentación al Gobernador | SIC-Q |
+| **Feb 2026** | Co-diseño 3 grupos académicos | SIC-Q |
+| **Feb 2026** | Propuesta v06 + presentar replanteamiento a Antonio Rangel | SIC-Q |
 | Mar-May 2026 | Fase 2 Data Architecture | Docet-Agentic |
 | Abr-Jul 2026 | Fase 3 V1.0 Development | Docet-Agentic |
 | Jul-Ago 2026 | Fase 4 Testing & Deployment | Docet-Agentic |
@@ -183,5 +195,5 @@ type: clock
 
 ---
 
-*Última actualización: 2026-02-02*
+*Última actualización: 2026-02-07*
 *HA Syntax: `[>]` agent task, `[<]` waiting, `[?]` decision needed, `[!]` urgent, `[x]` done*
