@@ -25,7 +25,7 @@
 ### Sobre estudiantes:
 - No solo capacidades académicas, sino **disposición para ser agentes de cambio**
 - La mejor variable para predecir éxito de egresados MBA no es la universidad, es su GMAT
-- "Las mejores universidades atraen a los mejores alumnos, después no los descomponen"
+- "Las mejores universidades atraen a los mejores alumnos"
 
 ### Sobre profesores:
 - Buenos no solo por credenciales académicas

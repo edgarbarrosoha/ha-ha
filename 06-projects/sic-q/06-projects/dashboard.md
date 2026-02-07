@@ -4,7 +4,7 @@
 
 ## Status: Development Phase
 
-**Last updated:** 2026-01-30
+**Last updated:** 2026-02-07
 
 ---
 
@@ -12,28 +12,27 @@
 
 | Priority | Task | Status | Owner |
 |----------|------|--------|-------|
-| 1 | Platform technical specification | [>] In progress | Edgar |
-| 2 | Instituto del Futuro governance model | [ ] Pending | - |
-| 3 | Pilot consultation design | [ ] Pending | - |
+| 1 | Replanteamiento estratégico SIC-Q (3 etapas) | [x] Complete | Edgar |
+| 2 | Desarrollo del replanteamiento (producto E1, IF, feedback) | [x] Complete | Edgar |
+| 3 | Propuesta v06 (replanteamiento + 3 etapas acumulativas) | [!] Urgent | Edgar |
+| 4 | Mapeo datos existentes gobierno (para Etapa 1) | [!] Urgent | Joaquín/Oscar |
+| 5 | Co-diseño con 3 grupos académicos | [>] In progress | Edgar |
+| 6 | Formalizar Instituto del Futuro en El Consejo A.C. | [ ] Pending | - |
+| 7 | Backend architecture document | [ ] Pending | - |
+| 8 | Pilot consultation design | [ ] Pending | - |
 
 ---
 
-## Project Phases (12-Phase Model)
+## Citizen Journey (5-Phase Model v04)
 
 | Phase | Name | Status |
 |-------|------|--------|
-| 1 | Design | [>] Active |
-| 2 | Discovery | [ ] Pending |
-| 3 | Registration | [ ] Pending |
-| 4 | Conversion | [ ] Pending |
-| 5 | Orientation | [ ] Pending |
-| 6 | Participation | [ ] Pending |
-| 7 | Storage | [ ] Pending |
-| 8 | Sense-Making | [ ] Pending |
-| 9 | HA Analysis | [ ] Pending |
-| 10 | Reports | [ ] Pending |
-| 11 | Government | [ ] Pending |
-| 12 | Feedback | [ ] Pending |
+| 1 | Co-diseño | [>] Active |
+| 2 | Descubrimiento | [ ] Pending |
+| 3 | Participa (Proponer + Apoyar + Platicar) | [ ] Pending |
+| 4 | Seguimiento | [ ] Pending |
+| 5 | Respuesta | [ ] Pending |
+| — | Backend (BD, Motor IC, HA, Agente, Gobierno) | [ ] Pending |
 
 ---
 
@@ -42,7 +41,13 @@
 | Deliverable | Location | Status |
 |-------------|----------|--------|
 | Propuesta v05 | `propuestas/` | [x] Complete |
-| Technical architecture | `entregables/` | [>] In progress |
+| Reporte simplificación Citizens Journey | `entregables/` | [x] Complete |
+| Citizens Journey v04 | `04-technology/.../citizens-journey/` | [x] Complete |
+| Mermaid diagram v04 | `04-technology/.../citizens-journey/` | [x] Complete |
+| Replanteamiento estratégico SIC-Q | `propuestas/` | [x] Complete |
+| Desarrollo del replanteamiento | `propuestas/` | [x] Complete |
+| Propuesta v06 | `propuestas/` | [ ] Pending |
+| Backend architecture (separado) | `entregables/` | [ ] Pending |
 | Pilot presentation | `presentaciones/` | [ ] Pending |
 
 ---
@@ -61,14 +66,23 @@
 
 - [<] Government alignment on Instituto del Futuro model
 - [<] Technical infrastructure decisions
+- [?] Decisión legal: verificación INE vs CURP
+- [<] Validación de v04 con stakeholders
+- [<] Definición alcance piloto con Antonio Rangel
 
 ---
 
 ## Agent Tasks
 
+- [x] @simplify citizens journey v03 → v04
+- [x] @create simplification report
+- [x] @strategic reframing SIC-Q (3 etapas acumulativas)
+- [x] @develop reframing (Etapa 1 product, IF integration, feedback map)
 - [>] @research international benchmarks for citizen participation
+- [!] @draft propuesta v06 con replanteamiento
+- [ ] @map existing government data (Etapa 1 scope)
+- [ ] @draft backend architecture document
 - [ ] @draft pilot consultation flow
-- [ ] @analyze existing citizen data from previous consultations
 
 ---
 

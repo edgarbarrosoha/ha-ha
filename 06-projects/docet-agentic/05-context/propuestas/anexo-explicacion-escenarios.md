@@ -6,17 +6,11 @@ status: internal
 client: Docet
 related: propuesta-etapa2-v02.md
 ---
-
 # Escenarios para la etapa 2: DOCET-AI en producción
 
 **Documento interno de trabajo**
-**Fecha:** Enero 2026
-**Contexto:** Escuela K-9 con aproximadamente 1,000 alumnos
-**Elaborado por:** HA Architecture Systems
 
-> **Nota:** Este documento es material explicativo/didáctico. Los números y términos definitivos están en `propuesta-etapa2-v02.md`. Usar este anexo para entender la lógica detrás de los escenarios, no como referencia de precios.
->
-> **Aviso sobre estimaciones:** Todos los montos son **rangos referenciales**. Los valores finales se determinarán durante el descubrimiento, considerando requerimientos específicos y precios vigentes de proveedores de modelos de IA (que evolucionan rápidamente).
+**Fecha:** Enero 2026 **Contexto:** Escuela K-9 con aproximadamente 1,000 alumnos **Elaborado por:** Horizons Architecture Systems
 
 ---
 
@@ -33,6 +27,7 @@ Queremos ser completamente transparentes sobre cómo se construyen estos costos.
 Pasar de un prototipo a un sistema en producción, esto implica:
 
 ### Lo que ya existe (Etapa 1 - Prototipo)
+
 - Demostración funcional de los 6 agentes de IA para directivos
 - Interfaz básica de conversación
 - Datos acotados a los perfiles
@@ -42,29 +37,30 @@ Pasar de un prototipo a un sistema en producción, esto implica:
 
 La producción no es solo "poner a funcionar el prototipo". La visión de una escuela AI-First implica dar servicio de IA a **toda la comunidad escolar**, en fases:
 
-| Fase | Usuarios | Cantidad aprox. | Alcance |
-|------|----------|-----------------|---------|
-| **Fase 2.1** | Directivos | ~10-15 personas | Sistema estratégico: los 6 agentes dimensionales, toma de decisiones, KPIs |
-| **Fase 2.2** | Maestros y administrativos | ~50-80 personas | Agentes para planeación de clases, seguimiento de alumnos, gestión administrativa |
-| **Fase 2.3** | Estudiantes | ~1,000 alumnos | Agentes de apoyo al aprendizaje, tutores personalizados, asistentes de estudio |
+|Fase|Usuarios|Cantidad aprox.|Alcance|
+|---|---|---|---|
+|**Fase 2.1**|Directivos|~10-15 personas|Sistema estratégico: los 6 agentes dimensionales, toma de decisiones, KPIs|
+|**Fase 2.2**|Maestros y administrativos|~50-80 personas|Agentes para planeación de clases, seguimiento de alumnos, gestión administrativa|
+|**Fase 2.3**|Estudiantes|~1,000 alumnos|Agentes de apoyo al aprendizaje, tutores personalizados, asistentes de estudio|
 
 **Importante:** Los costos en este documento se enfocan principalmente en la **Fase 2.1 (directivos)**, que es la continuación natural del prototipo. Las fases 2.2 y 2.3 requerirían cotizaciones adicionales una vez que la fase 2.1 esté funcionando.
 
 ### Lo que falta construir (Fase 2.1 - Directivos en producción)
+
 - **Conexiones reales a datos:** Integrar con los sistemas actuales de Docet (calificaciones, asistencia, CRM de familias, finanzas, etc.)
 - **Seguridad empresarial:** Autenticación, roles, encriptación, cumplimiento de privacidad de datos de menores
-- **Infraestructura robusta:** Servidores que no fallen, backups, monitoreo 24/7
-- **Interfaz pulida:** UX/UI diseñada para uso diario por personas no técnicas
+- **Infraestructura robusta:** Servidores con tolerancia a fallas, backups, monitoreo 24/7
+- **Interfaz orientada a usabilidad:** UX/UI intuitiva y consistente para operación diaria por usuarios finales no técnicos, con baja curva de aprendizaje.
 - **Entrenamiento de los agentes:** Ajuste fino con datos reales de Docet para que las respuestas sean precisas y útiles
 
 ### Visión de fases futuras (referencia, no cotizado aquí)
 
-| Fase | Nuevos agentes/capacidades | Complejidad adicional |
-|------|---------------------------|----------------------|
-| **2.2 Maestros** | Agentes para planeación curricular, seguimiento individualizado de alumnos, generación de reportes pedagógicos, asistente de calificaciones | Más usuarios (~50-80), más datos sensibles, integración con herramientas docentes |
-| **2.3 Estudiantes** | Tutores personalizados por materia, asistentes de tareas, preparación para exámenes, detección de dificultades de aprendizaje | Escala masiva (~1,000 usuarios), controles parentales, privacidad de menores, consumo alto de tokens |
+|Fase|Nuevos agentes/capacidades|Complejidad adicional|
+|---|---|---|
+|**2.2 Maestros**|Agentes para planeación curricular, seguimiento individualizado de alumnos, generación de reportes pedagógicos, asistente de calificaciones|Más usuarios (~50-80), más datos sensibles, integración con herramientas docentes|
+|**2.3 Estudiantes**|Tutores personalizados por materia, asistentes de tareas, preparación para exámenes, detección de dificultades de aprendizaje|Escala masiva (~1,000 usuarios), controles parentales, privacidad de menores, consumo alto de tokens|
 
-*Los costos de las fases 2.2 y 2.3 dependerán de los resultados de la fase 2.1 y se cotizarán por separado.*
+_Los costos de las fases 2.2 y 2.3 dependerán de los resultados de la fase 2.1 y se cotizarán por separado._
 
 ---
 
@@ -76,7 +72,7 @@ Antes de ver los escenarios, es importante entender cómo funcionan los costos. 
 
 Imaginemos que el sistema de IA es una **casa**.
 
-#### Escenario 1: Construir desde cero (propiedad intelectual propia)
+### Escenario 1: Construir desde cero (propiedad intelectual propia)
 
 En este escenario, Docet quiere ser dueño de la tecnología. Esto significa:
 
@@ -90,7 +86,7 @@ En este escenario, Docet quiere ser dueño de la tecnología. Esto significa:
 
 **El costo:** Es el más alto, porque todo se hace desde cero, se paga por la propiedad de los planos (la IP), y además Docet asume la responsabilidad (y el costo) del mantenimiento futuro.
 
-#### Escenario 2 y 3: Adecuar una casa existente
+### Escenario 2 y 3: Adecuar una casa existente
 
 En estos escenarios, **HA ya tiene casas construidas**. Tenemos una base tecnológica, una arquitectura construida, metodología para la creación de agentes. Lo que hacemos es:
 
@@ -107,13 +103,13 @@ En estos escenarios, **HA ya tiene casas construidas**. Tenemos una base tecnol�
 
 ### B. ¿Qué significa esto en términos de inversión?
 
-| Concepto                    | Escenario 1 (construir desde cero) | Escenarios 2 y 3 (adecuar)               |
-| --------------------------- | ---------------------------------- | ---------------------------------------- |
-| **Arquitectura base**       | Se diseña y construye todo         | Ya existe, pero se necesita adaptar      |
-| **Agentes de IA**           | Se desarrollan desde cero          | Ya existen, se configuran y personalizan |
-| **Integraciones**           | Se construyen todas                | Base existente, se adaptan a Docet       |
-| **Propiedad de los planos** | Docet es dueño                     | HA es dueño                              |
-| **Inversión inicial**       | Alta                               | Moderada                                 |
+|Concepto|Escenario 1 (construir desde cero)|Escenarios 2 y 3 (adecuar)|
+|---|---|---|
+|**Arquitectura base**|Se diseña y construye todo|Ya existe, pero se necesita adaptar|
+|**Agentes de IA**|Se desarrollan desde cero|Ya existen, se configuran y personalizan|
+|**Integraciones**|Se construyen todas|Base existente, se adaptan a Docet|
+|**Propiedad de los planos**|Docet es dueño|HA es dueño|
+|**Inversión inicial**|Alta|Moderada|
 
 ---
 
@@ -121,24 +117,24 @@ En estos escenarios, **HA ya tiene casas construidas**. Tenemos una base tecnol�
 
 Aunque HA ya tiene la base construida, adaptar el sistema a Docet requiere trabajo especializado, horas de desarrollo, y expertise en IA:
 
-| Componente                      | ¿Qué incluye?                                                                                                                       | Inversión estimada            |
-| ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- |
-| **Conexión de datos**           | Integrar los sistemas actuales de Docet (calificaciones, asistencia, CRM de familias, finanzas) en una nube, limpieza y estructuración de datos | $350,000 - $500,000 MXN       |
-| **Configuración de agentes**    | Ajustar los 6 agentes a los procesos específicos de Docet, entrenarlos con sus datos, escribir y refinar prompts especializados, pruebas de calidad de respuestas | $500,000 - $750,000 MXN       |
-| **Personalización de interfaz** | Adaptar dashboards, reportes y flujos de trabajo a cómo opera Docet, diseño UX específico | $300,000 - $450,000 MXN       |
-| **Seguridad y cumplimiento**    | Configurar roles, permisos, encriptación, cumplimiento de privacidad de menores, auditoría de seguridad | $250,000 - $400,000 MXN        |
-| **Pruebas y ajustes**           | Validar que todo funcione con datos reales, pruebas de usuario, iteraciones según feedback | $200,000 - $300,000 MXN        |
-| **Capacitación**                | Entrenamiento al equipo directivo, manuales de uso, videos tutoriales, acompañamiento inicial | $150,000 - $200,000 MXN         |
-| **Gestión de proyecto**         | Coordinación, reuniones, comunicación, gestión de riesgos, control de calidad | $350,000 - $400,000 MXN        |
-| **Subtotal adecuación**         |                                                                                                                                     | **$2,100,000 - $3,000,000 MXN** |
+|Componente|¿Qué incluye?|Inversión estimada|
+|---|---|---|
+|**Conexión de datos**|Integrar los sistemas actuales de Docet (calificaciones, asistencia, CRM de familias, finanzas) en una nube, limpieza y estructuración de datos|$350,000 - $500,000 MXN|
+|**Configuración de agentes**|Ajustar los 6 agentes a los procesos específicos de Docet, entrenarlos con sus datos, escribir y refinar prompts especializados, pruebas de calidad de respuestas|$500,000 - $750,000 MXN|
+|**Personalización de interfaz**|Adaptar dashboards, reportes y flujos de trabajo a cómo opera Docet, diseño UX específico|$300,000 - $450,000 MXN|
+|**Seguridad y cumplimiento**|Configurar roles, permisos, encriptación, cumplimiento de privacidad de menores, auditoría de seguridad|$250,000 - $400,000 MXN|
+|**Pruebas y ajustes**|Validar que todo funcione con datos reales, pruebas de usuario, iteraciones según feedback|$200,000 - $300,000 MXN|
+|**Capacitación**|Entrenamiento al equipo directivo, manuales de uso, videos tutoriales, acompañamiento inicial|$150,000 - $200,000 MXN|
+|**Gestión de proyecto**|Coordinación, reuniones, comunicación, gestión de riesgos, control de calidad|$350,000 - $400,000 MXN|
+|**Subtotal adecuación**||**$2,100,000 - $3,000,000 MXN**|
 
-#### ¿Por qué hay un rango?
+### ¿Por qué hay un rango?
 
-| Factor | Rango bajo | Rango alto |
-|--------|------------|------------|
-| **Datos de Docet** | Bien organizados, fáciles de conectar | Dispersos, requieren limpieza |
-| **Sistemas actuales** | APIs disponibles, documentación clara | Sistemas legacy, requieren trabajo extra |
-| **Requerimientos** | Claros desde el inicio | Evolucionan durante el proyecto |
+|Factor|Rango bajo|Rango alto|
+|---|---|---|
+|**Datos de Docet**|Bien organizados, fáciles de conectar|Dispersos, requieren limpieza|
+|**Sistemas actuales**|APIs disponibles, documentación clara|Sistemas legacy, requieren trabajo extra|
+|**Requerimientos**|Claros desde el inicio|Evolucionan durante el proyecto|
 
 ---
 
@@ -146,19 +142,19 @@ Aunque HA ya tiene la base construida, adaptar el sistema a Docet requiere traba
 
 Si Docet quiere ser dueño de todo, el trabajo es significativamente mayor. Se construye todo desde cero, con documentación exhaustiva para transferencia:
 
-| Componente | ¿Qué incluye? | Inversión estimada |
-|------------|---------------|-------------------|
-| **Arquitectura desde cero** | Diseñar toda la estructura del sistema específicamente para Docet, documentación técnica completa | $400,000 - $600,000 MXN |
-| **Backend completo** | Servidores, APIs, autenticación, toda la infraestructura de código, seguridad empresarial | $600,000 - $900,000 MXN |
-| **Desarrollo de agentes** | Construir los 6 agentes desde cero con toda la lógica, prompts, y entrenamiento | $800,000 - $1,200,000 MXN |
-| **Integraciones custom** | Conectar con Azure, Copilot Studio, sistemas escolares, APIs personalizadas | $400,000 - $600,000 MXN |
-| **Interfaz de usuario** | Diseño UX/UI completo, dashboards, aplicación web responsiva | $350,000 - $500,000 MXN |
-| **Pruebas y calidad** | Testing exhaustivo, seguridad, rendimiento, pruebas de usuario | $250,000 - $400,000 MXN |
-| **Documentación técnica** | Documentación completa para que otro equipo pueda mantenerlo y extenderlo | $300,000 - $400,000 MXN |
-| **Capacitación y transferencia** | Entrenamiento intensivo, sesiones técnicas, acompañamiento en transición | $200,000 - $300,000 MXN |
-| **Subtotal construcción** | | **$3,300,000 - $4,900,000 MXN** |
-| **Prima por cesión de IP** | Valor de transferir la propiedad intelectual completa | **$900,000 - $1,100,000 MXN** |
-| **Total construcción + IP** | | **$4,200,000 - $6,000,000 MXN** |
+|Componente|¿Qué incluye?|Inversión estimada|
+|---|---|---|
+|**Arquitectura desde cero**|Diseñar toda la estructura del sistema específicamente para Docet, documentación técnica completa|$400,000 - $600,000 MXN|
+|**Backend completo**|Servidores, APIs, autenticación, toda la infraestructura de código, seguridad empresarial|$600,000 - $900,000 MXN|
+|**Desarrollo de agentes**|Construir los 6 agentes desde cero con toda la lógica, prompts, y entrenamiento|$800,000 - $1,200,000 MXN|
+|**Integraciones custom**|Conectar con Azure, Copilot Studio, sistemas escolares, APIs personalizadas|$400,000 - $600,000 MXN|
+|**Interfaz de usuario**|Diseño UX/UI completo, dashboards, aplicación web responsiva|$350,000 - $500,000 MXN|
+|**Pruebas y calidad**|Testing exhaustivo, seguridad, rendimiento, pruebas de usuario|$250,000 - $400,000 MXN|
+|**Documentación técnica**|Documentación completa para que otro equipo pueda mantenerlo y extenderlo|$300,000 - $400,000 MXN|
+|**Capacitación y transferencia**|Entrenamiento intensivo, sesiones técnicas, acompañamiento en transición|$200,000 - $300,000 MXN|
+|**Subtotal construcción**||**$3,300,000 - $4,900,000 MXN**|
+|**Prima por cesión de IP**|Valor de transferir la propiedad intelectual completa|**$900,000 - $1,100,000 MXN**|
+|**Total construcción + IP**||**$4,200,000 - $6,000,000 MXN**|
 
 La **prima por cesión de IP** es el valor de que HA pierda el derecho de usar este código para otros clientes. Es como vender no solo la casa, sino también los planos para que nadie más pueda construir una igual. Este es un costo significativo porque HA invierte en conocimiento y metodología que no podrá reutilizar.
 
@@ -170,14 +166,14 @@ El sistema vive en servidores de Microsoft Azure. Estos son costos de operación
 
 **Para una escuela de 1,000 alumnos con ~20-30 usuarios del sistema (directivos y coordinadores):**
 
-| Componente | ¿Qué es? | Costo mensual estimado |
-|------------|----------|----------------------|
-| **Azure OpenAI / Copilot Studio** | El "cerebro" de IA que procesa las conversaciones. Se cobra por uso (tokens). | $4,000 - $12,000 MXN |
-| **Servidores de aplicación** | Donde corre el sistema, disponible 24/7 | $2,500 - $5,000 MXN |
-| **Base de datos** | Donde se almacena toda la información | $1,500 - $3,500 MXN |
-| **Almacenamiento y backups** | Archivos, respaldos automáticos | $800 - $1,500 MXN |
-| **Monitoreo y seguridad** | Alertas, protección contra ataques | $1,200 - $2,500 MXN |
-| **Total infraestructura** | | **$10,000 - $24,500 MXN/mes** |
+|Componente|¿Qué es?|Costo mensual estimado|
+|---|---|---|
+|**Azure OpenAI / Copilot Studio**|El "cerebro" de IA que procesa las conversaciones. Se cobra por uso (tokens).|$4,000 - $12,000 MXN|
+|**Servidores de aplicación**|Donde corre el sistema, disponible 24/7|$2,500 - $5,000 MXN|
+|**Base de datos**|Donde se almacena toda la información|$1,500 - $3,500 MXN|
+|**Almacenamiento y backups**|Archivos, respaldos automáticos|$800 - $1,500 MXN|
+|**Monitoreo y seguridad**|Alertas, protección contra ataques|$1,200 - $2,500 MXN|
+|**Total infraestructura**||**$10,000 - $24,500 MXN/mes**|
 
 **Nota importante sobre los tokens de IA:** Este es el costo más variable. Depende de cuánto se use el sistema. Una conversación típica con el agente puede costar entre $1 y $5 MXN en tokens. Si el equipo directivo hace 50 consultas diarias, serían ~$3,000-7,500 MXN/mes solo en tokens. Uso más intensivo = más costo.
 
@@ -216,38 +212,39 @@ Es como contratar a un arquitecto para que diseñe y construya tu casa. Al final
 
 ### Inversión
 
-#### Costos únicos
+### Costos únicos
 
 Ver desglose completo en la sección D.
 
-| Concepto | Inversión | Explicación |
-|----------|-----------|-------------|
-| Construcción del sistema | $3,300,000 - $4,900,000 MXN | Todo desde cero: arquitectura, backend, agentes, integraciones, interfaz, pruebas, documentación |
-| **Prima por cesión de IP** | $900,000 - $1,100,000 MXN | Valor de transferir la propiedad intelectual completa a Docet |
-| **Total único** | **$4,200,000 - $6,000,000 MXN** | + IVA |
+|Concepto|Inversión|Explicación|
+|---|---|---|
+|Construcción del sistema|$3,300,000 - $4,900,000 MXN|Todo desde cero: arquitectura, backend, agentes, integraciones, interfaz, pruebas, documentación|
+|**Prima por cesión de IP**|$900,000 - $1,100,000 MXN|Valor de transferir la propiedad intelectual completa a Docet|
+|**Total único**|**$4,200,000 - $6,000,000 MXN**|+ IVA|
 
-#### Costos mensuales (post-entrega)
+### Costos mensuales (post-entrega)
 
-| Concepto | Costo mensual | Notas |
-|----------|---------------|-------|
-| Infraestructura Azure | $10,000 - $25,000 MXN | Docet paga directo a Microsoft |
-| Soporte HA (opcional) | $45,000 - $75,000 MXN | Solo si Docet quiere que HA siga involucrado |
-| **O** Equipo técnico interno | $80,000 - $150,000 MXN | Si Docet contrata su propio desarrollador/administrador de IA |
+|Concepto|Costo mensual|Notas|
+|---|---|---|
+|Infraestructura Azure|$10,000 - $25,000 MXN|Docet paga directo a Microsoft|
+|Soporte HA (opcional)|$45,000 - $75,000 MXN|Solo si Docet quiere que HA siga involucrado|
+|**O** Equipo técnico interno|$80,000 - $150,000 MXN|Si Docet contrata su propio desarrollador/administrador de IA|
 
 **Costo total primer año (con soporte HA opcional):**
+
 - Único: $4,200,000 - $6,000,000 MXN
 - Mensual (12 meses): $660,000 - $1,200,000 MXN
 - **Total año 1: $4,860,000 - $7,200,000 MXN + IVA**
 
 ### Ventajas y desventajas
 
-| ✅ Ventajas para Docet | ❌ Desventajas para Docet |
-|------------------------|--------------------------|
-| Propiedad total del código y la tecnología | Costo inicial significativamente más alto |
-| Libertad absoluta para vender a otros colegios | Responsabilidad total de mantenerlo funcionando |
-| No depende de HA a largo plazo | Necesita equipo técnico propio o contratar soporte |
-| Control total sobre el roadmap futuro | Riesgo técnico: si algo falla, Docet debe resolverlo |
-| | Los modelos de IA evolucionan rápido; quedarse atrás es un riesgo real |
+|✅ Ventajas para Docet|❌ Desventajas para Docet|
+|---|---|
+|Propiedad total del código y la tecnología|Costo inicial significativamente más alto|
+|Libertad absoluta para vender a otros colegios|Responsabilidad total de mantenerlo funcionando|
+|No depende de HA a largo plazo|Necesita equipo técnico propio o contratar soporte|
+|Control total sobre el roadmap futuro|Riesgo técnico: si algo falla, Docet debe resolverlo|
+||Los modelos de IA evolucionan rápido; quedarse atrás es un riesgo real|
 
 ### Nuestra opinión honesta
 
@@ -273,32 +270,33 @@ Es como rentar un departamento amueblado con servicios incluidos: pagas mensualm
 
 ### Inversión
 
-#### Costos únicos (adecuación inicial)
+### Costos únicos (adecuación inicial)
 
 Como se describe en la sección C, la adecuación incluye conectar datos, configurar agentes, personalizar interfaz, seguridad, pruebas, capacitación, etc.
 
-| Concepto | Inversión | Referencia |
-|----------|-----------|------------|
-| **Adecuación del sistema** | $2,100,000 - $3,000,000 MXN | Ver desglose en sección C |
-| **Total único** | **$2,100,000 - $3,000,000 MXN** | + IVA |
+|Concepto|Inversión|Referencia|
+|---|---|---|
+|**Adecuación del sistema**|$2,100,000 - $3,000,000 MXN|Ver desglose en sección C|
+|**Total único**|**$2,100,000 - $3,000,000 MXN**|+ IVA|
 
-#### Costos mensuales
+### Costos mensuales
 
-| Concepto | Costo mensual | ¿Qué incluye? |
-|----------|---------------|---------------|
-| **Licencia SaaS** | $45,000 - $70,000 MXN | Sistema funcionando, soporte, actualizaciones, monitoreo |
-| Infraestructura Azure | $10,000 - $25,000 MXN | Docet paga directo a Microsoft (transparencia) |
-| **Total mensual** | **$55,000 - $95,000 MXN** | |
+|Concepto|Costo mensual|¿Qué incluye?|
+|---|---|---|
+|**Licencia SaaS**|$45,000 - $70,000 MXN|Sistema funcionando, soporte, actualizaciones, monitoreo|
+|Infraestructura Azure|$10,000 - $25,000 MXN|Docet paga directo a Microsoft (transparencia)|
+|**Total mensual**|**$55,000 - $95,000 MXN**||
 
-#### Opciones de licencia
+### Opciones de licencia
 
-| Nivel | Precio/mes | Incluye |
-|-------|------------|---------|
-| **Esencial** | $45,000 MXN | Sistema completo, soporte en horario laboral (L-V 9-18), actualizaciones trimestrales, monitoreo básico |
-| **Profesional** | $55,000 MXN | + Soporte extendido (L-S 8-20), actualizaciones mensuales, reportes de uso, 4 horas de ajustes/mes |
-| **Premium** | $70,000 MXN | + Soporte prioritario, línea directa, 8 horas de desarrollo menor incluidas/mes, revisiones estratégicas trimestrales |
+|Nivel|Precio/mes|Incluye|
+|---|---|---|
+|**Esencial**|$45,000 MXN|Sistema completo, soporte en horario laboral (L-V 9-18), actualizaciones trimestrales, monitoreo básico|
+|**Profesional**|$55,000 MXN|+ Soporte extendido (L-S 8-20), actualizaciones mensuales, reportes de uso, 4 horas de ajustes/mes|
+|**Premium**|$70,000 MXN|+ Soporte prioritario, línea directa, 8 horas de desarrollo menor incluidas/mes, revisiones estratégicas trimestrales|
 
 **Costo total primer año (licencia Profesional):**
+
 - Único: $2,100,000 - $3,000,000 MXN
 - Mensual (12 meses): $780,000 - $1,140,000 MXN (licencia + infra)
 - **Total año 1: $2,880,000 - $4,140,000 MXN + IVA**
@@ -307,23 +305,23 @@ Como se describe en la sección C, la adecuación incluye conectar datos, config
 
 ### ¿Qué pasa si Docet quiere cambios o nuevas funcionalidades?
 
-| Tipo de cambio | Costo adicional |
-|----------------|-----------------|
-| Ajuste menor (configuración, textos, reglas simples) | Incluido en licencia Profesional+ |
-| Feature pequeño (nuevo reporte, integración simple) | $25,000 - $60,000 MXN |
-| Feature mediano (nuevo agente, dashboard complejo) | $60,000 - $150,000 MXN |
-| Módulo nuevo completo | Cotización especial |
+|Tipo de cambio|Costo adicional|
+|---|---|
+|Ajuste menor (configuración, textos, reglas simples)|Incluido en licencia Profesional+|
+|Feature pequeño (nuevo reporte, integración simple)|$25,000 - $60,000 MXN|
+|Feature mediano (nuevo agente, dashboard complejo)|$60,000 - $150,000 MXN|
+|Módulo nuevo completo|Cotización especial|
 
 ### Ventajas y desventajas
 
-| ✅ Ventajas para Docet | ❌ Desventajas para Docet |
-|------------------------|--------------------------|
-| Costo inicial más bajo | No es "dueño" de la tecnología |
-| No necesita equipo técnico | Depende de HA a largo plazo |
-| Sistema siempre actualizado | No puede vender a otros colegios |
-| Soporte garantizado incluido | Costo mensual continuo |
-| Riesgo técnico lo asume HA | |
-| Costos predecibles | |
+|✅ Ventajas para Docet|❌ Desventajas para Docet|
+|---|---|
+|Costo inicial más bajo|No es "dueño" de la tecnología|
+|No necesita equipo técnico|Depende de HA a largo plazo|
+|Sistema siempre actualizado|No puede vender a otros colegios|
+|Soporte garantizado incluido|Costo mensual continuo|
+|Riesgo técnico lo asume HA||
+|Costos predecibles||
 
 ### Nuestra opinión honesta
 
@@ -369,83 +367,86 @@ Es como una franquicia: Docet se convierte en el "master franquiciatario" de SIA
 │  • Infraestructura y soporte técnico                          │
 │  • Actualizaciones y mejoras                                   │
 └─────────────────────────────────────────────────────────────────┘
+
 ```
 
 ### Inversión
 
-#### Costos únicos
+### Costos únicos
 
-| Concepto | Inversión | Explicación |
-|----------|-----------|-------------|
-| **Adecuación del sistema** | $2,100,000 - $3,000,000 MXN | Ver desglose en sección C |
-| Plataforma multi-tenant | $250,000 - $400,000 MXN | Arquitectura para que el sistema pueda servir a múltiples colegios de forma aislada |
-| Marca blanca (white-label) | $150,000 - $200,000 MXN | Personalización visual completa para que se vea como "DOCET AI" |
-| **Total único** | **$2,500,000 - $3,600,000 MXN** | + IVA |
+|Concepto|Inversión|Explicación|
+|---|---|---|
+|**Adecuación del sistema**|$2,100,000 - $3,000,000 MXN|Ver desglose en sección C|
+|Plataforma multi-tenant|$250,000 - $400,000 MXN|Arquitectura para que el sistema pueda servir a múltiples colegios de forma aislada|
+|Marca blanca (white-label)|$150,000 - $200,000 MXN|Personalización visual completa para que se vea como "DOCET AI"|
+|**Total único**|**$2,500,000 - $3,600,000 MXN**|+ IVA|
 
-#### Costos mensuales para Docet (su propia escuela)
+### Costos mensuales para Docet (su propia escuela)
 
-| Concepto | Costo mensual | Notas |
-|----------|---------------|-------|
-| Licencia partner | $38,000 - $55,000 MXN | Tarifa reducida por ser partner |
-| Infraestructura Azure (su escuela) | $10,000 - $25,000 MXN | Pago directo a Microsoft |
-| **Total mensual Docet** | **$48,000 - $80,000 MXN** | |
+|Concepto|Costo mensual|Notas|
+|---|---|---|
+|Licencia partner|$38,000 - $55,000 MXN|Tarifa reducida por ser partner|
+|Infraestructura Azure (su escuela)|$10,000 - $25,000 MXN|Pago directo a Microsoft|
+|**Total mensual Docet**|**$48,000 - $80,000 MXN**||
 
-#### Modelo económico cuando Docet vende a otros colegios
+### Modelo económico cuando Docet vende a otros colegios
 
-| Concepto | Cómo funciona |
-|----------|---------------|
-| **Fee de implementación** | Docet cobra al colegio nuevo lo que considere justo. De ese fee, paga a HA $80,000 - $120,000 MXN (único por colegio) por configuración técnica. |
-| **Licencia mensual** | Docet cobra al colegio la mensualidad que quiera. De esa mensualidad, paga a HA el **25%**. |
-| **Infraestructura** | Cada colegio paga su propia infraestructura Azure (o Docet la incluye en su precio y la paga). |
+|Concepto|Cómo funciona|
+|---|---|
+|**Fee de implementación**|Docet cobra al colegio nuevo lo que considere justo. De ese fee, paga a HA $80,000 - $120,000 MXN (único por colegio) por configuración técnica.|
+|**Licencia mensual**|Docet cobra al colegio la mensualidad que quiera. De esa mensualidad, paga a HA el **25%**.|
+|**Infraestructura**|Cada colegio paga su propia infraestructura Azure (o Docet la incluye en su precio y la paga).|
 
 **Ejemplo concreto:**
 
 Docet vende a "Colegio Monterrey" con estos términos:
+
 - Fee de implementación: $400,000 MXN
 - Mensualidad: $55,000 MXN/mes
 
 **Distribución:**
-| Concepto | Docet recibe | HA recibe |
-|----------|--------------|-----------|
-| Implementación | $280,000 - $320,000 MXN | $80,000 - $120,000 MXN |
-| Mensualidad | $41,250 MXN (75%) | $13,750 MXN (25%) |
+
+|Concepto|Docet recibe|HA recibe|
+|---|---|---|
+|Implementación|$280,000 - $320,000 MXN|$80,000 - $120,000 MXN|
+|Mensualidad|$41,250 MXN (75%)|$13,750 MXN (25%)|
 
 **Si Docet vende a 5 colegios en 2 años:**
 
-| Métrica | Valor |
-|---------|-------|
-| Ingresos por implementación (Docet) | ~$1,500,000 MXN |
-| Ingresos mensuales (Docet, 5 colegios) | ~$206,000 MXN/mes |
-| Pagos a HA (mensual, 5 colegios) | ~$69,000 MXN/mes |
+|Métrica|Valor|
+|---|---|
+|Ingresos por implementación (Docet)|~$1,500,000 MXN|
+|Ingresos mensuales (Docet, 5 colegios)|~$206,000 MXN/mes|
+|Pagos a HA (mensual, 5 colegios)|~$69,000 MXN/mes|
 
 ### Condiciones del partnership
 
-| Término | Detalle |
-|---------|---------|
-| **Exclusividad** | Docet tiene exclusividad para vender en educación K-12 en México |
-| **Duración** | 3 años iniciales, renovable |
-| **Mínimo de actividad** | Docet debe cerrar al menos 2 colegios nuevos en los primeros 24 meses para mantener exclusividad |
-| **Marca** | Docet puede usar "DOCET AI" o similar. Puede incluir "Powered by HA" o no, a su elección |
-| **Otros mercados** | HA es libre de vender en otros países o en otros sectores (empresas, salud, etc.) |
-| **Mejoras** | Las mejoras desarrolladas para cualquier colegio benefician a todos (el sistema mejora para todos) |
+|Término|Detalle|
+|---|---|
+|**Exclusividad**|Docet tiene exclusividad para vender en educación K-12 en México|
+|**Duración**|3 años iniciales, renovable|
+|**Mínimo de actividad**|Docet debe cerrar al menos 2 colegios nuevos en los primeros 24 meses para mantener exclusividad|
+|**Marca**|Docet puede usar "DOCET AI" o similar. Puede incluir "Powered by HA" o no, a su elección|
+|**Otros mercados**|HA es libre de vender en otros países o en otros sectores (empresas, salud, etc.)|
+|**Mejoras**|Las mejoras desarrolladas para cualquier colegio benefician a todos (el sistema mejora para todos)|
 
 ### Ventajas y desventajas
 
-| ✅ Ventajas para Docet | ❌ Desventajas para Docet |
-|------------------------|--------------------------|
-| Puede vender a otros colegios bajo su marca | Debe compartir ingresos con HA (25%) |
-| Se siente "dueño" del producto comercialmente | Tiene compromiso de ventas mínimas |
-| Costo mensual más bajo que SaaS puro | No tiene el código fuente |
-| No asume riesgo técnico (HA mantiene todo) | Depende de HA para el desarrollo |
-| Exclusividad en un mercado valioso | |
-| Potencial de construir un negocio de software | |
+|✅ Ventajas para Docet|❌ Desventajas para Docet|
+|---|---|
+|Puede vender a otros colegios bajo su marca|Debe compartir ingresos con HA (25%)|
+|Se siente "dueño" del producto comercialmente|Tiene compromiso de ventas mínimas|
+|Costo mensual más bajo que SaaS puro|No tiene el código fuente|
+|No asume riesgo técnico (HA mantiene todo)|Depende de HA para el desarrollo|
+|Exclusividad en un mercado valioso||
+|Potencial de construir un negocio de software||
 
-| ✅ Ventajas para HA | ❌ Desventajas para HA |
-|---------------------|----------------------|
-| Entra al mercado educativo sin esfuerzo comercial | Ingresos dependen de que Docet venda |
-| Escala de ingresos sin vender directamente | Comparte el éxito (solo recibe 25%) |
-| Mantiene propiedad del código | Complejidad contractual y de relación |
-| Relación de largo plazo con incentivos alineados | |
+|✅ Ventajas para HA|❌ Desventajas para HA|
+|---|---|
+|Entra al mercado educativo sin esfuerzo comercial|Ingresos dependen de que Docet venda|
+|Escala de ingresos sin vender directamente|Comparte el éxito (solo recibe 25%)|
+|Mantiene propiedad del código|Complejidad contractual y de relación|
+|Relación de largo plazo con incentivos alineados||
 
 ### Nuestra opinión honesta
 
@@ -459,21 +460,21 @@ Este modelo es el más interesante si Docet realmente quiere construir un negoci
 
 ## Tabla comparativa final
 
-| Aspecto | Escenario 1: A la medida | Escenario 2: SaaS | Escenario 3: Partnership |
-|---------|--------------------------|-------------------|--------------------------|
-| **En una frase** | "Compras la tecnología" | "Rentas el servicio" | "Vendes la tecnología (juntos)" |
-| **Inversión inicial** | $4.2 - $6.0M MXN | $2.1 - $3.0M MXN | $2.5 - $3.6M MXN |
-| **Costo mensual** | $55K - $100K MXN | $55K - $95K MXN | $48K - $80K MXN |
-| **Costo total Año 1** | $4.9 - $7.2M MXN | $2.9 - $4.1M MXN | $3.1 - $4.6M MXN |
-| **Costo Año 2+** | $660K - $1.2M MXN/año | $780K - $1.1M MXN/año | $576K - $960K MXN/año + ingresos |
-| **¿Quién es dueño de la IP?** | Docet | HA | HA |
-| **¿Puede vender a otros?** | ✅ Sí, sin restricciones | ❌ No | ✅ Sí, con revenue share |
-| **¿Quién mantiene el sistema?** | Docet (o contrata) | HA | HA |
-| **Riesgo técnico** | Docet | HA | HA |
-| **Soporte incluido** | No (opcional extra) | Sí | Sí |
-| **Actualizaciones** | Responsabilidad de Docet | Incluidas | Incluidas |
-| **Flexibilidad futura** | Total (es tuyo) | Limitada al contrato | Media (negociable) |
-| **Alineación de incentivos** | Baja (relación termina) | Media (HA quiere retener) | Alta (ambos ganan si escala) |
+|Aspecto|Escenario 1: A la medida|Escenario 2: SaaS|Escenario 3: Partnership|
+|---|---|---|---|
+|**En una frase**|"Compras la tecnología"|"Rentas el servicio"|"Venden la tecnología (juntos)"|
+|**Inversión inicial**|$4.2 - $6.0M MXN|$2.1 - $3.0M MXN|$2.5 - $3.6M MXN|
+|**Costo mensual**|$55K - $100K MXN|$55K - $95K MXN|$48K - $80K MXN|
+|**Costo total Año 1**|$4.9 - $7.2M MXN|$2.9 - $4.1M MXN|$3.1 - $4.6M MXN|
+|**Costo Año 2+**|$660K - $1.2M MXN/año|$780K - $1.1M MXN/año|$576K - $960K MXN/año + ingresos|
+|**¿Quién es dueño de la IP?**|Docet|HA|HA|
+|**¿Puede vender a otros?**|✅ Sí, sin restricciones|❌ No|✅ Sí, con revenue share|
+|**¿Quién mantiene el sistema?**|Docet (o contrata)|HA|HA|
+|**Riesgo técnico**|Docet|HA|HA|
+|**Soporte incluido**|No (opcional extra)|Sí|Sí|
+|**Actualizaciones**|Responsabilidad de Docet|Incluidas|Incluidas|
+|**Flexibilidad futura**|Total (es tuyo)|Limitada al contrato|Media (negociable)|
+|**Alineación de incentivos**|Baja (relación termina)|Media (HA quiere retener)|Alta (ambos ganan si escala)|
 
 ---
 
@@ -515,12 +516,11 @@ Permite a Docet "tener su producto" comercialmente y generar ingresos vendiéndo
 
 ---
 
-*Este documento es un borrador de trabajo para discusión interna. Los números son estimaciones basadas en proyectos similares y condiciones actuales del mercado. Los costos finales dependerán de los requerimientos específicos y la complejidad real de la implementación.*
+_Este documento es un borrador de trabajo para discusión interna. Los números son estimaciones basadas en proyectos similares y condiciones actuales del mercado. Los costos finales dependerán de los requerimientos específicos y la complejidad real de la implementación._
 
 ---
 
-**Horizons Architecture Systems**
-Enero 2026
+**Horizons Architecture Systems** Enero 2026
 
-## Connections
-- [[05-context-docet]]
+---
+

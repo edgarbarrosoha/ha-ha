@@ -17,6 +17,12 @@ parent: "[[06-projects-sic-q]]"
 | [[ha-eb/06-projects/ha/00-ha-root/06-projects/sic-q/06-projects-sic-q/entregables/benchmarks\|Benchmarks]] | Comparativa de plataformas mundiales de participación con IA |
 | [[seminal-literature-on-collective-intelligence-and-ai\|Literatura seminal]] | Referencias académicas sobre inteligencia colectiva |
 
+## Documentos de análisis
+
+| Documento | Descripción |
+|-----------|-------------|
+| [[reporte-simplificacion-citizens-journey\|Reporte de simplificación del Citizens Journey]] | Análisis completo de cambios necesarios para pasar de v03 a versión implementable. 12 cambios priorizados, journey simplificado de 5 fases, registro progresivo |
+
 ## Documentos técnicos
 
 | Documento | Descripción |
