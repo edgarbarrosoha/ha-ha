@@ -266,19 +266,20 @@ En términos concretos:
 - **Para los ciudadanos:** es el sistema que los escucha, los canaliza y les da seguimiento. Cuando alguien comparte una experiencia, una queja o una propuesta, el Instituto la recibe, la procesa, la agrupa con otras similares, y cierra el ciclo informando qué se escuchó y cómo se decidió.
 - **Para el estado:** es la institución que piensa en el largo plazo. No planea (eso lo hace la Secretaría de Planeación) — piensa en lo que viene, para que la planeación se haga con mejor información sobre el futuro.
 
-**Diferencia con la Secretaría de Planeación y Participación Ciudadana:** La Secretaría planea con base en lo que hay. El Instituto piensa en lo que viene. La Secretaría ejecuta la planeación del gobierno; el Instituto le da insumos de prospectiva e inteligencia colectiva para que esa planeación sea mejor. No hay overlap — hay complementariedad: el Instituto produce la inteligencia, la Secretaría la usa para planear y ejecutar.
+**Relación con la Secretaría de Planeación y Participación Ciudadana:** El Instituto le presta servicio a la Secretaría a través del SIC-Q. Es una relación de servicio, no de dependencia: el Instituto provee inteligencia, prospectiva y herramientas (incluyendo el agente de IA y la herramienta de recopilación para talleres, consultas y procesos del PED 2050), y la Secretaría las usa con autonomía para planear y ejecutar. La Secretaría planea con base en lo que hay; el Instituto piensa en lo que viene. No hay overlap — hay complementariedad.
 
 ### 5.2 Qué hace: Funciones y Atribuciones
 
-#### Función 1 — Operar el SIC-Q
+#### Función 1 — Operar el SIC-Q (Thinking-as-a-Service)
 
-El Instituto es responsable de la operación completa del Sistema de Inteligencia Colectiva:
+El SIC-Q es un servicio de inteligencia en la nube (TaaS) donde HA es la capa de pensamiento. El Instituto es responsable de operar sus tres instancias:
 
 | Atribución | Descripción |
 |------------|-------------|
 | **Integrar y mantener la base de datos unificada** | Incorporar datos del gobierno (consultas previas, actas de consejos, Plan QRO 2050, INEGI, presupuestos) y datos ciudadanos (experiencias, propuestas, conversaciones) en un solo sistema |
-| **Operar el agente de IA institucional** | Mantener el agente (chat/voz) que le da servicio al gobierno: responde preguntas, genera análisis, cruza fuentes, produce reportes bajo demanda |
-| **Operar los canales ciudadanos** | Gestionar los puntos de contacto por donde los ciudadanos hablan con el SIC: WhatsApp, web, redes sociales, talleres presenciales, kioscos |
+| **Operar el agente estratégico (Instancia 1)** | Agente de IA (chat/voz) que le presta servicio a la Secretaría de Planeación (planeación) y al Instituto del Futuro (prospectiva). Responde preguntas, genera análisis, cruza fuentes, produce reportes bajo demanda. 24/7 |
+| **Operar la herramienta de recopilación (Instancia 2)** | El SIC-Q como instrumento para talleres, consultas, encuestas, consejos ciudadanos y procesos del PED 2050. Captura, estructura y procesa información de procesos participativos de planeación |
+| **Operar los canales ciudadanos (Instancia 3)** | WhatsApp, redes sociales, plataforma de propuestas — los puntos de contacto por donde los ciudadanos comparten experiencias con el SIC |
 | **Procesar la inteligencia colectiva** | Agrupar experiencias similares, detectar patrones, identificar consensos, sintetizar hallazgos — convertir miles de voces individuales en inteligencia accionable |
 | **Canalizar y dar seguimiento** | Cuando un ciudadano comparte una situación, el Instituto lo canaliza a la dependencia correspondiente y le da seguimiento hasta que haya respuesta |
 | **Evolucionar el sistema** | Mejorar continuamente los modelos de IA, la experiencia de usuario, las metodologías de análisis y los canales |

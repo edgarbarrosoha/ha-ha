@@ -3,7 +3,7 @@ type: one-pager
 created: 2026-02-07
 status: draft
 client: Gobierno de Querétaro
-version: v1.7
+version: v1.8
 related: replanteamiento-estrategico-sic-q.md, desarrollo-replanteamiento-sic-q.md, propuesta-v05.md
 ---
 
@@ -29,12 +29,18 @@ Lo que estuvimos pensando es cómo llegar ahí más rápido y con un resultado e
 
 Cada etapa le suma a la anterior, nada se tira:
 
-**Etapa 1 — Integrar la data y prender el cerebro**
+**Etapa 1 — Prender el cerebro y darle herramientas al gobierno**
 Esto lo vamos a hacer de todos modos porque lo necesitamos para la Etapa 2. Tomamos toda la información prioritaria tanto del gobierno como de los procesos de participación y la procesamos con el SIC-Q.
 
-El SIC en esta etapa ya le da servicio a dos usuarios:
+El SIC en esta etapa hace dos cosas:
 
-Para el **gobierno**: un agente de IA — por chat o por voz — al que le puedes preguntar o pedirle que genere cualquier tipo de información. "¿Cuáles son las 5 preocupaciones más mencionadas por ciudadanos en los últimos 3 años?" y te responde cruzando miles de participaciones de consultas y actas de consejos. "Genera un resumen de lo que dijeron los consejos temáticos sobre movilidad en 2025." Y lo hace. Es como tener un analista que se leyó todo y que está disponible 24/7.
+**Primero, es un agente de IA que le presta servicio a dos usuarios institucionales:**
+
+Para la **Secretaría de Planeación**: un agente especializado en planeación — le preguntas lo que quieras y te responde cruzando miles de participaciones, actas de consejos, datos de INEGI, presupuestos. "¿Cuáles son las 5 preocupaciones más mencionadas por ciudadanos en los últimos 3 años?" Y te responde. Es como tener un analista que se leyó todo y que está disponible 24/7.
+
+Para el **Instituto del Futuro**: el mismo agente pero con lente de prospectiva — "¿Qué implica la tendencia de automatización para el empleo manufacturero de Querétaro en 2035?" El Instituto usa el SIC-Q para pensar en el futuro, la Secretaría lo usa para planear el presente.
+
+**Segundo, es la herramienta con la que el gobierno recopila datos en sus propios procesos:** talleres participativos, consultas, encuestas, consejos ciudadanos, procesos del PED 2050. El SIC-Q captura y procesa todo — ya no se pierde información en actas que nadie vuelve a leer.
 
 Para los **ciudadanos**: el SIC los escucha, los canaliza y les da seguimiento a su asunto. La persona de Tequisquiapan que no sabe con quién acudir por el problema de la basura no solo es escuchada — el SIC le puede decir a quién contactar, darle seguimiento, y avisarle si hay avances.
 
@@ -64,7 +70,9 @@ Ya con el cerebro y los sensores funcionando, una etapa futura sería conectar d
 
 | Qué | Para qué serviría |
 |-----|-------------------|
-| **Agente SIC-Q (chat/voz)** | Le preguntas lo que quieras, le pides que genere reportes, que cruce fuentes, que analice tendencias — disponible 24/7 |
+| **Agente SIC-Q para la Secretaría** | Agente de planeación: le preguntas lo que quieras, genera reportes, cruza fuentes, analiza tendencias — disponible 24/7 |
+| **Agente SIC-Q para el Instituto** | Agente de prospectiva: escenarios, tendencias globales, anticipación de disrupciones |
+| **Herramienta de recopilación** | Para talleres, consultas, encuestas, consejos ciudadanos y procesos del PED 2050 — captura y procesa todo |
 | **Los datos en un solo lugar** | Toda la información ciudadana existente estructurada y conectada |
 | **Primer reporte de IC** | Los hallazgos más importantes de lo que la ciudadanía ya ha dicho — para el Gobernador y los consejos |
 | **Dashboard** | Para visualizar temas, tendencias y geografía de las preocupaciones |

@@ -27,9 +27,15 @@ La Etapa 1 convierte esa información muerta en inteligencia viva.
 
 ### Qué ve Antonio Rangel en sus manos
 
-**Producto: El Agente SIC-Q Institucional (v1)**
+**El SIC-Q como Thinking-as-a-Service (TaaS)**
 
-Un agente de IA conversacional — no público, solo para gobierno — alimentado con toda la información existente del estado. Funciona como un asistente de inteligencia para la Secretaría de Planeación y el futuro Instituto del Futuro.
+El SIC-Q es un servicio de inteligencia en la nube donde HA es la capa de pensamiento. De este núcleo se derivan instancias adaptadas a cada usuario. En la Etapa 1 se activan dos:
+
+**Instancia 1 — Agente estratégico (chat/voz)**
+
+Un agente de IA que le presta servicio a dos usuarios institucionales:
+- **A la Secretaría de Planeación:** como agente especializado en planeación — cruza datos, genera análisis, produce reportes para tomar decisiones
+- **Al Instituto del Futuro:** como agente especializado en prospectiva — explora escenarios, analiza tendencias, anticipa lo que viene
 
 **Ejemplo de uso real:**
 
@@ -37,11 +43,18 @@ Un agente de IA conversacional — no público, solo para gobierno — alimentad
 >
 > **Agente SIC-Q:** "Basándome en el análisis de 12,000+ participaciones documentadas en consultas 2023-2025 y actas de los 23 consejos temáticos, las principales preocupaciones son: (1) Seguridad vial y movilidad — 23% de menciones, concentradas en zona metropolitana, (2) Acceso a agua — 18%, predominante en municipios rurales..."
 
+**Instancia 2 — Herramienta de recopilación**
+
+El SIC-Q también es la herramienta con la que el gobierno recopila datos en sus propios procesos de planeación: talleres participativos, consultas ciudadanas, encuestas, consejos ciudadanos, procesos del PED 2050. El SIC-Q captura, estructura y procesa toda esa información, que luego alimenta al agente estratégico.
+
+**Relación de servicio:** El Instituto del Futuro le presta servicio a la Secretaría de Planeación a través del SIC-Q. No es dependencia tecnológica — el Instituto provee inteligencia y herramientas, la Secretaría las usa con autonomía.
+
 **Entregables concretos de la Etapa 1:**
 
 | Entregable | Descripción | Para quién |
 |------------|-------------|------------|
-| **Agente SIC-Q Institucional** | Chat IA conectado a datos existentes del gobierno. Responde preguntas, genera análisis, cruza fuentes. | Secretaría de Planeación, Instituto del Futuro |
+| **Agente SIC-Q (chat/voz)** | Agente IA conectado a datos del estado. Sirve a la Secretaría (planeación) y al IF (prospectiva). Responde preguntas, genera análisis, cruza fuentes. 24/7 | Secretaría de Planeación, Instituto del Futuro |
+| **Herramienta de recopilación** | El SIC-Q como instrumento para talleres, consultas, encuestas, consejos ciudadanos y procesos del PED 2050 | Secretaría de Planeación, CEPACI |
 | **Base de datos unificada v1** | Integración estructurada de: consultas previas, actas de consejos, Plan QRO 2050, datos INEGI, presupuestos | Equipo técnico |
 | **Primer Reporte de Inteligencia Colectiva** | Documento generado por el SIC con hallazgos clave de lo que la ciudadanía ya ha dicho en años anteriores | Gobernador, gabinete, consejos |
 | **Dashboard de visualización** | Interfaz donde se ven clusters temáticos, tendencias, distribución geográfica de preocupaciones | Secretaría de Planeación |
@@ -100,19 +113,19 @@ Todo lo de Etapa 1 y 2
 
 ### Qué significa esto en la práctica
 
-**El Agente SIC-Q nunca muere — evoluciona:**
+**Las instancias del SIC-Q se acumulan:**
 
-| Etapa | El Agente sabe... | Lo usa... |
-|-------|-------------------|-----------|
-| 1 | Lo que el gobierno ya tiene (consultas, planes, datos) | Solo el gobierno |
-| 2 | Todo lo anterior + lo que los ciudadanos dicen en tiempo real | Gobierno + ciudadanos |
-| 3 | Todo lo anterior + cómo conectarte con servicios | Gobierno + ciudadanos + trámites |
+| Etapa | Instancias activas | Quién las usa |
+|-------|--------------------|---------------|
+| 1 | Agente estratégico + Herramienta de recopilación | Secretaría (planeación) + IF (prospectiva) + gobierno (talleres, consultas, PED 2050) |
+| 2 | + Canales ciudadanos (WhatsApp, redes, plataforma) | Todo lo anterior + ciudadanía |
+| Futura | + Conexión a servicios de gobierno | Todo lo anterior + trámites |
 
 **La base de datos nunca se reinicia — crece:**
 
-- Etapa 1: Datos históricos del gobierno
-- Etapa 2: + Propuestas ciudadanas, conversaciones, apoyos
-- Etapa 3: + Datos de servicios, trámites, respuestas institucionales
+- Etapa 1: Datos históricos del gobierno + datos de procesos participativos de planeación
+- Etapa 2: + Experiencias ciudadanas, propuestas, conversaciones
+- Futura: + Datos de servicios, trámites, respuestas institucionales
 
 **Los reportes de IC se enriquecen:**
 

@@ -35,11 +35,11 @@ El Instituto tiene como objeto principal:
 
 I. Realizar prospectiva y pensamiento de futuro para el estado de Querétaro, explorando escenarios, anticipando disrupciones y analizando el impacto de tendencias globales — particularmente la aceleración tecnológica — en el desarrollo del estado;
 
-II. Operar y desarrollar el Sistema de Inteligencia Colectiva de Querétaro (SIC-Q) como su instrumento principal para capturar y procesar la inteligencia colectiva de la ciudadanía;
+II. Operar y desarrollar el Sistema de Inteligencia Colectiva de Querétaro (SIC-Q) como su instrumento principal, en sus tres instancias: agente estratégico para la Secretaría de Planeación y el propio Instituto, herramienta de recopilación para procesos participativos de planeación, y canales de escucha ciudadana;
 
 III. Generar inteligencia colectiva a partir de las experiencias, propuestas y participación ciudadana para informar la toma de decisiones públicas;
 
-IV. Producir insumos de prospectiva e inteligencia colectiva para que la Secretaría de Planeación y Participación Ciudadana los incorpore en la planeación estatal;
+IV. Prestar servicio a la Secretaría de Planeación y Participación Ciudadana a través del SIC-Q, proveyendo inteligencia, prospectiva y herramientas de recopilación para que la Secretaría los incorpore en la planeación estatal con autonomía;
 
 V. Proporcionar asesoría técnica independiente al Gobierno del Estado, municipios y organismos públicos; y
 
@@ -468,7 +468,7 @@ IV. El personal del Instituto se abstendrá de participar en actividades políti
 
 **Artículo 46. Responsabilidad sobre el SIC-Q y la función prospectiva.**
 
-I. El Instituto es responsable de la operación, mantenimiento y evolución del Sistema de Inteligencia Colectiva de Querétaro (SIC-Q), como instrumento principal de su misión;
+I. El Instituto es responsable de la operación, mantenimiento y evolución del Sistema de Inteligencia Colectiva de Querétaro (SIC-Q) en sus tres instancias: agente estratégico, herramienta de recopilación y canales ciudadanos;
 II. El Instituto garantizará la disponibilidad, seguridad y mejora continua del sistema;
 III. Los datos generados por el SIC-Q son propiedad pública; el Instituto es su custodio responsable;
 IV. Además del SIC-Q, el Instituto realizará de manera permanente funciones de prospectiva, análisis de tendencias globales y tecnológicas, y exploración de escenarios de futuro para el estado.

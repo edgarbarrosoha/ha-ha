@@ -270,8 +270,9 @@ PARTES:
 
 OBJETO:
 Establecer las bases de colaboración para la operación del Instituto del
-Futuro de Querétaro como institución de prospectiva e inteligencia colectiva
-al servicio del Estado.
+Futuro de Querétaro como institución de prospectiva e inteligencia colectiva,
+que presta servicio a la Secretaría de Planeación y Participación Ciudadana
+a través del Sistema de Inteligencia Colectiva de Querétaro (SIC-Q).
 
 CLÁUSULAS ESENCIALES:
 
@@ -285,11 +286,12 @@ CLÁUSULAS ESENCIALES:
    3.5 Facilitación de coordinación interinstitucional
 
 4. OBLIGACIONES DE EL CONSEJO/INSTITUTO
-   4.1 Operación del SIC-Q
-   4.2 Generación de reportes de inteligencia colectiva
-   4.3 Asesoría técnica independiente
-   4.4 Cumplimiento de código de ética
-   4.5 Transparencia y rendición de cuentas
+   4.1 Operación del SIC-Q en sus tres instancias (agente estratégico, herramienta de recopilación, canales ciudadanos)
+   4.2 Prestación de servicio de inteligencia y prospectiva a la Secretaría de Planeación
+   4.3 Generación de reportes de inteligencia colectiva
+   4.4 Asesoría técnica independiente
+   4.5 Cumplimiento de código de ética
+   4.6 Transparencia y rendición de cuentas
 
 5. AUTONOMÍA TÉCNICA
    5.1 No intervención en metodologías

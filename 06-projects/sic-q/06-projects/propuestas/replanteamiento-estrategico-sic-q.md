@@ -25,64 +25,99 @@ El SIC es un **Sistema de Inteligencia Colectiva**: un sistema multicanal capaz 
 
 La diferencia es fundamental: el SIC no depende de que los ciudadanos vengan a él — el SIC **va hacia donde ya está la información**.
 
+## Arquitectura: Thinking-as-a-Service
+
+El SIC-Q es un servicio de inteligencia en la nube — un **Thinking-as-a-Service (TaaS)** — donde HA (Horizons Architecture) es la capa de pensamiento. El TaaS se conecta a bases de datos, crea bases de conocimiento, orquesta agentes de IA, y genera inteligencia procesada.
+
+De este núcleo se derivan **tres instancias** del SIC-Q, cada una adaptada a un usuario y una función distinta:
+
+| Instancia | Qué es | Para quién | Dirección |
+|-----------|--------|------------|-----------|
+| **Agente estratégico** | Agente de IA que analiza, cruza datos y genera inteligencia | Secretaría de Planeación (planeación) + Instituto del Futuro (prospectiva) | Output: inteligencia hacia arriba |
+| **Herramienta de recopilación** | Instrumento para talleres, consultas, encuestas, consejos ciudadanos, PED 2050 | Gobierno (procesos estructurados de planeación) | Input: datos estructurados hacia el cerebro |
+| **Canales ciudadanos** | WhatsApp, redes sociales, plataforma de propuestas | Ciudadanía (experiencias orgánicas) | Input: datos no estructurados hacia el cerebro |
+
+Las instancias 2 y 3 alimentan a la instancia 1. La 1 procesa y genera inteligencia. Todo corre sobre el mismo TaaS.
+
+**Relación de servicio:** El Instituto del Futuro le presta servicio a la Secretaría de Planeación a través del SIC-Q. No es dependencia tecnológica — es una relación de servicio donde el Instituto provee inteligencia y herramientas, y la Secretaría las usa con autonomía para planear y ejecutar.
+
 ## Dos usuarios, un sistema
 
 | Usuario | Representado por | Rol |
 |---------|-----------------|-----|
-| **Gobierno** | Secretaría de Participación Ciudadana y Planeación + Instituto del Futuro | Consumidor y alimentador de inteligencia |
+| **Gobierno** | Secretaría de Planeación y Participación Ciudadana + Instituto del Futuro | Consumidor de inteligencia (Secretaría para planeación, IF para prospectiva) + usuario de herramientas de recopilación |
 | **Ciudadanía** | Todos los ciudadanos (primera fase: los que ya participan — consejos de participación, Dirección de Participación Ciudadana) | Fuente de información y beneficiario de servicios |
 
 ## Las tres etapas
 
-### Etapa 1 — Inteligencia con lo que ya existe
+### Etapa 1 — Agente estratégico + herramienta de recopilación
 
-**Objetivo:** El SIC nace procesando la información que el gobierno ya tiene.
+**Instancias activas:** 1 (agente estratégico) + 2 (herramienta de recopilación)
 
-- Datos e información existente del gobierno
-- Resultados de procesos de participación ciudadana anteriores
-- Información de los consejos de participación y la Dirección de Participación Ciudadana
+**El agente estratégico** nace procesando la información que el gobierno ya tiene y sirve a dos usuarios:
+- **Secretaría de Planeación:** agente de IA especializado en planeación — cruza datos, genera análisis, produce reportes para la toma de decisiones
+- **Instituto del Futuro:** agente de IA especializado en prospectiva — explora escenarios, analiza tendencias, anticipa disrupciones
+
+**La herramienta de recopilación** se activa para los procesos de planeación del gobierno:
+- Talleres participativos, consultas ciudadanas, encuestas
+- Consejos ciudadanos y procesos del PED 2050
+- El SIC-Q captura, estructura y procesa toda la información que se genera en estos procesos
 
 **Resultado:** Un primer *win* para el gobierno — el SIC genera valor desde el día uno sin depender de que nadie nuevo participe.
 
-### Etapa 2 — Canales de comunicación ciudadana
+### Etapa 2 — Canales de escucha ciudadana
 
-**Objetivo:** Crear una plataforma con canales de comunicación accesibles para la ciudadanía.
+**Instancia activa:** 3 (canales ciudadanos) — se suma a las dos anteriores
 
-- **Canales:** WhatsApp, redes sociales, conversaciones con agentes de IA
-- **Acciones ciudadanas:** Proponer, conversar, apoyar iniciativas
-- **Valor bidireccional:** Los ciudadanos también obtienen valor para sí mismos — por ejemplo, una estudiante podría preguntarle al SIC qué becas ofrece el gobierno y obtener respuesta
+Con el cerebro ya funcionando, se abren canales para escuchar cómo la gente vive los temas que al gobierno le importa entender:
 
-Nota: La plataforma actual del gobierno es muy deficiente y casi nadie la usa. Esta etapa la reemplaza con algo que la gente realmente pueda y quiera usar.
+- **Canales:** WhatsApp, redes sociales, nueva plataforma de participación de propuestas
+- **Lo que la gente comparte:** experiencias, situaciones, quejas, oportunidades, propuestas
+- **Valor bidireccional:** Los ciudadanos también obtienen valor — becas, información, canalización, seguimiento
 
-### Etapa 3 — Conexión con servicios de gobierno
+Los canales son sensores. Todo alimenta el mismo cerebro de la Etapa 1, que se vuelve más inteligente con el tiempo.
 
-**Objetivo:** Conectar los servicios del gobierno a través del SIC para servir directamente a los ciudadanos.
+### Etapa futura — Conexión con servicios de gobierno
 
-- El SIC se convierte en una interfaz entre ciudadanía y servicios gubernamentales
-- Consultas, trámites y servicios accesibles a través de los canales del SIC
-- La inteligencia colectiva informa la mejora continua de los servicios
+Fuera del alcance actual. El horizonte natural es conectar directamente con trámites y servicios de gobierno a través del SIC.
 
 ## Resumen visual
 
 ```
-ETAPA 1                    ETAPA 2                    ETAPA 3
-Inteligencia               Canales                    Servicios
-───────────                ────────                   ─────────
-Datos existentes    →      WhatsApp             →     Trámites
-Participación previa →     Redes sociales       →     Consultas
-Consejos ciudadanos →      Agentes IA           →     Servicios gov
-                           Proponer/Apoyar/
-                           Conversar
-
-         SIC como cerebro ←──────────────────→ SIC como interfaz
+                    ┌─────────────────────────────────────┐
+                    │     TaaS: HA (Thinking-as-a-Service) │
+                    │     Orquestación, KB, Agentes IA     │
+                    └──────────────┬──────────────────────┘
+                                   │
+              ┌────────────────────┼────────────────────┐
+              │                    │                    │
+              ▼                    ▼                    ▼
+     ┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐
+     │  INSTANCIA 1    │  │  INSTANCIA 2    │  │  INSTANCIA 3    │
+     │  Agente         │  │  Herramienta    │  │  Canales         │
+     │  estratégico    │  │  de recopilación│  │  ciudadanos      │
+     │                 │  │                 │  │                 │
+     │  → Secretaría   │  │  → Talleres     │  │  → WhatsApp     │
+     │    (planeación) │  │  → Consultas    │  │  → Redes        │
+     │  → IF           │  │  → Consejos     │  │  → Plataforma   │
+     │    (prospectiva)│  │  → PED 2050     │  │    propuestas   │
+     │                 │  │                 │  │                 │
+     │  ETAPA 1        │  │  ETAPA 1        │  │  ETAPA 2        │
+     └─────────────────┘  └─────────────────┘  └─────────────────┘
+              ▲                    │                    │
+              │                    │                    │
+              └────────────────────┴────────────────────┘
+                    Las instancias 2 y 3 alimentan a la 1
 ```
 
 ## Implicaciones para el proyecto
 
 1. **La propuesta v06 debe reflejar este reencuadre** — el SIC no se presenta como plataforma de participación
-2. **El Citizens Journey v04 se mantiene** como diseño de la Etapa 2, no como el SIC completo
-3. **La Etapa 1 es el MVP real** — puede construirse rápido y generar resultados inmediatos
-4. **El Instituto del Futuro** opera como custodio del SIC a través de todas las etapas
+2. **El SIC-Q es TaaS** — HA es la capa de pensamiento, el SIC-Q se despliega en instancias adaptadas a cada usuario
+3. **El IF le presta servicio a la Secretaría** — relación de servicio, no dependencia tecnológica
+4. **El Citizens Journey v04 se mantiene** como diseño de la Instancia 3 (canales ciudadanos)
+5. **La Etapa 1 activa dos instancias** — agente estratégico + herramienta de recopilación
+6. **El Instituto del Futuro** opera como custodio del SIC a través de todas las etapas
 
 ## Connections
 
