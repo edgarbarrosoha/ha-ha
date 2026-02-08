@@ -102,7 +102,7 @@ Esta estructura híbrida busca combinar:
 | Característica | Cumplimiento |
 |----------------|--------------|
 | Pluralidad de personas | ✓ Socios de El Consejo Querétaro |
-| Fin común lícito | ✓ Participación ciudadana y planeación |
+| Fin común lícito | ✓ Prospectiva, inteligencia colectiva y pensamiento de futuro |
 | No preponderantemente económico | ✓ Misión de interés público |
 | Permanencia | ✓ Vocación de largo plazo (30 años) |
 | Personalidad jurídica propia | ✓ El Consejo es persona moral constituida |
@@ -270,8 +270,8 @@ PARTES:
 
 OBJETO:
 Establecer las bases de colaboración para la operación del Instituto del
-Futuro de Querétaro como brazo técnico para la planeación participativa
-de largo plazo del Estado.
+Futuro de Querétaro como institución de prospectiva e inteligencia colectiva
+al servicio del Estado.
 
 CLÁUSULAS ESENCIALES:
 

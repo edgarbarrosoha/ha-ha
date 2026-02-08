@@ -49,7 +49,7 @@
 ```
 
 **Propósito del rol:**
-Contribuir a la dirección estratégica del Instituto del Futuro, supervisando su operación, velando por su neutralidad técnica y asegurando el cumplimiento de su misión de largo plazo.
+Contribuir a la dirección estratégica del Instituto del Futuro, supervisando su operación, velando por su neutralidad técnica y asegurando el cumplimiento de su misión de prospectiva e inteligencia colectiva de largo plazo.
 
 **Responsabilidades principales:**
 - Participar activamente en las sesiones del Consejo Directivo (mínimo 6/año)
@@ -142,15 +142,16 @@ Liderar el Consejo Directivo, facilitar la toma de decisiones colegiada, represe
 ```
 
 **Propósito del rol:**
-Dirigir la operación integral del Instituto del Futuro, implementando la visión estratégica del Consejo Directivo, liderando al equipo y posicionando al Instituto como referente de participación ciudadana e inteligencia colectiva.
+Dirigir la operación integral del Instituto del Futuro, implementando la visión estratégica del Consejo Directivo, liderando al equipo y posicionando al Instituto como referente de prospectiva, inteligencia colectiva y pensamiento de futuro para el estado de Querétaro.
 
 **Responsabilidades principales:**
 
-*Liderazgo estratégico:*
+*Liderazgo estratégico y prospectiva:*
 - Proponer e implementar el plan estratégico del Instituto
+- Liderar la función de prospectiva: escenarios, tendencias globales, anticipación de disrupciones tecnológicas
 - Definir prioridades y asignar recursos
 - Construir y desarrollar al equipo de liderazgo
-- Posicionar al Instituto a nivel estatal, nacional e internacional
+- Posicionar al Instituto a nivel estatal, nacional e internacional como referente de pensamiento de futuro
 
 *Operación:*
 - Dirigir la operación cotidiana del Instituto y del SIC-Q
@@ -176,7 +177,7 @@ Dirigir la operación integral del Instituto del Futuro, implementando la visió
 |---------|-----------|
 | **Formación** | Título profesional en áreas relevantes. Posgrado altamente deseable |
 | **Experiencia** | Mínimo 10 años profesionales, 5 en posiciones directivas |
-| **Campos** | Prospectiva, políticas públicas, ciencia de datos, participación ciudadana, tecnología cívica, o combinación |
+| **Campos** | Prospectiva/estudios de futuro, políticas públicas, ciencia de datos, inteligencia colectiva, tecnología cívica, o combinación |
 | **Gestión** | Experiencia comprobada liderando equipos multidisciplinarios (15+ personas) |
 | **Presupuesto** | Experiencia manejando presupuestos de al menos $10M MXN anuales |
 
@@ -230,14 +231,15 @@ Dirigir la operación integral del Instituto del Futuro, implementando la visió
 ```
 
 **Propósito del rol:**
-Liderar el desarrollo y operación del motor de inteligencia colectiva del SIC-Q, transformando las aportaciones ciudadanas en conocimiento accionable mediante metodologías rigurosas y tecnología de punta.
+Liderar el desarrollo y operación del motor de inteligencia colectiva del SIC-Q, transformando las experiencias y aportaciones ciudadanas en conocimiento accionable. También lidera el análisis de tendencias y la generación de insumos prospectivos mediante metodologías rigurosas y tecnología de punta.
 
 **Responsabilidades principales:**
 - Dirigir el equipo de ciencia de datos, IA y análisis
-- Diseñar y supervisar las metodologías de procesamiento de participación ciudadana
+- Diseñar y supervisar las metodologías de procesamiento de inteligencia colectiva
+- Liderar el análisis prospectivo: escenarios, tendencias, modelado de impactos
 - Asegurar la calidad, rigor y reproducibilidad de los análisis
 - Liderar el desarrollo y mejora de modelos de IA/ML
-- Producir reportes de inteligencia colectiva para gobierno y ciudadanía
+- Producir reportes de inteligencia colectiva y de prospectiva para gobierno y ciudadanía
 - Coordinar con el Comité Técnico-Científico la validación de metodologías
 - Gestionar la infraestructura de datos y cómputo
 

@@ -24,7 +24,7 @@ El Instituto tendrá su domicilio en la ciudad de Santiago de Querétaro, Estado
 El Instituto se constituye por tiempo indefinido. Su permanencia está vinculada a la vigencia del Convenio de Colaboración con el Gobierno del Estado de Querétaro y a la decisión de la Asamblea General de El Consejo, requiriéndose mayoría calificada de dos terceras partes para su disolución.
 
 **Artículo 5. Horizonte temporal.**
-El Instituto opera con un horizonte de planeación de treinta (30) años, alineado con el mandato constitucional de planeación de largo plazo del Estado de Querétaro.
+El Instituto opera con un horizonte de prospectiva de treinta (30) años, alineado con el mandato constitucional de planeación de largo plazo del Estado de Querétaro. Su función no es planear (eso corresponde a la Secretaría de Planeación), sino pensar en el futuro y generar los insumos para que la planeación se haga con mejor información.
 
 ---
 
@@ -33,15 +33,17 @@ El Instituto opera con un horizonte de planeación de treinta (30) años, alinea
 **Artículo 6. Objeto principal.**
 El Instituto tiene como objeto principal:
 
-I. Operar y desarrollar el Sistema de Inteligencia Colectiva de Querétaro (SIC-Q);
+I. Realizar prospectiva y pensamiento de futuro para el estado de Querétaro, explorando escenarios, anticipando disrupciones y analizando el impacto de tendencias globales — particularmente la aceleración tecnológica — en el desarrollo del estado;
 
-II. Custodiar, actualizar y dar seguimiento al Plan de Desarrollo de Largo Plazo del Estado de Querétaro;
+II. Operar y desarrollar el Sistema de Inteligencia Colectiva de Querétaro (SIC-Q) como su instrumento principal para capturar y procesar la inteligencia colectiva de la ciudadanía;
 
-III. Generar inteligencia colectiva a partir de la participación ciudadana para informar la toma de decisiones públicas;
+III. Generar inteligencia colectiva a partir de las experiencias, propuestas y participación ciudadana para informar la toma de decisiones públicas;
 
-IV. Proporcionar asesoría técnica independiente al Gobierno del Estado, municipios y organismos públicos; y
+IV. Producir insumos de prospectiva e inteligencia colectiva para que la Secretaría de Planeación y Participación Ciudadana los incorpore en la planeación estatal;
 
-V. Promover la participación ciudadana informada y la educación cívica en materia de planeación.
+V. Proporcionar asesoría técnica independiente al Gobierno del Estado, municipios y organismos públicos; y
+
+VI. Promover la participación ciudadana informada y la educación cívica.
 
 **Artículo 7. Fines específicos.**
 Para el cumplimiento de su objeto, el Instituto realizará las siguientes actividades:
@@ -52,11 +54,11 @@ I. **En materia de participación ciudadana:**
    c) Garantizar retroalimentación oportuna a cada ciudadano participante;
    d) Facilitar el diálogo entre ciudadanía, gobierno, academia y sector privado.
 
-II. **En materia de planeación:**
-   a) Analizar tendencias, escenarios y riesgos de largo plazo;
-   b) Monitorear indicadores de progreso hacia las metas estatales;
-   c) Alertar sobre desviaciones sistémicas o riesgos emergentes;
-   d) Proponer actualizaciones al Plan de Desarrollo de Largo Plazo.
+II. **En materia de prospectiva:**
+   a) Explorar escenarios de futuro y analizar tendencias globales y tecnológicas que impacten al estado;
+   b) Generar las preguntas y los análisis que el gobierno necesita para anticipar lo que viene;
+   c) Alertar sobre disrupciones, riesgos emergentes y oportunidades de largo plazo;
+   d) Producir insumos prospectivos para que la Secretaría de Planeación los incorpore en la planeación estatal.
 
 III. **En materia de asesoría:**
    a) Elaborar reportes de inteligencia colectiva para dependencias gubernamentales;
@@ -75,7 +77,7 @@ El Instituto NO podrá:
 
 I. Ejecutar políticas públicas ni administrar programas gubernamentales;
 II. Emitir decisiones vinculantes para el gobierno o particulares;
-III. Sustituir las funciones de dependencias gubernamentales;
+III. Sustituir las funciones de dependencias gubernamentales, incluyendo la planeación que corresponde a la Secretaría de Planeación y Participación Ciudadana;
 IV. Realizar actividades de proselitismo político o partidista;
 V. Comercializar datos personales de los participantes;
 VI. Emitir opiniones institucionales sobre candidatos o partidos políticos.
@@ -250,7 +252,7 @@ IV. El proceso podrá ser apoyado por una firma especializada en búsqueda de ej
 Para ser Director(a) Ejecutivo(a) se requiere:
 
 I. Título profesional en áreas afines al objeto del Instituto;
-II. Al menos diez (10) años de experiencia profesional relevante en prospectiva, políticas públicas, ciencia de datos, participación ciudadana o campos relacionados;
+II. Al menos diez (10) años de experiencia profesional relevante en prospectiva/estudios de futuro, políticas públicas, ciencia de datos, inteligencia colectiva o campos relacionados;
 III. No haber ocupado cargo de elección popular ni cargo público de primer nivel en los cinco (5) años previos;
 IV. No haber sido dirigente de partido político en los cinco (5) años previos;
 V. No tener conflicto de interés con proveedores de servicios del Instituto;
@@ -334,7 +336,7 @@ III. **Sesiones:** Al menos bimestralmente o cuando sea requerido.
 
 **Artículo 32. Comité Técnico-Científico.**
 
-I. **Integración:** Cinco (5) académicos de reconocido prestigio en campos relevantes (ciencia de datos, participación ciudadana, prospectiva, políticas públicas, inteligencia artificial), preferentemente de instituciones diversas, incluyendo al menos uno internacional;
+I. **Integración:** Cinco (5) académicos de reconocido prestigio en campos relevantes (prospectiva/estudios de futuro, ciencia de datos, inteligencia colectiva, políticas públicas, inteligencia artificial), preferentemente de instituciones diversas, incluyendo al menos uno internacional;
 II. **Funciones:**
    a) Validar la solidez metodológica de los análisis del Instituto;
    b) Revisar y aprobar nuevas metodologías antes de su implementación;
@@ -464,11 +466,12 @@ IV. El personal del Instituto se abstendrá de participar en actividades políti
 
 ### CAPÍTULO X: Operación del SIC-Q
 
-**Artículo 46. Responsabilidad sobre el SIC-Q.**
+**Artículo 46. Responsabilidad sobre el SIC-Q y la función prospectiva.**
 
-I. El Instituto es responsable de la operación, mantenimiento y evolución del Sistema de Inteligencia Colectiva de Querétaro (SIC-Q);
+I. El Instituto es responsable de la operación, mantenimiento y evolución del Sistema de Inteligencia Colectiva de Querétaro (SIC-Q), como instrumento principal de su misión;
 II. El Instituto garantizará la disponibilidad, seguridad y mejora continua del sistema;
-III. Los datos generados por el SIC-Q son propiedad pública; el Instituto es su custodio responsable.
+III. Los datos generados por el SIC-Q son propiedad pública; el Instituto es su custodio responsable;
+IV. Además del SIC-Q, el Instituto realizará de manera permanente funciones de prospectiva, análisis de tendencias globales y tecnológicas, y exploración de escenarios de futuro para el estado.
 
 **Artículo 47. Principios de operación del SIC-Q.**
 

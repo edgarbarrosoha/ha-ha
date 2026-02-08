@@ -11,7 +11,7 @@
 
 Este documento presenta el diseño institucional del **Instituto del Futuro de Querétaro** (IFQ), un organismo híbrido que combina la agilidad y neutralidad política de una Asociación Civil (AC) con el respaldo y legitimidad de un mandato constitucional estatal. La innovación central: el Instituto "vive" dentro de **El Consejo Querétaro** (AC existente), lo que le permite sobrevivir cambios de administración independientemente del partido que gobierne.
 
-El IFQ es el **custodio institucional** del Sistema de Inteligencia Colectiva de Querétaro (SIC-Q) y el guardián de la planeación a 30 años del estado.
+El IFQ es una **institución de prospectiva** que opera el Sistema de Inteligencia Colectiva de Querétaro (SIC-Q) como su instrumento principal, y que se dedica a pensar en el futuro del estado en un momento de aceleración tecnológica sin precedentes.
 
 ---
 
@@ -75,9 +75,9 @@ El Instituto del Futuro resuelve esto mediante una **arquitectura institucional 
 │  │                  INSTITUTO DEL FUTURO                            │  │
 │  │            (Programa Permanente del Consejo)                     │  │
 │  │                                                                  │  │
-│  │  • Opera el SIC-Q                                               │  │
-│  │  • Custodia la planeación a 30 años                            │  │
-│  │  • Genera reportes de inteligencia colectiva                   │  │
+│  │  • Prospectiva: piensa en el futuro del estado                  │  │
+│  │  • Opera el SIC-Q (inteligencia colectiva)                     │  │
+│  │  • Genera reportes de IC y análisis de tendencias              │  │
 │  │  • Asesora al gobierno con independencia técnica               │  │
 │  │                                                                  │  │
 │  └──────────────────────────────────────────────────────────────────┘  │
@@ -94,7 +94,7 @@ El Instituto del Futuro resuelve esto mediante una **arquitectura institucional 
 
 El Gobierno del Estado firma un **Convenio de Colaboración a 30 años** con El Consejo Querétaro que establece:
 
-1. **Mandato:** El Consejo opera el Instituto del Futuro como brazo técnico de planeación
+1. **Mandato:** El Consejo opera el Instituto del Futuro como brazo técnico de prospectiva e inteligencia colectiva
 2. **Financiamiento base:** Aportación anual del estado (indexada a inflación)
 3. **Autonomía técnica:** El gobierno no puede modificar metodologías ni resultados
 4. **Acceso a datos:** El Instituto tiene acceso a información pública para análisis
@@ -251,39 +251,95 @@ El Instituto opera bajo el marco de **Horizons Architecture**, con cada área al
 
 ---
 
-## 5. Funciones y Mandato
+## 5. Qué es el Instituto del Futuro
 
-### 5.1 Funciones Principales
+### 5.1 Definición
 
-**1. Operación del SIC-Q**
-- Mantener y evolucionar la plataforma de participación ciudadana
-- Procesar aportaciones con IA y generar inteligencia colectiva
-- Garantizar feedback a cada ciudadano que participe
+El Instituto del Futuro es una **institución de prospectiva y pensamiento de futuro** para el estado de Querétaro. Su misión es entender hacia dónde va el estado, anticipar lo que viene, y ayudar a prepararse — usando como instrumento principal el Sistema de Inteligencia Colectiva (SIC-Q).
 
-**2. Custodia de la Planeación a 30 años**
-- Actualizar el Plan QRO2050 con base en inteligencia colectiva
-- Monitorear indicadores de progreso hacia metas
-- Alertar sobre desviaciones o riesgos sistémicos
+No es solo una plataforma tecnológica. Es un espacio dedicado a pensar en el futuro de Querétaro en un momento donde eso es urgente: la aceleración tecnológica — IA, automatización, biotecnología — está transformando economías y sociedades a una velocidad sin precedentes. Querétaro, como uno de los estados más prósperos y dinámicos de México, necesita una institución que piense en lo que viene, no solo en lo que hay. Lo que funciona hoy puede ser obsoleto en 5 años.
 
-**3. Asesoría Técnica Independiente**
-- Generar reportes de inteligencia para Secretarías y Consejos
-- Evaluar propuestas de política pública contra evidencia
-- Responder consultas del gobierno con análisis riguroso
+El SIC-Q es su instrumento principal: el sistema que captura inteligencia colectiva de los ciudadanos y del gobierno, y la convierte en insumos para tomar mejores decisiones. Pero el Instituto va más allá del SIC-Q: explora escenarios, estudia tendencias globales, anticipa disrupciones, y genera las preguntas que el gobierno todavía no se está haciendo.
 
-**4. Vinculación y Educación Cívica**
-- Promover la participación ciudadana activa
-- Capacitar a funcionarios en uso del sistema
-- Publicar informes accesibles para la ciudadanía
+En términos concretos:
+- **Para el gobierno:** es un agente de inteligencia y prospectiva permanente. Un equipo técnico + un sistema de IA al que le puedes preguntar lo que quieras sobre el estado — por chat o por voz — y que genera análisis, reportes, cruces de datos y recomendaciones basadas en evidencia. Pero también es quien dice: "esto es lo que vemos venir en manufactura avanzada para 2035, y esto es lo que implica para Querétaro." Disponible 24/7.
+- **Para los ciudadanos:** es el sistema que los escucha, los canaliza y les da seguimiento. Cuando alguien comparte una experiencia, una queja o una propuesta, el Instituto la recibe, la procesa, la agrupa con otras similares, y cierra el ciclo informando qué se escuchó y cómo se decidió.
+- **Para el estado:** es la institución que piensa en el largo plazo. No planea (eso lo hace la Secretaría de Planeación) — piensa en lo que viene, para que la planeación se haga con mejor información sobre el futuro.
 
-### 5.2 Límites del Mandato (Lo que NO hace)
+**Diferencia con la Secretaría de Planeación y Participación Ciudadana:** La Secretaría planea con base en lo que hay. El Instituto piensa en lo que viene. La Secretaría ejecuta la planeación del gobierno; el Instituto le da insumos de prospectiva e inteligencia colectiva para que esa planeación sea mejor. No hay overlap — hay complementariedad: el Instituto produce la inteligencia, la Secretaría la usa para planear y ejecutar.
 
-- **No ejecuta políticas públicas** (solo asesora)
-- **No toma decisiones vinculantes** (recomienda con evidencia)
-- **No sustituye instancias de gobierno** (complementa)
-- **No hace campañas políticas** (neutralidad estricta)
-- **No vende datos personales** (ética rigurosa)
+### 5.2 Qué hace: Funciones y Atribuciones
 
-### 5.3 Relación con el Gobierno
+#### Función 1 — Operar el SIC-Q
+
+El Instituto es responsable de la operación completa del Sistema de Inteligencia Colectiva:
+
+| Atribución | Descripción |
+|------------|-------------|
+| **Integrar y mantener la base de datos unificada** | Incorporar datos del gobierno (consultas previas, actas de consejos, Plan QRO 2050, INEGI, presupuestos) y datos ciudadanos (experiencias, propuestas, conversaciones) en un solo sistema |
+| **Operar el agente de IA institucional** | Mantener el agente (chat/voz) que le da servicio al gobierno: responde preguntas, genera análisis, cruza fuentes, produce reportes bajo demanda |
+| **Operar los canales ciudadanos** | Gestionar los puntos de contacto por donde los ciudadanos hablan con el SIC: WhatsApp, web, redes sociales, talleres presenciales, kioscos |
+| **Procesar la inteligencia colectiva** | Agrupar experiencias similares, detectar patrones, identificar consensos, sintetizar hallazgos — convertir miles de voces individuales en inteligencia accionable |
+| **Canalizar y dar seguimiento** | Cuando un ciudadano comparte una situación, el Instituto lo canaliza a la dependencia correspondiente y le da seguimiento hasta que haya respuesta |
+| **Evolucionar el sistema** | Mejorar continuamente los modelos de IA, la experiencia de usuario, las metodologías de análisis y los canales |
+
+#### Función 2 — Generar inteligencia para el gobierno
+
+El Instituto produce análisis e inteligencia que el gobierno no puede generar por sí solo:
+
+| Atribución | Descripción |
+|------------|-------------|
+| **Publicar reportes periódicos de IC** | Documentos que sintetizan lo que la ciudadanía dice, siente y necesita — por tema, por región, por periodo. El gobierno los usa para tomar decisiones informadas |
+| **Responder consultas bajo demanda** | Cualquier secretaría o consejo temático puede pedirle al Instituto un análisis específico: "¿Qué dicen los ciudadanos de la zona sur sobre transporte público?" |
+| **Evaluar propuestas de política pública** | Contrastar iniciativas del gobierno con la evidencia ciudadana y los datos disponibles. No decide, pero informa |
+| **Alertar sobre problemas emergentes** | Si el sistema detecta un patrón creciente de quejas o experiencias negativas en un tema o territorio, el Instituto lo señala antes de que se vuelva crisis |
+| **Medir impacto de decisiones** | Dar seguimiento a cómo responde la ciudadanía después de que el gobierno toma una decisión. ¿Mejoró la percepción? ¿Surgieron nuevos problemas? |
+
+#### Función 3 — Prospectiva y pensamiento de futuro
+
+Esta es la función que hace al Instituto lo que es: una institución que piensa en el futuro, no solo en el presente. La Secretaría de Planeación planea con base en la realidad actual. El Instituto explora lo que viene — y eso es lo que le falta al gobierno.
+
+| Atribución | Descripción |
+|------------|-------------|
+| **Explorar escenarios de futuro** | ¿Qué pasa si la IA automatiza el 30% de los empleos manufactureros de Querétaro en 10 años? ¿Qué pasa si el agua se vuelve el recurso más escaso del Bajío? El Instituto modela escenarios y sus implicaciones para el estado |
+| **Monitorear tendencias globales y tecnológicas** | Estar en la frontera: IA, automatización, biotecnología, energía, demografía, cambio climático. Traducir qué significan estas tendencias para Querétaro en concreto |
+| **Generar las preguntas que el gobierno no se está haciendo** | La prospectiva no es predecir — es prepararse. El Instituto plantea las preguntas difíciles antes de que se vuelvan crisis: ¿estamos formando el talento que Querétaro va a necesitar en 2035? ¿nuestra infraestructura hídrica aguanta el crecimiento proyectado? |
+| **Alimentar la planeación con visión de futuro** | Producir insumos de prospectiva para que la Secretaría de Planeación incorpore en el Plan QRO 2050 y en la planeación sexenal. El Instituto no planea — da los insumos para que la planeación sea mejor |
+| **Facilitar la transición entre administraciones** | Documentar el contexto, los compromisos y la visión de largo plazo para que el cambio de gobierno no signifique empezar de cero |
+
+#### Función 4 — Cerrar el ciclo con la ciudadanía
+
+La función más importante de cara al ciudadano: que no se pierda lo que dijo.
+
+| Atribución | Descripción |
+|------------|-------------|
+| **Informar qué se escuchó** | Publicar periódicamente qué temas, experiencias y propuestas recibió el SIC, agrupados y sintetizados |
+| **Informar cómo se decidió** | Transparentar qué hizo el gobierno con la inteligencia que recibió: qué adoptó, qué descartó y por qué |
+| **Dar seguimiento individual** | Cuando un ciudadano comparte algo, puede consultar el estatus de su asunto: si fue canalizado, si hubo respuesta, qué pasó |
+| **Rendir cuentas públicas** | Publicar informes anuales auditados sobre el funcionamiento del sistema: cuántas experiencias se procesaron, cuántas se canalizaron, cuántas recibieron respuesta |
+
+El feedback loop del Instituto no es "implementamos tu idea" — es **"esto escuchamos, así decidimos."** El gobierno rinde cuentas de lo que escuchó y de cómo lo procesó. Eso es más honesto y más sostenible que prometer implementar cada propuesta individual.
+
+#### Función 5 — Vinculación y educación cívica
+
+| Atribución | Descripción |
+|------------|-------------|
+| **Promover el uso de los canales** | Que la gente sepa que puede hablarle al SIC, cómo hacerlo, y qué va a pasar con lo que diga |
+| **Capacitar a funcionarios** | Entrenar a servidores públicos en el uso del agente institucional y en la interpretación de reportes de IC |
+| **Facilitar co-diseño** | Organizar talleres, sesiones y procesos participativos para mejorar el sistema con la propia ciudadanía |
+| **Publicar hallazgos accesibles** | Producir versiones ciudadanas de los reportes de IC — claras, visuales, en lenguaje de la gente |
+
+### 5.3 Límites del Mandato (Lo que NO hace)
+
+- **No ejecuta políticas públicas** — genera inteligencia y asesora, pero la decisión es del gobierno
+- **No toma decisiones vinculantes** — recomienda con evidencia, no obliga
+- **No sustituye a la Secretaría de Planeación** — el Instituto piensa en el futuro, la Secretaría planea y ejecuta. El Instituto produce insumos, la Secretaría los usa
+- **No sustituye instancias de gobierno** — complementa a las secretarías y consejos, no los reemplaza
+- **No hace campañas políticas** — neutralidad estricta; evidencia sobre ideología
+- **No vende datos personales** — los datos son propiedad pública; el Instituto es custodio bajo LFPDPPP
+- **No promete implementar propuestas individuales** — se compromete a escuchar, procesar, canalizar e informar
+
+### 5.4 Relación con el Gobierno
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -292,20 +348,26 @@ El Instituto opera bajo el marco de **Horizons Architecture**, con cada área al
 
     CIUDADANÍA                    INSTITUTO                    GOBIERNO
         │                             │                            │
-        │  Ideas, propuestas          │                            │
+        │  Experiencias, propuestas,  │                            │
+        │  quejas, oportunidades      │                            │
         │─────────────────────────────>│                            │
         │                             │                            │
-        │                             │  Inteligencia colectiva    │
+        │                             │  Inteligencia procesada    │
+        │                             │  (reportes, alertas,       │
+        │                             │   análisis bajo demanda)   │
         │                             │────────────────────────────>│
         │                             │                            │
+        │  Canalización + seguimiento │                            │
+        │<─────────────────────────────│                            │
         │                             │     Solicitud de análisis  │
-        │                             │<────────────────────────────│
-        │                             │                            │
-        │                             │  Reportes y recomendaciones│
+        │  Valor directo (info,       │<────────────────────────────│
+        │  becas, servicios)          │                            │
+        │<─────────────────────────────│  Recomendaciones + eval.  │
         │                             │────────────────────────────>│
         │                             │                            │
         │                             │        Decisión y respuesta│
-        │  Feedback sobre su idea     │<────────────────────────────│
+        │  "Esto escuchamos,          │<────────────────────────────│
+        │   así decidimos"            │                            │
         │<─────────────────────────────│                            │
         │                             │                            │
 ```
