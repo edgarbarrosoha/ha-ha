@@ -21,7 +21,7 @@ El SIC se ha planteado erróneamente como una **plataforma de participación ciu
 
 ## Lo que el SIC realmente es
 
-El SIC es un **Sistema de Inteligencia Colectiva**: un sistema multicanal capaz de recopilar, procesar y generar inteligencia a partir de información ciudadana a través de múltiples herramientas e interfaces. Por ejemplo, podrías usar el SIC para recopilar información de un taller participativo, pero el SIC no *es* ese taller.
+El SIC es un **Sistema de Inteligencia Colectiva**: un sistema multicanal capaz de recopilar, procesar y generar inteligencia a partir de información múltiple con diversas herramientas e interfaces. Por ejemplo, podrías usar el SIC para recopilar información de un taller participativo, pero el SIC no *es* ese taller.
 
 La diferencia es fundamental: el SIC no depende de que los ciudadanos vengan a él — el SIC **va hacia donde ya está la información**.
 
@@ -43,10 +43,10 @@ Las instancias 2 y 3 alimentan a la instancia 1. La 1 procesa y genera inteligen
 
 ## Dos usuarios, un sistema
 
-| Usuario | Representado por | Rol |
-|---------|-----------------|-----|
-| **Gobierno** | Secretaría de Planeación y Participación Ciudadana + Instituto del Futuro | Consumidor de inteligencia (Secretaría para planeación, IF para prospectiva) + usuario de herramientas de recopilación |
-| **Ciudadanía** | Todos los ciudadanos (primera fase: los que ya participan — consejos de participación, Dirección de Participación Ciudadana) | Fuente de información y beneficiario de servicios |
+| Usuario        | Representado por                                                                                                             | Rol                                                                                                                    |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| **Gobierno**   | Secretaría de Planeación y Participación Ciudadana + Instituto del Futuro                                                    | Consumidor de inteligencia (Secretaría para planeación, IF para prospectiva) + usuario de herramientas de recopilación |
+| **Ciudadanía** | Todos los ciudadanos (primera fase: los que ya participan — consejos de participación, Dirección de Participación Ciudadana) | Fuente de información y beneficiario de servicios                                                                      |
 
 ## Las tres etapas
 
