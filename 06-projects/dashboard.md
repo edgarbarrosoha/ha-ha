@@ -15,21 +15,16 @@ type: clock
 
 # Priorities
 
-- [!] SIC-Q: Redactar propuesta v06 con replanteamiento de 3 etapas acumulativas
-- [!] SIC-Q: Mapear datos existentes del gobierno para Etapa 1 (Agente SIC-Q Institucional)
-- [!] Docet-Agentic: Obtener aprobación Fase 1 de Alfonso Romo (BLOCKER)
+- [ ] Poner comentarios a la nota metodológica del programa de gobierno
 - [ ] Learning Products: Diseñar System Map Canvas y Positionality Map
 - [ ] TEC Monterrey: Incorporar feedback de JP cuando llegue
 - [ ] UPU: Finalizar UI/UX y continuar desarrollo frontend
 
 ---
-
 # To dos
-
-- [x] SIC-Q: Citizens Journey v04 (simplificación 11→5 fases)
-- [x] SIC-Q: Replanteamiento estratégico (3 etapas acumulativas)
-- [!] SIC-Q: Propuesta v06 con replanteamiento
-- [ ] SIC-Q: Co-diseño con 3 grupos académicos (inicia feb 2026)
+- [ ] Hablar al INE 
+- [ ] Actualizar las clases de Notion de la clase de IA
+- [ ] Hacer la presentación de Tec Beyond
 - [ ] SIC-Q: @draft pilot consultation flow
 - [ ] Docet: Seguimiento con Eliud — perfiles, funciones, data
 - [ ] HA-Core: Organizar panel EBCT

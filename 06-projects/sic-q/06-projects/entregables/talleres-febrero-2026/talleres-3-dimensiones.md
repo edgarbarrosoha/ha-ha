@@ -83,8 +83,8 @@ Ambos talleres trabajan las mismas 3 dimensiones, pero con diferente profundidad
 |Hora|Actividad|Duración|Responsable|
 |---|---|---|---|
 |16:00|Llegada y registro|10 min|Logística|
-|16:10|**Bienvenida** — ¿Por qué estamos aquí?|10 min|Antonio Rangel|
-|16:20|**Presentación SIC-Q** — Qué es (y qué no es), cómo funciona, qué puede hacer la IA|20 min|Edgar / HA|
+|16:10|**Bienvenida** — ¿Por qué estamos aquí?|5 min|Antonio Rangel|
+|16:15|**Presentación SIC-Q** — Qué es (y qué no es), cómo funciona, qué puede hacer la IA|25 min|Edgar / HA|
 |16:40|Warm-up: _"En una palabra, ¿qué esperan de hoy?"_|5 min|Edgar / HA|
 
 ### BLOQUE 2: Configuración de mesas (10 min)
@@ -93,22 +93,20 @@ Ambos talleres trabajan las mismas 3 dimensiones, pero con diferente profundidad
 |---|---|---|---|
 |16:45|Transición a mesas + presentaciones breves|10 min|Moderadores|
 
-### BLOQUE 3: Trabajo en dimensiones (90 min)
+### BLOQUE 3: Trabajo en dimensiones (75 min)
 
 | Hora  | Actividad                                                                           | Duración | Responsable |
 | ----- | ----------------------------------------------------------------------------------- | -------- | ----------- |
 | 16:55 | **LEGADO** — ¿Qué se vuelve posible?                                    | 25 min   | Mesas       |
 | 17:20 | **COMUNIDAD** — Red de nodos: ¿quién participa? ¿quién falta? ¿Cómo nos conectamos? | 30 min   | Mesas       |
-| 17:50 | **BREAK** — Café y estiramiento                                                     | 10 min   | —           |
-| 18:00 | **CONTEXTO** — Mapa de fuerzas: qué aprovechar vs. qué construir                    | 20 min   | Mesas       |
-| 18:20 | Integración: conexiones entre dimensiones                                           | 5 min    | Mesas       |
+| 17:50 | **CONTEXTO** — Mapa de fuerzas: qué aprovechar vs. qué construir                    | 20 min   | Mesas       |
 
-### BLOQUE 4: Galería y votación (15 min)
+### BLOQUE 4: Coffee break y galería (30 min)
 
 |Hora|Actividad|Duración|Responsable|
 |---|---|---|---|
-|18:25|Paseo por la galería — stickers en ideas que resuenan|10 min|Todos|
-|18:35|Regreso a asientos|5 min|—|
+|18:10|**Coffee break** — Café y socialización. Equipo IA procesa las 3 dimensiones.|15 min|—|
+|18:25|Paseo por la galería — stickers en ideas que resuenan|15 min|Todos|
 
 ### BLOQUE 5: Síntesis y cierre (50 min)
 
@@ -214,8 +212,8 @@ Ambos talleres trabajan las mismas 3 dimensiones, pero con diferente profundidad
 |Hora|Actividad|Duración|Responsable|
 |---|---|---|---|
 |16:00|Llegada y registro|10 min|Logística|
-|16:10|**Bienvenida** — ¿Por qué estamos aquí?|10 min|Antonio Rangel|
-|16:20|**Presentación SIC-Q** — Qué es, cómo funciona, qué puede hacer la IA|20 min|Edgar / HA|
+|16:10|**Bienvenida** — ¿Por qué estamos aquí?|5 min|Antonio Rangel|
+|16:15|**Presentación SIC-Q** — Qué es, cómo funciona, qué puede hacer la IA|25 min|Edgar / HA|
 |16:40|Warm-up: _"¿Qué ha funcionado y qué no en participación ciudadana?"_|5 min|Facilitador|
 
 ### BLOQUE 2: Configuración de mesas (10 min)
@@ -224,22 +222,20 @@ Ambos talleres trabajan las mismas 3 dimensiones, pero con diferente profundidad
 |---|---|---|---|
 |16:45|Transición a mesas + presentaciones breves|10 min|Moderadores|
 
-### BLOQUE 3: Trabajo en dimensiones (90 min)
+### BLOQUE 3: Trabajo en dimensiones (75 min)
 
 | Hora  | Actividad                                                 | Duración | Responsable |
 | ----- | --------------------------------------------------------- | -------- | ----------- |
 | 16:55 | **LEGADO** — ¿Qué se vuelve posible?          | 25 min   | Mesas       |
 | 17:20 | **COMUNIDAD** — Red de nodos: actores internos y externos | 20 min   | Mesas       |
-| 17:40 | **BREAK** — Café y estiramiento                           | 10 min   | —           |
-| 17:50 | **CONTEXTO** — Mapa de fuerzas + "lecciones aprendidas"   | 30 min   | Mesas       |
-| 18:20 | Integración: ¿qué necesita pasar para que esto funcione?  | 5 min    | Mesas       |
+| 17:40 | **CONTEXTO** — Mapa de fuerzas + "lecciones aprendidas"   | 30 min   | Mesas       |
 
-### BLOQUE 4: Galería y votación (15 min)
+### BLOQUE 4: Coffee break y galería (30 min)
 
 |Hora|Actividad|Duración|Responsable|
 |---|---|---|---|
-|18:25|Paseo por la galería — stickers en ideas que resuenan|10 min|Todos|
-|18:35|Regreso a asientos|5 min|—|
+|18:10|**Coffee break** — Café y socialización. Equipo IA procesa las 3 dimensiones.|15 min|—|
+|18:25|Paseo por la galería — stickers en ideas que resuenan|15 min|Todos|
 
 ### BLOQUE 5: Síntesis y cierre (50 min)
 
@@ -470,7 +466,7 @@ Al terminar cada dimensión:
 |COMUNIDAD|Listar clusters identificados. Notar cuáles se repiten entre mesas. Marcar ausencias.|
 |CONTEXTO|Listar qué aprovechar y qué construir. Identificar los más votados. Extraer lecciones aprendidas (si aplica).|
 
-**Durante el break (~17:45):** Preparar borrador de síntesis con lo que tienen hasta ese momento. (Ciudadanía: 17:50-18:00 | Servidores: 17:40-17:50)
+**Durante el break (18:10–18:25):** Preparar borrador de síntesis con lo producido en las 3 dimensiones.
 
 **Síntesis final (mientras termina la galería):** Generar el input para el agente SIC-Q con:
 
