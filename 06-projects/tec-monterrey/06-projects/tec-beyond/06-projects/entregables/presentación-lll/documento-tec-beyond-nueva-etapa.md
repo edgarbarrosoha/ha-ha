@@ -34,6 +34,32 @@ Tec Beyond no es una idea. Es un programa con casi una década de resultados:
 
 El programa funciona. Los empresarios lo valoran. Lo recomiendan. Regresan a eventos de generaciones anteriores. Eso no se inventa — se construye a lo largo de años.
 
+```
+                                    Gen 1       Gen 2
+                                   ╱    ╲      ╱    ╲
+                              ●  ●  ●  ●  ●  ●  ●  ●
+                                 ╲   ╲  │  ╱   ╱
+                     Gen 3        ╲   ╲ │ ╱   ╱        Gen 4
+                    ╱    ╲         ╲   ╲│╱   ╱        ╱    ╲
+               ●  ●  ●  ● ─────────◉◉◉◉◉──────── ●  ●  ●  ●
+                                    A D N
+               ●  ●  ●  ● ─────────◉◉◉◉◉──────── ●  ●  ●  ●
+                    ╲    ╱         ╱   ╱│╲   ╲        ╲    ╱
+                     Gen 5        ╱   ╱ │ ╲   ╲        Gen 6
+                              ●  ●  ●  ●  ●  ●  ●  ●
+                                 ╱   ╱  │  ╲   ╲
+                                    Gen 7       Gen 8
+                                   ╱    ╲      ╱    ╲
+                              ●  ●  ●  ●  ●  ●  ●  ●
+
+                                    Gen 9 ···  Gen N
+                                  (futuras)
+
+              350 empresarios → 700 con familias → 3,000 con colaboradores
+```
+
+Tec Beyond no es una lista de egresados — es un organismo que crece con cada generación. En el centro está el ADN del programa: valores, metodología, identidad. Cada generación se conecta al centro y a las demás. Con el tiempo, la red se vuelve más densa y más valiosa.
+
 ### El problema feliz
 
 Lo que tiene el Tec de Monterrey con Tec Beyond es lo que podríamos llamar un **problema feliz**: ¿cómo capitalizar y expandir algo que ya se construyó con éxito durante casi 10 años?
@@ -42,35 +68,70 @@ Hoy, cuando un empresario termina el programa, las relaciones que formó quedan 
 
 Ahí hay un valor enorme sin activar. Y activarlo es exactamente lo que Lifelong Learning puede significar para esta comunidad.
 
-### Por qué esto importa para Lifelong Learning
-
-Tec Beyond puede ser un **primer caso de éxito tangible** para la estrategia de Lifelong Learning del Tec de Monterrey, y lo puede ser rápidamente, porque:
-
-1. **La comunidad ya existe.** No hay que construirla. Hay 350 empresarios, 700 personas con familias, y 3,000 impactadas a través de las células de innovación. Ya confían en el Tec y ya se conocen entre sí.
-
-2. **El valor ya está probado.** Los empresarios regresan, recomiendan el programa, participan en eventos de otras generaciones. Eso es lealtad genuina.
-
-3. **La infraestructura conceptual ya está.** El programa tiene metodología, tiene formato, tiene rituales, tiene identidad. No se parte de cero.
-
-4. **La inteligencia artificial es el catalizador natural.** El mandato de Lifelong Learning incluye el uso de IA en los procesos educativos. Tec Beyond es un campo ideal para aplicarla: una comunidad activa, con datos ricos, que necesita conexiones inteligentes y contenido personalizado.
-
-5. **Es escalable.** Lo que funciona en León se puede replicar en Chihuahua, Aguascalientes, Guadalajara, Laguna y cualquier campus que lo adopte — sin reinventar cada vez.
-
 ### Lo que se ha aprendido en 10 años
 
 El Consejo del Campus León y el equipo operativo han acumulado conocimiento valioso que no está documentado en ningún manual, pero que es real:
 
-- **La innovación no es lo único que buscan los empresarios.** El 80% quiere contactos útiles, oportunidades de negocio y acceso a una red de alto nivel. La innovación es el vehículo, pero el valor está en la comunidad.
+```
+    ┌──────────────────────────────────────────────────────────────┐
+    │                                                              │
+    │   La innovación no es lo único que buscan los empresarios.   │
+    │   El 80% quiere CONTACTOS ÚTILES, OPORTUNIDADES DE NEGOCIO  │
+    │   y acceso a una red de alto nivel. La innovación es el      │
+    │   vehículo, pero el valor está en la comunidad.              │
+    │                                                              │
+    │   La EXPERIENCIA PRESENCIAL es irremplazable. Lo que más     │
+    │   recuerda la gente no son las clases, sino los momentos     │
+    │   compartidos. Los rituales importan.                        │
+    │                                                              │
+    │   Las CÉLULAS DE INNOVACIÓN funcionan. Cuando los            │
+    │   colaboradores de un empresario participan, el impacto      │
+    │   se multiplica dentro de la empresa.                        │
+    │                                                              │
+    │   La AGENDA FAMILIAR genera lealtad. Incluir a la familia    │
+    │   no es un accesorio — es un diferenciador que genera        │
+    │   compromiso profundo.                                       │
+    │                                                              │
+    │   La red SE ENFRÍA SIN SISTEMA. Sin un mecanismo activo      │
+    │   que mantenga las conexiones vivas, la comunidad se         │
+    │   vuelve pasiva después del programa.                        │
+    │                     ◄── esto es lo que la nueva etapa        │
+    │                         resuelve                             │
+    │                                                              │
+    └──────────────────────────────────────────────────────────────┘
+```
 
-- **La experiencia presencial es irremplazable.** Lo que más recuerda la gente no son las clases, sino los momentos compartidos. Los rituales importan.
+Ese último punto es clave. Y es precisamente lo que Lifelong Learning puede resolver.
 
-- **Las células de innovación funcionan.** Cuando los colaboradores de un empresario participan, el impacto se multiplica dentro de la empresa.
+### Por qué esto importa para Lifelong Learning
 
-- **La agenda familiar genera lealtad.** Incluir a la familia no es un accesorio — es un diferenciador que genera compromiso profundo.
+Con todo esto encima de la mesa, Tec Beyond puede ser un **primer caso de éxito tangible** para la estrategia de Lifelong Learning del Tec de Monterrey, y lo puede ser rápidamente, porque:
 
-- **La red se enfría sin sistema.** Sin un mecanismo activo que mantenga las conexiones vivas, la comunidad se vuelve pasiva después del programa.
-
-Este último punto es precisamente lo que la nueva etapa resuelve.
+```
+    ┌──────────────────────────────────────────────────────────────┐
+    │                                                              │
+    │   1. La comunidad YA EXISTE.                                 │
+    │      No hay que construirla. 350 empresarios, 700 con        │
+    │      familias, 3,000 con colaboradores.                      │
+    │                                                              │
+    │   2. El valor YA ESTÁ PROBADO.                               │
+    │      Los empresarios regresan, recomiendan, participan       │
+    │      en eventos de otras generaciones.                       │
+    │                                                              │
+    │   3. La infraestructura conceptual YA ESTÁ.                  │
+    │      Metodología, formato, rituales, identidad.              │
+    │      No se parte de cero.                                    │
+    │                                                              │
+    │   4. La IA ES EL CATALIZADOR NATURAL.                        │
+    │      El mandato de LLL incluye IA. Tec Beyond es             │
+    │      el campo ideal: comunidad activa, datos ricos.          │
+    │                                                              │
+    │   5. ES ESCALABLE.                                           │
+    │      Lo que funciona en León se replica en cualquier         │
+    │      campus — sin reinventar cada vez.                       │
+    │                                                              │
+    └──────────────────────────────────────────────────────────────┘
+```
 
 ### La ventana competitiva
 
@@ -80,41 +141,59 @@ El Tec de Monterrey ya tiene esto. Otras universidades no.
 
 Pero esa ventaja no es permanente. Si no se activa y se expande esta comunidad con las herramientas que hoy existen, **otras instituciones lo harán** — con sus propios programas, con sus propias plataformas, con su propia tecnología.
 
-Actuar ahora no es solo una oportunidad. Es una decisión estratégica para proteger y potenciar un activo que tardó una década en construirse.
+```
+    ┌─────────────────────────────────────────────────────────┐
+    │                                                         │
+    │   HOY                              MAÑANA               │
+    │                                                         │
+    │   El Tec tiene una                 Otras universidades  │
+    │   comunidad que tardó              construirán sus       │
+    │   10 AÑOS en construir.            propias comunidades   │
+    │                                    con sus propias       │
+    │   350 empresarios.                 plataformas.          │
+    │   9 generaciones.                                        │
+    │   Confianza real.                  La ventaja del Tec    │
+    │                                    no es permanente.     │
+    │                                                         │
+    │   ══════════════════════════════════════════════════     │
+    │   Actuar ahora es una decisión ESTRATÉGICA               │
+    │   para proteger y potenciar un activo que                │
+    │   tardó una década en construirse.                       │
+    │                                                         │
+    └─────────────────────────────────────────────────────────┘
+```
 
 ---
 
 ## II. Gobernanza: cómo funciona la nueva etapa
 
-Una de las preguntas más importantes de este proyecto es cómo se gobierna. ¿Quién decide qué? ¿De quién son los datos? ¿Cómo se relacionan el Consejo de León, el Tec y los propios empresarios?
+Una de las preguntas más importantes de este proyecto es cómo se gobierna. ¿Quién decide qué? ¿De quién son los datos? ¿Cómo se relacionan los empresarios, el Tec y la tecnología?
 
-La propuesta se organiza en **tres círculos concéntricos**, cada uno con un rol claro.
+La propuesta se organiza en **tres círculos concéntricos**. El orden importa: la comunidad está en el centro, porque es la comunidad la que le da vida a todo lo demás.
 
-### Círculo 1: El órgano de dirección
+### Círculo 1: XBAC, Comunidad Beyond y Lifelong Learning
 
-**Quiénes:** El Consejo del Campus León y el área de Lifelong Learning del Tec de Monterrey.
+**Quiénes:** Los empresarios y empresarias de Tec Beyond — a través de XBAC y el Consejo de Comunidad Beyond (representantes de cada generación) — junto con el área de Lifelong Learning del Tec de Monterrey.
 
-**Qué hacen:** Toman las decisiones estratégicas del programa. Definen visión, reglas, expansión, y validan los contenidos y la dirección de la plataforma.
+**Qué hacen:** Son el núcleo del programa. Definen la visión, las prioridades y las reglas de la comunidad. Deciden qué se necesita, qué temas son relevantes, qué dirección toma el programa. Lifelong Learning aporta la estructura educativa y el alcance institucional.
 
-**Por qué esta composición:** El Consejo de León fue quien creó Tec Beyond hace casi 10 años. Conoce la comunidad, entiende a los empresarios, y ha sido el motor del programa. Lifelong Learning aporta el respaldo institucional, el alcance nacional y la visión educativa del Tec. Juntos, representan la alianza entre la práctica empresarial y la institución educativa.
+**Por qué están en el centro:** Porque Tec Beyond existe gracias a los empresarios que lo construyeron. El Consejo del Campus León fue quien inició el programa hace casi 10 años. Los representantes de cada generación aseguran que la voz de la comunidad se renueve conforme crecen. Y Lifelong Learning es el brazo del Tec que convierte esa energía empresarial en un modelo educativo sostenible.
 
-Esta alianza no es nueva — es la misma que hizo posible Tec Beyond desde el principio. Lo que cambia es que ahora se formaliza para una escala mayor.
+Este círculo tiene **acceso completo a la información** de toda la comunidad. Es el órgano que gobierna los datos, la estrategia y las decisiones fundamentales.
 
-### Círculo 2: El Consejo de Comunidad Beyond
+### Círculo 2: Tec de Monterrey (Grupo Educativo)
 
-**Quiénes:** Representantes de cada generación de Tec Beyond.
+**Quién:** El Tec de Monterrey como institución — su infraestructura, sus estándares, su alcance.
 
-**Qué hacen:** Aportan la voz de la comunidad. Proponen temas, validan prioridades, identifican necesidades emergentes, y aseguran que cada generación se sienta representada conforme el programa crece.
+**Qué aporta:** El respaldo institucional que hace posible que este proyecto opere a escala nacional. La infraestructura tecnológica donde viven los datos. Los estándares de seguridad y privacidad. La marca y la reputación que le dan credibilidad al programa.
 
-**Por qué importa:** En una comunidad que abarca 9 generaciones y múltiples ciudades, es fundamental que los miembros no sean solo usuarios de una plataforma — sino que participen en las decisiones que los afectan. Este consejo es el mecanismo para lograrlo.
+**Por qué importa:** Sin el Tec, Tec Beyond no podría escalar más allá de una iniciativa local. El Tec es el aliado estratégico que aporta lo que ninguna comunidad empresarial puede generar sola: alcance, infraestructura y legitimidad institucional.
 
-A medida que se sumen nuevas generaciones, el Consejo de Comunidad se renueva naturalmente. Eso mantiene al programa vivo y relevante.
+**Los datos son del Tec.** Viven en la infraestructura del Tec. Los estándares de seguridad los define el Tec. Se propone que haya una contraparte institucional del Tec — como Gerardo Martínez u otra persona designada — que trabaje directamente con el equipo tecnológico para asegurar que todo cumpla con los estándares de la institución. Esto no es un proyecto que opera por fuera: opera dentro del Tec, con las reglas del Tec.
 
-### Círculo 3: La capa de inteligencia artificial
+### Círculo 3: La capa de inteligencia artificial (Horizons Architecture)
 
-**Qué es:** La infraestructura tecnológica que procesa información, genera conexiones, personaliza contenidos y produce inteligencia estratégica.
-
-**Dónde vive:** En la infraestructura del Tec de Monterrey. Los datos residen en servidores del Tec. Los estándares de seguridad y privacidad los define el Tec. El control de la información es del Tec.
+**Qué es:** La infraestructura tecnológica que procesa información, genera conexiones, personaliza contenidos y produce inteligencia estratégica para los dos círculos anteriores.
 
 **Qué hace:**
 
@@ -127,92 +206,386 @@ A medida que se sumen nuevas generaciones, el Consejo de Comunidad se renueva na
 
 Esta capa no reemplaza la experiencia presencial ni las relaciones humanas. Las potencia. Hace visible lo que de otra manera sería imposible ver en una red de cientos de personas distribuidas en múltiples ciudades.
 
+```
+     Gen 1    Gen 2    Gen 3    Gen 4    Gen 5    Gen 6    Gen 7    Gen 8    Gen 9
+      ●●●      ●●●      ●●●      ●●●      ●●●      ●●●      ●●●      ●●●      ●●●
+       │         │         │         │         │         │         │         │         │
+       └─────────┴─────────┴─────────┴────┬────┴─────────┴─────────┴─────────┘         │
+                                          │                                            │
+                                          ▼                                            │
+                                ┌───────────────────┐                                  │
+                                │                   │◄─────────────────────────────────┘
+                                │      BASE DE      │
+                                │   CONOCIMIENTO    │◄─── futuras generaciones
+                                │                   │
+                                │  perfiles         │
+                                │  industrias       │
+                                │  intereses        │
+                                │  interacciones    │
+                                └─────────┬─────────┘
+                                          │
+                       ┌──────────┬───────┴───────┬──────────┐
+                       │          │               │          │
+                       ▼          ▼               ▼          ▼
+                   ┌────────┐ ┌────────┐    ┌────────┐ ┌────────┐
+                   │ MATCH  │ │CONTENIDO│   │ SCOUT  │ │INSIGHTS│
+                   │        │ │        │    │        │ │        │
+                   │Conexión│ │Cursos y │    │Detecta │ │Reportes│
+                   │  de    │ │contenido│    │futuros │ │  para  │
+                   │negocio │ │personal.│    │candid. │ │Consejo │
+                   └───┬────┘ └───┬────┘    └───┬────┘ └───┬────┘
+                       │          │              │          │
+                       ▼          ▼              ▼          ▼
+                  Oportunidades  Aprendizaje   Pipeline   Hallazgos
+                  de negocio     a la medida   de talento  estratégicos
+```
+
 ### Los tres círculos en conjunto
 
 ```
-        ┌─────────────────────────────────────────────┐
-        │         CÍRCULO 1: DIRECCIÓN                │
-        │     Consejo Campus León + Lifelong Learning │
-        │     (Decisiones estratégicas)               │
-        │                                             │
-        │    ┌───────────────────────────────────┐    │
-        │    │    CÍRCULO 2: COMUNIDAD           │    │
-        │    │    Representantes generacionales   │    │
-        │    │    (Voz de los empresarios)        │    │
-        │    │                                    │    │
-        │    │   ┌──────────────────────────┐     │    │
-        │    │   │   CÍRCULO 3: IA          │     │    │
-        │    │   │   Infraestructura Tec    │     │    │
-        │    │   │   (Inteligencia y datos) │     │    │
-        │    │   └──────────────────────────┘     │    │
-        │    │                                    │    │
-        │    └───────────────────────────────────┘    │
-        │                                             │
-        └─────────────────────────────────────────────┘
+  ┌──────────────────────────────────────────────────────┐
+  │  CÍRCULO 1: LA COMUNIDAD                             │
+  │  XBAC + Comunidad Beyond + Lifelong Learning         │
+  │  (Visión, decisiones, gobierno de datos)             │
+  │                                                      │
+  │   ┌────────────────────────────────────────────┐     │
+  │   │ CÍRCULO 2: GRUPO EDUCATIVO TEC DE MONTERREY|     │     
+  │   │  Infraestructura, estándares, alcance      │     │
+  │   │  (Respaldo institucional)                  │     │
+  │   │                                            │     │
+  │   │   ┌──────────────────────────────────┐     │     │
+  │   │   │  CÍRCULO 3: INTELIGENCIA         │     │     │
+  │   │   │  ARTIFICIAL                      │     │     │
+  │   │   │  Horizons Architecture           │     │     │
+  │   │   │  (Conectar, personalizar,        │     │     │
+  │   │   │   detectar, informar)            │     │     │
+  │   │   └──────────────────────────────────┘     │     │
+  │   │                                            │     │
+  │   └────────────────────────────────────────────┘     │
+  │                                                      │
+  └──────────────────────────────────────────────────────┘
 ```
+
+---
+
+### Cómo la arquitectura permite diferentes niveles de acceso
+
+Un aspecto central que resuelve Horizons Architecture es la **privacidad y el control de acceso** a la información. En una comunidad que crece a múltiples ciudades, no todos pueden — ni deben — ver todo. Al mismo tiempo, el valor de la red está en poder conectarse con las personas correctas.
+
+HA resuelve esto con una **estructura fractal de instancias**: cada sede o grupo de Tec Beyond opera como una instancia del mismo sistema, con sus propios permisos y niveles de acceso.
+
+```
+                        ┌─────────────────────────────────────┐
+                        │         CÍRCULO 1                   │
+                        │  XBAC + Comunidad Beyond + LLL      │
+                        │                                     │
+                        │  ACCESO TOTAL                       │
+                        │  Toda la red. Todos los datos.      │
+                        │  Reportes nacionales. Decisiones.   │
+                        └──────────────────┬──────────────────┘
+                                           │
+                        ┌──────────────────┴──────────────────┐
+                        │         CÍRCULO 2                   │
+                        │      Tec de Monterrey               │
+                        │                                     │
+                        │  INFRAESTRUCTURA                    │
+                        │  Servidores. Seguridad. Estándares. │
+                        │  Contraparte: Gerardo Martínez      │
+                        └──────────────────┬──────────────────┘
+                                           │
+              ┌────────────┬───────────────┼───────────────┬────────────┐
+              │            │               │               │            │
+              ▼            ▼               ▼               ▼            ▼
+        ┌──────────┐ ┌──────────┐   ┌──────────┐   ┌──────────┐ ┌ ─ ─ ─ ─ ┐
+        │  LEÓN    │ │ MORELIA  │   │CHIHUAHUA │   │  AGUAS-  │   Nuevas
+        │          │ │          │   │          │   │ CALIENTES│   sedes
+        │ Admin:   │ │ Admin:   │   │ Admin:   │   │ Admin:   │ │ ···     │
+        │ ve León  │ │ve Morelia│   │ve Chihua.│   │ ve Aguas │
+        │          │ │          │   │          │   │          │ └ ─ ─ ─ ─ ┘
+        │ ● ● ●   │ │ ● ● ●   │   │ ● ● ●   │   │ ● ● ●   │
+        │ ● ● ●   │ │ ● ● ●   │   │ ● ● ●   │   │ ● ●     │
+        │ miembros │ │ miembros │   │ miembros │   │ miembros │
+        └──────────┘ └──────────┘   └──────────┘   └──────────┘
+              │            │               │
+              └──── ◇ ─────┴─────── ◇ ─────┘
+                   match          match
+              (membresía       (membresía
+               ampliada)        ampliada)
+```
+
+**Cómo funciona en la práctica:**
+
+| Nivel | Qué ve | Ejemplo |
+|---|---|---|
+| **Círculo 1** (XBAC + Comunidad Beyond + LLL) | Toda la información de toda la red | Reportes nacionales, tendencias, patrones entre sedes |
+| **Administrador de sede** | La información de su sede | El coordinador de Morelia ve a los miembros de Morelia |
+| **Miembro local** | Su propia sede, perfiles anonimizados | Ve su comunidad, puede pedir conexiones dentro de su ciudad |
+| **Miembro con membresía ampliada** | Cruces entre sedes, perfiles anonimizados | Puede buscar conexiones en León, Chihuahua o cualquier otra sede |
+
+**El problema que esto resuelve:** Sin esta estructura, la alternativa sería un grupo de WhatsApp donde a todos les llega todo — ruido, conversaciones que no les interesan, información que no les es relevante. Eso mata comunidades.
+
+Con la estructura de instancias, cada persona recibe lo que le es útil. Las conexiones entre miembros de distintas sedes ocurren solo cuando hay un match real — identificado por la inteligencia artificial, validado por el sistema, y activado con el consentimiento de ambas partes.
+
+**Cómo funciona el matching:**
+
+```
+       LEÓN                    MORELIA                CHIHUAHUA
+    ┌──────────┐            ┌──────────┐           ┌──────────┐
+    │ #217 ●   │            │ #302 ●   │           │ #445 ●   │
+    │ #089 ●   │            │ #341 ●   │           │ #478 ●   │
+    │ #156 ●   │            │          │           │          │
+    │  ...     │            │  ...     │           │  ...     │
+    └────┬─────┘            └────┬─────┘           └────┬─────┘
+         │                       │                      │
+         │    perfiles           │   perfiles           │   perfiles
+         │   anonimizados        │  anonimizados        │  anonimizados
+         │                       │                      │
+         └───────────────────────┼──────────────────────┘
+                                 │
+                                 ▼
+                    ┌─────────────────────────┐
+                    │    AGENTE MATCH         │
+                    │                         │
+                    │  Analiza:               │
+                    │  · industrias           │
+                    │  · capacidades          │
+                    │  · necesidades          │
+                    │  · ubicación            │
+                    └────────────┬────────────┘
+                                 │
+                                 ▼
+                    ┌─────────────────────────┐
+                    │  HALLAZGO:              │
+                    │                         │
+                    │  "El miembro #217       │
+                    │   (manufactura, León)   │
+                    │   y el miembro #478     │
+                    │   (distribución,        │
+                    │    Chihuahua)           │
+                    │   tienen un match."     │
+                    │                         │
+                    │  ¿Conectar?             │
+                    │  Solo si ambos aceptan. │
+                    └─────────────────────────┘
+
+    SIN consentimiento mutuo → nadie sabe nada
+    CON consentimiento mutuo → se hace la introducción
+```
+
+1. El sistema analiza perfiles, industrias, capacidades y necesidades de toda la red.
+2. Identifica oportunidades de conexión entre miembros — de la misma sede o de sedes distintas.
+3. Presenta las oportunidades de forma **anonimizada**: "Hay una persona en otra ciudad con un perfil complementario al tuyo en el sector logístico. ¿Te interesa explorar la conexión?"
+4. Solo si ambas partes aceptan, se hace la introducción.
+5. Nadie ve información de nadie sin consentimiento mutuo.
+
+Esto convierte a la comunidad en un espacio donde las conexiones son intencionales, relevantes y respetuosas de la privacidad de cada miembro.
+
+**La membresía define el alcance:** Un miembro con acceso local ve oportunidades en su ciudad. Un miembro con membresía ampliada puede acceder a matches en toda la red nacional. Esto genera un modelo natural de suscripción donde el valor percibido corresponde al nivel de acceso — y el acceso siempre pasa por el filtro de la inteligencia artificial para que sea relevante, no ruido.
+
+### Cómo funciona todo junto
+
+Hasta aquí el lector conoce las piezas: los tres círculos, los niveles de acceso, los agentes, el matching. Esta es la vista completa — cómo fluye todo de punta a punta:
+
+```
+    PRESENCIAL                      EN LÍNEA
+    ┌────────────────┐              ┌────────────────┐
+    │ Eventos        │              │ Plataforma     │
+    │ Reuniones      │              │ WhatsApp       │
+    │ Silicon Valley │              │ Agentes IA     │
+    │ Rituales       │              │ Contenidos     │
+    └───────┬────────┘              └───────┬────────┘
+            │                               │
+            └───────────────┬───────────────┘
+                            │
+                            ▼
+                ┌───────────────────────┐
+                │                       │
+                │    BASE DE            │
+                │    CONOCIMIENTO       │
+                │                       │
+                │    Todas las          │
+                │    generaciones       │
+                │    Todos los datos    │
+                │    Todas las          │
+                │    interacciones      │
+                │                       │
+                └───────────┬───────────┘
+                            │
+               ┌────────────┼────────────┐
+               │            │            │
+               ▼            ▼            ▼
+          ┌─────────┐ ┌─────────┐ ┌─────────┐
+          │  MATCH  │ │CONTENIDO│ │  SCOUT  │
+          │         │ │PERSONAL.│ │         │
+          │Conexión │ │         │ │Detección│
+          │  de     │ │Cursos a │ │  de     │
+          │negocio  │ │la medida│ │candidat.│
+          └────┬────┘ └────┬────┘ └────┬────┘
+               │           │           │
+               └───────────┼───────────┘
+                           │
+                           ▼
+              ┌─────────────────────────┐
+              │                         │
+              │   HALLAZGOS             │
+              │                         │
+              │   Para el Consejo:      │
+              │   · Tendencias          │
+              │   · Patrones            │
+              │   · Oportunidades       │
+              │   · Vocación por sede   │
+              │   · Conexiones hechas   │
+              │                         │
+              │   XBAC + Comunidad      │
+              │   Beyond + LLL          │
+              │                         │
+              └─────────────────────────┘
+```
+
+Todo lo que pasa presencialmente y en línea alimenta la base de conocimiento. Los agentes procesan esa información y generan valor concreto: conexiones de negocio, contenido personalizado, detección de candidatos. Y los hallazgos estratégicos llegan al Círculo 1 — XBAC, Comunidad Beyond y Lifelong Learning — para tomar mejores decisiones.
+
+El Consejo no recibe datos crudos. Recibe inteligencia accionable.
+
+Con este panorama completo, las siguientes preguntas naturales son: ¿de quién son los datos? ¿Cómo se paga? ¿Quién construye la tecnología?
+
+---
 
 ### El principio de propiedad
 
 Un punto que debe quedar claro desde el inicio:
 
-| Componente | Propiedad |
-|---|---|
-| **Datos de los empresarios** | Tec de Monterrey — 100% |
-| **Insights y reportes** | Tec de Monterrey — 100% |
-| **Reglas de la comunidad** | Consejo + Tec — conjunta |
-| **Infraestructura** | Tec de Monterrey |
-| **Plataforma y agentes IA** | Se licencian al Tec |
+```
+    ┌──────────────────────────────────────────────────────────┐
+    │                                                          │
+    │   PROPIEDAD DE LOS COMPONENTES                           │
+    │                                                          │
+    │   Datos de los empresarios      Tec de Monterrey — 100%  │
+    │   ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─    │
+    │   Insights y reportes           Tec de Monterrey — 100%  │
+    │   ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─    │
+    │   Reglas de la comunidad        XBAC + Comunidad Beyond  │
+    │                                 + LLL — conjunta         │
+    │   ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─    │
+    │   Infraestructura               Tec de Monterrey         │
+    │   ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─    │
+    │   Plataforma y agentes IA       Horizons Architecture    │
+    │                                 — se licencia al Tec     │
+    │                                                          │
+    │   ═══════════════════════════════════════════════════     │
+    │   Si se cambia de proveedor, los datos y la              │
+    │   comunidad quedan con el Tec y los empresarios.         │
+    │                                                          │
+    └──────────────────────────────────────────────────────────┘
+```
 
-Los datos viven en la infraestructura del Tec. Si en algún momento se decide cambiar de proveedor tecnológico, la comunidad, los datos y los aprendizajes quedan donde deben quedar: con el Tec de Monterrey y con la comunidad.
+Se propone que una contraparte del Tec — como Gerardo Martínez — trabaje directamente con Horizons Architecture para asegurar que los estándares de seguridad, privacidad y manejo de datos cumplan con los lineamientos institucionales. Esto garantiza que el modelo sea sostenible en el tiempo y que los beneficios sean para todos.
 
 ### La relación simbiótica
 
 Esto no es una relación de proveedor y cliente. Es una **relación simbiótica** donde ambas partes aportan y ambas se benefician:
 
-| El Consejo de León aporta | El Tec aporta |
-|---|---|
-| La comunidad de empresarios | El respaldo institucional |
-| La visión empresarial local y regional | El alcance nacional e internacional |
-| La credibilidad ante la comunidad | La infraestructura tecnológica |
-| 10 años de aprendizajes | La estrategia de Lifelong Learning |
-| La práctica | La investigación |
+```
+    ┌─────────────────────────┐          ┌─────────────────────────┐
+    │   EMPRESARIOS           │          │   TEC DE MONTERREY      │
+    │   Y EL CONSEJO          │          │                         │
+    │                         │          │                         │
+    │   · 350 empresarios     │          │   · Respaldo            │
+    │     y 3,000 personas    │◄────────▶│     institucional       │
+    │     impactadas          │          │                         │
+    │                         │          │   · Alcance nacional    │
+    │   · Visión empresarial  │◄────────▶│     e internacional     │
+    │     local y regional    │          │                         │
+    │                         │          │   · Infraestructura     │
+    │   · Credibilidad ante   │◄────────▶│     tecnológica         │
+    │     la comunidad        │          │                         │
+    │                         │          │   · Estrategia de       │
+    │   · 10 años de          │◄────────▶│     Lifelong Learning   │
+    │     aprendizajes        │          │                         │
+    │                         │          │   · Investigación       │
+    │   · La práctica y       │◄────────▶│     y metodología       │
+    │     la sustancia        │          │                         │
+    └─────────────────────────┘          └─────────────────────────┘
+```
 
 El compromiso de Mario Orozco y del Consejo con el Tec de Monterrey es incuestionable — llevan casi una década construyendo este programa juntos. Lo que se propone no es una ruptura, sino una nueva etapa de la misma alianza.
 
 ---
 
-## III. Factibilidad: el modelo económico
+## III. Factibilidad: cómo se financia y quién lo construye
 
 ### La estructura de inversión
 
 La propuesta contempla una **co-inversión** donde cada parte contribuye con lo que mejor sabe hacer:
 
-| Quién | Qué aporta |
-|---|---|
-| **Tec de Monterrey** | Infraestructura tecnológica (servidores, nube, seguridad). El proyecto vive dentro de la infraestructura de Lifelong Learning |
-| **Consejo / Empresarios** | Inversión para la construcción de la capa de inteligencia artificial y la plataforma |
-
-Esta estructura tiene una lógica clara: el Tec pone la casa, los empresarios ponen el equipamiento. Ambos se benefician del resultado.
+```
+    ┌─────────────────────────┐     ┌─────────────────────────┐
+    │   TEC DE MONTERREY      │     │   CONSEJO / EMPRESARIOS │
+    │                         │     │                         │
+    │   Infraestructura       │     │   Inversión para la     │
+    │   tecnológica           │     │   capa de IA y          │
+    │   (servidores, nube,    │     │   la plataforma         │
+    │    seguridad)           │     │                         │
+    │                         │     │                         │
+    │   El proyecto vive      │     │   Construcción de los   │
+    │   dentro de la infra    │     │   agentes, la base de   │
+    │   de Lifelong Learning  │     │   conocimiento y la     │
+    │                         │     │   plataforma            │
+    │                         │     │                         │
+    │   ═══ PONE LA CASA ═══  │     │  ═══ PONE EL EQUIPO ═══│
+    └────────────┬────────────┘     └────────────┬────────────┘
+                 │                               │
+                 └───────────────┬───────────────┘
+                                 │
+                                 ▼
+                  Ambos se benefician del resultado
+```
 
 ### Retorno directo
 
-| Fuente | Descripción |
-|---|---|
-| **Membresías** | Suscripción anual de los empresarios por acceso a la comunidad activa y sus servicios |
-| **Conexiones de negocio** | Valor generado por las conexiones facilitadas entre miembros |
-| **Contenidos premium** | Capacitación personalizada basada en los datos y patrones de la comunidad |
-| **Licencia por sede** | Cada nuevo campus que adopte el modelo activa su propia instancia |
+```
+    ┌──────────────────────────────────────────────────────────┐
+    │                                                          │
+    │   Membresías          Suscripción anual por acceso       │
+    │                       a la comunidad activa              │
+    │   ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─    │
+    │   Conexiones          Valor generado por conexiones      │
+    │   de negocio          facilitadas entre miembros         │
+    │   ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─    │
+    │   Contenidos          Capacitación personalizada         │
+    │   premium             basada en datos y patrones         │
+    │   ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─    │
+    │   Licencia            Cada nuevo campus activa           │
+    │   por sede            su propia instancia                │
+    │                                                          │
+    └──────────────────────────────────────────────────────────┘
+```
 
 ### Retorno indirecto (y posiblemente más valioso)
 
-| Impacto | Por qué importa |
-|---|---|
-| **Inscripciones en campus** | Una comunidad de empresarios activa y visible atrae a nuevos estudiantes y participantes |
-| **Reputación del Tec** | Ser la primera institución en México con una comunidad de empresarios potenciada por IA es un diferenciador real |
-| **Socios formadores** | Empresarios satisfechos se convierten en socios formadores, mentores y embajadores |
-| **Becas Líderes del Mañana** | Empresarios con lealtad institucional son una fuente natural de filantropía educativa |
-| **Posicionamiento en IA** | Demostrar que el Tec usa IA de manera concreta y valiosa — no solo en discurso, sino en operación |
-| **Base de experimentación** | Una comunidad controlada y comprometida es un espacio ideal para probar nuevos modelos de educación continua |
+```
+    ┌──────────────────────────────────────────────────────────┐
+    │                                                          │
+    │   Inscripciones     Comunidad visible atrae nuevos       │
+    │   en campus         estudiantes y participantes          │
+    │   ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─    │
+    │   Reputación        Primera institución en México con    │
+    │   del Tec           comunidad empresarial + IA           │
+    │   ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─    │
+    │   Socios            Empresarios satisfechos se           │
+    │   formadores        convierten en mentores y embajadores │
+    │   ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─    │
+    │   Becas Líderes     Lealtad institucional genera         │
+    │   del Mañana        filantropía educativa                │
+    │   ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─    │
+    │   Posicionamiento   Demostración concreta de IA,         │
+    │   en IA             no solo discurso                     │
+    │   ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─    │
+    │   Base de           Una comunidad comprometida es el     │
+    │   experimentación   espacio ideal para probar nuevos     │
+    │                     modelos de educación continua        │
+    │                                                          │
+    └──────────────────────────────────────────────────────────┘
+```
 
 El punto importante: el valor indirecto de Tec Beyond para el Tec de Monterrey puede superar significativamente el costo de la inversión. Una comunidad de empresarios influyentes que habla bien del Tec, que recomienda el Tec, que se involucra con el Tec — eso tiene un impacto que va mucho más allá de las cuotas de membresía.
 
@@ -224,12 +597,24 @@ Un aspecto relevante de este proyecto es quién construye la tecnología.
 
 Esto significa que el Tec de Monterrey **no necesita comprar tecnología afuera**. A través de su propia investigación y su propio ecosistema de emprendimiento, tiene la capacidad de crear y operar la capa de inteligencia artificial que este proyecto necesita.
 
-| Aspecto | Detalle |
-|---|---|
-| **Origen** | Investigación del Tec de Monterrey |
-| **Fundador** | Edgar Barroso — profesor del Tec, consejero Campus León |
-| **Estatus** | Startup autorizada como proveedor del Tec |
-| **Metodología** | Horizons Architecture — marco para organizar sistemas complejos con IA |
+```
+    ┌──────────────────────────────────────────────────────────┐
+    │                                                          │
+    │   HORIZONS ARCHITECTURE (HA)                             │
+    │                                                          │
+    │   Origen         Investigación del Tec de Monterrey      │
+    │   ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─    │
+    │   Fundador       Edgar Barroso — profesor del Tec,       │
+    │                  consejero Campus León                   │
+    │   ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─    │
+    │   Estatus        Startup autorizada como proveedor       │
+    │                  del Tec                                 │
+    │   ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─    │
+    │   Metodología    Marco para organizar sistemas           │
+    │                  complejos con IA                        │
+    │                                                          │
+    └──────────────────────────────────────────────────────────┘
+```
 
 Sobre el conflicto de interés: está declarado, reconocido y mitigado. Edgar Barroso se retira del Comité de IA que toma la decisión de contratación. No tiene voto en este asunto. La decisión es del Comité, no del Consejo pleno. Este es un proceso transparente que se puede auditar en cualquier momento.
 
@@ -237,13 +622,22 @@ Lejos de ser un problema, el hecho de que el creador de la tecnología sea algui
 
 ### Fases del proyecto
 
-| Fase | Qué | Cuándo |
-|---|---|---|
-| **Alineación** | Asegurar que Lifelong Learning tenga la visión completa | Febrero-Marzo 2026 |
-| **Descubrimiento** | Sesión de trabajo para definir alcance exacto y cotización cerrada | Tras alineación |
-| **Piloto León** | Desarrollo y lanzamiento de la plataforma con ~400 empresarios | 5-8 meses |
-| **Evaluación** | Métricas de adopción, satisfacción, conexiones facilitadas | Al cierre del piloto |
-| **Expansión** | Replicar en Chihuahua, Aguascalientes y sedes subsecuentes | 2027+ |
+```
+    ┌──────────┐    ┌──────────┐    ┌──────────┐    ┌──────────┐    ┌──────────┐
+    │          │    │          │    │          │    │          │    │          │
+    │ ALINEA-  │───▶│ DESCU-   │───▶│ PILOTO   │───▶│ EVALUA-  │───▶│ EXPAN-   │
+    │ CIÓN     │    │ BRIMIENTO│    │ LEÓN     │    │ CIÓN     │    │ SIÓN     │
+    │          │    │          │    │          │    │          │    │          │
+    │ LLL tiene│    │ Sesión   │    │ 350 emp. │    │ Métricas │    │ Chihua-  │
+    │ la visión│    │ técnica  │    │ 700 con  │    │ adopción │    │ hua,     │
+    │ completa │    │ + cotiza-│    │ familias │    │ satisfac.│    │ Aguas-   │
+    │          │    │ ción     │    │ 5-8 meses│    │ conexion.│    │ calientes│
+    │          │    │          │    │          │    │          │    │ + sedes  │
+    │ Feb-Mar  │    │ Tras     │    │ 2026     │    │ Al cierre│    │ 2027+    │
+    │ 2026     │    │ alineac. │    │          │    │ piloto   │    │          │
+    │          │    │          │    │          │    │          │    │          │
+    └──────────┘    └──────────┘    └──────────┘    └──────────┘    └──────────┘
+```
 
 ---
 
@@ -267,14 +661,17 @@ Lo que sigue es decidir juntos cómo crecer.
 
 ## ¿Qué sigue?
 
-| Paso | Acción |
-|---|---|
-| **1** | Mario Orozco presenta este documento a Víctor Gutiérrez y Juan Pablo Murra |
-| **2** | Sesión de preguntas y diálogo entre Lifelong Learning y el Consejo |
-| **3** | Definición conjunta del modelo de co-inversión y gobernanza |
-| **4** | Sesión de descubrimiento técnico (2-3 horas) |
-| **5** | Cotización cerrada y aprobación formal |
-| **6** | Inicio del piloto en León |
+```
+    ┌─────┐     ┌─────┐     ┌─────┐     ┌─────┐     ┌─────┐     ┌─────┐
+    │  1  │────▶│  2  │────▶│  3  │────▶│  4  │────▶│  5  │────▶│  6  │
+    └──┬──┘     └──┬──┘     └──┬──┘     └──┬──┘     └──┬──┘     └──┬──┘
+       │           │           │           │           │           │
+    Mario       Sesión de   Definición  Sesión de   Cotización  Inicio
+    presenta    preguntas   conjunta    descubri-   cerrada y   del
+    este doc    y diálogo   gobernanza  miento      aprobación  piloto
+    a Víctor    LLL +       y co-       técnico     formal      en León
+    y Juan P.   Consejo     inversión   (2-3 hrs)
+```
 
 ---
 
