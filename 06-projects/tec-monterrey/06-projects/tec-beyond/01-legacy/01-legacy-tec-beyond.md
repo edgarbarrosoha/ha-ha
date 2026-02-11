@@ -6,12 +6,16 @@
 
 ## Qué es Tec Beyond
 
-- Programa del Tec de Monterrey para empresarios y empresarias **por invitación**
-- Costo alto, compite (o busca superar) al programa del IPADE
-- Iniciativa del **Consejo del Campus León**, liderada por Mario Orozco (Presidente)
-- **9 ediciones** hasta la fecha — programa tremendamente exitoso
-- Presencia actual: León, Morelia, Chihuahua, Guadalajara
-- Próxima apertura: Laguna
+- **Posgrado en innovación** del Tec de Monterrey, creado en **2015** en Campus León
+- Para empresarios establecidos y alta dirección, **por invitación**
+- Enfoque: **cultura de innovación y células de innovación** dentro de empresas existentes
+- Incluye **agenda familiar** (familiares y colaboradores participan en las células)
+- Metodología: Lean Startup + Design Thinking, capacitación por La Mandarina de Newton (Barcelona)
+- Incluye viaje a Silicon Valley
+- Iniciativa del **Consejo del Campus León**, liderada por Mario Orozco Arena (Presidente)
+- **9 generaciones** hasta la fecha, **~40-50 participantes** por generación
+- Sedes confirmadas: **León** (2015), **Chihuahua** (2023), **Aguascalientes** (2024-2025)
+- Costo alto, compite con IPADE (precios no públicos)
 
 ---
 

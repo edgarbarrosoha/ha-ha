@@ -15,16 +15,14 @@ type: clock
 
 # Priorities
 
-- [ ] Poner comentarios a la nota metodológica del programa de gobierno
-- [ ] Learning Products: Diseñar System Map Canvas y Positionality Map
-- [ ] TEC Monterrey: Incorporar feedback de JP cuando llegue
-- [ ] UPU: Finalizar UI/UX y continuar desarrollo frontend
+- [ ] 
 
 ---
 # To dos
-- [ ] Hablar al INE 
-- [ ] Actualizar las clases de Notion de la clase de IA
 - [ ] Hacer la presentación de Tec Beyond
+- [ ] Contestar a Eliud (Alfonso Romo)
+- [ ] Entender la codificación
+- [ ] Hacer la carta de Itzel
 - [ ] SIC-Q: @draft pilot consultation flow
 - [ ] Docet: Seguimiento con Eliud — perfiles, funciones, data
 - [ ] HA-Core: Organizar panel EBCT

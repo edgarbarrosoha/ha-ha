@@ -8,10 +8,28 @@
 
 | Rol | Nombre | Responsabilidad |
 |-----|--------|-----------------|
-| **Presidente Consejo León** | Mario Orozco | Sponsor, promotor del proyecto |
-| **Contacto Liderazgo Tec** | Victor Gutiérrez | Validación institucional |
+| **Presidente Consejo León** | Mario Orozco Arena | Sponsor, promotor del proyecto |
+| **VP del Tec** | Víctor Gutiérrez | Validación institucional |
+| **Director General Campus León** | Juan Carlos Arreola Rivas | Secretario del Consejo |
 | **Proveedor Tecnológico** | Edgar Barroso (HA) | Arquitectura y plataforma |
 | **Comité de IA** | [Miembros por confirmar] | Decisión de contratación |
+
+### Mario Orozco Arena — Perfil
+
+- Director General de Polímeros y Derivados S.A. de C.V.
+- Consejero de Grupo Al-con
+- Ing. Químico y de Sistemas (Tec Campus Monterrey), Maestría en Ciencias Textiles (Clemson University)
+- Ex presidente ejecutivo de ANPIC (1991-1993), participó en negociaciones del TLC
+- Ciudadano del Año de Guanajuato 2018 (Fundación Azteca)
+- Premio al Mérito EXATEC 2023
+
+### Equipo operativo del programa
+
+| Persona | Rol |
+|---|---|
+| **Mariel Cordero** | Guía a participantes en Kick-off |
+| **Roxana Lastiri** | Coordinadora de Operaciones y Agenda Familiar |
+| **Juan Carlos Arreola Rivas** | Director General Campus León |
 
 ---
 
@@ -69,17 +87,20 @@
 
 ## Red de Sedes (Actual y Proyectada)
 
-| Sede | Estado | Generaciones | Miembros Est. |
-|------|--------|--------------|---------------|
-| **León** | Activa (9 gen) | 9 | ~270 |
-| **Morelia** | Activa | [X] | [Est.] |
-| **Chihuahua** | Activa | [X] | [Est.] |
-| **Guadalajara** | Activa | [X] | [Est.] |
-| **Laguna** | Por abrir | 0 | — |
+| Sede | Estado | Fuente | Notas |
+|------|--------|--------|-------|
+| **León** | Confirmada (2015, 9 gen) | Pública | ~270-450 alumni (40-50 por gen) |
+| **Chihuahua** | Confirmada (2023) | Pública | 40+ empresarios, 200+ en células. Dir: Luis Almanza |
+| **Aguascalientes** | Confirmada (2024-2025) | Pública | Dir: Roberto Soto |
+| **Morelia** | Por confirmar | Interna | No aparece en fuentes públicas |
+| **Guadalajara** | Por confirmar | Interna | Sesiones de León se imparten allí, pero no como sede propia confirmada |
+| **Laguna** | Proyectada | Interna | — |
 | **Querétaro** | Potencial | — | — |
 | **CDMX** | Potencial | — | — |
 
 **Visión 10 años:** ~8,000 miembros en la red nacional
+
+> Ver: [[investigación-tec-beyond]] para fuentes y verificación
 
 ---
 

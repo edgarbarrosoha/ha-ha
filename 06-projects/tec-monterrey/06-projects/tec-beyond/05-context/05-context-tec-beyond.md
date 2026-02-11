@@ -7,20 +7,27 @@
 ## Contexto del Proyecto
 
 **Origen:** Iniciativa del Consejo del Campus León del Tec de Monterrey
-**Líder:** Mario Orozco (Presidente del Consejo)
-**Contacto Tec:** Victor Gutiérrez (interesado, pendiente enviar avances)
+**Líder:** Mario Orozco Arena (Presidente del Consejo)
+**Contacto Tec:** Víctor Gutiérrez (VP del Tec)
 **Fecha crítica:** 25 de febrero 2026 — reunión de consejeros en México
 
 ---
 
 ## ¿Qué es Tec Beyond?
 
-- Programa del Tec de Monterrey para **empresarios por invitación**
-- Costo alto, compite con el programa del IPADE
-- **9 ediciones** hasta la fecha — programa exitoso
-- Presencia: León, Morelia, Chihuahua, Guadalajara
-- Próxima apertura: Laguna
-- ~30 participantes por generación
+- **Posgrado en innovación** del Tec de Monterrey, creado en **2015** en Campus León
+- Para **empresarios establecidos y alta dirección**, por invitación
+- Enfoque específico: **cultura de innovación y "células de innovación"** dentro de empresas existentes
+- Incluye **agenda familiar** — familiares y colaboradores participan en las células
+- Metodología: **Lean Startup + Design Thinking**, capacitación por La Mandarina de Newton (Barcelona)
+- Incluye viaje a **Silicon Valley**
+- **~40-50 participantes por generación**, 9 generaciones hasta la fecha
+- Sedes confirmadas públicamente: **León** (2015), **Chihuahua** (2023), **Aguascalientes** (2024-2025)
+- Sesiones del programa de León también en Monterrey y Guadalajara
+- Costo alto, compite con IPADE (precios no públicos)
+- No existe ninguna plataforma digital de alumni — la red vive offline
+
+> Ver: [[investigación-tec-beyond]] para investigación completa de fuentes públicas
 
 ---
 

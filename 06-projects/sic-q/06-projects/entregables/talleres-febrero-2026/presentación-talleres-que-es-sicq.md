@@ -164,7 +164,7 @@ ETAPA FUTURA: EL CEREBRO + LOS OÍDOS + LOS OJOS + LA VOZ + LAS MANOS
 
 ### Slide 8 · Para qué sirve — gobierno (2 min)
 
-## **¿Para qué sirve un sistema así?**
+## **¿Para qué sirve un sistema así? (la idea útil)**
 
 Estos son ejemplos concretos — no el diseño final. Sirven para imaginar posibilidades:
 
