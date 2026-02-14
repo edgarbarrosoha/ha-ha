@@ -1,4 +1,4 @@
-# Key Points de las Cinco Entrevistas de Liderazgo
+# Key points de las seis entrevistas de liderazgo
 
 ---
 
@@ -6,19 +6,19 @@
 
 **Visión 2030:**
 
-- Convertir al Campus Monterrey en la mejor universidad de América Latina y del mundo de habla hispana
+- Convertir al campus Monterrey en la mejor universidad de América Latina y del mundo de habla hispana
 - Ser pioneros y líderes en la adaptación a la era de la inteligencia artificial (no solo operativo, sino en educación e investigación)
 - Investigación aplicada como diferenciador (no investigación básica)
 
 **Prioridades:**
 
-- **Talento**: Mejores profesores y mejores alumnos (no negociable)
-- **Selectividad**: Incremento transformacional (30% mínimo), no marginal
-- **Internacionalización**: Atraer talento global, no solo movilidad estudiantil
-- **Multidisciplinariedad**: Convergencia ingeniería + salud + negocios
-- **Posgrados**: Aumentar proporción de estudiantes de posgrado (actualmente muy baja comparada con universidades top)
+- **Talento**: mejores profesores y mejores alumnos (no negociable)
+- **Selectividad**: incremento transformacional (30% mínimo), no marginal
+- **Internacionalización**: atraer talento global, no solo movilidad estudiantil
+- **Multidisciplinariedad**: convergencia ingeniería + salud + negocios
+- **Posgrados**: aumentar proporción de estudiantes de posgrado (actualmente muy baja comparada con universidades top)
 
-**Cambios necesarios (Mindsets):**
+**Cambios necesarios (mindsets):**
 
 - Superar la visión de que investigación y educación son cosas separadas
 - Recuperar la colegialidad académica (discusiones en departamentos sobre temas educativos, no solo operativos)
@@ -26,7 +26,7 @@
 - Profesores que "vendan" la institución hacia afuera, no solo internamente
 - Hacer apuestas estratégicas fuertes en lugar de distribuir recursos equitativamente
 
-**Big Bet:**
+**Big bet:**
 
 - Necesitan un proyecto emblemático en ingeniería similar a "Origen" en salud
 - Algo único que solo pueda hacerse en México/Tec
@@ -52,12 +52,12 @@
 5. **Posgrados presenciales** - doctorados, residencias médicas, MBA
 6. **Narrativa integrada** - comunicar mejor lo que ya hacemos
 
-**El Profesor Transformador:**
+**El profesor transformador:**
 
 - Ejemplo: profesora de Imperial College con PhD en física que creó 2,500 páginas de Wikipedia de científicas
-- **"50 de esos te transforman Campus Monterrey"**
+- **"50 de esos te transforman campus Monterrey"**
 
-**Lo que hace único a Campus Monterrey:**
+**Lo que hace único a campus Monterrey:**
 
 - Diversidad estudiantil (50% de fuera de Monterrey, ~10% internacionales)
 - Posgrados presenciales
@@ -70,13 +70,13 @@
 2. **Balance sistema** - ¿qué tan "un solo Tec" vs. ecosistema de campus complementarios?
     - Solución: estándares compartidos + **desviaciones positivas permitidas**
 
-**Filosofía y Principios del Tec:**
+**Filosofía y principios del Tec:**
 
 - Valores de Don Eugenio: educación, libertad, libre empresa, corresponsabilidad social, emprendimiento
 - **"Creemos que el futuro puede ser mejor y nosotros lo hacemos mejor"**
 - Preocupación: en últimos años se ha hablado menos de estos principios
 
-**Cultura deseada para Campus Monterrey:**
+**Cultura deseada para campus Monterrey:**
 
 - **Altos estándares** / búsqueda de excelencia
 - **Visión global**
@@ -87,9 +87,9 @@
 1. Decirlo (comunicar la visión)
 2. Generar capacidades
 3. Alinear estructuras y sistemas
-4. Role Modeling (líderes como ejemplo)
+4. Role modeling (líderes como ejemplo)
 
-**Vivencia Estudiantil:**
+**Vivencia estudiantil:**
 
 - Experiencia inmersiva de 4 años, bienestar en 7 dimensiones
 - Comunidad segura, diversa e incluyente
@@ -100,7 +100,7 @@
 - Cultura y valores
 - Obsesión por atracción de talento
 
-**Mensaje a IA 2030:** "No queremos ser copy-paste de una universidad de Boston. Generar un modelo único desde México, con nuestros valores, filosofía y capacidades distintivas.
+**Mensaje a IA 2030:** "No queremos ser copy-paste de una universidad de Boston. Generar un modelo único desde México, con nuestros valores, filosofía y capacidades distintivas."
 
 ---
 
@@ -113,30 +113,30 @@
 - La calidad clínica es la base para lograr excelencia educativa
 - Compromiso de ser **generadores de nuevo conocimiento**, no solo transmisores
 
-**Modelo Integrado:**
+**Modelo integrado:**
 
 - Atención, aprendizaje e investigación aplicada deben operar como un **continuo**
 - Proyectos interdisciplinarios (ingeniería + medicina) para resolver problemas clínicos con potencial de emprendimiento
 - La interdisciplina (ingeniería, medicina, política pública) es clave para innovación
 
-**Iniciativas Estratégicas:**
+**Iniciativas estratégicas:**
 
-- **TecSalud Network**: Red de hospitales afiliados para formación e investigación; busca transparencia de resultados clínicos como política pública
-- **Áreas en Monterrey**: Xenotrasplante, terapias para diabetes (trasplante de islotes), cardiometabólico, terapia celular para neurodegenerativas y cáncer
-- **Programa Origen**: Base genómica de 100k mexicanos (80k secuenciados) para minería de datos
-- **Programa futuro**: Ingeniería + Medicina combinados como programa insignia
+- **TecSalud Network**: red de hospitales afiliados para formación e investigación; busca transparencia de resultados clínicos como política pública
+- **Áreas en Monterrey**: xenotrasplante, terapias para diabetes (trasplante de islotes), cardiometabólico, terapia celular para neurodegenerativas y cáncer
+- **Programa Origen**: base genómica de 100k mexicanos (80k secuenciados) para minería de datos
+- **Programa futuro**: ingeniería + medicina combinados como programa insignia
 
 **Diferenciación Monterrey vs CDMX:**
 
-- **Monterrey**: Atención clínica compleja, modelo formativo integrado
-- **CDMX**: Ciencia aplicada con hospitales públicos de primer nivel, complementaria
+- **Monterrey**: atención clínica compleja, modelo formativo integrado
+- **CDMX**: ciencia aplicada con hospitales públicos de primer nivel, complementaria
 
 **Tensiones:**
 
-- Externas: Polarización público/privada, restricción económica sin fondeo gubernamental
-- Estratégica: Más alumnos vs. menos pero de élite; para campus insignia se requiere **selectividad y competitividad internacional**
+- Externas: polarización público/privada, restricción económica sin fondeo gubernamental
+- Estratégica: más alumnos vs. menos pero de élite; para campus insignia se requiere **selectividad y competitividad internacional**
 
-**Cultura de Investigación:**
+**Cultura de investigación:**
 
 - Invertir en **calidad sobre volumen**: 50 investigadores de clase mundial en campus (no 500 promedio)
 - Ejemplo Broad Institute: 34 investigadores principales con presupuesto de $1 billón
@@ -155,49 +155,49 @@
 - Campus Monterrey como **flagship**: 70% de fondos de investigación del Tec se concentran aquí
 - "Éxito llama más éxito" - efecto magneto consolidado
 
-**Posición Estratégica:**
+**Posición estratégica:**
 
 - **Llave de acceso a Latinoamérica** para el norte desarrollado
 - Proximidad geográfica y cultural con Texas/EE.UU.
 - Puente para Europa también
 
-**Investigación Aplicada:**
+**Investigación aplicada:**
 
 - Apuesta por investigación aplicada con **transferencia e incidencia social**
 - Tensiones entre básica/aplicada son **percibidas, no reales**: son parte de un continuo
 - "Entender la investigación como proceso, no como evento único"
 
-**Tres Ingredientes para el Éxito:**
+**Tres ingredientes para el éxito:**
 
 1. **Convicción** de que es el camino correcto
 2. **Ejemplos de éxito** que ya están sucediendo
 3. **Comunicación hacia el exterior** (mayor oportunidad)
 
-**Financiamiento - No Negociables:**
+**Financiamiento - no negociables:**
 
 - Transformación: de 80% fondos gubernamentales a 80% iniciativa privada + fundaciones
 - No depender de fondos gubernamentales
 - **"Dejar de pescar en el mismo lago, ir a pescar al mar"** (financiamiento internacional)
 - Que la investigación sea tan atractiva que los socios quieran pagar por ella
 
-**Colaboración Interdisciplinaria:**
+**Colaboración interdisciplinaria:**
 
 - Generar **espacios de encuentro** - "choques moleculares"
 - "No pienso en escuelas. Pienso en **problemas reales del mundo**"
 - "Una sola escuela no puede resolver un problema real"
 
-**Propuesta de Valor: El Ingenio Mexicano:**
+**Propuesta de valor: el ingenio mexicano:**
 
 - No somos "baratos", somos **eficientes**
 - "El mexicano con poco hace mucho"
 - **Esta historia de eficiencia no la hemos contado bien**
 - "Tenemos que abrazar nuestra mexicanidad" como ventaja competitiva
 
-**Cuatro Pilares Transformadores:**
+**Cuatro pilares transformadores:**
 
 |Pilar|Matices|
 |---|---|
-|**Distrito de Innovación**|El más importante. Conexión de investigación aplicada hasta la sociedad|
+|**Distrito de innovación**|El más importante. Conexión de investigación aplicada hasta la sociedad|
 |**Posgrados presenciales**|Más carreras/cursos en inglés. Doctorados científicos en inglés|
 |**Selectividad**|No solo interna, sino para atraer estudiantes internacionales|
 |**Facultad de excelencia**|Preferir latinos de top universidades con potencial; validar también profesores formados en México|
@@ -208,14 +208,14 @@
 
 ## 5. Entrevista con Ricardo Saldívar
 
-**Visión de Campus Monterrey:**
+**Visión de campus Monterrey:**
 
 - Campus como **emblema** conectado con la génesis, historia y orígenes del Tec (fundado en 1943)
 - Siempre a la vanguardia: en técnicas de educación, experiencia universitaria, formación de valores
 - Aspiracional para padres de familia, estudiantes locales, nacionales e internacionales
 - "Hay un Monterrey antes del Tec y otro después del Tec" — aplica a todas las ciudades con campus
 
-**La Persona al Centro:**
+**La persona al centro:**
 
 - Concepto central del legado de Don Eugenio Garza Sada
 - "Quien está junto a mí o frente a mí es más importante que yo"
@@ -229,19 +229,19 @@
 - **Vinculación con sector productivo**: nivel actual alto pero insuficiente como aspiración; para 2030-2035 vínculos mucho más numerosos y fuertes
 - **Excelencia académica continua**: nunca termina de alcanzarse, siempre retándose
 
-**Los Cuatro Pilares (validación):**
+**Los cuatro pilares (validación):**
 
 - Confirma alineación con David Garza y Juan Pablo Murra en los 4 pilares transformadores
-- Distrito de Innovación, Posgrados Presenciales, Selectividad, Facultad de Excelencia
+- Distrito de innovación, posgrados presenciales, selectividad, facultad de excelencia
 
-**Tensión Clave — Percepción de Valores:**
+**Tensión clave — percepción de valores:**
 
 - La comunidad **cree** que el Tec forma líderes, emprendedores, innovadores
 - **No cree tan rápidamente** que forma personas con valores humanistas
 - "Tenemos argumentos para decir que sí, pero el entorno nos dice: pueden hacer más"
 - Solución: vivir los valores, hacerlo cultura, permear con hechos
 
-**Cambio Cultural:**
+**Cambio cultural:**
 
 - El principal reto está en cada persona: "¿Qué más puedo hacer yo?"
 - "¿Cómo puedo yo servir a alguien mejor que ayer?"
@@ -251,18 +251,88 @@
 
 ---
 
-## Puntos en común (los Cinco líderes)
+## 6. Entrevista con José Antonio Fernández
+
+**Perspectiva:**
+
+- Más de **50 años de relación** con el Tec (estudiante, consejero, profesor)
+- 35 años como consejero; primera generación de industriales celebra 50 años
+- Miembro del Consejo del MIT — referencia constante al modelo Boston/Kendall Square
+
+**Visión 2030:**
+
+- Campus con **más encuentros**: industria, investigadores, escuelas, personas interactuando en proyectos conjuntos
+- Vocación emprendedora como eje — en su época emprender estaba mal visto, hoy es al revés
+- Monterrey como **Kendall Square mexicano**: mezcla de avance tecnológico + sofisticación empresarial
+- Centro de emprendimiento + Expedition + Business Center como ecosistema integrado
+
+**Conexión EE.UU. y Latinoamérica:**
+
+- "Estamos más cerca de Texas que de la Ciudad de México"
+- Los americanos confían más en venir a Monterrey que a CDMX para negocios
+- El Tec como **puerta de entrada a Latinoamérica** para EE.UU. y Europa
+- Dato: **1,700 alumnos extranjeros** el semestre pasado; 300 de EE.UU. tiempo completo (ya es país #1)
+- Visitantes extranjeros llegan y "no pueden creer lo que hay aquí"
+
+**Investigación aplicada con empresas:**
+
+- Falta empujón en **ingeniería, materiales, industria automotriz** — no solo salud
+- Ejemplo FEMSA/Oxxo: IA para optimizar pedidos de changarros según clima y eventos — "esa tecnología la sacaron de EE.UU., se lo pudimos haber hecho nosotros"
+- Falta **confianza y conexión** entre campus y empresa
+- Ejemplo MIT-Spin: estudiantes del MIT trajeron algoritmo 3 veces más rápido y efectivo
+
+**Interdisciplinariedad — el "tianguis de las ideas":**
+
+- En FEMSA incentivó **60-100 intercambios ejecutivos** entre divisiones (empaque, cervecería, Coca-Cola, Oxxo)
+- Resistencia inicial de jefes → después de 4 años ya no querían devolver a la gente
+- Propone un **"tianguis de las ideas"** en el Tec: simposio donde escuelas comparten innovaciones y problemas
+- "Los problemas más complejos de México ya no se solucionan con una sola especialidad"
+
+**Política pública y gobernanza municipal:**
+
+- Campus Monterrey debe participar más en **lo público**, especialmente municipios y estados
+- "La tecnología de administrar bien un municipio no existe en libros"
+- CDMX → enfoque federal/nacional; Monterrey → estados y municipios
+
+**Formación integral:**
+
+- "A mí me faltaron humanidades" — el campus necesita más historia, humanidades, balance
+- Tec21 + especialización de un año = redondeo importante antes de maestría
+- Lifelong learning: EGADE San Pedro está **subexplotada** — oportunidad con retirados dando y tomando clases
+
+**Gobernanza y filantropía:**
+
+- La gobernanza debe evolucionar para **integrar más a retirados activos** (experiencia + tiempo + dinero)
+- En el MIT: asistentes de 80-90 años, enamorados de proyectos, donando constantemente
+- Falta **seguimiento al donante** con informes de impacto — cada donativo debe tener protocolo
+- Ejemplo: regaló una beca Líderes del Mañana a un amigo por sus 70 años — "lloró, dijo que fue el mejor regalo"
+- Contagiar la **satisfacción de dar** como cultura institucional
+
+**Cuatro pilares (validación con matices):**
+
+|Pilar|Matices de JAF|
+|---|---|
+|**Selectividad**|Ya no crecer en número, sino en talento brillante + liderazgo. Buscar "aventureros", no solo calificaciones|
+|**Facultad de excelencia**|Inspiran: Edna Jaime, Carlos Elizondo, Miguel Santos. Los faculty se quedan porque los dejan hacer|
+|**Posgrados presenciales**|Van de la mano con investigación; maestrías y doctorados generan investigación junto con el investigador|
+|**Distrito de innovación**|El Kendall Square de Monterrey. Con Expedition y 11 años de desarrollo urbano, ejemplo para todo el país|
+
+**Mensaje a IA 2035:** Dos principios: (1) **Transformar vidas** — "lo más satisfactorio, nadie se va a llevar nada más que recuerdos"; (2) **Gobernanza como garantía de permanencia** — "para que las instituciones tengan larga vida, el cuidado de la gobernanza vale oro."
+
+---
+
+## Puntos en común (los seis líderes)
 
 |Tema|Consenso|
 |---|---|
 |**Talento**|Prioridad #1 - mejores alumnos y profesores; calidad sobre cantidad|
-|**Valores/Cultura**|No negociable - legado de Don Eugenio, identidad propia|
+|**Valores/cultura**|No negociable - legado de Don Eugenio, identidad propia|
 |**Investigación aplicada**|Distintivo del Tec; continuo con transferencia e impacto social|
-|**Internacionalización**|Atracción de talento global (no solo movilidad)|
-|**Distrito de innovación**|Pilar transformador; conexión investigación-sociedad-emprendimiento|
+|**Internacionalización**|Atracción de talento global (no solo movilidad); Monterrey como puerta EE.UU.-Latam|
+|**Distrito de innovación**|Pilar transformador; conexión investigación-sociedad-emprendimiento; Kendall Square mexicano|
 |**Posgrados**|Aumentar peso, visibilidad y oferta en inglés|
-|**Selectividad**|Menos pero mejores; competitividad internacional|
-|**Interdisciplinariedad**|Convergencia de disciplinas para resolver problemas reales|
+|**Selectividad**|Menos pero mejores; competitividad internacional; buscar aventureros, no solo calificaciones|
+|**Interdisciplinariedad**|Convergencia de disciplinas para resolver problemas reales; "tianguis de las ideas"|
 |**Consolidar**|No lanzar cosas nuevas, fortalecer las existentes|
 |**2030 como semilla**|El verdadero florecimiento será en 2035-2040|
 |**Comunicación**|Contar mejor lo que hacemos; dejar de ser "el secreto mejor guardado"|
@@ -270,10 +340,12 @@
 |**Pensar en grande**|Ambición, ser BOLD, mentalidad de primera división|
 |**La persona al centro**|Legado de Don Eugenio; humanismo como base de la formación|
 |**Percepción de valores**|Área de oportunidad: que la sociedad crea que formamos humanistas, no solo líderes|
+|**Filantropía y gobernanza**|Seguimiento al donante, integrar retirados activos, cultura de dar|
+|**Vinculación empresa-campus**|Interacción constante, proyectos conjuntos, confianza mutua|
 
 ---
 
-## Citas Clave por Líder
+## Citas clave por líder
 
 **David Garza:**
 
@@ -297,6 +369,12 @@
 
 > "Poner la persona al centro significa que quien está junto a mí o frente a mí es más importante que yo."
 
-> "Quiero ver al alumno con más hambre... de comerse el mundo."
+**José Antonio Fernández:**
+
+> "Estamos más cerca de Texas que de la Ciudad de México."
+
+> "Los problemas más complejos de México ya no se solucionan con una sola especialidad."
+
+> "Lo más satisfactorio es transformar vidas. Nadie nos vamos a llevar nada, más que recuerdos."
 
 ---
