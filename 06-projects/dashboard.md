@@ -6,9 +6,9 @@ type: clock
 # Today
 
 ```schedule
-[Start]: 02/02/26 - 10:00 AM
+[Start]: 02/14/26 - 10:00 AM
 [10:00 AM]:
-[Finish]: 02/02/26 - 10:00 AM
+[Finish]: 02/14/26 - 10:00 AM
 ```
 
 ---
@@ -188,5 +188,5 @@ type: clock
 
 ---
 
-*Última actualización: 2026-02-07*
+*Última actualización: 2026-02-14*
 *HA Syntax: `[>]` agent task, `[<]` waiting, `[?]` decision needed, `[!]` urgent, `[x]` done*

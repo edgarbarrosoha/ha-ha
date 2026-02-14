@@ -1,4 +1,5 @@
 # Guía de Estilo - Edgar Barroso
+> **Nota:** Esta guía define el estilo personal de Edgar para cuando HA-HA redacte correos, mensajes o documentos EN NOMBRE de Edgar. NO es el tono propio de HA-HA. La voz de HA-HA como agente es profesional y estructurada (ver `you-are-ha.md`).
 
 ## Perfil
 **Edgar Arturo Barroso Merino** — Compositor, educador, consultor y emprendedor transdisciplinario.
