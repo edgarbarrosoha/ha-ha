@@ -29,5 +29,13 @@ Leadership and Strategic Management |
 Regional Economic Analysis |
 
 
+## Relationship with HA
+- **Active co-author** — paper in progress, Edgar handles AI codification, Ernesto brings policy/econ legitimacy
+- Colleague at Tec de Monterrey, School of Government
+- Attended Edgar's research seminar (Feb 13, 2026), stayed to congratulate. Key feedback: "sé que eres un genio y que las cosas las haces bien, pero es muy abstracto para mí"
+- Translation: he intuits value but needs concrete cases grounded in policy literature he reads
+- Strategic value: co-authorship with ex-BID chief economist = Edgar's methodology enters the policy canon
+- If Ernesto can cite Edgar's work in his own papers, legitimacy gap narrows significantly
+
 ## Connections
 - [[02-community]]

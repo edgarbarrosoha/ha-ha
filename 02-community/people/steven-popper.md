@@ -23,5 +23,12 @@ kumu_id: "PER-STEVEN-0104"
 Policy Analysis | Decision Sciences | Economics | Science and Technology Policy | Uncertainty Analysis | Public Sector Strategy | R&D Management
 
 
+## Relationship with HA
+- **Advisory board member** — accepted seat Feb 2026
+- Attended Edgar's research seminar at Tec (Feb 13, 2026), stayed to congratulate, went to lunch together
+- Institutional credibility signal: RAND endorsement positions HA as serious in policy/multilateral world
+- Future co-author: paper connecting HA to Robust Decision Making framework (don't rush — let him understand HA from inside the board first)
+- Shared intellectual territory: decisions under deep uncertainty, scenarios, policy analysis — exactly where HA operates
+
 ## Connections
 - [[02-community]]

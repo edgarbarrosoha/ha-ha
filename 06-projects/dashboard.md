@@ -19,31 +19,52 @@ type: clock
 
 ---
 # To dos
-- [ ] Hacer la presentación de Tec Beyond
-- [ ] Contestar a Eliud (Alfonso Romo)
-- [ ] Entender la codificación
+
+## Urgente
+- [ ] Docet: Preparar call viernes con equipo Poncho
+- [!] Docet: Prototipo primeros agentes (deadline febrero)
+- [ ] SIC-Q: Propuesta v06 (TaaS + 3 instancias + prospectiva)
+
+## En curso
+- [ ] SIC-Q: Talleres co-diseño febrero 2026 (listos — FOCO PRINCIPAL)
+- [>] UPU: Oscar terminando documentación para cerrar proyecto
+- [ ] Tec Beyond: Visualizaciones para Mario Orozco (scaling, modelo de negocio, "anexos")
+- [ ] TEC Narrativa: Integrar hallazgos José Antonio Fernández a narrativa
+- [>] Learning Products: Betty + Sarahí avanzan canvases
+
+## Pendiente
 - [ ] Hacer la carta de Itzel
-- [ ] SIC-Q: @draft pilot consultation flow
-- [ ] Docet: Seguimiento con Eliud — perfiles, funciones, data
+- [ ] Entender la codificación
+- [ ] SIC-Q: Diseño consulta piloto
+- [ ] SIC-Q: Mapeo datos existentes gobierno
 - [ ] HA-Core: Organizar panel EBCT
 - [ ] Learning Products: Adaptar syllabus Entrepreneurship para Leiden
 - [ ] Learning Products: Definir scope Plan de Vida y Carrera
-- [ ] Talisis: Configurar Tali para proceso 360
-- [ ] UPU: Finalizar D2 (Text Agent App)
-- [ ] UPU: Agendar fechas workshop AI
+- [ ] Talisis: Reconectar con Nicho (reunión liderazgo → board educación)
+- [ ] Joel Cano: Agendar reunión con Javier (VP Research Tec)
+- [ ] Follow-up batch: Xignux, Proeza, FEMSA SER (archivar si no responden en 2 sem)
+
+## Hecho (desde feb 7)
+- [x] Contestar a Eliud — respuesta drafted en writing-lab
+- [x] SIC-Q: Materiales talleres febrero (moderadores, presentación, capacitación, template v07)
+- [x] TEC Narrativa: Entrevista José Antonio Fernández + hallazgos
+- [x] Tec Beyond: Inicialización proyecto + estructura HA
+- [x] Docet: Escenarios enviados + indicadores entregados
+- [x] Joel Cano: Conversación realizada, reunión con Javier acordada
 
 ---
 
 # Waiting For
 
-- [<] **Alfonso Romo** → Aprobación Fase 1 Docet-Agentic (CRÍTICO)
 - [<] **Juan Pablo Murra** → Feedback narrativa v1 TEC Monterrey
 - [<] **Gobierno QRO** → Decisión legal CURP vs INE + alineación Instituto del Futuro (SIC-Q)
 - [<] **Antonio Rangel** → Validar replanteamiento 3 etapas + definir alcance piloto
-- [<] Xignux → respuesta
+- [<] **Nicho (Talisis)** → Status reunión liderazgo → board educación
+- [<] **Javier (VP Research Tec)** → Agendar reunión con Joel Cano
+- [<] Xignux → follow-up batch (archivar si no responden en 2 sem)
+- [<] Proeza → follow-up batch (archivar si no responden en 2 sem)
+- [<] FEMSA SER → follow-up batch (archivar si no responden en 2 sem)
 - [<] Financial Paper → Ricardo
-- [<] Proeza → seguimiento
-- [<] FEMSA SER → respuesta de correo
 
 ---
 
@@ -59,7 +80,7 @@ type: clock
 
 | **Project** | **Status** | **Next steps** | **Links** |
 | ----------- | ---------- | -------------- | --------- |
-| **Docet-Agentic** | ⏸️ Esperando aprobación | Aprobación Fase 1 de Alfonso Romo | `docet-agentic/` |
+| **Docet-Agentic** | 🔴 Active — deadline feb | Call viernes + prototipo agentes | `docet-agentic/` |
 | **TEC Monterrey** | 🔶 Narrativa entregada | Esperar feedback JP, refinar indicadores | `tec-monterrey/` |
 | **Talisis 360** | 📋 Propuesta entregada | Aprobación liderazgo para implementar | `talisis/` |
 
@@ -67,7 +88,7 @@ type: clock
 
 | **Project** | **Status** | **Next steps** | **Links** |
 | ----------- | ---------- | -------------- | --------- |
-| **HA-Core** | 🔶 Framework activo | Plan de trabajo, tech dream team | `ha-core/` |
+| **HA-Core** | 🔶 Framework activo | TaaS Product Architecture + scaling plan | `ha-core/` |
 | **HA-Product** | 📋 Diseño MVP | Decidir equipo desarrollo, setup repo | `ha-product/` |
 | **Learning Products** | 🔶 Q1 2026 | Diseñar canvases (System Map, Positionality) | `learning-products/` |
 
@@ -75,7 +96,7 @@ type: clock
 
 | **Project** | **Status** | **Next steps** | **Links** |
 | ----------- | ---------- | -------------- | --------- |
-| **UPU** | 🔶 Desarrollo frontend | UI/UX finalización, Text Agent App | `upu/` |
+| **UPU** | 🔶 Cerrando proyecto | Oscar documentación + 2 new devs | `upu/` |
 
 ---
 

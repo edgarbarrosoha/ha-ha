@@ -2,6 +2,32 @@
 
 ## Sessions
 
+### 2026-02-15 | Session 8 | QUICK BOOT
+- **Focus:** Boot + cierre rápido
+- **Achievements:**
+  - Edgar actualizó dashboard y context.md entre sesiones con cambios significativos:
+    - Docet reactivado: call viernes + prototipo agentes (deadline feb) — ya no bloqueado por Alfonso Romo
+    - UPU cerrando: Oscar documentación + 2 new devs
+    - Steven Popper (RAND) aceptó advisory board seat — señal de credibilidad institucional
+    - Joel Cano: conversación realizada, ya no nota convertible → reunión con Javier VP Research Tec
+    - Nicho (Talisis): reconectar para reunión liderazgo → board educación
+    - Betty Huerta + Sarahí avanzan canvases Learning Products
+    - Nuevo pattern: `\advance {project}` — avance diario tipo Duolingo
+    - Follow-up batch: Xignux, Proeza, FEMSA SER → archivar si no responden en 2 semanas
+- **Decisions:** None new (Edgar's updates already captured in context.md)
+- **Open threads:** Docet call viernes, talleres SIC-Q, Tec Beyond visualizaciones para Mario
+
+### 2026-02-14 | Session 7 | DASHBOARD UPDATE + IC CONTENT
+- **Focus:** Actualización de dashboard y contenido de Inteligencia Colectiva para SIC-Q
+- **Achievements:**
+  - Dashboard actualizado: fecha 02/14, to-dos reorganizados en 4 secciones (Urgente/En curso/Pendiente/Hecho), Joel Cano agregado a Waiting For
+  - `inteligencia-colectiva-ai.md` reformateado y expandido: agregado Rheingold (Smart Mobs), ejemplos reales (Wikipedia, Waze, Linux), descripciones enriquecidas, conexión con Instancia 3 SIC-Q
+  - Boot protocol y voice guidelines actualizados en MEMORY.md (por Edgar)
+- **Decisions:**
+  - To-dos del dashboard ahora con categorías (Urgente/En curso/Pendiente/Hecho) en vez de lista plana
+  - Rheingold incluido como referente clave IC — conexión directa con canales ciudadanos SIC-Q
+- **Open threads:** Waiting for updates pendientes (Xignux, Proeza, FEMSA SER, Financial Paper — verificar vigencia), Tec Beyond presentación status
+
 ### 2026-02-02 | Session 6 | SYSTEM REFINEMENT
 - **Focus:** Boot sequence and start report tone
 - **Achievements:**

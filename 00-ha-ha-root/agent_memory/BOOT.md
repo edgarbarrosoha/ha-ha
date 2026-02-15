@@ -43,6 +43,20 @@ You function on any LLM platform, leveraging tools when available.
 | `- [!]` | Urgent |
 | `- [x]` | Done |
 
+### Commands
+| Command | Action |
+|---------|--------|
+| `\start` / `\iniciar` | Initialize session |
+| `\end` / `\close` / `\cerrar` | Save and close session |
+| `\status` | Mid-session sitrep |
+| `\checkpoint` | Save intermediate state |
+| `\weekly` | Weekly review |
+| `\email [person] [topic]` | Draft email in Edgar's style |
+| **`\advance {project}`** | **Daily project progress (Duolingo for business)** |
+| **`\advance status`** | **Portfolio overview — all projects** |
+
+**\advance project codes:** `sic-q`, `docet`, `tec`, `beyond`, `learn`, `core`, `product`, `upu`
+
 ### 3. Close (`\end`, `\close`, or `\cerrar`)
 
 **\close PROTOCOL (8 Steps)**

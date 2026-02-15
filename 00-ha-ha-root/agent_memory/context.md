@@ -41,6 +41,7 @@
 - PAT:start-report | Session start → status, priorities, blockers, recommendations | REF: BOOT.md
 - PAT:gov-presentation | Government pitch → humility first, narrative not sales, cite predecessors | REF: SIC-Q v.04
 - PAT:iteration-depth | Edgar iterates 5-7 rounds on important docs — start broad, refine | REF: working-memory sessions 2-6
+- PAT:advance-daily | `\advance {project}` → load state, present unit, get feedback, save state. Like Duolingo: never blank page, never lost context, even 1 deliverable/day = progress. Continuity > speed. | REF: skills/advance.md
 
 ### Corrections
 - [2026-01-31] COR: Writing with implied superiority ("this is not X, it's Y") | LESSON: Write neutral, clear, let quality speak. Avoid comparative claims.
@@ -52,42 +53,52 @@
 - #jp-murra → TEC Monterrey. Waiting feedback on narrative v1.
 - #gobierno-qro → SIC-Q alignment. Antonio Rangel key contact.
 - #eliud-quintero → CEO Docet (not DA). Evaluates ROI. 9 questions answered.
+- #nicho → Talisis. Reunión liderazgo pendiente → board futuro educación.
+- #betty-huerta → Learning Products lead. Con Sarahí Orduño.
+- #oscar → UPU lead. Documentación para cerrar proyecto. 2 new devs.
+- #joel-cano → Reunión con Javier VP Research Tec (ya no nota convertible).
 - #mario → Tec Beyond director. Community platform architecture.
+- #steven-popper → RAND Corporation. Accepted HA advisory board seat. Institutional credibility signal for government/multilateral clients — RAND endorsement makes HA "serious" in policy world.
 
 ---
 
 ## ZONE C: State (Dynamic)
 
 ### Last Session
-- **Date:** 2026-02-02
-- **Type:** System Refinement
-- **Achievements:** Deleted CLAUDE.md; Refined start report to conversational partner tone
+- **Date:** 2026-02-14
+- **Type:** Dashboard Update + IC Content
+- **Achievements:** Dashboard actualizado (fecha, to-dos categorizados, Joel Cano en Waiting For); IC content expandido con Rheingold y ejemplos
 
 ### Active Threads
-- SIC-Q: Demo en vivo + video respaldo para Gobernador
-- Docet-Agentic: Awaiting Alfonso Romo Phase 1 approval (BLOCKER)
-- TEC Monterrey: Awaiting JP Murra feedback on narrative v1
-- Learning Products: Canvas design (System Map, Positionality Map)
-- Learning Products: Leiden adaptation
+- SIC-Q: Talleres co-diseño febrero (listos, es el foco)
+- Docet-Agentic: Call viernes + prototipo primeros agentes (deadline feb)
+- UPU: Oscar terminando documentación para cerrar proyecto (2 new devs)
+- TEC Monterrey: Awaiting JP Murra feedback + integrar hallazgos José Antonio
+- Joel Cano: Reunión con Javier (VP Research Tec) — acordada
+- Talisis: Reconectar con Nicho (reunión liderazgo → board educación)
 
 ### Waiting For
-- Alfonso Romo → Aprobación Fase 1 Docet (CRÍTICO)
 - Juan Pablo Murra → Feedback narrativa TEC
 - Gobierno QRO → Alineación Instituto del Futuro
-- Xignux → respuesta
+- Antonio Rangel → Validar replanteamiento 3 etapas
+- Nicho (Talisis) → Status reunión liderazgo
+- Javier (VP Research Tec) → Agendar reunión con Joel Cano
+- Xignux → follow-up batch (archivar si no responden en 2 sem)
+- Proeza → follow-up batch (archivar si no responden en 2 sem)
+- FEMSA SER → follow-up batch (archivar si no responden en 2 sem)
 - Financial Paper → Ricardo
-- Proeza → seguimiento
-- FEMSA SER → respuesta de correo
 
 ### Next Session Priorities
-1. SIC-Q demo preparation (video backup)
-2. Learning Products canvas design
-3. Follow up on critical blockers (Alfonso, JP)
+1. Docet: Preparar call viernes + avanzar prototipo agentes
+2. SIC-Q: Talleres co-diseño (foco principal)
+3. UPU: Verificar avance Oscar documentación
+4. Follow-up batch: Xignux, Proeza, FEMSA SER
 
 ### Recent Sessions
 
 | Date | Session | Focus | Key Achievement |
 |------|---------|-------|-----------------|
+| 2026-02-14 | 7 | Dashboard + IC | Dashboard actualizado, IC content expandido |
 | 2026-02-02 | 6 | Refinement | Start report tone — partner briefing |
 | 2026-02-02 | 5 | Docs / Config | One-pager update |
 | 2026-02-02 | 4 | Dashboard | Populated from 8 projects |
