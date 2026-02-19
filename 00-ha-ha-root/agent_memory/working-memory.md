@@ -2,6 +2,21 @@
 
 ## Sessions
 
+### 2026-02-19 | Session 10 | PORTFOLIO UPDATE
+- **Focus:** Actualización completa de dashboard con avances de todos los proyectos
+- **Achievements:**
+  - Dashboard actualizado con status actual de 8+ proyectos
+  - **SIC-Q:** 3 talleres co-diseño completados exitosamente (especialmente Consejo QRO). Reunión Antonio Rangel hoy 12:30 para contrato/operación. PRIORIDAD #1.
+  - **Docet:** En pausa — esperando evaluación equipo Poncho sobre indicadores y métricas de performance. Ya no urgente.
+  - **TEC Narrativa:** JP Murra feedback RECIBIDO — se quitaron proyectos paraguas. Materiales entregados a Mario Adrián para Consejo. Sarahí da insumos.
+  - **Tec Beyond:** Materiales preparados (gracias Mario Orozco). Falta integrar doc coherente para reunión martes con Jorge Blando.
+  - **UPU:** Oscar documentación esta semana, envío la siguiente.
+  - **Talisis:** Reconectado con Nicho — llamada siguiente semana.
+  - **Xignux:** Follow-up enviado, sin respuesta. Proeza/FEMSA SER archivados.
+  - **Steven Popper:** Correo enviado para reuniones mensuales advisory board.
+- **Decisions:** Docet baja de urgencia a espera. SIC-Q sube a prioridad #1.
+- **Open threads:** Reunión Rangel hoy, doc Tec Beyond para martes, llamada Nicho siguiente semana
+
 ### 2026-02-15 | Session 9 | AUDITORÍA FEB 11–14
 - **Focus:** Auditoría completa de cambios en el vault (5 commits, 42 archivos)
 - **Achievements:**

@@ -65,41 +65,42 @@
 ## ZONE C: State (Dynamic)
 
 ### Last Session
-- **Date:** 2026-02-15
-- **Type:** Auditoría Feb 11–14
-- **Achievements:** Auditoría completa: 5 commits, 42 archivos (22 nuevos, 20 modificados). Tec Beyond = proyecto más activo. José Antonio entrevista completa (27 total). 2 skills nuevos. Sistema HA-HA profesionalizado.
+- **Date:** 2026-02-19
+- **Type:** Actualización portafolio completo
+- **Achievements:** Dashboard actualizado con avances de todos los proyectos. SIC-Q talleres exitosos, JP Murra feedback recibido, Docet en pausa, Nicho reconectado.
 
 ### Active Threads
-- Docet-Agentic: Call viernes + prototipo primeros agentes (deadline feb) — URGENTE
-- SIC-Q: Talleres co-diseño febrero (listos, es el foco) + propuesta v06
-- Tec Beyond: Producción activa — 3 presentaciones, visuales para Mario pendientes
-- TEC Narrativa: 27 entrevistas completas. Awaiting JP Murra feedback + integrar hallazgos José Antonio
-- UPU: Oscar cerrando documentación (2 new devs)
-- Joel Cano: Reunión con Javier (VP Research Tec) — acordada
-- Talisis: Reconectar con Nicho (reunión liderazgo → board educación)
+- SIC-Q: 3 talleres exitosos ✅ — reunión Antonio Rangel hoy 12:30 (contrato + operación) — PRIORIDAD #1
+- Docet-Agentic: En pausa — esperando evaluación equipo Poncho sobre indicadores/métricas
+- Tec Beyond: Materiales listos, integrar doc para reunión martes con Jorge Blando
+- TEC Narrativa: Feedback JP recibido (quitaron proyectos paraguas). Mario Adrián presenta a Consejo. Sarahí da insumos.
+- UPU: Oscar documentación esta semana, envío la siguiente
+- Talisis: Reconectado con Nicho — llamada siguiente semana
 - Learning Products: Betty + Sarahí avanzan canvases
+- Joel Cano: Reunión con Javier (VP Research Tec) — pendiente
+- Steven Popper: Correo enviado para reuniones mensuales advisory board
 
 ### Waiting For
-- Juan Pablo Murra → Feedback narrativa TEC
-- Gobierno QRO → Alineación Instituto del Futuro
-- Antonio Rangel → Validar replanteamiento 3 etapas
-- Nicho (Talisis) → Status reunión liderazgo
+- Equipo Poncho (Docet) → Evaluación indicadores y métricas de performance
+- Antonio Rangel → Reunión hoy 12:30 — contrato y operación SIC-Q
+- Gobierno QRO → Decisión legal + alineación IF
+- Nicho (Talisis) → Llamada siguiente semana
 - Javier (VP Research Tec) → Agendar reunión con Joel Cano
-- Xignux → follow-up batch (archivar si no responden en 2 sem)
-- Proeza → follow-up batch (archivar si no responden en 2 sem)
-- FEMSA SER → follow-up batch (archivar si no responden en 2 sem)
+- Steven Popper → Respuesta correo reuniones mensuales
+- Xignux → Follow-up enviado, sin respuesta
 - Financial Paper → Ricardo
 
 ### Next Session Priorities
-1. Docet: Preparar call viernes + avanzar prototipo agentes
-2. SIC-Q: Talleres co-diseño (foco principal)
-3. UPU: Verificar avance Oscar documentación
-4. Follow-up batch: Xignux, Proeza, FEMSA SER
+1. SIC-Q: Resultado reunión Antonio Rangel — definir contrato y próximos pasos
+2. Tec Beyond: Doc integrado para reunión martes Jorge Blando
+3. Docet: Monitorear respuesta equipo Poncho
+4. Talisis: Preparar llamada con Nicho
 
 ### Recent Sessions
 
 | Date | Session | Focus | Key Achievement |
 |------|---------|-------|-----------------|
+| 2026-02-19 | 10 | Portfolio update | Dashboard actualizado, SIC-Q talleres ✅, JP feedback ✅ |
 | 2026-02-15 | 9 | Auditoría | 5 commits, 42 archivos auditados (feb 11–14) |
 | 2026-02-15 | 8 | Quick boot | Edgar's inter-session updates captured |
 | 2026-02-14 | 7 | Dashboard + IC | Dashboard actualizado, IC content expandido |

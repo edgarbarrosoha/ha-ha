@@ -16,7 +16,7 @@ Es un compromiso de diseño, no un spec técnico final. Los detalles de implemen
 
 ## 1. Principio rector
 
-**Los datos son de Tec Beyond. Siempre.**
+**Los datos son del Tec. Siempre.**
 
 Horizons Architecture construye y opera la plataforma. Pero no es dueña de la información que fluye por ella. Si en cualquier momento se decide cambiar de proveedor, los datos, los insights y la comunidad permanecen intactos.
 
@@ -26,14 +26,14 @@ Horizons Architecture construye y opera la plataforma. Pero no es dueña de la i
 
 ### Datos de los miembros
 
-| Tipo de dato | Ejemplos | Fuente | Sensibilidad |
-|--------------|----------|--------|--------------|
-| **Perfil profesional** | Nombre, empresa, cargo, industria, ubicación | Registro + LinkedIn público | Media |
-| **Perfil de intereses** | Sectores de interés, necesidades, capacidades | Encuestas + interacciones | Media |
-| **Historial del programa** | Generación, sede, proyectos, células de innovación | Datos existentes Tec Beyond | Baja |
-| **Interacciones** | Conversaciones con agentes, respuestas a contenido | Plataforma | Alta |
-| **Matches** | Conexiones propuestas y aceptadas/rechazadas | Agente Match | Alta |
-| **Preferencias** | Notificaciones, frecuencia, canales preferidos | Configuración del miembro | Baja |
+| Tipo de dato               | Ejemplos                                           | Fuente                      | Sensibilidad |
+| -------------------------- | -------------------------------------------------- | --------------------------- | ------------ |
+| **Perfil profesional**     | Nombre, empresa, cargo, industria, ubicación       | Registro + LinkedIn público | Media        |
+| **Perfil de intereses**    | Sectores de interés, necesidades, capacidades      | Encuestas + interacciones   | Media        |
+| **Historial del programa** | Generación, sede, proyectos, células de innovación | Datos existentes Tec Beyond | Baja         |
+| **Interacciones**          | Conversaciones con agentes, respuestas a contenido | Plataforma                  | Alta         |
+| **Matches**                | Conexiones propuestas y aceptadas/rechazadas       | Agente Match                | Alta         |
+| **Preferencias**           | Notificaciones, frecuencia, canales preferidos     | Configuración del miembro   | Baja         |
 
 ### Datos del sistema
 
@@ -101,14 +101,14 @@ Los datos viven en infraestructura del Tec (Azure). La capa de agentes de IA acc
 
 ## 4. Propiedad y derechos
 
-| Componente | Propiedad | Derechos de HA | Qué pasa si se termina el contrato |
-|------------|-----------|----------------|-------------------------------------|
-| **Datos de miembros** | Tec Beyond — 100% | Lectura para operar; no retiene copias | Se revoca acceso; datos intactos |
-| **Insights y reportes** | Tec Beyond — 100% | Genera; no retiene después de entregar | Reportes quedan en infraestructura Tec |
-| **Base de conocimiento vectorial** | Tec Beyond — 100% | Construye y mantiene; no es propietario | Se entrega documentación técnica para migración |
-| **Plataforma y código** | Horizons Architecture | Licencia de uso a Tec Beyond | La licencia se termina; Tec Beyond conserva datos |
-| **Algoritmos de agentes** | Horizons Architecture | Propiedad intelectual de HA | HA se lleva su código; los resultados quedan |
-| **Reglas de la comunidad** | Consejo León | HA las implementa; no las define | Quedan documentadas para cualquier proveedor |
+| Componente                         | Propiedad             | Derechos de HA                          | Qué pasa si se termina el contrato                |
+| ---------------------------------- | --------------------- | --------------------------------------- | ------------------------------------------------- |
+| **Datos de miembros**              | Tec — 100%            | Lectura para operar; no retiene copias  | Se revoca acceso; datos intactos                  |
+| **Insights y reportes**            | Tec Beyond — 100%     | Genera; no retiene después de entregar  | Reportes quedan en infraestructura Tec            |
+| **Base de conocimiento vectorial** | Tec Beyond — 100%     | Construye y mantiene; no es propietario | Se entrega documentación técnica para migración   |
+| **Plataforma y código**            | Horizons Architecture | Licencia de uso a Tec Beyond            | La licencia se termina; Tec Beyond conserva datos |
+| **Algoritmos de agentes**          | Horizons Architecture | Propiedad intelectual de HA             | HA se lleva su código; los resultados quedan      |
+| **Reglas de la comunidad**         | Consejo León          | HA las implementa; no las define        | Quedan documentadas para cualquier proveedor      |
 
 ### Compromiso de portabilidad
 

@@ -6,8 +6,8 @@ type: clock
 # Today
 
 ```schedule
-[Start]: 02/15/26 - 10:00 AM
-[Invalid date]: 
+[Start]: 02/19/26 - 10:00 AM
+[Invalid date]:
 [Finish]: Invalid date
 ```
 
@@ -21,28 +21,24 @@ type: clock
 # To dos
 
 ## Prioridad
-- [ ] Docet: Preparar call viernes con equipo Poncho
-- [ ] Docet: Prototipo primeros agentes (deadline febrero)
+- [ ] SIC-Q: Siguientes pasos con Antonio Rangel (reunión hoy 12:30) — contrato y operación
 - [ ] SIC-Q: Propuesta v06 (TaaS + 3 instancias + prospectiva)
+- [ ] Tec Beyond: Integrar materiales en documento coherente para reunión martes con Jorge Blando
 
 ## En curso
-- [ ] SIC-Q: Talleres co-diseño febrero 2026 (listos — FOCO PRINCIPAL)
-- [ ] UPU: Oscar terminando documentación para cerrar proyecto
-- [ ] Tec Beyond: Visualizaciones para Mario Orozco (scaling, modelo de negocio, "anexos")
-- [ ] TEC Narrativa: Integrar hallazgos José Antonio Fernández a narrativa
+- [ ] Docet: Esperando evaluación equipo Poncho sobre indicadores y métricas de performance
+- [ ] UPU: Oscar documentación esta semana, envío la siguiente
+- [ ] TEC Narrativa: Materiales entregados a Mario Adrián para Consejo. Sarahí dando insumos
 - [ ] Learning Products: Betty + Sarahí avanzan canvases
 
 ## Pendiente
-- [x] Hacer la carta de Itzel
 - [ ] Entender la codificación
-- [ ] SIC-Q: Diseño consulta piloto
-- [ ] SIC-Q: Mapeo datos existentes gobierno
-- [ ] HA-Core: Organizar panel EBCT
+
 - [ ] Learning Products: Adaptar syllabus Entrepreneurship para Leiden
 - [ ] Learning Products: Definir scope Plan de Vida y Carrera
-- [ ] Talisis: Reconectar con Nicho (reunión liderazgo → board educación)
+- [ ] Talisis: Llamada con Nicho siguiente semana
 - [ ] Joel Cano: Agendar reunión con Javier (VP Research Tec)
-- [ ] Follow-up batch: Xignux, Proeza, FEMSA SER (archivar si no responden en 2 sem)
+- [ ] Xignux: Follow-up enviado, sin respuesta aún
 
 ---
 
@@ -50,14 +46,13 @@ type: clock
 
 | Persona | Esperando | Proyecto |
 |---------|-----------|----------|
-| **Juan Pablo Murra** | Feedback narrativa v1 | TEC Monterrey |
+| **Equipo Poncho (Docet)** | Evaluación de indicadores y métricas de performance | Docet-Agentic |
+| **Antonio Rangel** | Reunión hoy 12:30 — siguientes pasos contrato y operación | SIC-Q |
 | **Gobierno QRO** | Decisión legal CURP vs INE + alineación IF | SIC-Q |
-| **Antonio Rangel** | Validar replanteamiento 3 etapas + alcance piloto | SIC-Q |
-| **Nicho (Talisis)** | Status reunión liderazgo → board educación | Talisis |
+| **Nicho (Talisis)** | Llamada siguiente semana | Talisis |
 | **Javier (VP Research Tec)** | Agendar reunión con Joel Cano | HA-Core |
-| Xignux | Follow-up batch (archivar si no responden en 2 sem) | — |
-| Proeza | Follow-up batch (archivar si no responden en 2 sem) | — |
-| FEMSA SER | Follow-up batch (archivar si no responden en 2 sem) | — |
+| **Steven Popper** | Respuesta correo reuniones mensuales | Advisory |
+| Xignux | Follow-up enviado, sin respuesta | — |
 | Financial Paper | Ricardo | — |
 
 ---
@@ -68,16 +63,16 @@ type: clock
 
 | **Project** | **Status** | **Next steps** | **Links** |
 | ----------- | ---------- | -------------- | --------- |
-| **SIC-Q** | 🔶 Talleres + replanteamiento | Propuesta v06 + mapeo datos gobierno | `sic-q/` |
+| **SIC-Q** | 🟢 3 talleres exitosos — reunión Rangel hoy | Contrato + operación + propuesta v06 | `sic-q/` |
 
 ## Education & AI Systems
 
 | **Project** | **Status** | **Next steps** | **Links** |
 | ----------- | ---------- | -------------- | --------- |
-| **Docet-Agentic** | 🔴 Active — deadline feb | Call viernes + prototipo agentes | `docet-agentic/` |
-| **TEC Narrativa** | 🔶 27 entrevistas completas | Integrar hallazgos José Antonio, esperar JP | `tec-monterrey/` |
-| **Tec Beyond** | 🔶 Producción activa | Visualizaciones para Mario | `tec-monterrey/` |
-| **Talisis 360** | 📋 Reconectando | Reunión Nicho → board educación | `talisis/` |
+| **Docet-Agentic** | ⏳ Esperando evaluación equipo Poncho | Indicadores y métricas — pausa prototipo | `docet-agentic/` |
+| **TEC Narrativa** | 🟢 Feedback JP recibido | Mario Adrián presenta a Consejo, Sarahí insumos | `tec-monterrey/` |
+| **Tec Beyond** | 🔶 Materiales listos | Integrar doc + reunión martes Jorge Blando | `tec-monterrey/` |
+| **Talisis 360** | 🔶 Reconectado con Nicho | Llamada siguiente semana | `talisis/` |
 
 ## Products & Frameworks
 
@@ -100,9 +95,9 @@ type: clock
 ## SIC-Q (Sistema de Inteligencia Colectiva de Querétaro)
 **Cliente:** CEPACI Querétaro / Gobierno de Querétaro
 **Modelo:** 3 etapas acumulativas — Inteligencia → Canales ciudadanos → Servicios gobierno
-- [ ] Co-diseño con 3 grupos académicos — talleres feb 2026 (FOCO PRINCIPAL)
+- [ ] 🔴 Reunión Antonio Rangel hoy 12:30 — siguientes pasos contrato y operación
 - [ ] 🔴 Propuesta v06 con 3 etapas acumulativas
-- [ ] 🔴 Mapeo datos existentes gobierno (Etapa 1: Agente SIC-Q Institucional)
+- [ ] Mapeo datos existentes gobierno (Etapa 1: Agente SIC-Q Institucional)
 - [ ] Formalizar Instituto del Futuro en El Consejo A.C.
 - [ ] Diseño consulta piloto
 
@@ -110,8 +105,8 @@ type: clock
 **Cliente:** Alfonso Romo / DOCET
 **Inversión:** $3.9M MXN total ($600K Fase 1)
 **Modelo:** Sistema multiagente 6 dimensiones para escuela K-9
-- [ ] 🔴 Call viernes con equipo Poncho
-- [ ] 🔴 Prototipo primeros agentes (deadline febrero)
+- [ ] ⏳ Esperando evaluación equipo Poncho sobre indicadores y métricas de performance
+- [ ] Prototipo agentes (en pausa hasta recibir feedback)
 - [ ] UX/UI Design
 - [ ] Configuración "Strategic Six" en sandbox
 - [ ] Demo interactivo
@@ -120,15 +115,14 @@ type: clock
 **Cliente:** Juan Pablo Murra (Rector Campus)
 **Concepto:** "Colaboración Sistémica" — 3 apuestas transformadoras
 **Entrevistas:** 27 totales (6 liderazgo, 13 directivos, 7 estudiantes, 1 consejero)
-- [ ] ⏳ Feedback JP — esperando
-- [ ] Integrar hallazgos José Antonio a narrativa
+- [ ] Sarahí dando insumos a Mario Adrián
 - [ ] Mapeo indicadores y proyectos
 - [ ] Presentación ejecutiva final
 
 ## TEC Monterrey — Tec Beyond
 **Cliente:** Mario Orozco
 **Concepto:** Community platform + HA integration
-- [ ] Visualizaciones para Mario (scaling, modelo de negocio, "anexos")
+- [ ] 🔴 Integrar en documento coherente para reunión martes con Jorge Blando
 
 ## Learning Products (Q1 2026)
 **Meta:** 5 productos diseñados a Nivel 1
@@ -166,7 +160,7 @@ type: clock
 ## Talisis 360
 **Modelo:** 5 dimensiones liderazgo (EJECUTA, UNE, IMPULSA, NAVEGA, CREA)
 **Proceso:** Conversaciones AI con "Tali" → Feedback 360 → Plan desarrollo
-- [ ] Reconectar con Nicho (reunión liderazgo → board educación)
+- [ ] Llamada con Nicho siguiente semana
 - [ ] Configurar Tali
 - [ ] Piloto con cohorte
 
@@ -176,10 +170,11 @@ type: clock
 
 | Fecha | Evento | Proyecto |
 |-------|--------|----------|
-| **Feb 2026** | Call viernes + prototipo agentes | Docet-Agentic |
-| **Feb 2026** | Talleres co-diseño (en curso) | SIC-Q |
-| **Feb 2026** | Propuesta v06 + presentar replanteamiento a Antonio Rangel | SIC-Q |
-| **Feb 2026** | Visualizaciones para Mario Orozco | Tec Beyond |
+| **19 feb 2026** | Reunión Antonio Rangel 12:30 — siguientes pasos | SIC-Q |
+| **Martes 24 feb** | Reunión Jorge Blando — doc integrado | Tec Beyond |
+| **Feb 2026** | Propuesta v06 | SIC-Q |
+| **Siguiente semana** | Llamada Nicho | Talisis |
+| **Siguiente semana** | Oscar envía documentación | UPU |
 | Mar-May 2026 | Fase 2 Data Architecture | Docet-Agentic |
 | Abr-Jul 2026 | Fase 3 V1.0 Development | Docet-Agentic |
 | Jul-Ago 2026 | Fase 4 Testing & Deployment | Docet-Agentic |
@@ -192,14 +187,14 @@ type: clock
 
 | Project | Potential | Status |
 |---------|-----------|--------|
-| Docet-Agentic | $3.9M MXN (~$200K USD) | Activo — prototipo en curso |
-| SIC-Q | TBD | En negociación |
+| Docet-Agentic | $3.9M MXN (~$200K USD) | En pausa — esperando evaluación equipo Poncho |
+| SIC-Q | TBD | Talleres exitosos — negociación contrato |
 | TEC Monterrey | Consultoría (Narrativa + Tec Beyond) | Activo |
 | UPU | 3,500 CHF (workshop) + frontend | Cerrando |
-| Talisis | TBD | Reconectando con Nicho |
+| Talisis | TBD | Reconectado — llamada siguiente semana |
 | Joel Cano / Tec Ventures | TBD | Reunión con Javier VP Research pendiente |
 
 ---
 
-*Última actualización: 2026-02-15*
+*Última actualización: 2026-02-19*
 *HA Syntax: `[>]` agent task, `[<]` waiting, `[?]` decision needed, `[!]` urgent, `[x]` done*

@@ -166,11 +166,11 @@ Tres niveles concéntricos: Círculo 1 (XBAC + Comunidad Beyond + LLL), Círculo
 
 Cada círculo tiene un rol claro, y ninguno absorbe a otro:
 
-| Círculo | Quién | Función | Ve |
-|---------|-------|---------|-----|
-| **1** | XBAC + Comunidad Beyond + LLL | Dirección estratégica, reglas de la comunidad, decisiones de admisión | Todo — toda la red, todos los datos, todos los reportes |
-| **2** | Tec de Monterrey | Infraestructura, estándares de seguridad, paraguas institucional | Métricas agregadas, cumplimiento de estándares |
-| **3** | Horizons Architecture | Operación tecnológica, desarrollo de agentes, soporte técnico | Datos técnicos necesarios para operar (no datos de negocio) |
+| Círculo | Quién                          | Función                                                               | Ve                                                          |
+| ------- | ------------------------------ | --------------------------------------------------------------------- | ----------------------------------------------------------- |
+| **1**   | ESBAC + Comunidad Beyond + LLL | Dirección estratégica, reglas de la comunidad, decisiones de admisión | Todo — toda la red, todos los datos, todos los reportes     |
+| **2**   | Tec de Monterrey               | Infraestructura, estándares de seguridad, paraguas institucional      | Métricas agregadas, cumplimiento de estándares              |
+| **3**   | Horizons Architecture          | Operación tecnológica, desarrollo de agentes, soporte técnico         | Datos técnicos necesarios para operar (no datos de negocio) |
 
 ### El principio rector
 
