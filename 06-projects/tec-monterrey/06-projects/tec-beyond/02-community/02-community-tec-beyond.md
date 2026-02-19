@@ -8,11 +8,25 @@
 
 | Rol | Nombre | Responsabilidad |
 |-----|--------|-----------------|
-| **Presidente Consejo León** | Mario Orozco Arena | Sponsor, promotor del proyecto |
-| **VP del Tec** | Víctor Gutiérrez | Validación institucional |
+| **Presidente Consejo León** | Mario Orozco Arena | Sponsor, promotor del proyecto, presentación face-to-face |
+| **Coordinador Tec** | Víctor Gutiérrez (VP) | Coordinación institucional (asignado formalmente feb 2026) |
+| **Negociación + Business Plan** | Jorge Blando (Vicerrector Edu Continua) | Compliance, modelo de negocio, plan financiero |
+| **Vinculación Beyond** | Horacio | Conectar con programa Beyond existente |
 | **Director General Campus León** | Juan Carlos Arreola Rivas | Secretario del Consejo |
-| **Proveedor Tecnológico** | Edgar Barroso (HA) | Arquitectura y plataforma |
+| **Proveedor Tecnológico** | Edgar Barroso (HA) | Arquitectura, narrativa y plataforma |
 | **Comité de IA** | [Miembros por confirmar] | Decisión de contratación |
+
+### Liderazgo alineado (feb 15-16, 2026)
+
+Mario alineó presencialmente a los siguientes líderes — todos con optimismo, interés y curiosidad:
+
+| Persona | Rol | Status |
+|---------|-----|--------|
+| **David Garza** | Rector del Tec | Alineado ✓ |
+| **Ricardo Saldívar** | Liderazgo campus | Alineado ✓ |
+| **Hugo Garza** | Presidente Consejo | Alineado ✓ |
+
+Alineados "hasta en junta de presidentes." El proyecto pasó de propuesta en evaluación a **co-creación con gobernanza institucional.**
 
 ### Mario Orozco Arena — Perfil
 
