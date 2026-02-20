@@ -1,0 +1,81 @@
+{
+  "elements": [
+
+    {"label": "ESBAC + Tec de Monterrey", "type": "Raíz", "description": "Nodo central. ESBAC como Consejo directivo + Tec de Monterrey como paraguas institucional. Define ADN, reglas, estándares. Gobierna toda la red.", "tags": ["raíz"], "size": 60},
+
+    {"label": "León", "type": "Sede", "description": "Instancia HA raíz. Piloto Feb-Nov 2026. ~300 miembros, 9 generaciones. Primera comunidad activa.", "tags": ["sede"], "size": 40},
+    {"label": "León: Legado", "type": "Dimensión", "description": "Lo que trasciende. Historia de 9 generaciones desde 2015. Identidad empresarial del Bajío. Valores fundacionales.", "tags": ["sede", "dimensión", "león"], "size": 12},
+    {"label": "León: Comunidad", "type": "Dimensión", "description": "~350 empresarios + familias + colaboradores. Manufactura, comercio, servicios. Capítulo más maduro.", "tags": ["sede", "dimensión", "león"], "size": 12},
+    {"label": "León: Aprendizaje", "type": "Dimensión", "description": "Capacitación personalizada vía Agente Contenidos. Demanda informada para Educación Continua. Lifelong learning.", "tags": ["sede", "dimensión", "león"], "size": 12},
+    {"label": "León: Tecnología", "type": "Dimensión", "description": "Plataforma completa: Base de Conocimiento + 4 Agentes IA + Dashboard. Azure del Tec. Se construye aquí primero.", "tags": ["sede", "dimensión", "león"], "size": 12},
+    {"label": "León: Contexto", "type": "Dimensión", "description": "Ecosistema industrial del Bajío. Nearshoring, manufactura, cadenas de suministro. Vocación productiva regional.", "tags": ["sede", "dimensión", "león"], "size": 12},
+    {"label": "León: Proyectos", "type": "Dimensión", "description": "Piloto plataforma, Reunión de Generaciones (27 abril), matches de negocio, eventos premium, membresías.", "tags": ["sede", "dimensión", "león"], "size": 12},
+
+    {"label": "Chihuahua", "type": "Sede", "description": "Instancia HA. Expansión 1 (2027). ~300 miembros. Hereda plataforma, agentes, reglas. Costo: ~20-25% del piloto.", "tags": ["sede"], "size": 30},
+    {"label": "Chihuahua: Legado", "type": "Dimensión", "description": "Tradición empresarial del norte. Ganadería, minería, industria. Historia propia del capítulo local.", "tags": ["sede", "dimensión", "chihuahua"], "size": 10},
+    {"label": "Chihuahua: Comunidad", "type": "Dimensión", "description": "Empresarios locales + familias. Consejo local propio. Admin de sede dedicado.", "tags": ["sede", "dimensión", "chihuahua"], "size": 10},
+    {"label": "Chihuahua: Aprendizaje", "type": "Dimensión", "description": "Mismos agentes de contenido, calibrados al contexto regional. Necesidades formativas propias.", "tags": ["sede", "dimensión", "chihuahua"], "size": 10},
+    {"label": "Chihuahua: Tecnología", "type": "Dimensión", "description": "Instancia fractal de la plataforma. Mismos agentes, misma base de conocimiento, contexto local.", "tags": ["sede", "dimensión", "chihuahua"], "size": 10},
+    {"label": "Chihuahua: Contexto", "type": "Dimensión", "description": "Frontera norte, manufactura de exportación, agroindustria. Oportunidades de nearshoring distintas a León.", "tags": ["sede", "dimensión", "chihuahua"], "size": 10},
+    {"label": "Chihuahua: Proyectos", "type": "Dimensión", "description": "Configuración de instancia, migración de datos locales, primer matching inter-sede con León.", "tags": ["sede", "dimensión", "chihuahua"], "size": 10},
+
+    {"label": "Morelia", "type": "Sede", "description": "Instancia HA. Expansión 2 (2028). ~300 miembros. Insights comparativos entre regiones activados.", "tags": ["sede"], "size": 25},
+    {"label": "Morelia: Legado", "type": "Dimensión", "description": "Tradición cultural y educativa de Michoacán. Agroindustria, turismo, economía creativa.", "tags": ["sede", "dimensión", "morelia"], "size": 10},
+    {"label": "Morelia: Comunidad", "type": "Dimensión", "description": "Empresarios locales. Consejo local. Conexiones con León y Chihuahua vía matching inter-sede.", "tags": ["sede", "dimensión", "morelia"], "size": 10},
+    {"label": "Morelia: Aprendizaje", "type": "Dimensión", "description": "Contenido personalizado + aprendizajes cruzados de León y Chihuahua. Scout inter-sede activo.", "tags": ["sede", "dimensión", "morelia"], "size": 10},
+    {"label": "Morelia: Tecnología", "type": "Dimensión", "description": "Instancia fractal. Plataforma heredada, optimizada con aprendizajes de 2 sedes previas.", "tags": ["sede", "dimensión", "morelia"], "size": 10},
+    {"label": "Morelia: Contexto", "type": "Dimensión", "description": "Michoacán: agroindustria (aguacate, berries), turismo, manufactura ligera. Retos de seguridad.", "tags": ["sede", "dimensión", "morelia"], "size": 10},
+    {"label": "Morelia: Proyectos", "type": "Dimensión", "description": "Configuración local, eventos regionales, primeros matches tri-sede.", "tags": ["sede", "dimensión", "morelia"], "size": 10},
+
+    {"label": "Guadalajara", "type": "Sede", "description": "Instancia HA. Expansión 2 (2028). ~300 miembros. Con 5 sedes: 1,500 miembros, 1.1M conexiones, 25x valor.", "tags": ["sede"], "size": 25},
+    {"label": "Guadalajara: Legado", "type": "Dimensión", "description": "Silicon Valley mexicano. Hub tecnológico, industria creativa, farmacéutica, alimentos.", "tags": ["sede", "dimensión", "guadalajara"], "size": 10},
+    {"label": "Guadalajara: Comunidad", "type": "Dimensión", "description": "Empresarios tech + industria tradicional. Comunidad grande, diversa. Consejo local robusto.", "tags": ["sede", "dimensión", "guadalajara"], "size": 10},
+    {"label": "Guadalajara: Aprendizaje", "type": "Dimensión", "description": "Ecosistema educativo fuerte (ITESO, UdeG, Tec GDL). Membresías premium nacionales activas.", "tags": ["sede", "dimensión", "guadalajara"], "size": 10},
+    {"label": "Guadalajara: Tecnología", "type": "Dimensión", "description": "Instancia fractal. Talento tech local podría contribuir al desarrollo de la plataforma.", "tags": ["sede", "dimensión", "guadalajara"], "size": 10},
+    {"label": "Guadalajara: Contexto", "type": "Dimensión", "description": "Jalisco: tecnología, farmacéutica, alimentos, tequila, turismo. Segunda economía del país.", "tags": ["sede", "dimensión", "guadalajara"], "size": 10},
+    {"label": "Guadalajara: Proyectos", "type": "Dimensión", "description": "Matching nacional completo, eventos inter-sede, modelo exportable a otros programas Tec.", "tags": ["sede", "dimensión", "guadalajara"], "size": 10}
+  ],
+
+  "connections": [
+
+    {"from": "ESBAC + Tec de Monterrey", "to": "León", "type": "instancia raíz", "label": "piloto 2026"},
+    {"from": "ESBAC + Tec de Monterrey", "to": "Chihuahua", "type": "instancia", "label": "expansión 2027"},
+    {"from": "ESBAC + Tec de Monterrey", "to": "Morelia", "type": "instancia", "label": "expansión 2028"},
+    {"from": "ESBAC + Tec de Monterrey", "to": "Guadalajara", "type": "instancia", "label": "expansión 2028"},
+
+    {"from": "León", "to": "León: Legado", "type": "dimensión", "label": ""},
+    {"from": "León", "to": "León: Comunidad", "type": "dimensión", "label": ""},
+    {"from": "León", "to": "León: Aprendizaje", "type": "dimensión", "label": ""},
+    {"from": "León", "to": "León: Tecnología", "type": "dimensión", "label": ""},
+    {"from": "León", "to": "León: Contexto", "type": "dimensión", "label": ""},
+    {"from": "León", "to": "León: Proyectos", "type": "dimensión", "label": ""},
+
+    {"from": "Chihuahua", "to": "Chihuahua: Legado", "type": "dimensión", "label": ""},
+    {"from": "Chihuahua", "to": "Chihuahua: Comunidad", "type": "dimensión", "label": ""},
+    {"from": "Chihuahua", "to": "Chihuahua: Aprendizaje", "type": "dimensión", "label": ""},
+    {"from": "Chihuahua", "to": "Chihuahua: Tecnología", "type": "dimensión", "label": ""},
+    {"from": "Chihuahua", "to": "Chihuahua: Contexto", "type": "dimensión", "label": ""},
+    {"from": "Chihuahua", "to": "Chihuahua: Proyectos", "type": "dimensión", "label": ""},
+
+    {"from": "Morelia", "to": "Morelia: Legado", "type": "dimensión", "label": ""},
+    {"from": "Morelia", "to": "Morelia: Comunidad", "type": "dimensión", "label": ""},
+    {"from": "Morelia", "to": "Morelia: Aprendizaje", "type": "dimensión", "label": ""},
+    {"from": "Morelia", "to": "Morelia: Tecnología", "type": "dimensión", "label": ""},
+    {"from": "Morelia", "to": "Morelia: Contexto", "type": "dimensión", "label": ""},
+    {"from": "Morelia", "to": "Morelia: Proyectos", "type": "dimensión", "label": ""},
+
+    {"from": "Guadalajara", "to": "Guadalajara: Legado", "type": "dimensión", "label": ""},
+    {"from": "Guadalajara", "to": "Guadalajara: Comunidad", "type": "dimensión", "label": ""},
+    {"from": "Guadalajara", "to": "Guadalajara: Aprendizaje", "type": "dimensión", "label": ""},
+    {"from": "Guadalajara", "to": "Guadalajara: Tecnología", "type": "dimensión", "label": ""},
+    {"from": "Guadalajara", "to": "Guadalajara: Contexto", "type": "dimensión", "label": ""},
+    {"from": "Guadalajara", "to": "Guadalajara: Proyectos", "type": "dimensión", "label": ""},
+
+    {"from": "León", "to": "Chihuahua", "type": "matching inter-sede", "label": ""},
+    {"from": "León", "to": "Morelia", "type": "matching inter-sede", "label": ""},
+    {"from": "León", "to": "Guadalajara", "type": "matching inter-sede", "label": ""},
+    {"from": "Chihuahua", "to": "Morelia", "type": "matching inter-sede", "label": ""},
+    {"from": "Chihuahua", "to": "Guadalajara", "type": "matching inter-sede", "label": ""},
+    {"from": "Morelia", "to": "Guadalajara", "type": "matching inter-sede", "label": ""}
+  ]
+}
