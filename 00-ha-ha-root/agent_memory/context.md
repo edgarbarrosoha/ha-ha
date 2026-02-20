@@ -66,15 +66,17 @@
 ## ZONE C: State (Dynamic)
 
 ### Last Session
-- **Date:** 2026-02-19
-- **Type:** Tec Beyond — profesionalización de anexos + visualización Kumu
-- **Achievements:** HTML profesional con gráficas, PDF B&W, Kumu JSON (fractal HA: raíz + 4 sedes × 6 dimensiones), narrativa del grafo. GitHub Pages activado.
+- **Date:** 2026-02-20
+- **Type:** SIC-Q — Actualización post-reunión Toño + procesamiento reportes talleres
+- **Achievements:** Minuta reunión Toño (limpia, sin ambigüedades), lectura completa de 4 reportes talleres (778 ideas, 74 participantes, 8 hallazgos), actualización completa dashboards SIC-Q + principal, respuesta a Héctor (nuevo lead transformación digital).
 
 ### Active Threads
-- SIC-Q: 3 talleres exitosos ✅ — resultado reunión Antonio Rangel pendiente de capturar
+- SIC-Q: Talleres ✅ + Reunión Toño ✅ → 3 frentes operativos definidos. Propuesta v06 + diseño piloto = siguiente paso
+- SIC-Q: 4 reportes talleres completos (ejecutivos T1/T2, combinado, técnico ~1600 líneas)
 - Tec Beyond: Materiales LISTOS para reunión martes 24 feb Jorge Blando (HTML, PDF, Kumu)
 - Docet-Agentic: En pausa — esperando evaluación equipo Poncho sobre indicadores/métricas
 - TEC Narrativa: Feedback JP recibido. Mario Adrián presenta a Consejo. Sarahí da insumos.
+- Héctor: Nuevo lead — transformación digital + IA + referencia. Respuesta enviada, pendiente agendar llamada.
 - UPU: Oscar documentación esta semana, envío la siguiente
 - Talisis: Reconectado con Nicho — llamada siguiente semana
 - Learning Products: Betty + Sarahí avanzan canvases
@@ -82,10 +84,11 @@
 - Steven Popper: Correo enviado para reuniones mensuales advisory board
 
 ### Waiting For
+- Antonio Rangel → Alcance específico piloto (datasets, productos, frecuencia)
 - Equipo Poncho (Docet) → Evaluación indicadores y métricas de performance
-- Antonio Rangel → Resultado reunión SIC-Q (contrato + operación)
 - Gobierno QRO → Decisión legal + alineación IF
 - Jorge Blando → Reunión martes 24 feb — materiales enviados
+- Héctor → Confirmar fecha llamada (transformación digital + referencia)
 - Nicho (Talisis) → Llamada siguiente semana
 - Javier (VP Research Tec) → Agendar reunión con Joel Cano
 - Steven Popper → Respuesta correo reuniones mensuales
@@ -93,16 +96,17 @@
 - Financial Paper → Ricardo
 
 ### Next Session Priorities
-1. Tec Beyond: Reunión martes Jorge Blando — revisar feedback, ajustar si necesario
-2. SIC-Q: Capturar resultado reunión Antonio Rangel — contrato y próximos pasos
-3. Docet: Monitorear respuesta equipo Poncho
-4. Talisis: Preparar llamada con Nicho
-5. Kumu: Expandir mapa con layers adicionales si Edgar quiere (agentes, datos, reglas)
+1. SIC-Q: Propuesta v06 con 3 frentes operativos + datos de talleres como evidencia
+2. SIC-Q: Diseño piloto Toño — qué datos, qué productos, qué frecuencia, qué métricas
+3. Tec Beyond: Reunión martes 24 feb Jorge Blando — revisar si necesita ajustes
+4. Héctor: Dar seguimiento a llamada si no confirma
+5. Talisis: Preparar llamada con Nicho
 
 ### Recent Sessions
 
 | Date | Session | Focus | Key Achievement |
 |------|---------|-------|-----------------|
+| 2026-02-20 | 12 | SIC-Q update | Minuta Toño, reportes talleres, dashboards actualizados, email Héctor |
 | 2026-02-19 | 11 | Tec Beyond docs | HTML+PDF+Kumu profesionales, GitHub Pages |
 | 2026-02-19 | 10 | Portfolio update | Dashboard actualizado, SIC-Q talleres ✅, JP feedback ✅ |
 | 2026-02-15 | 9 | Auditoría | 5 commits, 42 archivos auditados (feb 11–14) |

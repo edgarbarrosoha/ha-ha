@@ -2,9 +2,19 @@
 
 > Sistema de Inteligencia Colectiva de Querétaro
 
-## Status: Development Phase
+## Status: Post-talleres — Transición a operación
 
-**Last updated:** 2026-02-07
+**Last updated:** 2026-02-20
+
+---
+
+## Hitos recientes
+
+| Fecha | Hito |
+|-------|------|
+| 16-17 feb | 2 talleres co-diseño completados: 74 participantes, 778 ideas, 248 actores mapeados |
+| 19 feb | Reunión estratégica con Antonio Rangel — definición de 3 frentes operativos |
+| 19-20 feb | 4 reportes de talleres completados (2 ejecutivos, 1 combinado, 1 técnico ~1600 líneas) |
 
 ---
 
@@ -18,26 +28,44 @@
 | 4 | IF: Funciones y atribuciones (Sección 5) | [x] Complete | Edgar |
 | 5 | IF: Reencuadre como institución de prospectiva (4 docs) | [x] Complete | Edgar |
 | 6 | Arquitectura TaaS + 3 instancias (6 docs) | [x] Complete | Edgar |
-| 7 | Propuesta v06 (TaaS + 3 instancias + prospectiva) | [!] Urgent | Edgar |
-| 8 | Mapeo datos existentes gobierno (para Etapa 1) | [!] Urgent | Joaquín/Oscar |
-| 9 | Co-diseño con 3 grupos académicos | [>] In progress | Edgar |
-| 10 | Formalizar Instituto del Futuro en El Consejo A.C. | [ ] Pending | - |
-| 11 | Backend architecture document | [ ] Pending | - |
-| 12 | Pilot consultation design | [ ] Pending | - |
+| 7 | Talleres co-diseño (2 talleres, 74 participantes) | [x] Complete | Edgar + equipo |
+| 8 | Reportes talleres (ejecutivos + técnico) | [x] Complete | Edgar |
+| 9 | Reunión estratégica con Toño — 3 frentes | [x] Complete | Edgar |
+| 10 | Propuesta v06 (actualizar con 3 frentes + datos talleres) | [!] Urgent | Edgar |
+| 11 | Diseño piloto operativo con Toño | [!] Urgent | Edgar |
+| 12 | Identificar datasets iniciales disponibles | [>] Next | Joaquín/Oscar |
+| 13 | Estrategia de acercamiento al Secretario de Finanzas | [ ] Pending | Edgar |
+| 14 | Narrativa para presentación al gobernador | [ ] Pending | Edgar |
+| 15 | Formalizar Instituto del Futuro en El Consejo A.C. | [ ] Pending | - |
+| 16 | Backend architecture document | [ ] Pending | - |
 
 ---
 
-## Arquitectura SIC-Q: Thinking-as-a-Service
+## Arquitectura SIC-Q: 3 Frentes Operativos (post-reunión Toño, 19 feb)
 
-> El SIC-Q es un servicio de inteligencia en la nube (**TaaS**) donde **HA es la capa de pensamiento**. De este núcleo se derivan 3 instancias adaptadas a cada usuario. Las instancias 2 y 3 alimentan a la 1; la 1 procesa y genera inteligencia.
+> El SIC-Q pasa de arquitectura conceptual (3 instancias TaaS) a estructura operativa (3 frentes). La base TaaS se mantiene, pero la implementación es incremental y orientada a productos concretos.
 
-| Instancia | Qué es | Para quién | Etapa |
-|-----------|--------|------------|-------|
-| **1. Agente estratégico** | Agente IA que analiza, cruza datos, genera inteligencia | Secretaría de Planeación (planeación) + IF (prospectiva) | Etapa 1 |
-| **2. Herramienta de recopilación** | Instrumento para talleres, consultas, encuestas, consejos, PED 2050 | Gobierno (procesos estructurados) | Etapa 1 |
-| **3. Canales ciudadanos** | WhatsApp, redes sociales, plataforma de propuestas | Ciudadanía (experiencias orgánicas) | Etapa 2 |
+| Frente | Qué es | Para quién | Prioridad |
+|--------|--------|------------|-----------|
+| **1. Piloto operativo con Toño** | Validación real: reportes ejecutivos, indicadores, fichas municipio, resúmenes prensa | Antonio Rangel (usuario directo) | Inmediata |
+| **2. Caso estratégico para el gobernador** | Demostración de valor con productos automatizados concretos | Gobernador | Post-piloto |
+| **3. Herramienta de planeación con Sergio** | Integración con procesos de planeación existentes | Secretaría de Planeación | Paralelo |
 
-**Relación de servicio:** El IF le presta servicio a la Secretaría de Planeación a través del SIC-Q. No es dependencia tecnológica — el IF provee inteligencia y herramientas, la Secretaría las usa con autonomía.
+**Enfoque incremental:** No comenzar con participación ciudadana como eje central. Foco en inteligencia ejecutiva automatizada. Productos > chatbot.
+
+**Decisión clave:** Integración directa a fuentes de datos institucionales (no exportaciones estáticas).
+
+**Aliado estratégico:** Secretario de Finanzas — controla infraestructura tecnológica y acceso a datos.
+
+### Arquitectura TaaS (referencia)
+
+> La base conceptual TaaS se mantiene. Los 3 frentes operativos son la ruta de implementación.
+
+| Instancia TaaS | Mapeo a frente operativo |
+|----------------|-------------------------|
+| 1. Agente estratégico | → Frente 1 (piloto Toño) + Frente 2 (caso gobernador) |
+| 2. Herramienta de recopilación | → Frente 3 (planeación con Sergio) |
+| 3. Canales ciudadanos | → Fase posterior (deprioritizado) |
 
 | Documento | Actualizado con arquitectura TaaS |
 |-----------|-----------------------------------|
@@ -76,6 +104,35 @@
 
 ---
 
+## Talleres Co-Diseño — Resultados (16-17 feb 2026)
+
+| Métrica | Taller 1 | Taller 2 | Total |
+|---------|----------|----------|-------|
+| Participantes | 36 | 38 | 74 |
+| Ideas capturadas | 347 | 431 | 778 |
+| Actores mapeados | 177 | 248 | 248+ |
+| Patrones transversales | 7 | 5 | 12 |
+
+**Señales fractales (las 3 más profundas — aparecen en las 4 escalas):**
+1. Desigualdad / inclusión (12/12 mesas)
+2. Conectividad intersectorial (12/12 mesas)
+3. Decisiones basadas en datos (11/12 mesas) — validación directa del SIC-Q
+
+**Hallazgo clave:** El SIC-Q fue validado espontáneamente sin ser preguntado. 11/12 mesas pidieron exactamente lo que el SIC-Q propone.
+
+**Caso de uso recomendado para primer piloto:** Agua (urgencia ciudadana creciente, datos disponibles, actores identificables).
+
+**Reportes:**
+
+| Reporte | Audiencia | Ubicación |
+|---------|-----------|-----------|
+| Ejecutivo Taller 1 | Participantes | `entregables/talleres-febrero-2026/reporte-ejecutivo-taller-1.md` |
+| Ejecutivo Taller 2 | Participantes | `entregables/talleres-febrero-2026/reporte-ejecutivo-taller-2.md` |
+| Ejecutivo Combinado | Participantes ambos talleres | `entregables/talleres-febrero-2026/reporte-ejecutivo-combinado.md` |
+| Técnico completo | Agente SIC-Q / CONSEQRO | `entregables/talleres-febrero-2026/reporte-talleres-sic-q.md` |
+
+---
+
 ## Deliverables
 
 | Deliverable | Location | Status |
@@ -90,9 +147,13 @@
 | IF: Funciones y atribuciones (Sección 5) | `instituto-del-futuro/` | [x] Complete |
 | IF: Visión prospectiva (4 documentos) | `instituto-del-futuro/` | [x] Complete |
 | Arquitectura TaaS + 3 instancias (6 docs) | varios | [x] Complete |
-| Propuesta v06 | `propuestas/` | [ ] Pending |
-| Backend architecture (separado) | `entregables/` | [ ] Pending |
-| Pilot presentation | `presentaciones/` | [ ] Pending |
+| Talleres co-diseño (materiales) | `entregables/talleres-febrero-2026/` | [x] Complete |
+| Reportes talleres (4 documentos) | `entregables/talleres-febrero-2026/` | [x] Complete |
+| Minuta reunión Toño 19 feb | `transcripts-zooms/zoom-19.02.2026.md` | [x] Complete |
+| Propuesta v06 (3 frentes + datos talleres) | `propuestas/` | [ ] Pending |
+| Diseño piloto Toño | `entregables/` | [ ] Pending |
+| Narrativa para gobernador | `presentaciones/` | [ ] Pending |
+| Backend architecture | `entregables/` | [ ] Pending |
 
 ---
 
@@ -109,12 +170,13 @@
 
 ## Waiting For
 
-- [<] Validación de one-pager v1.8 con Antonio Rangel
+- [x] ~~Validación de one-pager v1.8 con Antonio Rangel~~ → Reunión realizada 19 feb
+- [x] ~~Definición alcance piloto con Antonio Rangel~~ → 3 frentes definidos
+- [<] Definición específica del alcance del piloto con Toño (datasets, productos, frecuencia)
+- [<] Estrategia acercamiento Secretario de Finanzas (infraestructura + datos)
 - [<] Government alignment on Instituto del Futuro model
-- [<] Technical infrastructure decisions
 - [?] Decisión legal: verificación INE vs CURP
-- [<] Validación de v04 con stakeholders
-- [<] Definición alcance piloto con Antonio Rangel
+- [<] Technical infrastructure decisions (integración directa vs. exportaciones)
 
 ---
 
@@ -128,11 +190,14 @@
 - [x] @rewrite IF Section 5 (functions and attributions)
 - [x] @propagate prospective vision across 4 IF documents
 - [x] @define TaaS architecture + 3 instances across 6 documents
+- [x] @process talleres co-diseño (reportes ejecutivos + técnico)
+- [x] @capture minuta reunión Toño 19 feb
+- [!] @draft propuesta v06 con 3 frentes operativos + datos talleres
+- [!] @design piloto operativo Toño (alcance, datos, productos, métricas)
 - [>] @research international benchmarks for citizen participation
-- [!] @draft propuesta v06 con TaaS + 3 instancias + prospectiva
-- [ ] @map existing government data (Etapa 1 scope)
+- [ ] @prepare narrativa gobernador con validación espontánea talleres
+- [ ] @map existing government data (datasets iniciales)
 - [ ] @draft backend architecture document
-- [ ] @draft pilot consultation flow
 
 ---
 

@@ -21,9 +21,10 @@ type: clock
 # To dos
 
 ## Prioridad
-- [ ] SIC-Q: Siguientes pasos con Antonio Rangel (reunión hoy 12:30) — contrato y operación
-- [ ] SIC-Q: Propuesta v06 (TaaS + 3 instancias + prospectiva)
-- [ ] Tec Beyond: Integrar materiales en documento coherente para reunión martes con Jorge Blando
+
+- [ ] SIC-Q: Propuesta v06 (3 frentes operativos + datos talleres)
+- [ ] SIC-Q: Diseñar piloto operativo con Toño (datasets, productos, métricas)
+- [ ] Tec Beyond: Reunión martes 24 feb Jorge Blando — materiales listos
 
 ## En curso
 - [ ] Docet: Esperando evaluación equipo Poncho sobre indicadores y métricas de performance
@@ -33,7 +34,7 @@ type: clock
 
 ## Pendiente
 - [ ] Entender la codificación
-
+- [ ] Héctor: Agendar llamada — transformación digital, IA + referencia (respuesta enviada)
 - [ ] Learning Products: Adaptar syllabus Entrepreneurship para Leiden
 - [ ] Learning Products: Definir scope Plan de Vida y Carrera
 - [ ] Talisis: Llamada con Nicho siguiente semana
@@ -47,7 +48,7 @@ type: clock
 | Persona | Esperando | Proyecto |
 |---------|-----------|----------|
 | **Equipo Poncho (Docet)** | Evaluación de indicadores y métricas de performance | Docet-Agentic |
-| **Antonio Rangel** | Reunión hoy 12:30 — siguientes pasos contrato y operación | SIC-Q |
+| **Antonio Rangel** | Definir alcance específico piloto (datasets, productos, frecuencia) | SIC-Q |
 | **Gobierno QRO** | Decisión legal CURP vs INE + alineación IF | SIC-Q |
 | **Nicho (Talisis)** | Llamada siguiente semana | Talisis |
 | **Javier (VP Research Tec)** | Agendar reunión con Joel Cano | HA-Core |
@@ -63,7 +64,7 @@ type: clock
 
 | **Project** | **Status** | **Next steps** | **Links** |
 | ----------- | ---------- | -------------- | --------- |
-| **SIC-Q** | 🟢 3 talleres exitosos — reunión Rangel hoy | Contrato + operación + propuesta v06 | `sic-q/` |
+| **SIC-Q** | 🟢 Talleres completados + 3 frentes definidos con Toño | Propuesta v06 + diseño piloto + caso gobernador | `sic-q/` |
 
 ## Education & AI Systems
 
@@ -94,12 +95,16 @@ type: clock
 
 ## SIC-Q (Sistema de Inteligencia Colectiva de Querétaro)
 **Cliente:** CEPACI Querétaro / Gobierno de Querétaro
-**Modelo:** 3 etapas acumulativas — Inteligencia → Canales ciudadanos → Servicios gobierno
-- [ ] 🔴 Reunión Antonio Rangel hoy 12:30 — siguientes pasos contrato y operación
-- [ ] 🔴 Propuesta v06 con 3 etapas acumulativas
-- [ ] Mapeo datos existentes gobierno (Etapa 1: Agente SIC-Q Institucional)
+**Modelo:** 3 frentes operativos — Piloto Toño + Caso gobernador + Planeación Sergio
+**Talleres:** 74 participantes, 778 ideas, 248 actores, 4 reportes completados
+- [x] Reunión Antonio Rangel 19 feb — 3 frentes operativos definidos
+- [x] Talleres co-diseño (16-17 feb) — reportes ejecutivos + técnico completados
+- [ ] 🔴 Propuesta v06 con 3 frentes operativos + datos talleres
+- [ ] 🔴 Diseñar piloto operativo con Toño (datasets, productos, métricas)
+- [ ] Identificar datasets iniciales disponibles
+- [ ] Estrategia acercamiento Secretario de Finanzas
+- [ ] Narrativa para presentación al gobernador
 - [ ] Formalizar Instituto del Futuro en El Consejo A.C.
-- [ ] Diseño consulta piloto
 
 ## Docet-Agentic (SIA-DOCET)
 **Cliente:** Alfonso Romo / DOCET
@@ -174,7 +179,7 @@ type: clock
 
 | Fecha | Evento | Proyecto |
 |-------|--------|----------|
-| **19 feb 2026** | Reunión Antonio Rangel 12:30 — siguientes pasos | SIC-Q |
+| **19 feb 2026** | ~~Reunión Antonio Rangel~~ ✅ 3 frentes definidos | SIC-Q |
 | **Martes 24 feb** | Reunión Jorge Blando — doc integrado | Tec Beyond |
 | **Feb 2026** | Propuesta v06 | SIC-Q |
 | **Siguiente semana** | Llamada Nicho | Talisis |
@@ -192,7 +197,7 @@ type: clock
 | Project | Potential | Status |
 |---------|-----------|--------|
 | Docet-Agentic | $3.9M MXN (~$200K USD) | En pausa — esperando evaluación equipo Poncho |
-| SIC-Q | TBD | Talleres exitosos — negociación contrato |
+| SIC-Q | TBD | Talleres exitosos + 3 frentes definidos — diseño piloto en curso |
 | TEC Monterrey | Consultoría (Narrativa + Tec Beyond) | Activo |
 | UPU | 3,500 CHF (workshop) + frontend | Cerrando |
 | Talisis | TBD | Reconectado — llamada siguiente semana |
@@ -200,5 +205,5 @@ type: clock
 
 ---
 
-*Última actualización: 2026-02-19*
+*Última actualización: 2026-02-20*
 *HA Syntax: `[>]` agent task, `[<]` waiting, `[?]` decision needed, `[!]` urgent, `[x]` done*
