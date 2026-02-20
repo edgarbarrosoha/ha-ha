@@ -71,7 +71,7 @@ type: clock
 | ----------- | ---------- | -------------- | --------- |
 | **Docet-Agentic** | ⏳ Esperando evaluación equipo Poncho | Indicadores y métricas — pausa prototipo | `docet-agentic/` |
 | **TEC Narrativa** | 🟢 Feedback JP recibido | Mario Adrián presenta a Consejo, Sarahí insumos | `tec-monterrey/` |
-| **Tec Beyond** | 🔶 Materiales listos | Integrar doc + reunión martes Jorge Blando | `tec-monterrey/` |
+| **Tec Beyond** | 🟢 Materiales profesionales listos | Reunión martes 24 feb Jorge Blando — HTML, PDF, Kumu | `tec-monterrey/` |
 | **Talisis 360** | 🔶 Reconectado con Nicho | Llamada siguiente semana | `talisis/` |
 
 ## Products & Frameworks
@@ -122,7 +122,11 @@ type: clock
 ## TEC Monterrey — Tec Beyond
 **Cliente:** Mario Orozco
 **Concepto:** Community platform + HA integration
-- [ ] 🔴 Integrar en documento coherente para reunión martes con Jorge Blando
+- [x] Integrar en documento coherente para reunión martes con Jorge Blando
+- [x] HTML profesional con gráficas Chart.js + SVG (`anexos-profesional.html`)
+- [x] PDF blanco y negro (`Tec-Beyond-Anexos-Tecnicos.pdf`)
+- [x] Kumu JSON con arquitectura fractal HA (`kumu-tec-beyond.json`)
+- [ ] Reunión martes 24 feb con Jorge Blando — presentar materiales
 
 ## Learning Products (Q1 2026)
 **Meta:** 5 productos diseñados a Nivel 1

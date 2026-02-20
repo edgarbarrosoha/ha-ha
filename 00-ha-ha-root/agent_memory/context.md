@@ -42,6 +42,7 @@
 - PAT:gov-presentation | Government pitch → humility first, narrative not sales, cite predecessors | REF: SIC-Q v.04
 - PAT:iteration-depth | Edgar iterates 5-7 rounds on important docs — start broad, refine | REF: working-memory sessions 2-6
 - PAT:advance-daily | `\advance {project}` → load state, present unit, get feedback, save state. Like Duolingo: never blank page, never lost context, even 1 deliverable/day = progress. Continuity > speed. | REF: skills/advance.md
+- PAT:pro-docs | HTML+Tailwind+Chart.js+SVG for professional documents. Chrome headless for PDF. GitHub Pages for hosting. Kumu for system maps. | REF: tec-beyond/anexos/
 
 ### Corrections
 - [2026-01-31] COR: Writing with implied superiority ("this is not X, it's Y") | LESSON: Write neutral, clear, let quality speak. Avoid comparative claims.
@@ -66,14 +67,14 @@
 
 ### Last Session
 - **Date:** 2026-02-19
-- **Type:** Actualización portafolio completo
-- **Achievements:** Dashboard actualizado con avances de todos los proyectos. SIC-Q talleres exitosos, JP Murra feedback recibido, Docet en pausa, Nicho reconectado.
+- **Type:** Tec Beyond — profesionalización de anexos + visualización Kumu
+- **Achievements:** HTML profesional con gráficas, PDF B&W, Kumu JSON (fractal HA: raíz + 4 sedes × 6 dimensiones), narrativa del grafo. GitHub Pages activado.
 
 ### Active Threads
-- SIC-Q: 3 talleres exitosos ✅ — reunión Antonio Rangel hoy 12:30 (contrato + operación) — PRIORIDAD #1
+- SIC-Q: 3 talleres exitosos ✅ — resultado reunión Antonio Rangel pendiente de capturar
+- Tec Beyond: Materiales LISTOS para reunión martes 24 feb Jorge Blando (HTML, PDF, Kumu)
 - Docet-Agentic: En pausa — esperando evaluación equipo Poncho sobre indicadores/métricas
-- Tec Beyond: Materiales listos, integrar doc para reunión martes con Jorge Blando
-- TEC Narrativa: Feedback JP recibido (quitaron proyectos paraguas). Mario Adrián presenta a Consejo. Sarahí da insumos.
+- TEC Narrativa: Feedback JP recibido. Mario Adrián presenta a Consejo. Sarahí da insumos.
 - UPU: Oscar documentación esta semana, envío la siguiente
 - Talisis: Reconectado con Nicho — llamada siguiente semana
 - Learning Products: Betty + Sarahí avanzan canvases
@@ -82,8 +83,9 @@
 
 ### Waiting For
 - Equipo Poncho (Docet) → Evaluación indicadores y métricas de performance
-- Antonio Rangel → Reunión hoy 12:30 — contrato y operación SIC-Q
+- Antonio Rangel → Resultado reunión SIC-Q (contrato + operación)
 - Gobierno QRO → Decisión legal + alineación IF
+- Jorge Blando → Reunión martes 24 feb — materiales enviados
 - Nicho (Talisis) → Llamada siguiente semana
 - Javier (VP Research Tec) → Agendar reunión con Joel Cano
 - Steven Popper → Respuesta correo reuniones mensuales
@@ -91,15 +93,17 @@
 - Financial Paper → Ricardo
 
 ### Next Session Priorities
-1. SIC-Q: Resultado reunión Antonio Rangel — definir contrato y próximos pasos
-2. Tec Beyond: Doc integrado para reunión martes Jorge Blando
+1. Tec Beyond: Reunión martes Jorge Blando — revisar feedback, ajustar si necesario
+2. SIC-Q: Capturar resultado reunión Antonio Rangel — contrato y próximos pasos
 3. Docet: Monitorear respuesta equipo Poncho
 4. Talisis: Preparar llamada con Nicho
+5. Kumu: Expandir mapa con layers adicionales si Edgar quiere (agentes, datos, reglas)
 
 ### Recent Sessions
 
 | Date | Session | Focus | Key Achievement |
 |------|---------|-------|-----------------|
+| 2026-02-19 | 11 | Tec Beyond docs | HTML+PDF+Kumu profesionales, GitHub Pages |
 | 2026-02-19 | 10 | Portfolio update | Dashboard actualizado, SIC-Q talleres ✅, JP feedback ✅ |
 | 2026-02-15 | 9 | Auditoría | 5 commits, 42 archivos auditados (feb 11–14) |
 | 2026-02-15 | 8 | Quick boot | Edgar's inter-session updates captured |
