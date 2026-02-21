@@ -9,13 +9,13 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 <style>
   :root {
-    --navy: #0f2b46;
-    --navy-light: #1a3a5c;
-    --blue: #2563eb;
-    --blue-light: #3b82f6;
-    --teal: #0d9488;
-    --teal-light: #14b8a6;
-    --teal-bg: #f0fdfa;
+    --navy: #231F20;
+    --navy-light: #333333;
+    --blue: #3356F6;
+    --blue-light: #5B7AF8;
+    --teal: #3356F6;
+    --teal-light: #5B7AF8;
+    --teal-bg: #EEF1FE;
     --amber: #d97706;
     --amber-light: #fbbf24;
     --red: #dc2626;
@@ -133,7 +133,7 @@
     top: -30%; right: -20%;
     width: 700px; height: 700px;
     border-radius: 50%;
-    background: radial-gradient(circle, rgba(20,184,166,.15) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(91,122,248,.15) 0%, transparent 70%);
   }
   .cover::after {
     content: '';
@@ -141,7 +141,7 @@
     bottom: -20%; left: -10%;
     width: 500px; height: 500px;
     border-radius: 50%;
-    background: radial-gradient(circle, rgba(37,99,235,.1) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(51,86,246,.1) 0%, transparent 70%);
   }
   .cover > * { position: relative; z-index: 1; }
   .cover .label {
@@ -471,7 +471,7 @@
     letter-spacing: .03em;
   }
   .badge-teal { background: var(--teal-bg); color: var(--teal); }
-  .badge-blue { background: #eff6ff; color: var(--blue); }
+  .badge-blue { background: #EEF1FE; color: var(--blue); }
   .badge-amber { background: #fffbeb; color: var(--amber); }
   .badge-green { background: #f0fdf4; color: var(--green); }
   .badge-red { background: #fef2f2; color: var(--red); }
@@ -534,6 +534,9 @@
     .no-print { display: none; }
   }
 
+  ul { margin-bottom: 1rem; padding-left: 1.5rem; }
+  li { margin-bottom: .35rem; font-size: .92rem; color: var(--gray-700); }
+
   @media (max-width: 900px) {
     nav { display: none; }
     main { margin-left: 0; }
@@ -577,6 +580,24 @@
   <a href="#a4-expansion">Expansión</a>
   <a href="#a4-economia">Economía</a>
   <a href="#a4-riesgos">Riesgos</a>
+
+  <div class="nav-section">Anexo 5</div>
+  <a href="#anexo5">Sesión Consejeros</a>
+  <a href="#a5-lideres">Comunidad de líderes</a>
+  <a href="#a5-vinculacion">Vinculación empresarial</a>
+  <a href="#a5-sintesis">Síntesis estratégica</a>
+
+  <div class="nav-section">Anexo 6</div>
+  <a href="#anexo6">Graduados Beyond</a>
+  <a href="#a6-comunidad">Comunidad y valor</a>
+  <a href="#a6-formacion">Formación continua</a>
+  <a href="#a6-oportunidades">Red estratégica</a>
+
+  <div class="nav-section">Anexo 7</div>
+  <a href="#anexo7">Diagramas de trabajo</a>
+  <a href="#a7-base">Base de conocimiento</a>
+  <a href="#a7-radial">Modelo radial</a>
+  <a href="#a7-mvp">MVP e IA</a>
 
   <div class="footer">
     Horizons Architecture Systems<br>
@@ -718,20 +739,20 @@
       <!-- Connection lines -->
       <defs>
         <marker id="arrowTeal" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
-          <polygon points="0 0, 8 3, 0 6" fill="#0d9488"/>
+          <polygon points="0 0, 8 3, 0 6" fill="#3356F6"/>
         </marker>
       </defs>
       <!-- Boxes -->
-      <rect x="10" y="30" width="140" height="60" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
-      <text x="80" y="55" text-anchor="middle" font-family="Inter" font-weight="600" font-size="13" fill="#2563eb">Match</text>
+      <rect x="10" y="30" width="140" height="60" rx="10" fill="#EEF1FE" stroke="#3356F6" stroke-width="1.5"/>
+      <text x="80" y="55" text-anchor="middle" font-family="Inter" font-weight="600" font-size="13" fill="#3356F6">Match</text>
       <text x="80" y="72" text-anchor="middle" font-family="Inter" font-size="10" fill="#64748b">Conexión detectada</text>
 
-      <rect x="190" y="30" width="140" height="60" rx="10" fill="#faf5ff" stroke="#7c3aed" stroke-width="1.5"/>
-      <text x="260" y="55" text-anchor="middle" font-family="Inter" font-weight="600" font-size="13" fill="#7c3aed">Contenidos</text>
+      <rect x="190" y="30" width="140" height="60" rx="10" fill="#EEF1FE" stroke="#3356F6" stroke-width="1.5"/>
+      <text x="260" y="55" text-anchor="middle" font-family="Inter" font-weight="600" font-size="13" fill="#3356F6">Contenidos</text>
       <text x="260" y="72" text-anchor="middle" font-family="Inter" font-size="10" fill="#64748b">Gap identificado</text>
 
-      <rect x="370" y="30" width="140" height="60" rx="10" fill="#f0fdfa" stroke="#0d9488" stroke-width="1.5"/>
-      <text x="440" y="55" text-anchor="middle" font-family="Inter" font-weight="600" font-size="13" fill="#0d9488">Insights</text>
+      <rect x="370" y="30" width="140" height="60" rx="10" fill="#EEF1FE" stroke="#3356F6" stroke-width="1.5"/>
+      <text x="440" y="55" text-anchor="middle" font-family="Inter" font-weight="600" font-size="13" fill="#3356F6">Insights</text>
       <text x="440" y="72" text-anchor="middle" font-family="Inter" font-size="10" fill="#64748b">Cluster emergente</text>
 
       <rect x="550" y="30" width="140" height="60" rx="10" fill="#fff7ed" stroke="#d97706" stroke-width="1.5"/>
@@ -739,12 +760,12 @@
       <text x="620" y="72" text-anchor="middle" font-family="Inter" font-size="10" fill="#64748b">Candidatos encontrados</text>
 
       <!-- Arrows -->
-      <line x1="150" y1="60" x2="186" y2="60" stroke="#0d9488" stroke-width="2" marker-end="url(#arrowTeal)"/>
-      <line x1="330" y1="60" x2="366" y2="60" stroke="#0d9488" stroke-width="2" marker-end="url(#arrowTeal)"/>
-      <line x1="510" y1="60" x2="546" y2="60" stroke="#0d9488" stroke-width="2" marker-end="url(#arrowTeal)"/>
+      <line x1="150" y1="60" x2="186" y2="60" stroke="#3356F6" stroke-width="2" marker-end="url(#arrowTeal)"/>
+      <line x1="330" y1="60" x2="366" y2="60" stroke="#3356F6" stroke-width="2" marker-end="url(#arrowTeal)"/>
+      <line x1="510" y1="60" x2="546" y2="60" stroke="#3356F6" stroke-width="2" marker-end="url(#arrowTeal)"/>
 
       <!-- Result box -->
-      <rect x="200" y="140" width="300" height="56" rx="10" fill="#0f2b46" stroke="none"/>
+      <rect x="200" y="140" width="300" height="56" rx="10" fill="#231F20" stroke="none"/>
       <text x="350" y="164" text-anchor="middle" font-family="Inter" font-weight="600" font-size="13" fill="white">El Consejo decide con evidencia</text>
       <text x="350" y="182" text-anchor="middle" font-family="Inter" font-size="10" fill="#94a3b8">Nueva generación m&aacute;s fuerte &rarr; ciclo continuo</text>
 
@@ -753,12 +774,12 @@
       <line x1="80" y1="130" x2="200" y2="165" stroke="#cbd5e1" stroke-width="1.5"/>
       <line x1="620" y1="90" x2="620" y2="130" stroke="#cbd5e1" stroke-width="1.5"/>
       <line x1="620" y1="130" x2="500" y2="165" stroke="#cbd5e1" stroke-width="1.5"/>
-      <line x1="350" y1="90" x2="350" y2="136" stroke="#0d9488" stroke-width="2" marker-end="url(#arrowTeal)"/>
+      <line x1="350" y1="90" x2="350" y2="136" stroke="#3356F6" stroke-width="2" marker-end="url(#arrowTeal)"/>
 
       <!-- Feedback loop arrow -->
-      <path d="M 350 196 L 350 240 L 40 240 L 40 95" stroke="#0d9488" stroke-width="1.5" fill="none" stroke-dasharray="5,4"/>
-      <polygon points="36 98, 40 86, 44 98" fill="#0d9488"/>
-      <text x="190" y="256" text-anchor="middle" font-family="Inter" font-size="10" fill="#0d9488" font-weight="500">El ciclo se repite &mdash; cada vuelta fortalece a toda la red</text>
+      <path d="M 350 196 L 350 240 L 40 240 L 40 95" stroke="#3356F6" stroke-width="1.5" fill="none" stroke-dasharray="5,4"/>
+      <polygon points="36 98, 40 86, 44 98" fill="#3356F6"/>
+      <text x="190" y="256" text-anchor="middle" font-family="Inter" font-size="10" fill="#3356F6" font-weight="500">El ciclo se repite &mdash; cada vuelta fortalece a toda la red</text>
     </svg>
   </div>
 </div>
@@ -771,26 +792,26 @@
     <div class="diagram-title">Modelo de gobernanza por capas</div>
     <svg viewBox="0 0 600 380" xmlns="http://www.w3.org/2000/svg">
       <!-- Outer circle - HA -->
-      <ellipse cx="300" cy="190" rx="270" ry="170" fill="#f0fdfa" stroke="#0d9488" stroke-width="1.5" stroke-dasharray="6,3"/>
-      <text x="540" y="340" font-family="Inter" font-size="11" fill="#0d9488" font-weight="600">C&iacute;rculo 3</text>
+      <ellipse cx="300" cy="190" rx="270" ry="170" fill="#EEF1FE" stroke="#3356F6" stroke-width="1.5" stroke-dasharray="6,3"/>
+      <text x="540" y="340" font-family="Inter" font-size="11" fill="#3356F6" font-weight="600">C&iacute;rculo 3</text>
 
       <!-- Middle circle - Tec -->
-      <ellipse cx="300" cy="185" rx="195" ry="130" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5" stroke-dasharray="6,3"/>
-      <text x="465" y="295" font-family="Inter" font-size="11" fill="#2563eb" font-weight="600">C&iacute;rculo 2</text>
+      <ellipse cx="300" cy="185" rx="195" ry="130" fill="#EEF1FE" stroke="#3356F6" stroke-width="1.5" stroke-dasharray="6,3"/>
+      <text x="465" y="295" font-family="Inter" font-size="11" fill="#3356F6" font-weight="600">C&iacute;rculo 2</text>
 
       <!-- Inner circle - Consejo -->
-      <ellipse cx="300" cy="180" rx="120" ry="85" fill="#0f2b46" stroke="none"/>
+      <ellipse cx="300" cy="180" rx="120" ry="85" fill="#231F20" stroke="none"/>
       <text x="300" y="168" text-anchor="middle" font-family="Inter" font-size="13" fill="white" font-weight="700">ESBAC + Comunidad</text>
       <text x="300" y="186" text-anchor="middle" font-family="Inter" font-size="13" fill="white" font-weight="700">Beyond + LLL</text>
       <text x="300" y="206" text-anchor="middle" font-family="Inter" font-size="10" fill="#94a3b8">Direcci&oacute;n estrat&eacute;gica</text>
       <text x="300" y="220" text-anchor="middle" font-family="Inter" font-size="10" fill="#94a3b8">Acceso total</text>
 
       <!-- Labels for middle -->
-      <text x="300" y="90" text-anchor="middle" font-family="Inter" font-size="12" fill="#2563eb" font-weight="600">Tec de Monterrey</text>
+      <text x="300" y="90" text-anchor="middle" font-family="Inter" font-size="12" fill="#3356F6" font-weight="600">Tec de Monterrey</text>
       <text x="300" y="106" text-anchor="middle" font-family="Inter" font-size="10" fill="#64748b">Infraestructura &middot; Seguridad &middot; Paraguas institucional</text>
 
       <!-- Labels for outer -->
-      <text x="300" y="38" text-anchor="middle" font-family="Inter" font-size="12" fill="#0d9488" font-weight="600">Horizons Architecture</text>
+      <text x="300" y="38" text-anchor="middle" font-family="Inter" font-size="12" fill="#3356F6" font-weight="600">Horizons Architecture</text>
       <text x="300" y="54" text-anchor="middle" font-family="Inter" font-size="10" fill="#64748b">Operaci&oacute;n tecnol&oacute;gica &middot; Agentes &middot; Soporte</text>
     </svg>
   </div>
@@ -875,18 +896,18 @@
     <div class="diagram-title">Los datos viven en infraestructura del Tec</div>
     <svg viewBox="0 0 680 420" xmlns="http://www.w3.org/2000/svg">
       <!-- Tec Infrastructure Box -->
-      <rect x="40" y="20" width="600" height="240" rx="14" fill="#f8fafc" stroke="#2563eb" stroke-width="2"/>
-      <text x="60" y="50" font-family="Inter" font-weight="700" font-size="14" fill="#2563eb">INFRAESTRUCTURA TEC (Microsoft Azure)</text>
+      <rect x="40" y="20" width="600" height="240" rx="14" fill="#f8fafc" stroke="#3356F6" stroke-width="2"/>
+      <text x="60" y="50" font-family="Inter" font-weight="700" font-size="14" fill="#3356F6">INFRAESTRUCTURA TEC (Microsoft Azure)</text>
 
       <!-- DB boxes inside -->
       <rect x="70" y="70" width="250" height="70" rx="8" fill="white" stroke="#e2e8f0" stroke-width="1.5"/>
-      <rect x="6" y="70" width="6" height="70" rx="3" fill="#2563eb" x="70"/>
-      <rect x="70" y="70" width="6" height="70" rx="0" fill="#2563eb"/>
+      <rect x="6" y="70" width="6" height="70" rx="3" fill="#3356F6" x="70"/>
+      <rect x="70" y="70" width="6" height="70" rx="0" fill="#3356F6"/>
       <text x="92" y="96" font-family="Inter" font-weight="600" font-size="12" fill="#1e293b">Base de Datos Relacional</text>
       <text x="92" y="114" font-family="Inter" font-size="10" fill="#64748b">Perfiles &middot; Membresías &middot; Historial &middot; Config</text>
 
       <rect x="360" y="70" width="250" height="70" rx="8" fill="white" stroke="#e2e8f0" stroke-width="1.5"/>
-      <rect x="360" y="70" width="6" height="70" rx="0" fill="#0d9488"/>
+      <rect x="360" y="70" width="6" height="70" rx="0" fill="#3356F6"/>
       <text x="382" y="96" font-family="Inter" font-weight="600" font-size="12" fill="#1e293b">Base de Conocimiento Vectorial</text>
       <text x="382" y="114" font-family="Inter" font-size="10" fill="#64748b">Embeddings &middot; Relaciones semánticas &middot; Patrones</text>
 
@@ -896,16 +917,16 @@
       <text x="92" y="209" font-family="Inter" font-size="10" fill="#64748b">Documentos &middot; Reportes &middot; Exportaciones</text>
 
       <rect x="360" y="165" width="250" height="70" rx="8" fill="white" stroke="#e2e8f0" stroke-width="1.5"/>
-      <rect x="360" y="165" width="6" height="70" rx="0" fill="#7c3aed"/>
+      <rect x="360" y="165" width="6" height="70" rx="0" fill="#3356F6"/>
       <text x="382" y="191" font-family="Inter" font-weight="600" font-size="12" fill="#1e293b">Logs y Auditoría</text>
       <text x="382" y="209" font-family="Inter" font-size="10" fill="#64748b">Accesos &middot; Operaciones &middot; Cambios &middot; Eventos</text>
 
       <!-- Connection line -->
-      <line x1="340" y1="280" x2="340" y2="310" stroke="#0d9488" stroke-width="2" stroke-dasharray="6,3"/>
-      <text x="340" y="305" text-anchor="middle" font-family="Inter" font-size="10" fill="#0d9488" font-weight="600">API autenticada &darr;</text>
+      <line x1="340" y1="280" x2="340" y2="310" stroke="#3356F6" stroke-width="2" stroke-dasharray="6,3"/>
+      <text x="340" y="305" text-anchor="middle" font-family="Inter" font-size="10" fill="#3356F6" font-weight="600">API autenticada &darr;</text>
 
       <!-- HA Layer -->
-      <rect x="160" y="330" width="360" height="70" rx="14" fill="#0f2b46" stroke="none"/>
+      <rect x="160" y="330" width="360" height="70" rx="14" fill="#231F20" stroke="none"/>
       <text x="340" y="358" text-anchor="middle" font-family="Inter" font-weight="700" font-size="13" fill="white">Capa de Agentes IA (Horizons Architecture)</text>
       <text x="340" y="378" text-anchor="middle" font-family="Inter" font-size="11" fill="#94a3b8">Procesamiento &middot; Análisis &middot; Generación de valor</text>
       <text x="340" y="393" text-anchor="middle" font-family="Inter" font-size="10" fill="#f87171" font-weight="600">NO almacena datos de miembros</text>
@@ -960,17 +981,17 @@
     <svg viewBox="0 0 680 240" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <marker id="arrowNav" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
-          <polygon points="0 0, 8 3, 0 6" fill="#0f2b46"/>
+          <polygon points="0 0, 8 3, 0 6" fill="#231F20"/>
         </marker>
       </defs>
 
       <!-- Step boxes -->
-      <rect x="10" y="20" width="120" height="54" rx="8" fill="#0f2b46"/>
+      <rect x="10" y="20" width="120" height="54" rx="8" fill="#231F20"/>
       <text x="70" y="44" text-anchor="middle" font-family="Inter" font-weight="600" font-size="11" fill="white">Agente analiza</text>
       <text x="70" y="58" text-anchor="middle" font-family="Inter" font-size="9" fill="#94a3b8">TODOS los perfiles</text>
 
-      <rect x="155" y="20" width="120" height="54" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
-      <text x="215" y="44" text-anchor="middle" font-family="Inter" font-weight="600" font-size="11" fill="#2563eb">Identifica</text>
+      <rect x="155" y="20" width="120" height="54" rx="8" fill="#EEF1FE" stroke="#3356F6" stroke-width="1.5"/>
+      <text x="215" y="44" text-anchor="middle" font-family="Inter" font-weight="600" font-size="11" fill="#3356F6">Identifica</text>
       <text x="215" y="58" text-anchor="middle" font-family="Inter" font-size="9" fill="#64748b">complementariedad</text>
 
       <rect x="300" y="20" width="120" height="54" rx="8" fill="#fff7ed" stroke="#d97706" stroke-width="1.5"/>
@@ -981,15 +1002,15 @@
       <text x="505" y="44" text-anchor="middle" font-family="Inter" font-weight="600" font-size="11" fill="#16a34a">Ambos aceptan</text>
       <text x="505" y="58" text-anchor="middle" font-family="Inter" font-size="9" fill="#64748b">doble consentimiento</text>
 
-      <rect x="590" y="20" width="80" height="54" rx="8" fill="#0d9488"/>
+      <rect x="590" y="20" width="80" height="54" rx="8" fill="#3356F6"/>
       <text x="630" y="44" text-anchor="middle" font-family="Inter" font-weight="600" font-size="11" fill="white">Consejo</text>
-      <text x="630" y="58" text-anchor="middle" font-family="Inter" font-size="9" fill="#b2dfdb">conecta</text>
+      <text x="630" y="58" text-anchor="middle" font-family="Inter" font-size="9" fill="#B8C6FC">conecta</text>
 
       <!-- Arrows -->
-      <line x1="130" y1="47" x2="151" y2="47" stroke="#0f2b46" stroke-width="1.5" marker-end="url(#arrowNav)"/>
-      <line x1="275" y1="47" x2="296" y2="47" stroke="#0f2b46" stroke-width="1.5" marker-end="url(#arrowNav)"/>
-      <line x1="420" y1="47" x2="441" y2="47" stroke="#0f2b46" stroke-width="1.5" marker-end="url(#arrowNav)"/>
-      <line x1="565" y1="47" x2="586" y2="47" stroke="#0f2b46" stroke-width="1.5" marker-end="url(#arrowNav)"/>
+      <line x1="130" y1="47" x2="151" y2="47" stroke="#231F20" stroke-width="1.5" marker-end="url(#arrowNav)"/>
+      <line x1="275" y1="47" x2="296" y2="47" stroke="#231F20" stroke-width="1.5" marker-end="url(#arrowNav)"/>
+      <line x1="420" y1="47" x2="441" y2="47" stroke="#231F20" stroke-width="1.5" marker-end="url(#arrowNav)"/>
+      <line x1="565" y1="47" x2="586" y2="47" stroke="#231F20" stroke-width="1.5" marker-end="url(#arrowNav)"/>
 
       <!-- Rejection path -->
       <rect x="370" y="110" width="200" height="40" rx="8" fill="#fef2f2" stroke="#fca5a5" stroke-width="1"/>
@@ -1248,41 +1269,41 @@
     <div class="diagram-title">Arquitectura fractal &mdash; construir una vez, replicar siempre</div>
     <svg viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg">
       <!-- Platform box -->
-      <rect x="180" y="10" width="340" height="80" rx="12" fill="#0f2b46"/>
+      <rect x="180" y="10" width="340" height="80" rx="12" fill="#231F20"/>
       <text x="350" y="38" text-anchor="middle" font-family="Inter" font-weight="700" font-size="14" fill="white">Plataforma Tec Beyond</text>
       <text x="350" y="56" text-anchor="middle" font-family="Inter" font-size="10" fill="#94a3b8">Base de conocimiento &middot; 4 agentes &middot; Gobernanza &middot; Dashboard</text>
-      <text x="350" y="72" text-anchor="middle" font-family="Inter" font-size="10" fill="#14b8a6" font-weight="600">Se construye UNA VEZ</text>
+      <text x="350" y="72" text-anchor="middle" font-family="Inter" font-size="10" fill="#5B7AF8" font-weight="600">Se construye UNA VEZ</text>
 
       <!-- Connector lines -->
-      <line x1="260" y1="90" x2="120" y2="140" stroke="#0d9488" stroke-width="2"/>
-      <line x1="350" y1="90" x2="350" y2="140" stroke="#0d9488" stroke-width="2"/>
-      <line x1="440" y1="90" x2="580" y2="140" stroke="#0d9488" stroke-width="2"/>
+      <line x1="260" y1="90" x2="120" y2="140" stroke="#3356F6" stroke-width="2"/>
+      <line x1="350" y1="90" x2="350" y2="140" stroke="#3356F6" stroke-width="2"/>
+      <line x1="440" y1="90" x2="580" y2="140" stroke="#3356F6" stroke-width="2"/>
 
       <!-- Text label -->
-      <text x="350" y="125" text-anchor="middle" font-family="Inter" font-size="10" fill="#0d9488" font-weight="500">Se replica como instancia fractal &darr;</text>
+      <text x="350" y="125" text-anchor="middle" font-family="Inter" font-size="10" fill="#3356F6" font-weight="500">Se replica como instancia fractal &darr;</text>
 
       <!-- Sede boxes -->
-      <rect x="40" y="145" width="160" height="90" rx="10" fill="white" stroke="#0d9488" stroke-width="2"/>
-      <text x="120" y="170" text-anchor="middle" font-family="Inter" font-weight="700" font-size="13" fill="#0f2b46">Le&oacute;n</text>
-      <text x="120" y="186" text-anchor="middle" font-family="Inter" font-size="10" fill="#0d9488" font-weight="600">Piloto</text>
+      <rect x="40" y="145" width="160" height="90" rx="10" fill="white" stroke="#3356F6" stroke-width="2"/>
+      <text x="120" y="170" text-anchor="middle" font-family="Inter" font-weight="700" font-size="13" fill="#231F20">Le&oacute;n</text>
+      <text x="120" y="186" text-anchor="middle" font-family="Inter" font-size="10" fill="#3356F6" font-weight="600">Piloto</text>
       <text x="120" y="204" text-anchor="middle" font-family="Inter" font-size="9" fill="#64748b">~300 miembros</text>
       <text x="120" y="218" text-anchor="middle" font-family="Inter" font-size="9" fill="#64748b">Manufactura &middot; Comercio</text>
 
-      <rect x="270" y="145" width="160" height="90" rx="10" fill="white" stroke="#2563eb" stroke-width="1.5" stroke-dasharray="6,3"/>
-      <text x="350" y="170" text-anchor="middle" font-family="Inter" font-weight="700" font-size="13" fill="#0f2b46">Chihuahua</text>
-      <text x="350" y="186" text-anchor="middle" font-family="Inter" font-size="10" fill="#2563eb" font-weight="600">Expansi&oacute;n 1</text>
+      <rect x="270" y="145" width="160" height="90" rx="10" fill="white" stroke="#3356F6" stroke-width="1.5" stroke-dasharray="6,3"/>
+      <text x="350" y="170" text-anchor="middle" font-family="Inter" font-weight="700" font-size="13" fill="#231F20">Chihuahua</text>
+      <text x="350" y="186" text-anchor="middle" font-family="Inter" font-size="10" fill="#3356F6" font-weight="600">Expansi&oacute;n 1</text>
       <text x="350" y="204" text-anchor="middle" font-family="Inter" font-size="9" fill="#64748b">~300 miembros</text>
       <text x="350" y="218" text-anchor="middle" font-family="Inter" font-size="9" fill="#64748b">Minería &middot; Agroindustria</text>
 
-      <rect x="500" y="145" width="160" height="90" rx="10" fill="white" stroke="#7c3aed" stroke-width="1.5" stroke-dasharray="6,3"/>
-      <text x="580" y="170" text-anchor="middle" font-family="Inter" font-weight="700" font-size="13" fill="#0f2b46">Morelia</text>
-      <text x="580" y="186" text-anchor="middle" font-family="Inter" font-size="10" fill="#7c3aed" font-weight="600">Expansi&oacute;n 2</text>
+      <rect x="500" y="145" width="160" height="90" rx="10" fill="white" stroke="#3356F6" stroke-width="1.5" stroke-dasharray="6,3"/>
+      <text x="580" y="170" text-anchor="middle" font-family="Inter" font-weight="700" font-size="13" fill="#231F20">Morelia</text>
+      <text x="580" y="186" text-anchor="middle" font-family="Inter" font-size="10" fill="#3356F6" font-weight="600">Expansi&oacute;n 2</text>
       <text x="580" y="204" text-anchor="middle" font-family="Inter" font-size="9" fill="#64748b">~300 miembros</text>
       <text x="580" y="218" text-anchor="middle" font-family="Inter" font-size="9" fill="#64748b">Contexto regional propio</text>
 
       <!-- Cross-matching line -->
-      <line x1="200" y1="260" x2="500" y2="260" stroke="#0d9488" stroke-width="1.5" stroke-dasharray="4,3"/>
-      <text x="350" y="278" text-anchor="middle" font-family="Inter" font-size="10" fill="#0d9488" font-weight="500">&#x2194; Matching entre sedes: un empresario de Le&oacute;n encuentra su distribuidor en Chihuahua</text>
+      <line x1="200" y1="260" x2="500" y2="260" stroke="#3356F6" stroke-width="1.5" stroke-dasharray="4,3"/>
+      <text x="350" y="278" text-anchor="middle" font-family="Inter" font-size="10" fill="#3356F6" font-weight="500">&#x2194; Matching entre sedes: un empresario de Le&oacute;n encuentra su distribuidor en Chihuahua</text>
     </svg>
   </div>
 
@@ -1380,42 +1401,42 @@
     <div class="diagram-title">Evolución del modelo de gobernanza</div>
     <svg viewBox="0 0 700 180" xmlns="http://www.w3.org/2000/svg">
       <!-- 1 sede -->
-      <rect x="10" y="15" width="150" height="100" rx="10" fill="white" stroke="#0d9488" stroke-width="1.5"/>
-      <text x="85" y="38" text-anchor="middle" font-family="Inter" font-weight="700" font-size="11" fill="#0f2b46">1 sede</text>
+      <rect x="10" y="15" width="150" height="100" rx="10" fill="white" stroke="#3356F6" stroke-width="1.5"/>
+      <text x="85" y="38" text-anchor="middle" font-family="Inter" font-weight="700" font-size="11" fill="#231F20">1 sede</text>
       <text x="85" y="56" text-anchor="middle" font-family="Inter" font-size="9" fill="#64748b">Consejo Le&oacute;n</text>
       <text x="85" y="70" text-anchor="middle" font-family="Inter" font-size="9" fill="#64748b">decide todo</text>
-      <rect x="35" y="82" width="100" height="22" rx="6" fill="#f0fdfa"/>
-      <text x="85" y="97" text-anchor="middle" font-family="Inter" font-size="9" fill="#0d9488" font-weight="500">Centralizado</text>
+      <rect x="35" y="82" width="100" height="22" rx="6" fill="#EEF1FE"/>
+      <text x="85" y="97" text-anchor="middle" font-family="Inter" font-size="9" fill="#3356F6" font-weight="500">Centralizado</text>
 
       <text x="178" y="65" font-family="Inter" font-size="16" fill="#cbd5e1">&rarr;</text>
 
       <!-- 3 sedes -->
-      <rect x="195" y="15" width="150" height="100" rx="10" fill="white" stroke="#2563eb" stroke-width="1.5"/>
-      <text x="270" y="38" text-anchor="middle" font-family="Inter" font-weight="700" font-size="11" fill="#0f2b46">3 sedes</text>
+      <rect x="195" y="15" width="150" height="100" rx="10" fill="white" stroke="#3356F6" stroke-width="1.5"/>
+      <text x="270" y="38" text-anchor="middle" font-family="Inter" font-weight="700" font-size="11" fill="#231F20">3 sedes</text>
       <text x="270" y="56" text-anchor="middle" font-family="Inter" font-size="9" fill="#64748b">Le&oacute;n como root</text>
       <text x="270" y="70" text-anchor="middle" font-family="Inter" font-size="9" fill="#64748b">+ admins locales</text>
-      <rect x="220" y="82" width="100" height="22" rx="6" fill="#eff6ff"/>
-      <text x="270" y="97" text-anchor="middle" font-family="Inter" font-size="9" fill="#2563eb" font-weight="500">Hub + nodos</text>
+      <rect x="220" y="82" width="100" height="22" rx="6" fill="#EEF1FE"/>
+      <text x="270" y="97" text-anchor="middle" font-family="Inter" font-size="9" fill="#3356F6" font-weight="500">Hub + nodos</text>
 
       <text x="363" y="65" font-family="Inter" font-size="16" fill="#cbd5e1">&rarr;</text>
 
       <!-- 5+ sedes -->
-      <rect x="380" y="15" width="150" height="100" rx="10" fill="white" stroke="#7c3aed" stroke-width="1.5"/>
-      <text x="455" y="38" text-anchor="middle" font-family="Inter" font-weight="700" font-size="11" fill="#0f2b46">5+ sedes</text>
+      <rect x="380" y="15" width="150" height="100" rx="10" fill="white" stroke="#3356F6" stroke-width="1.5"/>
+      <text x="455" y="38" text-anchor="middle" font-family="Inter" font-weight="700" font-size="11" fill="#231F20">5+ sedes</text>
       <text x="455" y="56" text-anchor="middle" font-family="Inter" font-size="9" fill="#64748b">Consejo Nacional</text>
       <text x="455" y="70" text-anchor="middle" font-family="Inter" font-size="9" fill="#64748b">representantes</text>
-      <rect x="405" y="82" width="100" height="22" rx="6" fill="#faf5ff"/>
-      <text x="455" y="97" text-anchor="middle" font-family="Inter" font-size="9" fill="#7c3aed" font-weight="500">Representativo</text>
+      <rect x="405" y="82" width="100" height="22" rx="6" fill="#EEF1FE"/>
+      <text x="455" y="97" text-anchor="middle" font-family="Inter" font-size="9" fill="#3356F6" font-weight="500">Representativo</text>
 
       <text x="548" y="65" font-family="Inter" font-size="16" fill="#cbd5e1">&rarr;</text>
 
       <!-- Red Nacional -->
-      <rect x="565" y="15" width="125" height="100" rx="10" fill="#0f2b46"/>
+      <rect x="565" y="15" width="125" height="100" rx="10" fill="#231F20"/>
       <text x="627" y="38" text-anchor="middle" font-family="Inter" font-weight="700" font-size="11" fill="white">Red Nacional</text>
       <text x="627" y="56" text-anchor="middle" font-family="Inter" font-size="9" fill="#94a3b8">Estructura</text>
       <text x="627" y="70" text-anchor="middle" font-family="Inter" font-size="9" fill="#94a3b8">federada</text>
-      <rect x="582" y="82" width="90" height="22" rx="6" fill="rgba(20,184,166,.2)"/>
-      <text x="627" y="97" text-anchor="middle" font-family="Inter" font-size="9" fill="#14b8a6" font-weight="500">Federado</text>
+      <rect x="582" y="82" width="90" height="22" rx="6" fill="rgba(91,122,248,.2)"/>
+      <text x="627" y="97" text-anchor="middle" font-family="Inter" font-size="9" fill="#5B7AF8" font-weight="500">Federado</text>
 
       <!-- Bottom label -->
       <text x="350" y="148" text-anchor="middle" font-family="Inter" font-size="10" fill="#64748b">Lo global se estandariza (tecnología, datos, seguridad) &middot; Lo local se personaliza (comunidad, contexto, eventos)</text>
@@ -1504,6 +1525,270 @@
     <div class="qa-item"><div class="question">&iquest;Cuál es la visión a 10 años?</div><div class="answer">~8,000 miembros en 8-10 sedes. La comunidad empresarial más sofisticada de México. Replicable a otros programas del Tec.</div></div>
   </div>
 
+<!-- ═══════════════════════════════════════════════ -->
+<!--          ANEXO 5: SESIÓN CONSEJEROS             -->
+<!-- ═══════════════════════════════════════════════ -->
+
+<hr class="section-divider">
+<div class="annexHeader" id="anexo5">
+  <div class="annex-label">Anexo 5</div>
+  <h2 class="annex-title">Resumen ejecutivo &mdash; Sesión de consejeros</h2>
+  <p class="annex-desc">Ideas clave de la sesión con líderes y presidentes del consejo Tec Beyond: comunidad, vinculación, continuidad e impacto regional.</p>
+</div>
+
+<div class="section" id="a5-lideres">
+  <h3>Comunidad de líderes y presidentes</h3>
+  <p>Se busca consolidar una <strong>red activa de presidentes, CEOs y líderes empresariales</strong> (principalmente egresados) que:</p>
+  <ul>
+    <li>Mantengan vínculo permanente con el campus</li>
+    <li>Participen en proyectos estratégicos</li>
+    <li>Funcionen como embajadores institucionales</li>
+    <li>Formen parte de consejos consultivos o espacios de decisión</li>
+  </ul>
+  <div class="callout">
+    <p><strong>Insight clave:</strong> No se trata de networking informal, sino de una comunidad estructurada con propósito y gobernanza.</p>
+  </div>
+</div>
+
+<div class="section" id="a5-vinculacion">
+  <h3>Vinculación estratégica con empresas</h3>
+  <p>Evolución del modelo relacional hacia alianzas de mayor profundidad:</p>
+  <div class="card-grid">
+    <div class="card-sm">
+      <h4>Investigación aplicada</h4>
+      <p>Proyectos conjuntos entre empresa y campus con impacto medible.</p>
+    </div>
+    <div class="card-sm">
+      <h4>Retos de la industria</h4>
+      <p>Resolución colaborativa de retos reales con metodología estructurada.</p>
+    </div>
+    <div class="card-sm">
+      <h4>Impacto económico y social</h4>
+      <p>Generación de valor compartido para empresa, campus y comunidad.</p>
+    </div>
+    <div class="card-sm">
+      <h4>Alianzas de largo plazo</h4>
+      <p>Pasar de relaciones transaccionales a alianzas estratégicas sostenidas.</p>
+    </div>
+  </div>
+
+  <h3>Continuidad activa con egresados</h3>
+  <p>El egresado es visto como <strong>activo estratégico</strong>, no solo relacional. Integración en:</p>
+  <ul>
+    <li>Mentorías</li>
+    <li>Proyectos de innovación</li>
+    <li>Consejos y comités</li>
+    <li>Redes de colaboración empresarial</li>
+  </ul>
+  <p>La comunidad no termina en el programa; se diseña con continuidad.</p>
+
+  <h3>Innovación e impacto regional</h3>
+  <p>Los modelos presentados (Laguna y Chihuahua) integran impulso al emprendimiento, investigación con impacto real, conexión talento&ndash;empresa y posicionamiento del campus como actor clave del ecosistema. En Chihuahua, el modelo de eventos funciona como <strong>plataforma estratégica de comunidad</strong>, no como evento aislado.</p>
+</div>
+
+<div class="section" id="a5-sintesis">
+  <h3>Síntesis estratégica</h3>
+  <p>Las iniciativas muestran una estrategia integral basada en:</p>
+  <div class="metrics">
+    <div class="metric">
+      <div class="value" style="font-size:1.2rem">&#10003;</div>
+      <div class="label">Comunidad estructurada</div>
+    </div>
+    <div class="metric">
+      <div class="value" style="font-size:1.2rem">&#10003;</div>
+      <div class="label">Vinculación profunda</div>
+    </div>
+    <div class="metric">
+      <div class="value" style="font-size:1.2rem">&#10003;</div>
+      <div class="label">Egresados activos</div>
+    </div>
+    <div class="metric">
+      <div class="value" style="font-size:1.2rem">&#10003;</div>
+      <div class="label">Impacto regional</div>
+    </div>
+  </div>
+
+  <div class="callout">
+    <p><strong>Oportunidad:</strong> Existen modelos avanzados en Laguna y Chihuahua que sirven como benchmark para formalizar estructura, diseñar continuidad post-programa, integrar empresarios en decisiones estratégicas y convertir eventos en plataformas de activación.</p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════ -->
+<!--          ANEXO 6: GRADUADOS BEYOND              -->
+<!-- ═══════════════════════════════════════════════ -->
+
+<hr class="section-divider">
+<div class="annexHeader" id="anexo6">
+  <div class="annex-label">Anexo 6</div>
+  <h2 class="annex-title">&iquest;Qué desean los graduados Beyond?</h2>
+  <p class="annex-desc">A partir de conversaciones y reflexiones, los graduados buscan una comunidad activa, estructurada y con valor tangible que trascienda el programa.</p>
+</div>
+
+<div class="section" id="a6-comunidad">
+  <h3>1. Comunidad con propósito y valor claro</h3>
+  <ul>
+    <li>Claridad sobre el <strong>valor concreto</strong> que la comunidad les genera</li>
+    <li>Red que incluya graduados, participantes, empresarios, ponentes y aliados</li>
+    <li>Comunidad activa, coordinada y con impacto exponencial</li>
+    <li>Eventos anuales masivos que fortalezcan el vínculo</li>
+  </ul>
+
+  <h3>4. Gobernanza y acompañamiento institucional</h3>
+  <ul>
+    <li>Participación activa del Tec en la estructuración y continuidad</li>
+    <li>Consejos o comités intergeneracionales que acompañen el programa</li>
+    <li>Comunidad como parte de la agenda estratégica del campus</li>
+    <li>Espacios de retroalimentación continua</li>
+  </ul>
+</div>
+
+<div class="section" id="a6-formacion">
+  <h3>2. Formación continua y especializada</h3>
+  <p>Interés en programas más avanzados y aplicados:</p>
+  <div class="card-grid">
+    <div class="card-sm">
+      <h4>IA aplicada a empresas</h4>
+      <p>Inteligencia Artificial como herramienta estratégica de negocio.</p>
+    </div>
+    <div class="card-sm">
+      <h4>Transformación digital</h4>
+      <p>Robótica, automatización y digitalización de operaciones.</p>
+    </div>
+    <div class="card-sm">
+      <h4>Gobierno corporativo</h4>
+      <p>Gestión de riesgos, sucesión familiar y empresarial.</p>
+    </div>
+    <div class="card-sm">
+      <h4>Inversión y capital</h4>
+      <p>Programas de inversión, capital privado y viajes internacionales.</p>
+    </div>
+  </div>
+  <p>Buscan diferentes niveles: programas introductorios para quienes inician y especializados para quienes desean el siguiente nivel.</p>
+</div>
+
+<div class="section" id="a6-oportunidades">
+  <h3>3. Red estratégica para generar oportunidades</h3>
+  <ul>
+    <li>Red como detector de oportunidades de negocio, inversión y colaboración</li>
+    <li>Conexión regional con expansión nacional e internacional (ej. Silicon Valley)</li>
+    <li>Vinculación con emprendedores locales</li>
+    <li>Impulso a la inversión y creación de nuevos emprendimientos</li>
+  </ul>
+
+  <h3>5. Evolución y continuidad</h3>
+  <ul>
+    <li>Que exista un &ldquo;siguiente paso&rdquo; después de graduarse</li>
+    <li>Evitar que los egresados busquen continuidad fuera de la institución</li>
+    <li>Estructura escalonada: nivel 1, nivel 2, programas cortos, viajes, especializaciones</li>
+  </ul>
+
+  <div class="callout">
+    <p><strong>Síntesis:</strong> Los graduados desean una comunidad estratégica, activa y bien gestionada, que combine formación de alto nivel, networking de valor, oportunidades reales de negocio e inversión, y acompañamiento institucional sólido. No buscan solo pertenecer a una red, sino formar parte de un ecosistema que evolucione con ellos.</p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════ -->
+<!--          ANEXO 7: DIAGRAMAS DE TRABAJO          -->
+<!-- ═══════════════════════════════════════════════ -->
+
+<hr class="section-divider">
+<div class="annexHeader" id="anexo7">
+  <div class="annex-label">Anexo 7</div>
+  <h2 class="annex-title">Interpretación de diagramas de trabajo</h2>
+  <p class="annex-desc">Análisis e interpretación de los diagramas producidos en la sesión de diseño estratégico: arquitectura de datos, modelo de valor, MVP e IA.</p>
+</div>
+
+<div class="section" id="a7-base">
+  <h3>Diagrama 1: Arquitectura de base de conocimiento</h3>
+  <p>La primera gráfica representa la arquitectura central del modelo, donde una Base de Conocimiento funciona como <strong>núcleo estratégico</strong> del sistema.</p>
+  <p>El flujo visual muestra cómo distintos inputs convergen hacia un único contenedor estructurado:</p>
+  <div class="flow-steps">
+    <div class="flow-step">Inputs diversos</div>
+    <div class="flow-arrow">&rarr;</div>
+    <div class="flow-step highlight">Data Hub centralizado</div>
+    <div class="flow-arrow">&rarr;</div>
+    <div class="flow-step">Verticales de valor</div>
+  </div>
+  <p>El proceso incluye integración de datos, normalización, enriquecimiento y consolidación. Posteriormente, esta base alimenta diferentes salidas o verticales de valor &mdash; una arquitectura orientada a explotación analítica y monetización.</p>
+
+  <h3>Diagrama 2: Modelo radial de generación de valor</h3>
+  <p>Un modelo hub-and-spoke donde un <strong>núcleo central</strong> procesa información y distribuye resultados hacia múltiples segmentos o mercados. En el centro: un motor analítico (IA / procesamiento automatizado) que conecta con:</p>
+  <div class="card-grid">
+    <div class="card-sm">
+      <h4>Segmentos de usuarios</h4>
+      <p>Perfiles diferenciados por tipo de miembro, industria y necesidad.</p>
+    </div>
+    <div class="card-sm">
+      <h4>Verticales de negocio</h4>
+      <p>Líneas de servicio especializadas por sector o función.</p>
+    </div>
+    <div class="card-sm">
+      <h4>Monetización</h4>
+      <p>Oportunidades de ingreso diversificadas desde el núcleo.</p>
+    </div>
+    <div class="card-sm">
+      <h4>Escalabilidad</h4>
+      <p>Proyecciones de 7,000&ndash;8,000 usuarios con crecimiento progresivo.</p>
+    </div>
+  </div>
+  <p>El modelo integra procesamiento mediante IA, segmentación dinámica, clustering de audiencias y perfilamiento estratégico. El valor no se genera de manera lineal, sino a través de múltiples conexiones desde el núcleo.</p>
+</div>
+
+<div class="section" id="a7-radial">
+  <h3>Diagrama 3: Infraestructura mínima y curva de crecimiento</h3>
+
+  <h4>Infraestructura mínima (MVP)</h4>
+  <div class="flow-steps">
+    <div class="flow-step">Scraper</div>
+    <div class="flow-arrow">&rarr;</div>
+    <div class="flow-step">Módulo IA</div>
+    <div class="flow-arrow">&rarr;</div>
+    <div class="flow-step highlight">Base de datos</div>
+    <div class="flow-arrow">&rarr;</div>
+    <div class="flow-step">Dashboard</div>
+    <div class="flow-arrow">&rarr;</div>
+    <div class="flow-step">Reglas de negocio</div>
+  </div>
+  <p>Esta configuración permite validar hipótesis sin necesidad de una inversión tecnológica compleja en etapas iniciales.</p>
+
+  <h4>Proyección de crecimiento</h4>
+  <p>Curva no lineal con fluctuaciones que sugiere crecimiento progresivo, periodos de ajuste, iteración constante y optimización continua. Horizonte de hasta <strong>10 años</strong> con escalabilidad estructural.</p>
+  <p>Consistente con modelos de expansión basados en:</p>
+  <ul>
+    <li>Mejora del LTV (Lifetime Value)</li>
+    <li>Optimización del funnel</li>
+    <li>Ajuste de estrategia según desempeño</li>
+  </ul>
+</div>
+
+<div class="section" id="a7-mvp">
+  <h3>Diagrama 4: Personalización y motor de IA</h3>
+  <p>Uso de modelos de IA como núcleo de procesamiento avanzado. La información se analiza y segmenta mediante clustering, reglas de negocio, análisis de comportamiento y personalización dinámica.</p>
+
+  <h4>Líneas de monetización identificadas</h4>
+  <table>
+    <thead>
+      <tr>
+        <th>Línea</th>
+        <th>Descripción</th>
+        <th>Driver</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Suscripción</td><td>Acceso a la plataforma y servicios base</td><td><span class="badge badge-teal">Recurrente</span></td></tr>
+      <tr><td>Datos estructurados</td><td>Venta de inteligencia de mercado procesada</td><td><span class="badge badge-blue">Valor alto</span></td></tr>
+      <tr><td>Matchmaking</td><td>Conexión estratégica entre perfiles compatibles</td><td><span class="badge badge-teal">Core</span></td></tr>
+      <tr><td>Closings comerciales</td><td>Facilitación de cierres de negocio entre miembros</td><td><span class="badge badge-green">Revenue share</span></td></tr>
+      <tr><td>Experiencias personalizadas</td><td>Eventos y programas adaptados al perfil</td><td><span class="badge badge-amber">Premium</span></td></tr>
+      <tr><td>Contenido premium</td><td>Formación avanzada y especializada</td><td><span class="badge badge-blue">Escalable</span></td></tr>
+    </tbody>
+  </table>
+
+  <div class="callout">
+    <p><strong>Modelo clave:</strong> La personalización se posiciona como principal driver de conversión, incrementando engagement, retención, tasa de cierre y valor por usuario.</p>
+  </div>
+</div>
+
   <!-- Footer -->
   <div style="margin-top:4rem;padding-top:2rem;border-top:1px solid var(--gray-200);text-align:center">
     <p style="font-size:.82rem;color:var(--gray-400);margin-bottom:.25rem"><strong style="color:var(--gray-600)">Horizons Architecture Systems</strong></p>
@@ -1517,13 +1802,13 @@
 <!-- ════════ CHARTS ════════ -->
 <script>
 // Color palette
-const navy = '#0f2b46';
-const blue = '#2563eb';
-const teal = '#0d9488';
-const tealLight = '#14b8a6';
+const navy = '#231F20';
+const blue = '#3356F6';
+const teal = '#3356F6';
+const tealLight = '#5B7AF8';
 const amber = '#d97706';
 const green = '#16a34a';
-const purple = '#7c3aed';
+const purple = '#3356F6';
 const red = '#dc2626';
 
 // Common config
@@ -1579,7 +1864,7 @@ new Chart(document.getElementById('expansionChart'), {
       label: 'Conexiones posibles',
       data: [44850, 404550, 1124250, 4498500, 32000000],
       borderColor: teal,
-      backgroundColor: 'rgba(13,148,136,.1)',
+      backgroundColor: 'rgba(51,86,246,.1)',
       fill: true,
       tension: 0.4,
       pointBackgroundColor: [teal, blue, amber, green, red],
@@ -1643,7 +1928,7 @@ new Chart(document.getElementById('costPerMemberChart'), {
       label: 'Costo total relativo',
       data: [1, 1.4, 1.7, 2.2],
       borderColor: blue,
-      backgroundColor: 'rgba(37,99,235,.08)',
+      backgroundColor: 'rgba(51,86,246,.08)',
       fill: true,
       tension: 0.35,
       pointBackgroundColor: blue,
@@ -1655,7 +1940,7 @@ new Chart(document.getElementById('costPerMemberChart'), {
       label: 'Costo por miembro relativo',
       data: [1, 0.47, 0.34, 0.22],
       borderColor: teal,
-      backgroundColor: 'rgba(13,148,136,.08)',
+      backgroundColor: 'rgba(51,86,246,.08)',
       fill: true,
       tension: 0.35,
       pointBackgroundColor: teal,
