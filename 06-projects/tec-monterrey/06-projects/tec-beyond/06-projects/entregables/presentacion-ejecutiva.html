@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tec Beyond — Presentación Ejecutiva</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ha-blue: #3356F6;
+    --ha-blue-light: #5B7AF8;
+    --ha-blue-bg: #EEF1FE;
+    --ha-dark: #231F20;
+    --black: #000000;
+    --offwhite: #F1F2F2;
+    --white: #FFFFFF;
+    --gray-100: #F8F9FA;
+    --gray-200: #E9ECEF;
+    --gray-300: #DEE2E6;
+    --gray-400: #ADB5BD;
+    --gray-500: #6C757D;
+    --gray-600: #495057;
+    --gray-700: #343A40;
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'Roboto Mono', monospace;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; font-size: 16px; }
+
+  body {
+    font-family: var(--font-sans);
+    color: var(--ha-dark);
+    background: var(--white);
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ── NAV ── */
+  nav {
+    position: fixed; top: 0; left: 0;
+    width: 240px; height: 100vh;
+    background: var(--ha-dark);
+    color: var(--white);
+    padding: 2rem 0;
+    overflow-y: auto;
+    z-index: 100;
+    display: flex; flex-direction: column;
+  }
+  nav .brand {
+    padding: 0 1.5rem 1.5rem;
+    border-bottom: 1px solid rgba(255,255,255,.08);
+    margin-bottom: 1rem;
+  }
+  nav .brand .mono {
+    font-family: var(--font-mono);
+    font-size: .65rem;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    color: var(--ha-blue-light);
+    margin-bottom: .5rem;
+    display: block;
+  }
+  nav .brand h1 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+  nav .nav-label {
+    padding: .75rem 1.5rem .25rem;
+    font-family: var(--font-mono);
+    font-size: .55rem;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    color: var(--ha-blue-light);
+    font-weight: 500;
+  }
+  nav a {
+    display: block;
+    padding: .4rem 1.5rem;
+    color: rgba(255,255,255,.55);
+    text-decoration: none;
+    font-size: .78rem;
+    font-weight: 400;
+    transition: all .15s;
+    border-left: 2px solid transparent;
+  }
+  nav a:hover, nav a.active {
+    color: var(--white);
+    background: rgba(255,255,255,.04);
+    border-left-color: var(--ha-blue);
+  }
+  nav .footer {
+    margin-top: auto;
+    padding: 1.5rem;
+    border-top: 1px solid rgba(255,255,255,.08);
+    font-family: var(--font-mono);
+    font-size: .65rem;
+    color: rgba(255,255,255,.3);
+    line-height: 1.6;
+  }
+
+  /* ── MAIN ── */
+  main { margin-left: 240px; min-height: 100vh; }
+
+  /* ── COVER ── */
+  .cover {
+    background: var(--ha-dark);
+    color: var(--white);
+    padding: 6rem 5rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }
+  .cover .label {
+    font-family: var(--font-mono);
+    font-size: .65rem;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: var(--ha-blue-light);
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+  }
+  .cover h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: .75rem;
+    max-width: 600px;
+  }
+  .cover .subtitle {
+    font-size: 1.15rem;
+    font-weight: 300;
+    color: rgba(255,255,255,.6);
+    max-width: 500px;
+    margin-bottom: 3.5rem;
+    line-height: 1.6;
+  }
+  .cover .meta-row {
+    display: flex; gap: 3.5rem;
+    font-size: .8rem;
+    color: rgba(255,255,255,.4);
+  }
+  .cover .meta-row strong {
+    color: rgba(255,255,255,.7);
+    font-weight: 500;
+  }
+  .cover .blue-line {
+    width: 48px; height: 3px;
+    background: var(--ha-blue);
+    margin-bottom: 2rem;
+    border-radius: 2px;
+  }
+
+  /* ── SECTIONS ── */
+  .section {
+    padding: 5rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .section-wide {
+    padding: 5rem;
+    max-width: 1060px;
+    margin: 0 auto;
+  }
+  .divider {
+    border: none;
+    height: 1px;
+    background: var(--gray-200);
+    margin: 0 5rem;
+    max-width: 900px;
+  }
+
+  /* ── SECTION HEADERS ── */
+  .sec-num {
+    font-family: var(--font-mono);
+    font-size: .7rem;
+    color: var(--gray-400);
+    letter-spacing: .05em;
+    margin-bottom: .5rem;
+    display: block;
+  }
+  .sec-title {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: var(--ha-blue);
+    line-height: 1.2;
+    margin-bottom: .5rem;
+  }
+  .sec-subtitle {
+    font-size: .95rem;
+    color: var(--gray-500);
+    margin-bottom: 2.5rem;
+    max-width: 550px;
+    line-height: 1.6;
+  }
+
+  /* ── TYPOGRAPHY ── */
+  h3 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--ha-dark);
+    margin-bottom: .5rem;
+    margin-top: 2rem;
+  }
+  h3:first-child { margin-top: 0; }
+  p {
+    margin-bottom: 1rem;
+    color: var(--gray-600);
+    font-size: .9rem;
+    line-height: 1.7;
+  }
+  p strong { color: var(--ha-dark); font-weight: 600; }
+
+  /* ── METRICS ── */
+  .metrics {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  .metric {
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: 10px;
+    padding: 1.5rem 1.25rem;
+    text-align: center;
+  }
+  .metric .value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--ha-dark);
+    line-height: 1;
+    margin-bottom: .35rem;
+    font-family: var(--font-mono);
+  }
+  .metric .value.blue { color: var(--ha-blue); }
+  .metric .label {
+    font-size: .68rem;
+    color: var(--gray-500);
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    font-weight: 500;
+  }
+
+  /* ── CARDS ── */
+  .card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .card {
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: 10px;
+    padding: 1.5rem;
+  }
+  .card h4 {
+    font-size: .9rem;
+    font-weight: 600;
+    color: var(--ha-dark);
+    margin-bottom: .35rem;
+  }
+  .card p {
+    font-size: .82rem;
+    color: var(--gray-500);
+    margin-bottom: 0;
+    line-height: 1.55;
+  }
+  .card .badge {
+    display: inline-block;
+    padding: .15rem .5rem;
+    border-radius: 5px;
+    font-size: .6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+    margin-bottom: .5rem;
+    background: var(--ha-blue-bg);
+    color: var(--ha-blue);
+  }
+
+  /* ── CALLOUT ── */
+  .callout {
+    background: var(--ha-blue-bg);
+    border-left: 3px solid var(--ha-blue);
+    border-radius: 0 8px 8px 0;
+    padding: 1.25rem 1.5rem;
+    margin: 1.5rem 0;
+  }
+  .callout p { margin-bottom: 0; color: var(--ha-dark); font-size: .88rem; }
+  .callout strong { color: var(--ha-blue); }
+
+  /* ── TABLES ── */
+  table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-bottom: 1.5rem;
+    font-size: .83rem;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid var(--gray-200);
+  }
+  thead th {
+    background: var(--ha-dark);
+    color: var(--white);
+    font-weight: 600;
+    text-align: left;
+    padding: .7rem 1rem;
+    font-size: .72rem;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+  }
+  tbody td {
+    padding: .6rem 1rem;
+    border-bottom: 1px solid var(--gray-100);
+    color: var(--gray-600);
+    vertical-align: top;
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr:nth-child(even) { background: var(--gray-100); }
+  .mono { font-family: var(--font-mono); font-size: .8rem; }
+
+  /* ── GOVERNANCE DIAGRAM ── */
+  .gov-circles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+
+  /* ── TIMELINE ── */
+  .timeline {
+    position: relative;
+    padding-left: 2rem;
+    margin: 1.5rem 0;
+  }
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 6px; bottom: 6px;
+    width: 2px;
+    background: var(--ha-blue);
+    border-radius: 1px;
+    opacity: .3;
+  }
+  .tl-item {
+    position: relative;
+    padding-bottom: 1.75rem;
+  }
+  .tl-item:last-child { padding-bottom: 0; }
+  .tl-item::before {
+    content: '';
+    position: absolute;
+    left: -2rem;
+    top: 5px;
+    width: 12px; height: 12px;
+    border-radius: 50%;
+    background: var(--ha-blue);
+    border: 2px solid var(--white);
+    box-shadow: 0 0 0 2px var(--ha-blue);
+  }
+  .tl-item.future::before {
+    background: var(--white);
+    box-shadow: 0 0 0 2px var(--gray-300);
+  }
+  .tl-date {
+    font-family: var(--font-mono);
+    font-size: .68rem;
+    font-weight: 500;
+    color: var(--ha-blue);
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    margin-bottom: .1rem;
+  }
+  .tl-item.future .tl-date { color: var(--gray-400); }
+  .tl-title {
+    font-size: .9rem;
+    font-weight: 600;
+    color: var(--ha-dark);
+    margin-bottom: .15rem;
+  }
+  .tl-desc {
+    font-size: .82rem;
+    color: var(--gray-500);
+    margin-bottom: 0;
+  }
+
+  /* ── HIGHLIGHT BAND ── */
+  .band {
+    background: var(--ha-dark);
+    color: var(--white);
+    padding: 4rem 5rem;
+  }
+  .band .sec-num { color: rgba(255,255,255,.35); }
+  .band .sec-title { color: var(--ha-blue-light); }
+  .band .sec-subtitle { color: rgba(255,255,255,.5); }
+  .band p { color: rgba(255,255,255,.65); }
+  .band strong { color: var(--white); }
+  .band .metric { background: rgba(255,255,255,.06); border-color: rgba(255,255,255,.08); }
+  .band .metric .value { color: var(--white); }
+  .band .metric .label { color: rgba(255,255,255,.45); }
+
+  /* ── FLOW ── */
+  .flow {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    flex-wrap: wrap;
+    margin: 1.5rem 0;
+    justify-content: center;
+  }
+  .flow-box {
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: 8px;
+    padding: .65rem 1rem;
+    font-size: .78rem;
+    font-weight: 500;
+    color: var(--ha-dark);
+    text-align: center;
+    min-width: 90px;
+  }
+  .flow-box.active {
+    background: var(--ha-blue);
+    color: var(--white);
+    border-color: var(--ha-blue);
+  }
+  .flow-arrow {
+    color: var(--gray-300);
+    font-size: 1rem;
+  }
+
+  /* ── FOOTER ── */
+  .page-footer {
+    padding: 3rem 5rem;
+    border-top: 1px solid var(--gray-200);
+    text-align: center;
+  }
+  .page-footer p {
+    font-size: .78rem;
+    color: var(--gray-400);
+    margin-bottom: .25rem;
+  }
+  .page-footer strong { color: var(--gray-600); font-weight: 500; }
+
+  /* ── PRINT ── */
+  @media print {
+    nav { display: none; }
+    main { margin-left: 0; }
+    .cover { min-height: auto; padding: 3rem 2rem; page-break-after: always; }
+    .section, .section-wide { padding: 2rem; }
+    .band { padding: 2rem; }
+    body { font-size: 14px; }
+  }
+  @media (max-width: 900px) {
+    nav { display: none; }
+    main { margin-left: 0; }
+    .cover { padding: 3rem 2rem; }
+    .section, .section-wide, .band { padding: 2.5rem 1.5rem; }
+    .card-grid { grid-template-columns: 1fr; }
+    .metrics { grid-template-columns: 1fr 1fr; }
+    .cover h1 { font-size: 2.2rem; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ════════ NAV ════════ -->
+<nav>
+  <div class="brand">
+    <span class="mono">Horizons Architecture</span>
+    <h1>Tec Beyond</h1>
+  </div>
+
+  <div class="nav-label">Contexto</div>
+  <a href="#cover">Inicio</a>
+  <a href="#oportunidad">La oportunidad</a>
+
+  <div class="nav-label">Propuesta</div>
+  <a href="#propuesta">Qué se propone</a>
+  <a href="#agentes">Los 4 agentes</a>
+  <a href="#arquitectura">Arquitectura</a>
+
+  <div class="nav-label">Operación</div>
+  <a href="#gobernanza">Gobernanza</a>
+  <a href="#red">Efecto de red</a>
+  <a href="#roadmap">Roadmap</a>
+
+  <div class="nav-label">Cierre</div>
+  <a href="#valor">Propuesta de valor</a>
+  <a href="#siguiente">Siguiente paso</a>
+
+  <div class="footer">
+    Horizons Architecture<br>
+    Febrero 2026<br><br>
+    Documento confidencial<br>
+    <a href="anexos/anexos-profesional.html" style="color:var(--ha-blue-light);text-decoration:none;font-size:.6rem">Ver anexos técnicos &rarr;</a>
+  </div>
+</nav>
+
+<!-- ════════ MAIN ════════ -->
+<main>
+
+<!-- ──── COVER ──── -->
+<section class="cover" id="cover">
+  <div class="label">Presentación ejecutiva &middot; Febrero 2026</div>
+  <div class="blue-line"></div>
+  <h1>Tec Beyond</h1>
+  <p class="subtitle">Plataforma de inteligencia colectiva para la comunidad de líderes empresariales del Tecnológico de Monterrey.</p>
+  <div class="meta-row">
+    <div><strong>Para:</strong> Comité de IA &middot; Consejo Campus León</div>
+    <div><strong>De:</strong> Horizons Architecture</div>
+    <div><strong>Fecha:</strong> Febrero 2026</div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════ -->
+<!--              01 — LA OPORTUNIDAD                -->
+<!-- ═══════════════════════════════════════════════ -->
+
+<div class="section" id="oportunidad">
+  <span class="sec-num">01</span>
+  <h2 class="sec-title">La oportunidad</h2>
+  <p class="sec-subtitle">Tec Beyond lleva 10 años formando líderes empresariales. La red existe. Lo que falta es activarla.</p>
+
+  <div class="metrics">
+    <div class="metric">
+      <div class="value">9</div>
+      <div class="label">Generaciones</div>
+    </div>
+    <div class="metric">
+      <div class="value">~350</div>
+      <div class="label">Empresarios</div>
+    </div>
+    <div class="metric">
+      <div class="value">~3,000</div>
+      <div class="label">Personas impactadas</div>
+    </div>
+    <div class="metric">
+      <div class="value">3+</div>
+      <div class="label">Campus activos</div>
+    </div>
+  </div>
+
+  <p>Tec Beyond no es un MBA ni una incubadora. Es un programa que transforma la cultura de innovación de empresas existentes a través de <strong>células de innovación</strong>: equipos multidisciplinarios dentro de cada empresa participante.</p>
+
+  <p>Cada generación que se suma no solo agrega miembros &mdash; agrega relaciones, conocimientos, industrias y mercados. Sin embargo, una vez que el programa termina, la red se vuelve pasiva. Nueve generaciones de empresarios con capacidades complementarias &mdash; y ningún sistema que las conecte de forma inteligente.</p>
+
+  <div class="callout">
+    <p><strong>La pregunta central:</strong> &iquest;Cómo convertir una comunidad de 350 empresarios en una red que genera valor de forma continua, escalable y medible?</p>
+  </div>
+</div>
+
+<hr class="divider">
+
+<!-- ═══════════════════════════════════════════════ -->
+<!--              02 — LA PROPUESTA                  -->
+<!-- ═══════════════════════════════════════════════ -->
+
+<div class="section" id="propuesta">
+  <span class="sec-num">02</span>
+  <h2 class="sec-title">Qué se propone</h2>
+  <p class="sec-subtitle">Una plataforma de inteligencia colectiva que activa la red de forma permanente.</p>
+
+  <p>El sistema hace tres cosas:</p>
+
+  <div class="flow">
+    <div class="flow-box active">Conectar</div>
+    <div class="flow-arrow">&rarr;</div>
+    <div class="flow-box active">Aprender</div>
+    <div class="flow-arrow">&rarr;</div>
+    <div class="flow-box active">Escalar</div>
+  </div>
+
+  <div class="card-grid" style="margin-top:2rem">
+    <div class="card">
+      <h4>Conectar</h4>
+      <p>IA facilita conexiones de negocio entre miembros de distintas generaciones y campus. Matching anonimizado &mdash; ambas partes consienten antes de revelar identidades.</p>
+    </div>
+    <div class="card">
+      <h4>Aprender</h4>
+      <p>Contenido y capacitación personalizada según el perfil, industria y etapa de cada miembro. Genera demanda informada de programas de Educación Continua.</p>
+    </div>
+  </div>
+  <div class="card-grid">
+    <div class="card" style="grid-column: 1 / -1">
+      <h4>Escalar</h4>
+      <p>Arquitectura fractal: la misma estructura se replica a cualquier campus sin reconstruir. Lo que se aprende en un campus beneficia a todos los demás.</p>
+    </div>
+  </div>
+
+  <p>No es un CRM. Es una <strong>base de conocimiento semántica</strong> con agentes de IA que ejecutan procesos &mdash; no solo responden preguntas.</p>
+</div>
+
+<hr class="divider">
+
+<!-- ═══════════════════════════════════════════════ -->
+<!--              03 — LOS 4 AGENTES                 -->
+<!-- ═══════════════════════════════════════════════ -->
+
+<div class="section" id="agentes">
+  <span class="sec-num">03</span>
+  <h2 class="sec-title">Los 4 agentes de inteligencia</h2>
+  <p class="sec-subtitle">Cada agente genera un tipo de valor distinto. Juntos, forman un ciclo que se fortalece con cada vuelta.</p>
+
+  <div class="card-grid">
+    <div class="card">
+      <div class="badge">Core</div>
+      <h4>Match &mdash; El conector</h4>
+      <p>Identifica oportunidades de negocio entre miembros. Matching anonimizado con consentimiento bilateral. El 80% de los miembros lo consideran prioritario.</p>
+    </div>
+    <div class="card">
+      <div class="badge">Contenido</div>
+      <h4>Contenidos &mdash; El curador</h4>
+      <p>Personaliza capacitación según perfil individual: industria, etapa de empresa, intereses detectados. Alimenta la oferta de Educación Continua.</p>
+    </div>
+    <div class="card">
+      <div class="badge">Crecimiento</div>
+      <h4>Scout &mdash; El cazatalentos</h4>
+      <p>Analiza redes profesionales de miembros actuales para detectar candidatos a futuras generaciones. Pipeline automatizado de reclutamiento.</p>
+    </div>
+    <div class="card">
+      <div class="badge">Estrategia</div>
+      <h4>Insights &mdash; El estratega</h4>
+      <p>Inteligencia estratégica para el Consejo: tendencias, clusters emergentes, patrones por campus. De decidir por intuición a decidir con evidencia.</p>
+    </div>
+  </div>
+
+  <div class="callout">
+    <p><strong>Ciclo de refuerzo:</strong> Match crea una conexión &rarr; Contenidos detecta un gap compartido &rarr; Insights reporta el patrón al Consejo &rarr; Scout identifica candidatos que fortalecen ese cluster. Cada vuelta mejora a toda la red.</p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════ -->
+<!--         04 — ARQUITECTURA (DARK BAND)           -->
+<!-- ═══════════════════════════════════════════════ -->
+
+<div class="band" id="arquitectura">
+  <div style="max-width:900px;margin:0 auto">
+    <span class="sec-num">04</span>
+    <h2 class="sec-title">Arquitectura fractal</h2>
+    <p class="sec-subtitle">Cada campus es una instancia del mismo sistema. Lo que se aprende en uno beneficia a todos.</p>
+
+    <div class="metrics" style="margin-top:2rem">
+      <div class="metric">
+        <div class="value" style="color:var(--ha-blue-light)">1</div>
+        <div class="label">Plataforma</div>
+      </div>
+      <div class="metric">
+        <div class="value" style="color:var(--ha-blue-light)">4</div>
+        <div class="label">Agentes IA</div>
+      </div>
+      <div class="metric">
+        <div class="value" style="color:var(--ha-blue-light)">N</div>
+        <div class="label">Campus</div>
+      </div>
+      <div class="metric">
+        <div class="value" style="color:var(--ha-blue-light)">&#8734;</div>
+        <div class="label">Escalabilidad</div>
+      </div>
+    </div>
+
+    <p>La misma plataforma, los mismos agentes, la misma gobernanza &mdash; con <strong>miembros locales, contexto local y administración local</strong>. El Consejo ve la red nacional completa; los administradores ven solo su campus; los miembros ven solo lo que corresponde a su nivel de membresía.</p>
+
+    <p>Cada campus adicional cuesta aproximadamente <strong>20&ndash;25% del costo del piloto</strong>. Con 8 campus, el costo total es ~2.2x el piloto pero sirve a 10x más miembros.</p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════ -->
+<!--              05 — GOBERNANZA                    -->
+<!-- ═══════════════════════════════════════════════ -->
+
+<div class="section" id="gobernanza">
+  <span class="sec-num">05</span>
+  <h2 class="sec-title">Gobernanza</h2>
+  <p class="sec-subtitle">Tres círculos con roles claros. La comunidad es dueña, el Tec es el paraguas, HA es el habilitador tecnológico.</p>
+
+  <!-- SVG Governance -->
+  <div style="display:flex;justify-content:center;margin:2rem 0 2.5rem">
+    <svg viewBox="0 0 560 340" xmlns="http://www.w3.org/2000/svg" style="max-width:500px;width:100%">
+      <!-- Outer — HA -->
+      <ellipse cx="280" cy="175" rx="260" ry="155" fill="none" stroke="#3356F6" stroke-width="1" stroke-dasharray="5,4" opacity=".35"/>
+      <text x="280" y="28" text-anchor="middle" font-family="Plus Jakarta Sans" font-size="10" fill="#3356F6" font-weight="600" letter-spacing=".05em">HORIZONS ARCHITECTURE</text>
+      <text x="280" y="42" text-anchor="middle" font-family="Plus Jakarta Sans" font-size="9" fill="#6C757D">Operación tecnológica &middot; Agentes &middot; Soporte</text>
+
+      <!-- Middle — Tec -->
+      <ellipse cx="280" cy="175" rx="185" ry="115" fill="none" stroke="#ADB5BD" stroke-width="1" stroke-dasharray="5,4"/>
+      <text x="280" y="78" text-anchor="middle" font-family="Plus Jakarta Sans" font-size="10" fill="#495057" font-weight="600" letter-spacing=".05em">TEC DE MONTERREY</text>
+      <text x="280" y="92" text-anchor="middle" font-family="Plus Jakarta Sans" font-size="9" fill="#6C757D">Infraestructura &middot; Seguridad &middot; Paraguas institucional</text>
+
+      <!-- Inner — Community -->
+      <ellipse cx="280" cy="180" rx="110" ry="72" fill="#231F20" stroke="none"/>
+      <text x="280" y="168" text-anchor="middle" font-family="Plus Jakarta Sans" font-size="12" fill="white" font-weight="600">ESBAC + Comunidad</text>
+      <text x="280" y="186" text-anchor="middle" font-family="Plus Jakarta Sans" font-size="12" fill="white" font-weight="600">Beyond + LLL</text>
+      <text x="280" y="206" text-anchor="middle" font-family="Plus Jakarta Sans" font-size="9" fill="#ADB5BD">Dirección estratégica</text>
+      <text x="280" y="219" text-anchor="middle" font-family="Plus Jakarta Sans" font-size="9" fill="#ADB5BD">Acceso total a datos y reportes</text>
+    </svg>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Componente</th>
+        <th>Propietario</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Datos de miembros</td><td>Tec de Monterrey &mdash; 100%</td></tr>
+      <tr><td>Insights y reportes</td><td>Tec de Monterrey &mdash; 100%</td></tr>
+      <tr><td>Reglas de la comunidad</td><td>Consejo &mdash; 100%</td></tr>
+      <tr><td>Infraestructura (Azure)</td><td>Tec de Monterrey</td></tr>
+      <tr><td>Plataforma y agentes IA</td><td>Horizons Architecture &mdash; licenciada al Tec</td></tr>
+    </tbody>
+  </table>
+
+  <p>Si en algún momento Tec Beyond cambia de proveedor tecnológico, todos los datos y la comunidad permanecen intactos. HA no es dueña de nada excepto su propia tecnología.</p>
+</div>
+
+<hr class="divider">
+
+<!-- ═══════════════════════════════════════════════ -->
+<!--              06 — EFECTO DE RED                 -->
+<!-- ═══════════════════════════════════════════════ -->
+
+<div class="section" id="red">
+  <span class="sec-num">06</span>
+  <h2 class="sec-title">Efecto de red</h2>
+  <p class="sec-subtitle">El valor no crece linealmente. Se multiplica con cada campus que se suma.</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Escala</th>
+        <th>Miembros</th>
+        <th>Conexiones posibles</th>
+        <th>Valor relativo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>León hoy</td><td class="mono">~350</td><td class="mono">61,075</td><td><strong>1x</strong></td></tr>
+      <tr><td>3 campus</td><td class="mono">~900</td><td class="mono">404,550</td><td><strong>9x</strong></td></tr>
+      <tr><td>5 campus</td><td class="mono">~1,500</td><td class="mono">1,124,250</td><td><strong>25x</strong></td></tr>
+      <tr><td>10 campus</td><td class="mono">~3,000</td><td class="mono">4,498,500</td><td><strong>100x</strong></td></tr>
+    </tbody>
+  </table>
+
+  <div class="callout">
+    <p><strong>Clave:</strong> La mayoría de esas conexiones no se activan porque la gente no sabe lo que los demás tienen o necesitan. El sistema las activa de forma inteligente.</p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════ -->
+<!--              07 — ROADMAP                       -->
+<!-- ═══════════════════════════════════════════════ -->
+
+<div class="section" id="roadmap">
+  <span class="sec-num">07</span>
+  <h2 class="sec-title">Roadmap</h2>
+  <p class="sec-subtitle">Del piloto en León a una red nacional. Cada fase genera valor antes de pasar a la siguiente.</p>
+
+  <div class="timeline">
+    <div class="tl-item">
+      <div class="tl-date">Feb&ndash;Mar 2026</div>
+      <div class="tl-title">Aprobación</div>
+      <p class="tl-desc">Presentación al Comité de IA y Consejo. Decisión formal.</p>
+    </div>
+    <div class="tl-item">
+      <div class="tl-date">Mar&ndash;Abr 2026</div>
+      <div class="tl-title">Discovery</div>
+      <p class="tl-desc">Sesión técnica de 2&ndash;3 horas. Mapeo de flujos, datos e integraciones. Diseño detallado y cotización cerrada.</p>
+    </div>
+    <div class="tl-item">
+      <div class="tl-date">Abr&ndash;Nov 2026</div>
+      <div class="tl-title">Piloto en León</div>
+      <p class="tl-desc">Construcción de plataforma y 4 agentes. Prueba con ~50 miembros. Lanzamiento a ~350 miembros. Hito: Reunión de Generaciones (17 abril).</p>
+    </div>
+    <div class="tl-item future">
+      <div class="tl-date">2027</div>
+      <div class="tl-title">Expansión 1</div>
+      <p class="tl-desc">Chihuahua y Aguascalientes se suman. ~900 miembros en red.</p>
+    </div>
+    <div class="tl-item future">
+      <div class="tl-date">2027&ndash;2028</div>
+      <div class="tl-title">Expansión 2</div>
+      <p class="tl-desc">Morelia, Guadalajara, Laguna. ~1,500&ndash;3,000 miembros. Red nacional.</p>
+    </div>
+  </div>
+
+  <div class="metrics" style="margin-top:2rem">
+    <div class="metric">
+      <div class="value blue">70%</div>
+      <div class="label">Miembros activos/mes</div>
+    </div>
+    <div class="metric">
+      <div class="value blue">50+</div>
+      <div class="label">Matches en 6 meses</div>
+    </div>
+    <div class="metric">
+      <div class="value blue">&gt;40</div>
+      <div class="label">NPS objetivo</div>
+    </div>
+    <div class="metric">
+      <div class="value blue">90%</div>
+      <div class="label">Retención</div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════ -->
+<!--         08 — VALOR (DARK BAND)                  -->
+<!-- ═══════════════════════════════════════════════ -->
+
+<div class="band" id="valor">
+  <div style="max-width:900px;margin:0 auto">
+    <span class="sec-num">08</span>
+    <h2 class="sec-title">Propuesta de valor</h2>
+    <p class="sec-subtitle">Qué gana cada actor del ecosistema.</p>
+
+    <div class="card-grid" style="margin-top:2rem">
+      <div class="card" style="background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.08)">
+        <h4 style="color:var(--ha-blue-light)">Para los miembros</h4>
+        <p style="color:rgba(255,255,255,.6)">La red sigue trabajando después del programa. Conexiones relevantes llegan a ellos. Contenido adaptado a su industria. El valor de la membresía crece con el tiempo.</p>
+      </div>
+      <div class="card" style="background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.08)">
+        <h4 style="color:var(--ha-blue-light)">Para el Consejo</h4>
+        <p style="color:rgba(255,255,255,.6)">Decisiones basadas en datos. Pipeline automatizado de candidatos. Métricas claras de salud comunitaria. Aprendizaje entre campus.</p>
+      </div>
+      <div class="card" style="background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.08);grid-column:1/-1">
+        <h4 style="color:var(--ha-blue-light)">Para el Tec de Monterrey</h4>
+        <p style="color:rgba(255,255,255,.6)">Modelo replicable para Lifelong Learning. Diferenciación frente a programas ejecutivos tradicionales. Aplicación demostrada de IA. Retornos indirectos: matrículas, lealtad EXATEC, filantropía, posicionamiento como primera institución de educación ejecutiva con comunidad inteligente en México.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════ -->
+<!--              09 — SIGUIENTE PASO                -->
+<!-- ═══════════════════════════════════════════════ -->
+
+<div class="section" id="siguiente">
+  <span class="sec-num">09</span>
+  <h2 class="sec-title">Siguiente paso</h2>
+  <p class="sec-subtitle">Aprobación del Comité de IA para iniciar la fase de Discovery.</p>
+
+  <p>Con la aprobación, el paso inmediato es una sesión técnica de <strong>Discovery</strong> (2&ndash;3 horas) donde se mapean flujos actuales, volúmenes de datos e integraciones necesarias. El producto de esa sesión es un diseño detallado y una cotización cerrada.</p>
+
+  <p>El detalle completo de cada dimensión del proyecto está disponible en los <strong>anexos técnicos</strong>:</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Anexo</th>
+        <th>Contenido</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>1. El modelo</td><td>Narrativa visual: agentes, base de conocimiento, gobernanza</td></tr>
+      <tr><td>2. Datos y privacidad</td><td>Arquitectura técnica, cumplimiento LFPDPPP, seguridad</td></tr>
+      <tr><td>3. Business case</td><td>Estructura de costos, escenarios, ROI</td></tr>
+      <tr><td>4. Escalabilidad</td><td>Modelo de expansión, economía por campus, riesgos</td></tr>
+      <tr><td>5. Sesión consejeros</td><td>Ideas clave de la sesión con líderes y presidentes</td></tr>
+      <tr><td>6. Graduados Beyond</td><td>Qué desean los graduados: comunidad, formación, oportunidades</td></tr>
+      <tr><td>7. Diagramas de trabajo</td><td>Interpretación de diseño estratégico: data hub, MVP, IA</td></tr>
+    </tbody>
+  </table>
+
+  <div class="callout">
+    <p><strong>Documentos disponibles:</strong> <a href="anexos/anexos-profesional.html" style="color:var(--ha-blue);text-decoration:none;font-weight:600">Ver anexos técnicos completos &rarr;</a></p>
+  </div>
+</div>
+
+<!-- ──── FOOTER ──── -->
+<div class="page-footer">
+  <p><strong>Horizons Architecture</strong></p>
+  <p>Edgar Barroso &middot; edgar@horizonsarchitecture.ai</p>
+  <p style="font-size:.72rem;color:var(--gray-300);margin-top:.5rem">Febrero 2026 &middot; Documento confidencial</p>
+</div>
+
+</main>
+
+<!-- ════════ NAV ACTIVE STATE ════════ -->
+<script>
+const sections = document.querySelectorAll('[id]');
+const navLinks = document.querySelectorAll('nav a');
+window.addEventListener('scroll', () => {
+  let current = '';
+  sections.forEach(s => {
+    const top = s.offsetTop - 120;
+    if (window.scrollY >= top) current = s.getAttribute('id');
+  });
+  navLinks.forEach(link => {
+    link.classList.remove('active');
+    if (link.getAttribute('href') === '#' + current) link.classList.add('active');
+  });
+});
+</script>
+</body>
+</html>
