@@ -11,19 +11,27 @@
     --ha-blue: #3356F6;
     --ha-blue-light: #5B7AF8;
     --ha-blue-bg: #EEF1FE;
-    --ha-dark: #231F20;
+    --ha-dark: #181617;
+    --ha-dark-card: #1E1C1D;
     --black: #000000;
     --offwhite: #F1F2F2;
     --white: #FFFFFF;
-    --gray-100: #F8F9FA;
-    --gray-200: #E9ECEF;
-    --gray-300: #DEE2E6;
-    --gray-400: #ADB5BD;
-    --gray-500: #6C757D;
-    --gray-600: #495057;
-    --gray-700: #343A40;
+    --gray-50: #FAFBFC;
+    --gray-100: #F4F5F7;
+    --gray-200: #E4E7EB;
+    --gray-300: #D1D5DB;
+    --gray-400: #9CA3AF;
+    --gray-500: #6B7280;
+    --gray-600: #4B5563;
+    --gray-700: #374151;
+    --accent-green: #10B981;
+    --accent-amber: #F59E0B;
+    --accent-rose: #F43F5E;
     --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
     --font-mono: 'Roboto Mono', monospace;
+    --radius: 12px;
+    --radius-sm: 8px;
+    --radius-xs: 5px;
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -34,26 +42,24 @@
     color: var(--ha-dark);
     background: var(--ha-dark);
     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   /* ── DECK ── */
-  .deck {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-  }
+  .deck { position: relative; width: 100vw; height: 100vh; }
+
   .slide {
     position: absolute;
     inset: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 5vh 8vw;
+    padding: 4vh 8vw 5vh;
     opacity: 0;
     pointer-events: none;
-    transition: opacity .45s ease, transform .45s ease;
-    transform: translateX(40px);
-    overflow-y: auto;
+    transition: opacity .5s cubic-bezier(.4,0,.2,1), transform .5s cubic-bezier(.4,0,.2,1);
+    transform: translateX(30px);
+    overflow: hidden;
   }
   .slide.active {
     opacity: 1;
@@ -62,264 +68,306 @@
   }
   .slide.exit {
     opacity: 0;
-    transform: translateX(-40px);
+    transform: translateX(-30px);
   }
 
   /* ── SLIDE THEMES ── */
   .slide.dark {
-    background: var(--ha-dark);
+    background: radial-gradient(ellipse at 30% 20%, #1f1d2a 0%, var(--ha-dark) 70%);
     color: var(--white);
   }
   .slide.light {
-    background: var(--white);
+    background: linear-gradient(170deg, var(--gray-50) 0%, var(--white) 40%);
     color: var(--ha-dark);
   }
   .slide.blue {
-    background: var(--ha-blue);
+    background: linear-gradient(135deg, #2B47D4 0%, var(--ha-blue) 40%, #4F6DF7 100%);
     color: var(--white);
   }
 
   /* ── CONTROLS ── */
   .controls {
     position: fixed;
-    bottom: 2.5rem;
-    right: 3rem;
+    bottom: 2rem;
+    right: 2.5rem;
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: .75rem;
     z-index: 200;
   }
   .controls button {
-    width: 42px; height: 42px;
+    width: 36px; height: 36px;
     border-radius: 50%;
-    border: 1.5px solid rgba(255,255,255,.2);
-    background: rgba(255,255,255,.06);
-    color: rgba(255,255,255,.6);
-    font-size: 1rem;
+    border: 1.5px solid rgba(255,255,255,.15);
+    background: rgba(255,255,255,.05);
+    color: rgba(255,255,255,.5);
+    font-size: .85rem;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all .2s;
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
+    transition: all .25s cubic-bezier(.4,0,.2,1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
   }
   .controls button:hover {
-    background: rgba(255,255,255,.15);
+    background: rgba(255,255,255,.12);
     color: var(--white);
-    border-color: rgba(255,255,255,.35);
+    border-color: rgba(255,255,255,.3);
+    transform: scale(1.08);
   }
   .slide-counter {
     font-family: var(--font-mono);
-    font-size: .7rem;
-    color: rgba(255,255,255,.35);
-    letter-spacing: .05em;
-    min-width: 48px;
+    font-size: .6rem;
+    color: rgba(255,255,255,.3);
+    letter-spacing: .08em;
+    min-width: 44px;
     text-align: center;
   }
-
-  /* Controls on light slides */
   .controls.on-light button {
-    border-color: rgba(0,0,0,.12);
+    border-color: rgba(0,0,0,.1);
     background: rgba(0,0,0,.03);
-    color: rgba(0,0,0,.35);
+    color: rgba(0,0,0,.3);
   }
   .controls.on-light button:hover {
-    background: rgba(0,0,0,.08);
+    background: rgba(0,0,0,.07);
     color: var(--ha-dark);
-    border-color: rgba(0,0,0,.2);
+    border-color: rgba(0,0,0,.18);
   }
-  .controls.on-light .slide-counter {
-    color: rgba(0,0,0,.25);
-  }
+  .controls.on-light .slide-counter { color: rgba(0,0,0,.2); }
 
   /* ── PROGRESS BAR ── */
   .progress {
     position: fixed;
     top: 0; left: 0;
-    height: 3px;
-    background: var(--ha-blue);
-    transition: width .4s ease;
+    height: 2px;
+    background: linear-gradient(90deg, var(--ha-blue) 0%, var(--ha-blue-light) 100%);
+    transition: width .45s cubic-bezier(.4,0,.2,1);
     z-index: 300;
+    box-shadow: 0 0 12px rgba(51,86,246,.4);
   }
 
   /* ── BRAND WATERMARK ── */
   .watermark {
     position: fixed;
-    bottom: 2.7rem;
-    left: 3rem;
+    bottom: 2.2rem;
+    left: 2.5rem;
     font-family: var(--font-mono);
-    font-size: .6rem;
-    letter-spacing: .12em;
+    font-size: .55rem;
+    letter-spacing: .14em;
     text-transform: uppercase;
-    color: rgba(255,255,255,.2);
+    color: rgba(255,255,255,.15);
     z-index: 200;
-    transition: color .4s;
+    transition: color .45s;
   }
-  .watermark.on-light { color: rgba(0,0,0,.15); }
+  .watermark.on-light { color: rgba(0,0,0,.1); }
 
   /* ── TYPOGRAPHY ── */
   .sec-num {
     font-family: var(--font-mono);
-    font-size: .65rem;
-    color: var(--gray-400);
-    letter-spacing: .06em;
-    margin-bottom: .75rem;
-    display: block;
+    font-size: .6rem;
+    letter-spacing: .1em;
+    margin-bottom: .6rem;
+    display: inline-block;
+    padding: .15rem .5rem;
+    border-radius: var(--radius-xs);
+    background: rgba(51,86,246,.1);
+    color: var(--ha-blue-light);
   }
-  .dark .sec-num { color: rgba(255,255,255,.25); }
-  .blue .sec-num { color: rgba(255,255,255,.4); }
+  .light .sec-num {
+    background: var(--ha-blue-bg);
+    color: var(--ha-blue);
+  }
+  .blue .sec-num {
+    background: rgba(255,255,255,.12);
+    color: rgba(255,255,255,.7);
+  }
 
   .slide h1 {
-    font-size: 2.8rem;
+    font-size: clamp(2.2rem, 4.5vw, 3.2rem);
     font-weight: 700;
-    line-height: 1.1;
-    margin-bottom: .6rem;
+    line-height: 1.08;
+    margin-bottom: .5rem;
+    letter-spacing: -.02em;
   }
   .slide h2 {
-    font-size: 2rem;
-    font-weight: 600;
+    font-size: clamp(1.4rem, 2.8vw, 1.85rem);
+    font-weight: 700;
     color: var(--ha-blue);
-    line-height: 1.15;
-    margin-bottom: .5rem;
+    line-height: 1.12;
+    margin-bottom: .4rem;
+    letter-spacing: -.015em;
   }
-  .dark h2 { color: var(--ha-blue-light); }
+  .dark h2 { color: var(--white); }
   .blue h2 { color: var(--white); }
 
   .slide .lead {
-    font-size: 1.05rem;
+    font-size: clamp(.88rem, 1.15vw, 1rem);
     font-weight: 300;
-    line-height: 1.6;
-    max-width: 560px;
-    margin-bottom: 2rem;
+    line-height: 1.65;
+    max-width: 540px;
+    margin-bottom: 1.2rem;
   }
-  .dark .lead { color: rgba(255,255,255,.5); }
+  .dark .lead { color: rgba(255,255,255,.45); }
   .light .lead { color: var(--gray-500); }
-  .blue .lead { color: rgba(255,255,255,.7); }
+  .blue .lead { color: rgba(255,255,255,.65); }
 
   .slide p {
-    font-size: .88rem;
-    line-height: 1.65;
+    font-size: .84rem;
+    line-height: 1.6;
     color: var(--gray-600);
-    margin-bottom: .75rem;
-    max-width: 640px;
+    margin-bottom: .5rem;
+    max-width: 620px;
   }
-  .dark p { color: rgba(255,255,255,.6); }
-  .blue p { color: rgba(255,255,255,.75); }
+  .dark p { color: rgba(255,255,255,.55); }
+  .blue p { color: rgba(255,255,255,.7); }
   .slide p strong { color: var(--ha-dark); font-weight: 600; }
   .dark p strong { color: var(--white); }
   .blue p strong { color: var(--white); }
 
   .slide h3 {
-    font-size: .95rem;
-    font-weight: 600;
-    margin-bottom: .3rem;
-    margin-top: 1.25rem;
+    font-size: .88rem;
+    font-weight: 700;
+    margin-bottom: .25rem;
+    margin-top: 1rem;
     color: var(--ha-dark);
+    letter-spacing: -.01em;
   }
   .dark h3 { color: var(--white); }
 
   /* ── METRICS ── */
   .metrics {
     display: flex;
-    gap: 1.25rem;
-    margin: 1.5rem 0;
+    gap: .75rem;
+    margin: 1rem 0;
     flex-wrap: wrap;
   }
   .metric {
-    background: rgba(255,255,255,.05);
-    border: 1px solid rgba(255,255,255,.08);
-    border-radius: 10px;
-    padding: 1.25rem 1.5rem;
+    background: rgba(255,255,255,.04);
+    border: 1px solid rgba(255,255,255,.06);
+    border-radius: var(--radius);
+    padding: 1rem 1.25rem;
     text-align: center;
-    min-width: 130px;
+    min-width: 110px;
     flex: 1;
+    position: relative;
+    overflow: hidden;
+  }
+  .metric::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--ha-blue-light), transparent);
+    opacity: .4;
   }
   .light .metric {
     background: var(--white);
     border-color: var(--gray-200);
+    box-shadow: 0 1px 3px rgba(0,0,0,.04);
+  }
+  .light .metric::before {
+    background: linear-gradient(90deg, transparent, var(--ha-blue), transparent);
+    opacity: .25;
   }
   .metric .val {
     font-family: var(--font-mono);
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: 700;
     line-height: 1;
     margin-bottom: .3rem;
+    display: block;
   }
   .dark .metric .val { color: var(--white); }
   .light .metric .val { color: var(--ha-dark); }
   .metric .val.blue { color: var(--ha-blue-light) !important; }
   .metric .lbl {
-    font-size: .62rem;
+    font-size: .55rem;
     text-transform: uppercase;
-    letter-spacing: .06em;
+    letter-spacing: .07em;
     font-weight: 500;
+    display: block;
   }
-  .dark .metric .lbl { color: rgba(255,255,255,.4); }
-  .light .metric .lbl { color: var(--gray-500); }
+  .dark .metric .lbl { color: rgba(255,255,255,.35); }
+  .light .metric .lbl { color: var(--gray-400); }
 
   /* ── CARDS ── */
   .cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: .75rem;
-    margin: 1.25rem 0;
-    max-width: 750px;
+    gap: .6rem;
+    margin: .8rem 0;
+    max-width: 780px;
   }
   .cards.cols-3 { grid-template-columns: 1fr 1fr 1fr; }
   .crd {
-    border-radius: 8px;
-    padding: 1.15rem 1.25rem;
+    border-radius: var(--radius-sm);
+    padding: .9rem 1.1rem;
+    transition: transform .2s, box-shadow .2s;
   }
   .light .crd {
     background: var(--white);
     border: 1px solid var(--gray-200);
+    box-shadow: 0 1px 2px rgba(0,0,0,.03);
   }
   .dark .crd {
-    background: rgba(255,255,255,.04);
-    border: 1px solid rgba(255,255,255,.07);
+    background: rgba(255,255,255,.03);
+    border: 1px solid rgba(255,255,255,.06);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
   }
   .crd .badge {
     display: inline-block;
-    padding: .12rem .45rem;
-    border-radius: 4px;
-    font-size: .55rem;
-    font-weight: 600;
+    padding: .15rem .5rem;
+    border-radius: var(--radius-xs);
+    font-size: .5rem;
+    font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: .03em;
-    margin-bottom: .4rem;
+    letter-spacing: .05em;
+    margin-bottom: .35rem;
+  }
+  .light .crd .badge {
     background: var(--ha-blue-bg);
     color: var(--ha-blue);
   }
   .dark .crd .badge {
-    background: rgba(51,86,246,.2);
+    background: rgba(91,122,248,.15);
     color: var(--ha-blue-light);
   }
   .crd h4 {
-    font-size: .85rem;
+    font-size: .82rem;
     font-weight: 600;
-    margin-bottom: .25rem;
+    margin-bottom: .2rem;
+    letter-spacing: -.01em;
+    line-height: 1.3;
   }
   .dark .crd h4 { color: var(--white); }
   .crd p {
-    font-size: .78rem;
+    font-size: .72rem;
     line-height: 1.5;
     margin-bottom: 0;
   }
-  .dark .crd p { color: rgba(255,255,255,.5); }
+  .dark .crd p { color: rgba(255,255,255,.42); }
   .light .crd p { color: var(--gray-500); }
 
   /* ── CALLOUT ── */
   .callout {
-    border-left: 3px solid var(--ha-blue);
-    border-radius: 0 6px 6px 0;
-    padding: 1rem 1.25rem;
-    margin: 1.25rem 0;
+    border-left: 2px solid var(--ha-blue-light);
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    padding: .7rem 1rem;
+    margin: .7rem 0;
     max-width: 640px;
+    font-size: .8rem;
+    line-height: 1.55;
   }
-  .light .callout { background: var(--ha-blue-bg); }
-  .dark .callout { background: rgba(51,86,246,.1); }
-  .callout p { margin-bottom: 0; font-size: .85rem; }
+  .light .callout {
+    background: var(--ha-blue-bg);
+    border-left-color: var(--ha-blue);
+  }
+  .dark .callout {
+    background: rgba(51,86,246,.08);
+  }
+  .callout p { margin-bottom: 0; font-size: .8rem; }
   .callout strong { color: var(--ha-blue) !important; }
   .dark .callout strong { color: var(--ha-blue-light) !important; }
 
@@ -327,42 +375,45 @@
   table {
     border-collapse: separate;
     border-spacing: 0;
-    font-size: .8rem;
-    border-radius: 8px;
+    font-size: .75rem;
+    border-radius: var(--radius-sm);
     overflow: hidden;
     border: 1px solid var(--gray-200);
-    margin: 1rem 0;
+    margin: .6rem 0;
     max-width: 700px;
     width: 100%;
   }
-  .dark table { border-color: rgba(255,255,255,.08); }
+  .dark table { border-color: rgba(255,255,255,.06); }
   thead th {
     background: var(--ha-dark);
-    color: var(--white);
+    color: rgba(255,255,255,.8);
     font-weight: 600;
     text-align: left;
-    padding: .55rem .85rem;
-    font-size: .68rem;
+    padding: .45rem .8rem;
+    font-size: .6rem;
     text-transform: uppercase;
-    letter-spacing: .04em;
+    letter-spacing: .06em;
   }
-  .dark thead th { background: rgba(255,255,255,.08); }
+  .light thead th { background: var(--ha-blue); color: var(--white); }
+  .dark thead th { background: rgba(255,255,255,.06); color: rgba(255,255,255,.7); }
   tbody td {
-    padding: .5rem .85rem;
+    padding: .4rem .8rem;
     border-bottom: 1px solid var(--gray-100);
     color: var(--gray-600);
   }
-  .dark tbody td { border-color: rgba(255,255,255,.05); color: rgba(255,255,255,.6); }
+  .dark tbody td { border-color: rgba(255,255,255,.04); color: rgba(255,255,255,.55); }
   tbody tr:last-child td { border-bottom: none; }
-  tbody tr:nth-child(even) { background: var(--gray-100); }
+  tbody tr:nth-child(even) { background: var(--gray-50); }
   .dark tbody tr:nth-child(even) { background: rgba(255,255,255,.02); }
+  tbody td strong { color: var(--ha-blue); font-weight: 700; }
+  .dark tbody td strong { color: var(--ha-blue-light); }
   .mono { font-family: var(--font-mono); }
 
   /* ── TIMELINE ── */
   .timeline {
     position: relative;
     padding-left: 1.75rem;
-    margin: 1rem 0;
+    margin: .6rem 0;
     max-width: 600px;
   }
   .timeline::before {
@@ -370,13 +421,12 @@
     position: absolute;
     left: 4px; top: 5px; bottom: 5px;
     width: 2px;
-    background: var(--ha-blue);
-    opacity: .25;
+    background: linear-gradient(180deg, var(--ha-blue), rgba(51,86,246,.15));
     border-radius: 1px;
   }
   .tl {
     position: relative;
-    padding-bottom: 1.2rem;
+    padding-bottom: .75rem;
   }
   .tl:last-child { padding-bottom: 0; }
   .tl::before {
@@ -386,122 +436,257 @@
     width: 10px; height: 10px;
     border-radius: 50%;
     background: var(--ha-blue);
-    border: 2px solid var(--white);
-    box-shadow: 0 0 0 2px var(--ha-blue);
+    border: 2px solid var(--ha-dark);
+    box-shadow: 0 0 0 2px var(--ha-blue), 0 0 8px rgba(51,86,246,.3);
   }
-  .dark .tl::before { border-color: var(--ha-dark); }
   .tl.future::before {
     background: transparent;
     box-shadow: 0 0 0 2px var(--gray-400);
   }
   .tl .date {
     font-family: var(--font-mono);
-    font-size: .65rem;
+    font-size: .6rem;
     font-weight: 500;
-    color: var(--ha-blue);
+    color: var(--ha-blue-light);
     text-transform: uppercase;
-    letter-spacing: .04em;
+    letter-spacing: .05em;
   }
   .tl.future .date { color: var(--gray-400); }
-  .dark .tl .date { color: var(--ha-blue-light); }
   .tl .title {
-    font-size: .88rem;
+    font-size: .82rem;
     font-weight: 600;
-    color: var(--ha-dark);
+    color: var(--white);
+    line-height: 1.3;
   }
-  .dark .tl .title { color: var(--white); }
   .tl .desc {
-    font-size: .78rem;
-    color: var(--gray-500);
+    font-size: .7rem;
+    color: rgba(255,255,255,.4);
     margin-bottom: 0;
   }
-  .dark .tl .desc { color: rgba(255,255,255,.45); }
 
   /* ── FLOW ── */
   .flow {
     display: flex;
     align-items: center;
     gap: .5rem;
-    margin: 1.25rem 0;
+    margin: 1rem 0;
   }
   .flow-box {
-    border-radius: 6px;
-    padding: .55rem 1rem;
-    font-size: .8rem;
+    border-radius: var(--radius-xs);
+    padding: .5rem 1.25rem;
+    font-size: .78rem;
     font-weight: 600;
     text-align: center;
   }
   .dark .flow-box {
-    background: rgba(255,255,255,.06);
-    color: rgba(255,255,255,.5);
-    border: 1px solid rgba(255,255,255,.08);
+    background: rgba(255,255,255,.04);
+    color: rgba(255,255,255,.4);
+    border: 1px solid rgba(255,255,255,.06);
   }
   .dark .flow-box.on {
-    background: var(--ha-blue);
+    background: linear-gradient(135deg, var(--ha-blue), #4F6DF7);
     color: var(--white);
-    border-color: var(--ha-blue);
+    border-color: transparent;
+    box-shadow: 0 2px 12px rgba(51,86,246,.25);
   }
-  .flow-arr { color: rgba(255,255,255,.2); font-size: .9rem; }
+  .flow-arr { color: rgba(255,255,255,.15); font-size: .85rem; }
 
   /* ── TWO COLUMNS ── */
   .cols {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 3rem;
+    gap: 2.5rem;
     align-items: start;
   }
 
   /* ── COVER EXTRAS ── */
   .blue-line {
-    width: 48px; height: 3px;
-    background: var(--ha-blue);
-    margin-bottom: 1.75rem;
+    width: 40px; height: 3px;
+    background: linear-gradient(90deg, var(--ha-blue), var(--ha-blue-light));
+    margin-bottom: 1.5rem;
     border-radius: 2px;
   }
   .meta-row {
-    display: flex; gap: 2.5rem;
-    font-size: .75rem;
-    color: rgba(255,255,255,.35);
-    margin-top: 2.5rem;
+    display: flex; gap: 2rem;
+    font-size: .7rem;
+    color: rgba(255,255,255,.3);
+    margin-top: 2rem;
   }
-  .meta-row strong { color: rgba(255,255,255,.6); font-weight: 500; }
+  .meta-row strong { color: rgba(255,255,255,.55); font-weight: 500; }
 
   /* ── ANNEX LINK ── */
   .annex-link {
     display: inline-flex;
     align-items: center;
     gap: .4rem;
-    font-size: .82rem;
+    font-size: .8rem;
     font-weight: 600;
     color: var(--ha-blue);
     text-decoration: none;
     margin-top: .5rem;
-    transition: gap .2s;
+    transition: gap .2s, opacity .2s;
   }
-  .annex-link:hover { gap: .7rem; }
+  .annex-link:hover { gap: .65rem; opacity: .8; }
   .dark .annex-link { color: var(--ha-blue-light); }
 
   /* ── BADGES (standalone) ── */
   .badge-inline {
     display: inline-block;
     padding: .15rem .5rem;
-    border-radius: 4px;
-    font-size: .6rem;
-    font-weight: 600;
+    border-radius: var(--radius-xs);
+    font-size: .55rem;
+    font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: .03em;
-    background: rgba(51,86,246,.15);
+    letter-spacing: .04em;
+    background: rgba(51,86,246,.12);
     color: var(--ha-blue-light);
   }
 
   /* ── SVG Network Diagrams ── */
-  .svg-diagram { width: 100%; max-width: 700px; margin: 1rem 0; }
+  .svg-diagram {
+    width: 100%;
+    max-width: 700px;
+    max-height: 42vh;
+    margin: .5rem 0;
+  }
   .node-glow { animation: glow 3s ease-in-out infinite; }
   .node-pulse { animation: pulse 2.5s ease-in-out infinite; }
-  @keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:0.6; } }
-  @keyframes glow { 0%,100% { filter: drop-shadow(0 0 4px rgba(51,86,246,0.3)); } 50% { filter: drop-shadow(0 0 14px rgba(51,86,246,0.6)); } }
+  @keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:.55; } }
+  @keyframes glow {
+    0%,100% { filter: drop-shadow(0 0 6px rgba(51,86,246,.25)); }
+    50% { filter: drop-shadow(0 0 18px rgba(51,86,246,.55)); }
+  }
   .svg-label { font-family: 'Plus Jakarta Sans', sans-serif; }
   .svg-mono { font-family: 'Roboto Mono', monospace; }
+
+  /* ── COMPACT: dense slides ── */
+  .slide.compact { padding: 2.5vh 8vw 3.5vh; }
+  .slide.compact .lead { margin-bottom: .6rem; }
+  .slide.compact .svg-diagram { max-height: 27vh; }
+  .slide.compact .cards { gap: .45rem; margin: .5rem 0; }
+  .slide.compact .crd { padding: .65rem .9rem; }
+  .slide.compact .crd h4 { font-size: .78rem; }
+  .slide.compact .crd p { font-size: .68rem; }
+  .slide.compact .metrics { margin: .6rem 0; gap: .6rem; }
+  .slide.compact .metric { padding: .7rem .9rem; }
+  .slide.compact .metric .val { font-size: 1.4rem; }
+
+  /* ── ENTRANCE ANIMATIONS ── */
+  /* SVG diagram: fade in + rise */
+  .slide .svg-diagram {
+    opacity: 0;
+    transform: translateY(16px);
+    transition: none;
+  }
+  .slide.active .svg-diagram {
+    animation: svgReveal .9s cubic-bezier(.22,1,.36,1) .15s forwards;
+  }
+  @keyframes svgReveal {
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* SVG paths: draw-in effect */
+  .slide .svg-diagram .anim-draw {
+    stroke-dasharray: 600;
+    stroke-dashoffset: 600;
+  }
+  .slide.active .svg-diagram .anim-draw {
+    animation: drawLine 1.6s cubic-bezier(.4,0,.2,1) .3s forwards;
+  }
+  @keyframes drawLine {
+    to { stroke-dashoffset: 0; }
+  }
+
+  /* SVG circles: scale in */
+  .slide .svg-diagram .anim-pop {
+    transform-origin: center;
+    transform: scale(0);
+    opacity: 0;
+  }
+  .slide.active .svg-diagram .anim-pop {
+    animation: nodePop .5s cubic-bezier(.34,1.56,.64,1) forwards;
+  }
+  /* Stagger delays for anim-pop */
+  .slide.active .anim-pop.d1 { animation-delay: .25s; }
+  .slide.active .anim-pop.d2 { animation-delay: .35s; }
+  .slide.active .anim-pop.d3 { animation-delay: .45s; }
+  .slide.active .anim-pop.d4 { animation-delay: .55s; }
+  .slide.active .anim-pop.d5 { animation-delay: .65s; }
+  .slide.active .anim-pop.d6 { animation-delay: .75s; }
+  .slide.active .anim-pop.d7 { animation-delay: .85s; }
+  .slide.active .anim-pop.d8 { animation-delay: .95s; }
+  .slide.active .anim-pop.d9 { animation-delay: 1.05s; }
+  @keyframes nodePop {
+    to { transform: scale(1); opacity: 1; }
+  }
+
+  /* Cards: stagger fade in */
+  .slide .crd {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  .slide.active .crd {
+    animation: cardIn .45s cubic-bezier(.22,1,.36,1) forwards;
+  }
+  .slide.active .crd:nth-child(1) { animation-delay: .1s; }
+  .slide.active .crd:nth-child(2) { animation-delay: .18s; }
+  .slide.active .crd:nth-child(3) { animation-delay: .26s; }
+  .slide.active .crd:nth-child(4) { animation-delay: .34s; }
+  @keyframes cardIn {
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* Metrics: stagger */
+  .slide .metric {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  .slide.active .metric {
+    animation: cardIn .45s cubic-bezier(.22,1,.36,1) forwards;
+  }
+  .slide.active .metric:nth-child(1) { animation-delay: .12s; }
+  .slide.active .metric:nth-child(2) { animation-delay: .2s; }
+  .slide.active .metric:nth-child(3) { animation-delay: .28s; }
+  .slide.active .metric:nth-child(4) { animation-delay: .36s; }
+
+  /* Flow boxes: slide in from left */
+  .slide .flow-box {
+    opacity: 0;
+    transform: translateX(-12px);
+  }
+  .slide.active .flow-box {
+    animation: flowIn .4s cubic-bezier(.22,1,.36,1) forwards;
+  }
+  .slide.active .flow-box:nth-child(1) { animation-delay: .15s; }
+  .slide.active .flow-arr:nth-child(2) { animation: fadeOnly .3s .25s forwards; opacity:0; }
+  .slide.active .flow-box:nth-child(3) { animation-delay: .3s; }
+  .slide.active .flow-arr:nth-child(4) { animation: fadeOnly .3s .4s forwards; opacity:0; }
+  .slide.active .flow-box:nth-child(5) { animation-delay: .45s; }
+  @keyframes flowIn {
+    to { opacity: 1; transform: translateX(0); }
+  }
+  @keyframes fadeOnly { to { opacity: 1; } }
+
+  /* Callout: fade in */
+  .slide .callout {
+    opacity: 0;
+    transform: translateX(-8px);
+  }
+  .slide.active .callout {
+    animation: flowIn .5s cubic-bezier(.22,1,.36,1) .2s forwards;
+  }
+
+  /* Table rows: fade in */
+  .slide tbody tr {
+    opacity: 0;
+  }
+  .slide.active tbody tr {
+    animation: fadeOnly .35s cubic-bezier(.22,1,.36,1) forwards;
+  }
+  .slide.active tbody tr:nth-child(1) { animation-delay: .15s; }
+  .slide.active tbody tr:nth-child(2) { animation-delay: .22s; }
+  .slide.active tbody tr:nth-child(3) { animation-delay: .29s; }
+  .slide.active tbody tr:nth-child(4) { animation-delay: .36s; }
 </style>
 </head>
 <body>
@@ -574,14 +759,17 @@
     <path d="M520,90 Q500,125 480,160" stroke="rgba(255,255,255,0.25)" stroke-width="1" fill="none"/>
     <path d="M400,520 Q460,530 520,540" stroke="rgba(255,255,255,0.2)" stroke-width="1" fill="none"/>
   </svg>
-  <div style="max-width:650px;position:relative;z-index:1">
-    <span style="font-family:var(--font-mono);font-size:.6rem;letter-spacing:.18em;text-transform:uppercase;color:var(--ha-blue-light)">Presentaci&oacute;n ejecutiva &middot; Febrero 2026</span>
-    <div class="blue-line" style="margin-top:1.25rem"></div>
-    <h1 style="font-size:3.4rem;margin-bottom:.6rem">Tec Beyond</h1>
-    <p class="lead" style="margin-bottom:0">Plataforma de inteligencia colectiva para la comunidad de l&iacute;deres empresariales del Tecnol&oacute;gico de Monterrey.</p>
-    <div class="meta-row">
+  <div style="max-width:620px;position:relative;z-index:1">
+    <div style="display:inline-flex;align-items:center;gap:.6rem;margin-bottom:1.5rem">
+      <div class="blue-line" style="margin:0"></div>
+      <span style="font-family:var(--font-mono);font-size:.55rem;letter-spacing:.2em;text-transform:uppercase;color:var(--ha-blue-light);opacity:.7">Presentaci&oacute;n ejecutiva</span>
+    </div>
+    <h1 style="font-size:clamp(2.6rem,5.5vw,3.8rem);margin-bottom:.4rem;letter-spacing:-.03em">Tec Beyond</h1>
+    <p style="font-size:1.1rem;font-weight:200;color:rgba(255,255,255,.4);max-width:480px;line-height:1.6;margin-bottom:0">Plataforma de inteligencia colectiva para la comunidad de l&iacute;deres empresariales del Tecnol&oacute;gico de Monterrey.</p>
+    <div class="meta-row" style="margin-top:2.5rem;padding-top:1.25rem;border-top:1px solid rgba(255,255,255,.06)">
       <div><strong>Para:</strong> Comit&eacute; de IA &middot; Consejo Campus Le&oacute;n</div>
       <div><strong>De:</strong> Horizons Architecture</div>
+      <div><strong>Fecha:</strong> Febrero 2026</div>
     </div>
   </div>
 </div>
@@ -617,77 +805,7 @@
   <span class="sec-num">01.1</span>
   <h2>10 a&ntilde;os de aprendizajes</h2>
   <p class="lead">Lo que sabemos despu&eacute;s de 9 generaciones formando l&iacute;deres empresariales.</p>
-
-  <!-- SVG: Organic network of generations -->
-  <svg class="svg-diagram" viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg">
-    <!-- Cross-connections between generations (thinner, lower opacity) -->
-    <path d="M220,160 Q260,120 310,135" stroke="rgba(91,122,248,0.1)" stroke-width="0.8" fill="none"/>
-    <path d="M250,260 Q300,310 370,300" stroke="rgba(91,122,248,0.1)" stroke-width="0.8" fill="none"/>
-    <path d="M430,110 Q460,160 470,220" stroke="rgba(91,122,248,0.1)" stroke-width="0.8" fill="none"/>
-    <path d="M310,135 Q380,120 430,110" stroke="rgba(91,122,248,0.08)" stroke-width="0.8" fill="none"/>
-    <path d="M250,260 Q200,210 220,160" stroke="rgba(91,122,248,0.08)" stroke-width="0.8" fill="none"/>
-    <path d="M470,220 Q450,270 420,310" stroke="rgba(91,122,248,0.08)" stroke-width="0.8" fill="none"/>
-    <path d="M180,310 Q220,340 290,350" stroke="rgba(91,122,248,0.08)" stroke-width="0.8" fill="none"/>
-
-    <!-- Connections from each generation to center (curved bezier paths) -->
-    <path d="M220,160 Q280,170 350,200" stroke="rgba(91,122,248,0.2)" stroke-width="1.2" fill="none"/>
-    <path d="M310,135 Q330,165 350,200" stroke="rgba(91,122,248,0.2)" stroke-width="1.2" fill="none"/>
-    <path d="M430,110 Q400,150 350,200" stroke="rgba(91,122,248,0.2)" stroke-width="1.2" fill="none"/>
-    <path d="M500,170 Q430,180 350,200" stroke="rgba(91,122,248,0.2)" stroke-width="1.2" fill="none"/>
-    <path d="M510,260 Q440,240 350,200" stroke="rgba(91,122,248,0.2)" stroke-width="1.2" fill="none"/>
-    <path d="M180,310 Q250,260 350,200" stroke="rgba(91,122,248,0.2)" stroke-width="1.2" fill="none"/>
-    <path d="M250,260 Q290,240 350,200" stroke="rgba(91,122,248,0.2)" stroke-width="1.2" fill="none"/>
-    <path d="M370,300 Q360,250 350,200" stroke="rgba(91,122,248,0.2)" stroke-width="1.2" fill="none"/>
-    <path d="M290,350 Q310,280 350,200" stroke="rgba(91,122,248,0.2)" stroke-width="1.2" fill="none"/>
-
-    <!-- Future generation connections (dashed) -->
-    <path d="M580,140 Q470,160 350,200" stroke="rgba(91,122,248,0.1)" stroke-width="1" fill="none" stroke-dasharray="4,4"/>
-    <path d="M560,330 Q460,270 350,200" stroke="rgba(91,122,248,0.1)" stroke-width="1" fill="none" stroke-dasharray="4,4"/>
-
-    <!-- Generation nodes -->
-    <circle cx="220" cy="160" r="14" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
-    <text x="220" y="164" text-anchor="middle" class="svg-mono" font-size="9" fill="rgba(255,255,255,0.5)">G1</text>
-
-    <circle cx="310" cy="135" r="14" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
-    <text x="310" y="139" text-anchor="middle" class="svg-mono" font-size="9" fill="rgba(255,255,255,0.5)">G2</text>
-
-    <circle cx="430" cy="110" r="14" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
-    <text x="430" y="114" text-anchor="middle" class="svg-mono" font-size="9" fill="rgba(255,255,255,0.5)">G3</text>
-
-    <circle cx="500" cy="170" r="14" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
-    <text x="500" y="174" text-anchor="middle" class="svg-mono" font-size="9" fill="rgba(255,255,255,0.5)">G4</text>
-
-    <circle cx="510" cy="260" r="14" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
-    <text x="510" y="264" text-anchor="middle" class="svg-mono" font-size="9" fill="rgba(255,255,255,0.5)">G5</text>
-
-    <!-- G6 = largest generation -->
-    <circle cx="250" cy="260" r="18" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.3)" stroke-width="1.2" class="node-pulse"/>
-    <text x="250" y="264" text-anchor="middle" class="svg-mono" font-size="10" fill="rgba(255,255,255,0.6)" font-weight="500">G6</text>
-
-    <circle cx="180" cy="310" r="14" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
-    <text x="180" y="314" text-anchor="middle" class="svg-mono" font-size="9" fill="rgba(255,255,255,0.5)">G7</text>
-
-    <circle cx="370" cy="300" r="14" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
-    <text x="370" y="304" text-anchor="middle" class="svg-mono" font-size="9" fill="rgba(255,255,255,0.5)">G8</text>
-
-    <circle cx="290" cy="350" r="14" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
-    <text x="290" y="354" text-anchor="middle" class="svg-mono" font-size="9" fill="rgba(255,255,255,0.5)">G9</text>
-
-    <!-- Future generation nodes (dashed outlines) -->
-    <circle cx="580" cy="140" r="12" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1" stroke-dasharray="3,3"/>
-    <text x="580" y="144" text-anchor="middle" class="svg-mono" font-size="8" fill="rgba(255,255,255,0.2)">G10</text>
-
-    <circle cx="560" cy="330" r="12" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1" stroke-dasharray="3,3"/>
-    <text x="560" y="334" text-anchor="middle" class="svg-mono" font-size="8" fill="rgba(255,255,255,0.2)">G11</text>
-
-    <!-- Center node: ADN -->
-    <circle cx="350" cy="200" r="28" fill="#3356F6" stroke="none" class="node-glow"/>
-    <text x="350" y="196" text-anchor="middle" class="svg-label" font-size="12" fill="white" font-weight="700">ADN</text>
-    <text x="350" y="210" text-anchor="middle" class="svg-mono" font-size="7" fill="rgba(255,255,255,0.6)">Beyond</text>
-  </svg>
-
-  <!-- 4 learning cards -->
-  <div class="cards" style="margin-top:.5rem">
+  <div class="cards">
     <div class="crd">
       <div class="badge">Hallazgo 1</div>
       <h4>El 80% busca oportunidades de negocio</h4>
@@ -713,114 +831,14 @@
 
 <!-- ── 3: NO EXISTE PLATAFORMA DIGITAL ── -->
 <div class="slide dark" data-theme="dark">
-  <div style="max-width:700px">
+  <div style="max-width:600px">
     <span class="sec-num">01.2</span>
     <h2>No existe plataforma digital</h2>
     <p class="lead">Hoy toda la red opera de manera informal. No hay sistema que conecte generaciones, perfiles o industrias.</p>
-
-    <!-- SVG: Disconnected clusters drifting apart -->
-    <svg class="svg-diagram" viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg">
-      <!-- Fading inter-cluster connections -->
-      <line x1="110" y1="65" x2="200" y2="55" stroke="rgba(91,122,248,0.06)" stroke-width="0.8" stroke-dasharray="3,4"/>
-      <line x1="120" y1="80" x2="310" y2="120" stroke="rgba(91,122,248,0.04)" stroke-width="0.6" stroke-dasharray="4,6"/>
-      <line x1="230" y1="60" x2="315" y2="95" stroke="rgba(91,122,248,0.05)" stroke-width="0.7" stroke-dasharray="3,5"/>
-      <line x1="345" y1="110" x2="460" y2="60" stroke="rgba(91,122,248,0.04)" stroke-width="0.6" stroke-dasharray="4,6"/>
-      <line x1="465" y1="80" x2="560" y2="140" stroke="rgba(91,122,248,0.03)" stroke-width="0.5" stroke-dasharray="5,7"/>
-      <line x1="140" y1="190" x2="280" y2="200" stroke="rgba(91,122,248,0.04)" stroke-width="0.6" stroke-dasharray="4,6"/>
-      <line x1="320" y1="210" x2="430" y2="195" stroke="rgba(91,122,248,0.03)" stroke-width="0.5" stroke-dasharray="5,7"/>
-      <line x1="460" y1="200" x2="545" y2="230" stroke="rgba(91,122,248,0.03)" stroke-width="0.5" stroke-dasharray="5,8"/>
-      <line x1="160" y1="265" x2="350" y2="270" stroke="rgba(91,122,248,0.02)" stroke-width="0.5" stroke-dasharray="6,8"/>
-
-      <!-- Cluster 1 (G1) — top-left -->
-      <circle cx="80" cy="60" r="5" fill="rgba(255,255,255,0.15)"/>
-      <circle cx="100" cy="75" r="6" fill="rgba(255,255,255,0.18)"/>
-      <circle cx="120" cy="55" r="4" fill="rgba(255,255,255,0.12)"/>
-      <line x1="80" y1="60" x2="100" y2="75" stroke="rgba(255,255,255,0.12)" stroke-width="0.8"/>
-      <line x1="100" y1="75" x2="120" y2="55" stroke="rgba(255,255,255,0.1)" stroke-width="0.8"/>
-      <text x="95" y="95" text-anchor="middle" class="svg-mono" font-size="7" fill="rgba(255,255,255,0.2)">G1</text>
-
-      <!-- Cluster 2 (G2) — top -->
-      <circle cx="200" cy="45" r="5" fill="rgba(255,255,255,0.15)"/>
-      <circle cx="220" cy="60" r="6" fill="rgba(255,255,255,0.18)"/>
-      <circle cx="240" cy="42" r="4" fill="rgba(255,255,255,0.12)"/>
-      <circle cx="215" cy="35" r="3.5" fill="rgba(255,255,255,0.1)"/>
-      <line x1="200" y1="45" x2="220" y2="60" stroke="rgba(255,255,255,0.12)" stroke-width="0.8"/>
-      <line x1="220" y1="60" x2="240" y2="42" stroke="rgba(255,255,255,0.1)" stroke-width="0.8"/>
-      <line x1="200" y1="45" x2="215" y2="35" stroke="rgba(255,255,255,0.08)" stroke-width="0.7"/>
-      <text x="218" y="78" text-anchor="middle" class="svg-mono" font-size="7" fill="rgba(255,255,255,0.2)">G2</text>
-
-      <!-- Cluster 3 (G3) — top-center -->
-      <circle cx="310" cy="100" r="6" fill="rgba(255,255,255,0.18)"/>
-      <circle cx="335" cy="110" r="5" fill="rgba(255,255,255,0.15)"/>
-      <circle cx="320" cy="125" r="4.5" fill="rgba(255,255,255,0.13)"/>
-      <line x1="310" y1="100" x2="335" y2="110" stroke="rgba(255,255,255,0.12)" stroke-width="0.8"/>
-      <line x1="335" y1="110" x2="320" y2="125" stroke="rgba(255,255,255,0.1)" stroke-width="0.8"/>
-      <line x1="310" y1="100" x2="320" y2="125" stroke="rgba(255,255,255,0.08)" stroke-width="0.7"/>
-      <text x="322" y="143" text-anchor="middle" class="svg-mono" font-size="7" fill="rgba(255,255,255,0.2)">G3</text>
-
-      <!-- Cluster 4 (G4) — top-right -->
-      <circle cx="450" cy="50" r="5" fill="rgba(255,255,255,0.15)"/>
-      <circle cx="470" cy="65" r="6" fill="rgba(255,255,255,0.18)"/>
-      <circle cx="490" cy="48" r="4" fill="rgba(255,255,255,0.12)"/>
-      <circle cx="460" cy="78" r="3.5" fill="rgba(255,255,255,0.1)"/>
-      <circle cx="485" cy="75" r="4" fill="rgba(255,255,255,0.12)"/>
-      <line x1="450" y1="50" x2="470" y2="65" stroke="rgba(255,255,255,0.12)" stroke-width="0.8"/>
-      <line x1="470" y1="65" x2="490" y2="48" stroke="rgba(255,255,255,0.1)" stroke-width="0.8"/>
-      <line x1="470" y1="65" x2="460" y2="78" stroke="rgba(255,255,255,0.08)" stroke-width="0.7"/>
-      <line x1="470" y1="65" x2="485" y2="75" stroke="rgba(255,255,255,0.08)" stroke-width="0.7"/>
-      <text x="470" y="95" text-anchor="middle" class="svg-mono" font-size="7" fill="rgba(255,255,255,0.2)">G4</text>
-
-      <!-- Cluster 5 (G5) — right -->
-      <circle cx="570" cy="130" r="5" fill="rgba(255,255,255,0.15)"/>
-      <circle cx="590" cy="148" r="6" fill="rgba(255,255,255,0.18)"/>
-      <circle cx="560" cy="155" r="4.5" fill="rgba(255,255,255,0.13)"/>
-      <line x1="570" y1="130" x2="590" y2="148" stroke="rgba(255,255,255,0.12)" stroke-width="0.8"/>
-      <line x1="590" y1="148" x2="560" y2="155" stroke="rgba(255,255,255,0.1)" stroke-width="0.8"/>
-      <text x="575" y="172" text-anchor="middle" class="svg-mono" font-size="7" fill="rgba(255,255,255,0.2)">G5</text>
-
-      <!-- Cluster 6 (G6) — mid-left -->
-      <circle cx="110" cy="185" r="6" fill="rgba(255,255,255,0.18)"/>
-      <circle cx="135" cy="195" r="5" fill="rgba(255,255,255,0.15)"/>
-      <circle cx="120" cy="210" r="4.5" fill="rgba(255,255,255,0.13)"/>
-      <circle cx="145" cy="215" r="3.5" fill="rgba(255,255,255,0.1)"/>
-      <line x1="110" y1="185" x2="135" y2="195" stroke="rgba(255,255,255,0.12)" stroke-width="0.8"/>
-      <line x1="135" y1="195" x2="120" y2="210" stroke="rgba(255,255,255,0.1)" stroke-width="0.8"/>
-      <line x1="135" y1="195" x2="145" y2="215" stroke="rgba(255,255,255,0.08)" stroke-width="0.7"/>
-      <text x="127" y="232" text-anchor="middle" class="svg-mono" font-size="7" fill="rgba(255,255,255,0.2)">G6</text>
-
-      <!-- Cluster 7 (G7) — center -->
-      <circle cx="290" cy="195" r="5" fill="rgba(255,255,255,0.15)"/>
-      <circle cx="310" cy="210" r="6" fill="rgba(255,255,255,0.18)"/>
-      <circle cx="295" cy="225" r="4" fill="rgba(255,255,255,0.12)"/>
-      <line x1="290" y1="195" x2="310" y2="210" stroke="rgba(255,255,255,0.12)" stroke-width="0.8"/>
-      <line x1="310" y1="210" x2="295" y2="225" stroke="rgba(255,255,255,0.1)" stroke-width="0.8"/>
-      <text x="300" y="242" text-anchor="middle" class="svg-mono" font-size="7" fill="rgba(255,255,255,0.2)">G7</text>
-
-      <!-- Cluster 8 (G8) — mid-right -->
-      <circle cx="435" cy="188" r="5" fill="rgba(255,255,255,0.15)"/>
-      <circle cx="455" cy="200" r="6" fill="rgba(255,255,255,0.18)"/>
-      <circle cx="440" cy="215" r="4.5" fill="rgba(255,255,255,0.13)"/>
-      <circle cx="468" cy="218" r="3.5" fill="rgba(255,255,255,0.1)"/>
-      <line x1="435" y1="188" x2="455" y2="200" stroke="rgba(255,255,255,0.12)" stroke-width="0.8"/>
-      <line x1="455" y1="200" x2="440" y2="215" stroke="rgba(255,255,255,0.1)" stroke-width="0.8"/>
-      <line x1="455" y1="200" x2="468" y2="218" stroke="rgba(255,255,255,0.08)" stroke-width="0.7"/>
-      <text x="450" y="235" text-anchor="middle" class="svg-mono" font-size="7" fill="rgba(255,255,255,0.2)">G8</text>
-
-      <!-- Cluster 9 (G9) — bottom-right -->
-      <circle cx="545" cy="225" r="5" fill="rgba(255,255,255,0.15)"/>
-      <circle cx="565" cy="240" r="6" fill="rgba(255,255,255,0.18)"/>
-      <circle cx="550" cy="258" r="4" fill="rgba(255,255,255,0.12)"/>
-      <circle cx="580" cy="255" r="3.5" fill="rgba(255,255,255,0.1)"/>
-      <line x1="545" y1="225" x2="565" y2="240" stroke="rgba(255,255,255,0.12)" stroke-width="0.8"/>
-      <line x1="565" y1="240" x2="550" y2="258" stroke="rgba(255,255,255,0.1)" stroke-width="0.8"/>
-      <line x1="565" y1="240" x2="580" y2="255" stroke="rgba(255,255,255,0.08)" stroke-width="0.7"/>
-      <text x="560" y="275" text-anchor="middle" class="svg-mono" font-size="7" fill="rgba(255,255,255,0.2)">G9</text>
-    </svg>
-
     <div class="callout">
       <p><strong>Construir esta red tom&oacute; 10 a&ntilde;os de credibilidad institucional.</strong> Es un activo irrepetible. Sin sistema de activaci&oacute;n, su valor se pierde con cada generaci&oacute;n que egresa.</p>
     </div>
-    <p style="margin-top:1rem">No hay plataforma competidora que reemplazar. Es una hoja en blanco para construir correctamente.</p>
+    <p>No hay plataforma competidora que reemplazar. Es una hoja en blanco para construir correctamente.</p>
   </div>
 </div>
 
@@ -828,7 +846,7 @@
 <div class="slide blue" data-theme="blue">
   <div style="max-width:600px">
     <span class="sec-num">01.3</span>
-    <h2 style="font-size:1.8rem;color:var(--white)">&iquest;C&oacute;mo convertir una comunidad de 350 empresarios en una red que genera valor de forma continua, escalable y medible?</h2>
+    <h2 style="font-size:clamp(1.5rem,3.2vw,2rem);color:var(--white);font-weight:300;line-height:1.4;letter-spacing:-.01em"><span style="font-weight:700">&iquest;C&oacute;mo convertir</span> una comunidad de 350 empresarios en una red que genera valor de forma <span style="font-weight:700">continua, escalable y medible?</span></h2>
   </div>
 </div>
 
@@ -855,60 +873,15 @@
   <span class="sec-num">02.1</span>
   <h2>La base de conocimiento</h2>
   <p class="lead">Toda la informaci&oacute;n de todas las generaciones se vierte en un sistema que entiende relaciones.</p>
-  <svg class="svg-diagram" viewBox="0 0 700 380">
-    <defs>
-      <filter id="glowKb" x="-50%" y="-50%" width="200%" height="200%">
-        <feGaussianBlur stdDeviation="6" result="blur"/>
-        <feComposite in="SourceGraphic" in2="blur" operator="over"/>
-      </filter>
-    </defs>
-    <circle cx="110" cy="42" r="6" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
-    <text x="110" y="62" text-anchor="middle" class="svg-mono" fill="rgba(255,255,255,0.4)" font-size="7">G1</text>
-    <circle cx="170" cy="30" r="6" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
-    <text x="170" y="50" text-anchor="middle" class="svg-mono" fill="rgba(255,255,255,0.4)" font-size="7">G2</text>
-    <circle cx="230" cy="24" r="6" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
-    <text x="230" y="44" text-anchor="middle" class="svg-mono" fill="rgba(255,255,255,0.4)" font-size="7">G3</text>
-    <circle cx="290" cy="20" r="6" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
-    <text x="290" y="40" text-anchor="middle" class="svg-mono" fill="rgba(255,255,255,0.4)" font-size="7">G4</text>
-    <circle cx="350" cy="18" r="6" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
-    <text x="350" y="38" text-anchor="middle" class="svg-mono" fill="rgba(255,255,255,0.4)" font-size="7">G5</text>
-    <circle cx="410" cy="20" r="6" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
-    <text x="410" y="40" text-anchor="middle" class="svg-mono" fill="rgba(255,255,255,0.4)" font-size="7">G6</text>
-    <circle cx="470" cy="24" r="6" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
-    <text x="470" y="44" text-anchor="middle" class="svg-mono" fill="rgba(255,255,255,0.4)" font-size="7">G7</text>
-    <circle cx="530" cy="30" r="6" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
-    <text x="530" y="50" text-anchor="middle" class="svg-mono" fill="rgba(255,255,255,0.4)" font-size="7">G8</text>
-    <circle cx="590" cy="42" r="6" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
-    <text x="590" y="62" text-anchor="middle" class="svg-mono" fill="rgba(255,255,255,0.4)" font-size="7">G9</text>
-    <path d="M 110,48 Q 130,120 350,180" fill="none" stroke="rgba(91,122,248,0.25)" stroke-width="1.5"/>
-    <path d="M 170,36 Q 200,110 350,180" fill="none" stroke="rgba(91,122,248,0.25)" stroke-width="1.5"/>
-    <path d="M 230,30 Q 260,105 350,180" fill="none" stroke="rgba(91,122,248,0.25)" stroke-width="1.5"/>
-    <path d="M 290,26 Q 310,100 350,180" fill="none" stroke="rgba(91,122,248,0.25)" stroke-width="1.5"/>
-    <path d="M 350,24 Q 350,95 350,180" fill="none" stroke="rgba(91,122,248,0.25)" stroke-width="1.5"/>
-    <path d="M 410,26 Q 390,100 350,180" fill="none" stroke="rgba(91,122,248,0.25)" stroke-width="1.5"/>
-    <path d="M 470,30 Q 440,105 350,180" fill="none" stroke="rgba(91,122,248,0.25)" stroke-width="1.5"/>
-    <path d="M 530,36 Q 500,110 350,180" fill="none" stroke="rgba(91,122,248,0.25)" stroke-width="1.5"/>
-    <path d="M 590,48 Q 570,120 350,180" fill="none" stroke="rgba(91,122,248,0.25)" stroke-width="1.5"/>
-    <circle cx="350" cy="180" r="32" fill="#3356F6" class="node-glow" filter="url(#glowKb)"/>
-    <text x="350" y="175" text-anchor="middle" class="svg-label" fill="#FFF" font-size="9" font-weight="600">Base de</text>
-    <text x="350" y="188" text-anchor="middle" class="svg-label" fill="#FFF" font-size="9" font-weight="600">Conocimiento</text>
-    <path d="M 330,210 Q 260,270 140,320" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
-    <path d="M 340,212 Q 310,270 280,320" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
-    <path d="M 360,212 Q 390,270 420,320" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
-    <path d="M 370,210 Q 440,270 560,320" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
-    <circle cx="140" cy="320" r="16" fill="#3356F6" opacity="0.85"/>
-    <text x="140" y="324" text-anchor="middle" class="svg-label" fill="#FFF" font-size="8" font-weight="600">Match</text>
-    <text x="140" y="350" text-anchor="middle" class="svg-mono" fill="rgba(255,255,255,0.45)" font-size="7">Conexiones</text>
-    <circle cx="280" cy="320" r="16" fill="#5B7AF8" opacity="0.85"/>
-    <text x="280" y="324" text-anchor="middle" class="svg-label" fill="#FFF" font-size="8" font-weight="600">Contenidos</text>
-    <text x="280" y="350" text-anchor="middle" class="svg-mono" fill="rgba(255,255,255,0.45)" font-size="7">Contenido</text>
-    <circle cx="420" cy="320" r="16" fill="#5B7AF8" opacity="0.85"/>
-    <text x="420" y="324" text-anchor="middle" class="svg-label" fill="#FFF" font-size="8" font-weight="600">Scout</text>
-    <text x="420" y="350" text-anchor="middle" class="svg-mono" fill="rgba(255,255,255,0.45)" font-size="7">Candidatos</text>
-    <circle cx="560" cy="320" r="16" fill="#3356F6" opacity="0.85"/>
-    <text x="560" y="324" text-anchor="middle" class="svg-label" fill="#FFF" font-size="8" font-weight="600">Insights</text>
-    <text x="560" y="350" text-anchor="middle" class="svg-mono" fill="rgba(255,255,255,0.45)" font-size="7">Inteligencia</text>
-  </svg>
+  <div class="flow">
+    <div class="flow-box">9 generaciones</div>
+    <div class="flow-arr">&rarr;</div>
+    <div class="flow-box on">Base sem&aacute;ntica</div>
+    <div class="flow-arr">&rarr;</div>
+    <div class="flow-box">4 agentes IA</div>
+  </div>
+  <p><strong>No es un CRM.</strong> Es una base de conocimiento que comprende perfiles, contextos e intereses. Los agentes operan sobre ella para generar valor.</p>
+  <p>Cada generaci&oacute;n enriquece el sistema. Cada nuevo miembro lo fortalece. El valor crece con el tiempo.</p>
 </div>
 
 <!-- ── 7: LOS 4 AGENTES ── -->
@@ -929,25 +902,17 @@
   <span class="sec-num">03.1</span>
   <h2>Matching anonimizado</h2>
   <p class="lead">El agente analiza toda la red, identifica complementariedades y propone conexiones. Nadie ve datos hasta que ambos aceptan.</p>
-  <svg class="svg-diagram" viewBox="0 0 700 350">
-    <defs><filter id="glowMatch" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="blur"/><feComposite in="SourceGraphic" in2="blur" operator="over"/></filter></defs>
-    <text x="120" y="68" text-anchor="middle" class="svg-label" fill="rgba(255,255,255,0.5)" font-size="10" font-weight="600">Le&oacute;n</text>
-    <circle cx="95" cy="95" r="5" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/><circle cx="140" cy="88" r="5" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/><circle cx="110" cy="120" r="5" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/><circle cx="145" cy="118" r="5" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
-    <path d="M 95,100 Q 180,140 350,170" fill="none" stroke="rgba(91,122,248,0.3)" stroke-width="1.5" stroke-dasharray="4,3"/><path d="M 140,93 Q 220,130 350,170" fill="none" stroke="rgba(91,122,248,0.3)" stroke-width="1.5" stroke-dasharray="4,3"/><path d="M 110,125 Q 200,155 350,170" fill="none" stroke="rgba(91,122,248,0.3)" stroke-width="1.5" stroke-dasharray="4,3"/><path d="M 145,123 Q 220,150 350,170" fill="none" stroke="rgba(91,122,248,0.3)" stroke-width="1.5" stroke-dasharray="4,3"/>
-    <text x="500" y="42" text-anchor="middle" class="svg-label" fill="rgba(255,255,255,0.5)" font-size="10" font-weight="600">Morelia</text>
-    <circle cx="480" cy="62" r="5" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/><circle cx="520" cy="58" r="5" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/><circle cx="500" cy="82" r="5" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
-    <path d="M 480,67 Q 430,120 350,170" fill="none" stroke="rgba(91,122,248,0.3)" stroke-width="1.5" stroke-dasharray="4,3"/><path d="M 520,63 Q 450,115 350,170" fill="none" stroke="rgba(91,122,248,0.3)" stroke-width="1.5" stroke-dasharray="4,3"/><path d="M 500,87 Q 440,130 350,170" fill="none" stroke="rgba(91,122,248,0.3)" stroke-width="1.5" stroke-dasharray="4,3"/>
-    <text x="520" y="205" text-anchor="middle" class="svg-label" fill="rgba(255,255,255,0.5)" font-size="10" font-weight="600">Chihuahua</text>
-    <circle cx="500" cy="225" r="5" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/><circle cx="540" cy="220" r="5" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/><circle cx="520" cy="248" r="5" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
-    <path d="M 500,220 Q 440,195 350,170" fill="none" stroke="rgba(91,122,248,0.3)" stroke-width="1.5" stroke-dasharray="4,3"/><path d="M 540,215 Q 460,190 350,170" fill="none" stroke="rgba(91,122,248,0.3)" stroke-width="1.5" stroke-dasharray="4,3"/><path d="M 520,243 Q 450,210 350,170" fill="none" stroke="rgba(91,122,248,0.3)" stroke-width="1.5" stroke-dasharray="4,3"/>
-    <circle cx="350" cy="170" r="24" fill="#3356F6" class="node-pulse" filter="url(#glowMatch)"/>
-    <text x="350" y="174" text-anchor="middle" class="svg-label" fill="#FFF" font-size="11" font-weight="700">Match</text>
-    <path d="M 370,190 Q 420,260 500,310" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
-    <circle cx="500" cy="310" r="14" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
-    <text x="500" y="314" text-anchor="middle" class="svg-label" fill="rgba(255,255,255,0.7)" font-size="8">&iquest;Conectar?</text>
-    <text x="460" y="278" text-anchor="middle" class="svg-mono" fill="rgba(91,122,248,0.5)" font-size="7">#217 manufactura &harr; #478 distribuci&oacute;n</text>
-  </svg>
-  <p style="opacity:0.55;font-size:0.85rem;margin-top:0.8rem;">Sin consentimiento mutuo &rarr; nadie sabe nada. Con consentimiento &rarr; se hace la introducci&oacute;n.</p>
+  <div class="flow">
+    <div class="flow-box">Miembro A</div>
+    <div class="flow-arr">&rarr;</div>
+    <div class="flow-box on">Match IA</div>
+    <div class="flow-arr">&rarr;</div>
+    <div class="flow-box">Miembro B</div>
+  </div>
+  <div class="callout">
+    <p><strong>Ejemplo:</strong> #217 (manufactura, Le&oacute;n) tiene capacidades complementarias con #478 (distribuci&oacute;n, Chihuahua). El agente propone la conexi&oacute;n. Solo si ambos aceptan se revelan los datos.</p>
+  </div>
+  <p style="opacity:0.55;font-size:0.85rem;">Sin consentimiento mutuo &rarr; nadie sabe nada. Con consentimiento &rarr; se hace la introducci&oacute;n.</p>
 </div>
 
 <!-- ── 9: CICLO DE REFUERZO ── -->
@@ -961,13 +926,13 @@
       <radialGradient id="centerGlow"><stop offset="0%" stop-color="#3356F6" stop-opacity="0.15"/><stop offset="100%" stop-color="#3356F6" stop-opacity="0"/></radialGradient>
     </defs>
     <circle cx="250" cy="200" r="40" fill="url(#centerGlow)"/>
-    <path d="M 272,68 Q 400,80 432,182" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1.5" marker-end="url(#arrowCycle)"/>
+    <path class="anim-draw" d="M 272,68 Q 400,80 432,182" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1.5" marker-end="url(#arrowCycle)"/>
     <text x="380" y="110" text-anchor="middle" class="svg-mono" fill="rgba(91,122,248,0.6)" font-size="7" transform="rotate(28,380,110)">Conexi&oacute;n detectada</text>
-    <path d="M 432,222 Q 400,320 272,336" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1.5" marker-end="url(#arrowCycle)"/>
+    <path class="anim-draw" d="M 432,222 Q 400,320 272,336" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1.5" marker-end="url(#arrowCycle)"/>
     <text x="380" y="300" text-anchor="middle" class="svg-mono" fill="rgba(91,122,248,0.6)" font-size="7" transform="rotate(-28,380,300)">Gap identificado</text>
-    <path d="M 228,336 Q 100,320 68,222" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1.5" marker-end="url(#arrowCycle)"/>
+    <path class="anim-draw" d="M 228,336 Q 100,320 68,222" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1.5" marker-end="url(#arrowCycle)"/>
     <text x="120" y="300" text-anchor="middle" class="svg-mono" fill="rgba(91,122,248,0.6)" font-size="7" transform="rotate(28,120,300)">Cluster emergente</text>
-    <path d="M 68,182 Q 100,80 228,68" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1.5" marker-end="url(#arrowCycle)"/>
+    <path class="anim-draw" d="M 68,182 Q 100,80 228,68" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1.5" marker-end="url(#arrowCycle)"/>
     <text x="120" y="110" text-anchor="middle" class="svg-mono" fill="rgba(91,122,248,0.6)" font-size="7" transform="rotate(-28,120,110)">Red fortalecida</text>
     <circle cx="250" cy="60" r="22" fill="#3356F6"/><text x="250" y="64" text-anchor="middle" class="svg-label" fill="#FFF" font-size="9" font-weight="600">Match</text>
     <circle cx="440" cy="200" r="22" fill="#5B7AF8"/><text x="440" y="204" text-anchor="middle" class="svg-label" fill="#FFF" font-size="9" font-weight="600">Contenidos</text>
@@ -982,37 +947,14 @@
   <span class="sec-num">04</span>
   <h2>Arquitectura fractal</h2>
   <p class="lead">Cada campus es una instancia del mismo sistema. Lo que se aprende en uno beneficia a todos.</p>
-  <svg class="svg-diagram" viewBox="0 0 700 380">
-    <defs><filter id="glowFractal" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="blur"/><feComposite in="SourceGraphic" in2="blur" operator="over"/></filter></defs>
-    <circle cx="350" cy="100" r="30" fill="#3356F6" class="node-glow" filter="url(#glowFractal)"/>
-    <text x="350" y="104" text-anchor="middle" class="svg-label" fill="#FFF" font-size="11" font-weight="700">ESBAC</text>
-    <path d="M 325,125 Q 240,175 150,230" fill="none" stroke="#3356F6" stroke-width="1.5"/>
-    <path d="M 340,128 Q 320,185 300,265" fill="none" stroke="#3356F6" stroke-width="1.5"/>
-    <path d="M 360,128 Q 400,185 450,265" fill="none" stroke="#5B7AF8" stroke-width="1.2" stroke-dasharray="5,3" opacity="0.5"/>
-    <path d="M 375,125 Q 470,175 580,230" fill="none" stroke="#5B7AF8" stroke-width="1.2" stroke-dasharray="5,3" opacity="0.5"/>
-    <circle cx="150" cy="240" r="22" fill="#3356F6"/><text x="150" y="244" text-anchor="middle" class="svg-label" fill="#FFF" font-size="9" font-weight="600">Le&oacute;n</text>
-    <text x="150" y="274" text-anchor="middle" class="svg-mono" fill="#3356F6" font-size="7">piloto 2026</text>
-    <circle cx="126" cy="222" r="4" fill="rgba(51,86,246,0.3)"/><circle cx="138" cy="215" r="4" fill="rgba(51,86,246,0.3)"/><circle cx="162" cy="215" r="4" fill="rgba(51,86,246,0.3)"/><circle cx="174" cy="222" r="4" fill="rgba(51,86,246,0.3)"/><circle cx="174" cy="258" r="4" fill="rgba(51,86,246,0.3)"/><circle cx="126" cy="258" r="4" fill="rgba(51,86,246,0.3)"/>
-    <circle cx="300" cy="280" r="18" fill="#5B7AF8" opacity="0.8"/><text x="300" y="284" text-anchor="middle" class="svg-label" fill="#FFF" font-size="8" font-weight="600">Chihuahua</text>
-    <text x="300" y="308" text-anchor="middle" class="svg-mono" fill="#5B7AF8" font-size="7">2027</text>
-    <circle cx="280" cy="266" r="4" fill="rgba(91,122,248,0.25)"/><circle cx="292" cy="260" r="4" fill="rgba(91,122,248,0.25)"/><circle cx="308" cy="260" r="4" fill="rgba(91,122,248,0.25)"/><circle cx="320" cy="266" r="4" fill="rgba(91,122,248,0.25)"/><circle cx="320" cy="294" r="4" fill="rgba(91,122,248,0.25)"/><circle cx="280" cy="294" r="4" fill="rgba(91,122,248,0.25)"/>
-    <circle cx="450" cy="280" r="16" fill="#5B7AF8" opacity="0.5" stroke="#5B7AF8" stroke-width="1" stroke-dasharray="4,3"/><text x="450" y="284" text-anchor="middle" class="svg-label" fill="rgba(91,122,248,0.8)" font-size="8" font-weight="600">Morelia</text>
-    <text x="450" y="308" text-anchor="middle" class="svg-mono" fill="rgba(91,122,248,0.5)" font-size="7">2028</text>
-    <circle cx="432" cy="268" r="4" fill="rgba(91,122,248,0.15)"/><circle cx="444" cy="262" r="4" fill="rgba(91,122,248,0.15)"/><circle cx="456" cy="262" r="4" fill="rgba(91,122,248,0.15)"/><circle cx="468" cy="268" r="4" fill="rgba(91,122,248,0.15)"/><circle cx="468" cy="292" r="4" fill="rgba(91,122,248,0.15)"/><circle cx="432" cy="292" r="4" fill="rgba(91,122,248,0.15)"/>
-    <circle cx="580" cy="240" r="16" fill="#5B7AF8" opacity="0.5" stroke="#5B7AF8" stroke-width="1" stroke-dasharray="4,3"/><text x="580" y="244" text-anchor="middle" class="svg-label" fill="rgba(91,122,248,0.8)" font-size="8" font-weight="600">Guadalajara</text>
-    <text x="580" y="268" text-anchor="middle" class="svg-mono" fill="rgba(91,122,248,0.5)" font-size="7">2028</text>
-    <circle cx="562" cy="228" r="4" fill="rgba(91,122,248,0.15)"/><circle cx="574" cy="222" r="4" fill="rgba(91,122,248,0.15)"/><circle cx="586" cy="222" r="4" fill="rgba(91,122,248,0.15)"/><circle cx="598" cy="228" r="4" fill="rgba(91,122,248,0.15)"/><circle cx="598" cy="252" r="4" fill="rgba(91,122,248,0.15)"/><circle cx="562" cy="252" r="4" fill="rgba(91,122,248,0.15)"/>
-    <path d="M 170,248 Q 225,290 282,278" fill="none" stroke="rgba(91,122,248,0.12)" stroke-width="1" stroke-dasharray="3,3"/>
-    <path d="M 318,280 Q 375,300 434,280" fill="none" stroke="rgba(91,122,248,0.1)" stroke-width="1" stroke-dasharray="3,3"/>
-    <path d="M 170,240 Q 360,340 434,280" fill="none" stroke="rgba(91,122,248,0.06)" stroke-width="1" stroke-dasharray="3,3"/>
-  </svg>
-  <div class="metrics" style="display:flex;gap:2rem;justify-content:center;margin-top:1rem;">
+  <div class="metrics">
     <div class="metric"><span class="val blue">1</span><span class="lbl">Plataforma</span></div>
     <div class="metric"><span class="val blue">4</span><span class="lbl">Agentes IA</span></div>
     <div class="metric"><span class="val blue">N</span><span class="lbl">Campus</span></div>
-    <div class="metric"><span class="val blue">20&ndash;25%</span><span class="lbl">costo/sede</span></div>
+    <div class="metric"><span class="val blue">20&ndash;25%</span><span class="lbl">costo por sede adicional</span></div>
   </div>
-  <p style="margin-top:0.8rem;">Misma plataforma, mismos agentes, misma gobernanza &mdash; con miembros locales, contexto local y administraci&oacute;n local.</p>
+  <p>Misma plataforma, mismos agentes, misma gobernanza &mdash; con miembros locales, contexto local y administraci&oacute;n local.</p>
+  <div class="callout">Piloto en Le&oacute;n (2026) &rarr; Chihuahua (2027) &rarr; Morelia, Guadalajara (2028). Cada sede nueva reutiliza la plataforma completa.</div>
 </div>
 
 <!-- ── 11: GOBERNANZA ── -->
@@ -1041,27 +983,15 @@
   <span class="sec-num">05.1</span>
   <h2>Qui&eacute;n decide qu&eacute;</h2>
   <p class="lead">Derechos de decisi&oacute;n claros en cada nivel.</p>
-  <svg class="svg-diagram" viewBox="0 0 700 340">
-    <circle cx="350" cy="40" r="24" fill="#3356F6"/>
-    <text x="350" y="36" text-anchor="middle" class="svg-label" fill="#FFF" font-size="8" font-weight="600">C&iacute;rculo 1</text>
-    <text x="350" y="47" text-anchor="middle" class="svg-label" fill="#FFF" font-size="8" font-weight="600">ESBAC</text>
-    <path d="M 350,64 Q 350,90 350,112" fill="none" stroke="#3356F6" stroke-width="1.5"/>
-    <circle cx="350" cy="130" r="18" fill="#5B7AF8"/>
-    <text x="350" y="127" text-anchor="middle" class="svg-label" fill="#FFF" font-size="7" font-weight="600">C&iacute;rculo 2</text>
-    <text x="350" y="137" text-anchor="middle" class="svg-label" fill="#FFF" font-size="7" font-weight="600">Tec</text>
-    <path d="M 335,146 Q 220,185 100,228" fill="none" stroke="#5B7AF8" stroke-width="1.2"/><path d="M 340,148 Q 285,190 230,228" fill="none" stroke="#5B7AF8" stroke-width="1.2"/><path d="M 350,148 Q 350,190 350,228" fill="none" stroke="#5B7AF8" stroke-width="1.2" stroke-dasharray="5,3"/><path d="M 360,148 Q 415,190 470,228" fill="none" stroke="#5B7AF8" stroke-width="1.2" stroke-dasharray="5,3"/><path d="M 365,146 Q 480,185 600,228" fill="none" stroke="#5B7AF8" stroke-width="1.2" stroke-dasharray="5,3"/>
-    <circle cx="100" cy="240" r="12" fill="#3356F6"/><text x="100" y="244" text-anchor="middle" class="svg-label" fill="#FFF" font-size="7" font-weight="600">Le&oacute;n</text>
-    <circle cx="230" cy="240" r="12" fill="#3356F6"/><text x="230" y="244" text-anchor="middle" class="svg-label" fill="#FFF" font-size="7" font-weight="600">Chih.</text>
-    <circle cx="350" cy="240" r="12" fill="#5B7AF8" opacity="0.5" stroke="#5B7AF8" stroke-width="1" stroke-dasharray="3,2"/><text x="350" y="244" text-anchor="middle" class="svg-label" fill="rgba(91,122,248,0.8)" font-size="7" font-weight="600">Morelia</text>
-    <circle cx="470" cy="240" r="12" fill="#5B7AF8" opacity="0.5" stroke="#5B7AF8" stroke-width="1" stroke-dasharray="3,2"/><text x="470" y="244" text-anchor="middle" class="svg-label" fill="rgba(91,122,248,0.8)" font-size="7" font-weight="600">Aguas.</text>
-    <circle cx="600" cy="240" r="12" fill="#5B7AF8" opacity="0.5" stroke="#5B7AF8" stroke-width="1" stroke-dasharray="3,2"/><text x="600" y="244" text-anchor="middle" class="svg-label" fill="rgba(91,122,248,0.8)" font-size="7" font-weight="600">GDL</text>
-    <path d="M 112,242 Q 165,260 218,242" fill="none" stroke="rgba(51,86,246,0.12)" stroke-width="1" stroke-dasharray="3,3"/>
-    <path d="M 112,244 Q 225,290 338,244" fill="none" stroke="rgba(51,86,246,0.08)" stroke-width="1" stroke-dasharray="3,3"/>
-  </svg>
-  <table style="margin-top:1rem;font-size:0.85rem;">
-    <thead><tr><th>Qui&eacute;n</th><th>Qu&eacute; decide</th></tr></thead>
-    <tbody><tr><td>Consejo ESBAC</td><td>Admisi&oacute;n, reglas, uso de datos</td></tr><tr><td>Consejo + HA</td><td>Funcionalidades, expansi&oacute;n</td></tr><tr><td>HA</td><td>Operaci&oacute;n t&eacute;cnica</td></tr></tbody>
+  <table>
+    <thead><tr><th>C&iacute;rculo</th><th>Actor</th><th>Qu&eacute; decide</th></tr></thead>
+    <tbody>
+      <tr><td><strong>1</strong></td><td>Consejo ESBAC</td><td>Admisi&oacute;n, reglas de la comunidad, uso de datos, direcci&oacute;n estrat&eacute;gica</td></tr>
+      <tr><td><strong>2</strong></td><td>Tec de Monterrey</td><td>Infraestructura, seguridad, paraguas institucional</td></tr>
+      <tr><td><strong>3</strong></td><td>Horizons Architecture</td><td>Operaci&oacute;n t&eacute;cnica, agentes de IA, soporte</td></tr>
+    </tbody>
   </table>
+  <div class="callout">La comunidad es due&ntilde;a del modelo. Si cambia el proveedor tecnol&oacute;gico, los datos y la estructura de la comunidad permanecen intactos.</div>
 </div>
 
 <!-- ── 13: EFECTO DE RED ── -->
@@ -1073,16 +1003,6 @@
     <thead><tr><th>Escala</th><th>Miembros</th><th>Conexiones posibles</th><th>Valor</th></tr></thead>
     <tbody><tr><td>Le&oacute;n hoy</td><td>~350</td><td>61,075</td><td><strong>1x</strong></td></tr><tr><td>3 campus</td><td>~900</td><td>404,550</td><td><strong>9x</strong></td></tr><tr><td>5 campus</td><td>~1,500</td><td>1,124,250</td><td><strong>25x</strong></td></tr><tr><td>10 campus</td><td>~3,000</td><td>4,498,500</td><td><strong>100x</strong></td></tr></tbody>
   </table>
-  <svg class="svg-diagram" viewBox="0 0 400 150" style="margin-top:1rem;">
-    <line x1="50" y1="130" x2="370" y2="130" stroke="rgba(35,31,32,0.1)" stroke-width="0.5"/>
-    <line x1="50" y1="93" x2="370" y2="93" stroke="rgba(35,31,32,0.04)" stroke-width="0.5"/>
-    <line x1="50" y1="56" x2="370" y2="56" stroke="rgba(35,31,32,0.04)" stroke-width="0.5"/>
-    <path d="M 65,125 Q 140,122 200,115 Q 260,100 310,60 Q 340,35 360,22" fill="none" stroke="#3356F6" stroke-width="2.5" stroke-linecap="round"/>
-    <path d="M 65,125 Q 140,122 200,115 Q 260,100 310,60 Q 340,35 360,22 L 360,130 L 65,130 Z" fill="rgba(51,86,246,0.06)"/>
-    <circle cx="65" cy="125" r="4" fill="#3356F6"/><circle cx="170" cy="118" r="4" fill="#3356F6"/><circle cx="270" cy="95" r="4" fill="#3356F6"/><circle cx="360" cy="22" r="4" fill="#3356F6"/>
-    <text x="210" y="146" text-anchor="middle" class="svg-mono" fill="rgba(35,31,32,0.4)" font-size="8">Campus</text>
-    <text x="38" y="78" text-anchor="middle" class="svg-mono" fill="rgba(35,31,32,0.4)" font-size="8" transform="rotate(-90,38,78)">Valor</text>
-  </svg>
   <div class="callout">La mayor&iacute;a de esas conexiones no se activan porque la gente no sabe lo que los dem&aacute;s tienen o necesitan. El sistema las activa de forma inteligente.</div>
 </div>
 
@@ -1113,7 +1033,7 @@
 </div>
 
 <!-- ── 16: ROADMAP ── -->
-<div class="slide dark" data-theme="dark">
+<div class="slide dark compact" data-theme="dark">
   <span class="sec-num">07</span>
   <h2>Roadmap</h2>
   <p class="lead">Del piloto en Le&oacute;n a una red nacional.</p>
@@ -1152,7 +1072,7 @@
 </div>
 
 <!-- ── 18: ALINEACIÓN ── -->
-<div class="slide dark" data-theme="dark">
+<div class="slide dark compact" data-theme="dark">
   <span class="sec-num">08.1</span>
   <h2>Alineaci&oacute;n institucional</h2>
   <p class="lead">Liderazgo del Tec ya conoce y respalda la iniciativa.</p>
@@ -1179,11 +1099,14 @@
 
 <!-- ── 20: ANEXOS INTRO ── -->
 <div class="slide blue" data-theme="blue">
-  <div style="max-width:600px;">
+  <div style="max-width:560px;">
     <span class="sec-num">10</span>
-    <h2 style="font-size:1.8rem;color:#fff;">Anexos t&eacute;cnicos</h2>
-    <p class="lead">Siete documentos de soporte con el detalle completo del modelo, datos, negocio, escalabilidad y hallazgos de la comunidad.</p>
-    <a class="annex-link" href="anexos/anexos-profesional.html" style="color:#fff;border-bottom:1px solid rgba(255,255,255,.3);" target="_blank">Consultar anexos completos &rarr;</a>
+    <div style="display:flex;align-items:baseline;gap:.6rem;margin-bottom:.4rem">
+      <h2 style="color:#fff;">Anexos t&eacute;cnicos</h2>
+      <span style="font-family:var(--font-mono);font-size:.7rem;color:rgba(255,255,255,.5);font-weight:500">7 documentos</span>
+    </div>
+    <p class="lead">Detalle completo del modelo, datos, negocio, escalabilidad y hallazgos de la comunidad.</p>
+    <a class="annex-link" href="anexos/anexos-profesional.html" style="color:#fff;border-bottom:1px solid rgba(255,255,255,.25);padding-bottom:.15rem" target="_blank">Consultar anexos completos &rarr;</a>
   </div>
 </div>
 
@@ -1203,7 +1126,7 @@
 <div class="slide light" data-theme="light"><span class="sec-num">Anexo 7</span><h2>Diagramas de trabajo</h2><p class="lead">Interpretaci&oacute;n t&eacute;cnica de los diagramas de la sesi&oacute;n de dise&ntilde;o estrat&eacute;gico.</p><div class="cards"><div class="crd"><span class="badge">Diagrama 1</span><h4>Data Hub centralizado</h4><p>Base de conocimiento como n&uacute;cleo. Integraci&oacute;n, normalizaci&oacute;n y explotaci&oacute;n anal&iacute;tica.</p></div><div class="crd"><span class="badge">Diagrama 2</span><h4>Modelo radial hub-and-spoke</h4><p>Motor de IA central distribuyendo valor a m&uacute;ltiples segmentos y verticales de negocio.</p></div><div class="crd"><span class="badge">Diagrama 3</span><h4>MVP + curva de crecimiento</h4><p>Infraestructura m&iacute;nima con proyecci&oacute;n no lineal a 10 a&ntilde;os.</p></div><div class="crd"><span class="badge">Diagrama 4</span><h4>Motor de personalizaci&oacute;n</h4><p>Clustering, reglas de negocio y monetizaci&oacute;n por suscripci&oacute;n, matchmaking y contenido premium.</p></div></div></div>
 
 <!-- ── 28: CONFLICTO DE INTERÉS ── -->
-<div class="slide dark" data-theme="dark">
+<div class="slide dark compact" data-theme="dark">
   <span class="sec-num">11</span>
   <h2>Nota de transparencia</h2>
   <p class="lead">Conflicto de inter&eacute;s y medidas de mitigaci&oacute;n.</p>
@@ -1219,14 +1142,17 @@
 
 <!-- ── 29: CIERRE ── -->
 <div class="slide dark" data-theme="dark" style="position:relative;overflow:hidden;">
-  <div style="max-width:500px;">
-    <div class="blue-line"></div>
-    <h1 style="font-size:2.2rem;">Tec Beyond</h1>
-    <p style="opacity:.55;">Plataforma de inteligencia colectiva para la comunidad de l&iacute;deres empresariales del Tecnol&oacute;gico de Monterrey.</p>
-    <div style="margin-top:2.5rem;padding-top:1.5rem;border-top:1px solid rgba(255,255,255,.15);">
-      <p style="font-weight:700;opacity:.75;">Horizons Architecture</p>
-      <p style="opacity:.45;">edgar@horizonsarchitecture.ai</p>
-      <p style="opacity:.3;">Febrero 2026 &middot; Documento confidencial</p>
+  <div style="max-width:480px;position:relative;z-index:1">
+    <div style="display:inline-flex;align-items:center;gap:.6rem;margin-bottom:1.5rem">
+      <div class="blue-line" style="margin:0"></div>
+      <span style="font-family:var(--font-mono);font-size:.55rem;letter-spacing:.2em;text-transform:uppercase;color:var(--ha-blue-light);opacity:.5">Gracias</span>
+    </div>
+    <h1 style="font-size:clamp(2rem,4vw,2.6rem);letter-spacing:-.03em">Tec Beyond</h1>
+    <p style="color:rgba(255,255,255,.4);font-weight:200;font-size:.95rem">Inteligencia colectiva para la comunidad de l&iacute;deres empresariales.</p>
+    <div style="margin-top:2.5rem;padding-top:1.25rem;border-top:1px solid rgba(255,255,255,.06);">
+      <p style="font-weight:600;color:rgba(255,255,255,.65);font-size:.85rem;margin-bottom:.2rem">Horizons Architecture</p>
+      <p style="color:rgba(255,255,255,.35);font-size:.78rem">edgar@horizonsarchitecture.ai</p>
+      <p style="color:rgba(255,255,255,.2);font-size:.7rem;margin-top:.6rem">Febrero 2026 &middot; Documento confidencial</p>
     </div>
   </div>
   <svg style="position:absolute;right:-40px;top:50%;transform:translateY(-50%);width:420px;height:420px;opacity:.06;" viewBox="0 0 420 420" fill="none">
@@ -1245,6 +1171,18 @@ const controls = document.getElementById('controls');
 const watermark = document.getElementById('watermark');
 const total = slides.length;
 let current = 0;
+function resetAnimations(el) {
+  el.querySelectorAll('.anim-draw, .anim-pop, .crd, .metric, .flow-box, .callout, tbody tr').forEach(function(node) {
+    node.style.animation = 'none';
+    node.offsetHeight;
+    node.style.animation = '';
+  });
+  el.querySelectorAll('.svg-diagram').forEach(function(svg) {
+    svg.style.animation = 'none';
+    svg.offsetHeight;
+    svg.style.animation = '';
+  });
+}
 function go(n) {
   if (n < 0 || n >= total) return;
   slides[current].classList.remove('active');
@@ -1253,7 +1191,8 @@ function go(n) {
   current = n;
   slides[current].classList.remove('exit');
   slides[current].classList.add('active');
-  setTimeout(() => slides[prev].classList.remove('exit'), 460);
+  resetAnimations(slides[current]);
+  setTimeout(() => slides[prev].classList.remove('exit'), 500);
   update();
 }
 function next() { go(current + 1); }
