@@ -480,6 +480,28 @@
   }
   .annex-link:hover { gap: .7rem; }
   .dark .annex-link { color: var(--ha-blue-light); }
+
+  /* ── BADGES (standalone) ── */
+  .badge-inline {
+    display: inline-block;
+    padding: .15rem .5rem;
+    border-radius: 4px;
+    font-size: .6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+    background: rgba(51,86,246,.15);
+    color: var(--ha-blue-light);
+  }
+
+  /* ── SVG Network Diagrams ── */
+  .svg-diagram { width: 100%; max-width: 700px; margin: 1rem 0; }
+  .node-glow { animation: glow 3s ease-in-out infinite; }
+  .node-pulse { animation: pulse 2.5s ease-in-out infinite; }
+  @keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:0.6; } }
+  @keyframes glow { 0%,100% { filter: drop-shadow(0 0 4px rgba(51,86,246,0.3)); } 50% { filter: drop-shadow(0 0 14px rgba(51,86,246,0.6)); } }
+  .svg-label { font-family: 'Plus Jakarta Sans', sans-serif; }
+  .svg-mono { font-family: 'Roboto Mono', monospace; }
 </style>
 </head>
 <body>
@@ -493,7 +515,7 @@
 <!-- Controls -->
 <div class="controls" id="controls">
   <button onclick="prev()" id="btnPrev" aria-label="Anterior">&#8592;</button>
-  <span class="slide-counter" id="counter">1 / 27</span>
+  <span class="slide-counter" id="counter">1 / 30</span>
   <button onclick="next()" id="btnNext" aria-label="Siguiente">&#8594;</button>
 </div>
 
@@ -504,13 +526,61 @@
 
 <!-- ── 0: COVER ── -->
 <div class="slide dark active" data-theme="dark">
-  <div style="max-width:650px">
-    <span style="font-family:var(--font-mono);font-size:.6rem;letter-spacing:.18em;text-transform:uppercase;color:var(--ha-blue-light)">Presentación ejecutiva &middot; Febrero 2026</span>
+  <!-- Background SVG constellation -->
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" style="position:absolute;right:0;top:0;width:55vw;height:100vh;opacity:0.08;pointer-events:none">
+    <!-- Nodes -->
+    <circle cx="300" cy="120" r="18" fill="rgba(255,255,255,0.6)"/>
+    <circle cx="420" cy="80" r="8" fill="rgba(255,255,255,0.4)"/>
+    <circle cx="480" cy="160" r="12" fill="rgba(255,255,255,0.5)"/>
+    <circle cx="520" cy="90" r="6" fill="rgba(255,255,255,0.3)"/>
+    <circle cx="350" cy="220" r="14" fill="rgba(255,255,255,0.5)"/>
+    <circle cx="200" cy="180" r="10" fill="rgba(255,255,255,0.4)"/>
+    <circle cx="150" cy="280" r="7" fill="rgba(255,255,255,0.3)"/>
+    <circle cx="260" cy="310" r="16" fill="rgba(255,255,255,0.5)"/>
+    <circle cx="440" cy="270" r="9" fill="rgba(255,255,255,0.4)"/>
+    <circle cx="500" cy="320" r="11" fill="rgba(255,255,255,0.45)"/>
+    <circle cx="380" cy="370" r="13" fill="rgba(255,255,255,0.5)"/>
+    <circle cx="180" cy="400" r="8" fill="rgba(255,255,255,0.35)"/>
+    <circle cx="300" cy="430" r="10" fill="rgba(255,255,255,0.4)"/>
+    <circle cx="460" cy="420" r="15" fill="rgba(255,255,255,0.5)"/>
+    <circle cx="540" cy="450" r="7" fill="rgba(255,255,255,0.3)"/>
+    <circle cx="120" cy="150" r="9" fill="rgba(255,255,255,0.35)"/>
+    <circle cx="100" cy="350" r="12" fill="rgba(255,255,255,0.4)"/>
+    <circle cx="220" cy="500" r="6" fill="rgba(255,255,255,0.3)"/>
+    <circle cx="400" cy="520" r="11" fill="rgba(255,255,255,0.45)"/>
+    <circle cx="520" cy="540" r="8" fill="rgba(255,255,255,0.35)"/>
+    <!-- Connections (curved paths) -->
+    <path d="M300,120 Q360,100 420,80" stroke="rgba(255,255,255,0.4)" stroke-width="1" fill="none"/>
+    <path d="M420,80 Q450,120 480,160" stroke="rgba(255,255,255,0.35)" stroke-width="1" fill="none"/>
+    <path d="M300,120 Q250,150 200,180" stroke="rgba(255,255,255,0.3)" stroke-width="1" fill="none"/>
+    <path d="M300,120 Q325,170 350,220" stroke="rgba(255,255,255,0.4)" stroke-width="1" fill="none"/>
+    <path d="M480,160 Q460,215 440,270" stroke="rgba(255,255,255,0.3)" stroke-width="1" fill="none"/>
+    <path d="M350,220 Q305,265 260,310" stroke="rgba(255,255,255,0.35)" stroke-width="1" fill="none"/>
+    <path d="M350,220 Q395,245 440,270" stroke="rgba(255,255,255,0.3)" stroke-width="1" fill="none"/>
+    <path d="M200,180 Q175,230 150,280" stroke="rgba(255,255,255,0.25)" stroke-width="1" fill="none"/>
+    <path d="M440,270 Q470,295 500,320" stroke="rgba(255,255,255,0.3)" stroke-width="1" fill="none"/>
+    <path d="M260,310 Q320,340 380,370" stroke="rgba(255,255,255,0.35)" stroke-width="1" fill="none"/>
+    <path d="M500,320 Q440,345 380,370" stroke="rgba(255,255,255,0.3)" stroke-width="1" fill="none"/>
+    <path d="M150,280 Q165,340 180,400" stroke="rgba(255,255,255,0.25)" stroke-width="1" fill="none"/>
+    <path d="M260,310 Q220,355 180,400" stroke="rgba(255,255,255,0.25)" stroke-width="1" fill="none"/>
+    <path d="M380,370 Q340,400 300,430" stroke="rgba(255,255,255,0.3)" stroke-width="1" fill="none"/>
+    <path d="M380,370 Q420,395 460,420" stroke="rgba(255,255,255,0.35)" stroke-width="1" fill="none"/>
+    <path d="M300,430 Q350,475 400,520" stroke="rgba(255,255,255,0.25)" stroke-width="1" fill="none"/>
+    <path d="M460,420 Q500,435 540,450" stroke="rgba(255,255,255,0.25)" stroke-width="1" fill="none"/>
+    <path d="M120,150 Q160,165 200,180" stroke="rgba(255,255,255,0.25)" stroke-width="1" fill="none"/>
+    <path d="M100,350 Q140,375 180,400" stroke="rgba(255,255,255,0.25)" stroke-width="1" fill="none"/>
+    <path d="M180,400 Q200,450 220,500" stroke="rgba(255,255,255,0.2)" stroke-width="1" fill="none"/>
+    <path d="M460,420 Q490,480 520,540" stroke="rgba(255,255,255,0.2)" stroke-width="1" fill="none"/>
+    <path d="M520,90 Q500,125 480,160" stroke="rgba(255,255,255,0.25)" stroke-width="1" fill="none"/>
+    <path d="M400,520 Q460,530 520,540" stroke="rgba(255,255,255,0.2)" stroke-width="1" fill="none"/>
+  </svg>
+  <div style="max-width:650px;position:relative;z-index:1">
+    <span style="font-family:var(--font-mono);font-size:.6rem;letter-spacing:.18em;text-transform:uppercase;color:var(--ha-blue-light)">Presentaci&oacute;n ejecutiva &middot; Febrero 2026</span>
     <div class="blue-line" style="margin-top:1.25rem"></div>
     <h1 style="font-size:3.4rem;margin-bottom:.6rem">Tec Beyond</h1>
-    <p class="lead" style="margin-bottom:0">Plataforma de inteligencia colectiva para la comunidad de líderes empresariales del Tecnológico de Monterrey.</p>
+    <p class="lead" style="margin-bottom:0">Plataforma de inteligencia colectiva para la comunidad de l&iacute;deres empresariales del Tecnol&oacute;gico de Monterrey.</p>
     <div class="meta-row">
-      <div><strong>Para:</strong> Comité de IA &middot; Consejo Campus León</div>
+      <div><strong>Para:</strong> Comit&eacute; de IA &middot; Consejo Campus Le&oacute;n</div>
       <div><strong>De:</strong> Horizons Architecture</div>
     </div>
   </div>
@@ -520,7 +590,7 @@
 <div class="slide dark" data-theme="dark">
   <span class="sec-num">01</span>
   <h2>La oportunidad</h2>
-  <p class="lead">Tec Beyond lleva 10 años formando líderes empresariales. La red existe. Lo que falta es activarla.</p>
+  <p class="lead">Tec Beyond lleva 10 a&ntilde;os formando l&iacute;deres empresariales. La red existe. Lo que falta es activarla.</p>
   <div class="metrics">
     <div class="metric">
       <div class="val">9</div>
@@ -539,63 +609,233 @@
       <div class="lbl">Campus activos</div>
     </div>
   </div>
-  <p>Cada generación agrega relaciones, conocimientos e industrias. Pero una vez que el programa termina, la red se vuelve pasiva. Nueve generaciones con capacidades complementarias &mdash; y ningún sistema que las conecte.</p>
+  <p>Cada generaci&oacute;n agrega relaciones, conocimientos e industrias. Pero una vez que el programa termina, la red se vuelve pasiva. Nueve generaciones con capacidades complementarias &mdash; y ning&uacute;n sistema que las conecte.</p>
 </div>
 
-<!-- ── 2: 10 AÑOS DE APRENDIZAJES ── -->
-<div class="slide light" data-theme="light">
+<!-- ── 2: GENERACIONES COMO ORGANISMO ── -->
+<div class="slide dark" data-theme="dark">
   <span class="sec-num">01.1</span>
-  <h2>10 años de aprendizajes</h2>
-  <p class="lead">Lo que sabemos después de 9 generaciones formando líderes empresariales.</p>
-  <div class="cards">
+  <h2>10 a&ntilde;os de aprendizajes</h2>
+  <p class="lead">Lo que sabemos despu&eacute;s de 9 generaciones formando l&iacute;deres empresariales.</p>
+
+  <!-- SVG: Organic network of generations -->
+  <svg class="svg-diagram" viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg">
+    <!-- Cross-connections between generations (thinner, lower opacity) -->
+    <path d="M220,160 Q260,120 310,135" stroke="rgba(91,122,248,0.1)" stroke-width="0.8" fill="none"/>
+    <path d="M250,260 Q300,310 370,300" stroke="rgba(91,122,248,0.1)" stroke-width="0.8" fill="none"/>
+    <path d="M430,110 Q460,160 470,220" stroke="rgba(91,122,248,0.1)" stroke-width="0.8" fill="none"/>
+    <path d="M310,135 Q380,120 430,110" stroke="rgba(91,122,248,0.08)" stroke-width="0.8" fill="none"/>
+    <path d="M250,260 Q200,210 220,160" stroke="rgba(91,122,248,0.08)" stroke-width="0.8" fill="none"/>
+    <path d="M470,220 Q450,270 420,310" stroke="rgba(91,122,248,0.08)" stroke-width="0.8" fill="none"/>
+    <path d="M180,310 Q220,340 290,350" stroke="rgba(91,122,248,0.08)" stroke-width="0.8" fill="none"/>
+
+    <!-- Connections from each generation to center (curved bezier paths) -->
+    <path d="M220,160 Q280,170 350,200" stroke="rgba(91,122,248,0.2)" stroke-width="1.2" fill="none"/>
+    <path d="M310,135 Q330,165 350,200" stroke="rgba(91,122,248,0.2)" stroke-width="1.2" fill="none"/>
+    <path d="M430,110 Q400,150 350,200" stroke="rgba(91,122,248,0.2)" stroke-width="1.2" fill="none"/>
+    <path d="M500,170 Q430,180 350,200" stroke="rgba(91,122,248,0.2)" stroke-width="1.2" fill="none"/>
+    <path d="M510,260 Q440,240 350,200" stroke="rgba(91,122,248,0.2)" stroke-width="1.2" fill="none"/>
+    <path d="M180,310 Q250,260 350,200" stroke="rgba(91,122,248,0.2)" stroke-width="1.2" fill="none"/>
+    <path d="M250,260 Q290,240 350,200" stroke="rgba(91,122,248,0.2)" stroke-width="1.2" fill="none"/>
+    <path d="M370,300 Q360,250 350,200" stroke="rgba(91,122,248,0.2)" stroke-width="1.2" fill="none"/>
+    <path d="M290,350 Q310,280 350,200" stroke="rgba(91,122,248,0.2)" stroke-width="1.2" fill="none"/>
+
+    <!-- Future generation connections (dashed) -->
+    <path d="M580,140 Q470,160 350,200" stroke="rgba(91,122,248,0.1)" stroke-width="1" fill="none" stroke-dasharray="4,4"/>
+    <path d="M560,330 Q460,270 350,200" stroke="rgba(91,122,248,0.1)" stroke-width="1" fill="none" stroke-dasharray="4,4"/>
+
+    <!-- Generation nodes -->
+    <circle cx="220" cy="160" r="14" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <text x="220" y="164" text-anchor="middle" class="svg-mono" font-size="9" fill="rgba(255,255,255,0.5)">G1</text>
+
+    <circle cx="310" cy="135" r="14" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <text x="310" y="139" text-anchor="middle" class="svg-mono" font-size="9" fill="rgba(255,255,255,0.5)">G2</text>
+
+    <circle cx="430" cy="110" r="14" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <text x="430" y="114" text-anchor="middle" class="svg-mono" font-size="9" fill="rgba(255,255,255,0.5)">G3</text>
+
+    <circle cx="500" cy="170" r="14" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <text x="500" y="174" text-anchor="middle" class="svg-mono" font-size="9" fill="rgba(255,255,255,0.5)">G4</text>
+
+    <circle cx="510" cy="260" r="14" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <text x="510" y="264" text-anchor="middle" class="svg-mono" font-size="9" fill="rgba(255,255,255,0.5)">G5</text>
+
+    <!-- G6 = largest generation -->
+    <circle cx="250" cy="260" r="18" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.3)" stroke-width="1.2" class="node-pulse"/>
+    <text x="250" y="264" text-anchor="middle" class="svg-mono" font-size="10" fill="rgba(255,255,255,0.6)" font-weight="500">G6</text>
+
+    <circle cx="180" cy="310" r="14" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <text x="180" y="314" text-anchor="middle" class="svg-mono" font-size="9" fill="rgba(255,255,255,0.5)">G7</text>
+
+    <circle cx="370" cy="300" r="14" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <text x="370" y="304" text-anchor="middle" class="svg-mono" font-size="9" fill="rgba(255,255,255,0.5)">G8</text>
+
+    <circle cx="290" cy="350" r="14" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <text x="290" y="354" text-anchor="middle" class="svg-mono" font-size="9" fill="rgba(255,255,255,0.5)">G9</text>
+
+    <!-- Future generation nodes (dashed outlines) -->
+    <circle cx="580" cy="140" r="12" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1" stroke-dasharray="3,3"/>
+    <text x="580" y="144" text-anchor="middle" class="svg-mono" font-size="8" fill="rgba(255,255,255,0.2)">G10</text>
+
+    <circle cx="560" cy="330" r="12" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1" stroke-dasharray="3,3"/>
+    <text x="560" y="334" text-anchor="middle" class="svg-mono" font-size="8" fill="rgba(255,255,255,0.2)">G11</text>
+
+    <!-- Center node: ADN -->
+    <circle cx="350" cy="200" r="28" fill="#3356F6" stroke="none" class="node-glow"/>
+    <text x="350" y="196" text-anchor="middle" class="svg-label" font-size="12" fill="white" font-weight="700">ADN</text>
+    <text x="350" y="210" text-anchor="middle" class="svg-mono" font-size="7" fill="rgba(255,255,255,0.6)">Beyond</text>
+  </svg>
+
+  <!-- 4 learning cards -->
+  <div class="cards" style="margin-top:.5rem">
     <div class="crd">
       <div class="badge">Hallazgo 1</div>
       <h4>El 80% busca oportunidades de negocio</h4>
-      <p>La innovación es el vehículo, pero el valor percibido está en la comunidad y las conexiones comerciales.</p>
+      <p>La innovaci&oacute;n es el veh&iacute;culo, pero el valor percibido est&aacute; en la comunidad y las conexiones comerciales.</p>
     </div>
     <div class="crd">
       <div class="badge">Hallazgo 2</div>
-      <h4>Los momentos importan más que el contenido</h4>
-      <p>Rituales, experiencias compartidas y sesiones presenciales generan vínculos más fuertes que cualquier curso.</p>
+      <h4>Los momentos importan m&aacute;s que el contenido</h4>
+      <p>Rituales, experiencias compartidas y sesiones presenciales generan v&iacute;nculos m&aacute;s fuertes que cualquier curso.</p>
     </div>
     <div class="crd">
       <div class="badge">Hallazgo 3</div>
-      <h4>Las células multiplican el impacto</h4>
+      <h4>Las c&eacute;lulas multiplican el impacto</h4>
       <p>Cuando los empleados participan (no solo el ejecutivo), el efecto se propaga a toda la empresa.</p>
     </div>
     <div class="crd">
       <div class="badge">Hallazgo 4</div>
-      <h4>Las redes se enfrían sin sistema activo</h4>
-      <p>Sin mecanismo de activación, las generaciones graduadas pierden contacto. Este es el problema central.</p>
+      <h4>Las redes se enfr&iacute;an sin sistema activo</h4>
+      <p>Sin mecanismo de activaci&oacute;n, las generaciones graduadas pierden contacto. Este es el problema central.</p>
     </div>
   </div>
 </div>
 
-<!-- ── 3: PLATAFORMA CERO ── -->
+<!-- ── 3: NO EXISTE PLATAFORMA DIGITAL ── -->
 <div class="slide dark" data-theme="dark">
-  <div style="max-width:600px">
+  <div style="max-width:700px">
     <span class="sec-num">01.2</span>
     <h2>No existe plataforma digital</h2>
     <p class="lead">Hoy toda la red opera de manera informal. No hay sistema que conecte generaciones, perfiles o industrias.</p>
+
+    <!-- SVG: Disconnected clusters drifting apart -->
+    <svg class="svg-diagram" viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg">
+      <!-- Fading inter-cluster connections -->
+      <line x1="110" y1="65" x2="200" y2="55" stroke="rgba(91,122,248,0.06)" stroke-width="0.8" stroke-dasharray="3,4"/>
+      <line x1="120" y1="80" x2="310" y2="120" stroke="rgba(91,122,248,0.04)" stroke-width="0.6" stroke-dasharray="4,6"/>
+      <line x1="230" y1="60" x2="315" y2="95" stroke="rgba(91,122,248,0.05)" stroke-width="0.7" stroke-dasharray="3,5"/>
+      <line x1="345" y1="110" x2="460" y2="60" stroke="rgba(91,122,248,0.04)" stroke-width="0.6" stroke-dasharray="4,6"/>
+      <line x1="465" y1="80" x2="560" y2="140" stroke="rgba(91,122,248,0.03)" stroke-width="0.5" stroke-dasharray="5,7"/>
+      <line x1="140" y1="190" x2="280" y2="200" stroke="rgba(91,122,248,0.04)" stroke-width="0.6" stroke-dasharray="4,6"/>
+      <line x1="320" y1="210" x2="430" y2="195" stroke="rgba(91,122,248,0.03)" stroke-width="0.5" stroke-dasharray="5,7"/>
+      <line x1="460" y1="200" x2="545" y2="230" stroke="rgba(91,122,248,0.03)" stroke-width="0.5" stroke-dasharray="5,8"/>
+      <line x1="160" y1="265" x2="350" y2="270" stroke="rgba(91,122,248,0.02)" stroke-width="0.5" stroke-dasharray="6,8"/>
+
+      <!-- Cluster 1 (G1) — top-left -->
+      <circle cx="80" cy="60" r="5" fill="rgba(255,255,255,0.15)"/>
+      <circle cx="100" cy="75" r="6" fill="rgba(255,255,255,0.18)"/>
+      <circle cx="120" cy="55" r="4" fill="rgba(255,255,255,0.12)"/>
+      <line x1="80" y1="60" x2="100" y2="75" stroke="rgba(255,255,255,0.12)" stroke-width="0.8"/>
+      <line x1="100" y1="75" x2="120" y2="55" stroke="rgba(255,255,255,0.1)" stroke-width="0.8"/>
+      <text x="95" y="95" text-anchor="middle" class="svg-mono" font-size="7" fill="rgba(255,255,255,0.2)">G1</text>
+
+      <!-- Cluster 2 (G2) — top -->
+      <circle cx="200" cy="45" r="5" fill="rgba(255,255,255,0.15)"/>
+      <circle cx="220" cy="60" r="6" fill="rgba(255,255,255,0.18)"/>
+      <circle cx="240" cy="42" r="4" fill="rgba(255,255,255,0.12)"/>
+      <circle cx="215" cy="35" r="3.5" fill="rgba(255,255,255,0.1)"/>
+      <line x1="200" y1="45" x2="220" y2="60" stroke="rgba(255,255,255,0.12)" stroke-width="0.8"/>
+      <line x1="220" y1="60" x2="240" y2="42" stroke="rgba(255,255,255,0.1)" stroke-width="0.8"/>
+      <line x1="200" y1="45" x2="215" y2="35" stroke="rgba(255,255,255,0.08)" stroke-width="0.7"/>
+      <text x="218" y="78" text-anchor="middle" class="svg-mono" font-size="7" fill="rgba(255,255,255,0.2)">G2</text>
+
+      <!-- Cluster 3 (G3) — top-center -->
+      <circle cx="310" cy="100" r="6" fill="rgba(255,255,255,0.18)"/>
+      <circle cx="335" cy="110" r="5" fill="rgba(255,255,255,0.15)"/>
+      <circle cx="320" cy="125" r="4.5" fill="rgba(255,255,255,0.13)"/>
+      <line x1="310" y1="100" x2="335" y2="110" stroke="rgba(255,255,255,0.12)" stroke-width="0.8"/>
+      <line x1="335" y1="110" x2="320" y2="125" stroke="rgba(255,255,255,0.1)" stroke-width="0.8"/>
+      <line x1="310" y1="100" x2="320" y2="125" stroke="rgba(255,255,255,0.08)" stroke-width="0.7"/>
+      <text x="322" y="143" text-anchor="middle" class="svg-mono" font-size="7" fill="rgba(255,255,255,0.2)">G3</text>
+
+      <!-- Cluster 4 (G4) — top-right -->
+      <circle cx="450" cy="50" r="5" fill="rgba(255,255,255,0.15)"/>
+      <circle cx="470" cy="65" r="6" fill="rgba(255,255,255,0.18)"/>
+      <circle cx="490" cy="48" r="4" fill="rgba(255,255,255,0.12)"/>
+      <circle cx="460" cy="78" r="3.5" fill="rgba(255,255,255,0.1)"/>
+      <circle cx="485" cy="75" r="4" fill="rgba(255,255,255,0.12)"/>
+      <line x1="450" y1="50" x2="470" y2="65" stroke="rgba(255,255,255,0.12)" stroke-width="0.8"/>
+      <line x1="470" y1="65" x2="490" y2="48" stroke="rgba(255,255,255,0.1)" stroke-width="0.8"/>
+      <line x1="470" y1="65" x2="460" y2="78" stroke="rgba(255,255,255,0.08)" stroke-width="0.7"/>
+      <line x1="470" y1="65" x2="485" y2="75" stroke="rgba(255,255,255,0.08)" stroke-width="0.7"/>
+      <text x="470" y="95" text-anchor="middle" class="svg-mono" font-size="7" fill="rgba(255,255,255,0.2)">G4</text>
+
+      <!-- Cluster 5 (G5) — right -->
+      <circle cx="570" cy="130" r="5" fill="rgba(255,255,255,0.15)"/>
+      <circle cx="590" cy="148" r="6" fill="rgba(255,255,255,0.18)"/>
+      <circle cx="560" cy="155" r="4.5" fill="rgba(255,255,255,0.13)"/>
+      <line x1="570" y1="130" x2="590" y2="148" stroke="rgba(255,255,255,0.12)" stroke-width="0.8"/>
+      <line x1="590" y1="148" x2="560" y2="155" stroke="rgba(255,255,255,0.1)" stroke-width="0.8"/>
+      <text x="575" y="172" text-anchor="middle" class="svg-mono" font-size="7" fill="rgba(255,255,255,0.2)">G5</text>
+
+      <!-- Cluster 6 (G6) — mid-left -->
+      <circle cx="110" cy="185" r="6" fill="rgba(255,255,255,0.18)"/>
+      <circle cx="135" cy="195" r="5" fill="rgba(255,255,255,0.15)"/>
+      <circle cx="120" cy="210" r="4.5" fill="rgba(255,255,255,0.13)"/>
+      <circle cx="145" cy="215" r="3.5" fill="rgba(255,255,255,0.1)"/>
+      <line x1="110" y1="185" x2="135" y2="195" stroke="rgba(255,255,255,0.12)" stroke-width="0.8"/>
+      <line x1="135" y1="195" x2="120" y2="210" stroke="rgba(255,255,255,0.1)" stroke-width="0.8"/>
+      <line x1="135" y1="195" x2="145" y2="215" stroke="rgba(255,255,255,0.08)" stroke-width="0.7"/>
+      <text x="127" y="232" text-anchor="middle" class="svg-mono" font-size="7" fill="rgba(255,255,255,0.2)">G6</text>
+
+      <!-- Cluster 7 (G7) — center -->
+      <circle cx="290" cy="195" r="5" fill="rgba(255,255,255,0.15)"/>
+      <circle cx="310" cy="210" r="6" fill="rgba(255,255,255,0.18)"/>
+      <circle cx="295" cy="225" r="4" fill="rgba(255,255,255,0.12)"/>
+      <line x1="290" y1="195" x2="310" y2="210" stroke="rgba(255,255,255,0.12)" stroke-width="0.8"/>
+      <line x1="310" y1="210" x2="295" y2="225" stroke="rgba(255,255,255,0.1)" stroke-width="0.8"/>
+      <text x="300" y="242" text-anchor="middle" class="svg-mono" font-size="7" fill="rgba(255,255,255,0.2)">G7</text>
+
+      <!-- Cluster 8 (G8) — mid-right -->
+      <circle cx="435" cy="188" r="5" fill="rgba(255,255,255,0.15)"/>
+      <circle cx="455" cy="200" r="6" fill="rgba(255,255,255,0.18)"/>
+      <circle cx="440" cy="215" r="4.5" fill="rgba(255,255,255,0.13)"/>
+      <circle cx="468" cy="218" r="3.5" fill="rgba(255,255,255,0.1)"/>
+      <line x1="435" y1="188" x2="455" y2="200" stroke="rgba(255,255,255,0.12)" stroke-width="0.8"/>
+      <line x1="455" y1="200" x2="440" y2="215" stroke="rgba(255,255,255,0.1)" stroke-width="0.8"/>
+      <line x1="455" y1="200" x2="468" y2="218" stroke="rgba(255,255,255,0.08)" stroke-width="0.7"/>
+      <text x="450" y="235" text-anchor="middle" class="svg-mono" font-size="7" fill="rgba(255,255,255,0.2)">G8</text>
+
+      <!-- Cluster 9 (G9) — bottom-right -->
+      <circle cx="545" cy="225" r="5" fill="rgba(255,255,255,0.15)"/>
+      <circle cx="565" cy="240" r="6" fill="rgba(255,255,255,0.18)"/>
+      <circle cx="550" cy="258" r="4" fill="rgba(255,255,255,0.12)"/>
+      <circle cx="580" cy="255" r="3.5" fill="rgba(255,255,255,0.1)"/>
+      <line x1="545" y1="225" x2="565" y2="240" stroke="rgba(255,255,255,0.12)" stroke-width="0.8"/>
+      <line x1="565" y1="240" x2="550" y2="258" stroke="rgba(255,255,255,0.1)" stroke-width="0.8"/>
+      <line x1="565" y1="240" x2="580" y2="255" stroke="rgba(255,255,255,0.08)" stroke-width="0.7"/>
+      <text x="560" y="275" text-anchor="middle" class="svg-mono" font-size="7" fill="rgba(255,255,255,0.2)">G9</text>
+    </svg>
+
     <div class="callout">
-      <p><strong>Construir esta red tomó 10 años de credibilidad institucional.</strong> Es un activo irrepetible. Sin sistema de activación, su valor se pierde con cada generación que egresa.</p>
+      <p><strong>Construir esta red tom&oacute; 10 a&ntilde;os de credibilidad institucional.</strong> Es un activo irrepetible. Sin sistema de activaci&oacute;n, su valor se pierde con cada generaci&oacute;n que egresa.</p>
     </div>
     <p style="margin-top:1rem">No hay plataforma competidora que reemplazar. Es una hoja en blanco para construir correctamente.</p>
   </div>
 </div>
 
-<!-- ── 4: LA PREGUNTA ── -->
+<!-- ── 4: LA PREGUNTA CENTRAL ── -->
 <div class="slide blue" data-theme="blue">
   <div style="max-width:600px">
     <span class="sec-num">01.3</span>
-    <h2 style="font-size:1.8rem;color:var(--white)">&iquest;Cómo convertir una comunidad de 350 empresarios en una red que genera valor de forma continua, escalable y medible?</h2>
+    <h2 style="font-size:1.8rem;color:var(--white)">&iquest;C&oacute;mo convertir una comunidad de 350 empresarios en una red que genera valor de forma continua, escalable y medible?</h2>
   </div>
 </div>
 
-<!-- ── 3: QUÉ SE PROPONE ── -->
+<!-- ── 5: QUÉ SE PROPONE ── -->
 <div class="slide dark" data-theme="dark">
   <span class="sec-num">02</span>
-  <h2>Qué se propone</h2>
+  <h2>Qu&eacute; se propone</h2>
   <p class="lead">Una plataforma de inteligencia colectiva que activa la red de forma permanente.</p>
   <div class="flow">
     <div class="flow-box on">Conectar</div>
@@ -605,572 +845,398 @@
     <div class="flow-box on">Escalar</div>
   </div>
   <p style="margin-top:1rem"><strong>Conectar:</strong> IA facilita conexiones de negocio entre miembros de distintas generaciones y campus.</p>
-  <p><strong>Aprender:</strong> Contenido personalizado según perfil, industria y etapa de cada miembro.</p>
+  <p><strong>Aprender:</strong> Contenido personalizado seg&uacute;n perfil, industria y etapa de cada miembro.</p>
   <p><strong>Escalar:</strong> Arquitectura fractal &mdash; la misma estructura se replica a cualquier campus sin reconstruir.</p>
-  <p style="margin-top:.5rem;font-size:.82rem;color:rgba(255,255,255,.4)">No es un CRM. Es una base de conocimiento semántica con agentes de IA que ejecutan procesos.</p>
+  <p style="margin-top:.5rem;font-size:.82rem;color:rgba(255,255,255,.4)">No es un CRM. Es una base de conocimiento sem&aacute;ntica con agentes de IA que ejecutan procesos.</p>
 </div>
 
-<!-- ── 4: AGENTES ── -->
+<!-- ── 6: BASE DE CONOCIMIENTO ── -->
+<div class="slide dark" data-theme="dark">
+  <span class="sec-num">02.1</span>
+  <h2>La base de conocimiento</h2>
+  <p class="lead">Toda la informaci&oacute;n de todas las generaciones se vierte en un sistema que entiende relaciones.</p>
+  <svg class="svg-diagram" viewBox="0 0 700 380">
+    <defs>
+      <filter id="glowKb" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="6" result="blur"/>
+        <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+      </filter>
+    </defs>
+    <circle cx="110" cy="42" r="6" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <text x="110" y="62" text-anchor="middle" class="svg-mono" fill="rgba(255,255,255,0.4)" font-size="7">G1</text>
+    <circle cx="170" cy="30" r="6" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <text x="170" y="50" text-anchor="middle" class="svg-mono" fill="rgba(255,255,255,0.4)" font-size="7">G2</text>
+    <circle cx="230" cy="24" r="6" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <text x="230" y="44" text-anchor="middle" class="svg-mono" fill="rgba(255,255,255,0.4)" font-size="7">G3</text>
+    <circle cx="290" cy="20" r="6" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <text x="290" y="40" text-anchor="middle" class="svg-mono" fill="rgba(255,255,255,0.4)" font-size="7">G4</text>
+    <circle cx="350" cy="18" r="6" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <text x="350" y="38" text-anchor="middle" class="svg-mono" fill="rgba(255,255,255,0.4)" font-size="7">G5</text>
+    <circle cx="410" cy="20" r="6" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <text x="410" y="40" text-anchor="middle" class="svg-mono" fill="rgba(255,255,255,0.4)" font-size="7">G6</text>
+    <circle cx="470" cy="24" r="6" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <text x="470" y="44" text-anchor="middle" class="svg-mono" fill="rgba(255,255,255,0.4)" font-size="7">G7</text>
+    <circle cx="530" cy="30" r="6" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <text x="530" y="50" text-anchor="middle" class="svg-mono" fill="rgba(255,255,255,0.4)" font-size="7">G8</text>
+    <circle cx="590" cy="42" r="6" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <text x="590" y="62" text-anchor="middle" class="svg-mono" fill="rgba(255,255,255,0.4)" font-size="7">G9</text>
+    <path d="M 110,48 Q 130,120 350,180" fill="none" stroke="rgba(91,122,248,0.25)" stroke-width="1.5"/>
+    <path d="M 170,36 Q 200,110 350,180" fill="none" stroke="rgba(91,122,248,0.25)" stroke-width="1.5"/>
+    <path d="M 230,30 Q 260,105 350,180" fill="none" stroke="rgba(91,122,248,0.25)" stroke-width="1.5"/>
+    <path d="M 290,26 Q 310,100 350,180" fill="none" stroke="rgba(91,122,248,0.25)" stroke-width="1.5"/>
+    <path d="M 350,24 Q 350,95 350,180" fill="none" stroke="rgba(91,122,248,0.25)" stroke-width="1.5"/>
+    <path d="M 410,26 Q 390,100 350,180" fill="none" stroke="rgba(91,122,248,0.25)" stroke-width="1.5"/>
+    <path d="M 470,30 Q 440,105 350,180" fill="none" stroke="rgba(91,122,248,0.25)" stroke-width="1.5"/>
+    <path d="M 530,36 Q 500,110 350,180" fill="none" stroke="rgba(91,122,248,0.25)" stroke-width="1.5"/>
+    <path d="M 590,48 Q 570,120 350,180" fill="none" stroke="rgba(91,122,248,0.25)" stroke-width="1.5"/>
+    <circle cx="350" cy="180" r="32" fill="#3356F6" class="node-glow" filter="url(#glowKb)"/>
+    <text x="350" y="175" text-anchor="middle" class="svg-label" fill="#FFF" font-size="9" font-weight="600">Base de</text>
+    <text x="350" y="188" text-anchor="middle" class="svg-label" fill="#FFF" font-size="9" font-weight="600">Conocimiento</text>
+    <path d="M 330,210 Q 260,270 140,320" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+    <path d="M 340,212 Q 310,270 280,320" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+    <path d="M 360,212 Q 390,270 420,320" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+    <path d="M 370,210 Q 440,270 560,320" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+    <circle cx="140" cy="320" r="16" fill="#3356F6" opacity="0.85"/>
+    <text x="140" y="324" text-anchor="middle" class="svg-label" fill="#FFF" font-size="8" font-weight="600">Match</text>
+    <text x="140" y="350" text-anchor="middle" class="svg-mono" fill="rgba(255,255,255,0.45)" font-size="7">Conexiones</text>
+    <circle cx="280" cy="320" r="16" fill="#5B7AF8" opacity="0.85"/>
+    <text x="280" y="324" text-anchor="middle" class="svg-label" fill="#FFF" font-size="8" font-weight="600">Contenidos</text>
+    <text x="280" y="350" text-anchor="middle" class="svg-mono" fill="rgba(255,255,255,0.45)" font-size="7">Contenido</text>
+    <circle cx="420" cy="320" r="16" fill="#5B7AF8" opacity="0.85"/>
+    <text x="420" y="324" text-anchor="middle" class="svg-label" fill="#FFF" font-size="8" font-weight="600">Scout</text>
+    <text x="420" y="350" text-anchor="middle" class="svg-mono" fill="rgba(255,255,255,0.45)" font-size="7">Candidatos</text>
+    <circle cx="560" cy="320" r="16" fill="#3356F6" opacity="0.85"/>
+    <text x="560" y="324" text-anchor="middle" class="svg-label" fill="#FFF" font-size="8" font-weight="600">Insights</text>
+    <text x="560" y="350" text-anchor="middle" class="svg-mono" fill="rgba(255,255,255,0.45)" font-size="7">Inteligencia</text>
+  </svg>
+</div>
+
+<!-- ── 7: LOS 4 AGENTES ── -->
 <div class="slide light" data-theme="light">
   <span class="sec-num">03</span>
   <h2>Los 4 agentes de inteligencia</h2>
   <p class="lead">Cada agente genera un tipo de valor. Juntos, forman un ciclo que se fortalece con cada vuelta.</p>
   <div class="cards">
-    <div class="crd">
-      <div class="badge">Core</div>
-      <h4>Match &mdash; El conector</h4>
-      <p>Oportunidades de negocio entre miembros. Matching anonimizado con consentimiento bilateral.</p>
-    </div>
-    <div class="crd">
-      <div class="badge">Contenido</div>
-      <h4>Contenidos &mdash; El curador</h4>
-      <p>Capacitación personalizada según perfil. Alimenta la oferta de Educación Continua.</p>
-    </div>
-    <div class="crd">
-      <div class="badge">Crecimiento</div>
-      <h4>Scout &mdash; El cazatalentos</h4>
-      <p>Detecta candidatos para futuras generaciones desde las redes de miembros actuales.</p>
-    </div>
-    <div class="crd">
-      <div class="badge">Estrategia</div>
-      <h4>Insights &mdash; El estratega</h4>
-      <p>Inteligencia para el Consejo: tendencias, clusters, patrones. Decidir con evidencia.</p>
-    </div>
+    <div class="crd"><span class="badge">Core</span><h4>Match</h4><p>Oportunidades de negocio entre miembros. Matching anonimizado con consentimiento bilateral.</p></div>
+    <div class="crd"><span class="badge">Contenido</span><h4>Contenidos</h4><p>Capacitaci&oacute;n personalizada seg&uacute;n perfil. Alimenta la oferta de Educaci&oacute;n Continua.</p></div>
+    <div class="crd"><span class="badge">Crecimiento</span><h4>Scout</h4><p>Detecta candidatos para futuras generaciones desde las redes de miembros actuales.</p></div>
+    <div class="crd"><span class="badge">Estrategia</span><h4>Insights</h4><p>Inteligencia para el Consejo: tendencias, clusters, patrones. Decidir con evidencia.</p></div>
   </div>
 </div>
 
-<!-- ── 5: CICLO ── -->
+<!-- ── 8: MATCHING ANONIMIZADO ── -->
 <div class="slide dark" data-theme="dark">
   <span class="sec-num">03.1</span>
-  <h2>Ciclo de refuerzo</h2>
-  <p class="lead">Los agentes no operan aislados. Se alimentan entre sí.</p>
-  <div class="flow" style="flex-wrap:wrap;justify-content:flex-start;max-width:700px">
-    <div class="flow-box on">Match</div>
-    <div class="flow-arr">&rarr;</div>
-    <div class="flow-box" style="background:rgba(255,255,255,.06);color:rgba(255,255,255,.7);border:1px solid rgba(255,255,255,.1)">Conexión detectada</div>
-    <div class="flow-arr">&rarr;</div>
-    <div class="flow-box on">Contenidos</div>
-    <div class="flow-arr">&rarr;</div>
-    <div class="flow-box" style="background:rgba(255,255,255,.06);color:rgba(255,255,255,.7);border:1px solid rgba(255,255,255,.1)">Gap identificado</div>
-    <div class="flow-arr">&rarr;</div>
-    <div class="flow-box on">Insights</div>
-    <div class="flow-arr">&rarr;</div>
-    <div class="flow-box" style="background:rgba(255,255,255,.06);color:rgba(255,255,255,.7);border:1px solid rgba(255,255,255,.1)">Cluster emergente</div>
-    <div class="flow-arr">&rarr;</div>
-    <div class="flow-box on">Scout</div>
-    <div class="flow-arr">&#8635;</div>
-  </div>
-  <div class="callout" style="margin-top:1.5rem">
-    <p>Cada vuelta fortalece a toda la red. El Consejo decide con evidencia. La nueva generación es más fuerte. El ciclo continúa.</p>
-  </div>
+  <h2>Matching anonimizado</h2>
+  <p class="lead">El agente analiza toda la red, identifica complementariedades y propone conexiones. Nadie ve datos hasta que ambos aceptan.</p>
+  <svg class="svg-diagram" viewBox="0 0 700 350">
+    <defs><filter id="glowMatch" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="blur"/><feComposite in="SourceGraphic" in2="blur" operator="over"/></filter></defs>
+    <text x="120" y="68" text-anchor="middle" class="svg-label" fill="rgba(255,255,255,0.5)" font-size="10" font-weight="600">Le&oacute;n</text>
+    <circle cx="95" cy="95" r="5" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/><circle cx="140" cy="88" r="5" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/><circle cx="110" cy="120" r="5" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/><circle cx="145" cy="118" r="5" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <path d="M 95,100 Q 180,140 350,170" fill="none" stroke="rgba(91,122,248,0.3)" stroke-width="1.5" stroke-dasharray="4,3"/><path d="M 140,93 Q 220,130 350,170" fill="none" stroke="rgba(91,122,248,0.3)" stroke-width="1.5" stroke-dasharray="4,3"/><path d="M 110,125 Q 200,155 350,170" fill="none" stroke="rgba(91,122,248,0.3)" stroke-width="1.5" stroke-dasharray="4,3"/><path d="M 145,123 Q 220,150 350,170" fill="none" stroke="rgba(91,122,248,0.3)" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <text x="500" y="42" text-anchor="middle" class="svg-label" fill="rgba(255,255,255,0.5)" font-size="10" font-weight="600">Morelia</text>
+    <circle cx="480" cy="62" r="5" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/><circle cx="520" cy="58" r="5" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/><circle cx="500" cy="82" r="5" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <path d="M 480,67 Q 430,120 350,170" fill="none" stroke="rgba(91,122,248,0.3)" stroke-width="1.5" stroke-dasharray="4,3"/><path d="M 520,63 Q 450,115 350,170" fill="none" stroke="rgba(91,122,248,0.3)" stroke-width="1.5" stroke-dasharray="4,3"/><path d="M 500,87 Q 440,130 350,170" fill="none" stroke="rgba(91,122,248,0.3)" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <text x="520" y="205" text-anchor="middle" class="svg-label" fill="rgba(255,255,255,0.5)" font-size="10" font-weight="600">Chihuahua</text>
+    <circle cx="500" cy="225" r="5" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/><circle cx="540" cy="220" r="5" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/><circle cx="520" cy="248" r="5" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <path d="M 500,220 Q 440,195 350,170" fill="none" stroke="rgba(91,122,248,0.3)" stroke-width="1.5" stroke-dasharray="4,3"/><path d="M 540,215 Q 460,190 350,170" fill="none" stroke="rgba(91,122,248,0.3)" stroke-width="1.5" stroke-dasharray="4,3"/><path d="M 520,243 Q 450,210 350,170" fill="none" stroke="rgba(91,122,248,0.3)" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <circle cx="350" cy="170" r="24" fill="#3356F6" class="node-pulse" filter="url(#glowMatch)"/>
+    <text x="350" y="174" text-anchor="middle" class="svg-label" fill="#FFF" font-size="11" font-weight="700">Match</text>
+    <path d="M 370,190 Q 420,260 500,310" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
+    <circle cx="500" cy="310" r="14" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+    <text x="500" y="314" text-anchor="middle" class="svg-label" fill="rgba(255,255,255,0.7)" font-size="8">&iquest;Conectar?</text>
+    <text x="460" y="278" text-anchor="middle" class="svg-mono" fill="rgba(91,122,248,0.5)" font-size="7">#217 manufactura &harr; #478 distribuci&oacute;n</text>
+  </svg>
+  <p style="opacity:0.55;font-size:0.85rem;margin-top:0.8rem;">Sin consentimiento mutuo &rarr; nadie sabe nada. Con consentimiento &rarr; se hace la introducci&oacute;n.</p>
 </div>
 
-<!-- ── 6: ARQUITECTURA ── -->
+<!-- ── 9: CICLO DE REFUERZO ── -->
+<div class="slide dark" data-theme="dark">
+  <span class="sec-num">03.2</span>
+  <h2>Ciclo de refuerzo</h2>
+  <p class="lead">Los agentes no operan aislados. Se alimentan entre s&iacute;.</p>
+  <svg class="svg-diagram" viewBox="0 0 500 400">
+    <defs>
+      <marker id="arrowCycle" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse" fill="rgba(255,255,255,0.45)"><path d="M 0 0 L 10 5 L 0 10 z"/></marker>
+      <radialGradient id="centerGlow"><stop offset="0%" stop-color="#3356F6" stop-opacity="0.15"/><stop offset="100%" stop-color="#3356F6" stop-opacity="0"/></radialGradient>
+    </defs>
+    <circle cx="250" cy="200" r="40" fill="url(#centerGlow)"/>
+    <path d="M 272,68 Q 400,80 432,182" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1.5" marker-end="url(#arrowCycle)"/>
+    <text x="380" y="110" text-anchor="middle" class="svg-mono" fill="rgba(91,122,248,0.6)" font-size="7" transform="rotate(28,380,110)">Conexi&oacute;n detectada</text>
+    <path d="M 432,222 Q 400,320 272,336" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1.5" marker-end="url(#arrowCycle)"/>
+    <text x="380" y="300" text-anchor="middle" class="svg-mono" fill="rgba(91,122,248,0.6)" font-size="7" transform="rotate(-28,380,300)">Gap identificado</text>
+    <path d="M 228,336 Q 100,320 68,222" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1.5" marker-end="url(#arrowCycle)"/>
+    <text x="120" y="300" text-anchor="middle" class="svg-mono" fill="rgba(91,122,248,0.6)" font-size="7" transform="rotate(28,120,300)">Cluster emergente</text>
+    <path d="M 68,182 Q 100,80 228,68" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1.5" marker-end="url(#arrowCycle)"/>
+    <text x="120" y="110" text-anchor="middle" class="svg-mono" fill="rgba(91,122,248,0.6)" font-size="7" transform="rotate(-28,120,110)">Red fortalecida</text>
+    <circle cx="250" cy="60" r="22" fill="#3356F6"/><text x="250" y="64" text-anchor="middle" class="svg-label" fill="#FFF" font-size="9" font-weight="600">Match</text>
+    <circle cx="440" cy="200" r="22" fill="#5B7AF8"/><text x="440" y="204" text-anchor="middle" class="svg-label" fill="#FFF" font-size="9" font-weight="600">Contenidos</text>
+    <circle cx="250" cy="340" r="22" fill="#3356F6"/><text x="250" y="344" text-anchor="middle" class="svg-label" fill="#FFF" font-size="9" font-weight="600">Insights</text>
+    <circle cx="60" cy="200" r="22" fill="#5B7AF8"/><text x="60" y="204" text-anchor="middle" class="svg-label" fill="#FFF" font-size="9" font-weight="600">Scout</text>
+  </svg>
+  <div class="callout">Cada vuelta fortalece a toda la red. El Consejo decide con evidencia. La nueva generaci&oacute;n es m&aacute;s fuerte.</div>
+</div>
+
+<!-- ── 10: ARQUITECTURA FRACTAL ── -->
 <div class="slide light" data-theme="light">
   <span class="sec-num">04</span>
   <h2>Arquitectura fractal</h2>
   <p class="lead">Cada campus es una instancia del mismo sistema. Lo que se aprende en uno beneficia a todos.</p>
-  <div class="metrics">
-    <div class="metric">
-      <div class="val blue">1</div>
-      <div class="lbl">Plataforma</div>
-    </div>
-    <div class="metric">
-      <div class="val blue">4</div>
-      <div class="lbl">Agentes IA</div>
-    </div>
-    <div class="metric">
-      <div class="val blue">N</div>
-      <div class="lbl">Campus</div>
-    </div>
-    <div class="metric">
-      <div class="val blue">&infin;</div>
-      <div class="lbl">Escalabilidad</div>
-    </div>
+  <svg class="svg-diagram" viewBox="0 0 700 380">
+    <defs><filter id="glowFractal" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="blur"/><feComposite in="SourceGraphic" in2="blur" operator="over"/></filter></defs>
+    <circle cx="350" cy="100" r="30" fill="#3356F6" class="node-glow" filter="url(#glowFractal)"/>
+    <text x="350" y="104" text-anchor="middle" class="svg-label" fill="#FFF" font-size="11" font-weight="700">ESBAC</text>
+    <path d="M 325,125 Q 240,175 150,230" fill="none" stroke="#3356F6" stroke-width="1.5"/>
+    <path d="M 340,128 Q 320,185 300,265" fill="none" stroke="#3356F6" stroke-width="1.5"/>
+    <path d="M 360,128 Q 400,185 450,265" fill="none" stroke="#5B7AF8" stroke-width="1.2" stroke-dasharray="5,3" opacity="0.5"/>
+    <path d="M 375,125 Q 470,175 580,230" fill="none" stroke="#5B7AF8" stroke-width="1.2" stroke-dasharray="5,3" opacity="0.5"/>
+    <circle cx="150" cy="240" r="22" fill="#3356F6"/><text x="150" y="244" text-anchor="middle" class="svg-label" fill="#FFF" font-size="9" font-weight="600">Le&oacute;n</text>
+    <text x="150" y="274" text-anchor="middle" class="svg-mono" fill="#3356F6" font-size="7">piloto 2026</text>
+    <circle cx="126" cy="222" r="4" fill="rgba(51,86,246,0.3)"/><circle cx="138" cy="215" r="4" fill="rgba(51,86,246,0.3)"/><circle cx="162" cy="215" r="4" fill="rgba(51,86,246,0.3)"/><circle cx="174" cy="222" r="4" fill="rgba(51,86,246,0.3)"/><circle cx="174" cy="258" r="4" fill="rgba(51,86,246,0.3)"/><circle cx="126" cy="258" r="4" fill="rgba(51,86,246,0.3)"/>
+    <circle cx="300" cy="280" r="18" fill="#5B7AF8" opacity="0.8"/><text x="300" y="284" text-anchor="middle" class="svg-label" fill="#FFF" font-size="8" font-weight="600">Chihuahua</text>
+    <text x="300" y="308" text-anchor="middle" class="svg-mono" fill="#5B7AF8" font-size="7">2027</text>
+    <circle cx="280" cy="266" r="4" fill="rgba(91,122,248,0.25)"/><circle cx="292" cy="260" r="4" fill="rgba(91,122,248,0.25)"/><circle cx="308" cy="260" r="4" fill="rgba(91,122,248,0.25)"/><circle cx="320" cy="266" r="4" fill="rgba(91,122,248,0.25)"/><circle cx="320" cy="294" r="4" fill="rgba(91,122,248,0.25)"/><circle cx="280" cy="294" r="4" fill="rgba(91,122,248,0.25)"/>
+    <circle cx="450" cy="280" r="16" fill="#5B7AF8" opacity="0.5" stroke="#5B7AF8" stroke-width="1" stroke-dasharray="4,3"/><text x="450" y="284" text-anchor="middle" class="svg-label" fill="rgba(91,122,248,0.8)" font-size="8" font-weight="600">Morelia</text>
+    <text x="450" y="308" text-anchor="middle" class="svg-mono" fill="rgba(91,122,248,0.5)" font-size="7">2028</text>
+    <circle cx="432" cy="268" r="4" fill="rgba(91,122,248,0.15)"/><circle cx="444" cy="262" r="4" fill="rgba(91,122,248,0.15)"/><circle cx="456" cy="262" r="4" fill="rgba(91,122,248,0.15)"/><circle cx="468" cy="268" r="4" fill="rgba(91,122,248,0.15)"/><circle cx="468" cy="292" r="4" fill="rgba(91,122,248,0.15)"/><circle cx="432" cy="292" r="4" fill="rgba(91,122,248,0.15)"/>
+    <circle cx="580" cy="240" r="16" fill="#5B7AF8" opacity="0.5" stroke="#5B7AF8" stroke-width="1" stroke-dasharray="4,3"/><text x="580" y="244" text-anchor="middle" class="svg-label" fill="rgba(91,122,248,0.8)" font-size="8" font-weight="600">Guadalajara</text>
+    <text x="580" y="268" text-anchor="middle" class="svg-mono" fill="rgba(91,122,248,0.5)" font-size="7">2028</text>
+    <circle cx="562" cy="228" r="4" fill="rgba(91,122,248,0.15)"/><circle cx="574" cy="222" r="4" fill="rgba(91,122,248,0.15)"/><circle cx="586" cy="222" r="4" fill="rgba(91,122,248,0.15)"/><circle cx="598" cy="228" r="4" fill="rgba(91,122,248,0.15)"/><circle cx="598" cy="252" r="4" fill="rgba(91,122,248,0.15)"/><circle cx="562" cy="252" r="4" fill="rgba(91,122,248,0.15)"/>
+    <path d="M 170,248 Q 225,290 282,278" fill="none" stroke="rgba(91,122,248,0.12)" stroke-width="1" stroke-dasharray="3,3"/>
+    <path d="M 318,280 Q 375,300 434,280" fill="none" stroke="rgba(91,122,248,0.1)" stroke-width="1" stroke-dasharray="3,3"/>
+    <path d="M 170,240 Q 360,340 434,280" fill="none" stroke="rgba(91,122,248,0.06)" stroke-width="1" stroke-dasharray="3,3"/>
+  </svg>
+  <div class="metrics" style="display:flex;gap:2rem;justify-content:center;margin-top:1rem;">
+    <div class="metric"><span class="val blue">1</span><span class="lbl">Plataforma</span></div>
+    <div class="metric"><span class="val blue">4</span><span class="lbl">Agentes IA</span></div>
+    <div class="metric"><span class="val blue">N</span><span class="lbl">Campus</span></div>
+    <div class="metric"><span class="val blue">20&ndash;25%</span><span class="lbl">costo/sede</span></div>
   </div>
-  <p>Misma plataforma, mismos agentes, misma gobernanza &mdash; con <strong>miembros locales, contexto local y administración local</strong>. Cada campus adicional cuesta ~20&ndash;25% del piloto.</p>
+  <p style="margin-top:0.8rem;">Misma plataforma, mismos agentes, misma gobernanza &mdash; con miembros locales, contexto local y administraci&oacute;n local.</p>
 </div>
 
-<!-- ── 7: GOBERNANZA ── -->
+<!-- ── 11: GOBERNANZA ── -->
 <div class="slide dark" data-theme="dark">
   <span class="sec-num">05</span>
   <h2>Gobernanza</h2>
-  <p class="lead">Tres círculos, roles claros. La comunidad es dueña, el Tec es el paraguas, HA es el habilitador.</p>
-  <div style="display:flex;justify-content:center;margin:1.5rem 0">
-    <svg viewBox="0 0 520 300" xmlns="http://www.w3.org/2000/svg" style="max-width:420px;width:100%">
-      <ellipse cx="260" cy="155" rx="245" ry="140" fill="none" stroke="#3356F6" stroke-width="1" stroke-dasharray="5,4" opacity=".3"/>
-      <text x="260" y="22" text-anchor="middle" font-family="Plus Jakarta Sans" font-size="9" fill="#5B7AF8" font-weight="600" letter-spacing=".06em">HORIZONS ARCHITECTURE</text>
-      <text x="260" y="34" text-anchor="middle" font-family="Plus Jakarta Sans" font-size="8" fill="#6C757D">Operación tecnológica &middot; Agentes &middot; Soporte</text>
-      <ellipse cx="260" cy="155" rx="170" ry="100" fill="none" stroke="rgba(255,255,255,.15)" stroke-width="1" stroke-dasharray="5,4"/>
-      <text x="260" y="68" text-anchor="middle" font-family="Plus Jakarta Sans" font-size="9" fill="#ADB5BD" font-weight="600" letter-spacing=".06em">TEC DE MONTERREY</text>
-      <text x="260" y="80" text-anchor="middle" font-family="Plus Jakarta Sans" font-size="8" fill="#6C757D">Infraestructura &middot; Seguridad &middot; Paraguas institucional</text>
-      <ellipse cx="260" cy="160" rx="95" ry="60" fill="rgba(255,255,255,.06)" stroke="rgba(255,255,255,.1)" stroke-width="1"/>
-      <text x="260" y="150" text-anchor="middle" font-family="Plus Jakarta Sans" font-size="11" fill="white" font-weight="600">ESBAC + Comunidad</text>
-      <text x="260" y="166" text-anchor="middle" font-family="Plus Jakarta Sans" font-size="11" fill="white" font-weight="600">Beyond + LLL</text>
-      <text x="260" y="184" text-anchor="middle" font-family="Plus Jakarta Sans" font-size="8" fill="#ADB5BD">Dirección estratégica &middot; Acceso total</text>
-    </svg>
-  </div>
-  <p style="font-size:.82rem">Si Tec Beyond cambia de proveedor tecnológico, todos los datos y la comunidad permanecen intactos. <strong>HA no es dueña de los datos &mdash; solo de su tecnología.</strong></p>
+  <p class="lead">Tres c&iacute;rculos, roles claros. La comunidad es due&ntilde;a, el Tec es el paraguas, HA es el habilitador.</p>
+  <svg class="svg-diagram" viewBox="0 0 520 300">
+    <defs><filter id="glowGov" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="blur"/><feComposite in="SourceGraphic" in2="blur" operator="over"/></filter></defs>
+    <ellipse cx="260" cy="155" rx="245" ry="140" fill="none" stroke="#3356F6" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.3"/>
+    <text x="260" y="18" text-anchor="middle" class="svg-label" fill="#3356F6" font-size="9" font-weight="700" opacity="0.6">HORIZONS ARCHITECTURE</text>
+    <text x="260" y="30" text-anchor="middle" class="svg-mono" fill="rgba(255,255,255,0.35)" font-size="7">Operaci&oacute;n tecnol&oacute;gica &middot; Agentes &middot; Soporte</text>
+    <ellipse cx="260" cy="155" rx="170" ry="100" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1.5" stroke-dasharray="5,3"/>
+    <text x="260" y="62" text-anchor="middle" class="svg-label" fill="rgba(255,255,255,0.55)" font-size="9" font-weight="600">TEC DE MONTERREY</text>
+    <text x="260" y="74" text-anchor="middle" class="svg-mono" fill="rgba(255,255,255,0.3)" font-size="7">Infraestructura &middot; Seguridad &middot; Paraguas institucional</text>
+    <ellipse cx="260" cy="160" rx="95" ry="60" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.1)" stroke-width="1.5" class="node-glow" filter="url(#glowGov)"/>
+    <text x="260" y="148" text-anchor="middle" class="svg-label" fill="#FFF" font-size="10" font-weight="700">ESBAC + Comunidad</text>
+    <text x="260" y="163" text-anchor="middle" class="svg-label" fill="#FFF" font-size="10" font-weight="700">Beyond + LLL</text>
+    <text x="260" y="180" text-anchor="middle" class="svg-mono" fill="rgba(255,255,255,0.5)" font-size="7">Direcci&oacute;n estrat&eacute;gica &middot; Acceso total</text>
+  </svg>
+  <p style="margin-top:0.8rem;">Si Tec Beyond cambia de proveedor tecnol&oacute;gico, todos los datos y la comunidad permanecen intactos. HA no es due&ntilde;a de los datos &mdash; solo de su tecnolog&iacute;a.</p>
 </div>
 
-<!-- ── 8: EFECTO DE RED ── -->
+<!-- ── 12: ÁRBOL DE PERMISOS ── -->
+<div class="slide light" data-theme="light">
+  <span class="sec-num">05.1</span>
+  <h2>Qui&eacute;n decide qu&eacute;</h2>
+  <p class="lead">Derechos de decisi&oacute;n claros en cada nivel.</p>
+  <svg class="svg-diagram" viewBox="0 0 700 340">
+    <circle cx="350" cy="40" r="24" fill="#3356F6"/>
+    <text x="350" y="36" text-anchor="middle" class="svg-label" fill="#FFF" font-size="8" font-weight="600">C&iacute;rculo 1</text>
+    <text x="350" y="47" text-anchor="middle" class="svg-label" fill="#FFF" font-size="8" font-weight="600">ESBAC</text>
+    <path d="M 350,64 Q 350,90 350,112" fill="none" stroke="#3356F6" stroke-width="1.5"/>
+    <circle cx="350" cy="130" r="18" fill="#5B7AF8"/>
+    <text x="350" y="127" text-anchor="middle" class="svg-label" fill="#FFF" font-size="7" font-weight="600">C&iacute;rculo 2</text>
+    <text x="350" y="137" text-anchor="middle" class="svg-label" fill="#FFF" font-size="7" font-weight="600">Tec</text>
+    <path d="M 335,146 Q 220,185 100,228" fill="none" stroke="#5B7AF8" stroke-width="1.2"/><path d="M 340,148 Q 285,190 230,228" fill="none" stroke="#5B7AF8" stroke-width="1.2"/><path d="M 350,148 Q 350,190 350,228" fill="none" stroke="#5B7AF8" stroke-width="1.2" stroke-dasharray="5,3"/><path d="M 360,148 Q 415,190 470,228" fill="none" stroke="#5B7AF8" stroke-width="1.2" stroke-dasharray="5,3"/><path d="M 365,146 Q 480,185 600,228" fill="none" stroke="#5B7AF8" stroke-width="1.2" stroke-dasharray="5,3"/>
+    <circle cx="100" cy="240" r="12" fill="#3356F6"/><text x="100" y="244" text-anchor="middle" class="svg-label" fill="#FFF" font-size="7" font-weight="600">Le&oacute;n</text>
+    <circle cx="230" cy="240" r="12" fill="#3356F6"/><text x="230" y="244" text-anchor="middle" class="svg-label" fill="#FFF" font-size="7" font-weight="600">Chih.</text>
+    <circle cx="350" cy="240" r="12" fill="#5B7AF8" opacity="0.5" stroke="#5B7AF8" stroke-width="1" stroke-dasharray="3,2"/><text x="350" y="244" text-anchor="middle" class="svg-label" fill="rgba(91,122,248,0.8)" font-size="7" font-weight="600">Morelia</text>
+    <circle cx="470" cy="240" r="12" fill="#5B7AF8" opacity="0.5" stroke="#5B7AF8" stroke-width="1" stroke-dasharray="3,2"/><text x="470" y="244" text-anchor="middle" class="svg-label" fill="rgba(91,122,248,0.8)" font-size="7" font-weight="600">Aguas.</text>
+    <circle cx="600" cy="240" r="12" fill="#5B7AF8" opacity="0.5" stroke="#5B7AF8" stroke-width="1" stroke-dasharray="3,2"/><text x="600" y="244" text-anchor="middle" class="svg-label" fill="rgba(91,122,248,0.8)" font-size="7" font-weight="600">GDL</text>
+    <path d="M 112,242 Q 165,260 218,242" fill="none" stroke="rgba(51,86,246,0.12)" stroke-width="1" stroke-dasharray="3,3"/>
+    <path d="M 112,244 Q 225,290 338,244" fill="none" stroke="rgba(51,86,246,0.08)" stroke-width="1" stroke-dasharray="3,3"/>
+  </svg>
+  <table style="margin-top:1rem;font-size:0.85rem;">
+    <thead><tr><th>Qui&eacute;n</th><th>Qu&eacute; decide</th></tr></thead>
+    <tbody><tr><td>Consejo ESBAC</td><td>Admisi&oacute;n, reglas, uso de datos</td></tr><tr><td>Consejo + HA</td><td>Funcionalidades, expansi&oacute;n</td></tr><tr><td>HA</td><td>Operaci&oacute;n t&eacute;cnica</td></tr></tbody>
+  </table>
+</div>
+
+<!-- ── 13: EFECTO DE RED ── -->
 <div class="slide light" data-theme="light">
   <span class="sec-num">06</span>
   <h2>Efecto de red</h2>
   <p class="lead">El valor no crece linealmente. Se multiplica con cada campus que se suma.</p>
   <table>
-    <thead>
-      <tr><th>Escala</th><th>Miembros</th><th>Conexiones posibles</th><th>Valor</th></tr>
-    </thead>
-    <tbody>
-      <tr><td>León hoy</td><td class="mono">~350</td><td class="mono">61,075</td><td><strong>1x</strong></td></tr>
-      <tr><td>3 campus</td><td class="mono">~900</td><td class="mono">404,550</td><td><strong>9x</strong></td></tr>
-      <tr><td>5 campus</td><td class="mono">~1,500</td><td class="mono">1,124,250</td><td><strong>25x</strong></td></tr>
-      <tr><td>10 campus</td><td class="mono">~3,000</td><td class="mono">4,498,500</td><td><strong>100x</strong></td></tr>
-    </tbody>
+    <thead><tr><th>Escala</th><th>Miembros</th><th>Conexiones posibles</th><th>Valor</th></tr></thead>
+    <tbody><tr><td>Le&oacute;n hoy</td><td>~350</td><td>61,075</td><td><strong>1x</strong></td></tr><tr><td>3 campus</td><td>~900</td><td>404,550</td><td><strong>9x</strong></td></tr><tr><td>5 campus</td><td>~1,500</td><td>1,124,250</td><td><strong>25x</strong></td></tr><tr><td>10 campus</td><td>~3,000</td><td>4,498,500</td><td><strong>100x</strong></td></tr></tbody>
   </table>
-  <div class="callout">
-    <p><strong>La mayoría de esas conexiones no se activan</strong> porque la gente no sabe lo que los demás tienen o necesitan. El sistema las activa de forma inteligente.</p>
-  </div>
+  <svg class="svg-diagram" viewBox="0 0 400 150" style="margin-top:1rem;">
+    <line x1="50" y1="130" x2="370" y2="130" stroke="rgba(35,31,32,0.1)" stroke-width="0.5"/>
+    <line x1="50" y1="93" x2="370" y2="93" stroke="rgba(35,31,32,0.04)" stroke-width="0.5"/>
+    <line x1="50" y1="56" x2="370" y2="56" stroke="rgba(35,31,32,0.04)" stroke-width="0.5"/>
+    <path d="M 65,125 Q 140,122 200,115 Q 260,100 310,60 Q 340,35 360,22" fill="none" stroke="#3356F6" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 65,125 Q 140,122 200,115 Q 260,100 310,60 Q 340,35 360,22 L 360,130 L 65,130 Z" fill="rgba(51,86,246,0.06)"/>
+    <circle cx="65" cy="125" r="4" fill="#3356F6"/><circle cx="170" cy="118" r="4" fill="#3356F6"/><circle cx="270" cy="95" r="4" fill="#3356F6"/><circle cx="360" cy="22" r="4" fill="#3356F6"/>
+    <text x="210" y="146" text-anchor="middle" class="svg-mono" fill="rgba(35,31,32,0.4)" font-size="8">Campus</text>
+    <text x="38" y="78" text-anchor="middle" class="svg-mono" fill="rgba(35,31,32,0.4)" font-size="8" transform="rotate(-90,38,78)">Valor</text>
+  </svg>
+  <div class="callout">La mayor&iacute;a de esas conexiones no se activan porque la gente no sabe lo que los dem&aacute;s tienen o necesitan. El sistema las activa de forma inteligente.</div>
 </div>
 
-<!-- ── 9: INSIGHTS CONCRETOS ── -->
+<!-- ── 14: QUÉ VERÍA EL CONSEJO ── -->
 <div class="slide dark" data-theme="dark">
   <span class="sec-num">06.1</span>
-  <h2>Qué vería el Consejo</h2>
-  <p class="lead">Ejemplos reales de lo que los agentes de Insights podrían detectar y reportar.</p>
+  <h2>Qu&eacute; ver&iacute;a el Consejo</h2>
+  <p class="lead">Ejemplos reales de lo que los agentes de Insights podr&iacute;an detectar y reportar.</p>
   <div class="cards">
-    <div class="crd">
-      <div class="badge">Tendencia</div>
-      <h4>&ldquo;47 miembros mencionaron nearshoring en los últimos 3 meses&rdquo;</h4>
-      <p>El sistema detecta temas emergentes y los eleva como señales al Consejo.</p>
-    </div>
-    <div class="crd">
-      <div class="badge">Oportunidad</div>
-      <h4>&ldquo;12 miembros con capacidad de exportación &mdash; no se conocen entre sí&rdquo;</h4>
-      <p>Match propone conectarlos. Insights recomienda un panel temático con 3 expertos de la red.</p>
-    </div>
-    <div class="crd">
-      <div class="badge">Mapa</div>
-      <h4>&ldquo;Vocación León: manufactura 38%, comercio 27%&rdquo;</h4>
-      <p>Perfilamiento dinámico de la comunidad por industria, tamaño y etapa empresarial.</p>
-    </div>
-    <div class="crd">
-      <div class="badge">Acción</div>
-      <h4>&ldquo;Recomendación: certificación IA aplicada para 23 interesados&rdquo;</h4>
-      <p>Contenidos detecta demanda. El Consejo activa la oferta con Educación Continua.</p>
-    </div>
+    <div class="crd"><span class="badge">Tendencia</span><h4>47 miembros mencionaron nearshoring en los &uacute;ltimos 3 meses</h4><p>El sistema detecta temas emergentes y los eleva como se&ntilde;ales al Consejo.</p></div>
+    <div class="crd"><span class="badge">Oportunidad</span><h4>12 miembros con capacidad de exportaci&oacute;n &mdash; no se conocen entre s&iacute;</h4><p>Match propone conectarlos. Insights recomienda un panel tem&aacute;tico.</p></div>
+    <div class="crd"><span class="badge">Mapa</span><h4>Vocaci&oacute;n Le&oacute;n: manufactura 38%, comercio 27%</h4><p>Perfilamiento din&aacute;mico de la comunidad por industria, tama&ntilde;o y etapa empresarial.</p></div>
+    <div class="crd"><span class="badge">Acci&oacute;n</span><h4>Recomendaci&oacute;n: certificaci&oacute;n IA aplicada para 23 interesados</h4><p>Contenidos detecta demanda. El Consejo activa la oferta con Educaci&oacute;n Continua.</p></div>
   </div>
 </div>
 
-<!-- ── 10: CO-INVERSIÓN ── -->
+<!-- ── 15: CO-INVERSIÓN ── -->
 <div class="slide light" data-theme="light">
   <span class="sec-num">06.2</span>
-  <h2>Modelo de co-inversión</h2>
+  <h2>Modelo de co-inversi&oacute;n</h2>
   <p class="lead">Cada parte aporta lo que mejor sabe hacer. El retorno se comparte.</p>
   <div class="cards cols-3">
-    <div class="crd">
-      <div class="badge">Tec</div>
-      <h4>Pone la casa</h4>
-      <p>Infraestructura (servidores, nube, seguridad). Paraguas institucional. Acceso a comunidad y datos.</p>
-    </div>
-    <div class="crd">
-      <div class="badge">Consejo</div>
-      <h4>Pone la inversión</h4>
-      <p>Inversión en capa de IA y agentes. Decisiones estratégicas. Gobernanza comunitaria.</p>
-    </div>
-    <div class="crd">
-      <div class="badge">Retorno</div>
-      <h4>Compartido</h4>
-      <p>Membresías, conexiones de valor, contenido premium, licencias por sede adicional.</p>
-    </div>
+    <div class="crd"><span class="badge">Tec</span><h4>Pone la casa</h4><p>Infraestructura (servidores, nube, seguridad). Paraguas institucional. Acceso a comunidad y datos.</p></div>
+    <div class="crd"><span class="badge">Consejo</span><h4>Pone la inversi&oacute;n</h4><p>Inversi&oacute;n en capa de IA y agentes. Decisiones estrat&eacute;gicas. Gobernanza comunitaria.</p></div>
+    <div class="crd"><span class="badge">Retorno</span><h4>Compartido</h4><p>Membres&iacute;as, conexiones de valor, contenido premium, licencias por sede adicional.</p></div>
   </div>
-  <div class="callout">
-    <p><strong>Propiedad intelectual:</strong> Modelo de licencia de uso recomendado &mdash; HA mantiene IP, Tec Beyond obtiene licencia operativa. Menor inversión, menor riesgo, opción de migrar.</p>
-  </div>
+  <div class="callout">Propiedad intelectual: Modelo de licencia de uso recomendado &mdash; HA mantiene IP, Tec Beyond obtiene licencia operativa. Menor inversi&oacute;n, menor riesgo, opci&oacute;n de migrar.</div>
 </div>
 
-<!-- ── 11: ROADMAP ── -->
+<!-- ── 16: ROADMAP ── -->
 <div class="slide dark" data-theme="dark">
   <span class="sec-num">07</span>
   <h2>Roadmap</h2>
-  <p class="lead">Del piloto en León a una red nacional.</p>
+  <p class="lead">Del piloto en Le&oacute;n a una red nacional.</p>
   <div class="cols">
     <div>
       <div class="timeline">
-        <div class="tl">
-          <div class="date">Feb&ndash;Mar 2026</div>
-          <div class="title">Aprobación</div>
-          <p class="desc">Comité de IA y Consejo.</p>
-        </div>
-        <div class="tl">
-          <div class="date">Mar&ndash;Abr 2026</div>
-          <div class="title">Discovery</div>
-          <p class="desc">Sesión técnica. Diseño detallado. Cotización cerrada.</p>
-        </div>
-        <div class="tl">
-          <div class="date">27 Abr 2026</div>
-          <div class="title">Reunión de Generaciones</div>
-          <p class="desc">Presentación de la visión a toda la comunidad en León.</p>
-        </div>
-        <div class="tl">
-          <div class="date">Abr&ndash;Nov 2026</div>
-          <div class="title">Piloto en León</div>
-          <p class="desc">Plataforma + 4 agentes. ~350 miembros.</p>
-        </div>
-        <div class="tl future">
-          <div class="date">2027</div>
-          <div class="title">Expansión 1</div>
-          <p class="desc">+Chihuahua, +Aguascalientes. ~900 miembros.</p>
-        </div>
-        <div class="tl future">
-          <div class="date">2027&ndash;28</div>
-          <div class="title">Red nacional</div>
-          <p class="desc">+Morelia, +Guadalajara, +Laguna. ~3,000 miembros.</p>
-        </div>
+        <div class="tl"><span class="date">Feb&ndash;Mar 2026</span><span class="title">Aprobaci&oacute;n</span><span class="desc">Comit&eacute; de IA y Consejo</span></div>
+        <div class="tl"><span class="date">Mar&ndash;Abr 2026</span><span class="title">Discovery</span><span class="desc">Sesi&oacute;n t&eacute;cnica, dise&ntilde;o, cotizaci&oacute;n</span></div>
+        <div class="tl"><span class="date">27 Abr 2026</span><span class="title">Reuni&oacute;n de Generaciones</span><span class="desc">Presentaci&oacute;n a toda la comunidad en Le&oacute;n</span></div>
+        <div class="tl"><span class="date">Abr&ndash;Nov 2026</span><span class="title">Piloto en Le&oacute;n</span><span class="desc">~350 miembros</span></div>
+        <div class="tl future"><span class="date">2027</span><span class="title">Expansi&oacute;n 1</span><span class="desc">+Chihuahua, +Aguascalientes, ~900 miembros</span></div>
+        <div class="tl future"><span class="date">2027&ndash;28</span><span class="title">Red nacional</span><span class="desc">+Morelia, +Guadalajara, +Laguna, ~3,000 miembros</span></div>
       </div>
     </div>
     <div>
-      <div class="metric" style="margin-bottom:.75rem">
-        <div class="val blue">70%</div>
-        <div class="lbl">Miembros activos / mes</div>
-      </div>
-      <div class="metric" style="margin-bottom:.75rem">
-        <div class="val blue">50+</div>
-        <div class="lbl">Matches en 6 meses</div>
-      </div>
-      <div class="metric" style="margin-bottom:.75rem">
-        <div class="val blue">&gt;40</div>
-        <div class="lbl">NPS objetivo</div>
-      </div>
-      <div class="metric">
-        <div class="val blue">90%</div>
-        <div class="lbl">Retención</div>
+      <div class="metrics">
+        <div class="metric"><span class="val blue">70%</span><span class="lbl">miembros activos/mes</span></div>
+        <div class="metric"><span class="val blue">50+</span><span class="lbl">matches en 6 meses</span></div>
+        <div class="metric"><span class="val blue">&gt;40</span><span class="lbl">NPS objetivo</span></div>
+        <div class="metric"><span class="val blue">90%</span><span class="lbl">retenci&oacute;n</span></div>
       </div>
     </div>
   </div>
 </div>
 
-<!-- ── 10: PROPUESTA DE VALOR ── -->
+<!-- ── 17: PROPUESTA DE VALOR ── -->
 <div class="slide light" data-theme="light">
   <span class="sec-num">08</span>
   <h2>Propuesta de valor</h2>
-  <p class="lead">Qué gana cada actor del ecosistema.</p>
+  <p class="lead">Qu&eacute; gana cada actor del ecosistema.</p>
   <div class="cards cols-3">
-    <div class="crd">
-      <div class="badge">Miembros</div>
-      <h4>Para los empresarios</h4>
-      <p>La red sigue trabajando después del programa. Conexiones relevantes, contenido personalizado, valor que crece.</p>
-    </div>
-    <div class="crd">
-      <div class="badge">Consejo</div>
-      <h4>Para el Consejo</h4>
-      <p>Decisiones con datos. Pipeline automatizado. Métricas de salud comunitaria. Aprendizaje entre campus.</p>
-    </div>
-    <div class="crd">
-      <div class="badge">Institución</div>
-      <h4>Para el Tec</h4>
-      <p>Modelo replicable de Lifelong Learning. Diferenciación real. Aplicación demostrada de IA. Retornos indirectos.</p>
-    </div>
+    <div class="crd"><span class="badge">Miembros</span><h4>Para los empresarios</h4><p>La red sigue trabajando despu&eacute;s del programa. Conexiones relevantes, contenido personalizado, valor que crece.</p></div>
+    <div class="crd"><span class="badge">Consejo</span><h4>Para el Consejo</h4><p>Decisiones con datos. Pipeline automatizado. M&eacute;tricas de salud comunitaria. Aprendizaje entre campus.</p></div>
+    <div class="crd"><span class="badge">Instituci&oacute;n</span><h4>Para el Tec</h4><p>Modelo replicable de Lifelong Learning. Diferenciaci&oacute;n real. Aplicaci&oacute;n demostrada de IA. Retornos indirectos.</p></div>
   </div>
 </div>
 
-<!-- ── 11: ALINEACIÓN INSTITUCIONAL ── -->
+<!-- ── 18: ALINEACIÓN ── -->
 <div class="slide dark" data-theme="dark">
   <span class="sec-num">08.1</span>
-  <h2>Alineación institucional</h2>
+  <h2>Alineaci&oacute;n institucional</h2>
   <p class="lead">Liderazgo del Tec ya conoce y respalda la iniciativa.</p>
   <div class="cards">
-    <div class="crd">
-      <div class="badge">Rectoría</div>
-      <h4>David Garza</h4>
-      <p>Rector del Tec de Monterrey. Alineado con la visión de comunidades inteligentes y Lifelong Learning.</p>
-    </div>
-    <div class="crd">
-      <div class="badge">Campus</div>
-      <h4>Ricardo Saldívar</h4>
-      <p>Liderazgo de campus. Visibilidad directa del proyecto y sus alcances.</p>
-    </div>
-    <div class="crd">
-      <div class="badge">Consejo</div>
-      <h4>Hugo Garza</h4>
-      <p>Presidente del Consejo Campus León. Alineado en junta de presidentes.</p>
-    </div>
-    <div class="crd">
-      <div class="badge">Estrategia</div>
-      <h4>Lifelong Learning</h4>
-      <p>Tec Beyond es prueba de concepto del modelo LLL. Si funciona aquí, se replica a toda la red institucional.</p>
-    </div>
+    <div class="crd"><span class="badge">Rector&iacute;a</span><h4>David Garza</h4><p>Rector del Tec de Monterrey. Alineado con la visi&oacute;n de comunidades inteligentes y Lifelong Learning.</p></div>
+    <div class="crd"><span class="badge">Campus</span><h4>Ricardo Sald&iacute;var</h4><p>Liderazgo de campus. Visibilidad directa del proyecto y sus alcances.</p></div>
+    <div class="crd"><span class="badge">Consejo</span><h4>Hugo Garza</h4><p>Presidente del Consejo Campus Le&oacute;n. Alineado en junta de presidentes.</p></div>
+    <div class="crd"><span class="badge">Estrategia</span><h4>Lifelong Learning</h4><p>Tec Beyond es prueba de concepto del modelo LLL. Si funciona aqu&iacute;, se replica a toda la red institucional.</p></div>
   </div>
-  <p style="font-size:.82rem;color:rgba(255,255,255,.4);margin-top:.5rem">Ningún programa en México ofrece inteligencia colectiva con IA para comunidades de egresados.</p>
+  <p style="font-size:.85rem;opacity:.5;margin-top:1.5rem;">Ning&uacute;n programa en M&eacute;xico ofrece inteligencia colectiva con IA para comunidades de egresados.</p>
 </div>
 
-<!-- ── 12: SIGUIENTE PASO ── -->
+<!-- ── 19: SIGUIENTE PASO ── -->
 <div class="slide dark" data-theme="dark">
-  <div style="max-width:560px">
+  <div style="max-width:560px;">
     <span class="sec-num">09</span>
     <h2>Siguiente paso</h2>
-    <p class="lead">Aprobación del Comité de IA para iniciar la fase de Discovery.</p>
-    <p>Con la aprobación, el paso inmediato es una sesión técnica de <strong>Discovery</strong> (2&ndash;3 horas): mapeo de flujos, datos e integraciones. El resultado es un diseño detallado y una cotización cerrada.</p>
-    <p style="margin-top:1.5rem;font-size:.82rem;color:rgba(255,255,255,.35)">El detalle completo está en los 7 anexos técnicos:</p>
-    <a href="anexos/anexos-profesional.html" class="annex-link" target="_blank">Ver anexos técnicos &rarr;</a>
+    <p class="lead">Aprobaci&oacute;n del Comit&eacute; de IA para iniciar la fase de Discovery.</p>
+    <p>Con la aprobaci&oacute;n, el paso inmediato es una sesi&oacute;n t&eacute;cnica de Discovery (2&ndash;3 horas): mapeo de flujos, datos e integraciones. El resultado es un dise&ntilde;o detallado y una cotizaci&oacute;n cerrada.</p>
+    <p style="font-size:.85rem;opacity:.5;margin-top:1.5rem;">El detalle completo est&aacute; en los 7 anexos t&eacute;cnicos:</p>
+    <a class="annex-link" href="anexos/anexos-profesional.html" target="_blank">Ver anexos t&eacute;cnicos &rarr;</a>
   </div>
 </div>
 
-<!-- ── 12: ANEXOS INTRO ── -->
+<!-- ── 20: ANEXOS INTRO ── -->
 <div class="slide blue" data-theme="blue">
-  <div style="max-width:600px">
+  <div style="max-width:600px;">
     <span class="sec-num">10</span>
-    <h2 style="font-size:1.8rem;color:var(--white)">Anexos técnicos</h2>
+    <h2 style="font-size:1.8rem;color:#fff;">Anexos t&eacute;cnicos</h2>
     <p class="lead">Siete documentos de soporte con el detalle completo del modelo, datos, negocio, escalabilidad y hallazgos de la comunidad.</p>
-    <a href="anexos/anexos-profesional.html" class="annex-link" target="_blank" style="color:var(--white);border-bottom:1px solid rgba(255,255,255,.3)">Consultar anexos completos &rarr;</a>
+    <a class="annex-link" href="anexos/anexos-profesional.html" style="color:#fff;border-bottom:1px solid rgba(255,255,255,.3);" target="_blank">Consultar anexos completos &rarr;</a>
   </div>
 </div>
 
-<!-- ── 13: ANEXO 1 ── -->
-<div class="slide light" data-theme="light">
-  <span class="sec-num">Anexo 1</span>
-  <h2>El Modelo &mdash; Narrativa Visual</h2>
-  <p class="lead">Arquitectura completa del sistema: comunidad + plataforma + agentes.</p>
-  <div class="cards">
-    <div class="crd">
-      <div class="badge">Organismo</div>
-      <h4>9 generaciones, 1 red</h4>
-      <p>Cada generación aporta relaciones, industrias y experiencia. El organismo crece con cada ciclo.</p>
-    </div>
-    <div class="crd">
-      <div class="badge">Base semántica</div>
-      <h4>El cerebro del sistema</h4>
-      <p>Base de conocimiento que comprende perfiles, contextos e intereses &mdash; no solo almacena datos.</p>
-    </div>
-    <div class="crd">
-      <div class="badge">4 Agentes IA</div>
-      <h4>Match &middot; Contenidos &middot; Scout &middot; Insights</h4>
-      <p>Operan sobre la base semántica. Cada agente genera un tipo de valor para la comunidad.</p>
-    </div>
-    <div class="crd">
-      <div class="badge">Gobernanza</div>
-      <h4>3 círculos concéntricos</h4>
-      <p>Comunidad (dueña) &rarr; Tec (paraguas) &rarr; HA (tecnología). Roles claros y separables.</p>
-    </div>
-  </div>
-</div>
+<!-- ── 21-27: ANEXOS ── -->
+<div class="slide light" data-theme="light"><span class="sec-num">Anexo 1</span><h2>El Modelo &mdash; Narrativa Visual</h2><p class="lead">Arquitectura completa del sistema: comunidad + plataforma + agentes.</p><div class="cards"><div class="crd"><span class="badge">Organismo</span><h4>9 generaciones, 1 red</h4><p>Cada generaci&oacute;n aporta relaciones, industrias y experiencia. El organismo crece con cada ciclo.</p></div><div class="crd"><span class="badge">Base sem&aacute;ntica</span><h4>El cerebro del sistema</h4><p>Base de conocimiento que comprende perfiles, contextos e intereses &mdash; no solo almacena datos.</p></div><div class="crd"><span class="badge">4 Agentes IA</span><h4>Match &middot; Contenidos &middot; Scout &middot; Insights</h4><p>Operan sobre la base sem&aacute;ntica. Cada agente genera un tipo de valor para la comunidad.</p></div><div class="crd"><span class="badge">Gobernanza</span><h4>3 c&iacute;rculos conc&eacute;ntricos</h4><p>Comunidad (due&ntilde;a) &rarr; Tec (paraguas) &rarr; HA (tecnolog&iacute;a). Roles claros y separables.</p></div></div></div>
 
-<!-- ── 14: ANEXO 2 ── -->
-<div class="slide dark" data-theme="dark">
-  <span class="sec-num">Anexo 2</span>
-  <h2>Datos y Privacidad</h2>
-  <p class="lead">Propiedad de datos, infraestructura de almacenamiento y protección de la información.</p>
-  <div class="cards">
-    <div class="crd">
-      <div class="badge">Propiedad</div>
-      <h4>Datos del Tec, siempre</h4>
-      <p>Todos los datos de miembros pertenecen al Tec. HA opera la tecnología, no posee la información.</p>
-    </div>
-    <div class="crd">
-      <div class="badge">Seguridad</div>
-      <h4>AES-256 &middot; LFPDPPP</h4>
-      <p>Cifrado en reposo y tránsito. Cumplimiento regulatorio mexicano. Auditoría y control de acceso.</p>
-    </div>
-    <div class="crd">
-      <div class="badge">Infraestructura</div>
-      <h4>Azure institucional</h4>
-      <p>Almacenamiento en infraestructura de Microsoft Azure del Tec de Monterrey.</p>
-    </div>
-    <div class="crd">
-      <div class="badge">Portabilidad</div>
-      <h4>Sin lock-in</h4>
-      <p>Compromiso documentado de entrega total de datos si se cambia de proveedor tecnológico.</p>
-    </div>
-  </div>
-</div>
+<div class="slide dark" data-theme="dark"><span class="sec-num">Anexo 2</span><h2>Datos y Privacidad</h2><p class="lead">Propiedad de datos, infraestructura y protecci&oacute;n de la informaci&oacute;n.</p><div class="cards"><div class="crd"><span class="badge">Propiedad</span><h4>Datos del Tec, siempre</h4><p>Todos los datos de miembros pertenecen al Tec. HA opera la tecnolog&iacute;a, no posee la informaci&oacute;n.</p></div><div class="crd"><span class="badge">Seguridad</span><h4>AES-256 &middot; LFPDPPP</h4><p>Cifrado en reposo y tr&aacute;nsito. Cumplimiento regulatorio mexicano. Auditor&iacute;a y control de acceso.</p></div><div class="crd"><span class="badge">Infraestructura</span><h4>Azure institucional</h4><p>Almacenamiento en infraestructura de Microsoft Azure del Tec de Monterrey.</p></div><div class="crd"><span class="badge">Portabilidad</span><h4>Sin lock-in</h4><p>Compromiso documentado de entrega total de datos si se cambia de proveedor tecnol&oacute;gico.</p></div></div></div>
 
-<!-- ── 15: ANEXO 3 ── -->
-<div class="slide light" data-theme="light">
-  <span class="sec-num">Anexo 3</span>
-  <h2>Business Case</h2>
-  <p class="lead">Framework financiero para construir el caso de negocio en conjunto.</p>
-  <div class="cards cols-3">
-    <div class="crd">
-      <div class="badge">Inversión</div>
-      <h4>Fases progresivas</h4>
-      <p>Piloto &rarr; Transición &rarr; Madurez. Inversión escalonada con puntos de validación.</p>
-    </div>
-    <div class="crd">
-      <div class="badge">Ingresos</div>
-      <h4>Fuentes múltiples</h4>
-      <p>Membresías, eventos, capacitación especializada. Modelo diversificado de sostenibilidad.</p>
-    </div>
-    <div class="crd">
-      <div class="badge">Escenarios</div>
-      <h4>3 proyecciones</h4>
-      <p>Conservador, base y optimista. Modelaje de break-even, ROI financiero e intangible.</p>
-    </div>
-  </div>
-  <div class="callout">
-    <p><strong>El business case se construye de forma colaborativa</strong> con el Comité de IA y el Consejo durante la fase de Discovery.</p>
-  </div>
-</div>
+<div class="slide light" data-theme="light"><span class="sec-num">Anexo 3</span><h2>Business Case</h2><p class="lead">Framework financiero para construir el caso de negocio en conjunto.</p><div class="cards cols-3"><div class="crd"><span class="badge">Inversi&oacute;n</span><h4>Fases progresivas</h4><p>Piloto &rarr; Transici&oacute;n &rarr; Madurez. Inversi&oacute;n escalonada con puntos de validaci&oacute;n.</p></div><div class="crd"><span class="badge">Ingresos</span><h4>Fuentes m&uacute;ltiples</h4><p>Membres&iacute;as, eventos, capacitaci&oacute;n especializada. Modelo diversificado.</p></div><div class="crd"><span class="badge">Escenarios</span><h4>3 proyecciones</h4><p>Conservador, base y optimista. Modelaje de break-even, ROI financiero e intangible.</p></div></div><div class="callout">El business case se construye de forma colaborativa con el Comit&eacute; de IA y el Consejo durante la fase de Discovery.</div></div>
 
-<!-- ── 16: ANEXO 4 ── -->
-<div class="slide dark" data-theme="dark">
-  <span class="sec-num">Anexo 4</span>
-  <h2>Escalabilidad</h2>
-  <p class="lead">Arquitectura fractal: de León a una red nacional.</p>
-  <div class="metrics">
-    <div class="metric">
-      <div class="val blue">20-25%</div>
-      <div class="lbl">Costo por campus adicional</div>
-    </div>
-    <div class="metric">
-      <div class="val blue">Go/No-go</div>
-      <div class="lbl">Criterios antes de expandir</div>
-    </div>
-    <div class="metric">
-      <div class="val blue">Fed.</div>
-      <div class="lbl">Gobernanza federada</div>
-    </div>
-  </div>
-  <p>Cada nueva sede reutiliza la plataforma completa. Estándares globales con autonomía local. La expansión tiene criterios claros &mdash; no se activa sin validar el piloto.</p>
-</div>
+<div class="slide dark" data-theme="dark"><span class="sec-num">Anexo 4</span><h2>Escalabilidad</h2><p class="lead">Arquitectura fractal: de Le&oacute;n a una red nacional.</p><div class="metrics"><div class="metric"><span class="val">20-25%</span><span class="lbl">Costo por campus adicional</span></div><div class="metric"><span class="val">Go/No-go</span><span class="lbl">Criterios antes de expandir</span></div><div class="metric"><span class="val">Fed.</span><span class="lbl">Gobernanza federada</span></div></div><p>Cada nueva sede reutiliza la plataforma completa. Est&aacute;ndares globales con autonom&iacute;a local.</p></div>
 
-<!-- ── 17: ANEXO 5 ── -->
-<div class="slide light" data-theme="light">
-  <span class="sec-num">Anexo 5</span>
-  <h2>Sesión de consejeros</h2>
-  <p class="lead">Hallazgos de la sesión con líderes y presidentes de la comunidad.</p>
-  <div class="cards">
-    <div class="crd">
-      <div class="badge">Comunidad</div>
-      <h4>Red estructurada de líderes</h4>
-      <p>No networking informal &mdash; comunidad con propósito, gobernanza y participación en decisiones estratégicas.</p>
-    </div>
-    <div class="crd">
-      <div class="badge">Vinculación</div>
-      <h4>Alianzas profundas</h4>
-      <p>Investigación aplicada, proyectos conjuntos y resolución de retos reales de la industria.</p>
-    </div>
-    <div class="crd">
-      <div class="badge">Egresados</div>
-      <h4>Activo estratégico</h4>
-      <p>Integración permanente en mentorías, innovación, consejos y redes de colaboración.</p>
-    </div>
-    <div class="crd">
-      <div class="badge">Impacto</div>
-      <h4>Posicionamiento regional</h4>
-      <p>Modelos de Laguna y Chihuahua como benchmark. Eventos como plataformas de activación.</p>
-    </div>
-  </div>
-</div>
+<div class="slide light" data-theme="light"><span class="sec-num">Anexo 5</span><h2>Sesi&oacute;n de consejeros</h2><p class="lead">Hallazgos de la sesi&oacute;n con l&iacute;deres y presidentes de la comunidad.</p><div class="cards"><div class="crd"><span class="badge">Comunidad</span><h4>Red estructurada de l&iacute;deres</h4><p>No networking informal &mdash; comunidad con prop&oacute;sito, gobernanza y participaci&oacute;n en decisiones.</p></div><div class="crd"><span class="badge">Vinculaci&oacute;n</span><h4>Alianzas profundas</h4><p>Investigaci&oacute;n aplicada, proyectos conjuntos y resoluci&oacute;n de retos de la industria.</p></div><div class="crd"><span class="badge">Egresados</span><h4>Activo estrat&eacute;gico</h4><p>Integraci&oacute;n en mentor&iacute;as, innovaci&oacute;n, consejos y redes de colaboraci&oacute;n.</p></div><div class="crd"><span class="badge">Impacto</span><h4>Posicionamiento regional</h4><p>Modelos de Laguna y Chihuahua como benchmark. Eventos como plataformas de activaci&oacute;n.</p></div></div></div>
 
-<!-- ── 18: ANEXO 6 ── -->
-<div class="slide dark" data-theme="dark">
-  <span class="sec-num">Anexo 6</span>
-  <h2>&iquest;Qué desean los graduados?</h2>
-  <p class="lead">Expectativas de los egresados de Tec Beyond sobre la comunidad post-programa.</p>
-  <div class="cards">
-    <div class="crd">
-      <div class="badge">Propósito</div>
-      <h4>Comunidad con valor claro</h4>
-      <p>Red activa que incluya graduados, participantes, ponentes y aliados con impacto tangible.</p>
-    </div>
-    <div class="crd">
-      <div class="badge">Formación</div>
-      <h4>Educación avanzada</h4>
-      <p>IA, robótica, transformación digital, gobierno corporativo, inversión y viajes de aprendizaje.</p>
-    </div>
-    <div class="crd">
-      <div class="badge">Oportunidades</div>
-      <h4>Detector de negocios</h4>
-      <p>Red que genere oportunidades de negocio, inversión y colaboración a nivel regional e internacional.</p>
-    </div>
-    <div class="crd">
-      <div class="badge">Evolución</div>
-      <h4>Siguiente paso</h4>
-      <p>Estructura escalonada post-programa para que los egresados no busquen continuidad fuera del Tec.</p>
-    </div>
-  </div>
-</div>
+<div class="slide dark" data-theme="dark"><span class="sec-num">Anexo 6</span><h2>&iquest;Qu&eacute; desean los graduados?</h2><p class="lead">Expectativas de los egresados sobre la comunidad post-programa.</p><div class="cards"><div class="crd"><span class="badge">Prop&oacute;sito</span><h4>Comunidad con valor claro</h4><p>Red activa que incluya graduados, participantes, ponentes y aliados con impacto tangible.</p></div><div class="crd"><span class="badge">Formaci&oacute;n</span><h4>Educaci&oacute;n avanzada</h4><p>IA, rob&oacute;tica, transformaci&oacute;n digital, gobierno corporativo, inversi&oacute;n y viajes de aprendizaje.</p></div><div class="crd"><span class="badge">Oportunidades</span><h4>Detector de negocios</h4><p>Oportunidades de negocio, inversi&oacute;n y colaboraci&oacute;n a nivel regional e internacional.</p></div><div class="crd"><span class="badge">Evoluci&oacute;n</span><h4>Siguiente paso</h4><p>Estructura escalonada post-programa para que los egresados no busquen continuidad fuera del Tec.</p></div></div></div>
 
-<!-- ── 19: ANEXO 7 ── -->
-<div class="slide light" data-theme="light">
-  <span class="sec-num">Anexo 7</span>
-  <h2>Diagramas de trabajo</h2>
-  <p class="lead">Interpretación técnica de los diagramas de la sesión de diseño estratégico.</p>
-  <div class="cards">
-    <div class="crd">
-      <div class="badge">Diagrama 1</div>
-      <h4>Data Hub centralizado</h4>
-      <p>Base de conocimiento como núcleo. Integración, normalización y explotación analítica de datos.</p>
-    </div>
-    <div class="crd">
-      <div class="badge">Diagrama 2</div>
-      <h4>Modelo radial hub-and-spoke</h4>
-      <p>Motor de IA central distribuyendo valor a múltiples segmentos y verticales de negocio.</p>
-    </div>
-    <div class="crd">
-      <div class="badge">Diagrama 3</div>
-      <h4>MVP + curva de crecimiento</h4>
-      <p>Infraestructura mínima (scraper, IA, dashboard) con proyección no lineal a 10 años.</p>
-    </div>
-    <div class="crd">
-      <div class="badge">Diagrama 4</div>
-      <h4>Motor de personalización</h4>
-      <p>Clustering, reglas de negocio y análisis de comportamiento. Monetización por suscripción, matchmaking y contenido premium.</p>
-    </div>
-  </div>
-</div>
+<div class="slide light" data-theme="light"><span class="sec-num">Anexo 7</span><h2>Diagramas de trabajo</h2><p class="lead">Interpretaci&oacute;n t&eacute;cnica de los diagramas de la sesi&oacute;n de dise&ntilde;o estrat&eacute;gico.</p><div class="cards"><div class="crd"><span class="badge">Diagrama 1</span><h4>Data Hub centralizado</h4><p>Base de conocimiento como n&uacute;cleo. Integraci&oacute;n, normalizaci&oacute;n y explotaci&oacute;n anal&iacute;tica.</p></div><div class="crd"><span class="badge">Diagrama 2</span><h4>Modelo radial hub-and-spoke</h4><p>Motor de IA central distribuyendo valor a m&uacute;ltiples segmentos y verticales de negocio.</p></div><div class="crd"><span class="badge">Diagrama 3</span><h4>MVP + curva de crecimiento</h4><p>Infraestructura m&iacute;nima con proyecci&oacute;n no lineal a 10 a&ntilde;os.</p></div><div class="crd"><span class="badge">Diagrama 4</span><h4>Motor de personalizaci&oacute;n</h4><p>Clustering, reglas de negocio y monetizaci&oacute;n por suscripci&oacute;n, matchmaking y contenido premium.</p></div></div></div>
 
-<!-- ── 20: CONFLICTO DE INTERÉS ── -->
+<!-- ── 28: CONFLICTO DE INTERÉS ── -->
 <div class="slide dark" data-theme="dark">
   <span class="sec-num">11</span>
   <h2>Nota de transparencia</h2>
-  <p class="lead">Conflicto de interés y medidas de mitigación.</p>
-  <div class="callout" style="max-width:700px">
-    <p><strong>Edgar Barroso</strong>, fundador de Horizons Architecture, es simultáneamente profesor del Tecnológico de Monterrey y miembro del Consejo del Campus León.</p>
-  </div>
-  <h3 style="margin-top:1.5rem">Medidas de mitigación</h3>
-  <div class="cards" style="margin-top:.75rem;max-width:700px">
-    <div class="crd">
-      <div class="badge">Institucional</div>
-      <h4>Proveedor autorizado</h4>
-      <p>Horizons Architecture es proveedor autorizado del Tec de Monterrey, lo que resuelve institucionalmente el conflicto derivado de la relación como profesor.</p>
-    </div>
-    <div class="crd">
-      <div class="badge">Decisión</div>
-      <h4>Recusación del Comité de IA</h4>
-      <p>Edgar Barroso se recusa de participar en las decisiones del Comité de IA relacionadas con la contratación de este proyecto.</p>
-    </div>
-    <div class="crd">
-      <div class="badge">Gobierno</div>
-      <h4>Decisión del Comité, no del Consejo</h4>
-      <p>La decisión de contratación corresponde al Comité de IA, no al Consejo en pleno donde Edgar participa.</p>
-    </div>
-    <div class="crd">
-      <div class="badge">Datos</div>
-      <h4>Sin propiedad sobre información</h4>
-      <p>HA no es dueña de los datos de la comunidad. Toda la información pertenece al Tec y es portable.</p>
-    </div>
+  <p class="lead">Conflicto de inter&eacute;s y medidas de mitigaci&oacute;n.</p>
+  <div class="callout" style="max-width:700px;">Edgar Barroso, fundador de Horizons Architecture, es simult&aacute;neamente profesor del Tecnol&oacute;gico de Monterrey y miembro del Consejo del Campus Le&oacute;n.</div>
+  <h3 style="margin-top:1.5rem;">Medidas de mitigaci&oacute;n</h3>
+  <div class="cards" style="margin-top:.75rem;max-width:700px;">
+    <div class="crd"><span class="badge">Institucional</span><h4>Proveedor autorizado</h4><p>Horizons Architecture es proveedor autorizado del Tec de Monterrey, lo que resuelve institucionalmente el conflicto derivado de la relaci&oacute;n como profesor.</p></div>
+    <div class="crd"><span class="badge">Decisi&oacute;n</span><h4>Recusaci&oacute;n del Comit&eacute; de IA</h4><p>Edgar Barroso se recusa de participar en las decisiones del Comit&eacute; de IA relacionadas con la contrataci&oacute;n de este proyecto.</p></div>
+    <div class="crd"><span class="badge">Gobierno</span><h4>Decisi&oacute;n del Comit&eacute;, no del Consejo</h4><p>La decisi&oacute;n de contrataci&oacute;n corresponde al Comit&eacute; de IA, no al Consejo en pleno donde Edgar participa.</p></div>
+    <div class="crd"><span class="badge">Datos</span><h4>Sin propiedad sobre informaci&oacute;n</h4><p>HA no es due&ntilde;a de los datos de la comunidad. Toda la informaci&oacute;n pertenece al Tec y es portable.</p></div>
   </div>
 </div>
 
-<!-- ── 21: CIERRE ── -->
-<div class="slide dark" data-theme="dark">
-  <div style="max-width:500px">
+<!-- ── 29: CIERRE ── -->
+<div class="slide dark" data-theme="dark" style="position:relative;overflow:hidden;">
+  <div style="max-width:500px;">
     <div class="blue-line"></div>
-    <h1 style="font-size:2.2rem;margin-bottom:1rem">Tec Beyond</h1>
-    <p style="color:rgba(255,255,255,.45);font-size:.88rem;line-height:1.7">Plataforma de inteligencia colectiva para la comunidad de líderes empresariales del Tecnológico de Monterrey.</p>
-    <div style="margin-top:2.5rem;padding-top:1.5rem;border-top:1px solid rgba(255,255,255,.08)">
-      <p style="font-size:.82rem;color:rgba(255,255,255,.5);margin-bottom:.15rem"><strong style="color:rgba(255,255,255,.7)">Horizons Architecture</strong></p>
-      <p style="font-size:.78rem;color:rgba(255,255,255,.3);margin-bottom:.15rem">edgar@horizonsarchitecture.ai</p>
-      <p style="font-size:.72rem;color:rgba(255,255,255,.2);margin-bottom:0">Febrero 2026 &middot; Documento confidencial</p>
+    <h1 style="font-size:2.2rem;">Tec Beyond</h1>
+    <p style="opacity:.55;">Plataforma de inteligencia colectiva para la comunidad de l&iacute;deres empresariales del Tecnol&oacute;gico de Monterrey.</p>
+    <div style="margin-top:2.5rem;padding-top:1.5rem;border-top:1px solid rgba(255,255,255,.15);">
+      <p style="font-weight:700;opacity:.75;">Horizons Architecture</p>
+      <p style="opacity:.45;">edgar@horizonsarchitecture.ai</p>
+      <p style="opacity:.3;">Febrero 2026 &middot; Documento confidencial</p>
     </div>
   </div>
+  <svg style="position:absolute;right:-40px;top:50%;transform:translateY(-50%);width:420px;height:420px;opacity:.06;" viewBox="0 0 420 420" fill="none">
+    <circle cx="210" cy="60" r="4" fill="rgba(255,255,255,.8)"/><circle cx="310" cy="90" r="3" fill="rgba(255,255,255,.6)"/><circle cx="360" cy="160" r="5" fill="rgba(255,255,255,.7)"/><circle cx="340" cy="250" r="3" fill="rgba(255,255,255,.5)"/><circle cx="290" cy="320" r="4" fill="rgba(255,255,255,.8)"/><circle cx="200" cy="360" r="3" fill="rgba(255,255,255,.6)"/><circle cx="120" cy="330" r="5" fill="rgba(255,255,255,.7)"/><circle cx="80" cy="260" r="3" fill="rgba(255,255,255,.5)"/><circle cx="70" cy="170" r="4" fill="rgba(255,255,255,.8)"/><circle cx="130" cy="100" r="3" fill="rgba(255,255,255,.6)"/><circle cx="250" cy="150" r="4" fill="rgba(255,255,255,.7)"/><circle cx="180" cy="200" r="5" fill="rgba(255,255,255,.8)"/><circle cx="260" cy="230" r="3" fill="rgba(255,255,255,.6)"/>
+    <path d="M210 60 Q260 75 310 90" stroke="rgba(255,255,255,.4)" stroke-width="1"/><path d="M310 90 Q335 125 360 160" stroke="rgba(255,255,255,.3)" stroke-width="1"/><path d="M360 160 Q350 205 340 250" stroke="rgba(255,255,255,.4)" stroke-width="1"/><path d="M340 250 Q315 285 290 320" stroke="rgba(255,255,255,.3)" stroke-width="1"/><path d="M290 320 Q245 340 200 360" stroke="rgba(255,255,255,.4)" stroke-width="1"/><path d="M200 360 Q160 345 120 330" stroke="rgba(255,255,255,.3)" stroke-width="1"/><path d="M120 330 Q100 295 80 260" stroke="rgba(255,255,255,.4)" stroke-width="1"/><path d="M80 260 Q75 215 70 170" stroke="rgba(255,255,255,.3)" stroke-width="1"/><path d="M70 170 Q100 135 130 100" stroke="rgba(255,255,255,.4)" stroke-width="1"/><path d="M130 100 Q170 80 210 60" stroke="rgba(255,255,255,.3)" stroke-width="1"/><path d="M250 150 Q280 165 310 180" stroke="rgba(255,255,255,.2)" stroke-width="1"/><path d="M180 200 Q140 225 150 250" stroke="rgba(255,255,255,.25)" stroke-width="1"/>
+  </svg>
 </div>
 
 </div><!-- /deck -->
 
-<!-- ════════ SCRIPT ════════ -->
 <script>
 const slides = document.querySelectorAll('.slide');
 const counter = document.getElementById('counter');
@@ -1179,12 +1245,10 @@ const controls = document.getElementById('controls');
 const watermark = document.getElementById('watermark');
 const total = slides.length;
 let current = 0;
-
 function go(n) {
   if (n < 0 || n >= total) return;
   slides[current].classList.remove('active');
   slides[current].classList.add('exit');
-  setTimeout(() => slides[current === n ? current : (current > n ? current : current)].classList.remove('exit'), 460);
   const prev = current;
   current = n;
   slides[current].classList.remove('exit');
@@ -1192,10 +1256,8 @@ function go(n) {
   setTimeout(() => slides[prev].classList.remove('exit'), 460);
   update();
 }
-
 function next() { go(current + 1); }
 function prev() { go(current - 1); }
-
 function update() {
   counter.textContent = (current + 1) + ' / ' + total;
   progress.style.width = ((current + 1) / total * 100) + '%';
@@ -1203,31 +1265,24 @@ function update() {
   controls.className = 'controls' + (theme === 'light' ? ' on-light' : '');
   watermark.className = 'watermark' + (theme === 'light' ? ' on-light' : '');
 }
-
-// Keyboard
 document.addEventListener('keydown', e => {
   if (e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === ' ') { e.preventDefault(); next(); }
   if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') { e.preventDefault(); prev(); }
   if (e.key === 'Home') { e.preventDefault(); go(0); }
   if (e.key === 'End') { e.preventDefault(); go(total - 1); }
 });
-
-// Click on left/right halves
 document.addEventListener('click', e => {
   if (e.target.closest('.controls') || e.target.closest('a') || e.target.closest('button')) return;
   const x = e.clientX / window.innerWidth;
   if (x > 0.65) next();
   else if (x < 0.35) prev();
 });
-
-// Touch swipe
 let touchStartX = 0;
 document.addEventListener('touchstart', e => { touchStartX = e.touches[0].clientX; });
 document.addEventListener('touchend', e => {
   const dx = e.changedTouches[0].clientX - touchStartX;
   if (Math.abs(dx) > 50) { dx < 0 ? next() : prev(); }
 });
-
 update();
 </script>
 </body>
