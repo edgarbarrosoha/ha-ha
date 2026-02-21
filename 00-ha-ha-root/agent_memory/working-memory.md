@@ -2,6 +2,21 @@
 
 ## Sessions
 
+### 2026-02-21 | Session 13 | TEC BEYOND PRESENTACIÓN EJECUTIVA
+- **Focus:** Finalizar presentación ejecutiva HTML (slide deck) para Tec Beyond
+- **Achievements:**
+  - **SVGs limpiados:** Eliminados SVGs forzados de 7 slides (2, 3, 6, 8, 10, 12, 13). Solo conservados slide 9 (ciclo de refuerzo) y 11 (gobernanza) como héroes + constelaciones decorativas en cover/cierre
+  - **Diseño mejorado:** CSS completo reescrito como diseñador gráfico — gradientes, glass morphism, animaciones de entrada (cardIn, flowIn, svgReveal, drawLine, nodePop)
+  - **Layout overflow corregido:** Clase `.compact`, tamaños reducidos, overflow hidden
+  - **Timeline fix:** `.date`, `.title`, `.desc` ahora con `display: block` y spacing
+  - **Autoría actualizada:** Portada y cierre con "Jorge Blando · Mario Orozco · Edgar Barroso"
+  - **Publicado:** GitHub Pages actualizado (commits 68b9564 → 6f90c3b)
+- **Decisions:**
+  - Principio SVG: solo mantener si es el héroe único de la slide, sin contenido que compita
+  - Autores de la presentación: Jorge Blando, Mario Orozco, Edgar Barroso
+- **Deliverables:** presentacion-ejecutiva.html actualizado y publicado en GitHub Pages
+- **Open threads:** Reunión martes 24 feb con Jorge Blando
+
 ### 2026-02-19 | Session 11 | TEC BEYOND PROFESIONALIZACIÓN
 - **Focus:** Convertir anexos Tec Beyond de Markdown a documentos profesionales con visualizaciones
 - **Achievements:**

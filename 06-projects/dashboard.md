@@ -132,6 +132,7 @@ type: clock
 - [x] HTML profesional con gráficas Chart.js + SVG (`anexos-profesional.html`)
 - [x] PDF blanco y negro (`Tec-Beyond-Anexos-Tecnicos.pdf`)
 - [x] Kumu JSON con arquitectura fractal HA (`kumu-tec-beyond.json`)
+- [x] Presentación ejecutiva HTML slide deck (`presentacion-ejecutiva.html`) — GitHub Pages
 - [ ] Reunión martes 24 feb con Jorge Blando — presentar materiales
 
 ## Learning Products (Q1 2026)
@@ -206,5 +207,5 @@ type: clock
 
 ---
 
-*Última actualización: 2026-02-20*
+*Última actualización: 2026-02-21*
 *HA Syntax: `[>]` agent task, `[<]` waiting, `[?]` decision needed, `[!]` urgent, `[x]` done*

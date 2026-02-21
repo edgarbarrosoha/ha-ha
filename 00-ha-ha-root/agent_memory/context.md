@@ -66,9 +66,9 @@
 ## ZONE C: State (Dynamic)
 
 ### Last Session
-- **Date:** 2026-02-20
-- **Type:** SIC-Q — Actualización post-reunión Toño + procesamiento reportes talleres
-- **Achievements:** Minuta reunión Toño (limpia, sin ambigüedades), lectura completa de 4 reportes talleres (778 ideas, 74 participantes, 8 hallazgos), actualización completa dashboards SIC-Q + principal, respuesta a Héctor (nuevo lead transformación digital).
+- **Date:** 2026-02-21
+- **Type:** Tec Beyond — Presentación ejecutiva finalizada
+- **Achievements:** SVGs forzados eliminados (7 slides), diseño CSS reescrito, layout overflow corregido, timeline spacing fix, autoría actualizada (Jorge Blando · Mario Orozco · Edgar Barroso), publicado en GitHub Pages.
 
 ### Active Threads
 - SIC-Q: Talleres ✅ + Reunión Toño ✅ → 3 frentes operativos definidos. Propuesta v06 + diseño piloto = siguiente paso
@@ -106,6 +106,7 @@
 
 | Date | Session | Focus | Key Achievement |
 |------|---------|-------|-----------------|
+| 2026-02-21 | 13 | Tec Beyond presentación | SVGs limpiados, diseño CSS, autoría Blando/Orozco/Barroso, GitHub Pages |
 | 2026-02-20 | 12 | SIC-Q update | Minuta Toño, reportes talleres, dashboards actualizados, email Héctor |
 | 2026-02-19 | 11 | Tec Beyond docs | HTML+PDF+Kumu profesionales, GitHub Pages |
 | 2026-02-19 | 10 | Portfolio update | Dashboard actualizado, SIC-Q talleres ✅, JP feedback ✅ |

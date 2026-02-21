@@ -11,12 +11,12 @@ related: propuesta-v05.md, zoom-19.02.2026.md
 
 Toño,
 
-Números gruesos para tu reunión. Todo lo que necesitaremos para el año.
+Números gruesos para tu reunión. Una aproximación a lo que necesitaremos para el año.
 
 **Pagado:** $3.7M (30+ entregables en etapa de prototipo)
 **Pendiente contrato original:** ~$8.6M + IVA
 **3 productos nuevos:** $6M + IVA
-**Proyecto completo:** $16M + IVA | Con buffer: $18M + IVA
+**Proyecto completo (todo lo del contrato más los 3 proyectos nuevos):** $16M + IVA | Con buffer: $18M + IVA
 **Cloud (anual, aparte):** $600K a $5M según escala
 
 ---
@@ -52,7 +52,7 @@ Los 3 frentes dan resultados rápido. La plataforma ciudadana es la que toma má
 
 ## Infraestructura cloud (costo operativo anual)
 
-Aparte del desarrollo, el sistema necesita infraestructura de nube para operar. Dependiendo de la escala:
+Aparte del desarrollo, el sistema necesita infraestructura de nube para operar un año. Dependiendo de la escala:
 
 - **$600K/año** — piloto (~500 usuarios: gobierno, consejos, equipo cercano)
 - **$1.5M/año** — operación estándar (~5,000–10,000 usuarios: gobierno + ciudadanos activos)
