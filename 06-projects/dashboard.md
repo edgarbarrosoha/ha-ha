@@ -64,7 +64,7 @@ type: clock
 
 | **Project** | **Status** | **Next steps** | **Links** |
 | ----------- | ---------- | -------------- | --------- |
-| **SIC-Q** | 🟢 Talleres completados + 3 frentes definidos con Toño | Propuesta v06 + diseño piloto + caso gobernador | `sic-q/` |
+| **SIC-Q** | 🟢 Talleres + CONSEQRO + 3 frentes definidos con Toño | Propuesta v06 + diseño piloto + caso gobernador | `sic-q/` |
 
 ## Education & AI Systems
 
@@ -96,8 +96,9 @@ type: clock
 ## SIC-Q (Sistema de Inteligencia Colectiva de Querétaro)
 **Cliente:** CEPACI Querétaro / Gobierno de Querétaro
 **Modelo:** 3 frentes operativos — Piloto Toño + Caso gobernador + Planeación Sergio
-**Talleres:** 74 participantes, 778 ideas, 248 actores, 4 reportes completados
+**Talleres:** 74 participantes, 778 ideas, 248 actores, 5 reportes completados
 - [x] Reunión Antonio Rangel 19 feb — 3 frentes operativos definidos
+- [x] Presentación CONSEQRO 19 feb — 4 demos, ~13 consejeros, feedback capturado
 - [x] Talleres co-diseño (16-17 feb) — reportes ejecutivos + técnico completados
 - [ ] 🔴 Propuesta v06 con 3 frentes operativos + datos talleres
 - [ ] 🔴 Diseñar piloto operativo con Toño (datasets, productos, métricas)
@@ -197,7 +198,7 @@ type: clock
 | Project | Potential | Status |
 |---------|-----------|--------|
 | Docet-Agentic | $3.9M MXN (~$200K USD) | En pausa — esperando evaluación equipo Poncho |
-| SIC-Q | TBD | Talleres exitosos + 3 frentes definidos — diseño piloto en curso |
+| SIC-Q | TBD | Talleres + CONSEQRO exitosos + 3 frentes definidos — diseño piloto en curso |
 | TEC Monterrey | Consultoría (Narrativa + Tec Beyond) | Activo |
 | UPU | 3,500 CHF (workshop) + frontend | Cerrando |
 | Talisis | TBD | Reconectado — llamada siguiente semana |

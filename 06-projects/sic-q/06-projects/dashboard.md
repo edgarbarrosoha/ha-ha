@@ -13,8 +13,9 @@
 | Fecha | Hito |
 |-------|------|
 | 16-17 feb | 2 talleres co-diseño completados: 74 participantes, 778 ideas, 248 actores mapeados |
+| 19 feb | Presentación al CONSEQRO: 4 demos en vivo, retroalimentación de ~13 consejeros |
 | 19 feb | Reunión estratégica con Antonio Rangel — definición de 3 frentes operativos |
-| 19-20 feb | 4 reportes de talleres completados (2 ejecutivos, 1 combinado, 1 técnico ~1600 líneas) |
+| 19-20 feb | 5 reportes completados (2 ejecutivos, 1 combinado, 1 técnico, 1 sesión CONSEQRO) |
 
 ---
 
@@ -31,7 +32,8 @@
 | 7 | Talleres co-diseño (2 talleres, 74 participantes) | [x] Complete | Edgar + equipo |
 | 8 | Reportes talleres (ejecutivos + técnico) | [x] Complete | Edgar |
 | 9 | Reunión estratégica con Toño — 3 frentes | [x] Complete | Edgar |
-| 10 | Propuesta v06 (actualizar con 3 frentes + datos talleres) | [!] Urgent | Edgar |
+| 9b | Presentación al CONSEQRO — 4 demos, retroalimentación consejeros | [x] Complete | Edgar + Toño |
+| 10 | Propuesta v06 (actualizar con 3 frentes + datos talleres + CONSEQRO) | [!] Urgent | Edgar |
 | 11 | Diseño piloto operativo con Toño | [!] Urgent | Edgar |
 | 12 | Identificar datasets iniciales disponibles | [>] Next | Joaquín/Oscar |
 | 13 | Estrategia de acercamiento al Secretario de Finanzas | [ ] Pending | Edgar |
@@ -130,6 +132,7 @@
 | Ejecutivo Taller 2 | Participantes | `entregables/talleres-febrero-2026/reporte-ejecutivo-taller-2.md` |
 | Ejecutivo Combinado | Participantes ambos talleres | `entregables/talleres-febrero-2026/reporte-ejecutivo-combinado.md` |
 | Técnico completo | Agente SIC-Q / CONSEQRO | `entregables/talleres-febrero-2026/reporte-talleres-sic-q.md` |
+| Sesión CONSEQRO | Interno / CONSEQRO | `entregables/talleres-febrero-2026/reporte-sesion-conseqro.md` |
 
 ---
 
@@ -150,7 +153,8 @@
 | Talleres co-diseño (materiales) | `entregables/talleres-febrero-2026/` | [x] Complete |
 | Reportes talleres (4 documentos) | `entregables/talleres-febrero-2026/` | [x] Complete |
 | Minuta reunión Toño 19 feb | `transcripts-zooms/zoom-19.02.2026.md` | [x] Complete |
-| Propuesta v06 (3 frentes + datos talleres) | `propuestas/` | [ ] Pending |
+| Reporte sesión CONSEQRO (19 feb) | `entregables/talleres-febrero-2026/reporte-sesion-conseqro.md` | [x] Complete |
+| Propuesta v06 (3 frentes + datos talleres + CONSEQRO) | `propuestas/` | [ ] Pending |
 | Diseño piloto Toño | `entregables/` | [ ] Pending |
 | Narrativa para gobernador | `presentaciones/` | [ ] Pending |
 | Backend architecture | `entregables/` | [ ] Pending |
@@ -165,6 +169,7 @@
 | Government of Querétaro | Sponsor | Engaged |
 | Secretaría de Planeación y PC | Usuario del SIC-Q (planeación) | Service relationship |
 | Instituto del Futuro | Institución de prospectiva, operador del SIC-Q (TaaS) | Proposed |
+| CONSEQRO (Consejo Querétaro 2050) | Consejo ciudadano — retroalimentación, legitimidad, portador propuesto | Engaged (sesión 19 feb) |
 
 ---
 
@@ -192,7 +197,8 @@
 - [x] @define TaaS architecture + 3 instances across 6 documents
 - [x] @process talleres co-diseño (reportes ejecutivos + técnico)
 - [x] @capture minuta reunión Toño 19 feb
-- [!] @draft propuesta v06 con 3 frentes operativos + datos talleres
+- [x] @create reporte sesión CONSEQRO (presentación + retroalimentación consejeros)
+- [!] @draft propuesta v06 con 3 frentes operativos + datos talleres + feedback CONSEQRO
 - [!] @design piloto operativo Toño (alcance, datos, productos, métricas)
 - [>] @research international benchmarks for citizen participation
 - [ ] @prepare narrativa gobernador con validación espontánea talleres
