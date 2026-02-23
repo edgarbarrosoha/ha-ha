@@ -1,4 +1,4 @@
-# Anexo 1: El Modelo — Narrativa Visual
+# Anexo 2: El modelo — Narrativa visual
 
 **Para:** Jorge Blando, Víctor Gutiérrez, Mario Orozco
 **De:** Edgar Barroso — Horizons Architecture

@@ -1,4 +1,4 @@
-# Anexo 4: Modelo de Escalabilidad
+# Anexo 5: Modelo de escalabilidad
 
 **Para:** Jorge Blando, Víctor Gutiérrez, Mario Orozco
 **De:** Edgar Barroso — Horizons Architecture

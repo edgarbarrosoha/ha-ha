@@ -1,4 +1,4 @@
-# Anexo 5 — Resumen ejecutivo: Sesión de consejeros
+# Anexo 6 — Resumen ejecutivo: sesión de consejeros
 
 **Fuente:** Sesión con consejeros Tec Beyond (líderes y presidentes)
 **Fecha de procesamiento:** Febrero 2026
@@ -6,6 +6,7 @@
 ---
 
 ## Comunidad de líderes y presidentes
+
 
 Se busca consolidar una red activa de presidentes, CEOs y líderes empresariales (principalmente egresados) que:
 
@@ -19,6 +20,7 @@ Se busca consolidar una red activa de presidentes, CEOs y líderes empresariales
 ---
 
 ## Vinculación estratégica con empresas
+
 
 Evolución del modelo relacional hacia alianzas de mayor profundidad:
 
@@ -46,6 +48,7 @@ La comunidad no termina en el programa; se diseña con continuidad.
 
 ## Innovación e impacto regional
 
+
 Los modelos presentados (Laguna y Chihuahua) integran:
 
 - Impulso al emprendimiento
@@ -59,6 +62,7 @@ En Chihuahua, el modelo de eventos funciona como plataforma estratégica de comu
 
 ## Síntesis estratégica
 
+
 Las iniciativas de Laguna y Chihuahua muestran una estrategia integral basada en:
 
 1. Comunidad estructurada de líderes
@@ -69,7 +73,7 @@ Las iniciativas de Laguna y Chihuahua muestran una estrategia integral basada en
 
 ---
 
-## Oportunidad para Comunidad Presidentes
+## Oportunidad para comunidad de presidentes
 
 Existen modelos ya avanzados que pueden servir como benchmark para:
 

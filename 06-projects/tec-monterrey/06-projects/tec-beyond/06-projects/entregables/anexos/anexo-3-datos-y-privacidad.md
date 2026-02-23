@@ -1,4 +1,4 @@
-# Anexo 2: Estructura de Datos y Privacidad
+# Anexo 3: Estructura de datos y privacidad
 
 **Para:** Jorge Blando, Víctor Gutiérrez, Mario Orozco
 **De:** Edgar Barroso — Horizons Architecture

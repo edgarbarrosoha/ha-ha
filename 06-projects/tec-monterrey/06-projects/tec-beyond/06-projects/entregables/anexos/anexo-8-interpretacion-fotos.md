@@ -1,4 +1,5 @@
-# Anexo 7 — Interpretación de diagramas de trabajo
+# Anexo 8 — Interpretación de diagramas de trabajo
+
 
 **Fuente:** Fotografías de sesión de diseño estratégico (pizarrón y papel)
 **Fecha de procesamiento:** Febrero 2026
