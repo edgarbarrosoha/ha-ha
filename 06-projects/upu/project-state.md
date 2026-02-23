@@ -5,8 +5,9 @@
 - **Client:** Universal Postal Union
 - **Components:** Frontend 2IPD + Workshop AI + Conference
 - **Contract:** Nov 2025 - Jan 2026 (extended)
-- **Phase:** Active — Frontend Development
+- **Phase:** Closing — Documentation final
 - **Revenue:** 3,500 CHF (workshop) + frontend contract
+- **Note:** MBTU/Caribbean presentation (Feb 21) went very well. José Anson attended. New lead: AI training across Caribbean region.
 
 ## Progress Map
 
@@ -28,7 +29,8 @@
 ## Team
 
 - **Oscar** — Lead, documentation owner
-- **2 new developers** — Working with Oscar
+- **Renée** — Documentation support
+- Oscar and Renée should finish documentation early next week (w/o Feb 24)
 
 ## Queue
 
@@ -46,4 +48,5 @@
 
 | Date | Units Completed | Notes |
 |------|----------------|-------|
-| — | — | State initialized 2026-02-14 |
+| 2026-02-22 | — | Trip debrief: MBTU presentation success. Oscar+Renée closing next week. Caribbean AI lead. |
+| 2026-02-14 | — | State initialized |

@@ -26,32 +26,30 @@
 
 ## Current Front
 
-- **Deliverable:** 4 anexos para presentación a Jorge Blando (martes 9:30 AM MX)
-- **Type:** Documentos analíticos/operativos — complementan la narrativa estratégica existente
-- **Context:** Mario alineó a David Garza, Ricardo Saldívar y Hugo Garza (feb 15-16). Víctor Gutiérrez coordina, Jorge Blando maneja negociación/business plan. Edgar presenta a Jorge Blando el martes con estos anexos como respaldo.
-- **Timeline:** Martes (próximo) 9:30 AM hora México — URGENTE
-- **Anexos pedidos por Mario:**
-  1. Narrativa visual del modelo (cómo interactúan los componentes, sustento creativo)
-  2. Estructura de datos y privacidad (dónde viven los datos, quién controla)
-  3. Business Case framework (variables necesarias, no números finales — para llenar con Jorge Blando)
-  4. Modelo de escalabilidad (León → sedes → modelo económico → gobernanza largo plazo)
+- **Deliverable:** Meeting with Jorge Blando (Tue Feb 24, 09:00 MX / Zurich)
+- **Type:** Strategic meeting — define collaboration specifics
+- **Context:** 4 Anexos complete. Entrepreneurs from 4 states (Jalisco, Michoacán, Guanajuato, Chihuahua). HA provides AI intelligence layer for lifelong learning community. Perfect fractal case: community management through HA instances.
+- **Strategic insight:** Each participant = potential individual client (government + private sector). This feeds the B2C product opportunity (Project Mara — personalized HA for SMEs).
+- **Edgar's assessment:** "This project is important though not at SIC-Q scale, because it brings together entrepreneurs from multiple states and the work is to add the AI layer so the community doesn't just stay a 1-year course but gets lifelong follow-up through HA."
 
 ## Queue
 
-1. Anexo 1: Narrativa visual <-- IN PROGRESS
-2. Anexo 2: Datos y privacidad
-3. Anexo 3: Business Case
-4. Anexo 4: Escalabilidad
-5. Prompt agente Tec Beyond — refinar
+1. Meeting Jorge Blando (Tue 24) <-- CURRENT
+2. Define collaboration specifics post-meeting
+3. Mario presents to Consejo (Feb 25)
+4. Comité de IA approval (March 2026)
+5. "Reunión de Generaciones" potential launch (April 17)
+6. Explore B2C product from this community → Project Mara
 
 ## Blockers
 
-- Edgar vuela a Suiza el domingo — reunión martes será por Zoom desde allá
-- Cierre pendiente con Laurance (Mario + Irma lo trabajan con documento de cierre)
+- Edgar in Zurich — meeting by Zoom
+- Cierre pendiente con Laurance (Mario + Irma lo trabajan)
 
 ## Session Log
 
 | Date | Units Completed | Notes |
 |------|----------------|-------|
-| 2026-02-18 | — | Actualización gobernanza + inicio 4 anexos para Jorge Blando |
-| 2026-02-14 | — | State initialized. Visualizaciones Mario = next priority. |
+| 2026-02-22 | — | Trip debrief. Project assessed as perfect HA fractal case. B2C insight → Mara |
+| 2026-02-18 | — | Actualización gobernanza + 4 anexos complete |
+| 2026-02-14 | — | State initialized |
