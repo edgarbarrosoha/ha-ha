@@ -1,0 +1,2278 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tec Beyond + HA — Anexos Técnicos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --navy: #231F20;
+    --navy-light: #333333;
+    --blue: #3356F6;
+    --blue-light: #5B7AF8;
+    --teal: #3356F6;
+    --teal-light: #5B7AF8;
+    --teal-bg: #EEF1FE;
+    --amber: #d97706;
+    --amber-light: #fbbf24;
+    --red: #dc2626;
+    --green: #16a34a;
+    --gray-50: #f8fafc;
+    --gray-100: #f1f5f9;
+    --gray-200: #e2e8f0;
+    --gray-300: #cbd5e1;
+    --gray-400: #94a3b8;
+    --gray-500: #64748b;
+    --gray-600: #475569;
+    --gray-700: #334155;
+    --gray-800: #1e293b;
+    --gray-900: #0f172a;
+    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-serif: 'Source Serif 4', Georgia, serif;
+  }
+
+  html.bw-mode { filter: grayscale(100%); -webkit-filter: grayscale(100%); }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; font-size: 16px; }
+
+  body {
+    font-family: var(--font-sans);
+    color: var(--gray-800);
+    background: var(--gray-50);
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ── NAV ── */
+  nav {
+    position: fixed; top: 0; left: 0;
+    width: 260px; height: 100vh;
+    background: var(--navy);
+    color: white;
+    padding: 2rem 0;
+    overflow-y: auto;
+    z-index: 100;
+    display: flex; flex-direction: column;
+  }
+  nav .brand {
+    padding: 0 1.5rem 1.5rem;
+    border-bottom: 1px solid rgba(255,255,255,.1);
+    margin-bottom: 1rem;
+  }
+  nav .brand h2 {
+    font-size: .7rem;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    color: var(--teal-light);
+    font-weight: 600;
+    margin-bottom: .25rem;
+  }
+  nav .brand h1 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+  nav .nav-section {
+    padding: .75rem 1.5rem .25rem;
+    font-size: .6rem;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    color: var(--teal-light);
+    font-weight: 600;
+  }
+  nav a {
+    display: block;
+    padding: .45rem 1.5rem;
+    color: rgba(255,255,255,.7);
+    text-decoration: none;
+    font-size: .82rem;
+    font-weight: 400;
+    transition: all .15s;
+    border-left: 3px solid transparent;
+  }
+  nav a:hover, nav a.active {
+    color: white;
+    background: rgba(255,255,255,.06);
+    border-left-color: var(--teal-light);
+  }
+  nav .footer {
+    margin-top: auto;
+    padding: 1.5rem;
+    border-top: 1px solid rgba(255,255,255,.1);
+    font-size: .7rem;
+    color: rgba(255,255,255,.4);
+    line-height: 1.5;
+  }
+
+  /* ── MAIN ── */
+  main {
+    margin-left: 260px;
+    min-height: 100vh;
+  }
+
+  /* ── COVER ── */
+  .cover {
+    background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 50%, var(--teal) 100%);
+    color: white;
+    padding: 6rem 4rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .cover::before {
+    content: '';
+    position: absolute;
+    top: -30%; right: -20%;
+    width: 700px; height: 700px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(91,122,248,.15) 0%, transparent 70%);
+  }
+  .cover::after {
+    content: '';
+    position: absolute;
+    bottom: -20%; left: -10%;
+    width: 500px; height: 500px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(51,86,246,.1) 0%, transparent 70%);
+  }
+  .cover > * { position: relative; z-index: 1; }
+  .cover .label {
+    font-size: .7rem;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: var(--teal-light);
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  .cover h1 {
+    font-family: var(--font-serif);
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 1.15;
+    margin-bottom: .75rem;
+    max-width: 650px;
+  }
+  .cover .subtitle {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: rgba(255,255,255,.8);
+    max-width: 550px;
+    margin-bottom: 3rem;
+  }
+  .cover .meta {
+    display: flex; gap: 3rem;
+    font-size: .85rem;
+    color: rgba(255,255,255,.6);
+  }
+  .cover .meta strong { color: white; font-weight: 500; }
+
+  /* ── SECTIONS ── */
+  .section {
+    padding: 4rem;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .section-divider {
+    border: none;
+    height: 1px;
+    background: var(--gray-200);
+    margin: 0 4rem;
+    max-width: 960px;
+  }
+
+  .annexHeader {
+    padding: 3rem 4rem 0;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .annex-label {
+    font-size: .65rem;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: var(--teal);
+    font-weight: 700;
+    margin-bottom: .5rem;
+  }
+  .annex-title {
+    font-family: var(--font-serif);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: .5rem;
+  }
+  .annex-desc {
+    font-size: .95rem;
+    color: var(--gray-500);
+    max-width: 600px;
+    line-height: 1.6;
+  }
+
+  h3 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: .75rem;
+    margin-top: 2.5rem;
+  }
+  h3:first-child { margin-top: 0; }
+
+  h4 {
+    font-size: .95rem;
+    font-weight: 600;
+    color: var(--gray-700);
+    margin-bottom: .5rem;
+    margin-top: 1.5rem;
+  }
+
+  p {
+    margin-bottom: 1rem;
+    color: var(--gray-700);
+    font-size: .92rem;
+  }
+  p strong { color: var(--gray-800); }
+
+  /* ── CARDS ── */
+  .card {
+    background: white;
+    border: 1px solid var(--gray-200);
+    border-radius: 12px;
+    padding: 1.75rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,.04);
+  }
+  .card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .card-sm {
+    background: white;
+    border: 1px solid var(--gray-200);
+    border-radius: 10px;
+    padding: 1.25rem;
+    box-shadow: 0 1px 2px rgba(0,0,0,.03);
+  }
+  .card-sm h4 { margin-top: 0; margin-bottom: .35rem; font-size: .9rem; }
+  .card-sm p { font-size: .82rem; color: var(--gray-500); margin-bottom: 0; line-height: 1.5; }
+
+  /* ── TABLES ── */
+  table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-bottom: 1.5rem;
+    font-size: .85rem;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid var(--gray-200);
+  }
+  thead th {
+    background: var(--navy);
+    color: white;
+    font-weight: 600;
+    text-align: left;
+    padding: .75rem 1rem;
+    font-size: .78rem;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+  }
+  tbody td {
+    padding: .65rem 1rem;
+    border-bottom: 1px solid var(--gray-100);
+    color: var(--gray-700);
+    vertical-align: top;
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr:nth-child(even) { background: var(--gray-50); }
+  tbody tr:hover { background: var(--teal-bg); }
+
+  /* ── CHART CONTAINERS ── */
+  .chart-container {
+    background: white;
+    border: 1px solid var(--gray-200);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,.04);
+  }
+  .chart-container .chart-title {
+    font-size: .82rem;
+    font-weight: 600;
+    color: var(--gray-700);
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+  }
+  .chart-wrapper {
+    position: relative;
+    width: 100%;
+    max-height: 380px;
+  }
+
+  /* ── SVG DIAGRAMS ── */
+  .diagram-container {
+    background: white;
+    border: 1px solid var(--gray-200);
+    border-radius: 12px;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,.04);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .diagram-container .diagram-title {
+    font-size: .82rem;
+    font-weight: 600;
+    color: var(--gray-700);
+    margin-bottom: 1.25rem;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    align-self: flex-start;
+  }
+  .diagram-container svg { max-width: 100%; height: auto; }
+
+  /* ── CALLOUT ── */
+  .callout {
+    background: var(--teal-bg);
+    border-left: 4px solid var(--teal);
+    border-radius: 0 10px 10px 0;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .callout p { margin-bottom: 0; color: var(--navy); }
+  .callout strong { color: var(--teal); }
+
+  .callout-amber {
+    background: #fffbeb;
+    border-left-color: var(--amber);
+  }
+  .callout-amber strong { color: var(--amber); }
+
+  /* ── METRIC STRIP ── */
+  .metrics {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .metric {
+    background: white;
+    border: 1px solid var(--gray-200);
+    border-radius: 10px;
+    padding: 1.25rem;
+    text-align: center;
+  }
+  .metric .value {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--navy);
+    line-height: 1;
+    margin-bottom: .25rem;
+  }
+  .metric .label {
+    font-size: .7rem;
+    color: var(--gray-500);
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    font-weight: 500;
+  }
+
+  /* ── TIMELINE ── */
+  .timeline {
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 7px;
+    top: 4px;
+    bottom: 4px;
+    width: 2px;
+    background: linear-gradient(to bottom, var(--teal), var(--blue));
+    border-radius: 1px;
+  }
+  .timeline-item {
+    position: relative;
+    padding-bottom: 1.75rem;
+  }
+  .timeline-item:last-child { padding-bottom: 0; }
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -2rem;
+    top: 4px;
+    width: 16px; height: 16px;
+    border-radius: 50%;
+    background: var(--teal);
+    border: 3px solid white;
+    box-shadow: 0 0 0 2px var(--teal);
+  }
+  .timeline-item .tl-date {
+    font-size: .72rem;
+    font-weight: 600;
+    color: var(--teal);
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    margin-bottom: .15rem;
+  }
+  .timeline-item h4 { margin-top: 0; margin-bottom: .25rem; }
+  .timeline-item p { margin-bottom: 0; font-size: .85rem; }
+
+  /* ── FLOW STEPS ── */
+  .flow-steps {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+    justify-content: center;
+  }
+  .flow-step {
+    background: white;
+    border: 1px solid var(--gray-200);
+    border-radius: 10px;
+    padding: .75rem 1rem;
+    font-size: .8rem;
+    font-weight: 500;
+    color: var(--navy);
+    text-align: center;
+    min-width: 100px;
+  }
+  .flow-step.highlight {
+    background: var(--teal);
+    color: white;
+    border-color: var(--teal);
+  }
+  .flow-arrow {
+    color: var(--gray-300);
+    font-size: 1.2rem;
+  }
+
+  /* ── BADGE ── */
+  .badge {
+    display: inline-block;
+    padding: .15rem .55rem;
+    border-radius: 6px;
+    font-size: .7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+  }
+  .badge-teal { background: var(--teal-bg); color: var(--teal); }
+  .badge-blue { background: #EEF1FE; color: var(--blue); }
+  .badge-amber { background: #fffbeb; color: var(--amber); }
+  .badge-green { background: #f0fdf4; color: var(--green); }
+  .badge-red { background: #fef2f2; color: var(--red); }
+
+  /* ── QA SECTION ── */
+  .qa-grid {
+    display: grid;
+    gap: .75rem;
+    margin-bottom: 1.5rem;
+  }
+  .qa-item {
+    background: white;
+    border: 1px solid var(--gray-200);
+    border-radius: 10px;
+    padding: 1rem 1.25rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1rem;
+  }
+  .qa-item .question {
+    font-weight: 600;
+    font-size: .85rem;
+    color: var(--navy);
+  }
+  .qa-item .answer {
+    font-size: .85rem;
+    color: var(--gray-600);
+  }
+
+  /* ── RISK MATRIX ── */
+  .risk-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 3fr;
+    gap: .5rem;
+    align-items: center;
+    padding: .75rem 0;
+    border-bottom: 1px solid var(--gray-100);
+    font-size: .83rem;
+  }
+  .risk-row:last-child { border-bottom: none; }
+  .risk-header {
+    font-weight: 600;
+    color: var(--gray-500);
+    font-size: .7rem;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    padding-bottom: .5rem;
+    border-bottom: 2px solid var(--gray-200);
+  }
+
+  /* ── PRINT ── */
+  @media print {
+    nav { display: none; }
+    main { margin-left: 0; }
+    .cover { min-height: auto; padding: 3rem 2rem; page-break-after: always; }
+    .section { padding: 2rem; }
+    .chart-container, .diagram-container, .card { break-inside: avoid; }
+    .annexHeader { page-break-before: always; }
+    body { font-size: 14px; }
+    .no-print { display: none; }
+  }
+
+  ul { margin-bottom: 1rem; padding-left: 1.5rem; }
+  li { margin-bottom: .35rem; font-size: .92rem; color: var(--gray-700); }
+
+  @media (max-width: 900px) {
+    nav { display: none; }
+    main { margin-left: 0; }
+    .cover { padding: 3rem 2rem; }
+    .section { padding: 2rem; }
+    .card-grid { grid-template-columns: 1fr; }
+    .metrics { grid-template-columns: 1fr 1fr; }
+    .qa-item { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ════════ NAV ════════ -->
+<nav>
+  <div class="brand">
+    <h2>Horizons Architecture</h2>
+    <h1>Tec Beyond<br>Anexos Técnicos</h1>
+  </div>
+
+  <div class="nav-section">Anexo 1</div>
+  <a href="#anexo1">Personas al centro</a>
+  <a href="#a1-diferencia">Lo que hace la diferencia</a>
+  <a href="#a1-voces">Lo que nos dicen las personas</a>
+  <a href="#a1-trascendencia">Trascendencia</a>
+  <a href="#a1-identidad">Identidad Beyond</a>
+  <a href="#a1-tecnologia">La tecnología como medio</a>
+
+  <div class="nav-section">Anexo 2</div>
+  <a href="#anexo2">El modelo</a>
+  <a href="#a2-organismo">El organismo</a>
+  <a href="#a2-agentes">Los 4 agentes</a>
+  <a href="#a2-gobernanza">Gobernanza</a>
+
+  <div class="nav-section">Anexo 3</div>
+  <a href="#anexo3">Datos y privacidad</a>
+  <a href="#a3-arquitectura">Arquitectura</a>
+  <a href="#a3-privacidad">Privacidad</a>
+  <a href="#a3-seguridad">Seguridad</a>
+
+  <div class="nav-section">Anexo 4</div>
+  <a href="#anexo4">Business case</a>
+  <a href="#a4-costos">Estructura de costos</a>
+  <a href="#a4-escenarios">Escenarios</a>
+  <a href="#a4-roi">ROI intangible</a>
+
+  <div class="nav-section">Anexo 5</div>
+  <a href="#anexo5">Escalabilidad</a>
+  <a href="#a5-expansion">Expansión</a>
+  <a href="#a5-economia">Economía</a>
+  <a href="#a5-riesgos">Riesgos</a>
+
+  <div class="nav-section">Anexo 6</div>
+  <a href="#anexo6">Sesión consejeros</a>
+  <a href="#a6-lideres">Comunidad de líderes</a>
+  <a href="#a6-vinculacion">Vinculación empresarial</a>
+  <a href="#a6-sintesis">Síntesis estratégica</a>
+
+  <div class="nav-section">Anexo 7</div>
+  <a href="#anexo7">Graduados Beyond</a>
+
+  <a href="#a7-comunidad">Comunidad y valor</a>
+  <a href="#a7-formacion">Formación continua</a>
+  <a href="#a7-oportunidades">Red estratégica</a>
+
+  <div class="nav-section">Anexo 8</div>
+  <a href="#anexo8">Diagramas de trabajo</a>
+  <a href="#a8-base">Base de conocimiento</a>
+  <a href="#a8-radial">Modelo radial</a>
+  <a href="#a8-mvp">MVP e IA</a>
+
+  <div class="footer">
+    Horizons Architecture Systems<br>
+    Febrero 2026<br><br>
+    Documento confidencial
+  </div>
+</nav>
+
+<!-- ════════ MAIN ════════ -->
+<main>
+
+<!-- ──── COVER ──── -->
+<section class="cover" id="cover">
+  <div class="label">Tec Beyond + Horizons Architecture</div>
+  <h1>Anexos Técnicos</h1>
+  <p class="subtitle">Modelo, datos, business case y escalabilidad para la plataforma de inteligencia colectiva de Tec Beyond.</p>
+  <div class="meta">
+    <div><strong>Para:</strong> Jorge Blando, Víctor Gutiérrez, Mario Orozco</div>
+    <div><strong>De:</strong> Edgar Barroso</div>
+    <div><strong>Fecha:</strong> Febrero 2026</div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════ -->
+<!--          ANEXO 1: PERSONAS AL CENTRO            -->
+<!-- ═══════════════════════════════════════════════ -->
+
+<div class="annexHeader" id="anexo1">
+  <div class="annex-label">Anexo 1</div>
+  <h2 class="annex-title">Personas al centro &mdash; El alma del proyecto</h2>
+  <p class="annex-desc">Antes de hablar de tecnología, una pregunta: ¿para quién estamos construyendo esto y por qué?</p>
+</div>
+
+<div class="section" id="a1-diferencia">
+  <h3>Lo que realmente hace la diferencia</h3>
+  <p>La diferencia entre una empresa y otra ya no está en la financiación, los recursos o la tecnología. <strong>Está en las personas. En el talento humano.</strong></p>
+  <p>Las preguntas que realmente importan son:</p>
+  <ul>
+    <li>¿Tenemos contenta a nuestra gente?</li>
+    <li>¿Sabemos atraer a las nuevas generaciones?</li>
+    <li>¿Aprovechamos el potencial de nuestro equipo, o lo exprimimos sin nutrirlo?</li>
+    <li>¿Estamos gestionando el cambio cultural que exige este momento?</li>
+  </ul>
+  <p>Estas preguntas no se responden con más estrategia, más conocimiento técnico o más tendencias. Se responden con <strong>gestión de personas</strong>: innovación organizativa, liderazgo con propósito, cultura de crecimiento compartido.</p>
+  <p>Tec Beyond nació de esa misma convicción: un programa donde las personas se encuentran, se acompañan y crecen juntas.</p>
+
+  <h4>Lo que ya construimos</h4>
+  <p>En 10 años de Tec Beyond, lo más valioso no son los contenidos impartidos ni los certificados entregados. Lo más valioso es lo que surgió entre las personas:</p>
+  <div class="metrics">
+    <div class="metric">
+      <div class="value">9</div>
+      <div class="label">Generaciones</div>
+    </div>
+    <div class="metric">
+      <div class="value">~350</div>
+      <div class="label">Empresarios</div>
+    </div>
+    <div class="metric">
+      <div class="value">~3,000</div>
+      <div class="label">Personas impactadas</div>
+    </div>
+  </div>
+  <p>Lo que los une es una experiencia compartida que transformó su manera de verse a sí mismos, a sus empresas y a su comunidad.</p>
+</div>
+
+<hr class="section-divider">
+
+<div class="section" id="a1-voces">
+  <h3>Lo que nos dicen las personas</h3>
+
+  <h4>Lo que nos dijeron los graduados</h4>
+  <p>Cuando preguntamos a los egresados qué quieren de esta comunidad, no pidieron más tecnología. Pidieron:</p>
+  <ol>
+    <li><strong>Propósito claro</strong> &mdash; Saber para qué pertenecen y qué valor reciben</li>
+    <li><strong>Relaciones que generan oportunidades reales</strong> &mdash; No networking superficial, sino conexiones que mueven negocios</li>
+    <li><strong>Formación que evoluciona con ellos</strong> &mdash; No repetir lo mismo, sino crecer juntos</li>
+    <li><strong>Acompañamiento institucional</strong> &mdash; Sentir que el Tec sigue caminando con ellos</li>
+    <li><strong>Un siguiente paso</strong> &mdash; Que la comunidad no termine nunca</li>
+  </ol>
+
+  <h4>Lo que nos dijeron los consejeros</h4>
+  <p>Los líderes y presidentes del Consejo expresaron lo mismo:</p>
+  <ul>
+    <li>Comunidad <strong>estructurada con gobernanza</strong>, no networking informal</li>
+    <li>Vinculación <strong>profunda</strong> entre empresas &mdash; investigación aplicada, retos reales, impacto económico</li>
+    <li>Egresados como <strong>activo estratégico</strong>, no solo relacional</li>
+    <li>Impacto regional <strong>medible</strong></li>
+  </ul>
+  <p>En ambos casos, el mensaje es el mismo: <strong>las personas primero. La estructura al servicio de las personas. La tecnología al servicio de la estructura.</strong></p>
+</div>
+
+<hr class="section-divider">
+
+<div class="section" id="a1-trascendencia">
+  <h3>Una comunidad de personas que trascienden juntas</h3>
+  <p>Lo que proponemos con Tec Beyond es, ante todo, una <strong>comunidad de personas comprometidas a trascender</strong> &mdash; junto con sus familias, colaboradores, instituciones y comunidad.</p>
+
+  <h4>Trascendencia personal</h4>
+  <p>Cada empresario que pasa por Beyond aprende, sí &mdash; pero sobre todo se transforma. Descubre fortalezas que no sabía que tenía, enfrenta vulnerabilidades que evitaba, y encuentra en otros empresarios un espejo y un apoyo.</p>
+
+  <h4>Trascendencia empresarial</h4>
+  <p>Las empresas de los miembros no operan en aislamiento. Cuando un empresario de manufactura en León conecta con un distribuidor en Chihuahua, ambos crecen. Cuando una empresa familiar enfrenta su proceso de sucesión y encuentra en la comunidad a tres familias que ya lo vivieron, el riesgo baja y la sabiduría sube. <strong>La red genera valor económico real porque las personas confían unas en otras.</strong></p>
+
+  <h4>Trascendencia comunitaria</h4>
+  <p>El impacto no se queda en las empresas. Se extiende a las familias, a los colaboradores, a las comunidades donde operan. Un empresario que aprende a gestionar su talento con dignidad y propósito genera empleo de calidad. Una red de empresarios que colaboran entre sí fortalece el tejido económico de su región.</p>
+
+  <h4>Qué significa &ldquo;personas al centro&rdquo; en cada componente</h4>
+  <table>
+    <thead><tr><th>Componente</th><th>Sin personas al centro</th><th>Con personas al centro</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Matching</strong></td><td>Algoritmo que cruza perfiles</td><td>Sistema que facilita encuentros humanos con consentimiento y respeto</td></tr>
+      <tr><td><strong>Contenidos</strong></td><td>Catálogo igual para todos</td><td>Formación personalizada según dónde está cada persona en su camino</td></tr>
+      <tr><td><strong>Comunidad</strong></td><td>Directorio de contactos</td><td>Red viva donde las personas se conocen, ayudan, retan y crecen juntas</td></tr>
+      <tr><td><strong>Gobernanza</strong></td><td>Decisiones centralizadas</td><td>La comunidad decide sus reglas. El Consejo gobierna porque las personas lo eligieron</td></tr>
+      <tr><td><strong>Escalabilidad</strong></td><td>Replicar una plataforma</td><td>Replicar una cultura de confianza &mdash; la tecnología es fractal, lo que se replica es el compromiso humano</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<hr class="section-divider">
+
+<div class="section" id="a1-identidad">
+  <h3>Identidad Beyond</h3>
+  <p>La comunidad Beyond necesita una identidad que refleje lo que realmente es &mdash; algo más profundo que un club de empresarios, un directorio de networking o un programa institucional.</p>
+  <p><strong>Beyond es una comunidad de personas comprometidas a trascender junto con su familia, colaboradores, instituciones y comunidad.</strong></p>
+  <p>Esa identidad se sostiene en cuatro pilares:</p>
+  <ol>
+    <li><strong>Compromiso personal</strong> &mdash; Cada miembro elige estar y aportar. La pertenencia se construye activamente.</li>
+    <li><strong>Colaboración genuina</strong> &mdash; El valor se genera cuando las personas comparten con generosidad: conocimiento, contactos, experiencias, incluso fracasos.</li>
+    <li><strong>Visión de largo plazo</strong> &mdash; No buscamos beneficios inmediatos. Buscamos construir algo que trascienda generaciones.</li>
+    <li><strong>Impacto medible</strong> &mdash; La trascendencia se mide en negocios generados, empleos creados, familias fortalecidas, comunidades transformadas.</li>
+  </ol>
+
+
+</div>
+
+<hr class="section-divider">
+
+<div class="section" id="a1-tecnologia">
+  <h3>La tecnología como medio, nunca como fin</h3>
+  <p>La inteligencia artificial y la plataforma tecnológica que se describen en los siguientes anexos existen para un solo propósito: <strong>hacer visible lo que ya existe entre las personas y amplificar las conexiones que generan valor.</strong></p>
+  <p>La tecnología no reemplaza la confianza que se construye en una cena de generación, la empatía que surge cuando un empresario comparte su fracaso, ni el orgullo de pertenecer a algo más grande que uno mismo.</p>
+  <p>Lo que la tecnología sí hace es: <strong>conectar</strong> a dos personas que deberían conocerse pero no saben que existen, <strong>recordar</strong> lo que la memoria humana no puede retener, <strong>detectar</strong> patrones que ningún individuo ve a escala de comunidad, y <strong>personalizar</strong> el acompañamiento para cada persona.</p>
+  <p>En otras palabras: la tecnología da superpoderes a las relaciones humanas, pero las relaciones humanas son lo que importa.</p>
+
+  <h4>Benchmarking entre comunidades</h4>
+  <p>Uno de los valores más poderosos de una red como esta es el aprendizaje cruzado entre empresas y personas que no son competencia. Los modelos de Laguna y Chihuahua ya lo demuestran.</p>
+  <p>Cuando la red escala a nivel nacional, el benchmarking se convierte en un activo extraordinario: ¿Cómo resolvió una empresa en Guadalajara un problema de sucesión familiar? ¿Qué modelo de retención de talento funciona en manufactura en Chihuahua? <strong>La clave está en inspirarse mutuamente, compartir lo aprendido, y viajar juntos al futuro.</strong></p>
+</div>
+
+<hr class="section-divider">
+
+<!-- ═══════════════════════════════════════════════ -->
+<!--              ANEXO 2: NARRATIVA VISUAL          -->
+<!-- ═══════════════════════════════════════════════ -->
+
+<div class="annexHeader" id="anexo2">
+  <div class="annex-label">Anexo 2</div>
+  <h2 class="annex-title">El modelo &mdash; Narrativa visual</h2>
+  <p class="annex-desc">Cómo funciona el sistema, cómo se conectan sus partes, y por qué cada componente existe.</p>
+</div>
+
+<div class="section" id="a2-organismo">
+  <h3>El organismo: 9 generaciones, una red viva</h3>
+  <p>Tec Beyond funciona como un organismo vivo que lleva creciendo desde 2015. Cada generación que se suma agrega mucho más que miembros &mdash; agrega relaciones, conocimientos, industrias, mercados.</p>
+
+  <div class="metrics">
+    <div class="metric">
+      <div class="value">~350</div>
+      <div class="label">Miembros hoy</div>
+    </div>
+    <div class="metric">
+      <div class="value">61K</div>
+      <div class="label">Conexiones posibles</div>
+    </div>
+    <div class="metric">
+      <div class="value">9</div>
+      <div class="label">Generaciones</div>
+    </div>
+    <div class="metric">
+      <div class="value">73x</div>
+      <div class="label">Potencial con colaboradores</div>
+    </div>
+  </div>
+
+  <div class="chart-container">
+    <div class="chart-title">Crecimiento exponencial del valor de la red</div>
+    <div class="chart-wrapper">
+      <canvas id="networkValueChart"></canvas>
+    </div>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Escala</th>
+        <th>Personas</th>
+        <th>Conexiones posibles</th>
+        <th>Valor relativo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>León hoy</td><td>~350</td><td>61,075</td><td><span class="badge badge-teal">1x</span></td></tr>
+      <tr><td>+ familias</td><td>~700</td><td>244,650</td><td><span class="badge badge-blue">4x</span></td></tr>
+      <tr><td>+ colaboradores</td><td>~3,000</td><td>4,498,500</td><td><span class="badge badge-green">73x</span></td></tr>
+    </tbody>
+  </table>
+
+  <div class="callout">
+    <p><strong>La clave:</strong> La mayoría de esas conexiones potenciales no se activan porque la gente no sabe lo que los demás tienen o necesitan. El sistema que proponemos activa esas conexiones de forma inteligente.</p>
+  </div>
+
+  <!-- Knowledge Base -->
+  <h3>La base de conocimiento: el cerebro del sistema</h3>
+  <p>La base de conocimiento funciona como un sistema <strong>semántico</strong> &mdash; entiende relaciones, contexto y conexiones entre personas, no solo texto.</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Pregunta</th>
+        <th>Base de datos tradicional</th>
+        <th>Base de conocimiento semántica</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>"&iquest;Quién sabe de logística?"</td>
+        <td>Busca la palabra "logística" en perfiles</td>
+        <td>Encuentra a quien dirige distribución, hizo tesis de supply chain, exporta productos &mdash; aunque ninguno escribió "logística"</td>
+      </tr>
+      <tr>
+        <td>"&iquest;Hay oportunidades cruzadas?"</td>
+        <td>No puede responder</td>
+        <td>"3 empresas de manufactura necesitan distribución en el Bajío, y 2 de logística buscan clientes industriales"</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="section" id="a2-agentes">
+  <h3>Los 4 agentes de inteligencia</h3>
+  <p>Cada agente genera un tipo distinto de valor. Juntos, forman un ciclo de inteligencia que se fortalece con cada vuelta.</p>
+
+  <!-- Agent Cards -->
+  <div class="card-grid">
+    <div class="card-sm">
+      <h4>Match &mdash; El conector</h4>
+      <p>Encuentra oportunidades de negocio entre miembros mediante matching anonimizado. El 80% de los miembros buscan esto.</p>
+    </div>
+    <div class="card-sm">
+      <h4>Contenidos &mdash; El curador</h4>
+      <p>Personaliza capacitación según perfil individual. Genera demanda informada de programas de Educación Continua.</p>
+    </div>
+    <div class="card-sm">
+      <h4>Scout &mdash; El cazatalentos</h4>
+      <p>Detecta candidatos para futuras generaciones analizando redes profesionales de miembros actuales.</p>
+    </div>
+    <div class="card-sm">
+      <h4>Insights &mdash; El estratega</h4>
+      <p>Genera inteligencia estratégica para el Consejo. De decidir por intuición a decidir con evidencia.</p>
+    </div>
+  </div>
+
+  <!-- Agent Cycle Diagram -->
+  <div class="diagram-container">
+    <div class="diagram-title">Ciclo de refuerzo entre agentes</div>
+    <svg viewBox="0 0 700 280" xmlns="http://www.w3.org/2000/svg">
+      <!-- Connection lines -->
+      <defs>
+        <marker id="arrowTeal" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+          <polygon points="0 0, 8 3, 0 6" fill="#3356F6"/>
+        </marker>
+      </defs>
+      <!-- Boxes -->
+      <rect x="10" y="30" width="140" height="60" rx="10" fill="#EEF1FE" stroke="#3356F6" stroke-width="1.5"/>
+      <text x="80" y="55" text-anchor="middle" font-family="Inter" font-weight="600" font-size="13" fill="#3356F6">Match</text>
+      <text x="80" y="72" text-anchor="middle" font-family="Inter" font-size="10" fill="#64748b">Conexión detectada</text>
+
+      <rect x="190" y="30" width="140" height="60" rx="10" fill="#EEF1FE" stroke="#3356F6" stroke-width="1.5"/>
+      <text x="260" y="55" text-anchor="middle" font-family="Inter" font-weight="600" font-size="13" fill="#3356F6">Contenidos</text>
+      <text x="260" y="72" text-anchor="middle" font-family="Inter" font-size="10" fill="#64748b">Gap identificado</text>
+
+      <rect x="370" y="30" width="140" height="60" rx="10" fill="#EEF1FE" stroke="#3356F6" stroke-width="1.5"/>
+      <text x="440" y="55" text-anchor="middle" font-family="Inter" font-weight="600" font-size="13" fill="#3356F6">Insights</text>
+      <text x="440" y="72" text-anchor="middle" font-family="Inter" font-size="10" fill="#64748b">Cluster emergente</text>
+
+      <rect x="550" y="30" width="140" height="60" rx="10" fill="#fff7ed" stroke="#d97706" stroke-width="1.5"/>
+      <text x="620" y="55" text-anchor="middle" font-family="Inter" font-weight="600" font-size="13" fill="#d97706">Scout</text>
+      <text x="620" y="72" text-anchor="middle" font-family="Inter" font-size="10" fill="#64748b">Candidatos encontrados</text>
+
+      <!-- Arrows -->
+      <line x1="150" y1="60" x2="186" y2="60" stroke="#3356F6" stroke-width="2" marker-end="url(#arrowTeal)"/>
+      <line x1="330" y1="60" x2="366" y2="60" stroke="#3356F6" stroke-width="2" marker-end="url(#arrowTeal)"/>
+      <line x1="510" y1="60" x2="546" y2="60" stroke="#3356F6" stroke-width="2" marker-end="url(#arrowTeal)"/>
+
+      <!-- Result box -->
+      <rect x="200" y="140" width="300" height="56" rx="10" fill="#231F20" stroke="none"/>
+      <text x="350" y="164" text-anchor="middle" font-family="Inter" font-weight="600" font-size="13" fill="white">El Consejo decide con evidencia</text>
+      <text x="350" y="182" text-anchor="middle" font-family="Inter" font-size="10" fill="#94a3b8">Nueva generación m&aacute;s fuerte &rarr; ciclo continuo</text>
+
+      <!-- Down arrows to result -->
+      <line x1="80" y1="90" x2="80" y2="130" stroke="#cbd5e1" stroke-width="1.5"/>
+      <line x1="80" y1="130" x2="200" y2="165" stroke="#cbd5e1" stroke-width="1.5"/>
+      <line x1="620" y1="90" x2="620" y2="130" stroke="#cbd5e1" stroke-width="1.5"/>
+      <line x1="620" y1="130" x2="500" y2="165" stroke="#cbd5e1" stroke-width="1.5"/>
+      <line x1="350" y1="90" x2="350" y2="136" stroke="#3356F6" stroke-width="2" marker-end="url(#arrowTeal)"/>
+
+      <!-- Feedback loop arrow -->
+      <path d="M 350 196 L 350 240 L 40 240 L 40 95" stroke="#3356F6" stroke-width="1.5" fill="none" stroke-dasharray="5,4"/>
+      <polygon points="36 98, 40 86, 44 98" fill="#3356F6"/>
+      <text x="190" y="256" text-anchor="middle" font-family="Inter" font-size="10" fill="#3356F6" font-weight="500">El ciclo se repite &mdash; cada vuelta fortalece a toda la red</text>
+    </svg>
+  </div>
+</div>
+
+<div class="section" id="a2-gobernanza">
+  <h3>Gobernanza: tres círculos, roles claros</h3>
+
+  <!-- Concentric circles diagram -->
+  <div class="diagram-container">
+    <div class="diagram-title">Modelo de gobernanza por capas</div>
+    <svg viewBox="0 0 600 380" xmlns="http://www.w3.org/2000/svg">
+      <!-- Outer circle - HA -->
+      <ellipse cx="300" cy="190" rx="270" ry="170" fill="#EEF1FE" stroke="#3356F6" stroke-width="1.5" stroke-dasharray="6,3"/>
+      <text x="540" y="340" font-family="Inter" font-size="11" fill="#3356F6" font-weight="600">C&iacute;rculo 3</text>
+
+      <!-- Middle circle - Tec -->
+      <ellipse cx="300" cy="185" rx="195" ry="130" fill="#EEF1FE" stroke="#3356F6" stroke-width="1.5" stroke-dasharray="6,3"/>
+      <text x="465" y="295" font-family="Inter" font-size="11" fill="#3356F6" font-weight="600">C&iacute;rculo 2</text>
+
+      <!-- Inner circle - Consejo -->
+      <ellipse cx="300" cy="180" rx="120" ry="85" fill="#231F20" stroke="none"/>
+      <text x="300" y="168" text-anchor="middle" font-family="Inter" font-size="13" fill="white" font-weight="700">ESBAC + Comunidad</text>
+      <text x="300" y="186" text-anchor="middle" font-family="Inter" font-size="13" fill="white" font-weight="700">Beyond + LLL</text>
+      <text x="300" y="206" text-anchor="middle" font-family="Inter" font-size="10" fill="#94a3b8">Direcci&oacute;n estrat&eacute;gica</text>
+      <text x="300" y="220" text-anchor="middle" font-family="Inter" font-size="10" fill="#94a3b8">Acceso total</text>
+
+      <!-- Labels for middle -->
+      <text x="300" y="90" text-anchor="middle" font-family="Inter" font-size="12" fill="#3356F6" font-weight="600">Tec de Monterrey</text>
+      <text x="300" y="106" text-anchor="middle" font-family="Inter" font-size="10" fill="#64748b">Infraestructura &middot; Seguridad &middot; Paraguas institucional</text>
+
+      <!-- Labels for outer -->
+      <text x="300" y="38" text-anchor="middle" font-family="Inter" font-size="12" fill="#3356F6" font-weight="600">Horizons Architecture</text>
+      <text x="300" y="54" text-anchor="middle" font-family="Inter" font-size="10" fill="#64748b">Operaci&oacute;n tecnol&oacute;gica &middot; Agentes &middot; Soporte</text>
+    </svg>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>C&iacute;rculo</th>
+        <th>Qui&eacute;n</th>
+        <th>Funci&oacute;n</th>
+        <th>Acceso</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td><span class="badge badge-teal">1</span></td><td>ESBAC + Comunidad + LLL</td><td>Dirección estratégica, reglas, admisión</td><td>Total</td></tr>
+      <tr><td><span class="badge badge-blue">2</span></td><td>Tec de Monterrey</td><td>Infraestructura, estándares, paraguas</td><td>Métricas agregadas</td></tr>
+      <tr><td><span class="badge badge-green">3</span></td><td>Horizons Architecture</td><td>Operación tecnológica, agentes, soporte</td><td>Solo datos técnicos</td></tr>
+    </tbody>
+  </table>
+
+  <div class="callout">
+    <p><strong>Principio rector:</strong> El Consejo es dueño de la comunidad. El Tec es el paraguas institucional. HA es el habilitador tecnológico. Si se cambia de proveedor, los datos y la comunidad permanecen intactos.</p>
+  </div>
+
+  <!-- System Flow -->
+  <h3>El flujo completo: de la experiencia al hallazgo</h3>
+  <div class="flow-steps">
+    <div class="flow-step">Experiencia<br><small style="color:var(--gray-400)">presencial + online</small></div>
+    <div class="flow-arrow">&rarr;</div>
+    <div class="flow-step highlight">Base de<br>Conocimiento</div>
+    <div class="flow-arrow">&rarr;</div>
+    <div class="flow-step">4 Agentes<br><small style="color:var(--gray-400)">procesan y cruzan</small></div>
+    <div class="flow-arrow">&rarr;</div>
+    <div class="flow-step">Valor<br><small style="color:var(--gray-400)">matches, insights</small></div>
+    <div class="flow-arrow">&rarr;</div>
+    <div class="flow-step" style="background:var(--navy);color:white;border-color:var(--navy)">Consejo<br><small style="color:var(--gray-400)">decide</small></div>
+  </div>
+  <p style="text-align:center;font-size:.82rem;color:var(--gray-400)">&#x21BB; Ciclo continuo &mdash; cada decisión genera nuevas experiencias</p>
+</div>
+
+<!-- ═══════════════════════════════════════════════ -->
+<!--          ANEXO 3: DATOS Y PRIVACIDAD            -->
+<!-- ═══════════════════════════════════════════════ -->
+
+<div class="annexHeader" id="anexo3">
+  <div class="annex-label">Anexo 3</div>
+  <h2 class="annex-title">Estructura de datos y privacidad</h2>
+  <p class="annex-desc">Dónde viven los datos, quién los controla, y cómo se protegen. Un compromiso de diseño.</p>
+</div>
+
+<div class="section">
+  <div class="callout">
+    <p><strong>Principio rector:</strong> Los datos son del Tec. Siempre. Si en cualquier momento se decide cambiar de proveedor, los datos, los insights y la comunidad permanecen intactos.</p>
+  </div>
+
+  <h3>Mapa de datos de los miembros</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Tipo de dato</th>
+        <th>Ejemplos</th>
+        <th>Fuente</th>
+        <th>Sensibilidad</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>Perfil profesional</strong></td><td>Nombre, empresa, cargo, industria</td><td>Registro + LinkedIn</td><td><span class="badge badge-amber">Media</span></td></tr>
+      <tr><td><strong>Perfil de intereses</strong></td><td>Sectores, necesidades, capacidades</td><td>Encuestas + interacciones</td><td><span class="badge badge-amber">Media</span></td></tr>
+      <tr><td><strong>Historial</strong></td><td>Generación, sede, proyectos</td><td>Datos existentes</td><td><span class="badge badge-green">Baja</span></td></tr>
+      <tr><td><strong>Interacciones</strong></td><td>Conversaciones con agentes</td><td>Plataforma</td><td><span class="badge badge-red">Alta</span></td></tr>
+      <tr><td><strong>Matches</strong></td><td>Conexiones propuestas/aceptadas</td><td>Agente Match</td><td><span class="badge badge-red">Alta</span></td></tr>
+      <tr><td><strong>Preferencias</strong></td><td>Notificaciones, canales</td><td>Configuración</td><td><span class="badge badge-green">Baja</span></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="section" id="a3-arquitectura">
+  <h3>Arquitectura de almacenamiento</h3>
+
+  <!-- Data Architecture Diagram -->
+  <div class="diagram-container">
+    <div class="diagram-title">Los datos viven en infraestructura del Tec</div>
+    <svg viewBox="0 0 680 420" xmlns="http://www.w3.org/2000/svg">
+      <!-- Tec Infrastructure Box -->
+      <rect x="40" y="20" width="600" height="240" rx="14" fill="#f8fafc" stroke="#3356F6" stroke-width="2"/>
+      <text x="60" y="50" font-family="Inter" font-weight="700" font-size="14" fill="#3356F6">INFRAESTRUCTURA TEC (Microsoft Azure)</text>
+
+      <!-- DB boxes inside -->
+      <rect x="70" y="70" width="250" height="70" rx="8" fill="white" stroke="#e2e8f0" stroke-width="1.5"/>
+      <rect x="6" y="70" width="6" height="70" rx="3" fill="#3356F6" x="70"/>
+      <rect x="70" y="70" width="6" height="70" rx="0" fill="#3356F6"/>
+      <text x="92" y="96" font-family="Inter" font-weight="600" font-size="12" fill="#1e293b">Base de Datos Relacional</text>
+      <text x="92" y="114" font-family="Inter" font-size="10" fill="#64748b">Perfiles &middot; Membresías &middot; Historial &middot; Config</text>
+
+      <rect x="360" y="70" width="250" height="70" rx="8" fill="white" stroke="#e2e8f0" stroke-width="1.5"/>
+      <rect x="360" y="70" width="6" height="70" rx="0" fill="#3356F6"/>
+      <text x="382" y="96" font-family="Inter" font-weight="600" font-size="12" fill="#1e293b">Base de Conocimiento Vectorial</text>
+      <text x="382" y="114" font-family="Inter" font-size="10" fill="#64748b">Embeddings &middot; Relaciones semánticas &middot; Patrones</text>
+
+      <rect x="70" y="165" width="250" height="70" rx="8" fill="white" stroke="#e2e8f0" stroke-width="1.5"/>
+      <rect x="70" y="165" width="6" height="70" rx="0" fill="#d97706"/>
+      <text x="92" y="191" font-family="Inter" font-weight="600" font-size="12" fill="#1e293b">Almacenamiento de Archivos</text>
+      <text x="92" y="209" font-family="Inter" font-size="10" fill="#64748b">Documentos &middot; Reportes &middot; Exportaciones</text>
+
+      <rect x="360" y="165" width="250" height="70" rx="8" fill="white" stroke="#e2e8f0" stroke-width="1.5"/>
+      <rect x="360" y="165" width="6" height="70" rx="0" fill="#3356F6"/>
+      <text x="382" y="191" font-family="Inter" font-weight="600" font-size="12" fill="#1e293b">Logs y Auditoría</text>
+      <text x="382" y="209" font-family="Inter" font-size="10" fill="#64748b">Accesos &middot; Operaciones &middot; Cambios &middot; Eventos</text>
+
+      <!-- Connection line -->
+      <line x1="340" y1="280" x2="340" y2="310" stroke="#3356F6" stroke-width="2" stroke-dasharray="6,3"/>
+      <text x="340" y="305" text-anchor="middle" font-family="Inter" font-size="10" fill="#3356F6" font-weight="600">API autenticada &darr;</text>
+
+      <!-- HA Layer -->
+      <rect x="160" y="330" width="360" height="70" rx="14" fill="#231F20" stroke="none"/>
+      <text x="340" y="358" text-anchor="middle" font-family="Inter" font-weight="700" font-size="13" fill="white">Capa de Agentes IA (Horizons Architecture)</text>
+      <text x="340" y="378" text-anchor="middle" font-family="Inter" font-size="11" fill="#94a3b8">Procesamiento &middot; Análisis &middot; Generación de valor</text>
+      <text x="340" y="393" text-anchor="middle" font-family="Inter" font-size="10" fill="#f87171" font-weight="600">NO almacena datos de miembros</text>
+    </svg>
+  </div>
+
+  <h3>Propiedad y derechos</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Componente</th>
+        <th>Propiedad</th>
+        <th>Si termina el contrato</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Datos de miembros</td><td><strong>Tec &mdash; 100%</strong></td><td>Se revoca acceso; datos intactos</td></tr>
+      <tr><td>Insights y reportes</td><td><strong>Tec Beyond &mdash; 100%</strong></td><td>Reportes quedan en infraestructura Tec</td></tr>
+      <tr><td>Base de conocimiento vectorial</td><td><strong>Tec Beyond &mdash; 100%</strong></td><td>Documentación técnica para migración</td></tr>
+      <tr><td>Plataforma y código</td><td>Horizons Architecture</td><td>Licencia se termina; datos quedan</td></tr>
+      <tr><td>Algoritmos de agentes</td><td>Horizons Architecture</td><td>HA se lleva su código; resultados quedan</td></tr>
+      <tr><td>Reglas de la comunidad</td><td><strong>Consejo León</strong></td><td>Documentadas para cualquier proveedor</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="section" id="a3-privacidad">
+  <h3>Privacidad y consentimiento</h3>
+
+  <div class="card-grid">
+    <div class="card-sm">
+      <h4>Consentimiento informado</h4>
+      <p>Cada miembro sabe qué datos se capturan y para qué.</p>
+    </div>
+    <div class="card-sm">
+      <h4>Minimización</h4>
+      <p>Solo se capturan datos necesarios para el funcionamiento.</p>
+    </div>
+    <div class="card-sm">
+      <h4>Anonimización por diseño</h4>
+      <p>Los matches son anonimizados &mdash; nadie ve datos sin consentimiento mutuo.</p>
+    </div>
+    <div class="card-sm">
+      <h4>Derecho de salida</h4>
+      <p>Cualquier miembro puede solicitar la eliminación completa de sus datos.</p>
+    </div>
+  </div>
+
+  <!-- Matching Privacy Flow -->
+  <h3>Matching anonimizado &mdash; cómo funciona</h3>
+  <div class="diagram-container">
+    <svg viewBox="0 0 680 240" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <marker id="arrowNav" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+          <polygon points="0 0, 8 3, 0 6" fill="#231F20"/>
+        </marker>
+      </defs>
+
+      <!-- Step boxes -->
+      <rect x="10" y="20" width="120" height="54" rx="8" fill="#231F20"/>
+      <text x="70" y="44" text-anchor="middle" font-family="Inter" font-weight="600" font-size="11" fill="white">Agente analiza</text>
+      <text x="70" y="58" text-anchor="middle" font-family="Inter" font-size="9" fill="#94a3b8">TODOS los perfiles</text>
+
+      <rect x="155" y="20" width="120" height="54" rx="8" fill="#EEF1FE" stroke="#3356F6" stroke-width="1.5"/>
+      <text x="215" y="44" text-anchor="middle" font-family="Inter" font-weight="600" font-size="11" fill="#3356F6">Identifica</text>
+      <text x="215" y="58" text-anchor="middle" font-family="Inter" font-size="9" fill="#64748b">complementariedad</text>
+
+      <rect x="300" y="20" width="120" height="54" rx="8" fill="#fff7ed" stroke="#d97706" stroke-width="1.5"/>
+      <text x="360" y="44" text-anchor="middle" font-family="Inter" font-weight="600" font-size="11" fill="#d97706">Propone</text>
+      <text x="360" y="58" text-anchor="middle" font-family="Inter" font-size="9" fill="#64748b">SIN revelar identidad</text>
+
+      <rect x="445" y="20" width="120" height="54" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.5"/>
+      <text x="505" y="44" text-anchor="middle" font-family="Inter" font-weight="600" font-size="11" fill="#16a34a">Ambos aceptan</text>
+      <text x="505" y="58" text-anchor="middle" font-family="Inter" font-size="9" fill="#64748b">doble consentimiento</text>
+
+      <rect x="590" y="20" width="80" height="54" rx="8" fill="#3356F6"/>
+      <text x="630" y="44" text-anchor="middle" font-family="Inter" font-weight="600" font-size="11" fill="white">Consejo</text>
+      <text x="630" y="58" text-anchor="middle" font-family="Inter" font-size="9" fill="#B8C6FC">conecta</text>
+
+      <!-- Arrows -->
+      <line x1="130" y1="47" x2="151" y2="47" stroke="#231F20" stroke-width="1.5" marker-end="url(#arrowNav)"/>
+      <line x1="275" y1="47" x2="296" y2="47" stroke="#231F20" stroke-width="1.5" marker-end="url(#arrowNav)"/>
+      <line x1="420" y1="47" x2="441" y2="47" stroke="#231F20" stroke-width="1.5" marker-end="url(#arrowNav)"/>
+      <line x1="565" y1="47" x2="586" y2="47" stroke="#231F20" stroke-width="1.5" marker-end="url(#arrowNav)"/>
+
+      <!-- Rejection path -->
+      <rect x="370" y="110" width="200" height="40" rx="8" fill="#fef2f2" stroke="#fca5a5" stroke-width="1"/>
+      <text x="470" y="135" text-anchor="middle" font-family="Inter" font-size="10" fill="#dc2626" font-weight="500">Si uno dice "no" &rarr; el otro nunca se entera</text>
+      <line x1="505" y1="74" x2="505" y2="106" stroke="#fca5a5" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+      <!-- ARCO Rights -->
+      <rect x="10" y="175" width="660" height="48" rx="8" fill="var(--gray-50)" stroke="var(--gray-200)" stroke-width="1"/>
+      <text x="30" y="196" font-family="Inter" font-weight="700" font-size="11" fill="var(--navy)">Derechos ARCO:</text>
+      <text x="152" y="196" font-family="Inter" font-size="11" fill="var(--gray-600)">Acceso</text>
+      <text x="220" y="196" font-family="Inter" font-size="11" fill="var(--gray-400)">&middot;</text>
+      <text x="236" y="196" font-family="Inter" font-size="11" fill="var(--gray-600)">Rectificaci&oacute;n</text>
+      <text x="336" y="196" font-family="Inter" font-size="11" fill="var(--gray-400)">&middot;</text>
+      <text x="352" y="196" font-family="Inter" font-size="11" fill="var(--gray-600)">Cancelaci&oacute;n</text>
+      <text x="448" y="196" font-family="Inter" font-size="11" fill="var(--gray-400)">&middot;</text>
+      <text x="464" y="196" font-family="Inter" font-size="11" fill="var(--gray-600)">Oposici&oacute;n</text>
+      <text x="30" y="214" font-family="Inter" font-size="10" fill="var(--gray-400)">Cumplimiento: LFPDPPP + Pol&iacute;ticas Tec + GDPR-ready</text>
+    </svg>
+  </div>
+</div>
+
+<div class="section" id="a3-seguridad">
+  <h3>Seguridad y auditoría</h3>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Capa</th>
+        <th>Medida</th>
+        <th>Descripción</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td><span class="badge badge-blue">Acceso</span></td><td>Multi-factor (MFA)</td><td>Para administradores y operadores</td></tr>
+      <tr><td><span class="badge badge-teal">Transmisión</span></td><td>TLS 1.3</td><td>Datos en tránsito siempre encriptados</td></tr>
+      <tr><td><span class="badge badge-green">Almacenamiento</span></td><td>AES-256</td><td>Datos en reposo encriptados</td></tr>
+      <tr><td><span class="badge badge-amber">APIs</span></td><td>Tokens con rotación</td><td>Acceso controlado a base de conocimiento</td></tr>
+      <tr><td><span class="badge badge-red">Logs</span></td><td>Registro completo</td><td>Toda operación queda registrada</td></tr>
+      <tr><td><span class="badge badge-blue">Backup</span></td><td>Automático diario</td><td>Retención configurable</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Roles de acceso</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Rol</th>
+        <th>Quién</th>
+        <th>Alcance</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>Super Admin</strong></td><td>Designado Consejo + Tec</td><td>Configuración global, gestión de roles</td></tr>
+      <tr><td><strong>Admin Consejo</strong></td><td>Miembros del Consejo</td><td>Reportes, matches, reglas</td></tr>
+      <tr><td><strong>Admin Sede</strong></td><td>Coordinador local</td><td>Miembros locales, datos de su sede</td></tr>
+      <tr><td><strong>Operador HA</strong></td><td>Equipo Horizons</td><td>Mantenimiento técnico (no datos de negocio)</td></tr>
+      <tr><td><strong>Miembro</strong></td><td>Empresario registrado</td><td>Su perfil, matches, contenido</td></tr>
+      <tr><td><strong>Auditor</strong></td><td>Designado por Tec</td><td>Verificar cumplimiento de políticas</td></tr>
+    </tbody>
+  </table>
+
+  <!-- Executive Q&A -->
+  <h3>Resumen ejecutivo para Jorge Blando</h3>
+  <div class="qa-grid">
+    <div class="qa-item"><div class="question">&iquest;Dónde viven los datos?</div><div class="answer">En infraestructura del Tec (Azure)</div></div>
+    <div class="qa-item"><div class="question">&iquest;Quién es dueño?</div><div class="answer">Tec Beyond &mdash; 100% de los datos. HA solo de su código.</div></div>
+    <div class="qa-item"><div class="question">&iquest;HA puede llevarse datos?</div><div class="answer">No. Si se termina el contrato, datos quedan en el Tec.</div></div>
+    <div class="qa-item"><div class="question">&iquest;Los miembros están protegidos?</div><div class="answer">Sí: consentimiento, anonimización, derechos ARCO, auditoría.</div></div>
+    <div class="qa-item"><div class="question">&iquest;Qué estándares de seguridad?</div><div class="answer">Encriptación AES-256, TLS 1.3, MFA, backup automático.</div></div>
+    <div class="qa-item"><div class="question">&iquest;Cumple con la ley mexicana?</div><div class="answer">Sí: LFPDPPP, derechos ARCO, aviso de privacidad.</div></div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════ -->
+<!--            ANEXO 4: BUSINESS CASE               -->
+<!-- ═══════════════════════════════════════════════ -->
+
+<div class="annexHeader" id="anexo4">
+  <div class="annex-label">Anexo 4</div>
+  <h2 class="annex-title">Business case &mdash; Framework</h2>
+  <p class="annex-desc">El marco que define las variables para construir el plan financiero juntos. Los números finales se llenan en las sesiones de trabajo.</p>
+</div>
+
+<div class="section" id="a4-costos">
+  <h3>Estructura de costos</h3>
+
+  <div class="chart-container">
+    <div class="chart-title">Composición de costos por fase</div>
+    <div class="chart-wrapper">
+      <canvas id="costStructureChart"></canvas>
+    </div>
+  </div>
+
+  <h4>Inversión inicial (Fase Piloto &mdash; León)</h4>
+  <table>
+    <thead>
+      <tr>
+        <th>Concepto</th>
+        <th>Descripción</th>
+        <th>Variables a definir</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>Diseño y descubrimiento</strong></td><td>Sesiones para definir alcance, flujos, integraciones</td><td>Horas, participantes, duración</td></tr>
+      <tr><td><strong>Desarrollo de plataforma</strong></td><td>Base de conocimiento, 4 agentes, frontend, dashboard</td><td>Alcance de MVP</td></tr>
+      <tr><td><strong>Migración de datos</strong></td><td>Transferencia de registros existentes</td><td>Volumen, formato actual</td></tr>
+      <tr><td><strong>Configuración Azure</strong></td><td>Setup de infraestructura en servidores Tec</td><td>Compliance requirements</td></tr>
+      <tr><td><strong>Testing y ajuste</strong></td><td>Pruebas con grupo piloto, iteraciones</td><td>Tamaño grupo, ciclos</td></tr>
+      <tr><td><strong>Capacitación</strong></td><td>Entrenamiento para admins y equipo</td><td>Número de personas</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Modelo de ingresos</h3>
+
+  <div class="chart-container">
+    <div class="chart-title">Activación de fuentes de ingreso por fase</div>
+    <div class="chart-wrapper">
+      <canvas id="revenueSourcesChart"></canvas>
+    </div>
+  </div>
+</div>
+
+<div class="section" id="a4-escenarios">
+  <h3>Tres escenarios financieros</h3>
+
+  <div class="chart-container">
+    <div class="chart-title">Comparación de escenarios &mdash; adopción y velocidad de expansión</div>
+    <div class="chart-wrapper">
+      <canvas id="scenariosChart"></canvas>
+    </div>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Escenario</th>
+        <th>Adopción</th>
+        <th>Precio</th>
+        <th>Expansión</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td><span class="badge badge-amber">Conservador</span></td><td>40% se suscribe</td><td>Rango bajo</td><td>1 sede / 18 meses</td></tr>
+      <tr><td><span class="badge badge-blue">Base</span></td><td>60% se suscribe</td><td>Rango medio</td><td>1 sede / 12 meses</td></tr>
+      <tr><td><span class="badge badge-green">Optimista</span></td><td>80% se suscribe</td><td>Rango alto</td><td>2 sedes / 12 meses</td></tr>
+    </tbody>
+  </table>
+
+  <!-- Three phases -->
+  <h3>Fases del modelo de negocio</h3>
+
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="tl-date">Meses 1&ndash;8 &middot; Piloto León</div>
+      <h4>Fase 1: Demostrar que funciona</h4>
+      <p>Inversión neta (sin retorno directo). El valor está en demostrar que genera conexiones reales.</p>
+    </div>
+    <div class="timeline-item">
+      <div class="tl-date">Meses 9&ndash;20 &middot; Transición</div>
+      <h4>Fase 2: Reducir subsidio institucional</h4>
+      <p>Primeras membresías + eventos premium + 1-2 sedes nuevas. Reducción progresiva del subsidio.</p>
+    </div>
+    <div class="timeline-item">
+      <div class="tl-date">Año 2+ &middot; Madurez</div>
+      <h4>Fase 3: Autosustentabilidad operativa</h4>
+      <p>Membresías como base principal + licencias por sede + capacitación + Scout. La plataforma se paga sola.</p>
+    </div>
+  </div>
+
+  <!-- Pilot Success Metrics -->
+  <h3>Métricas de éxito del piloto</h3>
+  <div class="metrics">
+    <div class="metric">
+      <div class="value" style="color:var(--teal)">70%</div>
+      <div class="label">Miembros activos<br>mensuales</div>
+    </div>
+    <div class="metric">
+      <div class="value" style="color:var(--blue)">50+</div>
+      <div class="label">Matches en<br>6 meses</div>
+    </div>
+    <div class="metric">
+      <div class="value" style="color:var(--amber)">NPS 40+</div>
+      <div class="label">Satisfacción<br>de miembros</div>
+    </div>
+    <div class="metric">
+      <div class="value" style="color:var(--green)">90%</div>
+      <div class="label">Tasa de<br>renovación</div>
+    </div>
+  </div>
+</div>
+
+<div class="section" id="a4-roi">
+  <h3>ROI intangible</h3>
+
+  <div class="card-grid">
+    <div class="card-sm">
+      <h4>Para el Tec</h4>
+      <p>Diferenciación, retención, datos para mejorar programas, posicionamiento IA, modelo replicable.</p>
+    </div>
+    <div class="card-sm">
+      <h4>Para los empresarios</h4>
+      <p>Oportunidades de negocio, capacitación relevante, red activa, visibilidad.</p>
+    </div>
+    <div class="card-sm">
+      <h4>Para Educación Continua</h4>
+      <p>Demanda informada de cursos, pipeline de 8,000 learners potenciales, datos de lifelong learning.</p>
+    </div>
+    <div class="card-sm">
+      <h4>Break-even</h4>
+      <p>Cuando membresías + otras fuentes &ge; costos operativos. Meta: durante Fase 2 (transición).</p>
+    </div>
+  </div>
+
+  <!-- Sensitivity -->
+  <h3>Análisis de sensibilidad</h3>
+  <table>
+    <thead>
+      <tr><th>Escenario</th><th>Impacto</th><th>Mitigación</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Adopción menor (30%)</td><td>Break-even se aleja</td><td>Piloto gratuito demuestra valor primero</td></tr>
+      <tr><td>Adopción mayor (80%+)</td><td>Demanda supera capacidad</td><td>Arquitectura fractal escala sin rediseño</td></tr>
+      <tr><td>Una sede no funciona</td><td>Pérdida acotada</td><td>Go/no-go criteria antes de cada expansión</td></tr>
+      <tr><td>Cambio de proveedor</td><td>Costo de migración</td><td>Portabilidad diseñada desde día 1</td></tr>
+    </tbody>
+  </table>
+
+  <!-- Executive Q&A -->
+  <h3>Resumen para Jorge Blando</h3>
+  <div class="qa-grid">
+    <div class="qa-item"><div class="question">&iquest;Ya tenemos el business plan?</div><div class="answer">No &mdash; tenemos el framework. Los números se construyen juntos en sesiones de trabajo.</div></div>
+    <div class="qa-item"><div class="question">&iquest;Cuánto cuesta?</div><div class="answer">Se define en sesión de descubrimiento. Estructura: inversión inicial + operación mensual + costo marginal por sede.</div></div>
+    <div class="qa-item"><div class="question">&iquest;Cuándo se paga sola?</div><div class="answer">Meta: durante Fase 2 (transición), cuando membresías + fuentes &ge; costos de operación.</div></div>
+    <div class="qa-item"><div class="question">&iquest;Cuál es el riesgo financiero?</div><div class="answer">Acotado: el piloto es la inversión mayor. Cada sede adicional cuesta una fracción. Si no funciona, datos quedan.</div></div>
+    <div class="qa-item"><div class="question">&iquest;Hay ROI no financiero?</div><div class="answer">Sí: diferenciación, retención, datos para EC, posicionamiento AI del Tec, pipeline de learners.</div></div>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════ -->
+<!--          ANEXO 5: ESCALABILIDAD                 -->
+<!-- ═══════════════════════════════════════════════ -->
+
+<div class="annexHeader" id="anexo5">
+  <div class="annex-label">Anexo 5</div>
+  <h2 class="annex-title">Modelo de escalabilidad</h2>
+  <p class="annex-desc">Cómo crece Tec Beyond de León a una red nacional, cuánto cuesta cada paso, y qué debe comprobarse antes de expandir.</p>
+</div>
+
+<div class="section" id="a5-expansion">
+  <h3>El principio: fractal, no lineal</h3>
+  <p>La plataforma se construye <strong>una vez</strong> en León. Cada sede nueva hereda todo y solo configura lo local: comunidad, contexto regional, administración.</p>
+
+  <!-- Fractal Diagram -->
+  <div class="diagram-container">
+    <div class="diagram-title">Arquitectura fractal &mdash; construir una vez, replicar siempre</div>
+    <svg viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg">
+      <!-- Platform box -->
+      <rect x="180" y="10" width="340" height="80" rx="12" fill="#231F20"/>
+      <text x="350" y="38" text-anchor="middle" font-family="Inter" font-weight="700" font-size="14" fill="white">Plataforma Tec Beyond</text>
+      <text x="350" y="56" text-anchor="middle" font-family="Inter" font-size="10" fill="#94a3b8">Base de conocimiento &middot; 4 agentes &middot; Gobernanza &middot; Dashboard</text>
+      <text x="350" y="72" text-anchor="middle" font-family="Inter" font-size="10" fill="#5B7AF8" font-weight="600">Se construye UNA VEZ</text>
+
+      <!-- Connector lines -->
+      <line x1="260" y1="90" x2="120" y2="140" stroke="#3356F6" stroke-width="2"/>
+      <line x1="350" y1="90" x2="350" y2="140" stroke="#3356F6" stroke-width="2"/>
+      <line x1="440" y1="90" x2="580" y2="140" stroke="#3356F6" stroke-width="2"/>
+
+      <!-- Text label -->
+      <text x="350" y="125" text-anchor="middle" font-family="Inter" font-size="10" fill="#3356F6" font-weight="500">Se replica como instancia fractal &darr;</text>
+
+      <!-- Sede boxes -->
+      <rect x="40" y="145" width="160" height="90" rx="10" fill="white" stroke="#3356F6" stroke-width="2"/>
+      <text x="120" y="170" text-anchor="middle" font-family="Inter" font-weight="700" font-size="13" fill="#231F20">Le&oacute;n</text>
+      <text x="120" y="186" text-anchor="middle" font-family="Inter" font-size="10" fill="#3356F6" font-weight="600">Piloto</text>
+      <text x="120" y="204" text-anchor="middle" font-family="Inter" font-size="9" fill="#64748b">~300 miembros</text>
+      <text x="120" y="218" text-anchor="middle" font-family="Inter" font-size="9" fill="#64748b">Manufactura &middot; Comercio</text>
+
+      <rect x="270" y="145" width="160" height="90" rx="10" fill="white" stroke="#3356F6" stroke-width="1.5" stroke-dasharray="6,3"/>
+      <text x="350" y="170" text-anchor="middle" font-family="Inter" font-weight="700" font-size="13" fill="#231F20">Chihuahua</text>
+      <text x="350" y="186" text-anchor="middle" font-family="Inter" font-size="10" fill="#3356F6" font-weight="600">Expansi&oacute;n 1</text>
+      <text x="350" y="204" text-anchor="middle" font-family="Inter" font-size="9" fill="#64748b">~300 miembros</text>
+      <text x="350" y="218" text-anchor="middle" font-family="Inter" font-size="9" fill="#64748b">Minería &middot; Agroindustria</text>
+
+      <rect x="500" y="145" width="160" height="90" rx="10" fill="white" stroke="#3356F6" stroke-width="1.5" stroke-dasharray="6,3"/>
+      <text x="580" y="170" text-anchor="middle" font-family="Inter" font-weight="700" font-size="13" fill="#231F20">Morelia</text>
+      <text x="580" y="186" text-anchor="middle" font-family="Inter" font-size="10" fill="#3356F6" font-weight="600">Expansi&oacute;n 2</text>
+      <text x="580" y="204" text-anchor="middle" font-family="Inter" font-size="9" fill="#64748b">~300 miembros</text>
+      <text x="580" y="218" text-anchor="middle" font-family="Inter" font-size="9" fill="#64748b">Contexto regional propio</text>
+
+      <!-- Cross-matching line -->
+      <line x1="200" y1="260" x2="500" y2="260" stroke="#3356F6" stroke-width="1.5" stroke-dasharray="4,3"/>
+      <text x="350" y="278" text-anchor="middle" font-family="Inter" font-size="10" fill="#3356F6" font-weight="500">&#x2194; Matching entre sedes: un empresario de Le&oacute;n encuentra su distribuidor en Chihuahua</text>
+    </svg>
+  </div>
+
+  <!-- Expansion Chart -->
+  <h3>Ruta de expansión: el efecto multiplicador</h3>
+
+  <div class="chart-container">
+    <div class="chart-title">Crecimiento de conexiones posibles vs. miembros</div>
+    <div class="chart-wrapper">
+      <canvas id="expansionChart"></canvas>
+    </div>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Fase</th>
+        <th>Periodo</th>
+        <th>Sedes</th>
+        <th>Miembros</th>
+        <th>Conexiones</th>
+        <th>Valor</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td><span class="badge badge-teal">Piloto</span></td><td>Feb-Nov 2026</td><td>León</td><td>~300</td><td>44,850</td><td><strong>1x</strong></td></tr>
+      <tr><td><span class="badge badge-blue">Exp. 1</span></td><td>2027</td><td>+Chih, +Ags</td><td>~900</td><td>404,550</td><td><strong>9x</strong></td></tr>
+      <tr><td><span class="badge badge-amber">Exp. 2</span></td><td>2028</td><td>+Mor, +GDL</td><td>~1,500</td><td>1,124,250</td><td><strong>25x</strong></td></tr>
+      <tr><td><span class="badge badge-green">Nacional</span></td><td>2029+</td><td>+Lag, +QRO, +CDMX</td><td>~3,000+</td><td>4,498,500</td><td><strong>100x</strong></td></tr>
+      <tr><td><span class="badge badge-red">Visión</span></td><td>2035</td><td>8-10 sedes</td><td>~8,000</td><td>~32,000,000</td><td><strong>712x</strong></td></tr>
+    </tbody>
+  </table>
+
+  <!-- Timeline -->
+  <h3>Timeline de ejecución</h3>
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="tl-date">Feb&ndash;Nov 2026</div>
+      <h4>Piloto León &mdash; ~300 miembros</h4>
+      <p>Aprobación &rarr; Descubrimiento &rarr; Construcción &rarr; Prueba &rarr; Lanzamiento. Fecha clave: 27 abril, Reunión de Generaciones.</p>
+    </div>
+    <div class="timeline-item">
+      <div class="tl-date">2027</div>
+      <h4>Expansión 1: +Chihuahua, +Aguascalientes &mdash; ~900 miembros</h4>
+      <p>Matching entre sedes activado. Primer efecto de red real. Cada sede cuesta ~20-25% del piloto.</p>
+    </div>
+    <div class="timeline-item">
+      <div class="tl-date">2028</div>
+      <h4>Expansión 2: +Morelia, +Guadalajara &mdash; ~1,500 miembros</h4>
+      <p>Insights comparativos entre regiones. Scout inter-sede. Membresías premium nacionales.</p>
+    </div>
+    <div class="timeline-item">
+      <div class="tl-date">2029+</div>
+      <h4>Red Nacional: +Laguna, +Querétaro, +CDMX &mdash; ~3,000+ miembros</h4>
+      <p>Economías de escala. Efecto de red completo. Modelo exportable a otros programas del Tec.</p>
+    </div>
+  </div>
+</div>
+
+<div class="section" id="a5-economia">
+  <h3>Economía de la escalabilidad</h3>
+
+  <div class="chart-container">
+    <div class="chart-title">Curva de costo por miembro &mdash; baja drásticamente con cada sede</div>
+    <div class="chart-wrapper">
+      <canvas id="costPerMemberChart"></canvas>
+    </div>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Fase</th>
+        <th>Sedes</th>
+        <th>Costo total relativo</th>
+        <th>Costo por miembro relativo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Piloto</td><td>1 (León)</td><td><strong>1x</strong> (base)</td><td style="color:var(--red)"><strong>Alto</strong></td></tr>
+      <tr><td>Expansión 1</td><td>3</td><td>~1.4x</td><td style="color:var(--amber)">~0.47x</td></tr>
+      <tr><td>Expansión 2</td><td>5</td><td>~1.7x</td><td style="color:var(--teal)">~0.34x</td></tr>
+      <tr><td>Red Nacional</td><td>8+</td><td>~2.2x</td><td style="color:var(--green)"><strong>~0.22x</strong></td></tr>
+    </tbody>
+  </table>
+
+  <div class="callout">
+    <p><strong>Lectura clave:</strong> Con 8 sedes, el costo total es ~2.2x el piloto, pero el costo <strong>por miembro</strong> es ~0.22x. Cuesta apenas un poco más del doble operar 8 sedes que operar 1, pero se atiende a 10x más miembros.</p>
+  </div>
+
+  <!-- Governance at Scale -->
+  <h3>Gobernanza a escala</h3>
+
+  <div class="diagram-container">
+    <div class="diagram-title">Evolución del modelo de gobernanza</div>
+    <svg viewBox="0 0 700 180" xmlns="http://www.w3.org/2000/svg">
+      <!-- 1 sede -->
+      <rect x="10" y="15" width="150" height="100" rx="10" fill="white" stroke="#3356F6" stroke-width="1.5"/>
+      <text x="85" y="38" text-anchor="middle" font-family="Inter" font-weight="700" font-size="11" fill="#231F20">1 sede</text>
+      <text x="85" y="56" text-anchor="middle" font-family="Inter" font-size="9" fill="#64748b">Consejo Le&oacute;n</text>
+      <text x="85" y="70" text-anchor="middle" font-family="Inter" font-size="9" fill="#64748b">decide todo</text>
+      <rect x="35" y="82" width="100" height="22" rx="6" fill="#EEF1FE"/>
+      <text x="85" y="97" text-anchor="middle" font-family="Inter" font-size="9" fill="#3356F6" font-weight="500">Centralizado</text>
+
+      <text x="178" y="65" font-family="Inter" font-size="16" fill="#cbd5e1">&rarr;</text>
+
+      <!-- 3 sedes -->
+      <rect x="195" y="15" width="150" height="100" rx="10" fill="white" stroke="#3356F6" stroke-width="1.5"/>
+      <text x="270" y="38" text-anchor="middle" font-family="Inter" font-weight="700" font-size="11" fill="#231F20">3 sedes</text>
+      <text x="270" y="56" text-anchor="middle" font-family="Inter" font-size="9" fill="#64748b">Le&oacute;n como root</text>
+      <text x="270" y="70" text-anchor="middle" font-family="Inter" font-size="9" fill="#64748b">+ admins locales</text>
+      <rect x="220" y="82" width="100" height="22" rx="6" fill="#EEF1FE"/>
+      <text x="270" y="97" text-anchor="middle" font-family="Inter" font-size="9" fill="#3356F6" font-weight="500">Hub + nodos</text>
+
+      <text x="363" y="65" font-family="Inter" font-size="16" fill="#cbd5e1">&rarr;</text>
+
+      <!-- 5+ sedes -->
+      <rect x="380" y="15" width="150" height="100" rx="10" fill="white" stroke="#3356F6" stroke-width="1.5"/>
+      <text x="455" y="38" text-anchor="middle" font-family="Inter" font-weight="700" font-size="11" fill="#231F20">5+ sedes</text>
+      <text x="455" y="56" text-anchor="middle" font-family="Inter" font-size="9" fill="#64748b">Consejo Nacional</text>
+      <text x="455" y="70" text-anchor="middle" font-family="Inter" font-size="9" fill="#64748b">representantes</text>
+      <rect x="405" y="82" width="100" height="22" rx="6" fill="#EEF1FE"/>
+      <text x="455" y="97" text-anchor="middle" font-family="Inter" font-size="9" fill="#3356F6" font-weight="500">Representativo</text>
+
+      <text x="548" y="65" font-family="Inter" font-size="16" fill="#cbd5e1">&rarr;</text>
+
+      <!-- Red Nacional -->
+      <rect x="565" y="15" width="125" height="100" rx="10" fill="#231F20"/>
+      <text x="627" y="38" text-anchor="middle" font-family="Inter" font-weight="700" font-size="11" fill="white">Red Nacional</text>
+      <text x="627" y="56" text-anchor="middle" font-family="Inter" font-size="9" fill="#94a3b8">Estructura</text>
+      <text x="627" y="70" text-anchor="middle" font-family="Inter" font-size="9" fill="#94a3b8">federada</text>
+      <rect x="582" y="82" width="90" height="22" rx="6" fill="rgba(91,122,248,.2)"/>
+      <text x="627" y="97" text-anchor="middle" font-family="Inter" font-size="9" fill="#5B7AF8" font-weight="500">Federado</text>
+
+      <!-- Bottom label -->
+      <text x="350" y="148" text-anchor="middle" font-family="Inter" font-size="10" fill="#64748b">Lo global se estandariza (tecnología, datos, seguridad) &middot; Lo local se personaliza (comunidad, contexto, eventos)</text>
+    </svg>
+  </div>
+</div>
+
+<div class="section" id="a5-riesgos">
+  <h3>Riesgos y mitigación</h3>
+
+  <div class="card" style="padding:0;overflow:hidden">
+    <div style="padding:1rem 1.25rem">
+      <div class="risk-row risk-header">
+        <div>Riesgo</div>
+        <div>Probabilidad</div>
+        <div>Impacto</div>
+        <div>Mitigación</div>
+      </div>
+      <div class="risk-row">
+        <div>Sede sin masa crítica</div>
+        <div><span class="badge badge-amber">Media</span></div>
+        <div><span class="badge badge-green">Bajo</span></div>
+        <div>Go/no-go riguroso; no abrir hasta &ge;30 interesados</div>
+      </div>
+      <div class="risk-row">
+        <div>Diferencias regionales</div>
+        <div><span class="badge badge-green">Baja</span></div>
+        <div><span class="badge badge-amber">Medio</span></div>
+        <div>Agentes se calibran por contexto local; matching inter-sede gradual</div>
+      </div>
+      <div class="risk-row">
+        <div>Resistencia a pagar membresía</div>
+        <div><span class="badge badge-amber">Media</span></div>
+        <div><span class="badge badge-amber">Medio</span></div>
+        <div>Piloto gratuito demuestra valor primero</div>
+      </div>
+      <div class="risk-row">
+        <div>Admin sin capacidad</div>
+        <div><span class="badge badge-amber">Media</span></div>
+        <div><span class="badge badge-red">Alto</span></div>
+        <div>Selección cuidadosa + capacitación antes de lanzar</div>
+      </div>
+      <div class="risk-row">
+        <div>Centralización excesiva</div>
+        <div><span class="badge badge-green">Baja</span></div>
+        <div><span class="badge badge-red">Alto</span></div>
+        <div>Modelo federado preserva autonomía local</div>
+      </div>
+      <div class="risk-row">
+        <div>Expansión rebasa capacidad</div>
+        <div><span class="badge badge-green">Baja</span></div>
+        <div><span class="badge badge-red">Alto</span></div>
+        <div>Máximo 2 sedes/año; go/no-go antes de cada una</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Go/No-Go -->
+  <h3>Criterios Go/No-Go para expandir</h3>
+  <div class="card-grid">
+    <div class="card-sm">
+      <h4>Negocio</h4>
+      <p>&ge;30 empresarios interesados, Consejo local activo, admin confirmado, presupuesto aprobado.</p>
+    </div>
+    <div class="card-sm">
+      <h4>Técnico</h4>
+      <p>99.5% uptime, matches aceptados &ge;40%, datos migrados al 100%, admin entrenado.</p>
+    </div>
+    <div class="card-sm">
+      <h4>Red</h4>
+      <p>Sedes existentes en verde, &ge;10 matches inter-sede demostrados.</p>
+    </div>
+    <div class="card-sm">
+      <h4>Si no se cumple</h4>
+      <p>Se posterga. No se fuerza. Mejor una sede menos que una sede débil.</p>
+    </div>
+  </div>
+
+  <!-- Executive Q&A -->
+  <h3>Resumen para Jorge Blando</h3>
+  <div class="qa-grid">
+    <div class="qa-item"><div class="question">&iquest;Cómo escala?</div><div class="answer">Fractal: la plataforma se construye una vez y se replica. Cada sede hereda todo, solo configura lo local.</div></div>
+    <div class="qa-item"><div class="question">&iquest;Cuánto cuesta cada sede nueva?</div><div class="answer">~20-25% del costo del piloto. La plataforma ya existe.</div></div>
+    <div class="qa-item"><div class="question">&iquest;Cuántas sedes por año?</div><div class="answer">Máximo 2, con criterios de go/no-go antes de cada una.</div></div>
+    <div class="qa-item"><div class="question">&iquest;Cuándo se activa el matching entre sedes?</div><div class="answer">Con la segunda sede (Expansión 1). Ahí se desbloquea el efecto de red.</div></div>
+    <div class="qa-item"><div class="question">&iquest;Cuál es la visión a 10 años?</div><div class="answer">~8,000 miembros en 8-10 sedes. La comunidad empresarial más sofisticada de México. Replicable a otros programas del Tec.</div></div>
+  </div>
+
+<!-- ═══════════════════════════════════════════════ -->
+<!--          ANEXO 5: SESIÓN CONSEJEROS             -->
+<!-- ═══════════════════════════════════════════════ -->
+
+<hr class="section-divider">
+<div class="annexHeader" id="anexo6">
+  <div class="annex-label">Anexo 6</div>
+  <h2 class="annex-title">Resumen ejecutivo &mdash; Sesión de consejeros</h2>
+  <p class="annex-desc">Ideas clave de la sesión con líderes y presidentes del consejo Tec Beyond: comunidad, vinculación, continuidad e impacto regional.</p>
+</div>
+
+<div class="section" id="a6-lideres">
+  <h3>Comunidad de líderes y presidentes</h3>
+  <p>Se busca consolidar una <strong>red activa de presidentes, CEOs y líderes empresariales</strong> (principalmente egresados) que:</p>
+  <ul>
+    <li>Mantengan vínculo permanente con el campus</li>
+    <li>Participen en proyectos estratégicos</li>
+    <li>Funcionen como embajadores institucionales</li>
+    <li>Formen parte de consejos consultivos o espacios de decisión</li>
+  </ul>
+  <div class="callout">
+    <p><strong>Insight clave:</strong> No se trata de networking informal, sino de una comunidad estructurada con propósito y gobernanza.</p>
+  </div>
+</div>
+
+<div class="section" id="a6-vinculacion">
+  <h3>Vinculación estratégica con empresas</h3>
+  <p>Evolución del modelo relacional hacia alianzas de mayor profundidad:</p>
+  <div class="card-grid">
+    <div class="card-sm">
+      <h4>Investigación aplicada</h4>
+      <p>Proyectos conjuntos entre empresa y campus con impacto medible.</p>
+    </div>
+    <div class="card-sm">
+      <h4>Retos de la industria</h4>
+      <p>Resolución colaborativa de retos reales con metodología estructurada.</p>
+    </div>
+    <div class="card-sm">
+      <h4>Impacto económico y social</h4>
+      <p>Generación de valor compartido para empresa, campus y comunidad.</p>
+    </div>
+    <div class="card-sm">
+      <h4>Alianzas de largo plazo</h4>
+      <p>Pasar de relaciones transaccionales a alianzas estratégicas sostenidas.</p>
+    </div>
+  </div>
+
+  <h3>Continuidad activa con egresados</h3>
+  <p>El egresado es visto como <strong>activo estratégico</strong>, no solo relacional. Integración en:</p>
+  <ul>
+    <li>Mentorías</li>
+    <li>Proyectos de innovación</li>
+    <li>Consejos y comités</li>
+    <li>Redes de colaboración empresarial</li>
+  </ul>
+  <p>La comunidad no termina en el programa; se diseña con continuidad.</p>
+
+  <h3>Innovación e impacto regional</h3>
+  <p>Los modelos presentados (Laguna y Chihuahua) integran impulso al emprendimiento, investigación con impacto real, conexión talento&ndash;empresa y posicionamiento del campus como actor clave del ecosistema. En Chihuahua, el modelo de eventos funciona como <strong>plataforma estratégica de comunidad</strong>, no como evento aislado.</p>
+</div>
+
+<div class="section" id="a6-sintesis">
+  <h3>Síntesis estratégica</h3>
+  <p>Las iniciativas muestran una estrategia integral basada en:</p>
+  <div class="metrics">
+    <div class="metric">
+      <div class="value" style="font-size:1.2rem">&#10003;</div>
+      <div class="label">Comunidad estructurada</div>
+    </div>
+    <div class="metric">
+      <div class="value" style="font-size:1.2rem">&#10003;</div>
+      <div class="label">Vinculación profunda</div>
+    </div>
+    <div class="metric">
+      <div class="value" style="font-size:1.2rem">&#10003;</div>
+      <div class="label">Egresados activos</div>
+    </div>
+    <div class="metric">
+      <div class="value" style="font-size:1.2rem">&#10003;</div>
+      <div class="label">Impacto regional</div>
+    </div>
+  </div>
+
+  <div class="callout">
+    <p><strong>Oportunidad:</strong> Existen modelos avanzados en Laguna y Chihuahua que sirven como benchmark para formalizar estructura, diseñar continuidad post-programa, integrar empresarios en decisiones estratégicas y convertir eventos en plataformas de activación.</p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════ -->
+<!--          ANEXO 6: GRADUADOS BEYOND              -->
+<!-- ═══════════════════════════════════════════════ -->
+
+<hr class="section-divider">
+<div class="annexHeader" id="anexo7">
+  <div class="annex-label">Anexo 7</div>
+  <h2 class="annex-title">&iquest;Qué desean los graduados Beyond?</h2>
+  <p class="annex-desc">A partir de conversaciones y reflexiones, los graduados buscan una comunidad activa, estructurada y con valor tangible que trascienda el programa.</p>
+</div>
+
+<div class="section" id="a7-comunidad">
+  <h3>1. Comunidad con propósito y valor claro</h3>
+  <ul>
+    <li>Claridad sobre el <strong>valor concreto</strong> que la comunidad les genera</li>
+    <li>Red que incluya graduados, participantes, empresarios, ponentes y aliados</li>
+    <li>Comunidad activa, coordinada y con impacto exponencial</li>
+    <li>Eventos anuales masivos que fortalezcan el vínculo</li>
+  </ul>
+
+  <h3>4. Gobernanza y acompañamiento institucional</h3>
+  <ul>
+    <li>Participación activa del Tec en la estructuración y continuidad</li>
+    <li>Consejos o comités intergeneracionales que acompañen el programa</li>
+    <li>Comunidad como parte de la agenda estratégica del campus</li>
+    <li>Espacios de retroalimentación continua</li>
+  </ul>
+</div>
+
+<div class="section" id="a7-formacion">
+  <h3>2. Formación continua y especializada</h3>
+  <p>Interés en programas más avanzados y aplicados:</p>
+  <div class="card-grid">
+    <div class="card-sm">
+      <h4>IA aplicada a empresas</h4>
+      <p>Inteligencia Artificial como herramienta estratégica de negocio.</p>
+    </div>
+    <div class="card-sm">
+      <h4>Transformación digital</h4>
+      <p>Robótica, automatización y digitalización de operaciones.</p>
+    </div>
+    <div class="card-sm">
+      <h4>Gobierno corporativo</h4>
+      <p>Gestión de riesgos, sucesión familiar y empresarial.</p>
+    </div>
+    <div class="card-sm">
+      <h4>Inversión y capital</h4>
+      <p>Programas de inversión, capital privado y viajes internacionales.</p>
+    </div>
+  </div>
+  <p>Buscan diferentes niveles: programas introductorios para quienes inician y especializados para quienes desean el siguiente nivel.</p>
+</div>
+
+<div class="section" id="a7-oportunidades">
+  <h3>3. Red estratégica para generar oportunidades</h3>
+  <ul>
+    <li>Red como detector de oportunidades de negocio, inversión y colaboración</li>
+    <li>Conexión regional con expansión nacional e internacional (ej. Silicon Valley)</li>
+    <li>Vinculación con emprendedores locales</li>
+    <li>Impulso a la inversión y creación de nuevos emprendimientos</li>
+  </ul>
+
+  <h3>5. Evolución y continuidad</h3>
+  <ul>
+    <li>Que exista un &ldquo;siguiente paso&rdquo; después de graduarse</li>
+    <li>Evitar que los egresados busquen continuidad fuera de la institución</li>
+    <li>Estructura escalonada: nivel 1, nivel 2, programas cortos, viajes, especializaciones</li>
+  </ul>
+
+  <div class="callout">
+    <p><strong>Síntesis:</strong> Los graduados desean una comunidad estratégica, activa y bien gestionada, que combine formación de alto nivel, networking de valor, oportunidades reales de negocio e inversión, y acompañamiento institucional sólido. No buscan solo pertenecer a una red, sino formar parte de un ecosistema que evolucione con ellos.</p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════ -->
+<!--          ANEXO 7: DIAGRAMAS DE TRABAJO          -->
+<!-- ═══════════════════════════════════════════════ -->
+
+<hr class="section-divider">
+<div class="annexHeader" id="anexo8">
+  <div class="annex-label">Anexo 8</div>
+  <h2 class="annex-title">Interpretación de diagramas de trabajo</h2>
+  <p class="annex-desc">Análisis e interpretación de los diagramas producidos en la sesión de diseño estratégico: arquitectura de datos, modelo de valor, MVP e IA.</p>
+</div>
+
+<div class="section" id="a8-base">
+  <h3>Diagrama 1: Arquitectura de base de conocimiento</h3>
+  <p>La primera gráfica representa la arquitectura central del modelo, donde una Base de Conocimiento funciona como <strong>núcleo estratégico</strong> del sistema.</p>
+  <p>El flujo visual muestra cómo distintos inputs convergen hacia un único contenedor estructurado:</p>
+  <div class="flow-steps">
+    <div class="flow-step">Inputs diversos</div>
+    <div class="flow-arrow">&rarr;</div>
+    <div class="flow-step highlight">Data Hub centralizado</div>
+    <div class="flow-arrow">&rarr;</div>
+    <div class="flow-step">Verticales de valor</div>
+  </div>
+  <p>El proceso incluye integración de datos, normalización, enriquecimiento y consolidación. Posteriormente, esta base alimenta diferentes salidas o verticales de valor &mdash; una arquitectura orientada a explotación analítica y monetización.</p>
+
+  <h3>Diagrama 2: Modelo radial de generación de valor</h3>
+  <p>Un modelo hub-and-spoke donde un <strong>núcleo central</strong> procesa información y distribuye resultados hacia múltiples segmentos o mercados. En el centro: un motor analítico (IA / procesamiento automatizado) que conecta con:</p>
+  <div class="card-grid">
+    <div class="card-sm">
+      <h4>Segmentos de usuarios</h4>
+      <p>Perfiles diferenciados por tipo de miembro, industria y necesidad.</p>
+    </div>
+    <div class="card-sm">
+      <h4>Verticales de negocio</h4>
+      <p>Líneas de servicio especializadas por sector o función.</p>
+    </div>
+    <div class="card-sm">
+      <h4>Monetización</h4>
+      <p>Oportunidades de ingreso diversificadas desde el núcleo.</p>
+    </div>
+    <div class="card-sm">
+      <h4>Escalabilidad</h4>
+      <p>Proyecciones de 7,000&ndash;8,000 usuarios con crecimiento progresivo.</p>
+    </div>
+  </div>
+  <p>El modelo integra procesamiento mediante IA, segmentación dinámica, clustering de audiencias y perfilamiento estratégico. El valor no se genera de manera lineal, sino a través de múltiples conexiones desde el núcleo.</p>
+</div>
+
+<div class="section" id="a8-radial">
+  <h3>Diagrama 3: Infraestructura mínima y curva de crecimiento</h3>
+
+  <h4>Infraestructura mínima (MVP)</h4>
+  <div class="flow-steps">
+    <div class="flow-step">Scraper</div>
+    <div class="flow-arrow">&rarr;</div>
+    <div class="flow-step">Módulo IA</div>
+    <div class="flow-arrow">&rarr;</div>
+    <div class="flow-step highlight">Base de datos</div>
+    <div class="flow-arrow">&rarr;</div>
+    <div class="flow-step">Dashboard</div>
+    <div class="flow-arrow">&rarr;</div>
+    <div class="flow-step">Reglas de negocio</div>
+  </div>
+  <p>Esta configuración permite validar hipótesis sin necesidad de una inversión tecnológica compleja en etapas iniciales.</p>
+
+  <h4>Proyección de crecimiento</h4>
+  <p>Curva no lineal con fluctuaciones que sugiere crecimiento progresivo, periodos de ajuste, iteración constante y optimización continua. Horizonte de hasta <strong>10 años</strong> con escalabilidad estructural.</p>
+  <p>Consistente con modelos de expansión basados en:</p>
+  <ul>
+    <li>Mejora del LTV (Lifetime Value)</li>
+    <li>Optimización del funnel</li>
+    <li>Ajuste de estrategia según desempeño</li>
+  </ul>
+</div>
+
+<div class="section" id="a8-mvp">
+  <h3>Diagrama 4: Personalización y motor de IA</h3>
+  <p>Uso de modelos de IA como núcleo de procesamiento avanzado. La información se analiza y segmenta mediante clustering, reglas de negocio, análisis de comportamiento y personalización dinámica.</p>
+
+  <h4>Líneas de monetización identificadas</h4>
+  <table>
+    <thead>
+      <tr>
+        <th>Línea</th>
+        <th>Descripción</th>
+        <th>Driver</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Suscripción</td><td>Acceso a la plataforma y servicios base</td><td><span class="badge badge-teal">Recurrente</span></td></tr>
+      <tr><td>Datos estructurados</td><td>Venta de inteligencia de mercado procesada</td><td><span class="badge badge-blue">Valor alto</span></td></tr>
+      <tr><td>Matchmaking</td><td>Conexión estratégica entre perfiles compatibles</td><td><span class="badge badge-teal">Core</span></td></tr>
+      <tr><td>Closings comerciales</td><td>Facilitación de cierres de negocio entre miembros</td><td><span class="badge badge-green">Revenue share</span></td></tr>
+      <tr><td>Experiencias personalizadas</td><td>Eventos y programas adaptados al perfil</td><td><span class="badge badge-amber">Premium</span></td></tr>
+      <tr><td>Contenido premium</td><td>Formación avanzada y especializada</td><td><span class="badge badge-blue">Escalable</span></td></tr>
+    </tbody>
+  </table>
+
+  <div class="callout">
+    <p><strong>Modelo clave:</strong> La personalización se posiciona como principal driver de conversión, incrementando engagement, retención, tasa de cierre y valor por usuario.</p>
+  </div>
+</div>
+
+  <!-- Footer -->
+  <div style="margin-top:4rem;padding-top:2rem;border-top:1px solid var(--gray-200);text-align:center">
+    <p style="font-size:.82rem;color:var(--gray-400);margin-bottom:.25rem"><strong style="color:var(--gray-600)">Horizons Architecture Systems</strong></p>
+    <p style="font-size:.82rem;color:var(--gray-400);margin-bottom:.25rem">Edgar Barroso &middot; edgar@horizonsarchitecture.ai</p>
+    <p style="font-size:.78rem;color:var(--gray-300)">Febrero 2026 &middot; Documento confidencial</p>
+  </div>
+</div>
+
+</main>
+
+<!-- ════════ CHARTS ════════ -->
+<script>
+// Color palette
+const navy = '#231F20';
+const blue = '#3356F6';
+const teal = '#3356F6';
+const tealLight = '#5B7AF8';
+const amber = '#d97706';
+const green = '#16a34a';
+const purple = '#3356F6';
+const red = '#dc2626';
+
+// Common config
+Chart.defaults.font.family = "'Inter', sans-serif";
+Chart.defaults.font.size = 12;
+Chart.defaults.color = '#64748b';
+
+// ── 1. Network Value Growth (Anexo 1) ──
+new Chart(document.getElementById('networkValueChart'), {
+  type: 'bar',
+  data: {
+    labels: ['León hoy\n(~350)', '+ familias\n(~700)', '+ colaboradores\n(~3,000)'],
+    datasets: [{
+      label: 'Conexiones posibles',
+      data: [61075, 244650, 4498500],
+      backgroundColor: [teal, blue, navy],
+      borderRadius: 6,
+      borderSkipped: false,
+      barPercentage: 0.6
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: true,
+    aspectRatio: 2.2,
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        callbacks: {
+          label: ctx => ctx.parsed.y.toLocaleString() + ' conexiones'
+        }
+      }
+    },
+    scales: {
+      y: {
+        beginAtZero: true,
+        grid: { color: '#f1f5f9' },
+        ticks: {
+          callback: v => v >= 1000000 ? (v/1000000).toFixed(1)+'M' : v >= 1000 ? (v/1000)+'K' : v
+        }
+      },
+      x: { grid: { display: false } }
+    }
+  }
+});
+
+// ── 2. Expansion Growth (Anexo 4) ──
+new Chart(document.getElementById('expansionChart'), {
+  type: 'line',
+  data: {
+    labels: ['Piloto\n300', 'Exp. 1\n900', 'Exp. 2\n1,500', 'Nacional\n3,000', 'Visión\n8,000'],
+    datasets: [{
+      label: 'Conexiones posibles',
+      data: [44850, 404550, 1124250, 4498500, 32000000],
+      borderColor: teal,
+      backgroundColor: 'rgba(51,86,246,.1)',
+      fill: true,
+      tension: 0.4,
+      pointBackgroundColor: [teal, blue, amber, green, red],
+      pointBorderColor: 'white',
+      pointBorderWidth: 2,
+      pointRadius: 6,
+      pointHoverRadius: 8
+    }, {
+      label: 'Valor relativo',
+      data: [1, 9, 25, 100, 712],
+      borderColor: navy,
+      backgroundColor: 'transparent',
+      borderDash: [6, 3],
+      tension: 0.4,
+      pointBackgroundColor: navy,
+      pointRadius: 4,
+      yAxisID: 'y2'
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: true,
+    aspectRatio: 2.2,
+    interaction: { mode: 'index', intersect: false },
+    plugins: {
+      legend: { position: 'bottom', labels: { padding: 20, usePointStyle: true } },
+      tooltip: {
+        callbacks: {
+          label: ctx => {
+            if (ctx.datasetIndex === 0) return ctx.parsed.y.toLocaleString() + ' conexiones';
+            return ctx.parsed.y + 'x valor relativo';
+          }
+        }
+      }
+    },
+    scales: {
+      y: {
+        beginAtZero: true,
+        grid: { color: '#f1f5f9' },
+        title: { display: true, text: 'Conexiones posibles', font: { size: 11 } },
+        ticks: { callback: v => v >= 1000000 ? (v/1000000)+'M' : v >= 1000 ? (v/1000)+'K' : v }
+      },
+      y2: {
+        position: 'right',
+        beginAtZero: true,
+        grid: { display: false },
+        title: { display: true, text: 'Valor relativo', font: { size: 11 } },
+        ticks: { callback: v => v + 'x' }
+      },
+      x: { grid: { display: false } }
+    }
+  }
+});
+
+// ── 3. Cost per Member (Anexo 4) ──
+new Chart(document.getElementById('costPerMemberChart'), {
+  type: 'line',
+  data: {
+    labels: ['Piloto (1 sede)', 'Exp. 1 (3 sedes)', 'Exp. 2 (5 sedes)', 'Nacional (8+ sedes)'],
+    datasets: [{
+      label: 'Costo total relativo',
+      data: [1, 1.4, 1.7, 2.2],
+      borderColor: blue,
+      backgroundColor: 'rgba(51,86,246,.08)',
+      fill: true,
+      tension: 0.35,
+      pointBackgroundColor: blue,
+      pointBorderColor: 'white',
+      pointBorderWidth: 2,
+      pointRadius: 6,
+      yAxisID: 'y'
+    }, {
+      label: 'Costo por miembro relativo',
+      data: [1, 0.47, 0.34, 0.22],
+      borderColor: teal,
+      backgroundColor: 'rgba(51,86,246,.08)',
+      fill: true,
+      tension: 0.35,
+      pointBackgroundColor: teal,
+      pointBorderColor: 'white',
+      pointBorderWidth: 2,
+      pointRadius: 6,
+      yAxisID: 'y'
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: true,
+    aspectRatio: 2.2,
+    interaction: { mode: 'index', intersect: false },
+    plugins: {
+      legend: { position: 'bottom', labels: { padding: 20, usePointStyle: true } },
+      tooltip: {
+        callbacks: {
+          label: ctx => ctx.dataset.label + ': ' + ctx.parsed.y + 'x'
+        }
+      }
+    },
+    scales: {
+      y: {
+        beginAtZero: true,
+        max: 2.5,
+        grid: { color: '#f1f5f9' },
+        ticks: { callback: v => v + 'x' }
+      },
+      x: { grid: { display: false } }
+    }
+  }
+});
+
+// ── 4. Cost Structure by Phase (Anexo 3) ──
+new Chart(document.getElementById('costStructureChart'), {
+  type: 'bar',
+  data: {
+    labels: ['Piloto (León)', 'Transición', 'Madurez'],
+    datasets: [{
+      label: 'Costos fijos',
+      data: [75, 15, 5],
+      backgroundColor: navy,
+      borderRadius: { topLeft: 6, topRight: 6 },
+      borderSkipped: false
+    }, {
+      label: 'Costos variables',
+      data: [25, 55, 65],
+      backgroundColor: teal,
+      borderRadius: 0,
+      borderSkipped: false
+    }, {
+      label: 'Expansión',
+      data: [0, 30, 30],
+      backgroundColor: blue,
+      borderRadius: { bottomLeft: 6, bottomRight: 6 },
+      borderSkipped: false
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: true,
+    aspectRatio: 2.5,
+    plugins: {
+      legend: { position: 'bottom', labels: { padding: 20, usePointStyle: true } },
+      tooltip: { callbacks: { label: ctx => ctx.dataset.label + ': ' + ctx.parsed.y + '%' } }
+    },
+    scales: {
+      y: {
+        stacked: true,
+        beginAtZero: true,
+        max: 100,
+        grid: { color: '#f1f5f9' },
+        ticks: { callback: v => v + '%' },
+        title: { display: true, text: '% de la inversión', font: { size: 11 } }
+      },
+      x: { stacked: true, grid: { display: false } }
+    }
+  }
+});
+
+// ── 5. Revenue Sources by Phase (Anexo 3) ──
+new Chart(document.getElementById('revenueSourcesChart'), {
+  type: 'bar',
+  data: {
+    labels: ['Piloto', 'Transición', 'Madurez'],
+    datasets: [{
+      label: 'Inversión institucional',
+      data: [100, 40, 0],
+      backgroundColor: navy,
+      borderRadius: 4,
+      borderSkipped: false
+    }, {
+      label: 'Membresías',
+      data: [0, 30, 50],
+      backgroundColor: teal,
+      borderRadius: 4,
+      borderSkipped: false
+    }, {
+      label: 'Eventos premium',
+      data: [0, 15, 15],
+      backgroundColor: amber,
+      borderRadius: 4,
+      borderSkipped: false
+    }, {
+      label: 'Licencias + otros',
+      data: [0, 15, 35],
+      backgroundColor: blue,
+      borderRadius: 4,
+      borderSkipped: false
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: true,
+    aspectRatio: 2.5,
+    plugins: {
+      legend: { position: 'bottom', labels: { padding: 16, usePointStyle: true, font: { size: 11 } } },
+      tooltip: { callbacks: { label: ctx => ctx.dataset.label + ': ' + ctx.parsed.y + '%' } }
+    },
+    scales: {
+      y: {
+        stacked: true,
+        beginAtZero: true,
+        max: 100,
+        grid: { color: '#f1f5f9' },
+        ticks: { callback: v => v + '%' },
+        title: { display: true, text: '% de ingresos', font: { size: 11 } }
+      },
+      x: { stacked: true, grid: { display: false } }
+    }
+  }
+});
+
+// ── 6. Scenarios Comparison (Anexo 3) ──
+new Chart(document.getElementById('scenariosChart'), {
+  type: 'bar',
+  data: {
+    labels: ['Adopción (%)', 'Sedes en 3 años', 'Miembros año 3'],
+    datasets: [{
+      label: 'Conservador',
+      data: [40, 3, 750],
+      backgroundColor: amber + '90',
+      borderColor: amber,
+      borderWidth: 1,
+      borderRadius: 6,
+      borderSkipped: false
+    }, {
+      label: 'Base',
+      data: [60, 5, 1500],
+      backgroundColor: blue + '90',
+      borderColor: blue,
+      borderWidth: 1,
+      borderRadius: 6,
+      borderSkipped: false
+    }, {
+      label: 'Optimista',
+      data: [80, 8, 3000],
+      backgroundColor: green + '90',
+      borderColor: green,
+      borderWidth: 1,
+      borderRadius: 6,
+      borderSkipped: false
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: true,
+    aspectRatio: 2.5,
+    plugins: {
+      legend: { position: 'bottom', labels: { padding: 20, usePointStyle: true } }
+    },
+    scales: {
+      y: { beginAtZero: true, grid: { color: '#f1f5f9' } },
+      x: { grid: { display: false } }
+    }
+  }
+});
+
+// ── NAV ACTIVE STATE ──
+const sections = document.querySelectorAll('[id]');
+const navLinks = document.querySelectorAll('nav a');
+
+window.addEventListener('scroll', () => {
+  let current = '';
+  sections.forEach(section => {
+    const top = section.offsetTop - 120;
+    if (window.scrollY >= top) current = section.getAttribute('id');
+  });
+  navLinks.forEach(link => {
+    link.classList.remove('active');
+    if (link.getAttribute('href') === '#' + current) link.classList.add('active');
+  });
+});
+</script>
+</body>
+</html>
