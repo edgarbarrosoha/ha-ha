@@ -72,7 +72,7 @@ Lo que proponemos con Tec Beyond no es una plataforma digital. Es una **comunida
 
 Esa trascendencia tiene tres dimensiones:
 
-### 1. Trascendencia personal
+1### 1. Trascendencia personal
 Cada empresario que pasa por Beyond no solo aprende — se transforma. Descubre fortalezas que no sabía que tenía, enfrenta vulnerabilidades que evitaba, y encuentra en otros empresarios un espejo y un apoyo. Esa transformación personal es la base de todo lo demás.
 
 ### 2. Trascendencia empresarial

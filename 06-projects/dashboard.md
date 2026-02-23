@@ -3,58 +3,51 @@ type: clock
 ```
 # Dashboards
 [EB](obsidian://open?vault=ha-eb&file=06-projects%2Fdashboard) | [Tec](obsidian://open?vault=ha-eb&file=06-projects%2Ftec.link%2F06-projects%2Fdashboard) | [Research](obsidian://open?vault=ha-eb&file=06-projects%2Fresearch.link%2F06-projects%2Fdashboard) | [AL](obsidian://open?vault=ha-al&file=06-projects%2Fdashboard)
-# Today
-
-```schedule
-[Start]: 02/19/26 - 10:00 AM
-[Invalid date]:
-[Finish]: Invalid date
-```
-
----
-
-# Priorities
-
-- [ ]
-
----
 # To dos
 
 ## Prioridad
 
-- [ ] SIC-Q: Propuesta v06 (3 frentes operativos + datos talleres)
+- [ ] Tec Beyond: Reunión 24 feb Jorge Blando — materiales listos con password (`Tec-Beyond-2026`)
+- [ ] SIC-Q: Propuesta v06 (3 frentes operativos + datos talleres) — cuando Toño responda
 - [ ] SIC-Q: Diseñar piloto operativo con Toño (datasets, productos, métricas)
-- [ ] Tec Beyond: Reunión martes 24 feb Jorge Blando — materiales listos
+- [ ] Docet: ⚠️ Verificar status prototipo agentes — deadline febrero
 
 ## En curso
-- [ ] Docet: Esperando evaluación equipo Poncho sobre indicadores y métricas de performance
-- [ ] UPU: Oscar documentación esta semana, envío la siguiente
+- [ ] UPU: Oscar documentación cierre (semana 24 feb)
 - [ ] TEC Narrativa: Materiales entregados a Mario Adrián para Consejo. Sarahí dando insumos
-- [ ] Learning Products: Betty + Sarahí avanzan canvases
+- [ ] Learning Products: Betty + Sarahí avanzan canvases. Leiden confirmado mar-jun 2026
 
 ## Pendiente
 - [ ] Entender la codificación
-- [ ] Héctor: Agendar llamada — transformación digital, IA + referencia (respuesta enviada)
+- [ ] HA-Product: [?] Decisión — activar con recursos concretos o congelar formalmente
+- [ ] Learning Products: Call Betty/Sarahí/Edgar — Netherlands office strategy
 - [ ] Learning Products: Adaptar syllabus Entrepreneurship para Leiden
 - [ ] Learning Products: Definir scope Plan de Vida y Carrera
-- [ ] Talisis: Llamada con Nicho siguiente semana
+- [ ] Héctor: Agendar llamada — transformación digital, IA + referencia (respuesta enviada)
+- [ ] Talisis: Esperando status reunión liderazgo de Nicho
 - [ ] Joel Cano: Agendar reunión con Javier (VP Research Tec)
 - [ ] Xignux: Follow-up enviado, sin respuesta aún
+
+## Pausa
+- [ ] Docet: Esperando evaluación equipo Poncho sobre indicadores y métricas de performance
 
 ---
 
 # Waiting For
 
-| Persona | Esperando | Proyecto |
-|---------|-----------|----------|
-| **Equipo Poncho (Docet)** | Evaluación de indicadores y métricas de performance | Docet-Agentic |
-| **Antonio Rangel** | Definir alcance específico piloto (datasets, productos, frecuencia) | SIC-Q |
-| **Gobierno QRO** | Decisión legal CURP vs INE + alineación IF | SIC-Q |
-| **Nicho (Talisis)** | Llamada siguiente semana | Talisis |
-| **Javier (VP Research Tec)** | Agendar reunión con Joel Cano | HA-Core |
-| **Steven Popper** | Respuesta correo reuniones mensuales | Advisory |
-| Xignux | Follow-up enviado, sin respuesta | — |
-| Financial Paper | Ricardo | — |
+| Persona | Esperando | Proyecto | Desde |
+|---------|-----------|----------|-------|
+| **Antonio Rangel** | Respuesta cotización +$6M (3 entregables AI) | SIC-Q | 19 feb |
+| **Equipo Poncho (Docet)** | Evaluación indicadores y métricas | Docet-Agentic | ~14 feb |
+| **Gobierno QRO** | Decisión legal CURP vs INE + alineación IF | SIC-Q | feb |
+| **Jorge Blando** | Reunión 24 feb — materiales enviados con password | Beyond | 21 feb |
+| **Oscar** | Documentación cierre proyecto (semana 24 feb) | UPU | 22 feb |
+| **Nicho (Talisis)** | Status reunión liderazgo | Talisis | ~14 feb |
+| **Betty/Sarahí** | Call Netherlands office strategy | Learning Products | 22 feb |
+| **Javier (VP Research Tec)** | Agendar reunión con Joel Cano | HA-Core | ~14 feb |
+| **Héctor** | Confirmar fecha llamada | Nuevo lead | 20 feb |
+| **Steven Popper** | Respuesta correo reuniones mensuales | Advisory | ~14 feb |
+| Xignux | Follow-up enviado, sin respuesta | — | ~14 feb |
 
 ---
 
@@ -64,30 +57,30 @@ type: clock
 
 | **Project** | **Status** | **Next steps** | **Links** |
 | ----------- | ---------- | -------------- | --------- |
-| **SIC-Q** | 🟢 Talleres + CONSEQRO + 3 frentes definidos con Toño | Propuesta v06 + diseño piloto + caso gobernador | `sic-q/` |
+| **SIC-Q** | 🟢 $3.7M pagado, cotización +$6M enviada | Propuesta v06 cuando Toño responda + caso gobernador | `sic-q/` |
 
 ## Education & AI Systems
 
 | **Project** | **Status** | **Next steps** | **Links** |
 | ----------- | ---------- | -------------- | --------- |
-| **Docet-Agentic** | ⏳ Esperando evaluación equipo Poncho | Indicadores y métricas — pausa prototipo | `docet-agentic/` |
-| **TEC Narrativa** | 🟢 Feedback JP recibido | Mario Adrián presenta a Consejo, Sarahí insumos | `tec-monterrey/` |
-| **Tec Beyond** | 🟢 Materiales profesionales listos | Reunión martes 24 feb Jorge Blando — HTML, PDF, Kumu | `tec-monterrey/` |
-| **Talisis 360** | 🔶 Reconectado con Nicho | Llamada siguiente semana | `talisis/` |
+| **Docet-Agentic** | ⚠️ Esperando Poncho + deadline prototipo feb | Verificar status prototipo agentes | `docet-agentic/` |
+| **TEC Narrativa** | 🟢 Feedback JP recibido, 27 entrevistas | Mario Adrián presenta a Consejo, Sarahí insumos | `tec-monterrey/` |
+| **Tec Beyond** | 🟢 8 anexos + presentación, password-protected | Reunión 24 feb Jorge Blando | `tec-monterrey/06-projects/tec-beyond/` |
+| **Talisis 360** | 🔶 Esperando Nicho | Status reunión liderazgo | `talisis/` |
 
 ## Products & Frameworks
 
 | **Project** | **Status** | **Next steps** | **Links** |
 | ----------- | ---------- | -------------- | --------- |
 | **HA-Core** | 🔶 Framework activo | TaaS Product Architecture + scaling plan | `ha-core/` |
-| **HA-Product** | 📋 Diseño MVP | Decidir equipo desarrollo, setup repo | `ha-product/` |
-| **Learning Products** | 🔶 Q1 2026 | Betty + Sarahí canvases | `learning-products/` |
+| **HA-Product** | ❄️ Sin movimiento 9 días | [?] Decisión: activar con recursos o congelar | `ha-product/` |
+| **Learning Products** | 🟢 Leiden confirmado mar-jun, NL office emerging | Betty + Sarahí canvases + call NL strategy | `learning-products/` |
 
 ## International
 
 | **Project** | **Status** | **Next steps** | **Links** |
 | ----------- | ---------- | -------------- | --------- |
-| **UPU** | 🔶 Cerrando proyecto | Oscar documentación + 2 new devs | `upu/` |
+| **UPU** | 🔶 Cerrando (MBTU Caribbean ✅ 21 feb) | Oscar documentación semana 24 feb | `upu/` |
 
 ---
 
@@ -126,14 +119,19 @@ type: clock
 - [ ] Presentación ejecutiva final
 
 ## TEC Monterrey — Tec Beyond
-**Cliente:** Mario Orozco
-**Concepto:** Community platform + HA integration
-- [x] Integrar en documento coherente para reunión martes con Jorge Blando
+**Cliente:** Mario Orozco (sponsor), Jorge Blando (Dir. Vinculación)
+**Concepto:** Community platform + HA integration + personas al centro
+**Entregables:** 8 anexos técnicos + presentación ejecutiva (31 slides) — password-protected en GitHub Pages
+- [x] Integrar en documento coherente para reunión con Jorge Blando
 - [x] HTML profesional con gráficas Chart.js + SVG (`anexos-profesional.html`)
 - [x] PDF blanco y negro (`Tec-Beyond-Anexos-Tecnicos.pdf`)
 - [x] Kumu JSON con arquitectura fractal HA (`kumu-tec-beyond.json`)
-- [x] Presentación ejecutiva HTML slide deck (`presentacion-ejecutiva.html`) — GitHub Pages
-- [ ] Reunión martes 24 feb con Jorge Blando — presentar materiales
+- [x] Presentación ejecutiva HTML slide deck (`presentacion-ejecutiva.html`)
+- [x] Anexo 1: Personas al centro — respuesta a feedback Juan Ferrer/Mario Orozco
+- [x] Password protection StatiCrypt (`Tec-Beyond-2026`)
+- [ ] Reunión 24 feb con Jorge Blando — presentar materiales
+- [ ] Mario presenta a Consejo (25 feb estimado)
+- [ ] Cierre Laurance (Mario + Irma manejan)
 
 ## Learning Products (Q1 2026)
 **Meta:** 5 productos diseñados a Nivel 1
@@ -171,7 +169,7 @@ type: clock
 ## Talisis 360
 **Modelo:** 5 dimensiones liderazgo (EJECUTA, UNE, IMPULSA, NAVEGA, CREA)
 **Proceso:** Conversaciones AI con "Tali" → Feedback 360 → Plan desarrollo
-- [ ] Llamada con Nicho siguiente semana
+- [ ] Esperando status reunión liderazgo de Nicho (desde ~14 feb)
 - [ ] Configurar Tali
 - [ ] Piloto con cohorte
 
@@ -181,11 +179,14 @@ type: clock
 
 | Fecha | Evento | Proyecto |
 |-------|--------|----------|
-| **19 feb 2026** | ~~Reunión Antonio Rangel~~ ✅ 3 frentes definidos | SIC-Q |
-| **Martes 24 feb** | Reunión Jorge Blando — doc integrado | Tec Beyond |
-| **Feb 2026** | Propuesta v06 | SIC-Q |
-| **Siguiente semana** | Llamada Nicho | Talisis |
-| **Siguiente semana** | Oscar envía documentación | UPU |
+| ~~19 feb 2026~~ | ✅ Reunión Toño — 3 frentes + cotización $6M | SIC-Q |
+| ~~21 feb 2026~~ | ✅ MBTU/Caribbean presentación — José Anson asistió | UPU |
+| **24 feb 2026** | Reunión Jorge Blando — materiales con password | Tec Beyond |
+| **~25 feb 2026** | Mario presenta a Consejo | Tec Beyond |
+| **Semana 24 feb** | Oscar envía documentación cierre | UPU |
+| **Feb 2026** | ⚠️ Deadline prototipo agentes — verificar | Docet-Agentic |
+| **Feb-Mar 2026** | Propuesta v06 (cuando Toño responda) | SIC-Q |
+| **Mar-Jun 2026** | Leiden — curso HA confirmado | Learning Products |
 | Mar-May 2026 | Fase 2 Data Architecture | Docet-Agentic |
 | Abr-Jul 2026 | Fase 3 V1.0 Development | Docet-Agentic |
 | Jul-Ago 2026 | Fase 4 Testing & Deployment | Docet-Agentic |
@@ -198,14 +199,28 @@ type: clock
 
 | Project | Potential | Status |
 |---------|-----------|--------|
+| SIC-Q | $3.7M pagado + $6M cotizado | Cotización enviada, esperando Toño |
 | Docet-Agentic | $3.9M MXN (~$200K USD) | En pausa — esperando evaluación equipo Poncho |
-| SIC-Q | TBD | Talleres + CONSEQRO exitosos + 3 frentes definidos — diseño piloto en curso |
 | TEC Monterrey | Consultoría (Narrativa + Tec Beyond) | Activo |
+| Learning Products | Leiden pagado + NL office potential | Activo — emerging fast |
 | UPU | 3,500 CHF (workshop) + frontend | Cerrando |
-| Talisis | TBD | Reconectado — llamada siguiente semana |
+| Talisis | TBD | Esperando Nicho |
 | Joel Cano / Tec Ventures | TBD | Reunión con Javier VP Research pendiente |
 
 ---
 
-*Última actualización: 2026-02-21*
+# Emerging Pipeline
+
+Oportunidades detectadas que aún no son proyecto formal. Rastrear aquí hasta que tengan scope y next step claro.
+
+| Oportunidad | Origen | Señal | Next step |
+|-------------|--------|-------|-----------|
+| AI Training Caribbean | UPU — MBTU presentación 21 feb | José Anson asistió, interés regional | Definir scope y propuesta |
+| Netherlands HA Office | Learning Products — Leiden confirmado | Curso pagado, Betty + Sarahí liderando | Call 3-way para strategy |
+| Project Mara (B2C) | Tec Beyond — project-state 22 feb | Insight: beyond community → producto B2C | Explorar en paralelo a Beyond |
+| Héctor — Transformación Digital | Contacto directo | Referencia + interés IA | Agendar llamada |
+
+---
+
+*Última actualización: 2026-02-23*
 *HA Syntax: `[>]` agent task, `[<]` waiting, `[?]` decision needed, `[!]` urgent, `[x]` done*

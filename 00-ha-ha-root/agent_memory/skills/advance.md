@@ -27,6 +27,7 @@
 | `core` | HA-Core | `06-projects/ha-core/project-state.md` | Design |
 | `product` | HA-Product | `06-projects/ha-product/project-state.md` | Design |
 | `upu` | UPU | `06-projects/upu/project-state.md` | Active |
+| `talisis` | Talisis 360 | `06-projects/talisis/project-state.md` | Waiting |
 
 ---
 
@@ -150,6 +151,7 @@ Update `dashboard.md` if status changed.
 | `\advance core` | Start/continue HA-Core |
 | `\advance product` | Start/continue HA-Product |
 | `\advance upu` | Start/continue UPU |
+| `\advance talisis` | Start/continue Talisis 360 |
 | `\advance status` | Portfolio overview (all projects) |
 | `\advance {project} map` | Deliverables map with progress |
 

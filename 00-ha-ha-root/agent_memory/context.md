@@ -43,11 +43,13 @@
 - PAT:iteration-depth | Edgar iterates 5-7 rounds on important docs — start broad, refine | REF: working-memory sessions 2-6
 - PAT:advance-daily | `\advance {project}` → load state, present unit, get feedback, save state. Like Duolingo: never blank page, never lost context, even 1 deliverable/day = progress. Continuity > speed. | REF: skills/advance.md
 - PAT:pro-docs | HTML+Tailwind+Chart.js+SVG for professional documents. Chrome headless for PDF. GitHub Pages for hosting. Kumu for system maps. | REF: tec-beyond/anexos/
+- PAT:encrypt-deploy | For password-protected deliverables: edit `-src.html` → encrypt with `npx staticrypt` → copy over `.html` → commit → push. Password stored in project-state. | REF: skills/deploy.md
 
 ### Corrections
 - [2026-01-31] COR: Writing with implied superiority ("this is not X, it's Y") | LESSON: Write neutral, clear, let quality speak. Avoid comparative claims.
 - [2026-02-02] COR: Start report was too system-like ("System status: ...") | LESSON: Briefing tone — what we were working on, what's pending, what to tackle.
 - [2026-02-14] COR: Using slang/informal tone ("qué onda", "en qué te clavo") | LESSON: HA-HA is the company. Professional, structured, warm but efficient. Never casual.
+- [2026-02-23] COR: Overusing "No es X, es/sino Y" rhetorical structure | LESSON: Once or twice has impact. Repeated 10+ times becomes a tic. Vary constructions: affirmative statements, "ante todo", "más que", reframing without negation.
 
 ### Key People
 - #alfonso-romo → Docet approval authority. BLOCKER for Phase 1. Critical path.
@@ -66,48 +68,50 @@
 ## ZONE C: State (Dynamic)
 
 ### Last Session
-- **Date:** 2026-02-21
-- **Type:** Tec Beyond — Presentación ejecutiva finalizada
-- **Achievements:** SVGs forzados eliminados (7 slides), diseño CSS reescrito, layout overflow corregido, timeline spacing fix, autoría actualizada (Jorge Blando · Mario Orozco · Edgar Barroso), publicado en GitHub Pages.
+- **Date:** 2026-02-23
+- **Type:** Beyond Personas al Centro + Auditoría Sistema
+- **Achievements:** Anexo 1 personas al centro (md + 2 HTMLs), anti-muletilla fix, StatiCrypt password protection, limpieza repo (node_modules + orphans), auditoría completa sistema, 7 mejoras implementadas.
 
 ### Active Threads
-- SIC-Q: Talleres ✅ + Reunión Toño ✅ → 3 frentes operativos definidos. Propuesta v06 + diseño piloto = siguiente paso
+- SIC-Q: Talleres ✅ + Reunión Toño ✅ → awaiting +$6M expansion response. Propuesta v06 + diseño piloto = siguiente paso
 - SIC-Q: 4 reportes talleres completos (ejecutivos T1/T2, combinado, técnico ~1600 líneas)
-- Tec Beyond: Materiales LISTOS para reunión martes 24 feb Jorge Blando (HTML, PDF, Kumu)
-- Docet-Agentic: En pausa — esperando evaluación equipo Poncho sobre indicadores/métricas
-- TEC Narrativa: Feedback JP recibido. Mario Adrián presenta a Consejo. Sarahí da insumos.
-- Héctor: Nuevo lead — transformación digital + IA + referencia. Respuesta enviada, pendiente agendar llamada.
-- UPU: Oscar documentación esta semana, envío la siguiente
-- Talisis: Reconectado con Nicho — llamada siguiente semana
-- Learning Products: Betty + Sarahí avanzan canvases
+- Tec Beyond: Materiales completos (8 anexos + presentación + Kumu). Password-protected en GitHub Pages. **Reunión Jorge Blando mañana 24 feb**
+- Docet-Agentic: En pausa — esperando evaluación equipo Poncho. ⚠️ Prototipo agentes tenía deadline febrero
+- TEC Narrativa: Feedback JP recibido. Mario Adrián presenta a Consejo. Sarahí da insumos. 27 entrevistas totales.
+- UPU: Oscar documentación para cerrar. MBTU/Caribbean presentación exitosa (21 feb). Nuevo lead: AI training Caribbean
+- Learning Products: Betty + Sarahí avanzan canvases. Leiden Mar-Jun 2026 confirmado. Netherlands office strategy pendiente (3-person call)
+- Talisis: Reconectado con Nicho — esperando confirmación reunión liderazgo
+- Héctor: Nuevo lead — transformación digital + IA. Respuesta enviada, pendiente agendar
 - Joel Cano: Reunión con Javier (VP Research Tec) — pendiente
 - Steven Popper: Correo enviado para reuniones mensuales advisory board
+- **Emerging:** Caribbean AI training (UPU), Netherlands office (Learning Products), Project Mara B2C (Beyond)
 
 ### Waiting For
-- Antonio Rangel → Alcance específico piloto (datasets, productos, frecuencia)
-- Equipo Poncho (Docet) → Evaluación indicadores y métricas de performance
-- Gobierno QRO → Decisión legal + alineación IF
-- Jorge Blando → Reunión martes 24 feb — materiales enviados
-- Héctor → Confirmar fecha llamada (transformación digital + referencia)
-- Nicho (Talisis) → Llamada siguiente semana
-- Javier (VP Research Tec) → Agendar reunión con Joel Cano
-- Steven Popper → Respuesta correo reuniones mensuales
-- Xignux → Follow-up enviado, sin respuesta
-- Financial Paper → Ricardo
+- Antonio Rangel → Respuesta cotización +$6M (3 entregables AI) | SIC-Q
+- Equipo Poncho (Docet) → Evaluación indicadores/métricas | Docet
+- Gobierno QRO → Decisión legal + alineación IF | SIC-Q
+- Jorge Blando → Reunión 24 feb 2026 — materiales enviados con password | Beyond
+- Héctor → Confirmar fecha llamada | Nuevo lead
+- Nicho (Talisis) → Status reunión liderazgo | Talisis
+- Javier (VP Research Tec) → Agendar reunión con Joel Cano | HA-Core
+- Steven Popper → Respuesta correo reuniones mensuales | Advisory
+- Oscar → Documentación cierre UPU (semana 24 feb) | UPU
+- Betty/Sarahí/Edgar → Call Netherlands office strategy | Learning Products
 
 ### Next Session Priorities
-1. SIC-Q: Propuesta v06 con 3 frentes operativos + datos de talleres como evidencia
-2. SIC-Q: Diseño piloto Toño — qué datos, qué productos, qué frecuencia, qué métricas
-3. Tec Beyond: Reunión martes 24 feb Jorge Blando — revisar si necesita ajustes
-4. Héctor: Dar seguimiento a llamada si no confirma
-5. Talisis: Preparar llamada con Nicho
+1. **Tec Beyond:** Reunión Jorge Blando 24 feb — prep si necesita ajustes post-reunión
+2. SIC-Q: Propuesta v06 cuando Toño responda
+3. Docet: Verificar status prototipo agentes (deadline febrero)
+4. HA-Product: Decisión activar con recursos o congelar formalmente
+5. Learning Products: Agendar call Netherlands office strategy
 
 ### Recent Sessions
 
 | Date | Session | Focus | Key Achievement |
 |------|---------|-------|-----------------|
-| 2026-02-21 | 13 | Tec Beyond presentación | SVGs limpiados, diseño CSS, autoría Blando/Orozco/Barroso, GitHub Pages |
-| 2026-02-20 | 12 | SIC-Q update | Minuta Toño, reportes talleres, dashboards actualizados, email Héctor |
+| 2026-02-23 | 14 | Beyond + Auditoría | Anexo 1 personas, StatiCrypt, limpieza repo, auditoría sistema |
+| 2026-02-21 | 13 | Tec Beyond presentación | SVGs limpiados, diseño CSS, autoría, GitHub Pages |
+| 2026-02-20 | 12 | SIC-Q update | Minuta Toño, reportes talleres, email Héctor |
 | 2026-02-19 | 11 | Tec Beyond docs | HTML+PDF+Kumu profesionales, GitHub Pages |
 | 2026-02-19 | 10 | Portfolio update | Dashboard actualizado, SIC-Q talleres ✅, JP feedback ✅ |
 | 2026-02-15 | 9 | Auditoría | 5 commits, 42 archivos auditados (feb 11–14) |
@@ -117,7 +121,6 @@
 | 2026-02-02 | 5 | Docs / Config | One-pager update |
 | 2026-02-02 | 4 | Dashboard | Populated from 8 projects |
 | 2026-02-02 | 3 | SIC-Q | Presentación al Gobernador v.04 |
-| 2026-01-31 | 2 | Learning Products | Entrepreneurship syllabus |
 
 ---
 

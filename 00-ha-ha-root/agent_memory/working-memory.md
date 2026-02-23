@@ -2,6 +2,24 @@
 
 ## Sessions
 
+### 2026-02-23 | Session 14 | BEYOND PERSONAS AL CENTRO + AUDITORÍA SISTEMA
+- **Focus:** Nuevo Anexo 1 (personas al centro), correcciones de estilo, protección con password, limpieza repo, auditoría completa del sistema HA-HA
+- **Achievements:**
+  - **Anexo 1 creado:** "Personas al centro — El alma del proyecto" — respuesta a feedback de Juan Ferrer (vía Mario Orozco) sobre falta de dimensión humana. Inserción como primer anexo, renumeración completa 1→8
+  - **Integración HTML:** Nuevo slide en presentacion-ejecutiva.html + sección completa en anexos-profesional.html con 5 sub-secciones y nav actualizado
+  - **Capitalización español:** Corregida en todos los markdown y HTMLs (solo mayúscula inicial + nombres propios)
+  - **Anti-muletilla:** Eliminada estructura repetitiva "No es X, es/sino Y" en 10 instancias del HTML profesional
+  - **StatiCrypt:** Ambos HTMLs protegidos con password (AES-256). Archivos fuente conservados como `-src.html`
+  - **Limpieza repo:** Eliminados node_modules (380 archivos), package.json, package-lock.json, generate-sic-q-presupuesto.js. Actualizado .gitignore
+  - **Auditoría sistema:** Revisión completa de memoria, dashboard, project-states, skills. Identificados 7 puntos de mejora e implementados
+- **Decisions:**
+  - Archivos HTML editables = `-src.html`. Los `.html` son versiones encriptadas para GitHub Pages
+  - Password Beyond: `Tec-Beyond-2026`
+  - Anti-muletilla "No es X, sino Y" registrada como corrección permanente
+  - Skill `\deploy` creado para automatizar encriptación + push
+- **Deliverables:** Anexo 1 (md + HTML), HTMLs encriptados, deploy skill, sistema auditado y actualizado
+- **Open threads:** Reunión Jorge Blando mañana 24 feb. HA-Product necesita decisión activar/congelar. Docet deadline febrero — verificar.
+
 ### 2026-02-21 | Session 13 | TEC BEYOND PRESENTACIÓN EJECUTIVA
 - **Focus:** Finalizar presentación ejecutiva HTML (slide deck) para Tec Beyond
 - **Achievements:**
