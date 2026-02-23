@@ -14,5 +14,10 @@
 # OS / temp
 Thumbs.db
 
+# Node (solo se usa para npx staticrypt)
+node_modules/
+package.json
+package-lock.json
+
 # Large PDFs (keep outside git)
 *.pdf
