@@ -1,0 +1,3957 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tec Beyond — Representantes de generación</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500&family=Roboto+Mono&display=swap"
+            rel="stylesheet"
+        />
+        <style>
+            :root {
+                --ha-blue: #3356f6;
+                --black: #000000;
+                --offset-black: #231f20;
+                --offwhite: #f1f2f2;
+                --white: #ffffff;
+                --font-primary:
+                    "Plus Jakarta Sans", "Helvetica Neue", Helvetica, Arial,
+                    system-ui, sans-serif;
+                --font-mono:
+                    "Roboto Mono", "SF Mono", Menlo, Monaco, Consolas, monospace;
+            }
+
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            html,
+            body {
+                height: 100%;
+                overflow: hidden;
+            }
+
+            body {
+                font-family: var(--font-primary);
+                font-weight: 400;
+                font-style: normal;
+                font-synthesis: none;
+                color: var(--offset-black);
+                background: var(--black);
+                -webkit-font-smoothing: antialiased;
+            }
+
+            .deck {
+                position: relative;
+                width: 100vw;
+                height: 100vh;
+            }
+
+            .slide {
+                position: absolute;
+                inset: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 6vh 8vw;
+                opacity: 0;
+                pointer-events: none;
+                transition: opacity 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+                overflow: hidden;
+            }
+            .slide.active {
+                opacity: 1;
+                pointer-events: all;
+            }
+
+            .slide.dark {
+                background: var(--black);
+                color: var(--offwhite);
+            }
+            .slide.light {
+                background: var(--offwhite);
+                color: var(--offset-black);
+            }
+            .slide.accent {
+                background: var(--ha-blue);
+                color: var(--white);
+            }
+
+            /* ── PROGRESS ── */
+            .progress {
+                position: fixed;
+                top: 0;
+                left: 0;
+                height: 2px;
+                background: var(--ha-blue);
+                transition: width 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+                z-index: 300;
+            }
+
+            /* ── COUNTER ── */
+            .slide-counter {
+                position: fixed;
+                bottom: 2rem;
+                right: 2.5rem;
+                font-family: var(--font-mono);
+                font-size: 0.65rem;
+                z-index: 200;
+                transition: color 0.45s;
+            }
+            .slide-counter.on-dark {
+                color: rgba(241, 242, 242, 0.2);
+            }
+            .slide-counter.on-light {
+                color: rgba(35, 31, 32, 0.15);
+            }
+            .slide-counter.on-accent {
+                color: rgba(255, 255, 255, 0.3);
+            }
+
+            /* ── WATERMARK ── */
+            .watermark {
+                position: fixed;
+                bottom: 2rem;
+                left: 2.5rem;
+                font-family: var(--font-mono);
+                font-size: 0.55rem;
+                letter-spacing: 0.12em;
+                z-index: 200;
+                transition: color 0.45s;
+            }
+            .watermark.on-dark {
+                color: rgba(241, 242, 242, 0.1);
+            }
+            .watermark.on-light {
+                color: rgba(35, 31, 32, 0.08);
+            }
+            .watermark.on-accent {
+                color: rgba(255, 255, 255, 0.15);
+            }
+
+            /* ── TYPOGRAPHY ── */
+            .sec-label {
+                font-family: var(--font-mono);
+                font-size: 0.75rem;
+                letter-spacing: 0.06em;
+                margin-bottom: 1.2rem;
+                display: block;
+            }
+            .dark .sec-label {
+                color: rgba(241, 242, 242, 0.45);
+            }
+            .light .sec-label {
+                color: rgba(35, 31, 32, 0.3);
+            }
+            .accent .sec-label {
+                color: rgba(255, 255, 255, 0.4);
+            }
+
+            .slide h1 {
+                font-size: clamp(3.2rem, 5.5vw, 4.5rem);
+                font-weight: 400;
+                line-height: 1.05;
+                letter-spacing: -0.02em;
+                margin-bottom: 0.8rem;
+            }
+
+            .slide h2 {
+                font-size: clamp(2.2rem, 4vw, 3.2rem);
+                font-weight: 400;
+                line-height: 1.1;
+                letter-spacing: -0.015em;
+                margin-bottom: 0.6rem;
+            }
+
+            .slide .sub {
+                font-size: clamp(1rem, 1.4vw, 1.2rem);
+                font-weight: 400;
+                line-height: 1.65;
+                max-width: 580px;
+                margin-bottom: 1.5rem;
+            }
+            .dark .sub {
+                color: rgba(241, 242, 242, 0.7);
+            }
+            .light .sub {
+                color: rgba(35, 31, 32, 0.45);
+            }
+            .accent .sub {
+                color: rgba(255, 255, 255, 0.6);
+            }
+
+            .slide p {
+                font-size: 0.95rem;
+                font-weight: 400;
+                line-height: 1.6;
+                max-width: 620px;
+                margin-bottom: 0.5rem;
+            }
+            .dark p {
+                color: rgba(241, 242, 242, 0.75);
+            }
+            .light p {
+                color: rgba(35, 31, 32, 0.55);
+            }
+            .accent p {
+                color: rgba(255, 255, 255, 0.7);
+            }
+
+            .slide .accent-text {
+                color: var(--ha-blue);
+            }
+            .dark .accent-text {
+                color: var(--ha-blue);
+            }
+            .accent .accent-text {
+                color: var(--white);
+            }
+
+            /* ── ACCENT LINE ── */
+            .accent-line {
+                width: 40px;
+                height: 2px;
+                background: var(--ha-blue);
+                margin-bottom: 1.8rem;
+            }
+            .accent .accent-line {
+                background: var(--white);
+            }
+
+            /* ── METRICS ROW ── */
+            .metrics {
+                display: flex;
+                gap: 2.5rem;
+                margin: 1.5rem 0;
+            }
+            .metric-item {
+                text-align: left;
+            }
+            .metric-val {
+                font-family: var(--font-mono);
+                font-size: 2.2rem;
+                font-weight: 400;
+                line-height: 1;
+                display: block;
+                margin-bottom: 0.25rem;
+            }
+            .dark .metric-val {
+                color: var(--ha-blue);
+            }
+            .light .metric-val {
+                color: var(--ha-blue);
+            }
+            .accent .metric-val {
+                color: var(--white);
+            }
+            .metric-lbl {
+                font-family: var(--font-mono);
+                font-size: 0.7rem;
+                letter-spacing: 0.04em;
+                display: block;
+            }
+            .dark .metric-lbl {
+                color: rgba(241, 242, 242, 0.5);
+            }
+            .light .metric-lbl {
+                color: rgba(35, 31, 32, 0.3);
+            }
+            .accent .metric-lbl {
+                color: rgba(255, 255, 255, 0.4);
+            }
+
+            /* ── BAR CHART ── */
+            .bar-group {
+                margin: 1rem 0;
+                max-width: 600px;
+            }
+            .bar-row {
+                display: flex;
+                align-items: center;
+                gap: 0.8rem;
+                margin-bottom: 0.5rem;
+            }
+            .bar-label {
+                font-size: 0.85rem;
+                font-weight: 500;
+                min-width: 170px;
+                text-align: right;
+            }
+            .dark .bar-label {
+                color: rgba(241, 242, 242, 0.75);
+            }
+            .light .bar-label {
+                color: rgba(35, 31, 32, 0.55);
+            }
+            .bar-track {
+                flex: 1;
+                height: 18px;
+                position: relative;
+            }
+            .dark .bar-track {
+                background: rgba(241, 242, 242, 0.1);
+            }
+            .light .bar-track {
+                background: rgba(35, 31, 32, 0.04);
+            }
+            .bar-fill {
+                height: 100%;
+                background: var(--ha-blue);
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                padding-right: 0.5rem;
+                font-family: var(--font-mono);
+                font-size: 0.55rem;
+                color: var(--white);
+                min-width: 28px;
+            }
+            .bar-fill.muted {
+                background: rgba(35, 31, 32, 0.12);
+                color: rgba(35, 31, 32, 0.4);
+            }
+            .dark .bar-fill.muted {
+                background: rgba(241, 242, 242, 0.18);
+                color: rgba(241, 242, 242, 0.6);
+            }
+
+            /* ── CARDS GRID ── */
+            .card-grid {
+                display: grid;
+                gap: 0.6rem;
+                margin: 1rem 0;
+                max-width: 760px;
+            }
+            .card-grid.cols-2 {
+                grid-template-columns: 1fr 1fr;
+            }
+            .card-grid.cols-3 {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+            .card-grid.cols-4 {
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+            }
+            .card {
+                padding: 0.8rem 1rem;
+                border: 1px solid;
+                opacity: 0;
+                transform: translateY(8px);
+            }
+            .dark .card {
+                border-color: rgba(241, 242, 242, 0.18);
+            }
+            .light .card {
+                border-color: rgba(35, 31, 32, 0.08);
+            }
+            .accent .card {
+                border-color: rgba(255, 255, 255, 0.15);
+            }
+            .card .card-tag {
+                font-family: var(--font-mono);
+                font-size: 0.55rem;
+                letter-spacing: 0.04em;
+                margin-bottom: 0.3rem;
+                display: block;
+            }
+            .dark .card .card-tag {
+                color: var(--ha-blue);
+            }
+            .light .card .card-tag {
+                color: var(--ha-blue);
+            }
+            .accent .card .card-tag {
+                color: rgba(255, 255, 255, 0.5);
+            }
+            .card h4 {
+                font-size: 0.92rem;
+                font-weight: 500;
+                margin-bottom: 0.15rem;
+                line-height: 1.3;
+            }
+            .card p {
+                font-size: 0.8rem;
+                line-height: 1.5;
+                margin-bottom: 0;
+                max-width: none;
+            }
+
+            /* ── CALLOUT ── */
+            .callout {
+                border-left: 2px solid var(--ha-blue);
+                padding: 0.6rem 1rem;
+                margin: 1rem 0;
+                max-width: 580px;
+            }
+            .accent .callout {
+                border-left-color: var(--white);
+            }
+            .callout p {
+                font-size: 0.88rem;
+                margin-bottom: 0;
+            }
+
+            /* ── COLS ── */
+            .cols-layout {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 3rem;
+                align-items: start;
+                max-width: 800px;
+            }
+
+            /* ── GHOST NUMBER ── */
+            .ghost {
+                position: absolute;
+                font-family: var(--font-mono);
+                font-size: 18rem;
+                font-weight: 400;
+                line-height: 1;
+                right: 6vw;
+                bottom: -2rem;
+                pointer-events: none;
+            }
+            .dark .ghost {
+                color: rgba(241, 242, 242, 0.03);
+            }
+            .light .ghost {
+                color: rgba(35, 31, 32, 0.03);
+            }
+            .accent .ghost {
+                color: rgba(255, 255, 255, 0.06);
+            }
+
+            /* ── META ROW ── */
+            .meta-row {
+                display: flex;
+                gap: 2rem;
+                font-size: 0.7rem;
+                margin-top: 2.5rem;
+            }
+            .dark .meta-row {
+                color: rgba(241, 242, 242, 0.45);
+            }
+            .dark .meta-row span {
+                color: rgba(241, 242, 242, 0.6);
+            }
+
+            /* ── SVG CONTAINERS ── */
+            .svg-fractal {
+                max-width: 740px;
+                max-height: 42vh;
+                margin: 0.8rem 0;
+            }
+            .svg-graph {
+                max-width: 680px;
+                max-height: 44vh;
+                margin: 0.8rem 0;
+            }
+
+            /* ── FLOW STEPS ── */
+            .flow-steps {
+                display: flex;
+                gap: 1.5rem;
+                align-items: flex-start;
+                margin: 1rem 0;
+                max-width: 760px;
+            }
+            .flow-step {
+                flex: 1;
+                padding: 0.6rem 0.8rem;
+                border: 1px solid;
+                position: relative;
+            }
+            .light .flow-step {
+                border-color: rgba(35, 31, 32, 0.08);
+            }
+            .dark .flow-step {
+                border-color: rgba(241, 242, 242, 0.18);
+            }
+            .flow-step .step-num {
+                font-family: var(--font-mono);
+                font-size: 0.55rem;
+                display: block;
+                margin-bottom: 0.2rem;
+            }
+            .light .flow-step .step-num {
+                color: var(--ha-blue);
+            }
+            .dark .flow-step .step-num {
+                color: var(--ha-blue);
+            }
+            .flow-step h4 {
+                font-size: 0.78rem;
+                font-weight: 500;
+                margin-bottom: 0.15rem;
+                line-height: 1.3;
+            }
+            .flow-step p {
+                font-size: 0.65rem;
+                line-height: 1.4;
+                max-width: none;
+                margin-bottom: 0;
+            }
+            .flow-arrow {
+                position: absolute;
+                right: -0.9rem;
+                top: 50%;
+                transform: translateY(-50%);
+                font-size: 0.8rem;
+            }
+            .light .flow-arrow {
+                color: rgba(35, 31, 32, 0.15);
+            }
+            .dark .flow-arrow {
+                color: rgba(241, 242, 242, 0.35);
+            }
+
+            /* ── ANIMATIONS ── */
+            .slide .anim {
+                opacity: 0;
+                transform: translateY(12px);
+                transition: none;
+            }
+            .slide.active .anim {
+                animation: fadeUp 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+                    forwards;
+            }
+            .slide.active .anim.d1 {
+                animation-delay: 0.1s;
+            }
+            .slide.active .anim.d2 {
+                animation-delay: 0.25s;
+            }
+            .slide.active .anim.d3 {
+                animation-delay: 0.4s;
+            }
+            .slide.active .anim.d4 {
+                animation-delay: 0.55s;
+            }
+            .slide.active .anim.d5 {
+                animation-delay: 0.7s;
+            }
+            .slide.active .anim.d6 {
+                animation-delay: 0.85s;
+            }
+            .slide.active .anim.d7 {
+                animation-delay: 1s;
+            }
+            @keyframes fadeUp {
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+
+            .slide .card,
+            .slide .flow-step {
+                opacity: 0;
+                transform: translateY(8px);
+            }
+            .slide.active .card,
+            .slide.active .flow-step {
+                animation: fadeUp 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+                    forwards;
+            }
+            .slide.active .card:nth-child(1),
+            .slide.active .flow-step:nth-child(1) {
+                animation-delay: 0.15s;
+            }
+            .slide.active .card:nth-child(2),
+            .slide.active .flow-step:nth-child(2) {
+                animation-delay: 0.25s;
+            }
+            .slide.active .card:nth-child(3),
+            .slide.active .flow-step:nth-child(3) {
+                animation-delay: 0.35s;
+            }
+            .slide.active .card:nth-child(4),
+            .slide.active .flow-step:nth-child(4) {
+                animation-delay: 0.45s;
+            }
+            .slide.active .card:nth-child(5),
+            .slide.active .flow-step:nth-child(5) {
+                animation-delay: 0.55s;
+            }
+            .slide.active .card:nth-child(6),
+            .slide.active .flow-step:nth-child(6) {
+                animation-delay: 0.65s;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="progress" id="progress"></div>
+        <div class="watermark on-dark" id="watermark">
+            Horizons Architecture
+        </div>
+        <div class="slide-counter on-dark" id="counter">1 / 22</div>
+
+        <div class="deck">
+            <!-- ═══════════════════════════════════════ -->
+            <!-- S01 · COVER · dark -->
+            <!-- ═══════════════════════════════════════ -->
+            <div class="slide dark active" data-theme="dark">
+                <div class="accent-line anim d1"></div>
+                <h1 class="anim d2">Tec Beyond</h1>
+                <p class="sub anim d3">
+                    Les preguntamos qu&eacute; necesitan.<br />Hoy queremos
+                    compartir la visión de cómo lograrlo &mdash; con ustedes.
+                </p>
+                <div class="metrics anim d4">
+                    <div class="metric-item">
+                        <span class="metric-val">141</span
+                        ><span class="metric-lbl">encuestas respondidas</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-val">9</span
+                        ><span class="metric-lbl">generaciones</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-val">~350</span
+                        ><span class="metric-lbl"
+                            >personas en la comunidad</span
+                        >
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-val">10</span
+                        ><span class="metric-lbl">a&ntilde;os de historia</span>
+                    </div>
+                </div>
+                <div class="meta-row anim d5">
+                    <span>Representantes de generaci&oacute;n</span>
+                    <span>Febrero 2026</span>
+                    <span>Mario Orozco &mdash; Presidente ESBAC</span>
+                    <span>Edgar Barroso &mdash; Horizons Architecture</span>
+                </div>
+            </div>
+
+            <!-- ═══════════════════════════════════════ -->
+            <!-- S02 · LES ESCUCHAMOS · light -->
+            <!-- ═══════════════════════════════════════ -->
+            <div class="slide light" data-theme="light">
+                <span class="sec-label anim d1">01 &mdash; Sus voces</span>
+                <h2 class="anim d2">Les escuchamos</h2>
+                <p class="sub anim d3">
+                    141 personas respondieron la encuesta. Esto es lo que nos
+                    contaron &mdash; y lo que revela de ustedes como comunidad.
+                </p>
+                <div class="metrics anim d4">
+                    <div class="metric-item">
+                        <span class="metric-val">60+</span
+                        ><span class="metric-lbl">industrias</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-val">60%</span
+                        ><span class="metric-lbl">exatec</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-val">25&ndash;70+</span
+                        ><span class="metric-lbl">rango de edad</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-val">5</span
+                        ><span class="metric-lbl">continentes</span>
+                    </div>
+                </div>
+                <div class="callout anim d5">
+                    <p>
+                        No son un grupo homog&eacute;neo. Son un ecosistema de
+                        quienes dirigen, emprenden, asesoran &mdash; desde
+                        empresas de 3 personas hasta corporativos de m&aacute;s
+                        de 1,000. Esa diversidad es su mayor activo.
+                    </p>
+                </div>
+                <span class="ghost">01</span>
+            </div>
+
+            <!-- ═══════════════════════════════════════ -->
+            <!-- S03 · PRIORIDAD IA · dark -->
+            <!-- ═══════════════════════════════════════ -->
+            <div class="slide dark" data-theme="dark">
+                <span class="sec-label anim d1"
+                    >02 &mdash; Qu&eacute; les importa</span
+                >
+                <h2 class="anim d2">Su prioridad es inteligencia artificial</h2>
+                <p class="sub anim d3">
+                    Ordenaron 8 temas por importancia. La respuesta fue
+                    contundente.
+                </p>
+                <div class="bar-group anim d4">
+                    <div class="bar-row">
+                        <span class="bar-label">Inteligencia Artificial</span>
+                        <div class="bar-track">
+                            <div class="bar-fill" style="width: 67%">67%</div>
+                        </div>
+                    </div>
+                    <div class="bar-row">
+                        <span class="bar-label">Liderazgo</span>
+                        <div class="bar-track">
+                            <div class="bar-fill muted" style="width: 46%">
+                                46%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bar-row">
+                        <span class="bar-label">Gobierno Corporativo</span>
+                        <div class="bar-track">
+                            <div class="bar-fill muted" style="width: 43%">
+                                43%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bar-row">
+                        <span class="bar-label">Innovaci&oacute;n</span>
+                        <div class="bar-track">
+                            <div class="bar-fill muted" style="width: 40%">
+                                40%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bar-row">
+                        <span class="bar-label">Empresa Familiar</span>
+                        <div class="bar-track">
+                            <div class="bar-fill muted" style="width: 39%">
+                                39%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bar-row">
+                        <span class="bar-label">Tendencias del Mercado</span>
+                        <div class="bar-track">
+                            <div class="bar-fill muted" style="width: 32%">
+                                32%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bar-row">
+                        <span class="bar-label">Finanzas</span>
+                        <div class="bar-track">
+                            <div class="bar-fill muted" style="width: 26%">
+                                26%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bar-row">
+                        <span class="bar-label">Derecho Corporativo</span>
+                        <div class="bar-track">
+                            <div class="bar-fill muted" style="width: 6%">
+                                6%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p
+                    class="anim d5"
+                    style="font-size: 0.7rem; font-family: var(--font-mono)"
+                >
+                    Porcentaje que lo coloc&oacute; en su top 3.
+                </p>
+                <span class="ghost">02</span>
+            </div>
+
+            <!-- ═══════════════════════════════════════ -->
+            <!-- S04 · PUENTE 1 · accent -->
+            <!-- ═══════════════════════════════════════ -->
+            <div class="slide accent" data-theme="accent">
+                <h2
+                    class="anim d2"
+                    style="
+                        font-size: clamp(2.2rem, 4.5vw, 3.4rem);
+                        max-width: 600px;
+                    "
+                >
+                    No quieren IA por la IA.<br />Quieren IA para gobernar mejor
+                    sus empresas y sus familias.
+                </h2>
+                <span class="ghost">03</span>
+            </div>
+
+            <!-- ═══════════════════════════════════════ -->
+            <!-- S05 · PARA QUÉ · light -->
+            <!-- ═══════════════════════════════════════ -->
+            <div class="slide light" data-theme="light">
+                <span class="sec-label anim d1"
+                    >03 &mdash; Para qu&eacute;</span
+                >
+                <h2 class="anim d2">Lo que realmente buscan</h2>
+                <p class="sub anim d3">
+                    Cruzamos IA con su segundo y tercer tema. El patr&oacute;n
+                    es claro.
+                </p>
+                <div class="card-grid cols-2 anim d4">
+                    <div class="card">
+                        <span class="card-tag"
+                            >Combinaci&oacute;n #1 &mdash; 29%</span
+                        >
+                        <h4>IA + Gobierno Corporativo + Empresa Familiar</h4>
+                        <p>
+                            Herramientas inteligentes para profesionalizar la
+                            toma de decisiones y fortalecer la sucesi&oacute;n.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <span class="card-tag">Combinaci&oacute;n #2</span>
+                        <h4>IA + Innovaci&oacute;n + Liderazgo</h4>
+                        <p>
+                            Reinventar modelos de negocio. Liderar el cambio con
+                            inteligencia, no solo con intuici&oacute;n.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <span class="card-tag">El dato clave</span>
+                        <h4>Empresas medianas: las que m&aacute;s necesitan</h4>
+                        <p>
+                            56% de quienes dirigen empresas de 101&ndash;250
+                            personas puso IA como #1. Complejidad real, sin
+                            departamento de IA propio.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <span class="card-tag">La agenda invisible</span>
+                        <h4>Lo que tambi&eacute;n pidieron</h4>
+                        <p>
+                            Sostenibilidad, geopol&iacute;tica, capital humano,
+                            participaci&oacute;n ciudadana. Temas que
+                            ning&uacute;n programa formal cubre hoy.
+                        </p>
+                    </div>
+                </div>
+                <span class="ghost">03</span>
+            </div>
+
+            <!-- ═══════════════════════════════════════ -->
+            <!-- S06 · EL ECOSISTEMA · dark -->
+            <!-- ═══════════════════════════════════════ -->
+            <div class="slide dark" data-theme="dark">
+                <span class="sec-label anim d1">04 &mdash; El ecosistema</span>
+                <h2 class="anim d2">
+                    Una red que ya tiene todo para generar valor
+                </h2>
+                <div class="cols-layout anim d3">
+                    <div>
+                        <p class="sub" style="margin-bottom: 1rem">
+                            La mitad vende lo que la otra mitad compra.
+                        </p>
+                        <div class="metrics" style="gap: 2rem">
+                            <div class="metric-item">
+                                <span class="metric-val">52%</span
+                                ><span class="metric-lbl"
+                                    >vende a empresas (B2B)</span
+                                >
+                            </div>
+                            <div class="metric-item">
+                                <span class="metric-val">48%</span
+                                ><span class="metric-lbl"
+                                    >vende al p&uacute;blico (B2C)</span
+                                >
+                            </div>
+                        </div>
+                        <div class="callout" style="margin-top: 1rem">
+                            <p>
+                                73 operan en Norteam&eacute;rica, 19 en
+                                Centroam&eacute;rica, 17 en Europa. El alcance
+                                ya es internacional.
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <p
+                            style="
+                                font-size: 0.7rem;
+                                font-family: var(--font-mono);
+                                margin-bottom: 0.8rem;
+                                color: rgba(241, 242, 242, 0.3);
+                            "
+                        >
+                            Tama&ntilde;o de empresas
+                        </p>
+                        <div class="bar-group">
+                            <div class="bar-row">
+                                <span class="bar-label" style="min-width: 80px"
+                                    >1&ndash;10</span
+                                >
+                                <div class="bar-track">
+                                    <div
+                                        class="bar-fill muted"
+                                        style="width: 20%"
+                                    >
+                                        17
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bar-row">
+                                <span class="bar-label" style="min-width: 80px"
+                                    >11&ndash;50</span
+                                >
+                                <div class="bar-track">
+                                    <div
+                                        class="bar-fill muted"
+                                        style="width: 20%"
+                                    >
+                                        17
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bar-row">
+                                <span class="bar-label" style="min-width: 80px"
+                                    >51&ndash;100</span
+                                >
+                                <div class="bar-track">
+                                    <div
+                                        class="bar-fill muted"
+                                        style="width: 10%"
+                                    >
+                                        8
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bar-row">
+                                <span class="bar-label" style="min-width: 80px"
+                                    >101&ndash;250</span
+                                >
+                                <div class="bar-track">
+                                    <div class="bar-fill" style="width: 19%">
+                                        16
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bar-row">
+                                <span class="bar-label" style="min-width: 80px"
+                                    >251&ndash;500</span
+                                >
+                                <div class="bar-track">
+                                    <div
+                                        class="bar-fill muted"
+                                        style="width: 11%"
+                                    >
+                                        9
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bar-row">
+                                <span class="bar-label" style="min-width: 80px"
+                                    >501&ndash;1000</span
+                                >
+                                <div class="bar-track">
+                                    <div
+                                        class="bar-fill muted"
+                                        style="width: 7%"
+                                    >
+                                        6
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bar-row">
+                                <span class="bar-label" style="min-width: 80px"
+                                    >1000+</span
+                                >
+                                <div class="bar-track">
+                                    <div
+                                        class="bar-fill muted"
+                                        style="width: 13%"
+                                    >
+                                        11
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <span class="ghost">04</span>
+            </div>
+
+            <!-- ═══════════════════════════════════════ -->
+            <!-- S07 · EL PROBLEMA FELIZ · light -->
+            <!-- ═══════════════════════════════════════ -->
+            <div class="slide light" data-theme="light">
+                <span class="sec-label anim d1">05 &mdash; Lo que cambia</span>
+                <h2 class="anim d2">El problema feliz</h2>
+                <p class="sub anim d3">
+                    Tienen una red de 350 personas con experiencia, capital y
+                    contactos complementarios. Pero la mayor&iacute;a no sabe lo
+                    que las dem&aacute;s personas tienen &mdash; ni lo que
+                    necesitan.
+                </p>
+                <div class="metrics anim d4">
+                    <div class="metric-item">
+                        <span class="metric-val">44,850</span
+                        ><span class="metric-lbl"
+                            >conexiones posibles hoy (Le&oacute;n)</span
+                        >
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-val">4.5M</span
+                        ><span class="metric-lbl"
+                            >conexiones posibles a 3,000 personas</span
+                        >
+                    </div>
+                </div>
+                <div class="callout anim d5">
+                    <p>
+                        Hoy, cuando alguien termina el programa, las relaciones
+                        quedan en modo pasivo. Se encuentran de vez en cuando,
+                        pero la red no est&aacute; trabajando activamente para
+                        nadie. Hay un valor enorme sin activar.
+                    </p>
+                </div>
+                <span class="ghost">05</span>
+            </div>
+
+            <!-- ═══════════════════════════════════════ -->
+            <!-- S08 · PUENTE 2 · accent -->
+            <!-- ═══════════════════════════════════════ -->
+            <div class="slide accent" data-theme="accent">
+                <h2
+                    class="anim d2"
+                    style="font-size: clamp(2rem, 4vw, 3rem); max-width: 640px"
+                >
+                    La comunidad existe hace 10 a&ntilde;os.<br />Lo que cambia
+                    ahora es que va a tener inteligencia.
+                </h2>
+                <span class="ghost">06</span>
+            </div>
+
+            <!-- ═══════════════════════════════════════ -->
+            <!-- S09 · ANTES Y AHORA · light -->
+            <!-- ═══════════════════════════════════════ -->
+            <div class="slide light" data-theme="light">
+                <span class="sec-label anim d1">06 &mdash; El cambio</span>
+                <h2 class="anim d2">Antes y ahora</h2>
+                <div class="card-grid cols-2 anim d3" style="max-width: 720px">
+                    <div class="card">
+                        <span class="card-tag">Antes</span>
+                        <h4>Conexiones por casualidad</h4>
+                        <p>
+                            Te cruzas con alguien en un evento. La red existe
+                            pero no tiene memoria ni direcci&oacute;n.
+                        </p>
+                    </div>
+                    <div class="card" style="border-color: var(--ha-blue)">
+                        <span class="card-tag">Ahora con HA</span>
+                        <h4>Conexiones con inteligencia</h4>
+                        <p>
+                            El sistema sabe qu&eacute; necesitas y qui&eacute;n
+                            puede ayudarte &mdash; aunque no se hayan conocido
+                            a&uacute;n.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <span class="card-tag">Antes</span>
+                        <h4>Informaci&oacute;n dispersa</h4>
+                        <p>
+                            Perfiles en una hoja de c&aacute;lculo. Temas de
+                            inter&eacute;s que se pierden. Contexto que no se
+                            aprovecha.
+                        </p>
+                    </div>
+                    <div class="card" style="border-color: var(--ha-blue)">
+                        <span class="card-tag">Ahora con HA</span>
+                        <h4>Contexto que crece contigo</h4>
+                        <p>
+                            Cada persona alimenta su perfil y sus retos. El
+                            sistema aprende y mejora sus recomendaciones.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <span class="card-tag">Antes</span>
+                        <h4>Cada generaci&oacute;n por su cuenta</h4>
+                        <p>
+                            Al terminar el programa, la conexi&oacute;n se
+                            enfr&iacute;a. Cada generaci&oacute;n es una isla.
+                        </p>
+                    </div>
+                    <div class="card" style="border-color: var(--ha-blue)">
+                        <span class="card-tag">Ahora con HA</span>
+                        <h4>Una red viva entre generaciones</h4>
+                        <p>
+                            G1 conecta con G9. Quien ya pas&oacute; por un reto
+                            encuentra a quien lo enfrenta hoy.
+                        </p>
+                    </div>
+                </div>
+                <span class="ghost">06</span>
+            </div>
+
+            <!-- ═══════════════════════════════════════ -->
+            <!-- S10 · 4 AGENTES · dark -->
+            <!-- ═══════════════════════════════════════ -->
+            <div class="slide dark" data-theme="dark">
+                <span class="sec-label anim d1"
+                    >07 &mdash; La inteligencia</span
+                >
+                <h2 class="anim d2">
+                    Algunos ejemplos de agentes que trabajan para ustedes
+                </h2>
+                <p class="sub anim d3">
+                    No son chatbots. Son sistemas que analizan, cruzan y generan
+                    resultados accionables sobre toda la comunidad.
+                </p>
+                <div class="card-grid cols-4 anim d4" style="max-width: 860px">
+                    <div class="card">
+                        <span class="card-tag">Agente Match</span>
+                        <h4>Conexiones de negocio</h4>
+                        <p>
+                            Cruza industrias, capacidades y necesidades. Propone
+                            conexiones anonimizadas &mdash; solo se activan si
+                            ambas partes aceptan.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <span class="card-tag">Agente Contenidos</span>
+                        <h4>Capacitaci&oacute;n personalizada</h4>
+                        <p>
+                            Quien lleva 2 a&ntilde;os con empresa de alimentos
+                            recibe contenido diferente al de quien lleva 15 en
+                            manufactura.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <span class="card-tag">Agente Scout</span>
+                        <h4>Detecci&oacute;n de talento</h4>
+                        <p>
+                            Identifica capacidades, experiencia y fortalezas
+                            dentro de la comunidad. Encuentra qui&eacute;n tiene
+                            el talento que alguien m&aacute;s necesita.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <span class="card-tag">Agente Insights</span>
+                        <h4>Inteligencia para el Consejo</h4>
+                        <p>
+                            Reportes autom&aacute;ticos: tendencias, patrones
+                            entre generaciones, oportunidades que nadie
+                            hab&iacute;a visto.
+                        </p>
+                    </div>
+                </div>
+                <div class="callout anim d5" style="max-width: 640px">
+                    <p>
+                        De su encuesta: hay constructoras buscando IA para
+                        gobierno corporativo, y personas con consultor&iacute;a
+                        en exactamente eso. Hay quienes exportan a Europa y
+                        podr&iacute;an conectar con 17 personas que ya operan
+                        all&aacute;. Esas conexiones hoy dependen de la
+                        casualidad. Con HA, son sistem&aacute;ticas.
+                    </p>
+                </div>
+                <span class="ghost">07</span>
+            </div>
+
+            <!-- ═══════════════════════════════════════ -->
+            <!-- S11 · MATCHING ANONIMIZADO · light -->
+            <!-- ═══════════════════════════════════════ -->
+            <div class="slide light" data-theme="light">
+                <span class="sec-label anim d1"
+                    >08 &mdash; C&oacute;mo funciona</span
+                >
+                <h2 class="anim d2">
+                    El matching es anonimizado y con consentimiento
+                </h2>
+                <p class="sub anim d3">
+                    Nadie ve la informaci&oacute;n de nadie sin permiso mutuo.
+                </p>
+                <div class="flow-steps anim d4">
+                    <div class="flow-step">
+                        <span class="step-num">01</span>
+                        <h4>An&aacute;lisis</h4>
+                        <p>
+                            El sistema cruza perfiles, industrias, capacidades y
+                            necesidades de toda la red.
+                        </p>
+                        <span class="flow-arrow">&rarr;</span>
+                    </div>
+                    <div class="flow-step">
+                        <span class="step-num">02</span>
+                        <h4>Propuesta anonimizada</h4>
+                        <p>
+                            &ldquo;Hay una persona con perfil complementario al
+                            tuyo en el sector log&iacute;stico.&rdquo;
+                        </p>
+                        <span class="flow-arrow">&rarr;</span>
+                    </div>
+                    <div class="flow-step">
+                        <span class="step-num">03</span>
+                        <h4>Doble consentimiento</h4>
+                        <p>
+                            Solo si ambas partes aceptan, se hace la
+                            introducci&oacute;n. Si una declina, la otra nunca
+                            se entera.
+                        </p>
+                        <span class="flow-arrow">&rarr;</span>
+                    </div>
+                    <div class="flow-step">
+                        <span class="step-num">04</span>
+                        <h4>Conexi&oacute;n</h4>
+                        <p>
+                            Se facilita la introducci&oacute;n. El sistema
+                            aprende del resultado para afinar futuras
+                            sugerencias.
+                        </p>
+                    </div>
+                </div>
+                <div class="callout anim d5">
+                    <p>
+                        La privacidad no es un obst&aacute;culo &mdash; es lo
+                        que genera confianza para que la comunidad comparta
+                        informaci&oacute;n valiosa.
+                    </p>
+                </div>
+                <span class="ghost">08</span>
+            </div>
+
+            <!-- ═══════════════════════════════════════ -->
+            <!-- S12 · INSTANCIAS HA · dark -->
+            <!-- ═══════════════════════════════════════ -->
+            <div class="slide dark" data-theme="dark">
+                <span class="sec-label anim d1"
+                    >09 &mdash; La arquitectura</span
+                >
+                <h2 class="anim d2">Cada persona es una instancia completa</h2>
+                <p class="sub anim d3">
+                    El sistema no te reduce a un perfil. Organiza tu
+                    informaci&oacute;n en 6 dimensiones interconectadas.
+                </p>
+
+                <svg
+                    class="svg-graph anim d4"
+                    viewBox="0 0 800 480"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <!-- Connections between dimensions (outer ring) -->
+                    <line
+                        x1="400"
+                        y1="62"
+                        x2="598"
+                        y2="135"
+                        stroke="rgba(241,242,242,.22)"
+                        stroke-width="1"
+                    />
+                    <line
+                        x1="400"
+                        y1="62"
+                        x2="202"
+                        y2="135"
+                        stroke="rgba(241,242,242,.22)"
+                        stroke-width="1"
+                    />
+                    <line
+                        x1="598"
+                        y1="135"
+                        x2="598"
+                        y2="315"
+                        stroke="rgba(241,242,242,.22)"
+                        stroke-width="1"
+                    />
+                    <line
+                        x1="202"
+                        y1="135"
+                        x2="202"
+                        y2="315"
+                        stroke="rgba(241,242,242,.22)"
+                        stroke-width="1"
+                    />
+                    <line
+                        x1="598"
+                        y1="315"
+                        x2="400"
+                        y2="388"
+                        stroke="rgba(241,242,242,.22)"
+                        stroke-width="1"
+                    />
+                    <line
+                        x1="202"
+                        y1="315"
+                        x2="400"
+                        y2="388"
+                        stroke="rgba(241,242,242,.22)"
+                        stroke-width="1"
+                    />
+                    <!-- Cross connections -->
+                    <line
+                        x1="400"
+                        y1="62"
+                        x2="598"
+                        y2="315"
+                        stroke="rgba(241,242,242,.1)"
+                        stroke-width="1"
+                    />
+                    <line
+                        x1="400"
+                        y1="62"
+                        x2="202"
+                        y2="315"
+                        stroke="rgba(241,242,242,.1)"
+                        stroke-width="1"
+                    />
+                    <line
+                        x1="202"
+                        y1="135"
+                        x2="598"
+                        y2="315"
+                        stroke="rgba(241,242,242,.1)"
+                        stroke-width="1"
+                    />
+                    <line
+                        x1="598"
+                        y1="135"
+                        x2="202"
+                        y2="315"
+                        stroke="rgba(241,242,242,.1)"
+                        stroke-width="1"
+                    />
+                    <line
+                        x1="202"
+                        y1="135"
+                        x2="400"
+                        y2="388"
+                        stroke="rgba(241,242,242,.1)"
+                        stroke-width="1"
+                    />
+                    <line
+                        x1="598"
+                        y1="135"
+                        x2="400"
+                        y2="388"
+                        stroke="rgba(241,242,242,.1)"
+                        stroke-width="1"
+                    />
+
+                    <!-- Connections from center to all dimensions -->
+                    <line
+                        x1="400"
+                        y1="225"
+                        x2="400"
+                        y2="100"
+                        stroke="var(--ha-blue)"
+                        stroke-width="1.5"
+                        opacity=".7"
+                    />
+                    <line
+                        x1="400"
+                        y1="225"
+                        x2="560"
+                        y2="152"
+                        stroke="var(--ha-blue)"
+                        stroke-width="1.5"
+                        opacity=".7"
+                    />
+                    <line
+                        x1="400"
+                        y1="225"
+                        x2="560"
+                        y2="298"
+                        stroke="var(--ha-blue)"
+                        stroke-width="1.5"
+                        opacity=".7"
+                    />
+                    <line
+                        x1="400"
+                        y1="225"
+                        x2="400"
+                        y2="350"
+                        stroke="var(--ha-blue)"
+                        stroke-width="1.5"
+                        opacity=".7"
+                    />
+                    <line
+                        x1="400"
+                        y1="225"
+                        x2="240"
+                        y2="298"
+                        stroke="var(--ha-blue)"
+                        stroke-width="1.5"
+                        opacity=".7"
+                    />
+                    <line
+                        x1="400"
+                        y1="225"
+                        x2="240"
+                        y2="152"
+                        stroke="var(--ha-blue)"
+                        stroke-width="1.5"
+                        opacity=".7"
+                    />
+
+                    <!-- Center node: Person -->
+                    <circle
+                        cx="400"
+                        cy="225"
+                        r="46"
+                        fill="var(--ha-blue)"
+                        stroke="var(--ha-blue)"
+                        stroke-width="2"
+                    />
+                    <text
+                        x="400"
+                        y="220"
+                        text-anchor="middle"
+                        fill="var(--white)"
+                        font-family="var(--font-primary)"
+                        font-size="20"
+                        font-weight="500"
+                    >
+                        T&uacute;
+                    </text>
+                    <text
+                        x="400"
+                        y="240"
+                        text-anchor="middle"
+                        fill="rgba(255,255,255,.7)"
+                        font-family="var(--font-mono)"
+                        font-size="10"
+                    >
+                        instancia
+                    </text>
+
+                    <!-- Legado (top) -->
+                    <circle
+                        cx="400"
+                        cy="62"
+                        r="38"
+                        fill="var(--offwhite)"
+                        stroke="var(--offwhite)"
+                        stroke-width="1.5"
+                    />
+                    <text
+                        x="400"
+                        y="59"
+                        text-anchor="middle"
+                        fill="var(--offset-black)"
+                        font-family="var(--font-primary)"
+                        font-size="14"
+                        font-weight="500"
+                    >
+                        Legado
+                    </text>
+                    <text
+                        x="400"
+                        y="74"
+                        text-anchor="middle"
+                        fill="rgba(35,31,32,.5)"
+                        font-family="var(--font-mono)"
+                        font-size="9"
+                    >
+                        historia
+                    </text>
+                    <text
+                        x="400"
+                        y="18"
+                        text-anchor="middle"
+                        fill="rgba(241,242,242,.65)"
+                        font-family="var(--font-primary)"
+                        font-size="10"
+                    >
+                        Familia empresarial, ra&iacute;ces, prop&oacute;sito
+                    </text>
+
+                    <!-- Comunidad (top-right) -->
+                    <circle
+                        cx="598"
+                        cy="135"
+                        r="38"
+                        fill="var(--offwhite)"
+                        stroke="var(--offwhite)"
+                        stroke-width="1.5"
+                    />
+                    <text
+                        x="598"
+                        y="132"
+                        text-anchor="middle"
+                        fill="var(--offset-black)"
+                        font-family="var(--font-primary)"
+                        font-size="13"
+                        font-weight="500"
+                    >
+                        Comunidad
+                    </text>
+                    <text
+                        x="598"
+                        y="147"
+                        text-anchor="middle"
+                        fill="rgba(35,31,32,.5)"
+                        font-family="var(--font-mono)"
+                        font-size="9"
+                    >
+                        redes
+                    </text>
+                    <text
+                        x="700"
+                        y="130"
+                        text-anchor="start"
+                        fill="rgba(241,242,242,.65)"
+                        font-family="var(--font-primary)"
+                        font-size="10"
+                    >
+                        Consejos, alianzas,
+                    </text>
+                    <text
+                        x="700"
+                        y="143"
+                        text-anchor="start"
+                        fill="rgba(241,242,242,.65)"
+                        font-family="var(--font-primary)"
+                        font-size="10"
+                    >
+                        organizaciones
+                    </text>
+
+                    <!-- Tecnolog&iacute;a (bottom-right) -->
+                    <circle
+                        cx="598"
+                        cy="315"
+                        r="38"
+                        fill="var(--offwhite)"
+                        stroke="var(--offwhite)"
+                        stroke-width="1.5"
+                    />
+                    <text
+                        x="598"
+                        y="311"
+                        text-anchor="middle"
+                        fill="var(--offset-black)"
+                        font-family="var(--font-primary)"
+                        font-size="13"
+                        font-weight="500"
+                    >
+                        Tecnolog&iacute;a
+                    </text>
+                    <text
+                        x="598"
+                        y="326"
+                        text-anchor="middle"
+                        fill="rgba(35,31,32,.5)"
+                        font-family="var(--font-mono)"
+                        font-size="9"
+                    >
+                        agentes IA
+                    </text>
+                    <text
+                        x="700"
+                        y="310"
+                        text-anchor="start"
+                        fill="rgba(241,242,242,.65)"
+                        font-family="var(--font-primary)"
+                        font-size="10"
+                    >
+                        Matching, contenidos,
+                    </text>
+                    <text
+                        x="700"
+                        y="323"
+                        text-anchor="start"
+                        fill="rgba(241,242,242,.65)"
+                        font-family="var(--font-primary)"
+                        font-size="10"
+                    >
+                        herramientas
+                    </text>
+
+                    <!-- Proyectos (bottom) -->
+                    <circle
+                        cx="400"
+                        cy="388"
+                        r="38"
+                        fill="var(--offwhite)"
+                        stroke="var(--offwhite)"
+                        stroke-width="1.5"
+                    />
+                    <text
+                        x="400"
+                        y="385"
+                        text-anchor="middle"
+                        fill="var(--offset-black)"
+                        font-family="var(--font-primary)"
+                        font-size="14"
+                        font-weight="500"
+                    >
+                        Proyectos
+                    </text>
+                    <text
+                        x="400"
+                        y="400"
+                        text-anchor="middle"
+                        fill="rgba(35,31,32,.5)"
+                        font-family="var(--font-mono)"
+                        font-size="9"
+                    >
+                        acciones
+                    </text>
+                    <text
+                        x="400"
+                        y="436"
+                        text-anchor="middle"
+                        fill="rgba(241,242,242,.65)"
+                        font-family="var(--font-primary)"
+                        font-size="10"
+                    >
+                        Retos actuales, oportunidades, metas
+                    </text>
+
+                    <!-- Contexto (bottom-left) -->
+                    <circle
+                        cx="202"
+                        cy="315"
+                        r="38"
+                        fill="var(--offwhite)"
+                        stroke="var(--offwhite)"
+                        stroke-width="1.5"
+                    />
+                    <text
+                        x="202"
+                        y="312"
+                        text-anchor="middle"
+                        fill="var(--offset-black)"
+                        font-family="var(--font-primary)"
+                        font-size="14"
+                        font-weight="500"
+                    >
+                        Contexto
+                    </text>
+                    <text
+                        x="202"
+                        y="327"
+                        text-anchor="middle"
+                        fill="rgba(35,31,32,.5)"
+                        font-family="var(--font-mono)"
+                        font-size="9"
+                    >
+                        entorno
+                    </text>
+                    <text
+                        x="100"
+                        y="310"
+                        text-anchor="end"
+                        fill="rgba(241,242,242,.65)"
+                        font-family="var(--font-primary)"
+                        font-size="10"
+                    >
+                        Industria, regi&oacute;n,
+                    </text>
+                    <text
+                        x="100"
+                        y="323"
+                        text-anchor="end"
+                        fill="rgba(241,242,242,.65)"
+                        font-family="var(--font-primary)"
+                        font-size="10"
+                    >
+                        mercados
+                    </text>
+
+                    <!-- Aprendizaje (top-left) -->
+                    <circle
+                        cx="202"
+                        cy="135"
+                        r="38"
+                        fill="var(--offwhite)"
+                        stroke="var(--offwhite)"
+                        stroke-width="1.5"
+                    />
+                    <text
+                        x="202"
+                        y="131"
+                        text-anchor="middle"
+                        fill="var(--offset-black)"
+                        font-family="var(--font-primary)"
+                        font-size="13"
+                        font-weight="500"
+                    >
+                        Aprendizaje
+                    </text>
+                    <text
+                        x="202"
+                        y="146"
+                        text-anchor="middle"
+                        fill="rgba(35,31,32,.5)"
+                        font-family="var(--font-mono)"
+                        font-size="9"
+                    >
+                        saber
+                    </text>
+                    <text
+                        x="100"
+                        y="130"
+                        text-anchor="end"
+                        fill="rgba(241,242,242,.65)"
+                        font-family="var(--font-primary)"
+                        font-size="10"
+                    >
+                        IA, liderazgo, gobierno
+                    </text>
+                    <text
+                        x="100"
+                        y="143"
+                        text-anchor="end"
+                        fill="rgba(241,242,242,.65)"
+                        font-family="var(--font-primary)"
+                        font-size="10"
+                    >
+                        &mdash; lo que nos dijeron
+                    </text>
+                </svg>
+                <span class="ghost">09</span>
+            </div>
+
+            <!-- ═══════════════════════════════════════ -->
+            <!-- S12b · INTELIGENCIA COLECTIVA · accent -->
+            <!-- ═══════════════════════════════════════ -->
+            <div class="slide accent" data-theme="accent">
+                <h1
+                    class="anim d1"
+                    style="
+                        font-size: clamp(2.4rem, 5vw, 4.2rem);
+                        line-height: 1.1;
+                        max-width: 700px;
+                    "
+                >
+                    Nadie sabe todo, pero todos saben algo.
+                </h1>
+                <p
+                    class="sub anim d2"
+                    style="
+                        margin-top: 1.2rem;
+                        opacity: 0.85;
+                        font-size: clamp(1rem, 1.8vw, 1.4rem);
+                    "
+                >
+                    Inteligencia colectiva
+                </p>
+            </div>
+
+            <!-- ═══════════════════════════════════════ -->
+            <!-- S13 · FRACTALES · dark -->
+            <!-- ═══════════════════════════════════════ -->
+            <div class="slide dark" data-theme="dark">
+                <span class="sec-label anim d1">10 &mdash; El fractal</span>
+                <h2 class="anim d2">La misma arquitectura a cada escala</h2>
+                <p class="sub anim d3">
+                    Cada persona es una instancia. Cada generaci&oacute;n es
+                    otra. Cada sede, otra. Lo que aprende una, lo heredan las
+                    dem&aacute;s.
+                </p>
+
+                <svg
+                    class="svg-fractal anim d4"
+                    viewBox="0 0 880 320"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <!-- Connectors between levels -->
+                    <line
+                        x1="148"
+                        y1="150"
+                        x2="192"
+                        y2="150"
+                        stroke="rgba(241,242,242,.35)"
+                        stroke-width="1.5"
+                    />
+                    <line
+                        x1="368"
+                        y1="150"
+                        x2="412"
+                        y2="150"
+                        stroke="rgba(241,242,242,.35)"
+                        stroke-width="1.5"
+                    />
+                    <line
+                        x1="588"
+                        y1="150"
+                        x2="632"
+                        y2="150"
+                        stroke="rgba(241,242,242,.35)"
+                        stroke-width="1.5"
+                    />
+                    <!-- Arrows -->
+                    <polygon
+                        points="188,146 198,150 188,154"
+                        fill="rgba(241,242,242,.4)"
+                    />
+                    <polygon
+                        points="408,146 418,150 408,154"
+                        fill="rgba(241,242,242,.4)"
+                    />
+                    <polygon
+                        points="628,146 638,150 628,154"
+                        fill="rgba(241,242,242,.4)"
+                    />
+
+                    <!-- L1: Person — blue center with 6 dimension dots -->
+                    <circle
+                        cx="100"
+                        cy="150"
+                        r="36"
+                        fill="var(--ha-blue)"
+                        stroke="var(--ha-blue)"
+                        stroke-width="1.5"
+                    />
+                    <!-- 6 dimension dots (hexagonal) -->
+                    <circle
+                        cx="100"
+                        cy="120"
+                        r="4"
+                        fill="var(--offwhite)"
+                        opacity=".9"
+                    />
+                    <circle
+                        cx="124"
+                        cy="135"
+                        r="4"
+                        fill="var(--offwhite)"
+                        opacity=".9"
+                    />
+                    <circle
+                        cx="124"
+                        cy="165"
+                        r="4"
+                        fill="var(--offwhite)"
+                        opacity=".9"
+                    />
+                    <circle
+                        cx="100"
+                        cy="180"
+                        r="4"
+                        fill="var(--offwhite)"
+                        opacity=".9"
+                    />
+                    <circle
+                        cx="76"
+                        cy="165"
+                        r="4"
+                        fill="var(--offwhite)"
+                        opacity=".9"
+                    />
+                    <circle
+                        cx="76"
+                        cy="135"
+                        r="4"
+                        fill="var(--offwhite)"
+                        opacity=".9"
+                    />
+                    <text
+                        x="100"
+                        y="148"
+                        text-anchor="middle"
+                        fill="var(--white)"
+                        font-family="var(--font-primary)"
+                        font-size="15"
+                        font-weight="500"
+                    >
+                        T&uacute;
+                    </text>
+                    <text
+                        x="100"
+                        y="161"
+                        text-anchor="middle"
+                        fill="rgba(255,255,255,.65)"
+                        font-family="var(--font-mono)"
+                        font-size="8"
+                    >
+                        6 dimensiones
+                    </text>
+                    <text
+                        x="100"
+                        y="96"
+                        text-anchor="middle"
+                        fill="var(--ha-blue)"
+                        font-family="var(--font-mono)"
+                        font-size="9"
+                    >
+                        instancia 1
+                    </text>
+
+                    <!-- L2: Generation — 5 persons, each with 6 dots -->
+                    <circle
+                        cx="280"
+                        cy="150"
+                        r="58"
+                        fill="none"
+                        stroke="rgba(241,242,242,.35)"
+                        stroke-width="1.5"
+                    />
+                    <!-- Person 1 (top-left) -->
+                    <circle
+                        cx="258"
+                        cy="128"
+                        r="10"
+                        fill="var(--ha-blue)"
+                        opacity=".65"
+                    />
+                    <circle
+                        cx="258"
+                        cy="120"
+                        r="2.5"
+                        fill="var(--offwhite)"
+                        opacity=".7"
+                    />
+                    <circle
+                        cx="266"
+                        cy="124"
+                        r="2.5"
+                        fill="var(--offwhite)"
+                        opacity=".7"
+                    />
+                    <circle
+                        cx="266"
+                        cy="132"
+                        r="2.5"
+                        fill="var(--offwhite)"
+                        opacity=".7"
+                    />
+                    <circle
+                        cx="258"
+                        cy="136"
+                        r="2.5"
+                        fill="var(--offwhite)"
+                        opacity=".7"
+                    />
+                    <circle
+                        cx="250"
+                        cy="132"
+                        r="2.5"
+                        fill="var(--offwhite)"
+                        opacity=".7"
+                    />
+                    <circle
+                        cx="250"
+                        cy="124"
+                        r="2.5"
+                        fill="var(--offwhite)"
+                        opacity=".7"
+                    />
+                    <!-- Person 2 (top-right) -->
+                    <circle
+                        cx="295"
+                        cy="122"
+                        r="10"
+                        fill="var(--ha-blue)"
+                        opacity=".65"
+                    />
+                    <circle
+                        cx="295"
+                        cy="114"
+                        r="2.5"
+                        fill="var(--offwhite)"
+                        opacity=".7"
+                    />
+                    <circle
+                        cx="303"
+                        cy="118"
+                        r="2.5"
+                        fill="var(--offwhite)"
+                        opacity=".7"
+                    />
+                    <circle
+                        cx="303"
+                        cy="126"
+                        r="2.5"
+                        fill="var(--offwhite)"
+                        opacity=".7"
+                    />
+                    <circle
+                        cx="295"
+                        cy="130"
+                        r="2.5"
+                        fill="var(--offwhite)"
+                        opacity=".7"
+                    />
+                    <circle
+                        cx="287"
+                        cy="126"
+                        r="2.5"
+                        fill="var(--offwhite)"
+                        opacity=".7"
+                    />
+                    <circle
+                        cx="287"
+                        cy="118"
+                        r="2.5"
+                        fill="var(--offwhite)"
+                        opacity=".7"
+                    />
+                    <!-- Person 3 (right) -->
+                    <circle
+                        cx="310"
+                        cy="150"
+                        r="10"
+                        fill="var(--ha-blue)"
+                        opacity=".65"
+                    />
+                    <circle
+                        cx="310"
+                        cy="142"
+                        r="2.5"
+                        fill="var(--offwhite)"
+                        opacity=".7"
+                    />
+                    <circle
+                        cx="318"
+                        cy="146"
+                        r="2.5"
+                        fill="var(--offwhite)"
+                        opacity=".7"
+                    />
+                    <circle
+                        cx="318"
+                        cy="154"
+                        r="2.5"
+                        fill="var(--offwhite)"
+                        opacity=".7"
+                    />
+                    <circle
+                        cx="310"
+                        cy="158"
+                        r="2.5"
+                        fill="var(--offwhite)"
+                        opacity=".7"
+                    />
+                    <circle
+                        cx="302"
+                        cy="154"
+                        r="2.5"
+                        fill="var(--offwhite)"
+                        opacity=".7"
+                    />
+                    <circle
+                        cx="302"
+                        cy="146"
+                        r="2.5"
+                        fill="var(--offwhite)"
+                        opacity=".7"
+                    />
+                    <!-- Person 4 (bottom-left) -->
+                    <circle
+                        cx="262"
+                        cy="170"
+                        r="10"
+                        fill="var(--ha-blue)"
+                        opacity=".65"
+                    />
+                    <circle
+                        cx="262"
+                        cy="162"
+                        r="2.5"
+                        fill="var(--offwhite)"
+                        opacity=".7"
+                    />
+                    <circle
+                        cx="270"
+                        cy="166"
+                        r="2.5"
+                        fill="var(--offwhite)"
+                        opacity=".7"
+                    />
+                    <circle
+                        cx="270"
+                        cy="174"
+                        r="2.5"
+                        fill="var(--offwhite)"
+                        opacity=".7"
+                    />
+                    <circle
+                        cx="262"
+                        cy="178"
+                        r="2.5"
+                        fill="var(--offwhite)"
+                        opacity=".7"
+                    />
+                    <circle
+                        cx="254"
+                        cy="174"
+                        r="2.5"
+                        fill="var(--offwhite)"
+                        opacity=".7"
+                    />
+                    <circle
+                        cx="254"
+                        cy="166"
+                        r="2.5"
+                        fill="var(--offwhite)"
+                        opacity=".7"
+                    />
+                    <!-- Person 5 (bottom-right) -->
+                    <circle
+                        cx="298"
+                        cy="173"
+                        r="10"
+                        fill="var(--ha-blue)"
+                        opacity=".65"
+                    />
+                    <circle
+                        cx="298"
+                        cy="165"
+                        r="2.5"
+                        fill="var(--offwhite)"
+                        opacity=".7"
+                    />
+                    <circle
+                        cx="306"
+                        cy="169"
+                        r="2.5"
+                        fill="var(--offwhite)"
+                        opacity=".7"
+                    />
+                    <circle
+                        cx="306"
+                        cy="177"
+                        r="2.5"
+                        fill="var(--offwhite)"
+                        opacity=".7"
+                    />
+                    <circle
+                        cx="298"
+                        cy="181"
+                        r="2.5"
+                        fill="var(--offwhite)"
+                        opacity=".7"
+                    />
+                    <circle
+                        cx="290"
+                        cy="177"
+                        r="2.5"
+                        fill="var(--offwhite)"
+                        opacity=".7"
+                    />
+                    <circle
+                        cx="290"
+                        cy="169"
+                        r="2.5"
+                        fill="var(--offwhite)"
+                        opacity=".7"
+                    />
+                    <!-- Connections between persons -->
+                    <line
+                        x1="266"
+                        y1="130"
+                        x2="287"
+                        y2="126"
+                        stroke="rgba(241,242,242,.2)"
+                        stroke-width=".7"
+                    />
+                    <line
+                        x1="303"
+                        y1="126"
+                        x2="304"
+                        y2="142"
+                        stroke="rgba(241,242,242,.2)"
+                        stroke-width=".7"
+                    />
+                    <line
+                        x1="270"
+                        y1="168"
+                        x2="290"
+                        y2="170"
+                        stroke="rgba(241,242,242,.2)"
+                        stroke-width=".7"
+                    />
+                    <text
+                        x="280"
+                        y="222"
+                        text-anchor="middle"
+                        fill="rgba(241,242,242,.85)"
+                        font-family="var(--font-primary)"
+                        font-size="12"
+                        font-weight="500"
+                    >
+                        Tu generaci&oacute;n
+                    </text>
+                    <text
+                        x="280"
+                        y="237"
+                        text-anchor="middle"
+                        fill="rgba(241,242,242,.55)"
+                        font-family="var(--font-mono)"
+                        font-size="8"
+                    >
+                        contexto colectivo
+                    </text>
+                    <text
+                        x="280"
+                        y="80"
+                        text-anchor="middle"
+                        fill="var(--ha-blue)"
+                        font-family="var(--font-mono)"
+                        font-size="9"
+                    >
+                        instancia 2
+                    </text>
+
+                    <!-- L3: Le&oacute;n — 4 generation circles, each with person-dots that have 6 satellites -->
+                    <circle
+                        cx="500"
+                        cy="150"
+                        r="66"
+                        fill="none"
+                        stroke="rgba(241,242,242,.28)"
+                        stroke-width="1.5"
+                    />
+                    <!-- Generation A (top-left) -->
+                    <circle
+                        cx="478"
+                        cy="126"
+                        r="18"
+                        fill="none"
+                        stroke="rgba(241,242,242,.22)"
+                        stroke-width="1"
+                    />
+                    <circle
+                        cx="472"
+                        cy="121"
+                        r="4"
+                        fill="var(--ha-blue)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="472"
+                        cy="117"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="475"
+                        cy="118"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="475"
+                        cy="124"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="472"
+                        cy="125"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="469"
+                        cy="124"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="469"
+                        cy="118"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="484"
+                        cy="121"
+                        r="4"
+                        fill="var(--ha-blue)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="484"
+                        cy="117"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="487"
+                        cy="118"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="487"
+                        cy="124"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="484"
+                        cy="125"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="481"
+                        cy="124"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="481"
+                        cy="118"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="478"
+                        cy="133"
+                        r="4"
+                        fill="var(--ha-blue)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="478"
+                        cy="129"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="481"
+                        cy="130"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="481"
+                        cy="136"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="478"
+                        cy="137"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="475"
+                        cy="136"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="475"
+                        cy="130"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <!-- Generation B (top-right) -->
+                    <circle
+                        cx="522"
+                        cy="126"
+                        r="18"
+                        fill="none"
+                        stroke="rgba(241,242,242,.22)"
+                        stroke-width="1"
+                    />
+                    <circle
+                        cx="516"
+                        cy="121"
+                        r="4"
+                        fill="var(--ha-blue)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="516"
+                        cy="117"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="519"
+                        cy="118"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="519"
+                        cy="124"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="516"
+                        cy="125"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="513"
+                        cy="124"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="513"
+                        cy="118"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="528"
+                        cy="121"
+                        r="4"
+                        fill="var(--ha-blue)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="528"
+                        cy="117"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="531"
+                        cy="118"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="531"
+                        cy="124"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="528"
+                        cy="125"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="525"
+                        cy="124"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="525"
+                        cy="118"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="522"
+                        cy="133"
+                        r="4"
+                        fill="var(--ha-blue)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="522"
+                        cy="129"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="525"
+                        cy="130"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="525"
+                        cy="136"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="522"
+                        cy="137"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="519"
+                        cy="136"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="519"
+                        cy="130"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <!-- Generation C (bottom-left) -->
+                    <circle
+                        cx="478"
+                        cy="172"
+                        r="18"
+                        fill="none"
+                        stroke="rgba(241,242,242,.22)"
+                        stroke-width="1"
+                    />
+                    <circle
+                        cx="472"
+                        cy="167"
+                        r="4"
+                        fill="var(--ha-blue)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="472"
+                        cy="163"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="475"
+                        cy="164"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="475"
+                        cy="170"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="472"
+                        cy="171"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="469"
+                        cy="170"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="469"
+                        cy="164"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="484"
+                        cy="167"
+                        r="4"
+                        fill="var(--ha-blue)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="484"
+                        cy="163"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="487"
+                        cy="164"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="487"
+                        cy="170"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="484"
+                        cy="171"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="481"
+                        cy="170"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="481"
+                        cy="164"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="478"
+                        cy="179"
+                        r="4"
+                        fill="var(--ha-blue)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="478"
+                        cy="175"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="481"
+                        cy="176"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="481"
+                        cy="182"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="478"
+                        cy="183"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="475"
+                        cy="182"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="475"
+                        cy="176"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <!-- Generation D (bottom-right) -->
+                    <circle
+                        cx="522"
+                        cy="172"
+                        r="18"
+                        fill="none"
+                        stroke="rgba(241,242,242,.22)"
+                        stroke-width="1"
+                    />
+                    <circle
+                        cx="516"
+                        cy="167"
+                        r="4"
+                        fill="var(--ha-blue)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="516"
+                        cy="163"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="519"
+                        cy="164"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="519"
+                        cy="170"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="516"
+                        cy="171"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="513"
+                        cy="170"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="513"
+                        cy="164"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="528"
+                        cy="167"
+                        r="4"
+                        fill="var(--ha-blue)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="528"
+                        cy="163"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="531"
+                        cy="164"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="531"
+                        cy="170"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="528"
+                        cy="171"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="525"
+                        cy="170"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="525"
+                        cy="164"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="522"
+                        cy="179"
+                        r="4"
+                        fill="var(--ha-blue)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="522"
+                        cy="175"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="525"
+                        cy="176"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="525"
+                        cy="182"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="522"
+                        cy="183"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="519"
+                        cy="182"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <circle
+                        cx="519"
+                        cy="176"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".5"
+                    />
+                    <text
+                        x="500"
+                        y="234"
+                        text-anchor="middle"
+                        fill="rgba(241,242,242,.85)"
+                        font-family="var(--font-primary)"
+                        font-size="12"
+                        font-weight="500"
+                    >
+                        Tec Beyond Le&oacute;n
+                    </text>
+                    <text
+                        x="500"
+                        y="249"
+                        text-anchor="middle"
+                        fill="rgba(241,242,242,.55)"
+                        font-family="var(--font-mono)"
+                        font-size="8"
+                    >
+                        9 generaciones
+                    </text>
+                    <text
+                        x="500"
+                        y="70"
+                        text-anchor="middle"
+                        fill="var(--ha-blue)"
+                        font-family="var(--font-mono)"
+                        font-size="9"
+                    >
+                        instancia 3
+                    </text>
+
+                    <!-- L4: National — 4 sede circles, each with generation patterns -->
+                    <circle
+                        cx="740"
+                        cy="150"
+                        r="78"
+                        fill="none"
+                        stroke="rgba(241,242,242,.2)"
+                        stroke-width="1.5"
+                    />
+                    <!-- Sede A (top-left) -->
+                    <circle
+                        cx="714"
+                        cy="122"
+                        r="22"
+                        fill="none"
+                        stroke="rgba(241,242,242,.16)"
+                        stroke-width="1"
+                    />
+                    <circle
+                        cx="706"
+                        cy="116"
+                        r="4"
+                        fill="var(--ha-blue)"
+                        opacity=".35"
+                    />
+                    <circle
+                        cx="706"
+                        cy="112"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="709"
+                        cy="113"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="709"
+                        cy="119"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="706"
+                        cy="120"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="703"
+                        cy="119"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="703"
+                        cy="113"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="720"
+                        cy="116"
+                        r="4"
+                        fill="var(--ha-blue)"
+                        opacity=".35"
+                    />
+                    <circle
+                        cx="720"
+                        cy="112"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="723"
+                        cy="113"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="723"
+                        cy="119"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="720"
+                        cy="120"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="717"
+                        cy="119"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="717"
+                        cy="113"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="714"
+                        cy="130"
+                        r="4"
+                        fill="var(--ha-blue)"
+                        opacity=".35"
+                    />
+                    <circle
+                        cx="714"
+                        cy="126"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="717"
+                        cy="127"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="717"
+                        cy="133"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="714"
+                        cy="134"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="711"
+                        cy="133"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="711"
+                        cy="127"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <!-- Sede B (top-right) -->
+                    <circle
+                        cx="766"
+                        cy="122"
+                        r="22"
+                        fill="none"
+                        stroke="rgba(241,242,242,.16)"
+                        stroke-width="1"
+                    />
+                    <circle
+                        cx="758"
+                        cy="116"
+                        r="4"
+                        fill="var(--ha-blue)"
+                        opacity=".35"
+                    />
+                    <circle
+                        cx="758"
+                        cy="112"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="761"
+                        cy="113"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="761"
+                        cy="119"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="758"
+                        cy="120"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="755"
+                        cy="119"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="755"
+                        cy="113"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="772"
+                        cy="116"
+                        r="4"
+                        fill="var(--ha-blue)"
+                        opacity=".35"
+                    />
+                    <circle
+                        cx="772"
+                        cy="112"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="775"
+                        cy="113"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="775"
+                        cy="119"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="772"
+                        cy="120"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="769"
+                        cy="119"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="769"
+                        cy="113"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="766"
+                        cy="130"
+                        r="4"
+                        fill="var(--ha-blue)"
+                        opacity=".35"
+                    />
+                    <circle
+                        cx="766"
+                        cy="126"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="769"
+                        cy="127"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="769"
+                        cy="133"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="766"
+                        cy="134"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="763"
+                        cy="133"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="763"
+                        cy="127"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <!-- Sede C (bottom-left) -->
+                    <circle
+                        cx="714"
+                        cy="176"
+                        r="22"
+                        fill="none"
+                        stroke="rgba(241,242,242,.16)"
+                        stroke-width="1"
+                    />
+                    <circle
+                        cx="706"
+                        cy="170"
+                        r="4"
+                        fill="var(--ha-blue)"
+                        opacity=".35"
+                    />
+                    <circle
+                        cx="706"
+                        cy="166"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="709"
+                        cy="167"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="709"
+                        cy="173"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="706"
+                        cy="174"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="703"
+                        cy="173"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="703"
+                        cy="167"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="720"
+                        cy="170"
+                        r="4"
+                        fill="var(--ha-blue)"
+                        opacity=".35"
+                    />
+                    <circle
+                        cx="720"
+                        cy="166"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="723"
+                        cy="167"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="723"
+                        cy="173"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="720"
+                        cy="174"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="717"
+                        cy="173"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="717"
+                        cy="167"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="714"
+                        cy="184"
+                        r="4"
+                        fill="var(--ha-blue)"
+                        opacity=".35"
+                    />
+                    <circle
+                        cx="714"
+                        cy="180"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="717"
+                        cy="181"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="717"
+                        cy="187"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="714"
+                        cy="188"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="711"
+                        cy="187"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="711"
+                        cy="181"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <!-- Sede D (bottom-right) -->
+                    <circle
+                        cx="766"
+                        cy="176"
+                        r="22"
+                        fill="none"
+                        stroke="rgba(241,242,242,.16)"
+                        stroke-width="1"
+                    />
+                    <circle
+                        cx="758"
+                        cy="170"
+                        r="4"
+                        fill="var(--ha-blue)"
+                        opacity=".35"
+                    />
+                    <circle
+                        cx="758"
+                        cy="166"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="761"
+                        cy="167"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="761"
+                        cy="173"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="758"
+                        cy="174"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="755"
+                        cy="173"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="755"
+                        cy="167"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="772"
+                        cy="170"
+                        r="4"
+                        fill="var(--ha-blue)"
+                        opacity=".35"
+                    />
+                    <circle
+                        cx="772"
+                        cy="166"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="775"
+                        cy="167"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="775"
+                        cy="173"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="772"
+                        cy="174"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="769"
+                        cy="173"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="769"
+                        cy="167"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="766"
+                        cy="184"
+                        r="4"
+                        fill="var(--ha-blue)"
+                        opacity=".35"
+                    />
+                    <circle
+                        cx="766"
+                        cy="180"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="769"
+                        cy="181"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="769"
+                        cy="187"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="766"
+                        cy="188"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="763"
+                        cy="187"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <circle
+                        cx="763"
+                        cy="181"
+                        r="1.5"
+                        fill="var(--offwhite)"
+                        opacity=".4"
+                    />
+                    <text
+                        x="740"
+                        y="248"
+                        text-anchor="middle"
+                        fill="rgba(241,242,242,.85)"
+                        font-family="var(--font-primary)"
+                        font-size="12"
+                        font-weight="500"
+                    >
+                        Red nacional
+                    </text>
+                    <text
+                        x="740"
+                        y="263"
+                        text-anchor="middle"
+                        fill="rgba(241,242,242,.55)"
+                        font-family="var(--font-mono)"
+                        font-size="8"
+                    >
+                        Chihuahua, Ags, Morelia, GDL
+                    </text>
+                    <text
+                        x="740"
+                        y="58"
+                        text-anchor="middle"
+                        fill="var(--ha-blue)"
+                        font-family="var(--font-mono)"
+                        font-size="9"
+                    >
+                        instancia 4
+                    </text>
+
+                    <!-- Bottom label -->
+                    <text
+                        x="440"
+                        y="295"
+                        text-anchor="middle"
+                        fill="rgba(241,242,242,.5)"
+                        font-family="var(--font-primary)"
+                        font-size="10"
+                    >
+                        Cada nivel entiende su contexto y aprende del siguiente
+                    </text>
+                </svg>
+                <p class="anim d5">
+                    Cuando pones tu contexto en el sistema, tu generaci&oacute;n
+                    aprende. Cuando tu generaci&oacute;n crece, Le&oacute;n se
+                    fortalece. Cuando Le&oacute;n madura, las dem&aacute;s sedes
+                    arrancan con la inteligencia colectiva acumulada.
+                </p>
+                <span class="ghost">10</span>
+            </div>
+
+            <!-- ═══════════════════════════════════════ -->
+            <!-- S14 · EL SISTEMA APRENDE · light -->
+            <!-- ═══════════════════════════════════════ -->
+            <div class="slide light" data-theme="light">
+                <span class="sec-label anim d1"
+                    >11 &mdash; Aprende contigo</span
+                >
+                <h2 class="anim d2">
+                    Ustedes alimentan el sistema. El sistema les conoce mejor.
+                </h2>
+                <div class="card-grid cols-3 anim d3">
+                    <div class="card">
+                        <span class="card-tag">Paso 1</span>
+                        <h4>Ponen su contexto</h4>
+                        <p>
+                            Industria, retos, metas. Como hicieron 141 de
+                            ustedes en la encuesta &mdash; pero continuo y
+                            m&aacute;s profundo.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <span class="card-tag">Paso 2</span>
+                        <h4>El sistema conecta</h4>
+                        <p>
+                            4 agentes cruzan perfiles: qui&eacute;n puede
+                            ayudarte, qui&eacute;n enfrenta lo mismo, qu&eacute;
+                            contenido te sirve.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <span class="card-tag">Paso 3</span>
+                        <h4>La comunidad crece</h4>
+                        <p>
+                            Cada match, cada interacci&oacute;n, cada feedback
+                            refina el sistema. Entre m&aacute;s lo usen,
+                            m&aacute;s personalizados los contenidos y
+                            conexiones.
+                        </p>
+                    </div>
+                </div>
+                <div class="callout anim d4">
+                    <p>
+                        De su encuesta: hay quienes enfrentan sucesi&oacute;n
+                        familiar, y 3 generaciones que ya lo vivieron. Hay
+                        quienes buscan IA para gobierno corporativo, y personas
+                        con consultor&iacute;a en exactamente eso. Con HA, esas
+                        conexiones dejan de ser casuales.
+                    </p>
+                </div>
+                <span class="ghost">11</span>
+            </div>
+
+            <!-- ═══════════════════════════════════════ -->
+            <!-- S15 · BASE DE CONOCIMIENTO · dark -->
+            <!-- ═══════════════════════════════════════ -->
+            <div class="slide dark" data-theme="dark">
+                <span class="sec-label anim d1">12 &mdash; La base</span>
+                <h2 class="anim d2">
+                    Una base de conocimiento sem&aacute;ntica
+                </h2>
+                <p class="sub anim d3">
+                    El sistema entiende relaciones sem&aacute;nticas, no solo
+                    busca texto.
+                </p>
+                <div class="card-grid cols-2 anim d4" style="max-width: 640px">
+                    <div class="card">
+                        <span class="card-tag">Base de datos tradicional</span>
+                        <h4>Busca texto exacto</h4>
+                        <p>
+                            &ldquo;Log&iacute;stica&rdquo; solo encuentra a
+                            quien escribi&oacute; la palabra
+                            &ldquo;log&iacute;stica&rdquo; en su perfil.
+                        </p>
+                    </div>
+                    <div class="card" style="border-color: var(--ha-blue)">
+                        <span class="card-tag">Base de conocimiento HA</span>
+                        <h4>Entiende relaciones</h4>
+                        <p>
+                            Encuentra a quien dirige una empresa de cadena de
+                            suministro, distribuci&oacute;n o almacenaje &mdash;
+                            aunque nunca haya escrito
+                            &ldquo;log&iacute;stica&rdquo;.
+                        </p>
+                    </div>
+                </div>
+                <div class="callout anim d5" style="max-width: 560px">
+                    <p>
+                        Se alimenta de: perfiles, industrias, intereses,
+                        historial del programa, interacciones, datos de eventos
+                        y LinkedIn p&uacute;blico. Nunca pierde
+                        informaci&oacute;n &mdash; el conocimiento se acumula
+                        con el tiempo.
+                    </p>
+                </div>
+                <span class="ghost">12</span>
+            </div>
+
+            <!-- ═══════════════════════════════════════ -->
+            <!-- S16 · VALOR PARA CADA QUIEN · light -->
+            <!-- ═══════════════════════════════════════ -->
+            <div class="slide light" data-theme="light">
+                <span class="sec-label anim d1">13 &mdash; Valor</span>
+                <h2 class="anim d2">
+                    Valor para cada persona, cada empresa, cada familia
+                </h2>
+                <div class="card-grid cols-3 anim d3" style="max-width: 780px">
+                    <div class="card">
+                        <span class="card-tag">Para ti</span>
+                        <h4>Conexiones con direcci&oacute;n</h4>
+                        <p>
+                            Matching con clientes, proveedores, mentores.
+                            Contenido relevante seg&uacute;n tu momento.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <span class="card-tag">Para tu empresa</span>
+                        <h4>Competitividad</h4>
+                        <p>
+                            Gobierno corporativo, benchmarks entre pares, la red
+                            de negocios m&aacute;s densa del Baj&iacute;o.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <span class="card-tag">Para tu familia</span>
+                        <h4>Continuidad</h4>
+                        <p>
+                            Sucesi&oacute;n acompa&ntilde;ada, conexi&oacute;n
+                            con otras familias empresarias, formaci&oacute;n
+                            para la siguiente generaci&oacute;n.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <span class="card-tag">Para tu equipo</span>
+                        <h4>Desarrollo de talento</h4>
+                        <p>
+                            Capital humano, cultura organizacional,
+                            c&eacute;lulas de innovaci&oacute;n. Lo que 72 de
+                            ustedes pidieron en la encuesta.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <span class="card-tag">Para la regi&oacute;n</span>
+                        <h4>Impacto en la regi&oacute;n</h4>
+                        <p>
+                            85% operan en Guanajuato. Negocios entre
+                            integrantes, empleo, proyectos conjuntos.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <span class="card-tag">Para el Tec</span>
+                        <h4>Un modelo que escala</h4>
+                        <p>
+                            Lo que funcione en Le&oacute;n se replica en
+                            Chihuahua, Aguascalientes, Morelia. Inteligencia
+                            acumulada, no reinventada.
+                        </p>
+                    </div>
+                </div>
+                <span class="ghost">13</span>
+            </div>
+
+            <!-- ═══════════════════════════════════════ -->
+            <!-- S17 · PRIVACIDAD Y DATOS · dark -->
+            <!-- ═══════════════════════════════════════ -->
+            <div class="slide dark" data-theme="dark">
+                <span class="sec-label anim d1">14 &mdash; Confianza</span>
+                <h2 class="anim d2">Sus datos son del Tec. Siempre.</h2>
+                <p class="sub anim d3">
+                    HA construye y opera la plataforma, pero no es due&ntilde;a
+                    de lo que fluye por ella.
+                </p>
+                <div class="card-grid cols-2 anim d4" style="max-width: 640px">
+                    <div class="card">
+                        <span class="card-tag">Datos de la comunidad</span>
+                        <h4>100% propiedad del Tec</h4>
+                        <p>
+                            Perfiles, interacciones, matches, reportes. Todo
+                            vive en infraestructura del Tec (Azure). Si se
+                            cambia de proveedor, la comunidad queda intacta.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <span class="card-tag">Privacidad</span>
+                        <h4>Por dise&ntilde;o</h4>
+                        <p>
+                            Consentimiento informado, anonimizaci&oacute;n,
+                            cifrado AES-256, acceso por roles, auditor&iacute;a
+                            permanente. Cumplimiento LFPDPPP.
+                        </p>
+                    </div>
+                </div>
+                <div class="callout anim d5" style="max-width: 500px">
+                    <p>
+                        El Consejo y las personas representantes de
+                        generaci&oacute;n definen las reglas de la comunidad. La
+                        tecnolog&iacute;a se adapta a esas reglas, no al
+                        rev&eacute;s.
+                    </p>
+                </div>
+                <span class="ghost">14</span>
+            </div>
+
+            <!-- ═══════════════════════════════════════ -->
+            <!-- S18 · GOBERNANZA · light -->
+            <!-- ═══════════════════════════════════════ -->
+            <div class="slide light" data-theme="light">
+                <span class="sec-label anim d1">15 &mdash; Gobernanza</span>
+                <h2 class="anim d2">Tres c&iacute;rculos, roles claros</h2>
+                <div class="card-grid cols-3 anim d3" style="max-width: 780px">
+                    <div class="card">
+                        <span class="card-tag">C&iacute;rculo 1</span>
+                        <h4>La comunidad</h4>
+                        <p>
+                            XBAC + representantes de generaci&oacute;n +
+                            Lifelong Learning. Visi&oacute;n, prioridades,
+                            reglas. Acceso completo a toda la
+                            informaci&oacute;n.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <span class="card-tag">C&iacute;rculo 2</span>
+                        <h4>El Tec de Monterrey</h4>
+                        <p>
+                            Infraestructura, est&aacute;ndares de seguridad,
+                            alcance nacional. Los datos viven en su nube.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <span class="card-tag">C&iacute;rculo 3</span>
+                        <h4>Horizons Architecture</h4>
+                        <p>
+                            Capa de inteligencia artificial. Conecta,
+                            personaliza, detecta, informa. Opera la
+                            tecnolog&iacute;a, no posee los datos.
+                        </p>
+                    </div>
+                </div>
+                <div class="callout anim d4">
+                    <p>
+                        La comunidad est&aacute; en el centro porque es quien le
+                        da vida a todo lo dem&aacute;s. Las personas que
+                        integran el Consejo iniciaron Tec Beyond hace casi 10
+                        a&ntilde;os &mdash; esta etapa fortalece esa
+                        visi&oacute;n, no la reemplaza.
+                    </p>
+                </div>
+                <span class="ghost">15</span>
+            </div>
+
+            <!-- ═══════════════════════════════════════ -->
+            <!-- S19 · ESCALABILIDAD · dark -->
+            <!-- ═══════════════════════════════════════ -->
+            <div class="slide dark" data-theme="dark">
+                <span class="sec-label anim d1">16 &mdash; Crecer</span>
+                <h2 class="anim d2">De Le&oacute;n a una red nacional</h2>
+                <p class="sub anim d3">
+                    Cada nueva sede hereda la plataforma, los agentes y los
+                    aprendizajes. Solo se agrega contexto local.
+                </p>
+                <div class="card-grid cols-4 anim d4" style="max-width: 800px">
+                    <div class="card">
+                        <span class="card-tag">Piloto 2026</span>
+                        <h4>Le&oacute;n</h4>
+                        <p>
+                            ~300 personas<br />44,850 conexiones<br />1x valor
+                        </p>
+                    </div>
+                    <div class="card">
+                        <span class="card-tag">Expansi&oacute;n 2027</span>
+                        <h4>+ Chihuahua, Ags</h4>
+                        <p>
+                            ~900 personas<br />404,550 conexiones<br />9x valor
+                        </p>
+                    </div>
+                    <div class="card">
+                        <span class="card-tag">Expansi&oacute;n 2028</span>
+                        <h4>+ Morelia, GDL</h4>
+                        <p>
+                            ~1,500 personas<br />1.1M conexiones<br />25x valor
+                        </p>
+                    </div>
+                    <div class="card">
+                        <span class="card-tag">Red nacional 2029+</span>
+                        <h4>+ Laguna, Qro, CDMX</h4>
+                        <p>
+                            ~3,000+ personas<br />4.5M conexiones<br />100x
+                            valor
+                        </p>
+                    </div>
+                </div>
+                <div class="callout anim d5" style="max-width: 560px">
+                    <p>
+                        Cada sede nueva cuesta una fracci&oacute;n del piloto. A
+                        8 sedes, el costo total es ~2x pero atiende 10x las
+                        personas. El valor no se suma &mdash; se multiplica.
+                    </p>
+                </div>
+                <span class="ghost">16</span>
+            </div>
+
+            <!-- ═══════════════════════════════════════ -->
+            <!-- S20 · PUENTE 3 · accent -->
+            <!-- ═══════════════════════════════════════ -->
+            <div class="slide accent" data-theme="accent">
+                <h2
+                    class="anim d2"
+                    style="font-size: clamp(2rem, 4vw, 3rem); max-width: 640px"
+                >
+                    No hay ning&uacute;n programa de educaci&oacute;n ejecutiva
+                    en M&eacute;xico que ofrezca esto hoy.
+                </h2>
+                <p class="sub anim d3" style="max-width: 480px">
+                    Una comunidad empresarial con inteligencia colectiva,
+                    matching de negocios por IA, y una red que crece con cada
+                    sede.
+                </p>
+                <span class="ghost">17</span>
+            </div>
+
+            <!-- ═══════════════════════════════════════ -->
+            <!-- S21 · CIERRE · dark -->
+            <!-- ═══════════════════════════════════════ -->
+            <div class="slide dark" data-theme="dark">
+                <div class="accent-line anim d1"></div>
+                <h2
+                    class="anim d2"
+                    style="font-size: clamp(1.8rem, 3.5vw, 2.6rem)"
+                >
+                    Esto es de ustedes
+                </h2>
+                <p class="sub anim d3" style="max-width: 500px">
+                    La plataforma no funciona sin su participaci&oacute;n. Cada
+                    perfil que alimentan, cada conexi&oacute;n que validan, cada
+                    feedback que comparten, hace m&aacute;s inteligente el
+                    sistema para toda la comunidad.
+                </p>
+                <p class="anim d4" style="margin-top: 0.8rem">
+                    No les presentamos algo terminado. Les invitamos a
+                    construirlo con ustedes. Conocen esta comunidad mejor que
+                    nadie. Nosotros ponemos la capa de inteligencia artificial.
+                </p>
+                <div
+                    class="callout anim d5"
+                    style="margin-top: 1.5rem; max-width: 480px"
+                >
+                    <p>
+                        Siguiente paso: queremos escucharles. Qu&eacute; les
+                        resuena, qu&eacute; falta, qu&eacute; les preocupa. Esta
+                        conversaci&oacute;n es el inicio.
+                    </p>
+                </div>
+                <div class="meta-row anim d6">
+                    <span>Mario Orozco &mdash; Presidente ESBAC</span>
+                    <span>Edgar Barroso &mdash; Horizons Architecture</span>
+                </div>
+            </div>
+        </div>
+        <!-- /deck -->
+
+        <script>
+            const slides = document.querySelectorAll(".slide");
+            const counter = document.getElementById("counter");
+            const progress = document.getElementById("progress");
+            const wm = document.getElementById("watermark");
+            const total = slides.length;
+            let current = 0;
+
+            function resetAnims(el) {
+                el.querySelectorAll(".anim, .card, .flow-step").forEach(
+                    function (n) {
+                        n.style.animation = "none";
+                        n.offsetHeight;
+                        n.style.animation = "";
+                    },
+                );
+            }
+
+            function go(dir) {
+                if (current + dir < 0 || current + dir >= total) return;
+                slides[current].classList.remove("active");
+                current += dir;
+                resetAnims(slides[current]);
+                slides[current].classList.add("active");
+                counter.textContent = current + 1 + " / " + total;
+                progress.style.width = ((current + 1) / total) * 100 + "%";
+                var t = slides[current].dataset.theme;
+                counter.className = "slide-counter on-" + t;
+                wm.className = "watermark on-" + t;
+            }
+
+            document.addEventListener("keydown", function (e) {
+                if (
+                    e.key === "ArrowRight" ||
+                    e.key === " " ||
+                    e.key === "PageDown" ||
+                    e.key === "Enter"
+                ) {
+                    e.preventDefault();
+                    go(1);
+                }
+                if (
+                    e.key === "ArrowLeft" ||
+                    e.key === "PageUp" ||
+                    e.key === "Backspace"
+                ) {
+                    e.preventDefault();
+                    go(-1);
+                }
+            });
+
+            document.addEventListener("click", function (e) {
+                if (e.clientX > window.innerWidth * 0.35) go(1);
+                else go(-1);
+            });
+
+            var tx = 0;
+            document.addEventListener("touchstart", function (e) {
+                tx = e.changedTouches[0].screenX;
+            });
+            document.addEventListener("touchend", function (e) {
+                var d = tx - e.changedTouches[0].screenX;
+                if (Math.abs(d) > 50) go(d > 0 ? 1 : -1);
+            });
+
+            progress.style.width = (1 / total) * 100 + "%";
+        </script>
+    </body>
+</html>

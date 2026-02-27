@@ -7,10 +7,10 @@ type: clock
 
 ## Prioridad
 
-- [ ] Tec Beyond: Reunión 24 feb Jorge Blando — materiales listos con password (`Tec-Beyond-2026`)
-- [ ] SIC-Q: Propuesta v06 (3 frentes operativos + datos talleres) — cuando Toño responda
-- [ ] SIC-Q: Diseñar piloto operativo con Toño (datasets, productos, métricas)
-- [ ] Docet: ⚠️ Verificar status prototipo agentes — deadline febrero
+- [ ] SIC-Q: Reunión Edgar Mohar — subir entregables a Wiki Notion
+- [ ] SIC-Q: Propuesta v06 (3 frentes operativos + datos talleres)
+- [ ] Tec Beyond: Reunión Jorge Blando — prep lista (4 docs). Seguimiento pendiente
+- [ ] Docet: Deadline febrero vencido — formalizar pausa o escalar con Poncho
 
 ## En curso
 - [ ] UPU: Oscar documentación cierre (semana 24 feb)
@@ -37,11 +37,12 @@ type: clock
 
 | Persona | Esperando | Proyecto | Desde |
 |---------|-----------|----------|-------|
-| **Antonio Rangel** | Respuesta cotización +$6M (3 entregables AI) | SIC-Q | 19 feb |
-| **Equipo Poncho (Docet)** | Evaluación indicadores y métricas | Docet-Agentic | ~14 feb |
+| **Antonio Rangel** | Respuesta cotización +$6M (sin objeción = buena señal) | SIC-Q | 19 feb |
+| **Edgar Mohar** | Reunión prep + subir entregables Wiki Notion | SIC-Q | 27 feb |
+| **Jorge Blando** | Reunión siguiente paso — prep lista | Beyond | 27 feb |
+| **Equipo Poncho (Docet)** | Evaluación indicadores y métricas — deadline vencido | Docet-Agentic | ~14 feb |
 | **Gobierno QRO** | Decisión legal CURP vs INE + alineación IF | SIC-Q | feb |
-| **Jorge Blando** | Reunión 24 feb — materiales enviados con password | Beyond | 21 feb |
-| **Oscar** | Documentación cierre proyecto (semana 24 feb) | UPU | 22 feb |
+| **Oscar** | Documentación cierre proyecto | UPU | 22 feb |
 | **Nicho (Talisis)** | Status reunión liderazgo | Talisis | ~14 feb |
 | **Betty/Sarahí** | Call Netherlands office strategy | Learning Products | 22 feb |
 | **Javier (VP Research Tec)** | Agendar reunión con Joel Cano | HA-Core | ~14 feb |
@@ -57,7 +58,7 @@ type: clock
 
 | **Project** | **Status** | **Next steps** | **Links** |
 | ----------- | ---------- | -------------- | --------- |
-| **SIC-Q** | 🟢 $3.7M pagado, cotización +$6M enviada | Propuesta v06 cuando Toño responda + caso gobernador | `sic-q/` |
+| **SIC-Q** | 🟢 $3.7M pagado, cotización +$6M sin objeción. Proyecto Cerebro PAN (tentativo) | Reunión Mohar + Wiki Notion + Propuesta v06 | `sic-q/` |
 
 ## Education & AI Systems
 
@@ -65,7 +66,7 @@ type: clock
 | ----------- | ---------- | -------------- | --------- |
 | **Docet-Agentic** | ⚠️ Esperando Poncho + deadline prototipo feb | Verificar status prototipo agentes | `docet-agentic/` |
 | **TEC Narrativa** | 🟢 Feedback JP recibido, 27 entrevistas | Mario Adrián presenta a Consejo, Sarahí insumos | `tec-monterrey/` |
-| **Tec Beyond** | 🟢 8 anexos + presentación, password-protected | Reunión 24 feb Jorge Blando | `tec-monterrey/06-projects/tec-beyond/` |
+| **Tec Beyond** | 🟢 Consejo validó visión 26 feb. Prep Jorge Blando lista | Reunión Jorge Blando — siguiente paso | `tec-monterrey/06-projects/tec-beyond/` |
 | **Talisis 360** | 🔶 Esperando Nicho | Status reunión liderazgo | `talisis/` |
 
 ## Products & Frameworks
@@ -181,10 +182,12 @@ type: clock
 |-------|--------|----------|
 | ~~19 feb 2026~~ | ✅ Reunión Toño — 3 frentes + cotización $6M | SIC-Q |
 | ~~21 feb 2026~~ | ✅ MBTU/Caribbean presentación — José Anson asistió | UPU |
-| **24 feb 2026** | Reunión Jorge Blando — materiales con password | Tec Beyond |
-| **~25 feb 2026** | Mario presenta a Consejo | Tec Beyond |
-| **Semana 24 feb** | Oscar envía documentación cierre | UPU |
-| **Feb 2026** | ⚠️ Deadline prototipo agentes — verificar | Docet-Agentic |
+| ~~24 feb 2026~~ | ✅ Reunión Jorge Blando — materiales presentados | Tec Beyond |
+| ~~26 feb 2026~~ | ✅ Reunión consejo representantes — visión validada | Tec Beyond |
+| **~Mar 2026** | Reunión Jorge Blando siguiente paso — prep lista | Tec Beyond |
+| **~Mar 2026** | Reunión Edgar Mohar — subir entregables Wiki Notion | SIC-Q |
+| **~Med marzo** | [tentativo] Pitch Proyecto Cerebro CEN PAN (si Toño confirma) | SIC-Q |
+| **Feb 2026** | ⚠️ Deadline prototipo agentes VENCIDO | Docet-Agentic |
 | **Feb-Mar 2026** | Propuesta v06 (cuando Toño responda) | SIC-Q |
 | **Mar-Jun 2026** | Leiden — curso HA confirmado | Learning Products |
 | Mar-May 2026 | Fase 2 Data Architecture | Docet-Agentic |
@@ -219,8 +222,9 @@ Oportunidades detectadas que aún no son proyecto formal. Rastrear aquí hasta q
 | Netherlands HA Office | Learning Products — Leiden confirmado | Curso pagado, Betty + Sarahí liderando | Call 3-way para strategy |
 | Project Mara (B2C) | Tec Beyond — project-state 22 feb | Insight: beyond community → producto B2C | Explorar en paralelo a Beyond |
 | Héctor — Transformación Digital | Contacto directo | Referencia + interés IA | Agendar llamada |
+| Proyecto Cerebro CEN PAN | SIC-Q — Toño explorando | Reunión con presidente nacional PAN | Tentativo — esperar confirmación Toño |
 
 ---
 
-*Última actualización: 2026-02-23*
+*Última actualización: 2026-02-27*
 *HA Syntax: `[>]` agent task, `[<]` waiting, `[?]` decision needed, `[!]` urgent, `[x]` done*

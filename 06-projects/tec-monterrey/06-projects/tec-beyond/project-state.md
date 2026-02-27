@@ -26,30 +26,32 @@
 
 ## Current Front
 
-- **Deliverable:** Meeting with Jorge Blando (Tue Feb 24, 09:00 MX / Zurich)
-- **Type:** Strategic meeting — define collaboration specifics
-- **Context:** 4 Anexos complete. Entrepreneurs from 4 states (Jalisco, Michoacán, Guanajuato, Chihuahua). HA provides AI intelligence layer for lifelong learning community. Perfect fractal case: community management through HA instances.
-- **Strategic insight:** Each participant = potential individual client (government + private sector). This feeds the B2C product opportunity (Project Mara — personalized HA for SMEs).
-- **Edgar's assessment:** "This project is important though not at SIC-Q scale, because it brings together entrepreneurs from multiple states and the work is to add the AI layer so the community doesn't just stay a 1-year course but gets lifelong follow-up through HA."
+- **Deliverable:** Reunión técnica con Edgar (datos, algoritmo, membresías)
+- **Type:** Technical review — preparar postura sobre IP, licenciamiento, datos
+- **Context:** Reunión Blando del 25 feb fue positiva. Jorge quiere continuidad y transferencia de know-how. Evaluación TI en proceso. Lanzamiento potencial 27 de abril.
+- **Key concern:** Propiedad intelectual y dependencia tecnológica — Jorge quiere asegurar que el Tec no quede cautivo del proveedor. Edgar's take: abiertos a compartir, la ventaja está en la curva de evolución, no en el código estático.
+- **Edgar's assessment:** "El Tec no tiene tiempo de hacer estas cosas y nosotros siempre iremos adelante de la curva."
 
 ## Queue
 
-1. Meeting Jorge Blando (Tue 24) <-- CURRENT
-2. Define collaboration specifics post-meeting
-3. Mario presents to Consejo (Feb 25)
-4. Comité de IA approval (March 2026)
-5. "Reunión de Generaciones" potential launch (April 17)
-6. Explore B2C product from this community → Project Mara
+1. Reunión técnica Edgar + Mario (viernes 28 feb, 9:00) — datos, algoritmo, membresías <-- CURRENT
+2. Edgar define postura IP: joint venture / licenciamiento / híbrido
+3. Jorge + TI evalúan plataforma y modelo contractual
+4. Mario informa generaciones (jueves) sobre banderazo de salida
+5. Comité de IA approval (marzo 2026)
+6. Lanzamiento potencial: reunión de generaciones (27 abril)
+7. Explore B2C product from this community → Project Mara
 
 ## Blockers
 
-- Edgar in Zurich — meeting by Zoom
+- Definición modelo contractual (IP/licenciamiento) — TI del Tec evaluando
 - Cierre pendiente con Laurance (Mario + Irma lo trabajan)
 
 ## Session Log
 
 | Date | Units Completed | Notes |
 |------|----------------|-------|
+| 2026-02-26 | — | Minuta reunión 25 feb registrada. Blando positivo, concern = IP/continuidad. Reunión técnica viernes 28. |
 | 2026-02-22 | — | Trip debrief. Project assessed as perfect HA fractal case. B2C insight → Mara |
 | 2026-02-18 | — | Actualización gobernanza + 4 anexos complete |
 | 2026-02-14 | — | State initialized |
