@@ -117,4 +117,6 @@
 
 ---
 
-
+*Fuente: Transcripción reunión consejo de representantes, 26 de febrero 2026*
+*Generaciones presentes: 1, 2, 5, 6, 8*
+*~40 personas representadas por los consejeros asistentes*
