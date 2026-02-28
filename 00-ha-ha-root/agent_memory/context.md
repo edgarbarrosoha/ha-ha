@@ -70,8 +70,8 @@
 
 ### Last Session
 - **Date:** 2026-02-28
-- **Type:** Quick reference
-- **Achievements:** Edgar pidió documento argumento Jorge Blando (por qué HA hace la tecnología). Presentado prep-reunion-jorge-blando.md Parte 4. No existe nota independiente.
+- **Type:** Git maintenance
+- **Achievements:** Resueltos 3 conflictos merge (context.md, working-memory.md, frases-clave). Creado .gitignore (.DS_Store, node_modules excluidos). Nota sync para otra computadora. Push exitoso.
 
 ### Active Threads
 - SIC-Q: Cotización +$6M sin objeción (buena señal). Toño explorando Proyecto Cerebro CEN PAN (tentativo, pitch ~marzo). **Siguiente: reunión Edgar Mohar + subir entregables Wiki Notion**
@@ -108,6 +108,7 @@
 
 | Date | Session | Focus | Key Achievement |
 |------|---------|-------|-----------------|
+| 2026-02-28 | 18 | Git maintenance | Merge conflicts resueltos, .gitignore, nota sync otra computadora |
 | 2026-02-28 | 17 | Quick reference | Argumento Jorge Blando — por qué HA hace la tecnología |
 | 2026-02-27 | 16 | Notion MCP debug | Token OK, MCP header bug, fix NOTION_TOKEN, restart pendiente |
 | 2026-02-27 | 15 | Beyond consejo + SIC-Q + Notion | Frases clave, prep Jorge Blando, Proyecto Cerebro PAN, Notion MCP |

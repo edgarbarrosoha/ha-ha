@@ -2,6 +2,19 @@
 
 ## Sessions
 
+### 2026-02-28 | Session 18 | GIT MAINTENANCE
+- **Focus:** Resolver conflictos de merge entre computadoras, prevención futura
+- **Achievements:**
+  - Resueltos 3 conflictos merge: `context.md`, `working-memory.md`, `frases-clave-consejo-26feb.md` — ambas versiones integradas (sesión 16 + 17)
+  - `.DS_Store` removido del tracking
+  - `.gitignore` creado (`.DS_Store`, `node_modules/`, `conflict-files-obsidian-git.md`)
+  - `git-sync-note.md` creado — mensaje para la otra computadora sobre problemas recurrentes de conflictos
+  - Push exitoso (3 commits)
+  - GitHub advierte sobre PDF grande (QRO2050 Plan.pdf, 58 MB) — no bloquea por ahora
+- **Decisions:**
+  - `.DS_Store` nunca más en el repo (causa conflictos binarios innecesarios)
+- **Open threads:** Sin cambios respecto a sesión 17. Notion MCP restart sigue pendiente.
+
 ### 2026-02-28 | Session 17 | QUICK REFERENCE
 - **Focus:** Recuperar documento de argumento para Jorge Blando (por qué HA hace la tecnología)
 - **Achievements:**
