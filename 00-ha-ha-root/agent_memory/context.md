@@ -60,7 +60,8 @@
 - #betty-huerta → Learning Products lead. Con Sarahí Orduño.
 - #oscar → UPU lead. Documentación para cerrar proyecto. 2 new devs.
 - #joel-cano → Reunión con Javier VP Research Tec (ya no nota convertible).
-- #mario → Tec Beyond director. Community platform architecture.
+- #mario → Tec Beyond director. Community platform architecture. Reunión consejo 26 feb exitosa.
+- #edgar-mohar → Mano derecha de Toño en SIC-Q. Reunión pendiente — subir entregables a Wiki Notion.
 - #steven-popper → RAND Corporation. Accepted HA advisory board seat. Institutional credibility signal for government/multilateral clients — RAND endorsement makes HA "serious" in policy world.
 
 ---
@@ -68,47 +69,48 @@
 ## ZONE C: State (Dynamic)
 
 ### Last Session
-- **Date:** 2026-02-23
-- **Type:** Beyond Personas al Centro + Auditoría Sistema
-- **Achievements:** Anexo 1 personas al centro (md + 2 HTMLs), anti-muletilla fix, StatiCrypt password protection, limpieza repo (node_modules + orphans), auditoría completa sistema, 7 mejoras implementadas.
+- **Date:** 2026-02-28
+- **Type:** Quick reference
+- **Achievements:** Edgar pidió documento argumento Jorge Blando (por qué HA hace la tecnología). Presentado prep-reunion-jorge-blando.md Parte 4. No existe nota independiente.
 
 ### Active Threads
-- SIC-Q: Talleres ✅ + Reunión Toño ✅ → awaiting +$6M expansion response. Propuesta v06 + diseño piloto = siguiente paso
+- SIC-Q: Cotización +$6M sin objeción (buena señal). Toño explorando Proyecto Cerebro CEN PAN (tentativo, pitch ~marzo). **Siguiente: reunión Edgar Mohar + subir entregables Wiki Notion**
 - SIC-Q: 4 reportes talleres completos (ejecutivos T1/T2, combinado, técnico ~1600 líneas)
-- Tec Beyond: Materiales completos (8 anexos + presentación + Kumu). Password-protected en GitHub Pages. **Reunión Jorge Blando mañana 24 feb**
-- Docet-Agentic: En pausa — esperando evaluación equipo Poncho. ⚠️ Prototipo agentes tenía deadline febrero
-- TEC Narrativa: Feedback JP recibido. Mario Adrián presenta a Consejo. Sarahí da insumos. 27 entrevistas totales.
-- UPU: Oscar documentación para cerrar. MBTU/Caribbean presentación exitosa (21 feb). Nuevo lead: AI training Caribbean
-- Learning Products: Betty + Sarahí avanzan canvases. Leiden Mar-Jun 2026 confirmado. Netherlands office strategy pendiente (3-person call)
-- Talisis: Reconectado con Nicho — esperando confirmación reunión liderazgo
-- Héctor: Nuevo lead — transformación digital + IA. Respuesta enviada, pendiente agendar
-- Joel Cano: Reunión con Javier (VP Research Tec) — pendiente
-- Steven Popper: Correo enviado para reuniones mensuales advisory board
-- **Emerging:** Caribbean AI training (UPU), Netherlands office (Learning Products), Project Mara B2C (Beyond)
+- Tec Beyond: Reunión consejo 26 feb exitosa — consejo validó visión, quiere que Tec contrate HA. **Prep reunión Jorge Blando lista (4 docs)**
+- Docet-Agentic: En pausa — esperando evaluación equipo Poncho. Deadline febrero vencido
+- TEC Narrativa: Feedback JP recibido. Mario Adrián presenta a Consejo. Sarahí da insumos. 27 entrevistas totales
+- UPU: Oscar documentación para cerrar
+- Learning Products: Betty + Sarahí avanzan canvases. Leiden Mar-Jun 2026 confirmado
+- Talisis: Esperando Nicho
+- **Emerging:** Proyecto Cerebro CEN PAN (SIC-Q), Caribbean AI training (UPU), Netherlands office (Learning Products), Project Mara B2C (Beyond)
+- **Infraestructura:** Notion MCP configurado, pendiente restart para activar
 
 ### Waiting For
-- Antonio Rangel → Respuesta cotización +$6M (3 entregables AI) | SIC-Q
+- Antonio Rangel → Respuesta cotización +$6M (sin objeción = buena señal) | SIC-Q
+- Edgar Mohar → Reunión prep + Wiki Notion | SIC-Q
+- Jorge Blando → Reunión siguiente paso (prep lista) | Beyond
 - Equipo Poncho (Docet) → Evaluación indicadores/métricas | Docet
 - Gobierno QRO → Decisión legal + alineación IF | SIC-Q
-- Jorge Blando → Reunión 24 feb 2026 — materiales enviados con password | Beyond
 - Héctor → Confirmar fecha llamada | Nuevo lead
 - Nicho (Talisis) → Status reunión liderazgo | Talisis
 - Javier (VP Research Tec) → Agendar reunión con Joel Cano | HA-Core
 - Steven Popper → Respuesta correo reuniones mensuales | Advisory
-- Oscar → Documentación cierre UPU (semana 24 feb) | UPU
 - Betty/Sarahí/Edgar → Call Netherlands office strategy | Learning Products
 
 ### Next Session Priorities
-1. **Tec Beyond:** Reunión Jorge Blando 24 feb — prep si necesita ajustes post-reunión
-2. SIC-Q: Propuesta v06 cuando Toño responda
-3. Docet: Verificar status prototipo agentes (deadline febrero)
-4. HA-Product: Decisión activar con recursos o congelar formalmente
-5. Learning Products: Agendar call Netherlands office strategy
+1. **Probar Notion MCP** (post-restart) → si funciona, subir entregables SIC-Q a Wiki para reunión Mohar
+2. SIC-Q: Propuesta v06 + prep reunión Edgar Mohar
+3. Tec Beyond: Seguimiento post-reunión Jorge Blando
+4. Docet: Deadline febrero vencido — formalizar pausa o escalar
+5. Learning Products: Call Netherlands office strategy
 
 ### Recent Sessions
 
 | Date | Session | Focus | Key Achievement |
 |------|---------|-------|-----------------|
+| 2026-02-28 | 17 | Quick reference | Argumento Jorge Blando — por qué HA hace la tecnología |
+| 2026-02-27 | 16 | Notion MCP debug | Token OK, MCP header bug, fix NOTION_TOKEN, restart pendiente |
+| 2026-02-27 | 15 | Beyond consejo + SIC-Q + Notion | Frases clave, prep Jorge Blando, Proyecto Cerebro PAN, Notion MCP |
 | 2026-02-23 | 14 | Beyond + Auditoría | Anexo 1 personas, StatiCrypt, limpieza repo, auditoría sistema |
 | 2026-02-21 | 13 | Tec Beyond presentación | SVGs limpiados, diseño CSS, autoría, GitHub Pages |
 | 2026-02-20 | 12 | SIC-Q update | Minuta Toño, reportes talleres, email Héctor |
@@ -120,7 +122,6 @@
 | 2026-02-02 | 6 | Refinement | Start report tone — partner briefing |
 | 2026-02-02 | 5 | Docs / Config | One-pager update |
 | 2026-02-02 | 4 | Dashboard | Populated from 8 projects |
-| 2026-02-02 | 3 | SIC-Q | Presentación al Gobernador v.04 |
 
 ---
 

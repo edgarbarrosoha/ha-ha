@@ -1,13 +1,9 @@
 [
-  "obsidian-git",
-  "advanced-merger",
   "dataview",
-  "obsidian-fullscreen-plugin",
   "homepage",
-  "mermaid-tools",
-  "obsidian-pandoc",
+  "obsidian-git",
+  "omnisearch",
   "terminal",
   "timeline-schedule",
-  "widgets",
-  "omnisearch"
+  "widgets"
 ]

@@ -10,6 +10,7 @@
   - **New deliverables:** +$6M MXN (3 AI products)
   - **Total potential:** $16M + IVA
   - **Status:** Awaiting Toño's response on +$6M expansion
+  - **Emerging:** Proyecto Cerebro CEN PAN (tentativo — Toño explorando con presidente nacional PAN, pitch posible mediados marzo 2026)
 
 ## Progress Map
 
@@ -40,10 +41,12 @@
 ## Queue
 
 1. Await Toño response on +$6M cotización <-- CURRENT
-2. Propuesta v06 (integrate all new data)
-3. Define pilot scope with Toño (datasets, products, frequency)
-4. Begin Agente Toño prototype (if approved)
-5. Instituto del Futuro — formalización
+2. Reunión Edgar Mohar — prep + subir entregables a Wiki Notion
+3. Propuesta v06 (integrate all new data)
+4. Define pilot scope with Toño (datasets, products, frequency)
+5. Begin Agente Toño prototype (if approved)
+6. Instituto del Futuro — formalización
+7. [tentativo] Proyecto Cerebro CEN PAN — pitch mediados marzo si Toño confirma
 
 ## Blockers
 
@@ -55,5 +58,6 @@
 
 | Date | Units Completed | Notes |
 |------|----------------|-------|
+| 2026-02-27 | — | Toño no respondió a cotización (buena señal). Mensaje: explorando Proyecto Cerebro CEN PAN (tentativo, pitch ~mar). Siguiente: reunión Edgar Mohar, subir entregables a Wiki Notion. |
 | 2026-02-22 | — | Post-trip debrief. Cotización +$6M sent. Talleres & CONSEQRO complete. |
 | 2026-02-14 | — | State initialized |

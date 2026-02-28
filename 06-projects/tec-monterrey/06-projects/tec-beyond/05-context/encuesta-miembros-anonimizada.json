@@ -1,0 +1,5077 @@
+{
+  "metadata": {
+    "fuente": "Encuesta miembros Tec Beyond",
+    "fecha_exportacion": "2026-02-26",
+    "total_registros": 141,
+    "anonimizacion": "Nombres, emails, teléfonos, empresas específicas, redes sociales, tokens y CPs eliminados. Perfiles convertidos a categorías temáticas. Organizaciones reducidas a tipo/giro.",
+    "campos_eliminados": [
+      "nombre",
+      "email",
+      "telefono",
+      "linkedin",
+      "instagram",
+      "facebook",
+      "twitter",
+      "nombre_empresa",
+      "razon_social",
+      "sitio_web",
+      "codigo_postal",
+      "token",
+      "fecha_nacimiento_exacta"
+    ]
+  },
+  "estadisticas": {
+    "por_generacion": {
+      "G9": 22,
+      "G7": 21,
+      "G6": 21,
+      "G2": 15,
+      "G3": 14,
+      "G1": 13,
+      "G5": 13,
+      "G4": 13,
+      "G8": 9
+    },
+    "por_genero": {
+      "Masculino": 110,
+      "Femenino": 31
+    },
+    "por_estado": {
+      "Guanajuato": 72,
+      "Multi-estado": 5,
+      "Jalisco": 1,
+      "CV (España)": 1,
+      "Cdmx": 1,
+      "romita guanajuato": 1,
+      "leon": 1,
+      "León Guanajuato": 1
+    },
+    "por_tamano_empresa": {
+      "11-50": 17,
+      "1-10": 17,
+      "101-250": 16,
+      "1000+": 11,
+      "251-500": 9,
+      "51-100": 8,
+      "501-1000": 6
+    },
+    "exatec": {
+      "si": 84,
+      "no": 57
+    },
+    "por_industria": {
+      "Servicios/Consultoría": 11,
+      "Construcción/Infraestructura": 7,
+      "Educación": 7,
+      "Inmobiliario": 6,
+      "Transporte/Logística": 6,
+      "Manufactura/Textil": 5,
+      "Tecnología": 4,
+      "Alimentos/Gastronomía": 3,
+      "Distribuidor De Camiones De Carga": 1,
+      "Medios": 1,
+      "Turismo": 1,
+      "Movilidad De Personas Y Mercancías": 1,
+      "Energía": 1,
+      "Automotriz": 1,
+      "Seguros": 1,
+      "Llantas": 1,
+      "Legal": 1,
+      "Es Correcto": 1,
+      "Cartonera": 1,
+      "Gobierno": 1,
+      "Otro": 1,
+      "Finanzas": 1,
+      "Minería/Metalurgia": 1,
+      "Entretenimiento": 1,
+      "Cuero/Calzado": 1,
+      "Industria De Reuniones": 1,
+      "Comunicacion, Publicidad Exterior": 1,
+      "Comercio/Retail": 1,
+      "Comunicacion Social": 1
+    },
+    "por_relacion_tec": {
+      "Comités": 6,
+      "Papá Tec": 5,
+      "Consejeros": 4,
+      "Socio Formador (Trabaja en retos con los estudiantes)": 3,
+      "Consejeros, Comités": 2,
+      "Consejeros, Socio Formador (Trabaja en retos con los estudiantes)": 2,
+      "Socio Comercial": 2,
+      "Consejeros, Papá Tec, Servicio Social": 1,
+      "Comités, Socio Formador (Trabaja en retos con los estudiantes), Profesor": 1,
+      "Socio Comercial, Bolsa de Trabajo, Servicio Social, Socio Formador (Trabaja en retos con los estudiantes)": 1,
+      "Bolsa de Trabajo, Tec Beyond": 1,
+      "Tec beyond": 1,
+      "Colaboradora": 1,
+      "Papá Tec, Bolsa de Trabajo, Socio Formador (Trabaja en retos con los estudiantes), Socio Comercial, Servicio Social": 1,
+      "TecBeyonds": 1,
+      "Tec Beyond": 1,
+      "Socio Formador (Trabaja en retos con los estudiantes), Profesor Catedra": 1,
+      "Papá Tec, Consejeros, Socio Comercial": 1,
+      "Comités, Papá Tec, Socio Formador (Trabaja en retos con los estudiantes), Socio Comercial, Donante": 1,
+      "Consejeros, Papá Tec, Socio Formador (Trabaja en retos con los estudiantes)": 1,
+      "Colaborador": 1,
+      "Prepa": 1,
+      "Socio Formador (Trabaja en retos con los estudiantes), Socio Comercial": 1,
+      "Consejeros, Papá Tec": 1,
+      "ESTUDIANTE TEC BEYOND": 1,
+      "Ninguno, Estudiante tec Beyond": 1,
+      "Papá Tec, Directiva y EXATEC": 1,
+      "Exatec": 1
+    },
+    "top_temas_interes": {
+      "Inteligencia Artificial": 84,
+      "Innovación": 84,
+      "Gobierno Corporativo": 84,
+      "Empresa Familiar": 84,
+      "Liderazgo": 84,
+      "Finanzas": 84,
+      "Tendencias del Mercado": 84,
+      "Derecho Corporativo y sus Regulaciones": 84
+    }
+  },
+  "registros": [
+    {
+      "id": "M001",
+      "rango_edad": "45-49",
+      "genero": "Masculino",
+      "perfil_temas": [
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": "Director General",
+      "industria": "Manufactura/Textil",
+      "tamano_empresa": "11-50",
+      "paises_negocios": null,
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Guanajuato",
+      "relacion_tec": "Comités",
+      "tipos_consejos": [
+        "Organización social",
+        "Tec Beyond"
+      ],
+      "tipos_participacion_social": [
+        "Infancia"
+      ],
+      "temas_interes": [
+        "Inteligencia Artificial",
+        "Innovación",
+        "Gobierno Corporativo",
+        "Empresa Familiar",
+        "Liderazgo",
+        "Finanzas",
+        "Tendencias del Mercado",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Deportes , running, golf, futbol",
+      "hobbies": [
+        "Running",
+        "Golf",
+        "Viajar"
+      ],
+      "generacion": "G7",
+      "periodo_generacion": "Sep 2023 - Jun 2024"
+    },
+    {
+      "id": "M002",
+      "rango_edad": "65-69",
+      "genero": "Masculino",
+      "perfil_temas": [
+        "directivo/fundador",
+        "perfil tecnológico",
+        "jubilado/retirado"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": "Representante legal",
+      "industria": "Servicios/Consultoría",
+      "tamano_empresa": "1-10",
+      "paises_negocios": null,
+      "tipo_venta": "Vendo al público",
+      "estado": "Jalisco",
+      "relacion_tec": "Consejeros",
+      "tipos_consejos": [
+        "Sector inmobiliario/construcción",
+        "Tec Beyond"
+      ],
+      "tipos_participacion_social": null,
+      "temas_interes": [
+        "Empresa Familiar",
+        "Tendencias del Mercado",
+        "Innovación",
+        "Finanzas",
+        "Liderazgo",
+        "Inteligencia Artificial",
+        "Gobierno Corporativo",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Superacion Personal",
+      "hobbies": [
+        "me gusta el cine y la TV",
+        "me gusta leer y los audio libros",
+        "me gusta viajar y caminar en las ciudades"
+      ],
+      "generacion": "G3",
+      "periodo_generacion": 2018
+    },
+    {
+      "id": "M003",
+      "rango_edad": "65-69",
+      "genero": "Masculino",
+      "perfil_temas": [
+        "empresario",
+        "perfil tecnológico",
+        "orientación social"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": "asociado",
+      "industria": "Manufactura/Textil",
+      "tamano_empresa": "501-1000",
+      "paises_negocios": null,
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Multi-estado",
+      "relacion_tec": "Consejeros, Papá Tec, Servicio Social",
+      "tipos_consejos": [
+        "Empresa familiar",
+        "Sector financiero",
+        "Sector industrial",
+        "Sector inmobiliario/construcción"
+      ],
+      "tipos_participacion_social": [
+        "Cultura/arte",
+        "Desarrollo comunitario",
+        "Educación",
+        "Infancia"
+      ],
+      "temas_interes": [
+        "Empresa Familiar",
+        "Gobierno Corporativo",
+        "Inteligencia Artificial",
+        "Liderazgo",
+        "Innovación",
+        "Tendencias del Mercado",
+        "Derecho Corporativo y sus Regulaciones",
+        "Finanzas"
+      ],
+      "otros_temas": "sucesion familiar, recomendaciones de cambios en entorno para los empresarios..",
+      "hobbies": [
+        "senderismo",
+        "viajar",
+        "ejercicio aeróbico."
+      ],
+      "generacion": "G1",
+      "periodo_generacion": 2016
+    },
+    {
+      "id": "M004",
+      "rango_edad": "35-39",
+      "genero": "Masculino",
+      "perfil_temas": [
+        "empresario",
+        "consultor/asesor"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": "CSO",
+      "industria": "Tecnología",
+      "tamano_empresa": "11-50",
+      "paises_negocios": "Norteamérica, Centroamérica, Sudamérica, Europa, Medio Oriente u Oriente Medio",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Guanajuato",
+      "relacion_tec": "Comités, Socio Formador (Trabaja en retos con los estudiantes), Profesor",
+      "tipos_consejos": [
+        "Cámara empresarial",
+        "Gobierno/regulación",
+        "Seguridad"
+      ],
+      "tipos_participacion_social": [
+        "Participación social general"
+      ],
+      "temas_interes": [
+        "Innovación",
+        "Inteligencia Artificial",
+        "Gobierno Corporativo",
+        "Empresa Familiar",
+        "Liderazgo",
+        "Finanzas",
+        "Tendencias del Mercado",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "No pude responder bien la anterior",
+      "hobbies": [
+        "El rock",
+        "Gastronomía",
+        "Videojuegos"
+      ],
+      "generacion": "G2",
+      "periodo_generacion": 2017
+    },
+    {
+      "id": "M005",
+      "rango_edad": "65-69",
+      "genero": "Femenino",
+      "perfil_temas": [
+        "consultor/asesor",
+        "formación educación/psicología"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": "Socio, dueño",
+      "industria": "Servicios/Consultoría",
+      "tamano_empresa": "1-10",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo al público",
+      "estado": "Guanajuato",
+      "relacion_tec": "Consejeros, Comités",
+      "tipos_consejos": [
+        "Educación"
+      ],
+      "tipos_participacion_social": [
+        "Participación social general"
+      ],
+      "temas_interes": [
+        "Empresa Familiar",
+        "Liderazgo",
+        "Inteligencia Artificial",
+        "Finanzas",
+        "Innovación",
+        "Tendencias del Mercado",
+        "Gobierno Corporativo",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Relaciones Humanas: familia",
+      "hobbies": [
+        "Lectura",
+        "cine",
+        "formación académica"
+      ],
+      "generacion": "G3",
+      "periodo_generacion": 2018
+    },
+    {
+      "id": "M006",
+      "rango_edad": "30-34",
+      "genero": "Masculino",
+      "perfil_temas": null,
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": "Dirección Adjunta",
+      "industria": "Inmobiliario",
+      "tamano_empresa": "101-250",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo al público",
+      "estado": "Guanajuato",
+      "relacion_tec": "Consejeros, Socio Formador (Trabaja en retos con los estudiantes)",
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": [
+        "Tendencias del Mercado",
+        "Gobierno Corporativo",
+        "Liderazgo",
+        "Finanzas",
+        "Innovación",
+        "Inteligencia Artificial",
+        "Empresa Familiar",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Temas Fiscales y de Ley Laboral",
+      "hobbies": [
+        "Buceo",
+        "Viajar",
+        "Leer"
+      ],
+      "generacion": "G6",
+      "periodo_generacion": "Sep 2022 - Jun 2023"
+    },
+    {
+      "id": "M007",
+      "rango_edad": "45-49",
+      "genero": "Masculino",
+      "perfil_temas": [
+        "directivo/fundador",
+        "consultor/asesor",
+        "formación finanzas/contable",
+        "formación administración",
+        "perfil tecnológico",
+        "orientación social"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": "Socio Director",
+      "industria": "Servicios/Consultoría",
+      "tamano_empresa": "1-10",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Guanajuato",
+      "relacion_tec": null,
+      "tipos_consejos": [
+        "Educación"
+      ],
+      "tipos_participacion_social": null,
+      "temas_interes": [
+        "Finanzas",
+        "Gobierno Corporativo",
+        "Inteligencia Artificial",
+        "Innovación",
+        "Derecho Corporativo y sus Regulaciones",
+        "Empresa Familiar",
+        "Liderazgo",
+        "Tendencias del Mercado"
+      ],
+      "otros_temas": "Fiscal, financiero",
+      "hobbies": [
+        "Golf"
+      ],
+      "generacion": "G7",
+      "periodo_generacion": "Sep 2023 - Jun 2024"
+    },
+    {
+      "id": "M008",
+      "rango_edad": "35-39",
+      "genero": "Femenino",
+      "perfil_temas": [
+        "directivo/fundador",
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": null,
+      "industria": "Transporte/Logística",
+      "tamano_empresa": "11-50",
+      "paises_negocios": "Norteamérica, Europa, Asia, Sudamérica",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Guanajuato",
+      "relacion_tec": "Socio Formador (Trabaja en retos con los estudiantes)",
+      "tipos_consejos": [
+        "Tec Beyond"
+      ],
+      "tipos_participacion_social": [
+        "Asistencia/hogares"
+      ],
+      "temas_interes": [
+        "Liderazgo",
+        "Innovación",
+        "Inteligencia Artificial",
+        "Finanzas",
+        "Tendencias del Mercado",
+        "Gobierno Corporativo",
+        "Derecho Corporativo y sus Regulaciones",
+        "Empresa Familiar"
+      ],
+      "otros_temas": "TEMAS ENFOCADOS A EMPRESAS DE SERVICIOS",
+      "hobbies": [
+        "viajar",
+        "leer",
+        "pasar tiempo con mi hijo"
+      ],
+      "generacion": "G9",
+      "periodo_generacion": "Sep 2025- Jul 2026"
+    },
+    {
+      "id": "M009",
+      "rango_edad": "50-54",
+      "genero": "Masculino",
+      "perfil_temas": [
+        "formación ingeniería"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": "Director",
+      "industria": "Construcción/Infraestructura",
+      "tamano_empresa": "101-250",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Guanajuato",
+      "relacion_tec": null,
+      "tipos_consejos": [
+        "Cámara empresarial"
+      ],
+      "tipos_participacion_social": null,
+      "temas_interes": [
+        "Inteligencia Artificial",
+        "Gobierno Corporativo",
+        "Empresa Familiar",
+        "Finanzas",
+        "Liderazgo",
+        "Tendencias del Mercado",
+        "Innovación",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Tecnologias construccion",
+      "hobbies": [
+        "Golf",
+        "bici de montaña",
+        "natación"
+      ],
+      "generacion": "G6",
+      "periodo_generacion": "Sep 2022 - Jun 2023"
+    },
+    {
+      "id": "M010",
+      "rango_edad": "50-54",
+      "genero": "Masculino",
+      "perfil_temas": [
+        "directivo/fundador",
+        "consultor/asesor",
+        "formación finanzas/contable",
+        "formación administración"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": "Director General",
+      "industria": "Alimentos/Gastronomía",
+      "tamano_empresa": "1-10",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Guanajuato",
+      "relacion_tec": "Papá Tec",
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": [
+        "Liderazgo",
+        "Finanzas",
+        "Innovación",
+        "Tendencias del Mercado",
+        "Inteligencia Artificial",
+        "Gobierno Corporativo",
+        "Empresa Familiar",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Tendencia de negocios",
+      "hobbies": [
+        "Musica",
+        "Enologia",
+        "golf"
+      ],
+      "generacion": "G7",
+      "periodo_generacion": "Sep 2023 - Jun 2024"
+    },
+    {
+      "id": "M011",
+      "rango_edad": "55-59",
+      "genero": "Masculino",
+      "perfil_temas": [
+        "directivo/fundador"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": "101-250",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Guanajuato",
+      "relacion_tec": null,
+      "tipos_consejos": [
+        "Otro"
+      ],
+      "tipos_participacion_social": [
+        "Participación social general"
+      ],
+      "temas_interes": [
+        "Inteligencia Artificial",
+        "Innovación",
+        "Derecho Corporativo y sus Regulaciones",
+        "Gobierno Corporativo",
+        "Empresa Familiar",
+        "Liderazgo",
+        "Finanzas",
+        "Tendencias del Mercado"
+      ],
+      "otros_temas": null,
+      "hobbies": [
+        "GOLF"
+      ],
+      "generacion": "G2",
+      "periodo_generacion": 2017
+    },
+    {
+      "id": "M012",
+      "rango_edad": "55-59",
+      "genero": "Masculino",
+      "perfil_temas": [
+        "formación ingeniería"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": null,
+      "industria": "Construcción/Infraestructura",
+      "tamano_empresa": "1000+",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Guanajuato",
+      "relacion_tec": "Papá Tec",
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": [
+        "Gobierno Corporativo",
+        "Innovación",
+        "Empresa Familiar",
+        "Finanzas",
+        "Inteligencia Artificial",
+        "Liderazgo",
+        "Tendencias del Mercado",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": null,
+      "hobbies": [
+        "Triatlón",
+        "viajar"
+      ],
+      "generacion": "G9",
+      "periodo_generacion": "Sep 2025- Jul 2026"
+    },
+    {
+      "id": "M013",
+      "rango_edad": "55-59",
+      "genero": "Femenino",
+      "perfil_temas": [
+        "formación mercadotecnia/ventas",
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": "CEO",
+      "industria": "Servicios/Consultoría",
+      "tamano_empresa": "1-10",
+      "paises_negocios": "Europa",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Guanajuato",
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": [
+        "Liderazgo",
+        "Innovación",
+        "Gobierno Corporativo",
+        "Finanzas",
+        "Inteligencia Artificial",
+        "Empresa Familiar",
+        "Tendencias del Mercado",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "formación internacional",
+      "hobbies": [
+        "ejercicio",
+        "lectura",
+        "social"
+      ],
+      "generacion": "G7",
+      "periodo_generacion": "Sep 2023 - Jun 2024"
+    },
+    {
+      "id": "M014",
+      "rango_edad": "55-59",
+      "genero": "Masculino",
+      "perfil_temas": [
+        "formación administración"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": "DIRECTOR DE VENTAS",
+      "industria": "Inmobiliario",
+      "tamano_empresa": "11-50",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo al público",
+      "estado": "Guanajuato",
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": [
+        "Inteligencia Artificial",
+        "Empresa Familiar",
+        "Liderazgo",
+        "Finanzas",
+        "Innovación",
+        "Gobierno Corporativo",
+        "Tendencias del Mercado",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": null,
+      "hobbies": [
+        "CORRER"
+      ],
+      "generacion": "G7",
+      "periodo_generacion": "Sep 2023 - Jun 2024"
+    },
+    {
+      "id": "M015",
+      "rango_edad": "50-54",
+      "genero": "Masculino",
+      "perfil_temas": [
+        "directivo/fundador",
+        "formación finanzas/contable",
+        "formación administración",
+        "perfil internacional"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": "Socio Auditoria",
+      "industria": "Servicios/Consultoría",
+      "tamano_empresa": "101-250",
+      "paises_negocios": "Centroamérica, Europa",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Guanajuato",
+      "relacion_tec": "Papá Tec",
+      "tipos_consejos": [
+        "Educación",
+        "Gobierno/regulación"
+      ],
+      "tipos_participacion_social": [
+        "Participación social general"
+      ],
+      "temas_interes": [
+        "Empresa Familiar",
+        "Inteligencia Artificial",
+        "Finanzas",
+        "Liderazgo",
+        "Gobierno Corporativo",
+        "Tendencias del Mercado",
+        "Innovación",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "economia",
+      "hobbies": [
+        "golf"
+      ],
+      "generacion": "G6",
+      "periodo_generacion": "Sep 2022 - Jun 2023"
+    },
+    {
+      "id": "M016",
+      "rango_edad": "35-39",
+      "genero": "Masculino",
+      "perfil_temas": [
+        "directivo/fundador",
+        "consultor/asesor"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": null,
+      "industria": "Alimentos/Gastronomía",
+      "tamano_empresa": "1000+",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo al público",
+      "estado": "Guanajuato",
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": [
+        "Finanzas",
+        "Inteligencia Artificial",
+        "Gobierno Corporativo",
+        "Tendencias del Mercado",
+        "Innovación",
+        "Liderazgo",
+        "Derecho Corporativo y sus Regulaciones",
+        "Empresa Familiar"
+      ],
+      "otros_temas": "Politica Nacional e Internacional",
+      "hobbies": [
+        "Conciertos",
+        "golf",
+        "teatro"
+      ],
+      "generacion": "G8",
+      "periodo_generacion": "Sep 2024 - Jul 2025"
+    },
+    {
+      "id": "M017",
+      "rango_edad": "35-39",
+      "genero": "Masculino",
+      "perfil_temas": [
+        "empresa familiar"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": "Director General",
+      "industria": "Distribuidor De Camiones De Carga",
+      "tamano_empresa": "101-250",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Guanajuato",
+      "relacion_tec": null,
+      "tipos_consejos": [
+        "Red ejecutiva"
+      ],
+      "tipos_participacion_social": [
+        "Participación social general"
+      ],
+      "temas_interes": [
+        "Inteligencia Artificial",
+        "Empresa Familiar",
+        "Tendencias del Mercado",
+        "Liderazgo",
+        "Gobierno Corporativo",
+        "Innovación",
+        "Finanzas",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Tecnologia",
+      "hobbies": [
+        "Golf",
+        "Viajar",
+        "Leer"
+      ],
+      "generacion": "G6",
+      "periodo_generacion": "Sep 2022 - Jun 2023"
+    },
+    {
+      "id": "M018",
+      "rango_edad": "40-44",
+      "genero": "Masculino",
+      "perfil_temas": [
+        "directivo/fundador"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": "Director General, Grupo AM",
+      "industria": "Medios",
+      "tamano_empresa": "251-500",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Guanajuato",
+      "relacion_tec": "Socio Comercial, Bolsa de Trabajo, Servicio Social, Socio Formador (Trabaja en retos con los estudiantes)",
+      "tipos_consejos": [
+        "Educación"
+      ],
+      "tipos_participacion_social": [
+        "Infancia"
+      ],
+      "temas_interes": [
+        "Inteligencia Artificial",
+        "Empresa Familiar",
+        "Gobierno Corporativo",
+        "Liderazgo",
+        "Finanzas",
+        "Tendencias del Mercado",
+        "Innovación",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "-",
+      "hobbies": [
+        "-"
+      ],
+      "generacion": "G7",
+      "periodo_generacion": "Sep 2023 - Jun 2024"
+    },
+    {
+      "id": "M019",
+      "rango_edad": "60-64",
+      "genero": "Masculino",
+      "perfil_temas": null,
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": "Presidente consejo",
+      "industria": "Construcción/Infraestructura",
+      "tamano_empresa": "1000+",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Guanajuato",
+      "relacion_tec": "Consejeros",
+      "tipos_consejos": [
+        "Cámara empresarial"
+      ],
+      "tipos_participacion_social": [
+        "Participación social general"
+      ],
+      "temas_interes": [
+        "Inteligencia Artificial",
+        "Liderazgo",
+        "Finanzas",
+        "Innovación",
+        "Gobierno Corporativo",
+        "Empresa Familiar",
+        "Tendencias del Mercado",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G2",
+      "periodo_generacion": 2017
+    },
+    {
+      "id": "M020",
+      "rango_edad": "35-39",
+      "genero": "Masculino",
+      "perfil_temas": [
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": "Director",
+      "industria": "Inmobiliario",
+      "tamano_empresa": "51-100",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo al público",
+      "estado": "Guanajuato",
+      "relacion_tec": "Comités",
+      "tipos_consejos": [
+        "Empresa familiar",
+        "Sector inmobiliario/construcción"
+      ],
+      "tipos_participacion_social": null,
+      "temas_interes": [
+        "Inteligencia Artificial",
+        "Empresa Familiar",
+        "Gobierno Corporativo",
+        "Derecho Corporativo y sus Regulaciones",
+        "Finanzas",
+        "Tendencias del Mercado",
+        "Innovación",
+        "Liderazgo"
+      ],
+      "otros_temas": "Aviación.",
+      "hobbies": [
+        "Tiempo con familia. Tiempo con amigos",
+        "volar",
+        "leer"
+      ],
+      "generacion": "G5",
+      "periodo_generacion": "Nov 2019 - Nov 2021"
+    },
+    {
+      "id": "M021",
+      "rango_edad": "40-44",
+      "genero": "Femenino",
+      "perfil_temas": [
+        "directivo/fundador",
+        "formación mercadotecnia/ventas",
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": "Dueña, Directora",
+      "industria": "Turismo",
+      "tamano_empresa": "11-50",
+      "paises_negocios": "Norteamérica, Europa",
+      "tipo_venta": "Vendo al público",
+      "estado": "Guanajuato",
+      "relacion_tec": null,
+      "tipos_consejos": [
+        "Otro"
+      ],
+      "tipos_participacion_social": null,
+      "temas_interes": [
+        "Inteligencia Artificial",
+        "Liderazgo",
+        "Finanzas",
+        "Empresa Familiar",
+        "Gobierno Corporativo",
+        "Tendencias del Mercado",
+        "Innovación",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Investigación de mi ramo turistico",
+      "hobbies": [
+        "La musica",
+        "arte y cocina"
+      ],
+      "generacion": "G9",
+      "periodo_generacion": "Sep 2025- Jul 2026"
+    },
+    {
+      "id": "M022",
+      "rango_edad": "35-39",
+      "genero": "Masculino",
+      "perfil_temas": [
+        "directivo/fundador",
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": "Director Transportes Turísticos",
+      "industria": "Movilidad De Personas Y Mercancías",
+      "tamano_empresa": "1000+",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo al público",
+      "estado": "Guanajuato",
+      "relacion_tec": "Comités",
+      "tipos_consejos": null,
+      "tipos_participacion_social": [
+        "Desarrollo comunitario"
+      ],
+      "temas_interes": [
+        "Inteligencia Artificial",
+        "Tendencias del Mercado",
+        "Liderazgo",
+        "Innovación",
+        "Finanzas",
+        "Gobierno Corporativo",
+        "Empresa Familiar",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Metodologías Agiles",
+      "hobbies": [
+        "Padel",
+        "Baseball"
+      ],
+      "generacion": "G7",
+      "periodo_generacion": "Sep 2023 - Jun 2024"
+    },
+    {
+      "id": "M023",
+      "rango_edad": "40-44",
+      "genero": "Masculino",
+      "perfil_temas": [
+        "empresario",
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "Guanajuato",
+      "es_exatec": false,
+      "puesto_nivel": "Director General",
+      "industria": "Tecnología",
+      "tamano_empresa": "1-10",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Guanajuato",
+      "relacion_tec": null,
+      "tipos_consejos": [
+        "Cámara empresarial"
+      ],
+      "tipos_participacion_social": null,
+      "temas_interes": [
+        "Inteligencia Artificial",
+        "Liderazgo",
+        "Innovación",
+        "Tendencias del Mercado",
+        "Gobierno Corporativo",
+        "Empresa Familiar",
+        "Finanzas",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Energía",
+      "hobbies": [
+        "Ciclismos",
+        "lectura"
+      ],
+      "generacion": "G4",
+      "periodo_generacion": "Nov 2018 - Jull 2019"
+    },
+    {
+      "id": "M024",
+      "rango_edad": "25-29",
+      "genero": "Masculino",
+      "perfil_temas": [
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": "Sub director",
+      "industria": "Transporte/Logística",
+      "tamano_empresa": "1000+",
+      "paises_negocios": "Norteamérica, Centroamérica, Europa",
+      "tipo_venta": "Vendo al público",
+      "estado": "Guanajuato",
+      "relacion_tec": null,
+      "tipos_consejos": [
+        "Cámara empresarial"
+      ],
+      "tipos_participacion_social": [
+        "Participación social general"
+      ],
+      "temas_interes": [
+        "Tendencias del Mercado",
+        "Liderazgo",
+        "Finanzas",
+        "Innovación",
+        "Inteligencia Artificial",
+        "Empresa Familiar",
+        "Gobierno Corporativo",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Innovación",
+      "hobbies": [
+        "Familia",
+        "futbol",
+        "golf"
+      ],
+      "generacion": "G7",
+      "periodo_generacion": "Sep 2023 - Jun 2024"
+    },
+    {
+      "id": "M025",
+      "rango_edad": "45-49",
+      "genero": "Femenino",
+      "perfil_temas": [
+        "consultor/asesor",
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": null,
+      "industria": "Tecnología",
+      "tamano_empresa": "11-50",
+      "paises_negocios": "Norteamérica, Centroamérica",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Guanajuato",
+      "relacion_tec": "Bolsa de Trabajo, Tec Beyond",
+      "tipos_consejos": [
+        "Gobierno/regulación"
+      ],
+      "tipos_participacion_social": [
+        "Participación social general"
+      ],
+      "temas_interes": [
+        "Tendencias del Mercado",
+        "Gobierno Corporativo",
+        "Finanzas",
+        "Liderazgo",
+        "Empresa Familiar",
+        "Innovación",
+        "Derecho Corporativo y sus Regulaciones",
+        "Inteligencia Artificial"
+      ],
+      "otros_temas": "Estrategia comercial y corporativa, gestión de talento,  emprendimiento",
+      "hobbies": [
+        "Viajar",
+        "leer",
+        "pilates"
+      ],
+      "generacion": "G9",
+      "periodo_generacion": "Sep 2025- Jul 2026"
+    },
+    {
+      "id": "M026",
+      "rango_edad": "40-44",
+      "genero": "Masculino",
+      "perfil_temas": [
+        "directivo/fundador",
+        "formación ingeniería",
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": "VP Desarrollo",
+      "industria": "Energía",
+      "tamano_empresa": "101-250",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Guanajuato",
+      "relacion_tec": "Socio Formador (Trabaja en retos con los estudiantes)",
+      "tipos_consejos": [
+        "Cámara empresarial"
+      ],
+      "tipos_participacion_social": null,
+      "temas_interes": [
+        "Innovación",
+        "Gobierno Corporativo",
+        "Finanzas",
+        "Empresa Familiar",
+        "Tendencias del Mercado",
+        "Inteligencia Artificial",
+        "Liderazgo",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Networking",
+      "hobbies": [
+        "Golf",
+        "negocios",
+        "viajar"
+      ],
+      "generacion": "G4",
+      "periodo_generacion": "Nov 2018 - Jull 2019"
+    },
+    {
+      "id": "M027",
+      "rango_edad": "50-54",
+      "genero": "Masculino",
+      "perfil_temas": [
+        "empresario",
+        "empresa familiar"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": "CEO Grupo Real del Barrio",
+      "industria": "Automotriz",
+      "tamano_empresa": "51-100",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo al público",
+      "estado": "Guanajuato",
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": [
+        "Liderazgo",
+        "Tendencias del Mercado",
+        "Finanzas",
+        "Inteligencia Artificial",
+        "Gobierno Corporativo",
+        "Empresa Familiar",
+        "Innovación",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Finanzas/liderazgo/crecimiento",
+      "hobbies": [
+        "Ir al club/viajar/crear"
+      ],
+      "generacion": "G7",
+      "periodo_generacion": "Sep 2023 - Jun 2024"
+    },
+    {
+      "id": "M028",
+      "rango_edad": "35-39",
+      "genero": "Masculino",
+      "perfil_temas": [
+        "consultor/asesor"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": "Director general",
+      "industria": "Seguros",
+      "tamano_empresa": "1-10",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo al público",
+      "estado": "Guanajuato",
+      "relacion_tec": "Tec beyond",
+      "tipos_consejos": [
+        "Otro"
+      ],
+      "tipos_participacion_social": [
+        "Participación social general"
+      ],
+      "temas_interes": [
+        "Finanzas",
+        "Tendencias del Mercado",
+        "Empresa Familiar",
+        "Innovación",
+        "Liderazgo",
+        "Inteligencia Artificial",
+        "Gobierno Corporativo",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Motivación personal y desarrollo organizacional",
+      "hobbies": [
+        "1- golf 2- jugar fútbol 3-pádel"
+      ],
+      "generacion": "G7",
+      "periodo_generacion": "Sep 2023 - Jun 2024"
+    },
+    {
+      "id": "M029",
+      "rango_edad": "40-44",
+      "genero": "Masculino",
+      "perfil_temas": [
+        "directivo/fundador",
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": "CEO ECLOGISTICS",
+      "industria": "Transporte/Logística",
+      "tamano_empresa": "11-50",
+      "paises_negocios": "Norteamérica, Europa, Asia, Medio Oriente u Oriente Medio, Centroamérica",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Multi-estado",
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": [
+        "Participación social general"
+      ],
+      "temas_interes": [
+        "Inteligencia Artificial",
+        "Gobierno Corporativo",
+        "Empresa Familiar",
+        "Tendencias del Mercado",
+        "Derecho Corporativo y sus Regulaciones",
+        "Liderazgo",
+        "Finanzas",
+        "Innovación"
+      ],
+      "otros_temas": "Capacitación sobre Liderazgo",
+      "hobbies": [
+        "Pesas",
+        "Lectura",
+        "Golf"
+      ],
+      "generacion": "G7",
+      "periodo_generacion": "Sep 2023 - Jun 2024"
+    },
+    {
+      "id": "M030",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "formación ingeniería"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": "Director General",
+      "industria": "Transporte/Logística",
+      "tamano_empresa": "251-500",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Multi-estado",
+      "relacion_tec": null,
+      "tipos_consejos": [
+        "Otro"
+      ],
+      "tipos_participacion_social": null,
+      "temas_interes": [
+        "Empresa Familiar",
+        "Derecho Corporativo y sus Regulaciones",
+        "Gobierno Corporativo",
+        "Liderazgo",
+        "Tendencias del Mercado",
+        "Finanzas",
+        "Inteligencia Artificial",
+        "Innovación"
+      ],
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G7",
+      "periodo_generacion": "Sep 2023 - Jun 2024"
+    },
+    {
+      "id": "M031",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "formación educación/psicología",
+        "formación administración",
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G7",
+      "periodo_generacion": "Sep 2023 - Jun 2024"
+    },
+    {
+      "id": "M032",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "formación educación/psicología",
+        "formación administración",
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": "Ahora trabajo Independiente",
+      "industria": "Servicios/Consultoría",
+      "tamano_empresa": "1-10",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Guanajuato",
+      "relacion_tec": null,
+      "tipos_consejos": [
+        "Educación"
+      ],
+      "tipos_participacion_social": [
+        "Cultura/arte",
+        "Desarrollo comunitario",
+        "Educación",
+        "Medio ambiente"
+      ],
+      "temas_interes": [
+        "Innovación",
+        "Liderazgo",
+        "Tendencias del Mercado",
+        "Inteligencia Artificial",
+        "Gobierno Corporativo",
+        "Empresa Familiar",
+        "Finanzas",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "El tema del Agua",
+      "hobbies": [
+        "Plantar árboles; Lectura; Medio Ambiente"
+      ],
+      "generacion": "G7",
+      "periodo_generacion": "Sep 2023 - Jun 2024"
+    },
+    {
+      "id": "M033",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": null,
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G4",
+      "periodo_generacion": "Nov 2018 - Jull 2019"
+    },
+    {
+      "id": "M034",
+      "rango_edad": null,
+      "genero": "Femenino",
+      "perfil_temas": null,
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G9",
+      "periodo_generacion": "Sep 2025- Jul 2026"
+    },
+    {
+      "id": "M035",
+      "rango_edad": null,
+      "genero": "Femenino",
+      "perfil_temas": null,
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": "Diseñadora Principal",
+      "industria": null,
+      "tamano_empresa": "1-10",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo al público",
+      "estado": "Guanajuato",
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": [
+        "Inteligencia Artificial",
+        "Tendencias del Mercado",
+        "Finanzas",
+        "Liderazgo",
+        "Innovación",
+        "Gobierno Corporativo",
+        "Derecho Corporativo y sus Regulaciones",
+        "Empresa Familiar"
+      ],
+      "otros_temas": "Medio ambiente",
+      "hobbies": [
+        "Leer",
+        "Hacer ejercicio",
+        "Salir con amigos-familia"
+      ],
+      "generacion": "G9",
+      "periodo_generacion": "Sep 2025- Jul 2026"
+    },
+    {
+      "id": "M036",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "empresario",
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G5",
+      "periodo_generacion": "Nov 2019 - Nov 2021"
+    },
+    {
+      "id": "M037",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "empresario",
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": "Director General @ MTRBN",
+      "industria": "Llantas",
+      "tamano_empresa": "1-10",
+      "paises_negocios": "Norteamérica, Asia",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Guanajuato",
+      "relacion_tec": "Consejeros, Comités",
+      "tipos_consejos": null,
+      "tipos_participacion_social": [
+        "Asistencia/hogares"
+      ],
+      "temas_interes": [
+        "Tendencias del Mercado",
+        "Inteligencia Artificial",
+        "Finanzas",
+        "Innovación",
+        "Liderazgo",
+        "Empresa Familiar",
+        "Gobierno Corporativo",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Geopolitica, Negocios Internacionales, Mercado de Valores, Economia, Lifestyle (Viajes), Cultura",
+      "hobbies": [
+        "Aprender",
+        "Viajar",
+        "Hacer Deporte"
+      ],
+      "generacion": "G5",
+      "periodo_generacion": "Nov 2019 - Nov 2021"
+    },
+    {
+      "id": "M038",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "directivo/fundador",
+        "empresario",
+        "formación finanzas/contable",
+        "formación legal",
+        "perfil tecnológico",
+        "empresa familiar"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G5",
+      "periodo_generacion": "Nov 2019 - Nov 2021"
+    },
+    {
+      "id": "M039",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "directivo/fundador",
+        "empresario",
+        "formación finanzas/contable",
+        "formación legal",
+        "perfil tecnológico",
+        "empresa familiar"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": "Director General GrupoER",
+      "industria": "Construcción/Infraestructura",
+      "tamano_empresa": "501-1000",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Guanajuato",
+      "relacion_tec": null,
+      "tipos_consejos": [
+        "Cámara empresarial"
+      ],
+      "tipos_participacion_social": [
+        "Participación social general"
+      ],
+      "temas_interes": [
+        "Inteligencia Artificial",
+        "Gobierno Corporativo",
+        "Empresa Familiar",
+        "Liderazgo",
+        "Finanzas",
+        "Tendencias del Mercado",
+        "Innovación",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Participación ciudadana, democracia, sostenibilidad",
+      "hobbies": [
+        "Deportes juego tenis y golf; viajo; leo"
+      ],
+      "generacion": "G5",
+      "periodo_generacion": "Nov 2019 - Nov 2021"
+    },
+    {
+      "id": "M040",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "empresario",
+        "formación ingeniería",
+        "formación mercadotecnia/ventas",
+        "formación administración",
+        "perfil tecnológico",
+        "perfil internacional"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "Alicante (España)",
+      "es_exatec": false,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G4",
+      "periodo_generacion": "Nov 2018 - Jull 2019"
+    },
+    {
+      "id": "M041",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "empresario",
+        "formación ingeniería",
+        "formación mercadotecnia/ventas",
+        "formación administración",
+        "perfil tecnológico",
+        "perfil internacional"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "Alicante (España)",
+      "es_exatec": false,
+      "puesto_nivel": "CEO",
+      "industria": "Manufactura/Textil",
+      "tamano_empresa": "501-1000",
+      "paises_negocios": "Norteamérica, Centroamérica, Sudamérica, Europa, Asia",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "CV (España)",
+      "relacion_tec": null,
+      "tipos_consejos": [
+        "Otro"
+      ],
+      "tipos_participacion_social": [
+        "Participación social general"
+      ],
+      "temas_interes": [
+        "Innovación",
+        "Liderazgo",
+        "Tendencias del Mercado",
+        "Inteligencia Artificial",
+        "Gobierno Corporativo",
+        "Finanzas",
+        "Derecho Corporativo y sus Regulaciones",
+        "Empresa Familiar"
+      ],
+      "otros_temas": "Economía Circular, Polímeros, Automatización Procesos",
+      "hobbies": [
+        "Fútbol",
+        "explorar startups en fases iniciales",
+        "Impresión 3D"
+      ],
+      "generacion": "G4",
+      "periodo_generacion": "Nov 2018 - Jull 2019"
+    },
+    {
+      "id": "M042",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "formación administración",
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G9",
+      "periodo_generacion": "Sep 2025- Jul 2026"
+    },
+    {
+      "id": "M043",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "formación administración",
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": "Banquero Privado, VP",
+      "industria": null,
+      "tamano_empresa": "1000+",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo al público",
+      "estado": "Cdmx",
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": [
+        "Participación social general"
+      ],
+      "temas_interes": [
+        "Finanzas",
+        "Inteligencia Artificial",
+        "Tendencias del Mercado",
+        "Liderazgo",
+        "Innovación",
+        "Gobierno Corporativo",
+        "Empresa Familiar",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": null,
+      "hobbies": [
+        "Deportes",
+        "series",
+        "cocinar"
+      ],
+      "generacion": "G9",
+      "periodo_generacion": "Sep 2025- Jul 2026"
+    },
+    {
+      "id": "M044",
+      "rango_edad": null,
+      "genero": "Femenino",
+      "perfil_temas": [
+        "formación legal",
+        "perfil internacional"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León, Geo",
+      "es_exatec": false,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G9",
+      "periodo_generacion": "Sep 2025- Jul 2026"
+    },
+    {
+      "id": "M045",
+      "rango_edad": null,
+      "genero": "Femenino",
+      "perfil_temas": [
+        "formación legal",
+        "perfil internacional"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León, Geo",
+      "es_exatec": false,
+      "puesto_nivel": null,
+      "industria": "Legal",
+      "tamano_empresa": "1-10",
+      "paises_negocios": "Centroamérica",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Multi-estado",
+      "relacion_tec": "Papá Tec",
+      "tipos_consejos": [
+        "Otro"
+      ],
+      "tipos_participacion_social": [
+        "Participación social general"
+      ],
+      "temas_interes": [
+        "Derecho Corporativo y sus Regulaciones",
+        "Gobierno Corporativo",
+        "Inteligencia Artificial",
+        "Innovación",
+        "Empresa Familiar",
+        "Liderazgo",
+        "Finanzas",
+        "Tendencias del Mercado"
+      ],
+      "otros_temas": "SOSTENIBILIDAD (ASG)",
+      "hobbies": [
+        "CORRER",
+        "PILATES",
+        "VIOLIN"
+      ],
+      "generacion": "G9",
+      "periodo_generacion": "Sep 2025- Jul 2026"
+    },
+    {
+      "id": "M046",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "directivo/fundador"
+      ],
+      "nivel_estudios": "Preparatoria",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G4",
+      "periodo_generacion": "Nov 2018 - Jull 2019"
+    },
+    {
+      "id": "M047",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "directivo/fundador"
+      ],
+      "nivel_estudios": "Preparatoria",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": "director operaciones",
+      "industria": "Es Correcto",
+      "tamano_empresa": "251-500",
+      "paises_negocios": "Norteamérica, Europa, Asia",
+      "tipo_venta": "Vendo al público",
+      "estado": "romita guanajuato",
+      "relacion_tec": null,
+      "tipos_consejos": [
+        "Otro"
+      ],
+      "tipos_participacion_social": [
+        "Participación social general"
+      ],
+      "temas_interes": [
+        "Gobierno Corporativo",
+        "Empresa Familiar",
+        "Liderazgo",
+        "Finanzas",
+        "Inteligencia Artificial",
+        "Tendencias del Mercado",
+        "Innovación",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "inteligencia artificial e innovación",
+      "hobbies": [
+        "futbol"
+      ],
+      "generacion": "G4",
+      "periodo_generacion": "Nov 2018 - Jull 2019"
+    },
+    {
+      "id": "M048",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "formación finanzas/contable",
+        "formación administración",
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G6",
+      "periodo_generacion": "Sep 2022 - Jun 2023"
+    },
+    {
+      "id": "M049",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "formación finanzas/contable",
+        "formación administración",
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": "SOCIO DIRECTOR",
+      "industria": "Servicios/Consultoría",
+      "tamano_empresa": "11-50",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Guanajuato",
+      "relacion_tec": null,
+      "tipos_consejos": [
+        "Otro"
+      ],
+      "tipos_participacion_social": [
+        "Asistencia/hogares"
+      ],
+      "temas_interes": [
+        "Gobierno Corporativo",
+        "Empresa Familiar",
+        "Liderazgo",
+        "Finanzas",
+        "Innovación",
+        "Derecho Corporativo y sus Regulaciones",
+        "Inteligencia Artificial",
+        "Tendencias del Mercado"
+      ],
+      "otros_temas": "clima laboral\nsalud mental",
+      "hobbies": [
+        "jugar tenis",
+        "pasear a mis perros",
+        "futbol"
+      ],
+      "generacion": "G6",
+      "periodo_generacion": "Sep 2022 - Jun 2023"
+    },
+    {
+      "id": "M050",
+      "rango_edad": null,
+      "genero": "Femenino",
+      "perfil_temas": [
+        "perfil tecnológico",
+        "orientación social"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G7",
+      "periodo_generacion": "Sep 2023 - Jun 2024"
+    },
+    {
+      "id": "M051",
+      "rango_edad": null,
+      "genero": "Femenino",
+      "perfil_temas": [
+        "perfil tecnológico",
+        "orientación social"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": "Director",
+      "industria": "Servicios/Consultoría",
+      "tamano_empresa": "101-250",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo al público",
+      "estado": "leon",
+      "relacion_tec": null,
+      "tipos_consejos": [
+        "Cámara empresarial",
+        "Organización social",
+        "Seguridad"
+      ],
+      "tipos_participacion_social": [
+        "Participación social general"
+      ],
+      "temas_interes": [
+        "Liderazgo",
+        "Inteligencia Artificial",
+        "Innovación",
+        "Tendencias del Mercado",
+        "Gobierno Corporativo",
+        "Empresa Familiar",
+        "Finanzas",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Superación Personal",
+      "hobbies": [
+        "cine"
+      ],
+      "generacion": "G7",
+      "periodo_generacion": "Sep 2023 - Jun 2024"
+    },
+    {
+      "id": "M052",
+      "rango_edad": null,
+      "genero": "Femenino",
+      "perfil_temas": [
+        "formación finanzas/contable",
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León, Guanajuato",
+      "es_exatec": true,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G7",
+      "periodo_generacion": "Sep 2023 - Jun 2024"
+    },
+    {
+      "id": "M053",
+      "rango_edad": null,
+      "genero": "Femenino",
+      "perfil_temas": [
+        "formación finanzas/contable",
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León, Guanajuato",
+      "es_exatec": true,
+      "puesto_nivel": "Dirección de Liderazgo y Formación Estudiantil",
+      "industria": "Educación",
+      "tamano_empresa": "251-500",
+      "paises_negocios": "Norteamérica, Centroamérica, Sudamérica",
+      "tipo_venta": "Vendo al público",
+      "estado": "Guanajuato",
+      "relacion_tec": "Colaboradora",
+      "tipos_consejos": [
+        "Educación"
+      ],
+      "tipos_participacion_social": [
+        "Participación social general"
+      ],
+      "temas_interes": [
+        "Inteligencia Artificial",
+        "Liderazgo",
+        "Tendencias del Mercado",
+        "Empresa Familiar",
+        "Finanzas",
+        "Gobierno Corporativo",
+        "Innovación",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Deporte y Cultura co.o medio de Desarrollo Estudiantil",
+      "hobbies": [
+        "Escuchar música",
+        "leer y aprender cosas nuevas"
+      ],
+      "generacion": "G7",
+      "periodo_generacion": "Sep 2023 - Jun 2024"
+    },
+    {
+      "id": "M054",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "empresario"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G7",
+      "periodo_generacion": "Sep 2023 - Jun 2024"
+    },
+    {
+      "id": "M055",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "empresario"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "Mi Residencia Oficial Es Cortazar, Gto. Aunque No Es Donde Mas Radico, Me Encuentro Mas Tiempo En León, Gto.",
+      "es_exatec": true,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G6",
+      "periodo_generacion": "Sep 2022 - Jun 2023"
+    },
+    {
+      "id": "M056",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "empresario"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "Mi Residencia Oficial Es Cortazar, Gto. Aunque No Es Donde Mas Radico, Me Encuentro Mas Tiempo En León, Gto.",
+      "es_exatec": true,
+      "puesto_nivel": "Vicepresidente del Consejo",
+      "industria": "Transporte/Logística",
+      "tamano_empresa": "1000+",
+      "paises_negocios": "Europa, Norteamérica",
+      "tipo_venta": "Vendo al público",
+      "estado": "Guanajuato",
+      "relacion_tec": "Papá Tec, Bolsa de Trabajo, Socio Formador (Trabaja en retos con los estudiantes), Socio Comercial, Servicio Social",
+      "tipos_consejos": [
+        "Cámara empresarial"
+      ],
+      "tipos_participacion_social": [
+        "Participación social general"
+      ],
+      "temas_interes": [
+        "Tendencias del Mercado",
+        "Innovación",
+        "Inteligencia Artificial",
+        "Gobierno Corporativo",
+        "Derecho Corporativo y sus Regulaciones",
+        "Finanzas",
+        "Empresa Familiar",
+        "Liderazgo"
+      ],
+      "otros_temas": "Políticas Públicas",
+      "hobbies": [
+        "Pescar",
+        "Cocinar",
+        "Fotografía"
+      ],
+      "generacion": "G6",
+      "periodo_generacion": "Sep 2022 - Jun 2023"
+    },
+    {
+      "id": "M057",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "directivo/fundador",
+        "perfil tecnológico",
+        "empresa familiar"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G6",
+      "periodo_generacion": "Sep 2022 - Jun 2023"
+    },
+    {
+      "id": "M058",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "directivo/fundador",
+        "perfil tecnológico",
+        "empresa familiar"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": "DIRECTOR GENERAL",
+      "industria": "Cartonera",
+      "tamano_empresa": "251-500",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Guanajuato",
+      "relacion_tec": null,
+      "tipos_consejos": [
+        "Otro"
+      ],
+      "tipos_participacion_social": null,
+      "temas_interes": [
+        "Inteligencia Artificial",
+        "Gobierno Corporativo",
+        "Empresa Familiar",
+        "Liderazgo",
+        "Finanzas",
+        "Tendencias del Mercado",
+        "Innovación",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": null,
+      "hobbies": [
+        "tenis",
+        "bicicleta y correr"
+      ],
+      "generacion": "G6",
+      "periodo_generacion": "Sep 2022 - Jun 2023"
+    },
+    {
+      "id": "M059",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G4",
+      "periodo_generacion": "Nov 2018 - Jull 2019"
+    },
+    {
+      "id": "M060",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "formación administración",
+        "perfil tecnológico",
+        "jubilado/retirado"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G3",
+      "periodo_generacion": 2018
+    },
+    {
+      "id": "M061",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": "Directo General de Innovación, Ciencia y Emprendimiento",
+      "industria": "Gobierno",
+      "tamano_empresa": "51-100",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo al público",
+      "estado": "Guanajuato",
+      "relacion_tec": "Comités",
+      "tipos_consejos": [
+        "Gobierno/regulación"
+      ],
+      "tipos_participacion_social": null,
+      "temas_interes": [
+        "Innovación",
+        "Inteligencia Artificial",
+        "Liderazgo",
+        "Tendencias del Mercado",
+        "Derecho Corporativo y sus Regulaciones",
+        "Finanzas",
+        "Gobierno Corporativo",
+        "Empresa Familiar"
+      ],
+      "otros_temas": "Sostenibilidad",
+      "hobbies": [
+        "Cine",
+        "leer",
+        "meditar"
+      ],
+      "generacion": "G4",
+      "periodo_generacion": "Nov 2018 - Jull 2019"
+    },
+    {
+      "id": "M062",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "formación administración",
+        "perfil tecnológico",
+        "jubilado/retirado"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": "Gerente General de las bodegas",
+      "industria": "Servicios/Consultoría",
+      "tamano_empresa": "1-10",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo al público",
+      "estado": "Multi-estado",
+      "relacion_tec": "TecBeyonds",
+      "tipos_consejos": [
+        "Sector inmobiliario/construcción"
+      ],
+      "tipos_participacion_social": null,
+      "temas_interes": [
+        "Empresa Familiar",
+        "Finanzas",
+        "Innovación",
+        "Liderazgo",
+        "Inteligencia Artificial",
+        "Gobierno Corporativo",
+        "Tendencias del Mercado",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Me gusta la historia",
+      "hobbies": [
+        "Salir de viaje",
+        "ver TV",
+        "Leer"
+      ],
+      "generacion": "G3",
+      "periodo_generacion": 2018
+    },
+    {
+      "id": "M063",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": null,
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G1",
+      "periodo_generacion": 2016
+    },
+    {
+      "id": "M064",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": null,
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": "Consejero",
+      "industria": null,
+      "tamano_empresa": "1000+",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo al público",
+      "estado": "Guanajuato",
+      "relacion_tec": "Consejeros",
+      "tipos_consejos": [
+        "Sector inmobiliario/construcción"
+      ],
+      "tipos_participacion_social": null,
+      "temas_interes": [
+        "Tendencias del Mercado",
+        "Inteligencia Artificial",
+        "Innovación",
+        "Finanzas",
+        "Gobierno Corporativo",
+        "Liderazgo",
+        "Empresa Familiar",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Geopolítica",
+      "hobbies": [
+        "Golf",
+        "Caminar",
+        "Viajar."
+      ],
+      "generacion": "G1",
+      "periodo_generacion": 2016
+    },
+    {
+      "id": "M065",
+      "rango_edad": null,
+      "genero": "Femenino",
+      "perfil_temas": [
+        "directivo/fundador",
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G3",
+      "periodo_generacion": 2018
+    },
+    {
+      "id": "M066",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "formación educación/psicología",
+        "perfil internacional"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G3",
+      "periodo_generacion": 2018
+    },
+    {
+      "id": "M067",
+      "rango_edad": null,
+      "genero": "Femenino",
+      "perfil_temas": [
+        "directivo/fundador"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G6",
+      "periodo_generacion": "Sep 2022 - Jun 2023"
+    },
+    {
+      "id": "M068",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "formación educación/psicología",
+        "perfil internacional"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": "CEO Sinergia Global",
+      "industria": "Educación",
+      "tamano_empresa": "11-50",
+      "paises_negocios": "Europa, Medio Oriente u Oriente Medio, Asia, Norteamérica, Sudamérica",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Guanajuato",
+      "relacion_tec": "Socio Comercial",
+      "tipos_consejos": [
+        "Otro"
+      ],
+      "tipos_participacion_social": [
+        "Educación"
+      ],
+      "temas_interes": [
+        "Innovación",
+        "Inteligencia Artificial",
+        "Liderazgo",
+        "Tendencias del Mercado",
+        "Gobierno Corporativo",
+        "Empresa Familiar",
+        "Finanzas",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Educación",
+      "hobbies": [
+        "Futbol",
+        "bosque",
+        "playa"
+      ],
+      "generacion": "G3",
+      "periodo_generacion": 2018
+    },
+    {
+      "id": "M069",
+      "rango_edad": null,
+      "genero": "Femenino",
+      "perfil_temas": [
+        "directivo/fundador"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": "Dirección General",
+      "industria": "Otro",
+      "tamano_empresa": "1-10",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Guanajuato",
+      "relacion_tec": "Tec Beyond",
+      "tipos_consejos": [
+        "Organización social"
+      ],
+      "tipos_participacion_social": null,
+      "temas_interes": [
+        "Finanzas",
+        "Innovación",
+        "Empresa Familiar",
+        "Liderazgo",
+        "Inteligencia Artificial",
+        "Gobierno Corporativo",
+        "Tendencias del Mercado",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Movilidad, medio ambiente, desarrollo urban",
+      "hobbies": [
+        "Practicar pádel",
+        "el futbol y cine"
+      ],
+      "generacion": "G6",
+      "periodo_generacion": "Sep 2022 - Jun 2023"
+    },
+    {
+      "id": "M070",
+      "rango_edad": null,
+      "genero": "Femenino",
+      "perfil_temas": [
+        "directivo/fundador",
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": "Directora General",
+      "industria": "Finanzas",
+      "tamano_empresa": "501-1000",
+      "paises_negocios": "Centroamérica",
+      "tipo_venta": "Vendo al público",
+      "estado": "Guanajuato",
+      "relacion_tec": "Socio Comercial",
+      "tipos_consejos": [
+        "Otro"
+      ],
+      "tipos_participacion_social": [
+        "Salud"
+      ],
+      "temas_interes": [
+        "Inteligencia Artificial",
+        "Gobierno Corporativo",
+        "Empresa Familiar",
+        "Liderazgo",
+        "Finanzas",
+        "Tendencias del Mercado",
+        "Innovación",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "ya están completos mis temas de interes",
+      "hobbies": [
+        "correr",
+        "pesas",
+        "juegos de memoria"
+      ],
+      "generacion": "G3",
+      "periodo_generacion": 2018
+    },
+    {
+      "id": "M071",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "empresario",
+        "perfil tecnológico",
+        "empresa familiar"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "Leon, Gto",
+      "es_exatec": true,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G1",
+      "periodo_generacion": 2016
+    },
+    {
+      "id": "M072",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "empresario",
+        "perfil tecnológico",
+        "empresa familiar"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "Leon, Gto",
+      "es_exatec": true,
+      "puesto_nivel": "CEO",
+      "industria": "Inmobiliario",
+      "tamano_empresa": "51-100",
+      "paises_negocios": "Sudamérica",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Guanajuato",
+      "relacion_tec": "Socio Formador (Trabaja en retos con los estudiantes), Profesor Catedra",
+      "tipos_consejos": [
+        "Gobierno/regulación"
+      ],
+      "tipos_participacion_social": null,
+      "temas_interes": [
+        "Empresa Familiar",
+        "Inteligencia Artificial",
+        "Liderazgo",
+        "Gobierno Corporativo",
+        "Tendencias del Mercado",
+        "Innovación",
+        "Finanzas",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Desarrollo Inmobiliario y Comportamiento Humano",
+      "hobbies": [
+        "Lectura",
+        "Docencia",
+        "Deportes al aire libre (mar y tierra)"
+      ],
+      "generacion": "G1",
+      "periodo_generacion": 2016
+    },
+    {
+      "id": "M073",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "formación finanzas/contable",
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G3",
+      "periodo_generacion": 2018
+    },
+    {
+      "id": "M074",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "formación finanzas/contable",
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": "Director General",
+      "industria": "Manufactura/Textil",
+      "tamano_empresa": "11-50",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Guanajuato",
+      "relacion_tec": "Comités",
+      "tipos_consejos": [
+        "Otro"
+      ],
+      "tipos_participacion_social": [
+        "Participación social general"
+      ],
+      "temas_interes": [
+        "Inteligencia Artificial",
+        "Empresa Familiar",
+        "Tendencias del Mercado",
+        "Liderazgo",
+        "Finanzas",
+        "Innovación",
+        "Gobierno Corporativo",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Nuevas tecnologias",
+      "hobbies": [
+        "Ciclismo de Montaña",
+        "Padel",
+        "Ver series"
+      ],
+      "generacion": "G3",
+      "periodo_generacion": 2018
+    },
+    {
+      "id": "M075",
+      "rango_edad": null,
+      "genero": "Femenino",
+      "perfil_temas": [
+        "consultor/asesor",
+        "formación finanzas/contable",
+        "formación educación/psicología",
+        "formación administración",
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León, Guanajuato",
+      "es_exatec": false,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G9",
+      "periodo_generacion": "Sep 2025- Jul 2026"
+    },
+    {
+      "id": "M076",
+      "rango_edad": null,
+      "genero": "Femenino",
+      "perfil_temas": [
+        "consultor/asesor",
+        "formación finanzas/contable",
+        "formación educación/psicología",
+        "formación administración",
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León, Guanajuato",
+      "es_exatec": false,
+      "puesto_nivel": "Rectora",
+      "industria": "Educación",
+      "tamano_empresa": "251-500",
+      "paises_negocios": "Norteamérica, Europa",
+      "tipo_venta": "Vendo al público",
+      "estado": "Guanajuato",
+      "relacion_tec": "Papá Tec, Consejeros, Socio Comercial",
+      "tipos_consejos": [
+        "Educación"
+      ],
+      "tipos_participacion_social": [
+        "Asistencia/hogares",
+        "Infancia",
+        "Salud"
+      ],
+      "temas_interes": [
+        "Innovación",
+        "Finanzas",
+        "Gobierno Corporativo",
+        "Tendencias del Mercado",
+        "Liderazgo",
+        "Inteligencia Artificial",
+        "Empresa Familiar",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Economía (Micro y Macro), política principalmente económica",
+      "hobbies": [
+        "Estar con mi familia",
+        "leer y viajar"
+      ],
+      "generacion": "G9",
+      "periodo_generacion": "Sep 2025- Jul 2026"
+    },
+    {
+      "id": "M077",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": null,
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "Guanajuato",
+      "es_exatec": false,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G3",
+      "periodo_generacion": 2018
+    },
+    {
+      "id": "M078",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": null,
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "Guanajuato",
+      "es_exatec": false,
+      "puesto_nivel": "Director General",
+      "industria": "Minería/Metalurgia",
+      "tamano_empresa": "1000+",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Guanajuato",
+      "relacion_tec": null,
+      "tipos_consejos": [
+        "Otro"
+      ],
+      "tipos_participacion_social": [
+        "Participación social general"
+      ],
+      "temas_interes": [
+        "Liderazgo",
+        "Gobierno Corporativo",
+        "Derecho Corporativo y sus Regulaciones",
+        "Empresa Familiar",
+        "Finanzas",
+        "Inteligencia Artificial",
+        "Tendencias del Mercado",
+        "Innovación"
+      ],
+      "otros_temas": "tipo de cambio, precio del oro y la plata,",
+      "hobbies": [
+        "Cacería y pesca"
+      ],
+      "generacion": "G3",
+      "periodo_generacion": 2018
+    },
+    {
+      "id": "M079",
+      "rango_edad": null,
+      "genero": "Femenino",
+      "perfil_temas": [
+        "empresa familiar"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G2",
+      "periodo_generacion": 2017
+    },
+    {
+      "id": "M080",
+      "rango_edad": null,
+      "genero": "Femenino",
+      "perfil_temas": [
+        "empresa familiar"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": "Co-dirección",
+      "industria": "Entretenimiento",
+      "tamano_empresa": "51-100",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Guanajuato",
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": [
+        "Innovación",
+        "Gobierno Corporativo",
+        "Empresa Familiar",
+        "Liderazgo",
+        "Inteligencia Artificial",
+        "Finanzas",
+        "Tendencias del Mercado",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Historias de éxitos y fracasos",
+      "hobbies": [
+        "Viajar"
+      ],
+      "generacion": "G2",
+      "periodo_generacion": 2017
+    },
+    {
+      "id": "M081",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "directivo/fundador",
+        "empresario",
+        "formación ingeniería",
+        "formación administración",
+        "perfil tecnológico",
+        "perfil internacional"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "Leon, Gto.",
+      "es_exatec": true,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G4",
+      "periodo_generacion": "Nov 2018 - Jull 2019"
+    },
+    {
+      "id": "M082",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "directivo/fundador",
+        "empresario",
+        "formación ingeniería",
+        "formación administración",
+        "perfil tecnológico",
+        "perfil internacional"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "Leon, Gto.",
+      "es_exatec": true,
+      "puesto_nivel": "CEO & General Manager",
+      "industria": "Tecnología",
+      "tamano_empresa": "101-250",
+      "paises_negocios": "Norteamérica, Centroamérica, Sudamérica, Europa",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Guanajuato",
+      "relacion_tec": "Comités, Papá Tec, Socio Formador (Trabaja en retos con los estudiantes), Socio Comercial, Donante",
+      "tipos_consejos": [
+        "Otro"
+      ],
+      "tipos_participacion_social": null,
+      "temas_interes": [
+        "Inteligencia Artificial",
+        "Innovación",
+        "Liderazgo",
+        "Tendencias del Mercado",
+        "Gobierno Corporativo",
+        "Finanzas",
+        "Empresa Familiar",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Tecnologia y Comercio Internacional",
+      "hobbies": [
+        "Volar drones",
+        "Pilotear Aeronaves"
+      ],
+      "generacion": "G4",
+      "periodo_generacion": "Nov 2018 - Jull 2019"
+    },
+    {
+      "id": "M083",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "directivo/fundador"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G2",
+      "periodo_generacion": 2017
+    },
+    {
+      "id": "M084",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "directivo/fundador"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": "Director General Colegio Humane",
+      "industria": "Educación",
+      "tamano_empresa": "101-250",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo al público",
+      "estado": "Guanajuato",
+      "relacion_tec": "Consejeros, Papá Tec, Socio Formador (Trabaja en retos con los estudiantes)",
+      "tipos_consejos": [
+        "Otro"
+      ],
+      "tipos_participacion_social": [
+        "Participación social general"
+      ],
+      "temas_interes": [
+        "Inteligencia Artificial",
+        "Innovación",
+        "Tendencias del Mercado",
+        "Finanzas",
+        "Liderazgo",
+        "Gobierno Corporativo",
+        "Empresa Familiar",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Economia Circular",
+      "hobbies": null,
+      "generacion": "G2",
+      "periodo_generacion": 2017
+    },
+    {
+      "id": "M085",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": null,
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G2",
+      "periodo_generacion": 2017
+    },
+    {
+      "id": "M086",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": null,
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": "Presidente del consejo y CEO",
+      "industria": "Cuero/Calzado",
+      "tamano_empresa": "101-250",
+      "paises_negocios": "Norteamérica, Centroamérica, Sudamérica",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "León Guanajuato",
+      "relacion_tec": "Comités",
+      "tipos_consejos": [
+        "Otro"
+      ],
+      "tipos_participacion_social": [
+        "Cultura/arte"
+      ],
+      "temas_interes": [
+        "Inteligencia Artificial",
+        "Empresa Familiar",
+        "Liderazgo",
+        "Innovación",
+        "Finanzas",
+        "Derecho Corporativo y sus Regulaciones",
+        "Gobierno Corporativo",
+        "Tendencias del Mercado"
+      ],
+      "otros_temas": "Consejos de Administración",
+      "hobbies": [
+        "Natación"
+      ],
+      "generacion": "G2",
+      "periodo_generacion": 2017
+    },
+    {
+      "id": "M087",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "formación legal"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León, Guanajuato",
+      "es_exatec": true,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G1",
+      "periodo_generacion": 2016
+    },
+    {
+      "id": "M088",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "formación legal"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León, Guanajuato",
+      "es_exatec": true,
+      "puesto_nivel": "Dirección General",
+      "industria": null,
+      "tamano_empresa": "251-500",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo al público",
+      "estado": "Guanajuato",
+      "relacion_tec": null,
+      "tipos_consejos": [
+        "Otro"
+      ],
+      "tipos_participacion_social": [
+        "Cultura/arte"
+      ],
+      "temas_interes": [
+        "Gobierno Corporativo",
+        "Empresa Familiar",
+        "Liderazgo",
+        "Inteligencia Artificial",
+        "Innovación",
+        "Tendencias del Mercado",
+        "Finanzas",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Desarrollo Urbano y ciudades inteligentes",
+      "hobbies": [
+        "Buceo",
+        "bicicleta de Montaña",
+        "Squash",
+        "senderismo",
+        "viajar por el mundo"
+      ],
+      "generacion": "G1",
+      "periodo_generacion": 2016
+    },
+    {
+      "id": "M089",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "directivo/fundador",
+        "empresario",
+        "consultor/asesor",
+        "formación finanzas/contable",
+        "formación administración",
+        "perfil tecnológico",
+        "empresa familiar",
+        "perfil internacional"
+      ],
+      "nivel_estudios": "Doctorado (Doctorado)",
+      "ciudad": "Irapuato",
+      "es_exatec": true,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G5",
+      "periodo_generacion": "Nov 2019 - Nov 2021"
+    },
+    {
+      "id": "M090",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "directivo/fundador",
+        "empresario",
+        "consultor/asesor",
+        "formación finanzas/contable",
+        "formación administración",
+        "perfil tecnológico",
+        "empresa familiar",
+        "perfil internacional"
+      ],
+      "nivel_estudios": "Doctorado (Doctorado)",
+      "ciudad": "Irapuato",
+      "es_exatec": true,
+      "puesto_nivel": "Negocios",
+      "industria": "Educación",
+      "tamano_empresa": "1000+",
+      "paises_negocios": "Europa, Norteamérica, Centroamérica, Sudamérica, Asia, Medio Oriente u Oriente Medio, Australia",
+      "tipo_venta": "Vendo al público",
+      "estado": null,
+      "relacion_tec": "Colaborador",
+      "tipos_consejos": [
+        "Otro"
+      ],
+      "tipos_participacion_social": null,
+      "temas_interes": [
+        "Inteligencia Artificial",
+        "Innovación",
+        "Liderazgo",
+        "Finanzas",
+        "Empresa Familiar",
+        "Tendencias del Mercado",
+        "Derecho Corporativo y sus Regulaciones",
+        "Gobierno Corporativo"
+      ],
+      "otros_temas": null,
+      "hobbies": [
+        "Cine",
+        "Deporte"
+      ],
+      "generacion": "G5",
+      "periodo_generacion": "Nov 2019 - Nov 2021"
+    },
+    {
+      "id": "M091",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "directivo/fundador"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G6",
+      "periodo_generacion": "Sep 2022 - Jun 2023"
+    },
+    {
+      "id": "M092",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "directivo/fundador"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": "Co Director general",
+      "industria": "Construcción/Infraestructura",
+      "tamano_empresa": "501-1000",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo al público",
+      "estado": "Guanajuato",
+      "relacion_tec": "Consejeros",
+      "tipos_consejos": [
+        "Otro"
+      ],
+      "tipos_participacion_social": null,
+      "temas_interes": [
+        "Inteligencia Artificial",
+        "Innovación",
+        "Empresa Familiar",
+        "Finanzas",
+        "Liderazgo",
+        "Gobierno Corporativo",
+        "Tendencias del Mercado",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Salud",
+      "hobbies": [
+        "VIAJAR",
+        "GOLF",
+        "TENIS"
+      ],
+      "generacion": "G6",
+      "periodo_generacion": "Sep 2022 - Jun 2023"
+    },
+    {
+      "id": "M093",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "consultor/asesor",
+        "formación ingeniería",
+        "perfil tecnológico",
+        "orientación social"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G6",
+      "periodo_generacion": "Sep 2022 - Jun 2023"
+    },
+    {
+      "id": "M094",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "consultor/asesor",
+        "formación ingeniería",
+        "perfil tecnológico",
+        "orientación social"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": "11-50",
+      "paises_negocios": "Norteamérica, Centroamérica, Asia",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Guanajuato",
+      "relacion_tec": "Consejeros, Socio Formador (Trabaja en retos con los estudiantes)",
+      "tipos_consejos": [
+        "Sector industrial"
+      ],
+      "tipos_participacion_social": null,
+      "temas_interes": [
+        "Finanzas",
+        "Liderazgo",
+        "Innovación",
+        "Inteligencia Artificial",
+        "Empresa Familiar",
+        "Gobierno Corporativo",
+        "Derecho Corporativo y sus Regulaciones",
+        "Tendencias del Mercado"
+      ],
+      "otros_temas": "Cultura Organizacional",
+      "hobbies": [
+        "Barista"
+      ],
+      "generacion": "G6",
+      "periodo_generacion": "Sep 2022 - Jun 2023"
+    },
+    {
+      "id": "M095",
+      "rango_edad": null,
+      "genero": "Femenino",
+      "perfil_temas": [
+        "directivo/fundador",
+        "consultor/asesor",
+        "formación finanzas/contable",
+        "formación administración",
+        "perfil tecnológico",
+        "orientación social"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G2",
+      "periodo_generacion": 2017
+    },
+    {
+      "id": "M096",
+      "rango_edad": null,
+      "genero": "Femenino",
+      "perfil_temas": [
+        "directivo/fundador",
+        "consultor/asesor",
+        "formación finanzas/contable",
+        "formación administración",
+        "perfil tecnológico",
+        "orientación social"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": "presidente ejecutivo de APIMEX",
+      "industria": "Servicios/Consultoría",
+      "tamano_empresa": "1-10",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Guanajuato",
+      "relacion_tec": null,
+      "tipos_consejos": [
+        "Otro"
+      ],
+      "tipos_participacion_social": [
+        "Infancia"
+      ],
+      "temas_interes": [
+        "Inteligencia Artificial",
+        "Innovación",
+        "Gobierno Corporativo",
+        "Tendencias del Mercado",
+        "Empresa Familiar",
+        "Finanzas",
+        "Liderazgo",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Escritura, literatura y arte",
+      "hobbies": [
+        "Canto",
+        "ejercicio pilates",
+        "aerobico",
+        "pesas y estar con amigos"
+      ],
+      "generacion": "G2",
+      "periodo_generacion": 2017
+    },
+    {
+      "id": "M097",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "directivo/fundador"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "Leon, Gto.",
+      "es_exatec": false,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G1",
+      "periodo_generacion": 2016
+    },
+    {
+      "id": "M098",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "directivo/fundador"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "Leon, Gto.",
+      "es_exatec": false,
+      "puesto_nivel": "Director General",
+      "industria": null,
+      "tamano_empresa": "501-1000",
+      "paises_negocios": "Norteamérica, Asia",
+      "tipo_venta": "Vendo al público",
+      "estado": "Guanajuato",
+      "relacion_tec": null,
+      "tipos_consejos": [
+        "Otro"
+      ],
+      "tipos_participacion_social": [
+        "Participación social general"
+      ],
+      "temas_interes": [
+        "Empresa Familiar",
+        "Gobierno Corporativo",
+        "Liderazgo",
+        "Finanzas",
+        "Tendencias del Mercado",
+        "Inteligencia Artificial",
+        "Innovación",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Responsabilidad social, Relaciones Gobierno-Patronales.",
+      "hobbies": [
+        "Golf",
+        "Viajes",
+        "Familia"
+      ],
+      "generacion": "G1",
+      "periodo_generacion": 2016
+    },
+    {
+      "id": "M099",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "formación ingeniería",
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G3",
+      "periodo_generacion": 2018
+    },
+    {
+      "id": "M100",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "formación ingeniería",
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": "Admisnistrador Único",
+      "industria": "Construcción/Infraestructura",
+      "tamano_empresa": "11-50",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo al público",
+      "estado": "Guanajuato",
+      "relacion_tec": null,
+      "tipos_consejos": [
+        "Cámara empresarial"
+      ],
+      "tipos_participacion_social": null,
+      "temas_interes": [
+        "Inteligencia Artificial",
+        "Gobierno Corporativo",
+        "Empresa Familiar",
+        "Liderazgo",
+        "Finanzas",
+        "Tendencias del Mercado",
+        "Innovación",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": null,
+      "hobbies": [
+        "Golf"
+      ],
+      "generacion": "G3",
+      "periodo_generacion": 2018
+    },
+    {
+      "id": "M101",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Preparatoria",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G9",
+      "periodo_generacion": "Sep 2025- Jul 2026"
+    },
+    {
+      "id": "M102",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Preparatoria",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": "Propietario",
+      "industria": null,
+      "tamano_empresa": "1-10",
+      "paises_negocios": "Centroamérica",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Guanajuato",
+      "relacion_tec": "Prepa",
+      "tipos_consejos": [
+        "Otro"
+      ],
+      "tipos_participacion_social": [
+        "Participación social general"
+      ],
+      "temas_interes": [
+        "Gobierno Corporativo",
+        "Liderazgo",
+        "Finanzas",
+        "Innovación",
+        "Derecho Corporativo y sus Regulaciones",
+        "Empresa Familiar",
+        "Inteligencia Artificial",
+        "Tendencias del Mercado"
+      ],
+      "otros_temas": "Economía y Finazas",
+      "hobbies": [
+        "Viajar",
+        "escuchar música",
+        "conocer"
+      ],
+      "generacion": "G9",
+      "periodo_generacion": "Sep 2025- Jul 2026"
+    },
+    {
+      "id": "M103",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": null,
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G6",
+      "periodo_generacion": "Sep 2022 - Jun 2023"
+    },
+    {
+      "id": "M104",
+      "rango_edad": null,
+      "genero": "Femenino",
+      "perfil_temas": null,
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G9",
+      "periodo_generacion": "Sep 2025- Jul 2026"
+    },
+    {
+      "id": "M105",
+      "rango_edad": null,
+      "genero": "Femenino",
+      "perfil_temas": null,
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": "Directora General",
+      "industria": null,
+      "tamano_empresa": "11-50",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Guanajuato",
+      "relacion_tec": "Socio Formador (Trabaja en retos con los estudiantes), Socio Comercial",
+      "tipos_consejos": [
+        "Otro"
+      ],
+      "tipos_participacion_social": null,
+      "temas_interes": [
+        "Liderazgo",
+        "Innovación",
+        "Gobierno Corporativo",
+        "Inteligencia Artificial",
+        "Tendencias del Mercado",
+        "Finanzas",
+        "Empresa Familiar",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Marketing y Branding",
+      "hobbies": [
+        "Leer",
+        "ver series",
+        "viajar"
+      ],
+      "generacion": "G9",
+      "periodo_generacion": "Sep 2025- Jul 2026"
+    },
+    {
+      "id": "M106",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León, Guanajuato",
+      "es_exatec": true,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G8",
+      "periodo_generacion": "Sep 2024 - Jul 2025"
+    },
+    {
+      "id": "M107",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León, Guanajuato",
+      "es_exatec": true,
+      "puesto_nivel": "Dueño",
+      "industria": "Servicios/Consultoría",
+      "tamano_empresa": "11-50",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo al público",
+      "estado": "Guanajuato",
+      "relacion_tec": null,
+      "tipos_consejos": [
+        "Otro"
+      ],
+      "tipos_participacion_social": [
+        "Participación social general"
+      ],
+      "temas_interes": [
+        "Inteligencia Artificial",
+        "Liderazgo",
+        "Tendencias del Mercado",
+        "Finanzas",
+        "Innovación",
+        "Gobierno Corporativo",
+        "Empresa Familiar",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Organización Empresarial y Ventas.",
+      "hobbies": [
+        "Meditación",
+        "viajar y senderísmo"
+      ],
+      "generacion": "G8",
+      "periodo_generacion": "Sep 2024 - Jul 2025"
+    },
+    {
+      "id": "M108",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "directivo/fundador",
+        "formación ingeniería",
+        "formación administración",
+        "empresa familiar"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G4",
+      "periodo_generacion": "Nov 2018 - Jull 2019"
+    },
+    {
+      "id": "M109",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "directivo/fundador",
+        "formación ingeniería",
+        "formación administración",
+        "empresa familiar"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": "Direccion General",
+      "industria": "Industria De Reuniones",
+      "tamano_empresa": "101-250",
+      "paises_negocios": "Sudamérica, Centroamérica, Norteamérica",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Guanajuato",
+      "relacion_tec": null,
+      "tipos_consejos": [
+        "Otro"
+      ],
+      "tipos_participacion_social": [
+        "Participación social general"
+      ],
+      "temas_interes": [
+        "Liderazgo",
+        "Inteligencia Artificial",
+        "Tendencias del Mercado",
+        "Empresa Familiar",
+        "Finanzas",
+        "Gobierno Corporativo",
+        "Innovación",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Desarrollo organizacional",
+      "hobbies": [
+        "Golf",
+        "mecanica",
+        "musica",
+        "lectura",
+        "cocina",
+        "historia",
+        "jardineria",
+        "entre otros"
+      ],
+      "generacion": "G4",
+      "periodo_generacion": "Nov 2018 - Jull 2019"
+    },
+    {
+      "id": "M110",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": null,
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G9",
+      "periodo_generacion": "Sep 2025- Jul 2026"
+    },
+    {
+      "id": "M111",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": null,
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": "Director de Planeación",
+      "industria": null,
+      "tamano_empresa": "11-50",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo al público",
+      "estado": "Guanajuato",
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": [
+        "Innovación",
+        "Finanzas",
+        "Inteligencia Artificial",
+        "Liderazgo",
+        "Tendencias del Mercado",
+        "Derecho Corporativo y sus Regulaciones",
+        "Gobierno Corporativo",
+        "Empresa Familiar"
+      ],
+      "otros_temas": null,
+      "hobbies": [
+        "Ejercicio",
+        "Lectura",
+        "Musica"
+      ],
+      "generacion": "G9",
+      "periodo_generacion": "Sep 2025- Jul 2026"
+    },
+    {
+      "id": "M112",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "formación ingeniería",
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G6",
+      "periodo_generacion": "Sep 2022 - Jun 2023"
+    },
+    {
+      "id": "M113",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "formación ingeniería",
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": null,
+      "industria": "Comunicacion, Publicidad Exterior",
+      "tamano_empresa": "101-250",
+      "paises_negocios": "Asia, Norteamérica",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Guanajuato",
+      "relacion_tec": "Papá Tec",
+      "tipos_consejos": [
+        "Otro"
+      ],
+      "tipos_participacion_social": [
+        "Participación social general"
+      ],
+      "temas_interes": [
+        "Inteligencia Artificial",
+        "Gobierno Corporativo",
+        "Empresa Familiar",
+        "Finanzas",
+        "Liderazgo",
+        "Tendencias del Mercado",
+        "Innovación",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "TECNOLOGIAS DE INFORMACION",
+      "hobbies": [
+        "CAMINAR",
+        "FUTBOL Y SOCIAL"
+      ],
+      "generacion": "G6",
+      "periodo_generacion": "Sep 2022 - Jun 2023"
+    },
+    {
+      "id": "M114",
+      "rango_edad": null,
+      "genero": "Femenino",
+      "perfil_temas": [
+        "perfil tecnológico",
+        "orientación social"
+      ],
+      "nivel_estudios": "Doctorado (Doctorado)",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G8",
+      "periodo_generacion": "Sep 2024 - Jul 2025"
+    },
+    {
+      "id": "M115",
+      "rango_edad": null,
+      "genero": "Femenino",
+      "perfil_temas": [
+        "perfil tecnológico",
+        "orientación social"
+      ],
+      "nivel_estudios": "Doctorado (Doctorado)",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": "Dueña/Rectora",
+      "industria": "Educación",
+      "tamano_empresa": "101-250",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo al público",
+      "estado": "Guanajuato",
+      "relacion_tec": null,
+      "tipos_consejos": [
+        "Seguridad"
+      ],
+      "tipos_participacion_social": [
+        "Participación social general"
+      ],
+      "temas_interes": [
+        "Inteligencia Artificial",
+        "Gobierno Corporativo",
+        "Empresa Familiar",
+        "Liderazgo",
+        "Finanzas",
+        "Tendencias del Mercado",
+        "Innovación",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Todos, por mi función académica",
+      "hobbies": [
+        "-"
+      ],
+      "generacion": "G8",
+      "periodo_generacion": "Sep 2024 - Jul 2025"
+    },
+    {
+      "id": "M116",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "empresario"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León  Gto",
+      "es_exatec": true,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G6",
+      "periodo_generacion": "Sep 2022 - Jun 2023"
+    },
+    {
+      "id": "M117",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "empresario"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León  Gto",
+      "es_exatec": true,
+      "puesto_nivel": "Director General",
+      "industria": "Comercio/Retail",
+      "tamano_empresa": "11-50",
+      "paises_negocios": "Norteamérica, Sudamérica",
+      "tipo_venta": "Vendo al público",
+      "estado": "Guanajuato",
+      "relacion_tec": "Socio Formador (Trabaja en retos con los estudiantes)",
+      "tipos_consejos": [
+        "Otro"
+      ],
+      "tipos_participacion_social": null,
+      "temas_interes": [
+        "Finanzas",
+        "Inteligencia Artificial",
+        "Tendencias del Mercado",
+        "Innovación",
+        "Gobierno Corporativo",
+        "Liderazgo",
+        "Empresa Familiar",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Tendencias de consumo",
+      "hobbies": [
+        "Golf",
+        "caminar",
+        "leer"
+      ],
+      "generacion": "G6",
+      "periodo_generacion": "Sep 2022 - Jun 2023"
+    },
+    {
+      "id": "M118",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "empresario",
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G1",
+      "periodo_generacion": 2016
+    },
+    {
+      "id": "M119",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "empresario",
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": "Dirección Gral.",
+      "industria": null,
+      "tamano_empresa": "101-250",
+      "paises_negocios": "Norteamérica, Centroamérica, Europa, Asia",
+      "tipo_venta": "Vendo al público",
+      "estado": "Guanajuato",
+      "relacion_tec": "Consejeros, Papá Tec",
+      "tipos_consejos": [
+        "Cámara empresarial",
+        "Organización social",
+        "Tec Beyond"
+      ],
+      "tipos_participacion_social": null,
+      "temas_interes": [
+        "Gobierno Corporativo",
+        "Liderazgo",
+        "Empresa Familiar",
+        "Innovación",
+        "Inteligencia Artificial",
+        "Finanzas",
+        "Tendencias del Mercado",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Factor Humano",
+      "hobbies": [
+        "Pesca y Bicicleta"
+      ],
+      "generacion": "G1",
+      "periodo_generacion": 2016
+    },
+    {
+      "id": "M120",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "formación administración",
+        "perfil tecnológico",
+        "orientación social"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G9",
+      "periodo_generacion": "Sep 2025- Jul 2026"
+    },
+    {
+      "id": "M121",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "formación administración",
+        "perfil tecnológico",
+        "orientación social"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": null,
+      "industria": "Comunicacion Social",
+      "tamano_empresa": "101-250",
+      "paises_negocios": "Centroamérica",
+      "tipo_venta": "Vendo al público",
+      "estado": "Guanajuato",
+      "relacion_tec": "ESTUDIANTE TEC BEYOND",
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": [
+        "Liderazgo",
+        "Tendencias del Mercado",
+        "Gobierno Corporativo",
+        "Innovación",
+        "Inteligencia Artificial",
+        "Finanzas",
+        "Empresa Familiar",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": null,
+      "hobbies": [
+        "ENTRENAR GYM",
+        "ESTUDIAR Y LEER"
+      ],
+      "generacion": "G9",
+      "periodo_generacion": "Sep 2025- Jul 2026"
+    },
+    {
+      "id": "M122",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "directivo/fundador",
+        "perfil tecnológico",
+        "perfil internacional"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G9",
+      "periodo_generacion": "Sep 2025- Jul 2026"
+    },
+    {
+      "id": "M123",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "directivo/fundador",
+        "perfil tecnológico",
+        "perfil internacional"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": "11-50",
+      "paises_negocios": "Norteamérica, Sudamérica, Europa, Asia",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Guanajuato",
+      "relacion_tec": "Ninguno, Estudiante tec Beyond",
+      "tipos_consejos": [
+        "Cámara empresarial",
+        "Sector industrial"
+      ],
+      "tipos_participacion_social": null,
+      "temas_interes": [
+        "Liderazgo",
+        "Innovación",
+        "Inteligencia Artificial",
+        "Empresa Familiar",
+        "Finanzas",
+        "Tendencias del Mercado",
+        "Gobierno Corporativo",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Fondos de inversión, geopolitica y su impacto en la logística internacional,",
+      "hobbies": [
+        "Golf",
+        "Conciertos",
+        "cine y series"
+      ],
+      "generacion": "G9",
+      "periodo_generacion": "Sep 2025- Jul 2026"
+    },
+    {
+      "id": "M124",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": null,
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G2",
+      "periodo_generacion": 2017
+    },
+    {
+      "id": "M125",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": null,
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": "Director General",
+      "industria": "Alimentos/Gastronomía",
+      "tamano_empresa": "51-100",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo al público",
+      "estado": "Guanajuato",
+      "relacion_tec": null,
+      "tipos_consejos": [
+        "Cámara empresarial"
+      ],
+      "tipos_participacion_social": [
+        "Participación social general"
+      ],
+      "temas_interes": [
+        "Inteligencia Artificial",
+        "Gobierno Corporativo",
+        "Empresa Familiar",
+        "Liderazgo",
+        "Finanzas",
+        "Tendencias del Mercado",
+        "Innovación",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Politica y economico",
+      "hobbies": [
+        "Golf",
+        "Ejercicio"
+      ],
+      "generacion": "G2",
+      "periodo_generacion": 2017
+    },
+    {
+      "id": "M126",
+      "rango_edad": null,
+      "genero": "Femenino",
+      "perfil_temas": [
+        "formación educación/psicología",
+        "formación administración",
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G8",
+      "periodo_generacion": "Sep 2024 - Jul 2025"
+    },
+    {
+      "id": "M127",
+      "rango_edad": null,
+      "genero": "Femenino",
+      "perfil_temas": [
+        "formación educación/psicología",
+        "formación administración",
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": "Líder de Talento",
+      "industria": "Educación",
+      "tamano_empresa": "251-500",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo al público",
+      "estado": "Guanajuato",
+      "relacion_tec": "Papá Tec, Directiva y EXATEC",
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": [
+        "Liderazgo",
+        "Tendencias del Mercado",
+        "Inteligencia Artificial",
+        "Derecho Corporativo y sus Regulaciones",
+        "Finanzas",
+        "Gobierno Corporativo",
+        "Innovación",
+        "Empresa Familiar"
+      ],
+      "otros_temas": "Capital Humano, Desarrollo Organizacional, Mercadotecnia, IA",
+      "hobbies": [
+        "Viajes",
+        "arte",
+        "cine",
+        "teatro"
+      ],
+      "generacion": "G8",
+      "periodo_generacion": "Sep 2024 - Jul 2025"
+    },
+    {
+      "id": "M128",
+      "rango_edad": null,
+      "genero": "Femenino",
+      "perfil_temas": null,
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G7",
+      "periodo_generacion": "Sep 2023 - Jun 2024"
+    },
+    {
+      "id": "M129",
+      "rango_edad": null,
+      "genero": "Femenino",
+      "perfil_temas": null,
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": "Dirección de proyectos",
+      "industria": null,
+      "tamano_empresa": "51-100",
+      "paises_negocios": "Centroamérica",
+      "tipo_venta": "Vendo al público",
+      "estado": "Guanajuato",
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": [
+        "Empresa Familiar",
+        "Liderazgo",
+        "Inteligencia Artificial",
+        "Gobierno Corporativo",
+        "Finanzas",
+        "Tendencias del Mercado",
+        "Innovación",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Viajar, aprender",
+      "hobbies": [
+        "Viajar",
+        "aprender de diferente índole"
+      ],
+      "generacion": "G7",
+      "periodo_generacion": "Sep 2023 - Jun 2024"
+    },
+    {
+      "id": "M130",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "empresario",
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G5",
+      "periodo_generacion": "Nov 2019 - Nov 2021"
+    },
+    {
+      "id": "M131",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "empresario",
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": "Director Comercial",
+      "industria": "Inmobiliario",
+      "tamano_empresa": "51-100",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo al público",
+      "estado": "Guanajuato",
+      "relacion_tec": null,
+      "tipos_consejos": [
+        "Otro"
+      ],
+      "tipos_participacion_social": [
+        "Infancia"
+      ],
+      "temas_interes": [
+        "Inteligencia Artificial",
+        "Finanzas",
+        "Tendencias del Mercado",
+        "Innovación",
+        "Liderazgo",
+        "Gobierno Corporativo",
+        "Empresa Familiar",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Análisis de datos",
+      "hobbies": [
+        "Automovilismo deportivo",
+        "Música (mezcla",
+        "conciertos",
+        "toco piano)"
+      ],
+      "generacion": "G5",
+      "periodo_generacion": "Nov 2019 - Nov 2021"
+    },
+    {
+      "id": "M132",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "directivo/fundador",
+        "perfil tecnológico",
+        "orientación social",
+        "perfil internacional"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G5",
+      "periodo_generacion": "Nov 2019 - Nov 2021"
+    },
+    {
+      "id": "M133",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "directivo/fundador",
+        "perfil tecnológico",
+        "orientación social",
+        "perfil internacional"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": null,
+      "industria": "Inmobiliario",
+      "tamano_empresa": "1-10",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo al público",
+      "estado": "Guanajuato",
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": [
+        "Tendencias del Mercado",
+        "Innovación",
+        "Inteligencia Artificial",
+        "Finanzas",
+        "Liderazgo",
+        "Gobierno Corporativo",
+        "Empresa Familiar",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Desarrollo territorial",
+      "hobbies": [
+        "Deporte",
+        "cocina"
+      ],
+      "generacion": "G5",
+      "periodo_generacion": "Nov 2019 - Nov 2021"
+    },
+    {
+      "id": "M134",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "formación ingeniería",
+        "perfil tecnológico",
+        "empresa familiar"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G1",
+      "periodo_generacion": 2016
+    },
+    {
+      "id": "M135",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "formación ingeniería",
+        "perfil tecnológico",
+        "empresa familiar"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": false,
+      "puesto_nivel": "Consejero",
+      "industria": "Transporte/Logística",
+      "tamano_empresa": "1000+",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo al público",
+      "estado": "Guanajuato",
+      "relacion_tec": null,
+      "tipos_consejos": [
+        "Otro"
+      ],
+      "tipos_participacion_social": [
+        "Participación social general"
+      ],
+      "temas_interes": [
+        "Gobierno Corporativo",
+        "Inteligencia Artificial",
+        "Innovación",
+        "Finanzas",
+        "Liderazgo",
+        "Empresa Familiar",
+        "Tendencias del Mercado",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Entorno Económico, Factor Humano.",
+      "hobbies": [
+        "Leer",
+        "hacer ejercicio y descansar."
+      ],
+      "generacion": "G1",
+      "periodo_generacion": 2016
+    },
+    {
+      "id": "M136",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "formación ingeniería",
+        "formación administración",
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G5",
+      "periodo_generacion": "Nov 2019 - Nov 2021"
+    },
+    {
+      "id": "M137",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "formación ingeniería",
+        "formación administración",
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Posgrado (Maestría)",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": "Director General",
+      "industria": "Manufactura/Textil",
+      "tamano_empresa": "251-500",
+      "paises_negocios": "Norteamérica, Centroamérica, Sudamérica, Europa, Asia, Australia",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Guanajuato",
+      "relacion_tec": null,
+      "tipos_consejos": [
+        "Otro"
+      ],
+      "tipos_participacion_social": null,
+      "temas_interes": [
+        "Tendencias del Mercado",
+        "Inteligencia Artificial",
+        "Liderazgo",
+        "Finanzas",
+        "Innovación",
+        "Gobierno Corporativo",
+        "Empresa Familiar",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": "Medio Ambiente y Sostenibilidad",
+      "hobbies": [
+        "Ciclismo",
+        "hiking",
+        "leer"
+      ],
+      "generacion": "G5",
+      "periodo_generacion": "Nov 2019 - Nov 2021"
+    },
+    {
+      "id": "M138",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": null,
+      "nivel_estudios": "Universidad",
+      "ciudad": "Guanajuato, Gto",
+      "es_exatec": true,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G8",
+      "periodo_generacion": "Sep 2024 - Jul 2025"
+    },
+    {
+      "id": "M139",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": null,
+      "nivel_estudios": "Universidad",
+      "ciudad": "Guanajuato, Gto",
+      "es_exatec": true,
+      "puesto_nivel": null,
+      "industria": "Construcción/Infraestructura",
+      "tamano_empresa": "101-250",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Guanajuato",
+      "relacion_tec": null,
+      "tipos_consejos": [
+        "Otro"
+      ],
+      "tipos_participacion_social": [
+        "Desarrollo comunitario"
+      ],
+      "temas_interes": [
+        "Inteligencia Artificial",
+        "Innovación",
+        "Liderazgo",
+        "Gobierno Corporativo",
+        "Empresa Familiar",
+        "Finanzas",
+        "Tendencias del Mercado",
+        "Derecho Corporativo y sus Regulaciones"
+      ],
+      "otros_temas": null,
+      "hobbies": [
+        "Motos Enduro",
+        "Tennis",
+        "Sommelier"
+      ],
+      "generacion": "G8",
+      "periodo_generacion": "Sep 2024 - Jul 2025"
+    },
+    {
+      "id": "M140",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "directivo/fundador",
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": null,
+      "paises_negocios": null,
+      "tipo_venta": null,
+      "estado": null,
+      "relacion_tec": null,
+      "tipos_consejos": null,
+      "tipos_participacion_social": null,
+      "temas_interes": null,
+      "otros_temas": null,
+      "hobbies": null,
+      "generacion": "G2",
+      "periodo_generacion": 2017
+    },
+    {
+      "id": "M141",
+      "rango_edad": null,
+      "genero": "Masculino",
+      "perfil_temas": [
+        "directivo/fundador",
+        "perfil tecnológico"
+      ],
+      "nivel_estudios": "Universidad",
+      "ciudad": "León",
+      "es_exatec": true,
+      "puesto_nivel": null,
+      "industria": null,
+      "tamano_empresa": "1-10",
+      "paises_negocios": "Norteamérica",
+      "tipo_venta": "Vendo a otras empresas",
+      "estado": "Guanajuato",
+      "relacion_tec": "Exatec",
+      "tipos_consejos": [
+        "Sector financiero"
+      ],
+      "tipos_participacion_social": [
+        "Participación social general"
+      ],
+      "temas_interes": [
+        "Innovación",
+        "Tendencias del Mercado",
+        "Derecho Corporativo y sus Regulaciones",
+        "Inteligencia Artificial",
+        "Gobierno Corporativo",
+        "Empresa Familiar",
+        "Finanzas",
+        "Liderazgo"
+      ],
+      "otros_temas": "Situación económica y politica de México",
+      "hobbies": [
+        "Viajar",
+        "Ejercicio",
+        "Leer"
+      ],
+      "generacion": "G2",
+      "periodo_generacion": 2017
+    }
+  ]
+}

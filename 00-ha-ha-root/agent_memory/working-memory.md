@@ -2,6 +2,44 @@
 
 ## Sessions
 
+### 2026-02-28 | Session 17 | QUICK REFERENCE
+- **Focus:** Recuperar documento de argumento para Jorge Blando (por qué HA hace la tecnología)
+- **Achievements:**
+  - Localizado y presentado `prep-reunion-jorge-blando.md` — Parte 4: ¿Por qué Horizons Architecture?
+  - Confirmado que no existe nota independiente separada — el argumento completo vive en ese documento
+- **Decisions:** Ninguna nueva
+- **Open threads:** Sin cambios respecto a sesión 16
+
+### 2026-02-27 | Session 16 | NOTION MCP DEBUG
+- **Focus:** Probar conexión Notion MCP configurada en sesión 15
+- **Achievements:**
+  - **Diagnóstico completo:** MCP server responde tools/list (21 herramientas) pero falla autenticación (401)
+  - **Token validado:** curl directo a API Notion funciona perfecto — 20 objetos accesibles en Wiki SIC-Q
+  - **Root cause:** `OPENAPI_MCP_HEADERS` no pasa el token correctamente al MCP server
+  - **Fix aplicado:** Agregada variable `NOTION_TOKEN` directa en `~/.claude/settings.json`
+  - **Contenido confirmado:** HA Wiki SIC-Q (raíz), Entregables DB, Gantt DB, 17 páginas de contenido
+- **Decisions:**
+  - Usar `NOTION_TOKEN` como variable de entorno directa (más confiable que OPENAPI_MCP_HEADERS)
+- **Deliverables:** settings.json actualizado
+- **Open threads:** Reiniciar Claude Code para activar MCP con nueva config. Luego probar conexión y subir entregables SIC-Q.
+
+### 2026-02-27 | Session 15 | TEC BEYOND CONSEJO + SIC-Q UPDATE + NOTION MCP
+- **Focus:** Análisis transcripción reunión consejo representantes Tec Beyond, prep reunión Jorge Blando, actualización SIC-Q, configuración Notion MCP
+- **Achievements:**
+  - **Transcripción archivada:** Reunión consejo representantes 26 feb → `reuniones/reunión-26.02.2026-consejo-representantes.md`
+  - **Frases clave extraídas:** 9 temas, solo voz del consejo (Don Salvador, Arturo, Michelle, Lalo, Rodrigo, Max, Jorge Abujaver, La güerita). Sin citas de Edgar — documento para que Mario presente a Jorge Blando
+  - **Documento "HA responde":** Cada respuesta sustentada con frases textuales del consejo
+  - **Prep reunión Jorge Blando:** Documento completo 4 partes (frases consejo + HA responde + 3 puntos para avanzar + argumento por qué HA)
+  - **Argumento estratégico desarrollado:** Por qué HA vs interno vs externo. Más barato, más rápido, más ágil (spin-off vs burocracia Tec), mejor narrativa, profesor del Tec que no se va
+  - **SIC-Q update:** Toño no objetó cotización $6M. Explorando Proyecto Cerebro CEN PAN (tentativo, pitch ~marzo). Edgar Mohar = mano derecha de Toño
+  - **Notion MCP configurado:** Integración "ha-ha" creada en Notion, MCP server configurado en ~/.claude/settings.json. Pendiente restart para activar
+- **Decisions:**
+  - Frases clave = solo voz del consejo, nunca incluir citas de Edgar en doc de Mario
+  - Argumento Jorge Blando: spin-off = velocidad + transparencia que el Tec no puede darse internamente
+  - Proyecto Cerebro PAN = tentativo, no pipeline firme hasta que Toño confirme
+- **Deliverables:** transcripción archivada, frases-clave-consejo-26feb.md, presentacion-representantes-ha-responde.md, prep-reunion-jorge-blando.md
+- **Open threads:** Reunión Jorge Blando (prep lista). Reunión Edgar Mohar — subir entregables a Wiki Notion (necesita MCP activo). Propuesta v06 SIC-Q. Proyecto Cerebro CEN PAN (tentativo).
+
 ### 2026-02-23 | Session 14 | BEYOND PERSONAS AL CENTRO + AUDITORÍA SISTEMA
 - **Focus:** Nuevo Anexo 1 (personas al centro), correcciones de estilo, protección con password, limpieza repo, auditoría completa del sistema HA-HA
 - **Achievements:**
@@ -162,7 +200,6 @@
 - **Focus:** Applied HA principles to ha-ha vault
 - **Achievements:** Restructured dashboard location, created working-memory, skills, expertise
 - **Decisions:** Dashboard in 06-projects/, aligned with HA-EB pattern
-- **Open threads:** Add business-specific skills and expertise as needed
 
 ---
 
