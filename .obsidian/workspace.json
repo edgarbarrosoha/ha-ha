@@ -4,123 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "aa2ab8803f5af193",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "d01dba2b4b588515",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "terminal:terminal",
-              "state": {
-                "terminal:terminal": {
-                  "cwd": "/Users/edgarbarroso/Documents/ha-ha",
-                  "focus": false,
-                  "profile": {
-                    "args": [
-                      "--login"
-                    ],
-                    "executable": "/bin/zsh",
-                    "followTheme": true,
-                    "name": "",
-                    "platforms": {
-                      "darwin": true
-                    },
-                    "pythonExecutable": "python3",
-                    "restoreHistory": false,
-                    "rightClickAction": "copyPaste",
-                    "successExitCodes": [
-                      "0",
-                      "SIGINT",
-                      "SIGTERM"
-                    ],
-                    "terminalOptions": {
-                      "documentOverride": null
-                    },
-                    "type": "integrated",
-                    "useWin32Conhost": true
-                  },
-                  "serial": null
-                }
-              },
-              "pinned": true,
-              "icon": "terminal",
-              "title": "Terminal: ✳ Claude Code"
-            }
-          },
-          {
-            "id": "5f1d4d3780cf1938",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "terminal:terminal",
-              "state": {
-                "terminal:terminal": {
-                  "cwd": "/Users/edgarbarroso/Documents/ha-ha",
-                  "focus": false,
-                  "profile": {
-                    "args": [
-                      "--login"
-                    ],
-                    "executable": "/bin/zsh",
-                    "followTheme": true,
-                    "name": "",
-                    "platforms": {
-                      "darwin": true
-                    },
-                    "pythonExecutable": "python3",
-                    "restoreHistory": false,
-                    "rightClickAction": "copyPaste",
-                    "successExitCodes": [
-                      "0",
-                      "SIGINT",
-                      "SIGTERM"
-                    ],
-                    "terminalOptions": {
-                      "documentOverride": null
-                    },
-                    "type": "integrated",
-                    "useWin32Conhost": true
-                  },
-                  "serial": null
-                }
-              },
-              "pinned": true,
-              "icon": "terminal",
-              "title": "Terminal: zsh"
-            }
-          },
-          {
-            "id": "fc42605f54eb1bf4",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "06-projects/dashboard.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "dashboard"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "5b1a1e86c3867ee5",
+    "id": "92a638d41d40d205",
     "type": "split",
     "children": [
       {
-        "id": "0ec7c31b4d534443",
+        "id": "940cd58a6dbb0073",
         "type": "tabs",
         "children": [
           {
-            "id": "037cfdf764c82601",
+            "id": "a797cde0dfa67d48",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -133,12 +48,12 @@
             }
           },
           {
-            "id": "b42dbc72f84422e6",
+            "id": "42272d4278a0341f",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "hllazgos-ricard",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -150,7 +65,7 @@
             }
           },
           {
-            "id": "6a2fe1da3860ed83",
+            "id": "2a3af9a49dbdd01c",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -163,18 +78,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.50312423706055
+    "width": 463.5004348754883
   },
   "right": {
-    "id": "594e9832c1f8bcf5",
+    "id": "bed2752520c61fa5",
     "type": "split",
     "children": [
       {
-        "id": "2ce0d4739ec9eaea",
+        "id": "fbcfd1b438f8b4af",
         "type": "tabs",
         "children": [
           {
-            "id": "59c21b68f219fc12",
+            "id": "43640eddb34480c4",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -192,7 +107,7 @@
             }
           },
           {
-            "id": "92cd8eed4b4a5fa0",
+            "id": "72a2f68ab6470d0e",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -205,7 +120,7 @@
             }
           },
           {
-            "id": "310a154389b7849f",
+            "id": "15c972576880459b",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -220,21 +135,7 @@
             }
           },
           {
-            "id": "97922f3f8db4eb2a",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline"
-            }
-          },
-          {
-            "id": "1df6422541b65f3a",
+            "id": "1ebc05e96a7d4688",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -245,6 +146,20 @@
               },
               "icon": "lucide-archive",
               "title": "All properties"
+            }
+          },
+          {
+            "id": "dfa1d8ca8234dba8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           }
         ]
@@ -263,59 +178,69 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "homepage:Open homepage": false,
       "obsidian-git:Open Git source control": false,
-      "omnisearch:Omnisearch": false,
+      "homepage:Open homepage": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
       "terminal:Open terminal": false,
-      "widgets:Add widget": false
+      "widgets:Add widget": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "5f1d4d3780cf1938",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "00-ha-ha-root/agent_memory/git-sync-note.md",
-    "conflict-files-obsidian-git.md",
+    "06-projects/sic-q/06-projects/entregables/nota-reunion-edgar-mohar.md",
     "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/entregables/prep-reunion-jorge-blando.md",
     "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/entregables/frases-clave-consejo-26feb.md",
-    "06-projects/tec-monterrey/project-state.md",
+    "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/entregables/presentacion-representantes-ha-responde.md",
+    "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/reuniones/reunión-26.02.2026-consejo-representantes.md",
     "06-projects/dashboard.md",
-    "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/entregables/anexos/anexos-profesional.html",
-    "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/entregables/presentacion-ejecutiva.html",
+    "04-technology/presentaciones-ha/Horizons Architecture (HA) — Brand Identity Guide for AI Generation.md",
     "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/entregables/presentacion-representantes-src.html",
+    "04-technology/presentaciones-ha/Proceso de contenido para presentaciones.md",
+    "04-technology/presentaciones-ha/Prompt universal para presentaciones inmersivas en Next.js.md",
+    "04-technology/presentaciones-ha/Prompt para presentaciones inmersivas en Next.js - como la de talleres.md",
+    "04-technology/presentaciones-ha",
+    "06-projects/tec-monterrey/06-projects/tec-beyond/05-context/hallazgos-encuesta-miembros.md",
     "06-projects/tec-monterrey/06-projects/tec-beyond/05-context/encuesta-miembros-anonimizada.json",
+    "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/reuniones/reunión-25.02.2026.md",
+    "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/entregables/presentación-mario-orozco/cómo-funciona-ha-tec-beyond.md",
+    "00-ha-ha-root/agent_memory/evolution-log.md",
+    "00-ha-ha-root/agent_memory/skills/advise.md",
+    "00-ha-ha-root/agent_memory/skills/evolve.md",
+    "00-ha-ha-root/agent_memory/skills/deploy.md",
+    "06-projects/writing-lab.md",
+    "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/entregables/anexos/anexo-1-personas-al-centro.md",
     "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/entregables/anexos/anexos-profesional-src.html",
     "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/entregables/presentacion-ejecutiva-src.html",
-    "06-projects/tec-monterrey/06-projects/narrativa-campus-monterrey/05-context/kdb_cynthia/Metas Tec de Monterrey Ciclo 25-26.json",
-    "06-projects/innovation-labs/propuesta-innovation-labs-v01.docx",
-    "06-projects/sic-q/06-projects/propuestas/SIC-Q-Dimension-Presupuestal-2026.docx",
-    "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/entregables/kumu-tec-beyond.json",
-    "00-ha-ha-root/agent_memory/evolution-log.md",
-    "00-ha-ha-root/agent_memory/skills/evolve.md",
-    "00-ha-ha-root/agent_memory/skills/advise.md",
-    "00-ha-ha-root/agent_memory/skills/advance.md",
-    "00-ha-ha-root/agent_memory/skills/deploy.md",
-    "00-ha-ha-root/agent_memory/context.md",
-    "00-ha-ha-root/agent_memory/working-memory.md",
-    "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/entregables/anexos/anexo-1-personas-al-centro.md",
-    "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/entregables/anexos/anexo-6-sesion-consejeros.md",
-    "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/entregables/anexos/anexo-8-interpretacion-fotos.md",
-    "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/entregables/anexos/anexo-7-deseos-graduados.md",
-    "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/entregables/anexos/anexo-5-escalabilidad.md",
-    "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/entregables/anexos/anexo-4-business-case.md",
-    "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/entregables/anexos/anexo-3-datos-y-privacidad.md",
+    "encrypted/anexos-profesional.html",
+    "encrypted/presentacion-ejecutiva.html",
+    "encrypted",
     "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/entregables/anexos/anexo-2-narrativa-visual.md",
-    "06-projects/upu/project-state.md",
-    "06-projects/learning-products/project-state.md",
-    "06-projects/sic-q/project-state.md",
-    "06-projects/tec-monterrey/06-projects/tec-beyond/project-state.md",
-    "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/propuestas/propuesta-completa-tec-beyond-ha.md",
+    "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/entregables/anexos/anexo-3-datos-y-privacidad.md",
+    "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/entregables/anexos/anexo-4-business-case.md",
+    "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/entregables/anexos/anexo-5-escalabilidad.md",
+    "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/entregables/anexos/anexo-6-sesion-consejeros.md",
+    "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/entregables/anexos/anexo-7-deseos-graduados.md",
+    "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/entregables/presentacion-ejecutiva.html",
+    "06-projects/sic-q/06-projects/propuestas/~$C-Q-Dimension-Presupuestal-2026.docx",
+    "node_modules/jszip/graph.svg",
     "06-projects/tec-monterrey/06-projects/narrativa-campus-monterrey/05-context/5C962185-CA38-428B-8EC3-83A87C9589AC (1).png",
-    "06-projects/upu/06-projects/conferencia-upu/Screenshot 2024-10-02 at 9.47.56 1.png",
-    "06-projects/upu/06-projects/conferencia-upu/Screenshot 2024-10-02 at 9.47.56.png",
-    "01-legacy/archive/ha-atelier-archive/resources/images/Screenshot 2025-07-13 at 11.44.19.png",
-    "01-legacy/archive/ha-atelier-archive/resources/images/Screenshot 2025-07-13 at 11.44.11.png",
+    "00-ha-ha-root/06-projects/tec-monterrey/narrativa-campus-monterrey/05-context-ncm/5C962185-CA38-428B-8EC3-83A87C9589AC (1).png",
+    "00-ha-ha-root/06-projects/ha-atelier-archive/resources/images/Screenshot 2025-07-13 at 11.44.19.png",
+    "00-ha-ha-root/06-projects/ha-atelier-archive/resources/images/Screenshot 2025-07-13 at 11.44.11.png",
+    "00-ha-ha-root/06-projects/ha-atelier-archive/resources/images/Screenshot 2025-07-13 at 11.44.26.png",
+    "00-ha-ha-root/06-projects/ha-atelier-archive/resources/images/Screenshot 2025-07-13 at 11.44.04.png",
+    "00-ha-ha-root/06-projects/upu/conferencia-upu/Screenshot 2024-10-02 at 9.47.56 1.png",
+    "00-ha-ha-root/06-projects/upu/conferencia-upu/Screenshot 2024-10-02 at 9.47.56.png",
+    "00-ha-ha-root/06-projects/z-completed/programa-de-gobierno-2024-20230/Programa de Gobierno.canvas",
+    "00-ha-ha-root/06-projects/z-completed/programa-de-gobierno-2024-20230/00-programa-de-gobierno/Programa de Gobierno Mapa Mental.canvas",
     "01-legacy/archive/ha-atelier-archive/resources/images/Screenshot 2025-07-13 at 11.44.26.png",
-    "01-legacy/archive/ha-atelier-archive/resources/images/Screenshot 2025-07-13 at 11.44.04.png",
+    "01-legacy/archive/completed-projects/programa-de-gobierno-2024-20230/00-programa-de-gobierno/Programa de Gobierno Mapa Mental.canvas",
     "01-legacy/archive/completed-projects/programa-de-gobierno-2024-20230/Programa de Gobierno.canvas",
-    "01-legacy/archive/completed-projects/programa-de-gobierno-2024-20230/00-programa-de-gobierno/Programa de Gobierno Mapa Mental.canvas"
+    "06-projects/z-completed/programa-de-gobierno-2024-20230/00-programa-de-gobierno/Programa de Gobierno Mapa Mental.canvas",
+    "06-projects/z-completed/programa-de-gobierno-2024-20230/Programa de Gobierno.canvas",
+    "ha-ha/06-projects/z-completed/programa-de-gobierno-2024-20230/00-programa-de-gobierno/Programa de Gobierno Mapa Mental.canvas",
+    "ha-ha/06-projects/z-completed/programa-de-gobierno-2024-20230/Programa de Gobierno.canvas"
   ]
 }
