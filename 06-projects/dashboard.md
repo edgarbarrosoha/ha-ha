@@ -23,7 +23,7 @@ type: clock
 - [ ] Learning Products: Call Betty/Sarahí/Edgar — Netherlands office strategy
 - [ ] Learning Products: Adaptar syllabus Entrepreneurship para Leiden
 - [ ] Learning Products: Definir scope Plan de Vida y Carrera
-- [ ] Héctor: Agendar llamada — transformación digital, IA + referencia (respuesta enviada)
+- [x] Héctor Brosig: ✅ Reunión agendada Jue 05 Mar 16:00
 - [ ] Talisis: Esperando status reunión liderazgo de Nicho
 - [ ] Joel Cano: Agendar reunión con Javier (VP Research Tec)
 - [ ] Xignux: Follow-up enviado, sin respuesta aún
@@ -40,13 +40,13 @@ type: clock
 | **Antonio Rangel** | Respuesta cotización +$6M (sin objeción = buena señal) | SIC-Q | 19 feb |
 | **Edgar Mohar** | Reunión prep + subir entregables Wiki Notion | SIC-Q | 27 feb |
 | **Jorge Blando** | Reunión siguiente paso — prep lista | Beyond | 27 feb |
-| **Equipo Poncho (Docet)** | Evaluación indicadores y métricas — deadline vencido | Docet-Agentic | ~14 feb |
+| **Equipo Poncho (Docet)** | Evaluación indicadores — deadline vencido. Proyecto en pausa formal. | Docet-Agentic | ~14 feb |
 | **Gobierno QRO** | Decisión legal CURP vs INE + alineación IF | SIC-Q | feb |
 | **Oscar** | Documentación cierre proyecto | UPU | 22 feb |
 | **Nicho (Talisis)** | Status reunión liderazgo | Talisis | ~14 feb |
 | **Betty/Sarahí** | Call Netherlands office strategy | Learning Products | 22 feb |
 | **Javier (VP Research Tec)** | Agendar reunión con Joel Cano | HA-Core | ~14 feb |
-| **Héctor** | Confirmar fecha llamada | Nuevo lead | 20 feb |
+| **Héctor Brosig** | ✅ Respondió — reunión **Jue 05 Mar 16:00** | Xignux | 01 mar |
 | **Steven Popper** | Respuesta correo reuniones mensuales | Advisory | ~14 feb |
 | Xignux | Follow-up enviado, sin respuesta | — | ~14 feb |
 
@@ -226,5 +226,5 @@ Oportunidades detectadas que aún no son proyecto formal. Rastrear aquí hasta q
 
 ---
 
-*Última actualización: 2026-02-27*
+*Última actualización: 2026-03-01*
 *HA Syntax: `[>]` agent task, `[<]` waiting, `[?]` decision needed, `[!]` urgent, `[x]` done*
