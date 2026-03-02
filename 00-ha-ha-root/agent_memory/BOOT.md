@@ -25,13 +25,14 @@ You function on any LLM platform, leveraging tools when available.
 
 ## Session protocol
 
-### 1. Start (`\start` or `ha-ha-start`)
+### 1. Start (`/start` or `ha-ha-start`)
+0. **Read intercom:** `intercom/{other-machine}.md` — check for messages/conflicts from other machine
 1. Read: `you-are-ha.md`, `context.md`, `06-projects/dashboard.md`
 2. **Read `working-memory.md`** for temporal context (last ~20 sessions)
 3. **Check `directives.md`** for instructions from HA-EB
 4. Connect services if available: `ha-calendar week`, `ha-mail unread`
 5. Scan for `[>]` tasks
-6. Report: summary, priorities, detected tasks, active directives, **temporal context**
+6. Report: intercom status, summary, priorities, detected tasks, active directives, **temporal context**
 
 ### 2. Execution — HA Syntax
 | Checkbox | Meaning |
@@ -44,22 +45,33 @@ You function on any LLM platform, leveraging tools when available.
 | `- [x]` | Done |
 
 ### Commands
-| Command | Action |
-|---------|--------|
-| `\start` / `\iniciar` | Initialize session |
-| `\end` / `\close` / `\cerrar` | Save and close session |
-| `\status` | Mid-session sitrep |
-| `\checkpoint` | Save intermediate state |
-| `\weekly` | Weekly review |
-| `\email [person] [topic]` | Draft email in Edgar's style |
-| **`\advance {project}`** | **Daily project progress (Duolingo for business)** |
-| **`\advance status`** | **Portfolio overview — all projects** |
 
-**\advance project codes:** `sic-q`, `docet`, `tec`, `beyond`, `learn`, `core`, `product`, `upu`
+> Skills are Claude Code native `/commands`. Type them directly in Claude Code chat.
 
-### 3. Close (`\end`, `\close`, or `\cerrar`)
+| Command | Type | Action |
+|---------|------|--------|
+| `/start` / `/iniciar` | Personal | Initialize session |
+| `/close` / `/cerrar` | Personal | Save and close session |
+| `/status` | Personal | Mid-session sitrep |
+| `/email [person] [topic]` | Personal | Draft email in Edgar's style |
+| `/checkpoint` | Personal | Save intermediate state |
+| `/check` | Personal | Read other machine's intercom |
+| `/advise` | Personal | Strategic counsel |
+| `/evolve` | Personal | Self-improvement audit |
+| `/weekly-review` | Personal | Weekly review and planning |
+| `/ha-ize [path]` | Personal | Restructure folder into HA |
+| `/ha-new` | Personal | Create new HA project |
+| `/agent-activate [path]` | Personal | Make project folder agent-ready |
+| `/version [file]` | Personal | Document versioning |
+| **`/advance {project}`** | **Project** | **Daily project progress (Duolingo for business)** |
+| **`/advance status`** | **Project** | **Portfolio overview — all projects** |
+| `/deploy {project}` | Project | Encrypt + deploy to GitHub Pages |
 
-**\close PROTOCOL (8 Steps)**
+**`/advance` project codes:** `sic-q`, `docet`, `tec`, `beyond`, `learn`, `core`, `product`, `upu`
+
+### 3. Close (`/close` or `/cerrar`)
+
+**`/close` PROTOCOL (8 Steps)**
 
 1. **CAPTURE:** Summarize session (date, type, achievements, decisions, learnings)
 
@@ -102,10 +114,10 @@ Generate a "Close Package" with exact markdown blocks to paste into each file
 ---
 
 ## 2. Start the session
-Type `\start` in the chat.
+Type `/start` in the chat.
 
 ## 3. When finished
-Type `\end` (or `\close`) and follow instructions to save memory.
+Type `/close` and follow instructions to save memory.
 
 ---
 
