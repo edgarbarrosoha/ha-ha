@@ -78,9 +78,9 @@
 ## ZONE C: State (Dynamic)
 
 ### Last Session
-- **Date:** 2026-02-28
-- **Type:** Git maintenance
-- **Achievements:** Resueltos 3 conflictos merge (context.md, working-memory.md, frases-clave). Creado .gitignore (.DS_Store, node_modules excluidos). Nota sync para otra computadora. Push exitoso.
+- **Date:** 2026-03-03
+- **Type:** Quick boot + status check
+- **Achievements:** Boot manual (skill tool no disponible). Calendario y mail cargados. Semana ocupada mapeada. Git limpio — workspace.json sin conflictos.
 
 ### Active Threads
 - SIC-Q: Cotización +$6M sin objeción (buena señal). Toño explorando Proyecto Cerebro CEN PAN (tentativo, pitch ~marzo). **Siguiente: reunión Edgar Mohar + subir entregables Wiki Notion**
@@ -100,23 +100,24 @@
 - Jorge Blando → Reunión siguiente paso (prep lista) | Beyond
 - Equipo Poncho (Docet) → Evaluación indicadores/métricas | Docet
 - Gobierno QRO → Decisión legal + alineación IF | SIC-Q
-- Héctor → Confirmar fecha llamada | Nuevo lead
+- Héctor Brosig → ✅ Reunión confirmada Jue 05 Mar 16:00 | Xignux
 - Nicho (Talisis) → Status reunión liderazgo | Talisis
 - Javier (VP Research Tec) → Agendar reunión con Joel Cano | HA-Core
 - Steven Popper → Respuesta correo reuniones mensuales | Advisory
 - Betty/Sarahí/Edgar → Call Netherlands office strategy | Learning Products
 
 ### Next Session Priorities
-1. **Probar Notion MCP** (post-restart) → si funciona, subir entregables SIC-Q a Wiki para reunión Mohar
-2. SIC-Q: Propuesta v06 + prep reunión Edgar Mohar
-3. Tec Beyond: Seguimiento post-reunión Jorge Blando
-4. Docet: Deadline febrero vencido — formalizar pausa o escalar
-5. Learning Products: Call Netherlands office strategy
+1. SIC-Q: Propuesta v06 + prep reunión Edgar Mohar (post-reunión SEDEQ hoy)
+2. Tec Beyond: Seguimiento Jorge Blando
+3. Héctor Brosig / Xignux: Prep para llamada Jue 05 Mar 16:00
+4. Docet: Formalizar pausa o escalar
+5. Learning Products: Netherlands office strategy
 
 ### Recent Sessions
 
 | Date | Session | Focus | Key Achievement |
 |------|---------|-------|-----------------|
+| 2026-03-03 | 19 | Quick boot | Calendario + mail cargados, semana mapeada, git limpio |
 | 2026-02-28 | 18 | Git maintenance | Merge conflicts resueltos, .gitignore, nota sync otra computadora |
 | 2026-02-28 | 17 | Quick reference | Argumento Jorge Blando — por qué HA hace la tecnología |
 | 2026-02-27 | 16 | Notion MCP debug | Token OK, MCP header bug, fix NOTION_TOKEN, restart pendiente |
