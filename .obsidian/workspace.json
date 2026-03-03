@@ -4,109 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "aa2ab8803f5af193",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "d01dba2b4b588515",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "terminal:terminal",
-              "state": {
-                "terminal:terminal": {
-                  "cwd": "/Users/edgarbarroso/Documents/ha-ha",
-                  "focus": false,
-                  "profile": {
-                    "args": [
-                      "--login"
-                    ],
-                    "executable": "/bin/zsh",
-                    "followTheme": true,
-                    "name": "",
-                    "platforms": {
-                      "darwin": true
-                    },
-                    "pythonExecutable": "python3",
-                    "restoreHistory": false,
-                    "rightClickAction": "copyPaste",
-                    "successExitCodes": [
-                      "0",
-                      "SIGINT",
-                      "SIGTERM"
-                    ],
-                    "terminalOptions": {
-                      "documentOverride": null
-                    },
-                    "type": "integrated",
-                    "useWin32Conhost": true
-                  },
-                  "serial": null
-                }
-              },
-              "pinned": true,
-              "icon": "terminal",
-              "title": "Terminal: ✳ Claude Code"
-            }
-          },
-          {
-            "id": "5f1d4d3780cf1938",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "terminal:terminal",
-              "state": {
-                "terminal:terminal": {
-                  "cwd": "/Users/edgarbarroso/Documents/ha-ha",
-                  "focus": false,
-                  "profile": {
-                    "args": [
-                      "--login"
-                    ],
-                    "executable": "/bin/zsh",
-                    "followTheme": true,
-                    "name": "",
-                    "platforms": {
-                      "darwin": true
-                    },
-                    "pythonExecutable": "python3",
-                    "restoreHistory": false,
-                    "rightClickAction": "copyPaste",
-                    "successExitCodes": [
-                      "0",
-                      "SIGINT",
-                      "SIGTERM"
-                    ],
-                    "terminalOptions": {
-                      "documentOverride": null
-                    },
-                    "type": "integrated",
-                    "useWin32Conhost": true
-                  },
-                  "serial": null
-                }
-              },
-              "pinned": true,
-              "icon": "terminal",
-              "title": "Terminal: zsh"
-            }
-          },
-          {
-            "id": "fc42605f54eb1bf4",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "06-projects/sic-q/06-projects/entregables/talleres-febrero-2026/ficha-logística.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "ficha-logística"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -163,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.50312423706055
+    "width": 261.50271224975586
   },
   "right": {
     "id": "594e9832c1f8bcf5",
@@ -270,14 +185,19 @@
       "widgets:Add widget": false
     }
   },
-  "active": "5f1d4d3780cf1938",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "06-projects/sic-q/06-projects/entregables/talleres-febrero-2026/reporte-ejecutivo-combinado.md",
+    "06-projects/sic-q/06-projects/entregables/talleres-febrero-2026/capacitación-moderadores.md",
+    "06-projects/dashboard.md",
+    "00-ha-ha-root/agent_memory/ha-mail.sh",
+    "00-ha-ha-root/agent_memory/ha-calendar.sh",
+    "04-technology/ha-identidad-gráfica",
     "00-ha-ha-root/agent_memory/git-sync-note.md",
     "conflict-files-obsidian-git.md",
     "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/entregables/prep-reunion-jorge-blando.md",
     "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/entregables/frases-clave-consejo-26feb.md",
     "06-projects/tec-monterrey/project-state.md",
-    "06-projects/dashboard.md",
     "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/entregables/anexos/anexos-profesional.html",
     "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/entregables/presentacion-ejecutiva.html",
     "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/entregables/presentacion-representantes-src.html",
@@ -285,9 +205,6 @@
     "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/entregables/anexos/anexos-profesional-src.html",
     "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/entregables/presentacion-ejecutiva-src.html",
     "06-projects/tec-monterrey/06-projects/narrativa-campus-monterrey/05-context/kdb_cynthia/Metas Tec de Monterrey Ciclo 25-26.json",
-    "06-projects/innovation-labs/propuesta-innovation-labs-v01.docx",
-    "06-projects/sic-q/06-projects/propuestas/SIC-Q-Dimension-Presupuestal-2026.docx",
-    "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/entregables/kumu-tec-beyond.json",
     "00-ha-ha-root/agent_memory/evolution-log.md",
     "00-ha-ha-root/agent_memory/skills/evolve.md",
     "00-ha-ha-root/agent_memory/skills/advise.md",
@@ -306,8 +223,6 @@
     "06-projects/upu/project-state.md",
     "06-projects/learning-products/project-state.md",
     "06-projects/sic-q/project-state.md",
-    "06-projects/tec-monterrey/06-projects/tec-beyond/project-state.md",
-    "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/propuestas/propuesta-completa-tec-beyond-ha.md",
     "06-projects/tec-monterrey/06-projects/narrativa-campus-monterrey/05-context/5C962185-CA38-428B-8EC3-83A87C9589AC (1).png",
     "06-projects/upu/06-projects/conferencia-upu/Screenshot 2024-10-02 at 9.47.56 1.png",
     "06-projects/upu/06-projects/conferencia-upu/Screenshot 2024-10-02 at 9.47.56.png",

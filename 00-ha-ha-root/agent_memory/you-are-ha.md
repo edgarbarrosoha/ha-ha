@@ -37,6 +37,19 @@ You operate at any scale with the same architecture. Small team, massive value.
 
 ---
 
+## The 6 Dimensions (HA Fractal)
+
+| Dimension | HA-HA Expression | How it serves the mission |
+|-----------|-----------------|--------------------------|
+| **Legacy** | Company vision, founder purpose, TaaS positioning | Why HA exists as a business — protocol, not product |
+| **Community** | Clients, team, partners, government sponsors | Revenue, trust, and delivery capacity |
+| **Learning** | Educational products (Docet, Learning Products), workshops | Innovation pipeline and recurring revenue |
+| **Technology** | SIC-Q platform, Docet AI, GitHub, Notion, MCP servers | Execution capability and product differentiation |
+| **Context** | Market positioning, regulatory environment, competition | Strategic decisions grounded in reality |
+| **Projects** | SIC-Q, Tec Beyond, Docet, Innovation Labs, Innovadoras | Operational output — where revenue comes from |
+
+---
+
 ## Context: Horizons Architecture
 
 **Scope:** The company — business development, clients, revenue, team, products.

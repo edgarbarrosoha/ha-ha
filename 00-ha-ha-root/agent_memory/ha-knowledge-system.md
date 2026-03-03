@@ -13,23 +13,33 @@ Both work together to make HA-HA effective as COO of Horizons Architecture.
 
 ## Skills (Executable Commands)
 
-**Location:** `agent_memory/skills/`
+**Location:** Skills exist in two forms:
+- **Claude Code native:** `SKILL.md` files at `~/.claude/skills/` (personal) or `.claude/skills/` (project)
+- **Reference docs:** `agent_memory/skills/` (documentation and protocol details)
 
-**What they are:** Step-by-step protocols invoked with `\command` syntax.
+**What they are:** Step-by-step protocols invoked as Claude Code native `/commands`.
 
 **Current Skills:**
 
-| Skill | Command | Purpose |
-|-------|---------|---------|
-| `start` | `\start` | Initialize session with full context |
-| `close` | `\close` | End session, save all memory (8 steps) |
-| `status` | `\status` | Mid-session situation report |
-| `email` | `\email [person] [topic]` | Draft email following style-guide |
-| `checkpoint` | `\checkpoint` | Save intermediate state |
-| `weekly-review` | `\weekly` | Review past week, plan next |
-| `ha-ize` | `\ha-ize [path]` | Convert folder to HA structure |
-| `agent-activate` | `\agent-activate [path]` | Make project folder agent-ready |
-| `version` | `\version` | Version control with YAML metadata |
+| Skill | Command | Type | Purpose |
+|-------|---------|------|---------|
+| `start` | `/start` | Personal | Initialize session with full context |
+| `close` | `/close` | Personal | End session, save all memory (8 steps) |
+| `status` | `/status` | Personal | Mid-session situation report |
+| `email` | `/email [person] [topic]` | Personal | Draft email following style-guide |
+| `checkpoint` | `/checkpoint` | Personal | Save intermediate state |
+| `check` | `/check` | Personal | Read other machine's intercom |
+| `advise` | `/advise` | Personal | Strategic counsel |
+| `evolve` | `/evolve` | Personal | Self-improvement audit |
+| `weekly-review` | `/weekly-review` | Personal | Review past week, plan next |
+| `ha-ize` | `/ha-ize [path]` | Personal | Convert folder to HA structure |
+| `ha-new` | `/ha-new` | Personal | Create new HA project from description |
+| `agent-activate` | `/agent-activate [path]` | Personal | Make project folder agent-ready |
+| `version` | `/version [file]` | Personal | Version control with YAML metadata |
+| `advance` | `/advance {project}` | Project | Daily business project progress |
+| `deploy` | `/deploy {project}` | Project | Encrypt + deploy to GitHub Pages |
+
+**Domain-specific skills for HA-HA:** `advance`, `deploy`
 
 ---
 
@@ -97,12 +107,18 @@ HA-HA sits at Level 1 (Domain). Sub-projects inherit from HA-HA and can have the
 
 ## Creating New Skills
 
-Skills go in `agent_memory/skills/` and should include:
+Skills exist in two places:
+
+1. **Claude Code native** (`SKILL.md` format) — placed at `~/.claude/skills/SKILLNAME.md` (personal) or `.claude/skills/SKILLNAME.md` (project). These are invoked as `/skillname` directly in Claude Code.
+
+2. **Reference docs** — placed in `agent_memory/skills/` for documentation and non-Claude-Code contexts.
+
+**SKILL.md format** (Claude Code native):
 
 ```markdown
 # Skill: [name]
 
-**Command:** `\command` or trigger phrase
+**Command:** `/command`
 **Purpose:** What this skill accomplishes
 
 ---
@@ -155,7 +171,7 @@ status: active
 ## Key Principles
 
 1. **Skills are Verbs, Expertise is Nouns** — Skills execute, Expertise informs
-2. **Both are Callable** — Skills via `\command`, Expertise via domain detection
+2. **Both are Callable** — Skills via `/command` (Claude Code native), Expertise via domain detection
 3. **Both are Fractal** — Each HA level has its own appropriate set
 4. **They Complement Each Other** — A task often needs both
 5. **They Accumulate** — New additions don't affect other levels
@@ -167,12 +183,12 @@ status: active
 | Question | Skills | Expertise |
 |----------|--------|-----------|
 | What is it? | Executable protocol | Domain knowledge |
-| Where? | `agent_memory/skills/` | `03-learning/expertise/` |
-| Triggered by? | `\command` | Domain detection |
+| Where? | `~/.claude/skills/` (personal), `.claude/skills/` (project), `agent_memory/skills/` (docs) | `03-learning/expertise/` |
+| Triggered by? | `/command` (Claude Code native) | Domain detection |
 | What it does? | Executes steps | Informs thinking |
 | Output? | Action completed | Better understanding |
 | Analogy? | Playbook | Business intelligence |
 
 ---
 
-*Last updated: 2026-02-14*
+*Last updated: 2026-02-28*

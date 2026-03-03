@@ -22,6 +22,15 @@
 - **Key products:** Docet (AI education), SIC-Q (complexity workshops)
 - **HA Syntax:** `[>]` agent tasks, `@verb` actions, `#tag` targets
 
+### Cross-Vault Connections
+
+| Vault | Connection | Why It Matters |
+|-------|-----------|----------------|
+| **HA-EB** | Parent root — receives directives, sends signals to inbox | Strategic alignment across Edgar's life |
+| **HA-TEC** | Academic projects as revenue source (Tec Beyond, Narrativa, Criterio) | Teaching validates HA; HA funds teaching innovation |
+| **HA-RESEARCH** | Papers provide academic armor for business credibility | Q1 Scopus publications legitimize HA's consulting claims |
+| **HA-AL** | Casa Antena as training venue and learning lab | Physical space for HA workshops and community building |
+
 ---
 
 ## ZONE B: Wisdom (Evolving)

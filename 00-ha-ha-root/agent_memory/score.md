@@ -32,6 +32,20 @@
 14 Feb  T^  Knowledge system documented — skills + expertise architecture
 14 Feb  T^  Claude Code memory source created — claude-code-memory.md
 14 Feb  T^  Score movements architecture adopted — sustainable notation system
+15 Feb  P^  SIC-Q cotización +$6M sent to Toño — 3 AI deliverables, total $16M+IVA
+22 Feb  L!  Three Bets crystallized — SIC-Q (proof), Book (flag), Papers (legitimacy)
+22 Feb  C^  Caribbean/MBTU presentation — José Anson, new AI training lead
+22 Feb  P^  Tec Beyond — Jorge Blando meeting confirmed, entrepreneurs 4 states
+22 Feb  L?  Project Mara — B2C product concept, needs owner or park decision
+25 Feb  T^  Multi-machine setup — intercom, skills sync, MEMORY optimization
+27 Feb  C*  Mara × Anagrama Kick Off — design project activated
+27 Feb  C^  Jorge Blando meeting — Tec Beyond strategy
+28 Feb  T^  Skills migration — Claude Code native format, 22 SKILL.md files
+28 Feb  T^  Git maintenance — merge conflicts resolved, repo clean
+01 Mar  P~  Hector Brosig responded — Xignux meeting Thu 05 Mar 16:00
+03 Mar  T^  Scripts independence — ha-calendar + ha-mail now local to vault
+03 Mar  L^  6D table added — fractal coherence signal in you-are-ha.md
+03 Mar  C^  Cross-vault connections formalized in context.md
 ```
 
 ### Narrative

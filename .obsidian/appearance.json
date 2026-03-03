@@ -1,3 +1,5 @@
 {
-  "cssTheme": "Typewriter"
+  "cssTheme": "Material Ocean",
+  "accentColor": "#2e5dea",
+  "theme": "system"
 }
