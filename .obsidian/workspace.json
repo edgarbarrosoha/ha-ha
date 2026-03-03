@@ -4,6 +4,54 @@
     "type": "split",
     "children": [
       {
+        "id": "252a369a2a12de31",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cd361c91e6d8f877",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "terminal:terminal",
+              "state": {
+                "terminal:terminal": {
+                  "cwd": "/Users/edgarbarroso/Documents/ha-ha",
+                  "focus": false,
+                  "profile": {
+                    "args": [
+                      "--login"
+                    ],
+                    "executable": "/bin/zsh",
+                    "followTheme": true,
+                    "name": "",
+                    "platforms": {
+                      "darwin": true
+                    },
+                    "pythonExecutable": "python3",
+                    "restoreHistory": false,
+                    "rightClickAction": "copyPaste",
+                    "successExitCodes": [
+                      "0",
+                      "SIGINT",
+                      "SIGTERM"
+                    ],
+                    "terminalOptions": {
+                      "documentOverride": null
+                    },
+                    "type": "integrated",
+                    "useWin32Conhost": true
+                  },
+                  "serial": null
+                }
+              },
+              "pinned": true,
+              "icon": "terminal",
+              "title": "Terminal: ✳ Claude Code"
+            }
+          }
+        ]
+      },
+      {
         "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
@@ -19,6 +67,20 @@
               },
               "icon": "lucide-file",
               "title": "ficha-logística"
+            }
+          },
+          {
+            "id": "2b4dd4276bb3ef11",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
             }
           }
         ]
@@ -187,6 +249,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "06-projects/sic-q/06-projects/entregables/talleres-febrero-2026/ficha-logística.md",
+    "conflict-files-obsidian-git.md",
     "06-projects/sic-q/06-projects/entregables/talleres-febrero-2026/reporte-ejecutivo-combinado.md",
     "06-projects/sic-q/06-projects/entregables/talleres-febrero-2026/capacitación-moderadores.md",
     "06-projects/dashboard.md",
@@ -194,7 +258,6 @@
     "00-ha-ha-root/agent_memory/ha-calendar.sh",
     "04-technology/ha-identidad-gráfica",
     "00-ha-ha-root/agent_memory/git-sync-note.md",
-    "conflict-files-obsidian-git.md",
     "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/entregables/prep-reunion-jorge-blando.md",
     "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/entregables/frases-clave-consejo-26feb.md",
     "06-projects/tec-monterrey/project-state.md",
@@ -222,7 +285,6 @@
     "06-projects/tec-monterrey/06-projects/tec-beyond/06-projects/entregables/anexos/anexo-2-narrativa-visual.md",
     "06-projects/upu/project-state.md",
     "06-projects/learning-products/project-state.md",
-    "06-projects/sic-q/project-state.md",
     "06-projects/tec-monterrey/06-projects/narrativa-campus-monterrey/05-context/5C962185-CA38-428B-8EC3-83A87C9589AC (1).png",
     "06-projects/upu/06-projects/conferencia-upu/Screenshot 2024-10-02 at 9.47.56 1.png",
     "06-projects/upu/06-projects/conferencia-upu/Screenshot 2024-10-02 at 9.47.56.png",
