@@ -1,39 +1,27 @@
 #!/bin/bash
 # HA Mail Bridge — reads Mac Mail via AppleScript
 # Usage: ha-mail unread | ha-mail today
+# v2: "unread" uses fast count (property, not query). "today" fetches details.
 
 case "${1:-unread}" in
     unread)
         echo "=== Mail: Unread Messages ==="
         osascript -e '
         tell application "Mail"
-            set unreadMessages to {}
-            set allAccounts to every account
-            repeat with anAccount in allAccounts
-                set allMailboxes to every mailbox of anAccount
-                repeat with aMailbox in allMailboxes
-                    try
-                        set unreadMsgs to (every message of aMailbox whose read status is false)
-                        repeat with aMsg in unreadMsgs
-                            set msgDate to date received of aMsg
-                            set msgFrom to sender of aMsg
-                            set msgSubject to subject of aMsg
-                            set end of unreadMessages to (msgDate as string) & " | " & msgFrom & " | " & msgSubject
-                        end repeat
-                    end try
-                end repeat
+            set output to ""
+            repeat with anAccount in every account
+                try
+                    set inboxMailbox to inbox of anAccount
+                    set unreadCount to unread count of inboxMailbox
+                    if unreadCount > 0 then
+                        set acctName to name of anAccount
+                        set output to output & acctName & ": " & unreadCount & " unread" & linefeed
+                    end if
+                end try
             end repeat
-            if (count of unreadMessages) is 0 then
+            if output is "" then
                 return "No unread messages."
             else
-                set maxItems to 20
-                if (count of unreadMessages) < maxItems then
-                    set maxItems to (count of unreadMessages)
-                end if
-                set output to ""
-                repeat with i from 1 to maxItems
-                    set output to output & item i of unreadMessages & linefeed
-                end repeat
                 return output
             end if
         end tell
@@ -50,14 +38,18 @@ case "${1:-unread}" in
             set seconds of todayDate to 0
             set allAccounts to every account
             repeat with anAccount in allAccounts
-                set inboxMailbox to inbox of anAccount
                 try
+                    set inboxMailbox to inbox of anAccount
+                    set acctName to name of anAccount
                     set todayMsgs to (every message of inboxMailbox whose date received > todayDate)
-                    repeat with aMsg in todayMsgs
+                    set msgCount to count of todayMsgs
+                    if msgCount > 10 then set msgCount to 10
+                    repeat with i from 1 to msgCount
+                        set aMsg to item i of todayMsgs
                         set msgDate to date received of aMsg
                         set msgFrom to sender of aMsg
                         set msgSubject to subject of aMsg
-                        set end of todayMessages to (msgDate as string) & " | " & msgFrom & " | " & msgSubject
+                        set end of todayMessages to acctName & " | " & (msgDate as string) & " | " & msgFrom & " | " & msgSubject
                     end repeat
                 end try
             end repeat

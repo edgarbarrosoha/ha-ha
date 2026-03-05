@@ -1,6 +1,7 @@
 #!/bin/bash
 # HA Calendar Bridge — reads Mac Calendar via icalBuddy
 # Usage: ha-calendar today | ha-calendar week
+# Compact output: excludes notes and attendees (the biggest bloat sources)
 
 # Load config if available
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -22,15 +23,15 @@ build_cal_args() {
 case "${1:-today}" in
     today)
         echo "=== Calendar: Today ==="
-        icalBuddy $(build_cal_args) -f -nc -nrd eventsToday
+        icalBuddy $(build_cal_args) -f -nc -nrd -eep "notes,attendees" eventsToday
         ;;
     week)
         echo "=== Calendar: This Week ==="
-        icalBuddy $(build_cal_args) -f -nc -nrd eventsToday+7
+        icalBuddy $(build_cal_args) -f -nc -nrd -eep "notes,attendees" eventsToday+7
         ;;
     tomorrow)
         echo "=== Calendar: Tomorrow ==="
-        icalBuddy $(build_cal_args) -f -nc -nrd eventsToday+1
+        icalBuddy $(build_cal_args) -f -nc -nrd -eep "notes,attendees" eventsToday+1
         ;;
     *)
         echo "Usage: ha-calendar [today|week|tomorrow]"

@@ -73,7 +73,7 @@ type: clock
 
 | **Project** | **Status** | **Next steps** | **Links** |
 | ----------- | ---------- | -------------- | --------- |
-| **HA-Core** | 🔶 Framework activo | TaaS Product Architecture + scaling plan | `ha-core/` |
+| **HA-Core** | 🔶 Framework activo | TaaS Product Architecture + scaling plan + "HA as discipline" positioning (temporal vs spatial, model=commodity) | `ha-core/` |
 | **HA-Product** | ❄️ Sin movimiento 9 días | [?] Decisión: activar con recursos o congelar | `ha-product/` |
 | **Learning Products** | 🟢 Leiden confirmado mar-jun, NL office emerging | Betty + Sarahí canvases + call NL strategy | `learning-products/` |
 
@@ -226,5 +226,5 @@ Oportunidades detectadas que aún no son proyecto formal. Rastrear aquí hasta q
 
 ---
 
-*Última actualización: 2026-03-01*
+*Última actualización: 2026-03-04*
 *HA Syntax: `[>]` agent task, `[<]` waiting, `[?]` decision needed, `[!]` urgent, `[x]` done*
