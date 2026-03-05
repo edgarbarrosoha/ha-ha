@@ -1,3 +1,9 @@
 .DS_Store
 node_modules/
 conflict-files-obsidian-git.md
+
+# Obsidian machine-local UI state (prevents cross-device pull conflicts)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/appearance.json
+.obsidian/themes/
