@@ -83,35 +83,34 @@
 - **Achievements:** Boot manual (skill tool no disponible). Calendario y mail cargados. Semana ocupada mapeada. Git limpio — workspace.json sin conflictos.
 
 ### Active Threads
-- SIC-Q: Cotización +$6M sin objeción (buena señal). Toño explorando Proyecto Cerebro CEN PAN (tentativo, pitch ~marzo). **Siguiente: reunión Edgar Mohar + subir entregables Wiki Notion**
+- SIC-Q: Propuesta v06 enviada. Edgar Mohar habló con Toño (04 mar) para formalizar contrato — caminando. Proyecto Cerebro CEN PAN (tentativo, pitch ~marzo)
 - SIC-Q: 4 reportes talleres completos (ejecutivos T1/T2, combinado, técnico ~1600 líneas)
 - Tec Beyond: Reunión consejo 26 feb exitosa — consejo validó visión, quiere que Tec contrate HA. **Prep reunión Jorge Blando lista (4 docs)**
 - Docet-Agentic: En pausa — esperando evaluación equipo Poncho. Deadline febrero vencido
 - TEC Narrativa: Feedback JP recibido. Mario Adrián presenta a Consejo. Sarahí da insumos. 27 entrevistas totales
 - UPU: Oscar documentación para cerrar
 - Learning Products: Betty + Sarahí avanzan canvases. Leiden Mar-Jun 2026 confirmado
-- Talisis: Esperando Nicho
+- Talisis: Reunión Nicho cancelada 05 mar (traslape), reagendar pendiente
 - **Emerging:** Proyecto Cerebro CEN PAN (SIC-Q), Caribbean AI training (UPU), Netherlands office (Learning Products), Project Mara B2C (Beyond)
 - **Infraestructura:** Notion MCP configurado, pendiente restart para activar
 
 ### Waiting For
-- Antonio Rangel → Respuesta cotización +$6M (sin objeción = buena señal) | SIC-Q
-- Edgar Mohar → Reunión prep + Wiki Notion | SIC-Q
+- Edgar Mohar / Toño → Formalización contrato (Mohar habló con Toño 04 mar) | SIC-Q
 - Jorge Blando → Reunión siguiente paso (prep lista) | Beyond
 - Equipo Poncho (Docet) → Evaluación indicadores/métricas | Docet
 - Gobierno QRO → Decisión legal + alineación IF | SIC-Q
-- Héctor Brosig → ✅ Reunión confirmada Jue 05 Mar 16:00 | Xignux
-- Nicho (Talisis) → Status reunión liderazgo | Talisis
+- Héctor Brosig → Reunión reagendada Vie 06 Mar 19:00 | Xignux
+- Nicho (Talisis) → Reagendar reunión (cancelada 05 mar) | Talisis
 - Javier (VP Research Tec) → Agendar reunión con Joel Cano | HA-Core
 - Steven Popper → Respuesta correo reuniones mensuales | Advisory
 - Betty/Sarahí/Edgar → Call Netherlands office strategy | Learning Products
 
 ### Next Session Priorities
-1. SIC-Q: Propuesta v06 + prep reunión Edgar Mohar (post-reunión SEDEQ hoy)
+1. SIC-Q: Seguimiento formalización contrato (Mohar/Toño)
 2. Tec Beyond: Seguimiento Jorge Blando
-3. Héctor Brosig / Xignux: Prep para llamada Jue 05 Mar 16:00
-4. Docet: Formalizar pausa o escalar
-5. Learning Products: Netherlands office strategy
+3. Héctor Brosig / Xignux: Reunión mañana Vie 06 Mar 19:00
+4. Talisis: Reagendar con Nicho
+5. Docet: Formalizar pausa o escalar
 
 ### Recent Sessions
 
