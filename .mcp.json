@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "gdrive-ha": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-gdrive"],
+      "env": {
+        "GDRIVE_CREDENTIALS_PATH": "/Users/edgarbarroso/.gdrive-mcp/tokens-ha.json"
+      }
+    }
+  }
+}

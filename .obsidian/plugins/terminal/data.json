@@ -8,6 +8,7 @@
   "hideStatusBar": "focused",
   "interceptLogging": true,
   "language": "",
+  "macOSOptionKeyPassthrough": true,
   "newInstanceBehavior": "newHorizontalSplit",
   "noticeTimeout": 5,
   "openChangelogOnUpdate": true,
@@ -46,7 +47,7 @@
       "platforms": {
         "darwin": true
       },
-      "pythonExecutable": "python3",
+      "pythonExecutable": "/opt/homebrew/bin/python3",
       "restoreHistory": false,
       "rightClickAction": "copyPaste",
       "successExitCodes": [
@@ -159,5 +160,9 @@
       "type": "integrated",
       "useWin32Conhost": true
     }
+  },
+  "defaultProfile": null,
+  "terminalOptions": {
+    "documentOverride": null
   }
 }

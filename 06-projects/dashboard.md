@@ -7,29 +7,28 @@ type: clock
 
 ## Prioridad
 
-- [ ] SIC-Q: Reunión Edgar Mohar — subir entregables a Wiki Notion
-- [ ] SIC-Q: Propuesta v06 (3 frentes operativos + datos talleres)
-- [ ] Tec Beyond: Reunión Jorge Blando — prep lista (4 docs). Seguimiento pendiente
-- [ ] Docet: Deadline febrero vencido — formalizar pausa o escalar con Poncho
+- [x] SIC-Q: Propuesta v06 enviada. Edgar Mohar hablando con Toño para formalizar contrato
+- [x] Tec Beyond: Reunión Jorge
+- [ ] Docet: Esperando respuesta equipo Poncho. Probablemente no se concrete. Sin deadline
 
 ## En curso
 - [ ] UPU: Oscar documentación cierre (semana 24 feb)
-- [ ] TEC Narrativa: Materiales entregados a Mario Adrián para Consejo. Sarahí dando insumos
-- [ ] Learning Products: Betty + Sarahí avanzan canvases. Leiden confirmado mar-jun 2026
+- [x] TEC Narrativa: Terminada. Fue muy bien. Pendiente: ajustar datos en presentación
+- [ ] Learning Products: Betty, Sarahí y Oscar avanzan. Leiden confirmado mar-jun 2026
 
 ## Pendiente
 - [ ] Entender la codificación
-- [ ] HA-Product: [?] Decisión — activar con recursos concretos o congelar formalmente
+- [ ] HA-Products: Definir arquitectura TaaS + scope MARA (Oscar PPTX ya integrado)
 - [ ] Learning Products: Call Betty/Sarahí/Edgar — Netherlands office strategy
 - [ ] Learning Products: Adaptar syllabus Entrepreneurship para Leiden
 - [ ] Learning Products: Definir scope Plan de Vida y Carrera
-- [x] Héctor Brosig: ✅ Reunión agendada Jue 05 Mar 16:00
-- [ ] Talisis: Esperando status reunión liderazgo de Nicho
+- [x] Héctor Brosig: ✅ Reunión reagendada Vie 06 Mar 19:00
+- [ ] Talisis: Reagendar reunión con Nicho (cancelada 05 mar)
 - [ ] Joel Cano: Agendar reunión con Javier (VP Research Tec)
 - [ ] Xignux: Follow-up enviado, sin respuesta aún
 
 ## Pausa
-- [ ] Docet: Esperando evaluación equipo Poncho sobre indicadores y métricas de performance
+- [ ] Docet: Esperando respuesta equipo Poncho. Probablemente no se concrete. Sin deadline
 
 ---
 
@@ -37,16 +36,15 @@ type: clock
 
 | Persona | Esperando | Proyecto | Desde |
 |---------|-----------|----------|-------|
-| **Antonio Rangel** | Respuesta cotización +$6M (sin objeción = buena señal) | SIC-Q | 19 feb |
-| **Edgar Mohar** | Reunión prep + subir entregables Wiki Notion | SIC-Q | 27 feb |
+| **Edgar Mohar / Toño** | Formalización contrato — Mohar habló con Toño 04 mar | SIC-Q | 04 mar |
 | **Jorge Blando** | Reunión siguiente paso — prep lista | Beyond | 27 feb |
-| **Equipo Poncho (Docet)** | Evaluación indicadores — deadline vencido. Proyecto en pausa formal. | Docet-Agentic | ~14 feb |
+| **Equipo Poncho (Docet)** | Esperando respuesta. Probablemente no se concrete. Sin deadline. | Docet-Agentic | ~14 feb |
 | **Gobierno QRO** | Decisión legal CURP vs INE + alineación IF | SIC-Q | feb |
 | **Oscar** | Documentación cierre proyecto | UPU | 22 feb |
-| **Nicho (Talisis)** | Status reunión liderazgo | Talisis | ~14 feb |
+| **Nicho (Talisis)** | Reagendar reunión (cancelada 05 mar por traslape) | Talisis | 05 mar |
 | **Betty/Sarahí** | Call Netherlands office strategy | Learning Products | 22 feb |
 | **Javier (VP Research Tec)** | Agendar reunión con Joel Cano | HA-Core | ~14 feb |
-| **Héctor Brosig** | ✅ Respondió — reunión **Jue 05 Mar 16:00** | Xignux | 01 mar |
+| **Héctor Brosig** | Reunión reagendada **Vie 06 Mar 19:00** | Xignux | 05 mar |
 | **Steven Popper** | Respuesta correo reuniones mensuales | Advisory | ~14 feb |
 | Xignux | Follow-up enviado, sin respuesta | — | ~14 feb |
 
@@ -58,14 +56,14 @@ type: clock
 
 | **Project** | **Status** | **Next steps** | **Links** |
 | ----------- | ---------- | -------------- | --------- |
-| **SIC-Q** | 🟢 $3.7M pagado, cotización +$6M sin objeción. Proyecto Cerebro PAN (tentativo) | Reunión Mohar + Wiki Notion + Propuesta v06 | `sic-q/` |
+| **SIC-Q** | 🟢 Propuesta v06 enviada. Mohar/Toño formalizando contrato. Proyecto Cerebro PAN (tentativo) | Seguimiento formalización | `sic-q/` |
 
 ## Education & AI Systems
 
 | **Project** | **Status** | **Next steps** | **Links** |
 | ----------- | ---------- | -------------- | --------- |
-| **Docet-Agentic** | ⚠️ Esperando Poncho + deadline prototipo feb | Verificar status prototipo agentes | `docet-agentic/` |
-| **TEC Narrativa** | 🟢 Feedback JP recibido, 27 entrevistas | Mario Adrián presenta a Consejo, Sarahí insumos | `tec-monterrey/` |
+| **Docet-Agentic** | ⏸️ Esperando respuesta Poncho. Probablemente no se concrete | Sin acción hasta respuesta | `docet-agentic/` |
+| **TEC Narrativa** | ✅ Terminada. Fue muy bien | Ajustar datos en presentación | `tec-monterrey/` |
 | **Tec Beyond** | 🟢 Consejo validó visión 26 feb. Prep Jorge Blando lista | Reunión Jorge Blando — siguiente paso | `tec-monterrey/06-projects/tec-beyond/` |
 | **Talisis 360** | 🔶 Esperando Nicho | Status reunión liderazgo | `talisis/` |
 
@@ -73,9 +71,9 @@ type: clock
 
 | **Project** | **Status** | **Next steps** | **Links** |
 | ----------- | ---------- | -------------- | --------- |
-| **HA-Core** | 🔶 Framework activo | TaaS Product Architecture + scaling plan + "HA as discipline" positioning (temporal vs spatial, model=commodity) | `ha-core/` |
-| **HA-Product** | ❄️ Sin movimiento 9 días | [?] Decisión: activar con recursos o congelar | `ha-product/` |
-| **Learning Products** | 🟢 Leiden confirmado mar-jun, NL office emerging | Betty + Sarahí canvases + call NL strategy | `learning-products/` |
+| **HA-Core** | 🟢 Retomando con Project Mara (B2C) | Definir scope Mara + arquitectura | `ha-core/` |
+| **HA-Products** | 🟢 Ha-izado con vision TaaS+MARA (Oscar PPTX). P0: TaaS, MARA, Dev-with-AI | Definir arquitectura TaaS + scope MARA | `ha-products/` |
+| **Learning Products** | 🟢 Leiden confirmado mar-jun, NL office emerging | Betty, Sarahí y Oscar avanzan | `learning-products/` |
 
 ## International
 
@@ -94,8 +92,9 @@ type: clock
 - [x] Reunión Antonio Rangel 19 feb — 3 frentes operativos definidos
 - [x] Presentación CONSEQRO 19 feb — 4 demos, ~13 consejeros, feedback capturado
 - [x] Talleres co-diseño (16-17 feb) — reportes ejecutivos + técnico completados
-- [ ] 🔴 Propuesta v06 con 3 frentes operativos + datos talleres
-- [ ] 🔴 Diseñar piloto operativo con Toño (datasets, productos, métricas)
+- [x] Propuesta v06 enviada
+- [ ] Formalización contrato — Edgar Mohar habló con Toño (04 mar)
+- [ ] Diseñar piloto operativo con Toño (datasets, productos, métricas)
 - [ ] Identificar datasets iniciales disponibles
 - [ ] Estrategia acercamiento Secretario de Finanzas
 - [ ] Narrativa para presentación al gobernador
@@ -115,9 +114,8 @@ type: clock
 **Cliente:** Juan Pablo Murra (Rector Campus)
 **Concepto:** "Colaboración Sistémica" — 3 apuestas transformadoras
 **Entrevistas:** 27 totales (6 liderazgo, 13 directivos, 7 estudiantes, 1 consejero)
-- [ ] Sarahí dando insumos a Mario Adrián
-- [ ] Mapeo indicadores y proyectos
-- [ ] Presentación ejecutiva final
+- [x] Narrativa entregada y presentada. Fue muy bien
+- [ ] Ajustar datos en presentación (corrección menor)
 
 ## TEC Monterrey — Tec Beyond
 **Cliente:** Mario Orozco (sponsor), Jorge Blando (Dir. Vinculación)
@@ -146,17 +144,23 @@ type: clock
 
 ## HA-Core (La HA de la HA)
 **Visión:** Democratizar pensamiento sistémico
+**Siguiente:** Retomar con Project Mara (B2C) — community platform como producto
+- [ ] Definir scope Project Mara
+- [ ] Arquitectura plataforma B2C
 - [ ] TaaS Product Architecture + scaling plan
 - [ ] Tech dream team strategy
 - [ ] Panel EBCT
 
-## HA-Product (Asistente Personal HA)
-**Pitch:** "ChatGPT da respuestas. HA da perspectiva."
-**MVP:** 8 semanas
-- [ ] Chat con memoria persistente
-- [ ] Onboarding contexto inicial
-- [ ] Dashboard "Mi Contexto" (6 dimensiones)
-- [ ] Auth email magic link
+## HA-Products (TaaS + MARA + LMS + Consulting)
+**Vision:** TaaS (motor de pensamiento) + MARA (interfaz) + ha-learning-app (LMS) + consulting agents
+**Source:** Oscar Diaz CTO Presentation v2 (Marzo 2026)
+**P0:** TaaS + MARA + Dev-with-AI (infraestructura primero)
+- [x] Ha-ize proyecto con contenido PPTX (6 archivos + kernel)
+- [ ] Definir arquitectura TaaS (6 dimensiones como API, V=M×I, matriz interaccion)
+- [ ] Definir scope MARA (interfaz para humanos + agentes IA)
+- [ ] Documentar practicas Dev-with-AI
+- [ ] ha-learning-app para Leiden
+- [ ] Formacion de equipo + presupuesto ($2.3M-$3M MXN/año)
 
 ## UPU (Universal Postal Union)
 **Componentes:** Frontend 2IPD + Workshop AI + Conferencia
@@ -187,7 +191,7 @@ type: clock
 | **~Mar 2026** | Reunión Jorge Blando siguiente paso — prep lista | Tec Beyond |
 | **~Mar 2026** | Reunión Edgar Mohar — subir entregables Wiki Notion | SIC-Q |
 | **~Med marzo** | [tentativo] Pitch Proyecto Cerebro CEN PAN (si Toño confirma) | SIC-Q |
-| **Feb 2026** | ⚠️ Deadline prototipo agentes VENCIDO | Docet-Agentic |
+| **—** | Sin deadline activo | Docet-Agentic |
 | **Feb-Mar 2026** | Propuesta v06 (cuando Toño responda) | SIC-Q |
 | **Mar-Jun 2026** | Leiden — curso HA confirmado | Learning Products |
 | Mar-May 2026 | Fase 2 Data Architecture | Docet-Agentic |
@@ -203,7 +207,7 @@ type: clock
 | Project | Potential | Status |
 |---------|-----------|--------|
 | SIC-Q | $3.7M pagado + $6M cotizado | Cotización enviada, esperando Toño |
-| Docet-Agentic | $3.9M MXN (~$200K USD) | En pausa — esperando evaluación equipo Poncho |
+| Docet-Agentic | $3.9M MXN (~$200K USD) | En pausa — probablemente no se concrete |
 | TEC Monterrey | Consultoría (Narrativa + Tec Beyond) | Activo |
 | Learning Products | Leiden pagado + NL office potential | Activo — emerging fast |
 | UPU | 3,500 CHF (workshop) + frontend | Cerrando |
@@ -220,11 +224,11 @@ Oportunidades detectadas que aún no son proyecto formal. Rastrear aquí hasta q
 |-------------|--------|-------|-----------|
 | AI Training Caribbean | UPU — MBTU presentación 21 feb | José Anson asistió, interés regional | Definir scope y propuesta |
 | Netherlands HA Office | Learning Products — Leiden confirmado | Curso pagado, Betty + Sarahí liderando | Call 3-way para strategy |
-| Project Mara (B2C) | Tec Beyond — project-state 22 feb | Insight: beyond community → producto B2C | Explorar en paralelo a Beyond |
+| Project Mara (B2C) | HA-Core — retomando activamente | Beyond community → producto B2C | Definir scope + arquitectura |
 | Héctor — Transformación Digital | Contacto directo | Referencia + interés IA | Agendar llamada |
 | Proyecto Cerebro CEN PAN | SIC-Q — Toño explorando | Reunión con presidente nacional PAN | Tentativo — esperar confirmación Toño |
 
 ---
 
-*Última actualización: 2026-03-04*
+*Última actualización: 2026-03-05*
 *HA Syntax: `[>]` agent task, `[<]` waiting, `[?]` decision needed, `[!]` urgent, `[x]` done*
