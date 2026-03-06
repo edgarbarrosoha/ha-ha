@@ -78,14 +78,14 @@
 ## ZONE C: State (Dynamic)
 
 ### Last Session
-- **Date:** 2026-03-03
-- **Type:** Quick boot + status check
-- **Achievements:** Boot manual (skill tool no disponible). Calendario y mail cargados. Semana ocupada mapeada. Git limpio — workspace.json sin conflictos.
+- **Date:** 2026-03-06
+- **Type:** Deep work — Tec Beyond entregables plataforma (desc + spec técnica) + docx generation pipeline
+- **Achievements:** Reescritura completa descripción + especificación técnica plataforma Tec Beyond. Pipeline docx-js con ha-styles.js. Fuentes Plus Jakarta Sans + Roboto Mono instaladas y funcionando.
 
 ### Active Threads
 - SIC-Q: Propuesta v06 enviada. Edgar Mohar habló con Toño (04 mar) para formalizar contrato — caminando. Proyecto Cerebro CEN PAN (tentativo, pitch ~marzo)
 - SIC-Q: 4 reportes talleres completos (ejecutivos T1/T2, combinado, técnico ~1600 líneas)
-- Tec Beyond: Reunión consejo 26 feb exitosa — consejo validó visión, quiere que Tec contrate HA. **Prep reunión Jorge Blando lista (4 docs)**
+- Tec Beyond: Reunión consejo 26 feb exitosa. **Prep reunión Jorge Blando lista (4 docs)**. Entregables plataforma v2 listos (descripción + spec técnica, md + docx)
 - Docet-Agentic: En pausa — esperando evaluación equipo Poncho. Deadline febrero vencido
 - TEC Narrativa: Feedback JP recibido. Mario Adrián presenta a Consejo. Sarahí da insumos. 27 entrevistas totales
 - UPU: Oscar documentación para cerrar
@@ -116,6 +116,8 @@
 
 | Date | Session | Focus | Key Achievement |
 |------|---------|-------|-----------------|
+| 2026-03-06 | 21 | Tec Beyond entregables plataforma | desc + spec técnica reescritas, pipeline docx-js, fuentes HA |
+| 2026-03-06 | 20 | Mara vision + legados + roadmap | Mara = thinking environment, 6 legados, dev roadmap 6 fases |
 | 2026-03-03 | 19 | Quick boot | Calendario + mail cargados, semana mapeada, git limpio |
 | 2026-02-28 | 18 | Git maintenance | Merge conflicts resueltos, .gitignore, nota sync otra computadora |
 | 2026-02-28 | 17 | Quick reference | Argumento Jorge Blando — por qué HA hace la tecnología |

@@ -2,6 +2,40 @@
 
 ## Sessions
 
+### 2026-03-06 | Session 21 | TEC BEYOND ENTREGABLES PLATAFORMA
+- **Focus:** Reescritura completa de descripción y especificación técnica de la plataforma Tec Beyond + generación de docx profesionales
+- **Achievements:**
+  - **descripcion-plataforma-tec-beyond.md reescrito:** Portal personal, 6 dimensiones explicadas en práctica, legado como brújula, feed personalizado, métricas actualizadas
+  - **especificacion-tecnica-tec-beyond.md reescrito:** Agente raíz + 6 agentes dimensionales, infraestructura genérica (sin vendors específicos), modelo de datos con LEGADO y PERFIL_DIMENSIONAL como entidades centrales. Texto explicativo agregado en todas las secciones (no solo tablas).
+  - **Pipeline docx-js creado en /tmp/tec-beyond-docx/:** ha-styles.js (shared module), build-descripcion.js, build-spec.js, fix_fonts.py (post-processing fontTable.xml)
+  - **Fuentes resueltas:** Plus Jakarta Sans + Roboto Mono variable TTFs instaladas en ~/Library/Fonts/. Docx usa solo "Plus Jakarta Sans" (no variantes Medium/SemiBold como font names separados — Google Docs no las reconoce). bold:true para SemiBold.
+  - **Logo corregido:** Imagen original 235x214px estaba forzada a 130x42 → ahora 80x73 respetando aspect ratio
+  - **Ambos docx generados:** Plataforma-Tec-Beyond-Descripcion-v2.docx, Plataforma-Tec-Beyond-Especificacion-Tecnica-v2.docx
+- **Decisions:**
+  - Oscar feedback: quitar vendors específicos, hacer descripción más explicativa, pensar como app replicable HA Community
+  - Google Docs font compat: usar solo "Plus Jakarta Sans" como familia, bold:true para peso SemiBold
+  - docx-js fontTable.xml vacío por default → fix_fonts.py inyecta declaraciones correctas
+  - Logo en portada: respetar aspect ratio original (~1:1), no forzar horizontal
+- **Deliverables:** 2 markdowns + 2 docx actualizados, pipeline de generación reutilizable
+- **Open threads:** Ambos docs listos para enviar a Jorge Blando (desc) y TI del Tec (spec). Pipeline docx-js reutilizable para futuros entregables.
+
+### 2026-03-06 | Session 20 | MARA VISION + LEGADOS + ROADMAP
+- **Focus:** Definir Mara como producto, crear legados para todos los proyectos, escribir roadmap de desarrollo
+- **Achievements:**
+  - **mara-vision.md reescrito 5+ veces.** Llegó a definición clara: Mara es un **thinking environment** para personas y máquinas. Un espacio para pensar, estructurado en 6D de HA, que se forma desde la conversación (generative UI/UX gradual). Orientado al proceso de pensamiento, no al output.
+  - **Legados creados (6 proyectos):** tec-monterrey narrativa, tec-beyond (actualizado), learning-products, upu, talisis, innovation-labs
+  - **Skill `\legacy` creado:** `legacy-maker.md` — protocolo 5 pasos (Load, Extract, Draft, Review, Save)
+  - **Development roadmap creado:** `development-roadmap.md` — 6 fases, ~10-12 semanas hasta SIC-Q en producción. Score engine como core (fases 1-2), luego conversación, componentes, deploy
+  - **Correcciones de estilo:** eliminados adjetivos innecesarios, clichés "no es X, es Y", metáforas (Oscar las odia)
+- **Decisions:**
+  - Mara = thinking environment (categoría nueva — no chat, no journal, no dashboard)
+  - Las personas son lo que importa. Las máquinas sostienen el espacio
+  - SIC-Q = primer deployment, cada línea de código cuenta dos veces
+  - Score engine es el core — si funciona, todo lo demás es interfaz
+  - Los modelos pueden hacer todo. HA es nuestra apuesta. Construimos sobre los modelos, no contra ellos
+- **Deliverables:** mara-vision.md, development-roadmap.md, 6 legacy files, legacy-maker skill
+- **Open threads:** Oscar necesita ver mara-vision + roadmap. Finder no muestra tec-monterrey/talisis (cache — reiniciar)
+
 ### 2026-03-03 | Session 19 | QUICK BOOT
 - **Focus:** Boot protocol + status check + semana mapeada
 - **Achievements:**

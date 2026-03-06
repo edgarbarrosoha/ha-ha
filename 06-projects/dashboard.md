@@ -7,22 +7,18 @@ type: clock
 
 ## Prioridad
 
-- [x] SIC-Q: Propuesta v06 enviada. Edgar Mohar hablando con Toño para formalizar contrato
-- [x] Tec Beyond: Reunión Jorge
 - [ ] Docet: Esperando respuesta equipo Poncho. Probablemente no se concrete. Sin deadline
 
 ## En curso
 - [ ] UPU: Oscar documentación cierre (semana 24 feb)
-- [x] TEC Narrativa: Terminada. Fue muy bien. Pendiente: ajustar datos en presentación
 - [ ] Learning Products: Betty, Sarahí y Oscar avanzan. Leiden confirmado mar-jun 2026
 
-## Pendiente
-- [ ] Entender la codificación
-- [ ] HA-Products: Definir arquitectura TaaS + scope MARA (Oscar PPTX ya integrado)
+## Pendiente2
+- [ ] HA-Products: mara-vision.md listo (thinking environment). Roadmap de desarrollo creado. Oscar necesita revisarlo
 - [ ] Learning Products: Call Betty/Sarahí/Edgar — Netherlands office strategy
-- [ ] Learning Products: Adaptar syllabus Entrepreneurship para Leiden
+- [ ] Learning Products: Adaptar syllabus Entre2preneurship para Leiden
 - [ ] Learning Products: Definir scope Plan de Vida y Carrera
-- [x] Héctor Brosig: ✅ Reunión reagendada Vie 06 Mar 19:00
+- [x] Héctor Brosig: ✅ R
 - [ ] Talisis: Reagendar reunión con Nicho (cancelada 05 mar)
 - [ ] Joel Cano: Agendar reunión con Javier (VP Research Tec)
 - [ ] Xignux: Follow-up enviado, sin respuesta aún
@@ -72,7 +68,7 @@ type: clock
 | **Project** | **Status** | **Next steps** | **Links** |
 | ----------- | ---------- | -------------- | --------- |
 | **HA-Core** | 🟢 Retomando con Project Mara (B2C) | Definir scope Mara + arquitectura | `ha-core/` |
-| **HA-Products** | 🟢 Ha-izado con vision TaaS+MARA (Oscar PPTX). P0: TaaS, MARA, Dev-with-AI | Definir arquitectura TaaS + scope MARA | `ha-products/` |
+| **HA-Products** | 🟢 mara-vision.md listo (thinking environment). Development roadmap 6 fases | Oscar revisa vision + roadmap → empezar Fase 0 | `ha-products/` |
 | **Learning Products** | 🟢 Leiden confirmado mar-jun, NL office emerging | Betty, Sarahí y Oscar avanzan | `learning-products/` |
 
 ## International
@@ -156,8 +152,10 @@ type: clock
 **Source:** Oscar Diaz CTO Presentation v2 (Marzo 2026)
 **P0:** TaaS + MARA + Dev-with-AI (infraestructura primero)
 - [x] Ha-ize proyecto con contenido PPTX (6 archivos + kernel)
-- [ ] Definir arquitectura TaaS (6 dimensiones como API, V=M×I, matriz interaccion)
-- [ ] Definir scope MARA (interfaz para humanos + agentes IA)
+- [x] mara-vision.md — Mara = thinking environment para personas y máquinas
+- [x] development-roadmap.md — 6 fases, ~10-12 semanas hasta SIC-Q en producción
+- [ ] Oscar revisa mara-vision + roadmap
+- [ ] Empezar Fase 0 (repo + infra + auth)
 - [ ] Documentar practicas Dev-with-AI
 - [ ] ha-learning-app para Leiden
 - [ ] Formacion de equipo + presupuesto ($2.3M-$3M MXN/año)
@@ -230,5 +228,5 @@ Oportunidades detectadas que aún no son proyecto formal. Rastrear aquí hasta q
 
 ---
 
-*Última actualización: 2026-03-05*
+*Última actualización: 2026-03-06*
 *HA Syntax: `[>]` agent task, `[<]` waiting, `[?]` decision needed, `[!]` urgent, `[x]` done*

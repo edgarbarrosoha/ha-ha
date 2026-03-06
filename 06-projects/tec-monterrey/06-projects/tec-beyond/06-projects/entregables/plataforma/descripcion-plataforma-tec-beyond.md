@@ -1,42 +1,148 @@
-# Plataforma Tec Beyond: Descripción de Aplicación y Especificación Técnica
+# Plataforma Tec Beyond — Descripción de la Aplicación
 
-**Para:** Jorge Blando
+**Para:** Jorge Blando — Dirección de Vinculación, Tec de Monterrey
 **De:** Edgar Barroso — Horizons Architecture
 **Fecha:** Marzo 2026
-**Versión:** 1.0
+**Versión:** 2.0
 
 ---
 
-# Parte 1: Descripción de la Aplicación
-
 ## Qué es
 
-Un espacio digital donde la comunidad Tec Beyond comparte conocimiento, se conecta por afinidad genuina y construye legado colectivo — no una red comercial, no un directorio, no un canal de ventas.
+Tec Beyond es una comunidad de personas que comparten un compromiso: generar impacto más allá de lo empresarial. La plataforma que proponemos es el espacio digital donde esa comunidad piensa, se conecta, aprende y construye legado — no una red social, no un directorio corporativo, no un canal de ventas.
 
-> "Nosotros venimos a esta comunidad no para vender los productos."
+Lo que hace esta plataforma diferente de cualquier otra es que **cada integrante tiene su propio portal inteligente**: un espacio personal donde un sistema de inteligencia artificial lo escucha, lo entiende y lo acompaña a lo largo del tiempo. No es un chatbot que responde preguntas. Es un sistema que aprende quién es cada persona — qué quiere lograr, qué sabe, qué necesita aprender, qué puede aportar — y usa esa comprensión para conectarle con las personas, el contenido y las oportunidades correctas dentro de la comunidad.
+
+El sistema está construido bajo la metodología de Horizons Architecture y se organiza en **seis dimensiones** que cubren integralmente a cada persona y a la comunidad como un todo:
+
+| Dimensión | Pregunta que responde | Qué hace para cada integrante |
+|---|---|---|
+| **Legado** | ¿Qué quiero dejar al mundo? | Ayuda a definir y evolucionar el propósito personal dentro de la comunidad. Es la brújula que orienta todo lo demás |
+| **Comunidad** | ¿Con quién me conecto? | Mapea relaciones, sugiere conexiones por complementariedad de conocimiento y experiencia, facilita encuentros con sentido |
+| **Aprendizaje** | ¿Qué sé y qué necesito aprender? | Identifica conocimiento que puede compartir y conocimiento que necesita. Crea rutas de aprendizaje personalizadas |
+| **Capacidades** | ¿Qué herramientas y recursos tengo? | Registra recursos, infraestructura, redes de contacto y capacidades que cada persona aporta. Detecta complementariedad de recursos entre integrantes |
+| **Contexto** | ¿Qué está pasando que me importa? | Curación personalizada de tendencias, cambios regulatorios, oportunidades de mercado — filtrado por lo que es relevante para el legado de cada persona |
+| **Proyectos** | ¿En qué estoy trabajando? | Visibiliza iniciativas, detecta oportunidades de colaboración, conecta proyectos complementarios entre integrantes |
+
+Estas seis dimensiones no son secciones de un menú. Son la estructura del pensamiento del sistema. Cada interacción — una conversación con el agente, un contenido consumido, una conexión aceptada — alimenta simultáneamente las seis dimensiones y enriquece la comprensión que el sistema tiene de cada persona.
+
 > "El conocimiento compartido genera más conocimiento."
 > — Consejo de representantes, 26 de febrero 2026
 
-La plataforma tiene dos principios de diseño:
+---
 
-1. **La tecnología va a la persona usuaria, no al revés.** El canal principal es WhatsApp — donde la comunidad ya vive. La aplicación web existe para quien quiera profundizar, pero ninguna interacción esencial requiere abrir una plataforma nueva.
-2. **Las ventas son consecuencia, nunca causa.** Todo lo que el sistema sugiere, muestra o conecta está orientado a aprendizaje, perspectiva y complementariedad — no a transacciones.
+## El portal personal
+
+Cada integrante de Tec Beyond tiene un portal personal. Es su espacio dentro de la comunidad — el lugar desde donde ve todo, interactúa con todo y construye su participación a lo largo del tiempo.
+
+### El agente raíz
+
+Al centro del portal hay un agente de inteligencia artificial que funciona como interlocutor personal. Este agente:
+
+- **Escucha.** A través de conversaciones naturales (por WhatsApp o en la aplicación web), el agente va conociendo a cada persona. No pide que se llenen formularios ni que se respondan encuestas. Pregunta, escucha, recuerda.
+- **Entiende.** Con cada interacción, el agente construye una comprensión más profunda de quién es esa persona: su trayectoria, su experiencia, sus intereses, sus aspiraciones, su contexto. Esta comprensión se organiza en las seis dimensiones.
+- **Orienta.** A partir de lo que sabe, el agente sugiere: personas que debería conocer, contenido que le sería útil, oportunidades de colaboración, temas que están surgiendo en la comunidad que le importan.
+- **Evoluciona.** El agente no es estático. Aprende de cada interacción, se actualiza con cada conversación, se adapta a los cambios en la vida profesional de cada integrante.
+
+El agente raíz coordina seis agentes especializados — uno por cada dimensión — que trabajan en segundo plano procesando información, detectando patrones y generando recomendaciones. La persona no interactúa directamente con cada agente dimensional; interactúa con el agente raíz, que integra todo en una conversación coherente.
+
+---
+
+## Las seis dimensiones en la práctica
+
+### Legado — "¿Qué quiero dejar?"
+
+Es la primera dimensión que el sistema explora con cada integrante. No al llenar un campo de texto, sino a través de una conversación:
+
+- *¿Qué te trajo a Tec Beyond?*
+- *¿Qué tema te gustaría que la comunidad recordara gracias a ti?*
+- *Si pudieras cambiar algo en tu industria, ¿qué sería?*
+
+A partir de estas conversaciones, el agente construye una definición de legado que evoluciona con el tiempo. Esta definición es la brújula del sistema: determina qué contenido se le muestra, qué conexiones se le sugieren, qué oportunidades se le presentan.
+
+El legado no es un texto fijo. Es un mapa vivo que se enriquece con cada interacción, cada conexión formada, cada conocimiento compartido. Después de seis meses, el agente puede mostrar a la persona cómo ha evolucionado su legado: *"Cuando entraste, tu enfoque era manufactura sostenible. Hoy, tu legado se ha expandido hacia cadenas de suministro resilientes y mentoría de emprendedores en la región."*
+
+### Comunidad — "¿Con quién me conecto?"
+
+El agente de comunidad mapea las relaciones de cada integrante y sugiere conexiones basadas en complementariedad genuina — no en potencial de negocio.
+
+- El sistema analiza el perfil completo de cada persona (experiencia, conocimiento, legado, contexto) y detecta complementariedades con otros integrantes
+- Cada sugerencia viene con una explicación: *"Ambos lideran empresas familiares en transición generacional y podrían compartir perspectivas sobre gobernanza"*
+- Double opt-in: ninguna parte ve quién es la otra hasta que ambas aceptan
+- Si alguien rechaza, la otra persona nunca se entera
+
+El agente también detecta patrones en la red: *"En tu sede hay tres personas trabajando en nearshoring. Ninguna se conoce entre sí. ¿Te gustaría que facilitemos un encuentro?"*
+
+### Aprendizaje — "¿Qué sé y qué necesito?"
+
+Cada persona tiene conocimiento valioso que otros necesitan, y tiene necesidades de aprendizaje que otros pueden cubrir. El agente de aprendizaje hace visible este intercambio:
+
+- **Generar conocimiento:** Cuando alguien comparte una experiencia, un caso o una reflexión, el sistema lo distribuye a quienes más les sirve dentro de la comunidad. No se pierde en un timeline — llega a las personas correctas.
+- **Obtener conocimiento:** A través de conversaciones y del análisis de contexto, el agente detecta brechas de conocimiento relevantes: *"Tu industria está migrando a regulación ESG. ¿Te gustaría aprender más sobre cómo otros integrantes lo están abordando?"*
+- **Compartir con otros:** El sistema sugiere rutas de mentoría, conexiones con personas que tienen la experiencia que se busca, y contenido relevante — todo alineado con el legado de cada persona.
+
+El agente adapta la profundidad de lo que ofrece. Una persona con 3 años de experiencia recibe material distinto de quien lleva 15. Alguien que está emprendiendo por primera vez recibe contexto distinto de quien ya vendió su tercera empresa.
+
+### Capacidades — "¿Qué aporto?"
+
+Más allá del conocimiento, cada persona tiene recursos y capacidades concretas: infraestructura, redes de contacto, presencia en mercados específicos, canales de distribución. El agente de capacidades registra y mapea:
+
+- Qué recursos puede poner a disposición de la comunidad (espacios, contactos, canales, infraestructura)
+- Qué capacidades técnicas o operativas distinguen a su empresa
+- En qué mercados o regiones tiene presencia activa
+
+Este mapeo permite que el sistema identifique oportunidades de colaboración que van más allá de lo intelectual: *"Tu empresa tiene presencia logística en el Bajío y hay un integrante en Chihuahua buscando distribución en esa región."*
+
+### Contexto — "¿Qué está pasando que me importa?"
+
+El agente de contexto funciona como un radar personalizado. Monitorea:
+
+- Tendencias relevantes para el sector de cada integrante
+- Cambios regulatorios que afectan su operación
+- Movimientos geopolíticos y macroeconómicos pertinentes
+- Temas emergentes dentro de la comunidad Tec Beyond
+
+La diferencia con un servicio genérico de noticias es que este agente filtra todo a través del legado y el perfil de cada persona. Un integrante dedicado a manufactura ve tendencias de automatización, nearshoring y regulación laboral. Otro dedicado a fintech ve regulación financiera, adopción digital y modelos de riesgo. No ven lo mismo — cada quien ve lo que importa para su legado.
+
+### Proyectos — "¿En qué estoy trabajando?"
+
+El agente de proyectos hace visible las iniciativas de cada integrante para detectar oportunidades de colaboración:
+
+- Cada persona puede compartir en qué está trabajando: proyectos activos, retos actuales, oportunidades que busca
+- El sistema detecta intersecciones: *"Dos integrantes están trabajando en expansión a Estados Unidos desde industrias complementarias"*
+- También conecta proyectos con conocimiento y capacidades de otros: *"Hay un integrante que ya hizo lo que tú estás intentando — establecer operaciones en Texas. ¿Te interesa conectar?"*
+
+---
+
+## El feed: contenido al servicio del legado
+
+Al entrar al portal, cada integrante encuentra un feed de contenido curado específicamente para él o ella. Este feed no es un timeline de publicaciones aleatorias ni un muro de actividad. Es una selección intencional de:
+
+- **Artículos y análisis** relevantes para su industria, su región y su legado
+- **Actividad de la comunidad** que le concierne: conexiones sugeridas, temas en los que participa, eventos próximos
+- **Perspectivas de integrantes** con perfiles similares o complementarios
+- **Tendencias detectadas** por el agente de contexto
+- **Oportunidades de colaboración** identificadas por el agente de proyectos
+
+El criterio de curación es el legado: lo que cada persona ha definido como importante determina lo que ve. Una persona cuyo legado se orienta hacia educación ve contenido distinto que una persona orientada a manufactura sostenible, aunque ambas estén en la misma sede y generación.
+
+El feed se enriquece con el tiempo. Entre más interactúa la persona con el sistema, más preciso se vuelve.
 
 ---
 
 ## Principios del consejo reflejados en la plataforma
 
-Estos principios, expresados por el consejo de representantes, son los criterios de diseño contra los que se evalúa cada funcionalidad:
+Estos principios, expresados por el consejo de representantes el 26 de febrero de 2026, son los criterios de diseño contra los que se evalúa cada funcionalidad:
 
 | Principio | Implicación en la plataforma |
 |---|---|
-| **Compartir, no vender** | No hay catálogos, no hay vitrinas de productos. Los perfiles describen conocimiento, experiencia y lo que cada quien busca aprender |
+| **Compartir, no vender** | No hay catálogos ni vitrinas de productos. Los perfiles describen conocimiento, experiencia y legado — no oferta comercial |
 | **Valor desde el primer momento** | Al entrar, cada integrante ya encuentra contenido relevante, contexto de su red y conexiones sugeridas — sin esperas, sin promesas a futuro |
-| **Anti-comercial** | No hay espacios publicitarios, no hay rankings de actividad comercial. Si alguien usa la plataforma para vender, el sistema lo detecta y el Consejo interviene |
-| **Privacidad como confianza** | La información de cada integrante es suya. Cada persona decide qué comparte, con quién, y puede retirarlo. Los datos que alimentan a los agentes están anonimizados — ningún modelo de IA ve datos personales identificables |
-| **Sin encuestas, sin fricción** | La plataforma aprende de las interacciones naturales (qué contenido se consume, qué conexiones se aceptan) — no pide que se llenen formularios ni se respondan encuestas |
-| **Aprendizaje para toda la vida** | No es solo networking empresarial. Es contexto: qué está pasando geopolíticamente, qué piensan quienes emprenden en otras ciudades, qué tendencias importan para el futuro de sus familias y comunidades |
-| **Plataforma viva** | Los algoritmos evolucionan, las necesidades se mueven. La plataforma se actualiza continuamente — no es un producto que se entrega una vez |
+| **Anti-comercial** | No hay espacios publicitarios ni rankings de actividad comercial. Si alguien usa la plataforma para vender, el sistema lo detecta y el Consejo interviene |
+| **Privacidad como confianza** | La información de cada integrante es suya. Decide qué comparte, con quién, y puede retirarlo. Los agentes trabajan con datos anonimizados |
+| **Sin encuestas, sin fricción** | El sistema aprende de conversaciones naturales e interacciones orgánicas — no pide formularios |
+| **Aprendizaje para toda la vida** | No es solo networking empresarial. Es contexto, perspectiva, aprendizaje continuo, legado |
+| **Plataforma viva** | Los algoritmos evolucionan, las necesidades se mueven. La plataforma se actualiza continuamente |
 | **Legado** | Lo que se comparte aquí cambia la vida de otros. La plataforma captura y preserva el conocimiento de la comunidad a través de generaciones |
 
 ---
@@ -45,147 +151,149 @@ Estos principios, expresados por el consejo de representantes, son los criterios
 
 ### Integrante
 
-Al entrar por primera vez, cada integrante encuentra valor inmediato — como entrar a una sala donde ya hay algo esperando.
+**Su portal personal:**
+- El agente raíz como interlocutor (vía WhatsApp o web)
+- Su legado: definición actual, evolución a lo largo del tiempo, contribuciones registradas
+- Su red: conexiones activas, sugerencias pendientes, personas en su órbita
+- Su feed: contenido curado por su legado, tendencias relevantes, actividad de la comunidad
+- Su aprendizaje: qué ha compartido, qué ha consumido, qué le falta por explorar
+- Sus proyectos: iniciativas activas, oportunidades de colaboración detectadas
 
-**Inicio — La sala**
-- Contexto relevante desde el primer momento: qué está moviendo a la comunidad esta semana, qué temas conversan integrantes con perfiles similares, qué contenido se publicó recientemente en sus áreas de interés
-- Conexiones sugeridas con explicación de por qué: *"Comparten experiencia en manufactura del Bajío y perspectivas complementarias sobre talento"*
-- Sin métricas de actividad visibles, sin gamificación, sin presión para "participar más"
-
-**Mi perfil**
-- Contexto profesional: empresa, sector, trayectoria, áreas de experiencia
-- Lo que sabe y puede compartir: conocimiento, perspectiva, red de contactos, mentoría
-- Lo que quiere aprender o explorar: tendencias, mercados, capacidades, conexiones con otros contextos
-- Control total de privacidad: cada integrante decide qué es visible para la red, qué es visible solo para el sistema (anonimizado), y qué no comparte
-- Historial en Tec Beyond: generación, sede, participaciones
-
-**Conexiones**
-- Sugerencias del agente basadas en complementariedad de conocimiento y contexto — no en potencial de negocio
-- Cada sugerencia explica la razón: *"Dos personas que lideran empresas familiares en transición generacional y podrían compartir perspectivas"*
-- Double opt-in: ninguna parte ve quién es la otra hasta que ambas aceptan
-- Se rechaza sin consecuencias — la otra persona nunca se entera
-- Historial de conexiones anteriores
-
-**Contenido y contexto**
-- Artículos, análisis, casos y recursos seleccionados según su perfil e intereses — no genéricos
-- Contenido diferenciado: una persona con 3 años de experiencia recibe material distinto de quien lleva 15
-- Contexto vivo: qué está pasando en el entorno de negocios de su región, qué temas emergen en la comunidad, qué tendencias detectan los agentes
-- Acceso a materiales de sesiones pasadas de Tec Beyond
-
-**Directorio**
+**Directorio:**
 - Búsqueda de integrantes por sede, generación, industria, área de conocimiento
 - Cada integrante configura su nivel de visibilidad
 
-**Eventos**
-- Calendario de encuentros de la comunidad (presenciales y virtuales)
+**Eventos:**
+- Calendario de encuentros presenciales y virtuales
 - Registro directo
 - Historial de participación
 
-**Vía WhatsApp — canal principal**
-- Todas las interacciones esenciales funcionan por WhatsApp: recibir sugerencias de conexión, aceptar o rechazar, recibir contenido relevante, confirmar asistencia a eventos
-- La persona responde directamente en su conversación — sin descargar apps, sin crear cuentas nuevas, sin aprender una interfaz
+**Vía WhatsApp — canal principal:**
+- Todas las interacciones esenciales funcionan por WhatsApp: conversaciones con el agente, conexiones, contenido, eventos
 - La aplicación web complementa para quien quiera explorar a fondo, pero no es requisito
 
 ---
 
 ### Administración de sede
 
-**Dashboard local**
+**Dashboard local:**
 - Salud de su comunidad: integrantes con actividad, tendencias de participación, temas emergentes
 - Conexiones facilitadas en su sede este periodo
 - Eventos locales y asistencia
 - Alertas de integrantes que se desconectan (para acercamiento personal, no automatizado)
 
-**Gestión de integrantes**
+**Gestión de integrantes:**
 - Altas y bajas
-- Seguimiento de onboarding (sin presionar — el sistema detecta si alguien necesita ayuda para empezar)
+- Seguimiento de onboarding (el sistema detecta si alguien necesita ayuda para empezar)
 
-**Solo ve datos de su sede.** No tiene acceso a integrantes de otras sedes ni a datos del Consejo.
+Solo ve datos de su sede. No tiene acceso a integrantes de otras sedes ni a datos del Consejo.
 
 ---
 
 ### El Consejo
 
-**Dashboard estratégico**
+**Dashboard estratégico:**
 - Visión de la red completa: integrantes por sede, generación, sector, áreas de conocimiento
 - Salud de la comunidad: participación, conexiones realizadas, retención
 - Tendencias detectadas: *"47 integrantes mencionaron nearshoring este trimestre"*, *"La vocación de León es manufactura (38%), la de Morelia comercio (42%)"*
 - Lo que la comunidad quiere aprender: temas emergentes, preguntas frecuentes, vacíos de conocimiento
 
-**Insights del agente**
+**Inteligencia colectiva:**
 - Patrones en la red: sectores emergentes, oportunidades de conexión cross-sede, áreas donde la comunidad necesita más diversidad
+- Legado colectivo: qué está construyendo la comunidad como un todo, cómo evoluciona el conocimiento compartido a través de generaciones
 - Reportes periódicos generados automáticamente — sin requerir encuestas
 - Alertas: *"La sede Chihuahua tiene 30% menos participación que el promedio — considerar acercamiento del representante local"*
 
-**Pipeline de candidaturas**
-- Personas candidatas sugeridas por el Agente Scout a partir de las redes de integrantes actuales
-- Perfil estimado de cada persona candidata (trayectoria, sector, afinidad con la comunidad)
-- El Consejo decide a quién invitar — el agente solo sugiere, nunca contacta
+**Pipeline de candidaturas:**
+- Personas candidatas sugeridas a partir de las redes de integrantes actuales
+- Perfil estimado de cada candidatura (trayectoria, sector, afinidad con la comunidad)
+- El Consejo decide a quién invitar — el sistema solo sugiere, nunca contacta
 
-**Gobernanza**
+**Gobernanza:**
 - Reglas de la comunidad: criterios de admisión, políticas de conexión, niveles de membresía
 - Registro de decisiones y acuerdos
-- Auditoría: quién accedió a qué, cuándo, con qué resultado
-
-**Legado de la comunidad**
-- Conocimiento acumulado a lo largo de las generaciones: qué temas se han discutido, qué conexiones se han formado, qué impacto ha tenido la red
-- Memoria institucional que trasciende a quienes integran la red — lo que alguien de generación 1 compartió está disponible como contexto para generación 10
+- Legado institucional: conocimiento acumulado a través de generaciones. Lo que alguien de generación 1 compartió está disponible como contexto para generación 10
 
 ---
 
 ## Flujos principales
 
-### Flujo 1: Primer contacto — valor visible
+### Flujo 1: Primer contacto — valor desde el primer momento
 
 ```
-La persona recibe invitación por WhatsApp (canal natural)
-    ↓
-Responde en WhatsApp: acepta, completa perfil básico conversando con el bot
-    ↓
-Bot: contexto profesional, qué sabe/puede compartir, qué quiere aprender
-    ↓
-Configura privacidad: qué es visible, qué es solo para el sistema (anonimizado)
-    ↓
-De inmediato recibe: un contenido relevante + su primera sugerencia de conexión
-    ↓
-Si quiere profundizar → accede a la aplicación web. Si no, todo funciona por WhatsApp.
+La persona recibe invitación por WhatsApp
+    |
+Acepta y conversa con el agente raíz: contexto profesional, experiencia, intereses
+    |
+El agente explora su legado: "Qué te trajo a Beyond? Qué te gustaría lograr aquí?"
+    |
+Configura privacidad: qué es visible, qué es solo para el sistema, qué es privado
+    |
+De inmediato recibe: contenido relevante + su primera sugerencia de conexión
+    + un panorama de lo que está pasando en la comunidad
+    |
+Si quiere profundizar -> accede a la aplicación web. Si no, todo funciona por WhatsApp.
 ```
 
-### Flujo 2: Conexión entre integrantes
+### Flujo 2: Evolución del legado
 
 ```
-Agente detecta complementariedad de conocimiento entre dos integrantes
-    ↓
-A cada persona (por WhatsApp): "Hay alguien en la comunidad que comparte tu interés en [tema].
-    Tienen perspectivas complementarias en [área]. ¿Te gustaría conocerle?"
-    ↓
-    ├── Ambas partes aceptan → Se facilita la introducción (administración o Consejo)
-    ├── Una parte rechaza → No pasa nada. La otra persona nunca se entera.
-    └── Nadie responde → Se archiva. Se puede sugerir de nuevo más adelante.
+Con el tiempo, el agente profundiza en cada dimensión:
+    |
+"He notado que últimamente hablas mucho de talento.
+    Quieres que exploremos eso como parte de tu legado?"
+    |
+La persona confirma, ajusta, o explora una dirección nueva
+    |
+El sistema actualiza su perfil integral y recalibra
+    su feed, conexiones y recomendaciones
+    |
+Después de meses: "Tu legado ha evolucionado de [X] a [Y].
+    Aquí está el registro de tu camino."
 ```
 
-### Flujo 3: Detección de personas candidatas para la comunidad
+### Flujo 3: Conexión entre integrantes
 
 ```
-Agente Scout analiza patrones en la red de integrantes actuales
-    ↓
-Identifica perfil con afinidad a la comunidad (trayectoria, valores, sector)
-    ↓
-Presenta al Consejo: "En la red de [Integrante X] hay alguien con perfil afín — 85% de afinidad"
-    ↓
-Consejo decide si lo invita para la siguiente generación
+El agente de comunidad detecta complementariedad entre dos integrantes
+    |
+A cada persona (por WhatsApp): "Hay alguien en la comunidad con
+    experiencia complementaria en [tema]. Te gustaría conocerle?"
+    |
+    |-- Ambas aceptan -> Se facilita la introducción
+    |-- Una rechaza -> No pasa nada. La otra persona nunca se entera
+    |-- Nadie responde -> Se archiva
 ```
 
-### Flujo 4: Inteligencia de la comunidad (sin encuestas)
+### Flujo 4: Intercambio de conocimiento
 
 ```
-Los agentes analizan datos agregados y anonimizados de toda la red
-    ↓
-Detectan patrón: "El 60% de integrantes de gen. 7-9 quieren aprender sobre IA aplicada a manufactura"
-    ↓
-Generan reporte para Consejo: "Considerar evento o contenido especializado en IA+manufactura"
-    ↓
-Consejo decide si actúa — la comunidad nunca fue interrumpida con una encuesta
+Un integrante comparte una experiencia o aprendizaje
+    (en conversación con el agente o en la plataforma)
+    |
+El agente de aprendizaje identifica a quiénes les sirve
+    (por legado, industria, necesidades de aprendizaje)
+    |
+Distribuye el contenido a las personas correctas con contexto:
+    "Un integrante con experiencia en tu industria compartió
+    esto sobre regulación ESG — relevante para tu legado"
+    |
+El conocimiento se acumula en la memoria de la comunidad
+```
+
+### Flujo 5: Inteligencia para el Consejo (sin encuestas)
+
+```
+Los agentes analizan datos agregados y anonimizados
+    |
+Detectan patrón: "El 60% de integrantes de gen. 7-9
+    quieren aprender sobre IA aplicada a manufactura"
+    |
+Generan reporte para Consejo:
+    "Considerar evento o contenido especializado"
+    |
+El Consejo decide si actúa —
+    la comunidad nunca fue interrumpida con una encuesta
 ```
 
 ---
@@ -194,232 +302,11 @@ Consejo decide si actúa — la comunidad nunca fue interrumpida con una encuest
 
 | Indicador | Meta | Cómo se mide |
 |---|---|---|
-| Perfiles completos | 80% de integrantes | Campos esenciales completados (vía WhatsApp o web) |
-| Integrantes que encuentran valor | 70% interactúa al menos 1 vez/mes | Interacción por WhatsApp o web — sin exigir login |
+| Legado definido | 80% de integrantes tienen legado articulado | Conversación con agente completada |
+| Integrantes activos | 70% interactúa al menos 1 vez/mes | Interacción por WhatsApp o web |
 | Conexiones facilitadas | 50+ en 6 meses | Conexiones aceptadas por ambas partes |
-| Percepción de valor | NPS > 40 | Conversación breve del bot (no encuesta formal) |
+| Percepción de valor | NPS > 40 | Conversación breve del agente (no encuesta formal) |
 | Continuidad | 90% permanece al año | Participación activa sostenida |
-
----
-
-# Parte 2: Especificación Técnica
-
-## Arquitectura general
-
-```
-┌──────────────────────────────────────────────────────────────┐
-│                    INFRAESTRUCTURA TEC (Azure)                │
-│                                                              │
-│  ┌─────────────┐  ┌─────────────┐  ┌──────────────────────┐ │
-│  │  PostgreSQL  │  │  Vector DB  │  │  Blob Storage        │ │
-│  │             │  │  (Pinecone/ │  │                      │ │
-│  │  Perfiles    │  │   pgvector) │  │  Documentos          │ │
-│  │  Membresías  │  │             │  │  Reportes            │ │
-│  │  Conexiones  │  │  Embeddings │  │  Exportaciones       │ │
-│  │  Eventos     │  │  Relaciones │  │  Backups             │ │
-│  │  Auditoría   │  │  semánticas │  │                      │ │
-│  └──────┬──────┘  └──────┬──────┘  └──────────────────────┘ │
-│         │                │                                   │
-│         └───────┬────────┘                                   │
-│                 │                                            │
-│          ┌──────┴──────┐                                     │
-│          │   API REST  │  ← Autenticación OAuth 2.0 / JWT   │
-│          │   Gateway   │  ← Rate limiting                    │
-│          └──────┬──────┘  ← Logging completo                │
-│                 │                                            │
-└─────────────────┼────────────────────────────────────────────┘
-                  │
-          ┌───────┴────────┐
-          │  CAPA AGENTES  │  ← Operada por HA
-          │                │
-          │  ┌──────────┐  │
-          │  │ Conexión  │  │  Matching semántico + double opt-in
-          │  ├──────────┤  │
-          │  │Contenidos│  │  RAG + personalización por perfil
-          │  ├──────────┤  │
-          │  │  Scout   │  │  Análisis de redes + scoring
-          │  ├──────────┤  │
-          │  │ Insights │  │  Clustering + reportes agregados
-          │  └──────────┘  │
-          │                │
-          │  NO almacena   │
-          │  datos de      │
-          │  integrantes   │
-          └───────┬────────┘
-                  │
-    ┌─────────────┼──────────────┐
-    │             │              │
-    ▼             ▼              ▼
-┌────────┐  ┌─────────┐  ┌───────────┐
-│Web App │  │WhatsApp │  │Dashboard  │
-│(React) │  │Bot API  │  │Consejo    │
-│        │  │         │  │(Metabase/ │
-│Integr. │  │Integr.  │  │ custom)   │
-│Admin   │  │         │  │           │
-└────────┘  └─────────┘  └───────────┘
-```
-
----
-
-## Stack tecnológico
-
-| Capa                               | Tecnología                                   | Justificación                                   |
-| ---------------------------------- | -------------------------------------------- | ----------------------------------------------- |
-| **Backend**                        | Node.js / Python (FastAPI)                   | Ecosistema maduro, compatible con Azure         |
-| **Base de datos relacional**       | PostgreSQL (Azure Database)                  | Estándar del Tec, robusto, escalable            |
-| **Base de conocimiento vectorial** | pgvector o Pinecone                          | Búsqueda semántica para matching y contenido    |
-| **LLM**                            | Claude (Anthropic) / GPT-5.2 (OpenAI)        | Procesamiento de lenguaje natural para agentes  |
-| **Orquestación de agentes**        | Horizons Architecture framework              | Coordinación multi-agente con reglas de negocio |
-| **Frontend web**                   | React + Tailwind CSS                         | Responsive, rendimiento, accesibilidad          |
-| **WhatsApp**                       | WhatsApp Business API (via Twilio/360dialog) | Canal preferido de la comunidad                 |
-| **Dashboard**                      | Metabase o custom (React + Chart.js)         | Visualización de insights para Consejo          |
-| **Autenticación**                  | OAuth 2.0 + JWT                              | SSO compatible con ecosistema Tec (Azure AD)    |
-| **Infraestructura**                | Microsoft Azure                              | Alineado con infraestructura existente del Tec  |
-| **CI/CD**                          | GitHub Actions → Azure App Service           | Despliegue automatizado                         |
-| **Monitoreo**                      | Azure Monitor + Application Insights         | Observabilidad y alertas                        |
-
----
-
-## Modelo de datos (entidades principales)
-
-```
-INTEGRANTE
-├── id, nombre, email, teléfono
-├── empresa, cargo, sector, ubicación
-├── sede_id, generación, año_ingreso
-├── conocimiento_experiencia (texto libre → embedding)
-├── que_quiere_aprender (texto libre → embedding)
-├── preferencias_privacidad (granular: visible / solo sistema / privado)
-├── canal_preferido (whatsapp / web / ambos)
-├── estado (activo / inactivo / pendiente)
-└── fecha_registro, última_actividad
-
-SEDE
-├── id, nombre, campus, ciudad
-├── admin_id
-├── fecha_inicio
-└── estado (activa / en preparación)
-
-CONEXION
-├── id, integrante_a_id, integrante_b_id
-├── score_afinidad (0-100)
-├── base_conexion (texto: por qué se sugiere — conocimiento, contexto, complementariedad)
-├── estado_a (pendiente / aceptado / rechazado)
-├── estado_b (pendiente / aceptado / rechazado)
-├── estado_final (facilitado / cancelado / archivado)
-├── facilitado_por (admin_id)
-└── fechas (creado, respondido_a, respondido_b, facilitado)
-
-CONTENIDO
-├── id, título, tipo (artículo / caso / recurso / video)
-├── sectores_relevantes [], nivel_experiencia
-├── embedding (para matching con perfiles)
-└── fecha_publicación, fuente
-
-CANDIDATURA_SCOUT
-├── id, nombre_estimado, empresa, sector
-├── detectado_via_integrante_id
-├── score_afinidad (0-100)
-├── estado (detectado / revisado / invitado / descartado)
-└── decidido_por (consejo), fecha_decisión
-
-EVENTO
-├── id, nombre, tipo (presencial / virtual), sede_id
-├── fecha, lugar, capacidad
-└── asistentes [] (integrante_id + confirmación)
-
-LOG_AUDITORÍA
-├── id, persona_id, acción, recurso
-├── timestamp, ip, resultado
-└── detalle (JSON)
-```
-
----
-
-## Integraciones
-
-| Sistema | Tipo | Qué se intercambia | Dirección |
-|---|---|---|---|
-| **Azure AD (Tec)** | SSO | Autenticación de cuentas institucionales | Tec → Plataforma |
-| **WhatsApp Business API** | Mensajería | Notificaciones, respuestas, flujos conversacionales | Bidireccional |
-| **LinkedIn** (opcional) | Enriquecimiento | Datos públicos de perfil profesional | LinkedIn → Plataforma |
-| **Anthropic / OpenAI API** | LLM | Procesamiento de lenguaje para agentes | Plataforma → API |
-| **SMTP / SendGrid** | Email | Notificaciones, reportes, invitaciones | Plataforma → Integrante |
-| **Azure Blob Storage** | Archivos | Documentos, reportes exportados, backups | Interno |
-
----
-
-## Seguridad y confianza
-
-> "Mucha gente no respondió la encuesta cuando leyó los avisos de privacidad del Tec. Tiene una vulnerabilidad reconocida en la comunidad." — Rodrigo, Consejo de representantes
-
-La comunidad ya expresó desconfianza hacia el manejo de datos del Tec. La plataforma debe ganarse esa confianza con hechos, no con avisos legales.
-
-**Principio:** Cada integrante controla su información. Decide qué comparte, con quién, y puede retirarlo en cualquier momento. Los agentes de IA trabajan con datos anonimizados — nunca ven nombres, emails ni datos de contacto.
-
-| Capa | Medida | Estándar |
-|---|---|---|
-| Datos en reposo | AES-256 | Azure Storage Service Encryption |
-| Datos en tránsito | TLS 1.3 | HTTPS obligatorio |
-| Anonimización para IA | Datos procesados sin PII antes de enviar a LLM | Política interna verificable |
-| Autenticación admin | MFA (Multi-Factor Authentication) | Azure AD + Authenticator |
-| API | JWT con rotación de tokens | Expiración configurable |
-| Acceso a datos | RBAC (Role-Based Access Control) | 6 roles definidos (ver abajo) |
-| Logs | Registro inmutable de toda operación | Azure Monitor + tabla interna |
-| Backups | Automático diario, retención 30 días | Azure Backup |
-| Pruebas de seguridad | Pentest antes de lanzamiento | Proveedor externo |
-| Transparencia | Cada integrante puede ver y exportar toda su información en cualquier momento | Panel de privacidad en perfil |
-
-### Roles y permisos
-
-| Rol | Datos de integrantes | Conexiones | Insights | Config | Auditoría |
-|---|---|---|---|---|---|
-| **Super Admin** | Todos | Todas | Todos | Sí | Sí |
-| **Admin Consejo** | Agregados | Aprobar | Todos | Reglas | Sí |
-| **Admin Sede** | Solo su sede | Solo su sede | Solo su sede | No | Solo su sede |
-| **Operación HA** | No | No | No | Técnica | Técnica |
-| **Integrante** | Solo propio | Propias | No | Su perfil | No |
-| **Auditoría** | Lectura | Lectura | Lectura | No | Sí |
-
----
-
-## Residencia y propiedad de datos
-
-| Componente | Ubicación | Propiedad | Si termina el contrato |
-|---|---|---|---|
-| Datos de integrantes | Azure Tec | Tec Beyond 100% | Se revoca acceso a HA; datos intactos |
-| Base vectorial (embeddings) | Azure Tec | Tec Beyond 100% | Se entrega documentación para migración |
-| Insights y reportes | Azure Tec | Tec Beyond 100% | Quedan en infraestructura Tec |
-| Código de plataforma | Repositorio HA | Horizons Architecture | Licencia se termina |
-| Algoritmos de agentes | Repositorio HA | Horizons Architecture | HA retira su código; resultados quedan |
-| Reglas de comunidad | Documentadas en plataforma | Consejo León | Exportables en formato estándar |
-
-**Compromiso de portabilidad:** Si Tec Beyond migra a otro proveedor, HA entrega todos los datos en formato estándar (CSV/JSON), documentación técnica de la base vectorial, y un periodo de transición acordado en contrato.
-
----
-
-## Escalabilidad
-
-### Piloto (León)
-
-| Recurso | Dimensionamiento |
-|---|---|
-| Conexiones simultáneas | ~50-100 |
-| Integrantes totales | ~300 |
-| Embeddings | ~300 perfiles + contenido |
-| Almacenamiento | < 10 GB |
-| Costo mensual estimado Azure | ~$200-400 USD |
-| Costo LLM mensual estimado | ~$100-300 USD (depende de volumen) |
-
-### Expansión (3-5 sedes)
-
-| Recurso | Dimensionamiento |
-|---|---|
-| Conexiones simultáneas | ~200-500 |
-| Integrantes totales | ~1,500 |
-| Costo marginal por sede nueva | ~20-30% del costo del piloto |
-
-La arquitectura es horizontal: agregar una sede es crear un nuevo nodo con su admin, no redesplegar el sistema. La base de conocimiento es compartida — cada nueva persona enriquece las conexiones de toda la red.
 
 ---
 
@@ -430,20 +317,20 @@ La arquitectura es horizontal: agregar una sede es crear un nuevo nodo con su ad
 | Fase | Duración | Entregables |
 |---|---|---|
 | **Descubrimiento** | 2-3 semanas | Diseño detallado, modelo de datos final, cotización cerrada |
-| **MVP** | 8-10 semanas | Perfiles, conexiones básicas, WhatsApp bot, dashboard Consejo |
-| **Agentes v1** | 4-6 semanas | Conexiones + Contenidos operando con base de conocimiento real |
-| **Agentes v2** | 4-6 semanas | Scout + Insights operando |
-| **Estabilización** | 2-4 semanas | Testing, pentest, ajustes de performance, onboarding |
+| **MVP** | 8-10 semanas | Portal personal, agente raíz por WhatsApp, legado, conexiones, feed, dashboard Consejo |
+| **Agentes v1** | 4-6 semanas | Las seis dimensiones operando con datos reales |
+| **Agentes v2** | 4-6 semanas | Inteligencia colectiva, pipeline de candidaturas, legado generacional |
+| **Estabilización** | 2-4 semanas | Pruebas de seguridad, ajustes de rendimiento, onboarding |
 | **Lanzamiento piloto** | — | ~300 integrantes de León participando |
 
-Total estimado: **5-8 meses** desde aprobación hasta lanzamiento del piloto.
+Total estimado: **5-8 meses** desde aprobación hasta lanzamiento.
 
 ### Después del lanzamiento: plataforma viva
 
 La plataforma no se "entrega" — se opera y evoluciona continuamente:
 
-- **Actualizaciones mensuales** de algoritmos de conexión y contenido basadas en patrones reales de uso
-- **Reportes trimestrales** al Consejo con insights y recomendaciones de evolución
+- **Actualizaciones mensuales** de algoritmos basadas en patrones reales de uso
+- **Reportes trimestrales** al Consejo con inteligencia de la comunidad y recomendaciones
 - **Nuevas funcionalidades** según las necesidades que emerjan de la comunidad
 - **Expansión a nuevas sedes** como nodos adicionales — cada sede nueva enriquece la red completa
 
@@ -451,29 +338,7 @@ Los algoritmos cambian, las necesidades se mueven. La plataforma se mueve con el
 
 ---
 
-## Preguntas frecuentes para TI
-
-**¿Se necesita infraestructura nueva en el Tec?**
-No. Todo corre sobre Azure, que el Tec ya tiene. Se crea un resource group dedicado para Tec Beyond.
-
-**¿Los agentes de IA corren dentro de Azure?**
-Los agentes se despliegan en Azure App Service dentro del tenant del Tec. Las llamadas a LLMs (Claude/GPT-4o) salen a APIs externas, pero los datos que se envían son procesados y anonimizados — nunca se envía un perfil completo a un LLM externo.
-
-**¿Qué pasa con la latencia de WhatsApp?**
-El bot responde en < 5 segundos para interacciones simples (aceptar conexión, confirmar evento). Para respuestas que requieren procesamiento de agentes, < 15 segundos.
-
-**¿Cómo se actualiza la base vectorial?**
-Los embeddings se regeneran cuando alguien actualiza su perfil. El sistema también re-indexa periódicamente (semanal) para incorporar datos de interacciones recientes.
-
-**¿Qué datos se envían a las APIs de LLM?**
-Solo contexto procesado y anonimizado. Ejemplo: para generar una conexión, el agente envía al LLM las descripciones de capacidades y necesidades sin nombres, emails ni datos de contacto. El LLM nunca ve datos personales identificables.
-
-**¿Se puede integrar con sistemas existentes del Tec (CRM, ERP)?**
-Sí, vía API REST. La fase de descubrimiento mapea qué integraciones específicas se necesitan.
-
----
-
-**Horizons Architecture Systems**
+**Horizons Architecture**
 Edgar Barroso
 edgar@horizonsarchitecture.ai
 
