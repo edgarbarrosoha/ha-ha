@@ -1,5 +1,7 @@
 # Mara App
 
+Application runtime for `mara-codex`, the MARA subproject inside `ha-products`.
+
 Local-first desktop scaffold for `Mara`, the HA fractal cockpit.
 
 ## Current status

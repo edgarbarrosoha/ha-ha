@@ -1,7 +1,7 @@
 [package]
 name = "mara"
 version = "0.1.0"
-description = "Mara local-first fractal cockpit"
+description = "Mara runtime for the mara-codex subproject"
 authors = ["Horizons Architecture"]
 edition = "2021"
 

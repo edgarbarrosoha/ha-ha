@@ -1,6 +1,6 @@
 # Asignacion de Proyectos
 
-> Extraido de: HA Technology Presentation v2 (Oscar Diaz, CTO — Marzo 2026)
+> Extraido de: HA Technology Presentation v2 (Oscar Diaz, CTO - Marzo 2026)
 
 ## Prioridades
 
@@ -15,3 +15,8 @@
 TaaS + Dev-with-AI = P0 porque son infraestructura. Sin ellos, todo se construye sobre fundamentos ad-hoc.
 
 MARA = P0 porque es el ChatGPT de nuestro GPT. Sin la interfaz, el motor es inaccesible.
+
+## Estado Actual de Instanciacion
+
+- Implementacion viva de MARA: `06-projects/mara-codex/`
+- Rol del subproyecto: convertir la vision de MARA en un cockpit local-first, markdown-native y alineado con TaaS
