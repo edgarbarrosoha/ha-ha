@@ -4,6 +4,7 @@
 
 | Project | Status | Next Steps |
 |---|---|---|
+| Repository Cleanup | [>] active | commit `mara-codex` in `ha-ha`, then commit old-source deletions in `ha-eb` |
 | Cockpit UX | [>] active | tighten zoom hierarchy, improve mobile pass, keep the score-stage editorial |
 | Projection Engine | [!] active | reduce unresolved central tasks, add alias curation, read more portfolio dashboards |
 | Writeback Engine | [ ] pending | expand safe managed blocks and improve preview clarity |
