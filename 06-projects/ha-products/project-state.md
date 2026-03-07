@@ -41,9 +41,18 @@
 - [ ] Budget — confirmation pending
 - [ ] Architecture — TaaS needs formal spec before building
 
+## Products
+
+| Product | Status | Location |
+|---------|--------|----------|
+| HA Score | [>] Active | `04-technology/ha-score/` |
+| TaaS | [ ] Pending | TBD |
+| MARA | [ ] Pending | TBD |
+
 ## Session Log
 
 | Date | Units Completed | Notes |
 |------|----------------|-------|
 | 2026-02-15 | State initialized | Original B2C product vision |
 | 2026-03-05 | Ha-ize complete | Restructured around TaaS+MARA from Oscar PPTX |
+| 2026-03-06 | HA Score v1 | Data-driven orchestral score across 5 vaults, 257 nodes |
