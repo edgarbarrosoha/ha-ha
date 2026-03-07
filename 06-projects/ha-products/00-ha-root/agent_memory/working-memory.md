@@ -4,7 +4,30 @@
 
 ---
 
-## Session 2 — 2026-03-05
+## Session 3 - 2026-03-07
+
+**Type:** MARA subproject instancing
+
+### Achievements
+- Created nested subproject `06-projects/mara-codex/` for the live MARA implementation track
+- Moved PRD, UX, architecture, MVP spec, epics, audit, and the Tauri app into the subproject
+- Added HA kernel, dimensional anchors, dashboard, and project state for `mara-codex`
+- Shifted MARA from strategy-only inside HA-Products to strategy + implementation
+
+### Why It Matters
+- HA-Products now has a real boundary between product-suite strategy and MARA implementation
+- `mara-codex` can advance quickly without muddying the top-level project memory
+- The implementation loop can now dogfood against real workspaces while TaaS is still being formalized
+
+### Open Threads
+- TaaS architecture still needs a formal spec
+- MARA implementation needs hardening and dogfooding
+- Dev-with-AI practices remain underdefined
+- Team formation remains the structural bottleneck
+
+---
+
+## Session 2 - 2026-03-05
 
 **Type:** Ha-ize with Oscar's CTO Presentation
 **Source:** HA_Technology_Presentation_v2.pptx (16 slides)
@@ -22,12 +45,12 @@
 - Preserved all original files (product-spec, technical-architecture, universal-agents, etc.)
 
 ### Key Shift
-- **Before:** "ChatGPT da respuestas. HA da perspectiva." — B2C personal assistant, 8-week MVP, Supabase+Next.js
+- **Before:** "ChatGPT da respuestas. HA da perspectiva." - B2C personal assistant, 8-week MVP, Supabase+Next.js
 - **After:** TaaS (motor) + MARA (interface) + ha-learning-app (LMS) + consulting agents. Two product types (consulting vs HA products) in virtuous cycle. P0 = TaaS + MARA + Dev-with-AI
 
 ### What Was Preserved
-- Old product-spec.md, technical-architecture.md, universal-agents.md, product-suite-vision.md, mvp-roadmap.md — all remain as the detailed MARA spec (now one component of the broader vision)
-- 01-legacy/ files (5-minute experience, legacy product) — still valid for MARA specifically
+- Old product-spec.md, technical-architecture.md, universal-agents.md, product-suite-vision.md, mvp-roadmap.md - all remain as the detailed MARA spec (now one component of the broader vision)
+- 01-legacy/ files (5-minute experience, legacy product) - still valid for MARA specifically
 
 ### Open Threads
 - TaaS architecture needs formal definition
@@ -37,7 +60,7 @@
 
 ---
 
-## Session 1 — 2026-02-15
+## Session 1 - 2026-02-15
 
 **Type:** HA Instancing
 **Duration:** Part of ha-ha project audit (Batch 5)
@@ -55,5 +78,3 @@
 - Specification: COMPLETE (product spec, tech architecture, agent definitions, roadmap, pricing)
 - Team: NOT FORMED (critical blocker)
 - Development: NOT STARTED
-
----
