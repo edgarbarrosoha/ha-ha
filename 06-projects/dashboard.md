@@ -7,24 +7,17 @@ type: clock
 
 ## Prioridad
 
-- [ ] Docet: Esperando respuesta equipo Poncho. Probablemente no se concrete. Sin deadline
+- [ ] 
 
 ## En curso
 - [ ] UPU: Oscar documentación cierre (semana 24 feb)
 - [ ] Learning Products: Betty, Sarahí y Oscar avanzan. Leiden confirmado mar-jun 2026
 
 ## Pendiente2
-- [ ] HA-Products: mara-vision.md listo (thinking environment). Roadmap de desarrollo creado. Oscar necesita revisarlo
-- [ ] Learning Products: Call Betty/Sarahí/Edgar — Netherlands office strategy
-- [ ] Learning Products: Adaptar syllabus Entre2preneurship para Leiden
 - [ ] Learning Products: Definir scope Plan de Vida y Carrera
-- [x] Héctor Brosig: ✅ R
 - [ ] Talisis: Reagendar reunión con Nicho (cancelada 05 mar)
 - [ ] Joel Cano: Agendar reunión con Javier (VP Research Tec)
-- [ ] Xignux: Follow-up enviado, sin respuesta aún
 
-## Pausa
-- [ ] Docet: Esperando respuesta equipo Poncho. Probablemente no se concrete. Sin deadline
 
 ---
 
