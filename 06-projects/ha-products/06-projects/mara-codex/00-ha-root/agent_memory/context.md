@@ -40,6 +40,7 @@
 - [2026-03-07] DEC: Projection before generation | WHY: Mara's value comes from a stable workspace projection, not only chat responses | STATUS: active
 - [2026-03-07] DEC: Preview-first writeback only | WHY: Trust is product-critical when touching user workspace files | STATUS: active
 - [2026-03-07] DEC: `ha-score.html` is the strongest visual reference for the cockpit | WHY: It already captures the editorial score-space that Mara should evoke | STATUS: active
+- [2026-03-07] DEC: after migration, Mara work continues only from `ha-products/06-projects/mara-codex` | WHY: split execution across old and new paths would create drift immediately | STATUS: active
 
 ### Patterns
 - PAT:fractal-zoom | Root -> vault -> project must stay legible at all times
@@ -47,11 +48,12 @@
 - PAT:synthetic-visibility | If a live initiative exists only in dashboards, surface it as synthetic rather than hiding it
 - PAT:central-load-routing | Root and vault ambiguity should be routed into projects whenever there is enough alias evidence
 - PAT:bounded-writeback | Show diff/preview first, commit second
+- PAT:single-live-path | Once a project migrates, all further implementation should happen only in the destination path
 
 ### Key Intelligence
 - Real workspace validation currently yields `21` synthetic projects, `78` rerouted tasks, and `1283` unresolved central tasks
-- The MVP already compiles and runs; the main work now is trustworthiness and TaaS alignment
-- `ha-eb` is the primary dogfooding workspace and should stay the pressure test
+- The MVP already compiles and runs from the new path; the immediate operational risk is repo drift, not runtime breakage
+- `ha-eb` is still the primary dogfooding workspace, but `mara-codex` in `ha-ha` is now the only implementation home
 
 ---
 
@@ -59,14 +61,14 @@
 
 ### Last Session
 - **Date:** 2026-03-07
-- **Type:** Migration + HA instancing
-- **Achievements:** Moved the Mara work into `mara-codex`, created project kernel, integrated with parent `ha-products`, preserved app and docs.
+- **Type:** Session close after migration
+- **Achievements:** Validated `npm run build` and `cargo check` from the new `mara-codex` path and saved the post-migration next steps into the project kernel.
 
 ### Active Threads
-- [>] MVP hardening
+- [>] Commit `mara-codex` inside `ha-ha`
+- [>] Commit the old-source deletions inside `ha-eb`
+- [!] Keep all future Mara work only in `mara-codex`
 - [!] Alias curation and routing precision
-- [!] TaaS alignment
-- [>] Dogfooding on `ha-eb`
 - [ ] Diagnostics export from app
 
 ### Waiting For
@@ -74,7 +76,7 @@
 - [?] Decision on how explicit the TaaS layer should appear inside the MVP
 
 ### Next Session Priorities
-1. Reduce unresolved central task load
-2. Expand extraction beyond the root portfolio dashboard
-3. Convert diagnostics into first-class in-app export
-4. Align Mara projection model with TaaS language without adding product drag
+1. Commit target-repo changes in `ha-ha`
+2. Commit old-source deletions in `ha-eb`
+3. Resume product work only from `06-projects/ha-products/06-projects/mara-codex/`
+4. Reduce unresolved central task load
