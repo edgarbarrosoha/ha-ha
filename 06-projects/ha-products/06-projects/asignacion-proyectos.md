@@ -18,5 +18,5 @@ MARA = P0 porque es el ChatGPT de nuestro GPT. Sin la interfaz, el motor es inac
 
 ## Estado Actual de Instanciacion
 
-- Implementacion viva de MARA: `06-projects/mara-codex/`
+- Implementacion viva de MARA: `/Users/edgarbarroso/Documents/ha-dev/products/mara-codex/`
 - Rol del subproyecto: convertir la vision de MARA en un cockpit local-first, markdown-native y alineado con TaaS

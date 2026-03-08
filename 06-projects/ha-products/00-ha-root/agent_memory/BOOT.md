@@ -22,7 +22,7 @@ Read `you-are-ha.md` for complete identity, architecture, and roadmap.
 1. Read: `you-are-ha.md`, `context.md`, `working-memory.md`
 2. Read: `project-state.md` (current front)
 3. Check: team status, development progress, beta metrics
-4. If the work is specifically MARA implementation, jump into `06-projects/mara-codex/00-ha-root/agent_memory/BOOT.md`
+4. If the work is specifically MARA implementation, jump into `/Users/edgarbarroso/Documents/ha-dev/products/mara-codex/kernel/00-ha-root/agent_memory/BOOT.md`
 5. Report: blocker status, sprint progress, next milestone
 
 ### Execution
@@ -53,7 +53,7 @@ Use HA Syntax for task tracking.
 
 ## Nested Implementation Track
 
-- MARA implementation subproject: `06-projects/mara-codex/`
+- MARA implementation repo: `/Users/edgarbarroso/Documents/ha-dev/products/mara-codex/`
 - Use the nested boot there when the task is about code, parser quality, UI, diagnostics, or writeback.
 - Stay at the parent level when the task is about product-suite strategy, TaaS, staffing, or budget.
 
@@ -77,7 +77,7 @@ Use HA Syntax for task tracking.
 | `04-technology/taas-mara-core.md` | Core architecture |
 | `04-technology/technical-architecture.md` | Legacy tech stack vision |
 | `06-projects/asignacion-proyectos.md` | P0 assignments |
-| `06-projects/mara-codex/project-state.md` | Live MARA implementation front |
+| `/Users/edgarbarroso/Documents/ha-dev/products/mara-codex/kernel/project-state.md` | Live MARA implementation front |
 
 ---
 
