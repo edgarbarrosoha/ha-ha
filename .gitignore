@@ -1,6 +1,17 @@
 .DS_Store
 node_modules/
 conflict-files-obsidian-git.md
+~$*
+
+# Build artifacts — never commit
+**/target/
+**/dist/
+**/*.rlib
+**/*.dylib
+**/*.rmeta
+
+# Large binaries — use Git LFS or keep local
+*.psd
 
 # Obsidian machine-local UI state (prevents cross-device pull conflicts)
 .obsidian/workspace.json
