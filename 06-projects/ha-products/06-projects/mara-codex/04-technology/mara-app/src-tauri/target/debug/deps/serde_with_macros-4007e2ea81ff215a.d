@@ -1,0 +1,8 @@
+/Users/edgarbarroso/Documents/ha-ha/06-projects/ha-products/06-projects/mara-codex/04-technology/mara-app/src-tauri/target/debug/deps/serde_with_macros-4007e2ea81ff215a.d: /Users/edgarbarroso/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_with_macros-3.17.0/src/lib.rs /Users/edgarbarroso/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_with_macros-3.17.0/src/apply.rs /Users/edgarbarroso/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_with_macros-3.17.0/src/lazy_bool.rs /Users/edgarbarroso/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_with_macros-3.17.0/src/utils.rs
+
+/Users/edgarbarroso/Documents/ha-ha/06-projects/ha-products/06-projects/mara-codex/04-technology/mara-app/src-tauri/target/debug/deps/libserde_with_macros-4007e2ea81ff215a.dylib: /Users/edgarbarroso/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_with_macros-3.17.0/src/lib.rs /Users/edgarbarroso/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_with_macros-3.17.0/src/apply.rs /Users/edgarbarroso/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_with_macros-3.17.0/src/lazy_bool.rs /Users/edgarbarroso/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_with_macros-3.17.0/src/utils.rs
+
+/Users/edgarbarroso/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_with_macros-3.17.0/src/lib.rs:
+/Users/edgarbarroso/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_with_macros-3.17.0/src/apply.rs:
+/Users/edgarbarroso/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_with_macros-3.17.0/src/lazy_bool.rs:
+/Users/edgarbarroso/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_with_macros-3.17.0/src/utils.rs:

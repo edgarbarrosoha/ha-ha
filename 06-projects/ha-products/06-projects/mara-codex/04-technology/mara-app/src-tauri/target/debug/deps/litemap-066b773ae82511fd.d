@@ -1,0 +1,10 @@
+/Users/edgarbarroso/Documents/ha-ha/06-projects/ha-products/06-projects/mara-codex/04-technology/mara-app/src-tauri/target/debug/deps/litemap-066b773ae82511fd.d: /Users/edgarbarroso/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.1/src/lib.rs /Users/edgarbarroso/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.1/src/map.rs /Users/edgarbarroso/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.1/src/store/mod.rs /Users/edgarbarroso/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.1/src/store/slice_impl.rs
+
+/Users/edgarbarroso/Documents/ha-ha/06-projects/ha-products/06-projects/mara-codex/04-technology/mara-app/src-tauri/target/debug/deps/liblitemap-066b773ae82511fd.rlib: /Users/edgarbarroso/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.1/src/lib.rs /Users/edgarbarroso/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.1/src/map.rs /Users/edgarbarroso/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.1/src/store/mod.rs /Users/edgarbarroso/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.1/src/store/slice_impl.rs
+
+/Users/edgarbarroso/Documents/ha-ha/06-projects/ha-products/06-projects/mara-codex/04-technology/mara-app/src-tauri/target/debug/deps/liblitemap-066b773ae82511fd.rmeta: /Users/edgarbarroso/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.1/src/lib.rs /Users/edgarbarroso/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.1/src/map.rs /Users/edgarbarroso/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.1/src/store/mod.rs /Users/edgarbarroso/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.1/src/store/slice_impl.rs
+
+/Users/edgarbarroso/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.1/src/lib.rs:
+/Users/edgarbarroso/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.1/src/map.rs:
+/Users/edgarbarroso/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.1/src/store/mod.rs:
+/Users/edgarbarroso/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.1/src/store/slice_impl.rs:

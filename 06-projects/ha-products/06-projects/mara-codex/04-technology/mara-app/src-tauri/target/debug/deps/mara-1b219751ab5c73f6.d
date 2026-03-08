@@ -1,0 +1,13 @@
+/Users/edgarbarroso/Documents/ha-ha/06-projects/ha-products/06-projects/mara-codex/04-technology/mara-app/src-tauri/target/debug/deps/mara-1b219751ab5c73f6.d: src/main.rs /Users/edgarbarroso/Documents/ha-ha/06-projects/ha-products/06-projects/mara-codex/04-technology/mara-app/src-tauri/target/debug/build/mara-2ba490ce68080c79/out/1ac283979ec0647d26c344ed657eeba576e8f4d9331b4871d41649cba7c01f91 /Users/edgarbarroso/Documents/ha-ha/06-projects/ha-products/06-projects/mara-codex/04-technology/mara-app/src-tauri/target/debug/build/mara-2ba490ce68080c79/out/2118733580f2657ec018678e96d6443a1e2d442dfa294238b81fa17f2323fd6d /Users/edgarbarroso/Documents/ha-ha/06-projects/ha-products/06-projects/mara-codex/04-technology/mara-app/src-tauri/target/debug/build/mara-2ba490ce68080c79/out/bef8e603c393292438eff5f4f2c72cd243c4a267dd12f265fd721b6636a65f7b
+
+/Users/edgarbarroso/Documents/ha-ha/06-projects/ha-products/06-projects/mara-codex/04-technology/mara-app/src-tauri/target/debug/deps/libmara-1b219751ab5c73f6.rmeta: src/main.rs /Users/edgarbarroso/Documents/ha-ha/06-projects/ha-products/06-projects/mara-codex/04-technology/mara-app/src-tauri/target/debug/build/mara-2ba490ce68080c79/out/1ac283979ec0647d26c344ed657eeba576e8f4d9331b4871d41649cba7c01f91 /Users/edgarbarroso/Documents/ha-ha/06-projects/ha-products/06-projects/mara-codex/04-technology/mara-app/src-tauri/target/debug/build/mara-2ba490ce68080c79/out/2118733580f2657ec018678e96d6443a1e2d442dfa294238b81fa17f2323fd6d /Users/edgarbarroso/Documents/ha-ha/06-projects/ha-products/06-projects/mara-codex/04-technology/mara-app/src-tauri/target/debug/build/mara-2ba490ce68080c79/out/bef8e603c393292438eff5f4f2c72cd243c4a267dd12f265fd721b6636a65f7b
+
+src/main.rs:
+/Users/edgarbarroso/Documents/ha-ha/06-projects/ha-products/06-projects/mara-codex/04-technology/mara-app/src-tauri/target/debug/build/mara-2ba490ce68080c79/out/1ac283979ec0647d26c344ed657eeba576e8f4d9331b4871d41649cba7c01f91:
+/Users/edgarbarroso/Documents/ha-ha/06-projects/ha-products/06-projects/mara-codex/04-technology/mara-app/src-tauri/target/debug/build/mara-2ba490ce68080c79/out/2118733580f2657ec018678e96d6443a1e2d442dfa294238b81fa17f2323fd6d:
+/Users/edgarbarroso/Documents/ha-ha/06-projects/ha-products/06-projects/mara-codex/04-technology/mara-app/src-tauri/target/debug/build/mara-2ba490ce68080c79/out/bef8e603c393292438eff5f4f2c72cd243c4a267dd12f265fd721b6636a65f7b:
+
+# env-dep:CARGO_PKG_AUTHORS=Horizons Architecture
+# env-dep:CARGO_PKG_DESCRIPTION=Mara runtime for the mara-codex subproject
+# env-dep:CARGO_PKG_NAME=mara
+# env-dep:OUT_DIR=/Users/edgarbarroso/Documents/ha-ha/06-projects/ha-products/06-projects/mara-codex/04-technology/mara-app/src-tauri/target/debug/build/mara-2ba490ce68080c79/out
