@@ -7,12 +7,8 @@ type: clock
 
 ## Prioridad
 
-<<<<<<< HEAD
-- [ ] 
-=======
 - [ ] Hacer la propuesta de Lina
 - [ ] Compartir con el equipo la estrategia de cursos
->>>>>>> 574b8f6 (vault backup: 2026-03-08 09:45:39)
 
 ## En curso
 - [ ] UPU: Oscar documentación cierre (semana 24 feb)
