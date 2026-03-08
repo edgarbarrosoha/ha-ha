@@ -47,8 +47,8 @@
 | Product | Status | Location | Description |
 |---------|--------|----------|-------------|
 | MARA Codex | [>] Active | `/Users/edgarbarroso/Documents/ha-dev/products/mara-codex/` | Interface for humans + AI agents |
-| HA Knowledge Graph | [>] Active | `06-projects/ha-knowledge-graph/` | Topological view — vault structure as interactive graph |
-| HA Score | [>] Active | `06-projects/ha-score/` | Temporal view — life as orchestral notation |
+| HA Knowledge Graph | [>] Active | `/Users/edgarbarroso/Documents/ha-dev/products/ha-knowledge-graph/` | Topological view — vault structure as interactive graph |
+| HA Score | [>] Active | `/Users/edgarbarroso/Documents/ha-dev/products/ha-score/` | Temporal view — life as orchestral notation |
 | TaaS | [ ] Pending | TBD | 6 dimensions as API |
 
 ## Session Log
