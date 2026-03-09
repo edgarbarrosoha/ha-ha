@@ -1,5 +1,5 @@
-# Propuesta: Inteligencia Estratégica con IA para Socios Corporativos
-**Horizons Architecture × Tec de Monterrey**
+# Propuesta: Arquitectura de Horizontes con IA para Socios Corporativos
+**Horizons Architecture | Tec de Monterrey**
 
 **Fecha:** Marzo 2026
 **Preparado por:** Edgar Barroso — Horizons Architecture
@@ -11,9 +11,9 @@
 
 Integrar la IA en la operación de una empresa requiere más que conocimientos técnicos. Requiere claridad estratégica: saber qué problema resolver, con quién, con qué información y cómo medir si funcionó.
 
-En estos talleres, cada empresa trae un reto estratégico real y, a lo largo de la serie, construye un sistema de IA configurado específicamente para ese reto — integrado en un análisis que puede ejecutarse al día siguiente.
+En estos talleres, cada empresa trae un reto estratégico real y, a lo largo de la serie, construye un sistema de IA utilizando la metodología de Arquitectura de Horizons (HA) configurado específicamente para ese reto.
 
-Horizons Architecture (HA) es un marco de análisis estratégico desarrollado en el Laboratorio de Emprendimiento y Transformación (LET) de la Escuela de Gobierno del Tec de Monterrey. Estructura cualquier reto complejo en **6 dimensiones** que se analizan en paralelo, con IA que opera en cada una como herramienta de diagnóstico, modelado y ejecución. Ha sido probado en contextos gubernamentales, educativos, industriales y de organismos internacionales.
+Horizons Architecture (HA) es un marco de análisis estratégico desarrollado en el Laboratorio de Emprendimiento y Transformación (LET) de la Escuela de Gobierno del Tec de Monterrey. Estructura retos complejos en **6 dimensiones** que se analizan en paralelo, con IA que opera en cada una como herramienta de diagnóstico, modelado y ejecución.
 
 **Lo que los participantes se llevan:** un proyecto estratégico con IA funcionando sobre su problema, estructurado en las 6 dimensiones de HA, listo para implementar.
 
@@ -25,14 +25,12 @@ HA parte de una premisa: los retos complejos comparten una estructura inicial co
 
 | Dimensión HA    | Pregunta operativa                                  | Rol de la IA                                                     |
 | --------------- | --------------------------------------------------- | ---------------------------------------------------------------- |
-| **Legado**      | ¿Qué resultado buscamos? ¿Qué priorizamos?          | Modelar la función objetivo, evaluar trade-offs                  |
-| **Comunidad**   | ¿Quiénes son los actores clave y cómo se coordinan? | Análisis de redes, mapeo de incentivos                           |
-| **Aprendizaje** | ¿Con qué conocimiento y datos contamos?             | Diagnóstico de información, procesamiento de conocimiento tácito |
+| **Legado**      | ¿Qué resultado buscamos? ¿Qué priorizamos? ¿Cómo se ve el estado deseado al que queremos llegar? | Modelar la función objetivo, evaluar trade-offs                  |
+| **Comunidad**   | ¿Quiénes son los actores, áreas, instituciones clave y cómo se coordinan? | Análisis de redes, mapeo de incentivos                           |
+| **Aprendizaje** | ¿Con qué conocimientos y datos contamos y más importante cuáles nos faltan? | Diagnóstico de información, capacidades, procesamiento de conocimiento tácito |
 | **Tecnología**  | ¿Qué infraestructura y herramientas tenemos?        | Evaluación de stack, agentes especializados                      |
-| **Contexto**    | ¿Qué está cambiando a nuestro alrededor?            | Escaneo de señales, generación de escenarios                     |
+| **Contexto**    | ¿Qué está cambiando a nuestro alrededor que nos afecta? | Escaneo de señales, generación de escenarios y contextos         |
 | **Proyectos**   | ¿Cómo lo implementamos y medimos?                   | Evaluación de pilotos, monitoreo de métricas                     |
-
-La misma estructura funciona a cualquier escala: un proyecto, un área, una organización completa. Lo que se aprende en el taller se replica después internamente con la misma lógica.
 
 ---
 
@@ -192,7 +190,7 @@ A convenir con el equipo organizador. Disponemos de opciones para taller individ
 
 Horizons Architecture nace del trabajo del Laboratorio de Emprendimiento y Transformación (LET) en la Escuela de Gobierno y Transformación Pública del Tec de Monterrey. Es una firma de consultoría especializada en inteligencia estratégica, con experiencia en proyectos de gobierno estatal, educación, industria y organismos internacionales.
 
-**Edgar Barroso** — PhD Harvard University. Profesor de la Escuela de Gobierno y Transformación Pública, Tec de Monterrey. Consultor de Naciones Unidas en inteligencia artificial y automatización. 20+ años integrando tecnología, estrategia y transformación organizacional.
+horizonsarchitecture.ai
 
 ---
 
@@ -202,4 +200,4 @@ Horizons Architecture nace del trabajo del Laboratorio de Emprendimiento y Trans
 2. Definir formato preferido
 3. Confirmar fechas y logística
 
-**Contacto:** Edgar Barroso — edgar@horizonsarchitecture.com
+**Contacto:** Edgar Barroso — edgar@horizonsarchitecture.com — +52 477 263 0512

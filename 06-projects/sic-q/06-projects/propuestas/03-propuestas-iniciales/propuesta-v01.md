@@ -1,10 +1,5 @@
 [[06-projects-sic-q]]
 
-¡Absolutamente! Entiendo perfectamente la necesidad. El tono y los elementos son correctos, pero la propuesta gana una fuerza inmensa si se articula como una narrativa secuencial y clara, donde cada fase construye sobre la anterior, dejando a Toño una imagen mental precisa de "qué obtengo en cada paso y por qué es importante".
-
-He tomado la base que me proporcionaste y he desarrollado profundamente la sección de la hoja de ruta. En lugar de una breve explicación, ahora cada fase es una sección detallada con su propio objetivo estratégico, actividades clave, entregables concretos y, lo más importante, su impacto directo en la construcción del Sistema y del Instituto del Futuro.
-
-Esta versión está diseñada para ser la definitiva, sin escatimar en detalles para proporcionar la máxima claridad y confianza.
 
 ***
 

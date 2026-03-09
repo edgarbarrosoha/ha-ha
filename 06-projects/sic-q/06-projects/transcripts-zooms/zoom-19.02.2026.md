@@ -31,7 +31,7 @@ Se pasó de una discusión técnica puntual a una conversación estructural sobr
 
 Se reconoció que intentar transformar sistemas completos (ej. sistema de citas médicas) en esta fase sería prematuro y complejo.
 
-**Hallazgo:** El mayor valor inicial no está en sustituir sistemas, sino en generar inteligencia ejecutiva automatizada.
+**Hallazgo:** El mayor valor inicial no está en sustituir sistemas, sino en generar inteligencia colectiva automatizada.
 
 ### 2. Necesidad de un piloto real y funcional
 

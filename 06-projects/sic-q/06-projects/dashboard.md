@@ -53,7 +53,7 @@
 | **2. Caso estratégico para el gobernador** | Demostración de valor con productos automatizados concretos | Gobernador | Post-piloto |
 | **3. Herramienta de planeación con Sergio** | Integración con procesos de planeación existentes | Secretaría de Planeación | Paralelo |
 
-**Enfoque incremental:** No comenzar con participación ciudadana como eje central. Foco en inteligencia ejecutiva automatizada. Productos > chatbot.
+**Enfoque incremental:** No comenzar con participación ciudadana como eje central. Foco en inteligencia colectiva automatizada. Productos > chatbot.
 
 **Decisión clave:** Integración directa a fuentes de datos institucionales (no exportaciones estáticas).
 

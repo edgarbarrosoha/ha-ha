@@ -315,7 +315,7 @@ Cada reto se analiza desde:
 > - Informar a ciudadanos sobre restricciones por zona
 > - Recibir reportes de fugas o desperdicio
 > - Priorizar distribución de pipas según densidad y vulnerabilidad
-> - Proyectar duración de la crisis con datos en tiempo real
+> - Proyectar duración de la crisis con datos actualizados de manera continua
 
 ---
 

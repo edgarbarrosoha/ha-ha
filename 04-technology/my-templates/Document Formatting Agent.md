@@ -255,7 +255,7 @@ function makeRunningHeader(year) {
             children: [
               new TableCell({
                 borders: noBorders,
-                width: { size: 50, type: WidthType.PERCENTAGE },
+                width: { size: 4680, type: WidthType.DXA },  // half of 9360 twips (6.5" usable)
                 children: [new Paragraph({
                   spacing: { before: 0, after: 0 },
                   children: [new TextRun({
@@ -266,7 +266,7 @@ function makeRunningHeader(year) {
               }),
               new TableCell({
                 borders: noBorders,
-                width: { size: 50, type: WidthType.PERCENTAGE },
+                width: { size: 4680, type: WidthType.DXA },
                 children: [new Paragraph({
                   alignment: AlignmentType.RIGHT,
                   spacing: { before: 0, after: 0 },
@@ -279,7 +279,7 @@ function makeRunningHeader(year) {
             ]
           })
         ],
-        width: { size: 100, type: WidthType.PERCENTAGE },
+        width: { size: 9360, type: WidthType.DXA },  // full page width (8.5" - 2" margins = 6.5" = 9360 twips)
         borders: { top: noBorder, bottom: noBorder, left: noBorder, right: noBorder, insideH: noBorder, insideV: noBorder },
       })
     ]
@@ -1511,7 +1511,7 @@ function h1WithRule(text) {
 12. **Intentar portada negra con shading** — no funciona bien en docx-js. Usar portada blanca minimalista.
 13. **No usar `heading: HeadingLevel.HEADING_X`** en headings — el TOC no los detecta.
 14. Olvidar el bloque de metadata en la portada
-15. Usar WidthType.PERCENTAGE en tablas (siempre DXA)
+15. Usar WidthType.PERCENTAGE en tablas — siempre usar DXA (twips). Si DEBES usar PERCENTAGE, recuerda que usa **fiftieths of percent** (100% = 5000, NOT 100). `size: 50` = 1%, no 50%. Esto causa columnas de ancho casi cero donde el texto se apila verticalmente carácter por carácter.
 16. **Usar `\\t` o tab stops en el footer de portada** — Google Docs los ignora. Siempre usar tabla invisible de 3 columnas.
 17. **No generar archivos header/footer** — sin `header1.xml` y `footer1.xml`, no hay running headers ni page numbers.
 18. **Crear más de 3-4 secciones en el entregable** — el entregable necesita máximo 3 secciones: portada, TOC, body. Más secciones = más posibilidades de error en Google Docs.

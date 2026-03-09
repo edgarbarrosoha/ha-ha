@@ -13,7 +13,7 @@ Del contrato original (~$8.6M + IVA pendientes):
 - Dashboard de inteligencia colectiva
 
 3 productos nuevos ($6M + IVA) — surgieron del avance del proyecto:
-- Agente Toño (inteligencia ejecutiva: reportes, fichas, indicadores)
+- Agente Toño (inteligencia colectiva: reportes, fichas, indicadores)
 - Caso ejecutivo para el Gobernador (demostración con datos reales)
 - Procesamiento IA del Plan QRO 2050 (herramienta de planeación para Sergio)
 

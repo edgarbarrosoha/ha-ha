@@ -2,6 +2,17 @@
 
 ## Sessions
 
+### 2026-03-08 | Session 23 | QUICK BOOT
+- **Focus:** Boot protocol + status check + intercom review
+- **Achievements:**
+  - Boot ejecutado con calendario, mail, intercom, dashboard
+  - Intercom: 3 mensajes de Tec-computer procesados — Obsidian Git config (auto-pull/push 5 min) + Propuesta Talleres SC docx listo + git anti-conflict fix
+  - Identificado: `ha-mail recent` no es comando válido (solo `unread` y `today`)
+  - `identity.md` no existe en agent_memory — boot lo nota y continúa
+- **Decisions:** Ninguna nueva
+- **Deliverables:** Ninguno — sesión de contexto
+- **Open threads:** Obsidian Git config pendiente en My-computer. Propuesta Talleres SC pendiente de revisar. Propuesta de Lina pendiente.
+
 ### 2026-03-06 | Session 21 | TEC BEYOND ENTREGABLES PLATAFORMA
 - **Focus:** Reescritura completa de descripción y especificación técnica de la plataforma Tec Beyond + generación de docx profesionales
 - **Achievements:**

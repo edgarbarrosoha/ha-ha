@@ -14,7 +14,7 @@ frente: caso-gobernador
 
 ## 1. Qué es esto
 
-No es un chatbot. No es un buscador. Es un sistema agéntico de inteligencia ejecutiva — diseñado para vivir en el teléfono del gobernador, disponible 24/7, siempre actualizado. No es un solo agente: es una red de agentes especializados que se coordinan para integrar, cruzar y sintetizar la información que el gobierno ya genera.
+No es un chatbot. No es un buscador. Es un sistema agéntico de inteligencia colectiva — diseñado para vivir en el teléfono del gobernador, disponible 24/7, siempre actualizado. No es un solo agente: es una red de agentes especializados que se coordinan para integrar, cruzar y sintetizar la información que el gobierno ya genera.
 
 El gobierno de Querétaro ya genera enormes cantidades de información: reportes de secretarías, indicadores de servicios, datos demográficos, capas georreferenciadas, propuestas ciudadanas, análisis económicos. El problema no es la falta de datos — es que están dispersos, en formatos distintos, en tiempos distintos, y llegan filtrados por múltiples capas antes de alcanzar al tomador de decisiones.
 
@@ -221,7 +221,7 @@ Cada secretaría del gobierno de Querétaro genera datos operativos que hoy vive
 
 | Dato | Para qué sirve al sistema |
 |---|---|
-| Ocupación hotelera por zona y temporada | Medir la salud del sector turístico en tiempo real |
+| Ocupación hotelera por zona y temporada | Medir la salud del sector turístico de manera continua |
 | Derrama económica por turismo (estimación mensual/trimestral) | Cuantificar el impacto económico del turismo en la economía estatal |
 | Visitantes por destino (Ruta del Vino, Centro Histórico, Peña de Bernal, Bernal) | Identificar destinos saturados o con potencial de crecimiento |
 | Eventos y congresos programados (capacidad, asistentes esperados) | Anticipar demanda de servicios y preparar contexto para giras |
@@ -354,7 +354,7 @@ La ficha muestra: IED acumulada del sector automotriz, disponibilidad de talento
 
 El gobernador entra a la reunión con datos que normalmente habrían requerido tres días de coordinación entre secretarías.
 
-### Escenario crisis: Coordinación en tiempo real
+### Escenario crisis: Coordinación ante emergencia
 
 Sismo de 5.8 grados a las 3:00 PM. El sistema se activa automáticamente.
 
