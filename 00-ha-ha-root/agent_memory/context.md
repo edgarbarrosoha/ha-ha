@@ -78,9 +78,9 @@
 ## ZONE C: State (Dynamic)
 
 ### Last Session
-- **Date:** 2026-03-06
-- **Type:** Deep work — Tec Beyond entregables plataforma (desc + spec técnica) + docx generation pipeline
-- **Achievements:** Reescritura completa descripción + especificación técnica plataforma Tec Beyond. Pipeline docx-js con ha-styles.js. Fuentes Plus Jakarta Sans + Roboto Mono instaladas y funcionando.
+- **Date:** 2026-03-08
+- **Type:** Quick boot — status check + intercom review
+- **Achievements:** Boot ejecutado. Intercom: Tec-computer dejó 3 mensajes (Obsidian Git config, Propuesta Talleres SC docx, git fix). No hay correos ni directives.
 
 ### Active Threads
 - SIC-Q: Propuesta v06 enviada. Edgar Mohar habló con Toño (04 mar) para formalizar contrato — caminando. Proyecto Cerebro CEN PAN (tentativo, pitch ~marzo)
@@ -106,16 +106,17 @@
 - Betty/Sarahí/Edgar → Call Netherlands office strategy | Learning Products
 
 ### Next Session Priorities
-1. SIC-Q: Seguimiento formalización contrato (Mohar/Toño)
-2. Tec Beyond: Seguimiento Jorge Blando
-3. Héctor Brosig / Xignux: Reunión mañana Vie 06 Mar 19:00
-4. Talisis: Reagendar con Nicho
-5. Docet: Formalizar pausa o escalar
+1. Obsidian Git config: Verificar auto-pull/push = 5 min en My-computer
+2. Propuesta de Lina (dashboard prioridad)
+3. Revisar Propuesta Talleres SC docx y subir a Google Docs
+4. SIC-Q: Seguimiento formalización contrato (Mohar/Toño)
+5. Tec Beyond: Seguimiento Jorge Blando
 
 ### Recent Sessions
 
 | Date | Session | Focus | Key Achievement |
 |------|---------|-------|-----------------|
+| 2026-03-08 | 23 | Quick boot | Intercom review, status check, no deliverables |
 | 2026-03-06 | 21 | Tec Beyond entregables plataforma | desc + spec técnica reescritas, pipeline docx-js, fuentes HA |
 | 2026-03-06 | 20 | Mara vision + legados + roadmap | Mara = thinking environment, 6 legados, dev roadmap 6 fases |
 | 2026-03-03 | 19 | Quick boot | Calendario + mail cargados, semana mapeada, git limpio |

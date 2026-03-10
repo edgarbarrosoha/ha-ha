@@ -23,20 +23,20 @@ Números gruesos para tu reunión. Una aproximación a lo que necesitaremos para
 
 ## Lo que ya entregamos (etapa de prototipo)
 
-Con los $3.7M pagados hemos entregado más de 30 productos: prototipo navegable del SIC-Q, primer agente de IA funcional, presentación para el gobernador (que se hará en mayo), demo de agentes, visor de mapas, app de capacitación para moderadores, 2 talleres de codiseño (74 participantes, 778 ideas, 248 actores), sesión CONSEQRO (13 consejeros, 4 demos en vivo), 5 reportes, procesamiento con IA en tiempo real, todos los materiales de ejecución, replanteamiento estratégico, Citizens Journey v.03 y v.04, diseño de proceso en 12 fases, simulador de costos, código de ética, benchmarks internacionales, y documentos base de conocimientos. Todo documentado en Notion y en las plataformas de HA.
+Con los $3.7M pagados hemos entregado más de 30 productos: prototipo navegable del SIC-Q, primer agente de IA funcional, presentación para el gobernador (que se hará en mayo), demo de agentes, visor de mapas, app de capacitación para moderadores, 2 talleres de codiseño (74 participantes, 778 ideas, 248 actores), sesión CONSEQRO (13 consejeros, 4 demos en vivo), 5 reportes, procesamiento con IA, todos los materiales de ejecución, replanteamiento estratégico, Citizens Journey v.03 y v.04, diseño de proceso en 12 fases, simulador de costos, código de ética, benchmarks internacionales, y documentos base de conocimientos. Todo documentado en Notion y en las plataformas de HA.
 
 ---
 
 ## Lo que estaba y lo que sigue: $16M + IVA
 
 **Del contrato original (~$8.6M + IVA pendientes):**
-- **Plataforma de Orquestación Ciudadana** — sistema web y móvil de participación para ~50,000 usuarios con múltiples canales (web, móvil, WhatsApp), procesamiento IA en tiempo real, reportes de inteligencia colectiva y seguimiento al ciudadano. El componente más ambicioso del proyecto.
+- **Plataforma de Orquestación Ciudadana** — sistema web y móvil de participación para ~50,000 usuarios con múltiples canales (web, móvil, WhatsApp), procesamiento con IA, reportes de inteligencia colectiva y seguimiento al ciudadano. El componente más ambicioso del proyecto.
 - **Sistema de Agentes de IA públicos** — agentes conversacionales conectados a bases de datos oficiales.
 - **Arquitectura técnica y de datos** — infraestructura cloud, seguridad, integración institucional.
 - **Dashboard de inteligencia colectiva** — visualización para la Secretaría y el CONSEQRO.
 
 **3 productos nuevos ($6M + IVA)** — surgieron de los talleres, el CONSEQRO y lo que definimos el 19 de febrero:
-- **Agente Toño** — tu herramienta de inteligencia ejecutiva: reportes automáticos, fichas por municipio, indicadores, resúmenes de prensa.
+- **Agente Toño** — tu herramienta de inteligencia colectiva: reportes automáticos, fichas por municipio, indicadores, resúmenes de prensa.
 - **Caso ejecutivo para el Gobernador** — demostración estratégica con datos reales del valor del SIC.
 - **Procesamiento de IA del Plan QRO 2050** — toda la información existente procesada para la actualización del Plan. Herramienta de planeación para Sergio.
 

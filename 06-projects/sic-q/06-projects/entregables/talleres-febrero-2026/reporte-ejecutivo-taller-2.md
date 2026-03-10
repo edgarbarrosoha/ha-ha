@@ -13,7 +13,7 @@
 | **431** ideas capturadas | **248** actores mapeados |
 | **136** conexiones entre actores | **5** patrones transversales detectados |
 
-En 3.5 horas, 38 queretanos construyeron un mapa del Querétaro que quieren — y del que tienen. Cada idea fue escrita a mano, fotografiada y procesada por inteligencia artificial en tiempo real. Al final del taller, un agente de IA sintetizó las voces del grupo en vivo. No se perdió una sola palabra.
+En 3.5 horas, 38 queretanos construyeron un mapa del Querétaro que quieren — y del que tienen. Cada idea fue escrita a mano, fotografiada y procesada por inteligencia artificial. Al final del taller, un agente de IA sintetizó las voces del grupo en vivo. No se perdió una sola palabra.
 
 ---
 
@@ -55,9 +55,9 @@ Imagina que cada idea que alguien comparte — en un taller como este, por Whats
 | Las ideas ciudadanas caen en un buzón que nadie revisa | Cada idea recibe respuesta y seguimiento |
 | Solo participan quienes pueden ir a foros presenciales | Participas desde WhatsApp, web, o presencialmente |
 | Los datos de participación se pierden entre gobiernos | El sistema está protegido por ley para durar 30 años |
-| Las consultas se procesan manualmente (lento, limitado) | La IA procesa miles de voces en tiempo real |
+| Las consultas se procesan manualmente (lento, limitado) | La IA procesa miles de voces de manera automatizada |
 
-**Lo que tú dijiste en este taller ya es parte del SIC-Q.** Las 431 participaciones del 17 de febrero fueron procesadas por el sistema en tiempo real. Cuando el agente de IA habló al final del taller, estaba sintetizando TU voz junto con las de tus 37 compañeros. No fue un ejercicio simbólico — fue el sistema funcionando.
+**Lo que tú dijiste en este taller ya es parte del SIC-Q.** Las 431 participaciones del 17 de febrero fueron procesadas por el sistema. Cuando el agente de IA habló al final del taller, estaba sintetizando TU voz junto con las de tus 37 compañeros. No fue un ejercicio simbólico — fue el sistema funcionando.
 
 ---
 

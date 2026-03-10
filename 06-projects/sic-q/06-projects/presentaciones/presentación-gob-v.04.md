@@ -267,7 +267,7 @@ El SIC-Q responde: *"En 2035 habrá 120,000 hogares con adultos mayores solos. A
 **Escenario 4: Respuesta coordinada a crisis**
 
 Durante una contingencia de agua, el SIC-Q puede:
-- Informar restricciones por zona en tiempo real.
+- Informar restricciones por zona de manera coordinada.
 - Recibir reportes de fugas o desperdicio.
 - Priorizar distribución de pipas según densidad y vulnerabilidad.
 - Proyectar duración de la crisis con datos actualizados.

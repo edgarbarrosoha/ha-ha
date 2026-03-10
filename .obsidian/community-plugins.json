@@ -1,9 +1,9 @@
 [
   "dataview",
   "homepage",
-  "obsidian-git",
   "omnisearch",
   "terminal",
   "timeline-schedule",
-  "widgets"
+  "widgets",
+  "obsidian-git"
 ]

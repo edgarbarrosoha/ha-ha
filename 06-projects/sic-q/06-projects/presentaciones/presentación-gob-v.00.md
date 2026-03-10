@@ -157,7 +157,7 @@ Cada reto de gobierno se analiza a través de **6 dimensiones simultáneas**:
 | Antes de la IA                          | Con SIC-Q + IA                                        |
 | --------------------------------------- | ----------------------------------------------------- |
 | Foros con 50-200 personas               | Miles de ciudadanos vía WhatsApp, web y presencial    |
-| Procesamiento manual de propuestas      | Clustering semántico en tiempo real                   |
+| Procesamiento manual de propuestas      | Clustering semántico automatizado                     |
 | Respuesta limitada por capacidad humana | Respuesta automática y personalizada a cada ciudadano |
 | Documentación fragmentada               | Trazabilidad completa de cada idea                    |
 | Conocimiento en personas                | Sistema institucionalizado con memoria permanente     |
@@ -263,7 +263,7 @@ El SIC-Q no es un sistema cerrado. Es una **plataforma de conexión** que se vue
 > - Informar a ciudadanos sobre restricciones por zona
 > - Recibir reportes de fugas o desperdicio
 > - Priorizar distribución de pipas según densidad poblacional y vulnerabilidad
-> - Proyectar duración de la crisis con datos en tiempo real
+> - Proyectar duración de la crisis con datos actualizados de manera continua
 
 ## La visión: un sistema que conecta todo
 

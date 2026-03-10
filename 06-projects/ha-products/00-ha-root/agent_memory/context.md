@@ -27,7 +27,7 @@
 - **Conceptual challenge:** `03-learning/desafio-conceptual.md`
 - **Legacy files:** `01-legacy/` (vision, 5-min experience)
 - **Previous MARA spec:** `00-ha-root/product-spec.md` (pre-TaaS vision)
-- **MARA implementation subproject:** `06-projects/mara-codex/`
+- **MARA implementation repo:** `/Users/edgarbarroso/Documents/ha-dev/products/mara-codex/`
 
 ---
 

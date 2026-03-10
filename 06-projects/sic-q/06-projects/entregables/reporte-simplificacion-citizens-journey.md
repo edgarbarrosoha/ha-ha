@@ -111,7 +111,7 @@ DESPUÉS (v04):
 1. Co-diseño        — Construir el sistema con ciudadanos
 2. Descubrimiento   — Ciudadano se entera del SIC-Q
 3. Participar       — Llega, elige, actúa (proponer o apoyar)
-4. Seguimiento      — Ve el progreso de su propuesta en tiempo real
+4. Seguimiento      — Ve el progreso de su propuesta de manera continua
 5. Respuesta        — Recibe respuesta del gobierno + invitación a seguir
 
 BACKEND (documento técnico separado):
