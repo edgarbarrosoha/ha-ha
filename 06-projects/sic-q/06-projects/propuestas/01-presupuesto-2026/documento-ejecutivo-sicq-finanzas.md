@@ -33,21 +33,29 @@ Querétaro ya tiene activos extraordinarios: un Plan a 2050, 23 consejos temáti
 
 ## Lo que ya se construyó
 
-Con una inversión de **$3.7M MXN**, el equipo ha entregado más de 30 productos en la etapa de prototipo:
+El equipo ha entregado más de 30 productos en la etapa de prototipo:
 
 | Entregable | Descripción |
 |------------|-------------|
 | **Prototipo navegable del SIC-Q** | Primera versión funcional de la plataforma |
-| **Agente de IA funcional** | Sistema que ya responde preguntas con datos reales del estado |
+| **Primer agente de IA funcional** | Sistema que ya responde preguntas con datos reales del estado |
+| **Presentación para el Gobernador** | Diseñada, pendiente de agendar (mayo) |
+| **Demo de agentes** | Demostración funcional de los agentes de IA |
+| **Visor de mapas** | Visualización geográfica de datos del estado |
+| **App de capacitación para moderadores** | Herramienta para los facilitadores de talleres |
 | **2 talleres de codiseño** | 74 participantes, 778 ideas procesadas, 248 actores mapeados |
 | **Sesión CONSEQRO** | 13 consejeros, 4 demos en vivo del sistema |
-| **Presentación para el Gobernador** | Diseñada, pendiente de agendar (mayo) |
-| **Bases de conocimiento** | Datos curados del estado: INEGI, CONAPO, PED, leyes, voz ciudadana |
 | **5 reportes de inteligencia** | Procesamiento de talleres con IA |
+| **Materiales de ejecución** | Todos los materiales operativos para los ejercicios |
 | **Replanteamiento estratégico** | De "plataforma de participación" a "sistema de inteligencia colectiva" |
-| **Diseño del Instituto del Futuro** | Estructura institucional para la permanencia del sistema |
-| **Benchmarks internacionales** | Análisis de sistemas similares en otros países |
+| **Citizens Journey v.03 y v.04** | Diseño del recorrido del ciudadano en el sistema |
+| **Diseño de proceso en 12 fases** | Arquitectura completa del proceso de participación |
+| **Simulador de costos** | Herramienta para proyectar inversión según escala |
 | **Código de ética** | Marco para el uso responsable de IA en gobierno |
+| **Benchmarks internacionales** | Análisis de sistemas similares en otros países |
+| **Documentos base de conocimientos** | Datos curados del estado: INEGI, CONAPO, PED, leyes, voz ciudadana |
+
+Todo documentado y entregado en las plataformas de HA.
 
 ### Hallazgo clave de los talleres
 
@@ -140,42 +148,59 @@ El sistema empieza con las fuentes disponibles hoy — leyes del estado, voz ciu
 
 ## Dimensión presupuestal
 
-### Inversión realizada
+### Resumen
 
-| Concepto | Monto | Entregables |
-|----------|-------|-------------|
-| Etapa de prototipo | $3.7M MXN | 30+ entregables: prototipo funcional, 2 talleres de codiseño, sesión CONSEQRO, bases de conocimiento, código de ética, benchmarks internacionales |
+| Concepto | Monto |
+|----------|-------|
+| **Contrato original** (plataforma ciudadana, agentes públicos, arquitectura, dashboard) | ~$8.6M + IVA |
+| **3 productos nuevos** (agente secretario, caso gobernador, Plan QRO 2050) | $6M + IVA |
+| **Proyecto completo** | **$16M + IVA** |
+| Cloud (costo operativo anual, aparte) | $600K a $5M según escala |
 
-### Inversión requerida para 2026
+---
 
-| Concepto | Monto | Resultado esperado |
-|----------|-------|--------------------|
-| 3 frentes operativos | $6M + IVA | Agentes de inteligencia para Secretario, Gobernador y Plan QRO 2050 — operando en 4 meses |
-| Arquitectura + agentes públicos + dashboard | ~$5.3M + IVA | Infraestructura escalable a todas las secretarías |
-| Plataforma ciudadana | ~$3.3M + IVA | Canales de participación: web, móvil, WhatsApp — ~50,000 usuarios |
-| **Total proyecto completo** | **$16M + IVA** | Sistema completo de inteligencia colectiva para el Gobierno del Estado |
+### Del contrato original (~$8.6M + IVA)
 
-### Costo operativo de infraestructura cloud (anual, adicional)
+Lo que estaba contemplado desde el inicio del proyecto:
+
+| Componente | Descripción |
+|------------|-------------|
+| **Plataforma de Orquestación Ciudadana** | Sistema web y móvil de participación para ~50,000 usuarios con múltiples canales (web, móvil, WhatsApp), procesamiento con IA, reportes de inteligencia colectiva y seguimiento al ciudadano. El componente más ambicioso del proyecto. |
+| **Sistema de Agentes de IA públicos** | Agentes conversacionales conectados a bases de datos oficiales del estado |
+| **Arquitectura técnica y de datos** | Infraestructura cloud, seguridad, integración institucional |
+| **Dashboard de inteligencia colectiva** | Visualización para la Secretaría y el CONSEQRO |
+
+### 3 productos nuevos ($6M + IVA)
+
+Surgieron de los talleres, el CONSEQRO y las sesiones de trabajo del 19 de febrero. No estaban incluidos en el contrato original — no es un incremento arbitrario, es lo que se necesita para generar impacto este año:
+
+| Producto | Descripción |
+|----------|-------------|
+| **Agente para el Secretario (Toño)** | Herramienta de inteligencia colectiva: reportes automáticos, fichas por municipio, indicadores, resúmenes de prensa |
+| **Caso ejecutivo para el Gobernador** | Demostración estratégica con datos reales del valor del SIC — el sistema vive en el teléfono del Gobernador |
+| **Procesamiento de IA del Plan QRO 2050** | Toda la información existente procesada para la actualización del Plan. Herramienta de planeación para Sergio Ibarra: control de cambios con trazabilidad ciudadana |
+
+### Infraestructura cloud (costo operativo anual, aparte)
+
+Aparte del desarrollo, el sistema necesita infraestructura de nube para operar. El costo escala según la cantidad de usuarios:
 
 | Escala | Usuarios | Costo anual |
 |--------|----------|-------------|
-| Piloto | ~500 (gobierno, consejos) | $600K |
-| Operación estándar | ~5,000–10,000 | $1.5M |
-| Escala completa | ~50,000 (todos los canales) | $5M |
+| Piloto | ~500 (gobierno, consejos, equipo cercano) | $600K |
+| Operación estándar | ~5,000–10,000 (gobierno + ciudadanos activos) | $1.5M |
+| Escala completa | ~50,000 (todos los canales ciudadanos abiertos) | $5M |
 
-El costo de cloud escala proporcionalmente al uso. Se comienza con el piloto y se amplía conforme se incorporan secretarías.
+Se comienza con el piloto y se amplía conforme se incorporan secretarías y canales ciudadanos.
 
 ### Escenarios de inversión
 
-Los 3 escenarios permiten ajustar el alcance sin sacrificar los productos de mayor impacto inmediato:
-
 | Escenario | Monto | Qué incluye | Qué queda fuera |
 |-----------|-------|-------------|-----------------|
-| **Completo** | $16M + IVA | Todo: 3 frentes + arquitectura + plataforma ciudadana | Nada |
-| **Sin plataforma ciudadana** | $13M + IVA | 3 frentes + agentes públicos + arquitectura + dashboard | Canales ciudadanos (fase posterior) |
+| **Completo** | $16M + IVA | Todo: 3 frentes + contrato original completo | Nada |
+| **Sin plataforma ciudadana** | $13M + IVA | 3 frentes + agentes públicos + arquitectura técnica + dashboard | Plataforma de Orquestación Ciudadana (el componente de mayor inversión y mayor tiempo) |
 | **Mínimo viable** | $10M + IVA | 3 frentes + arquitectura básica | Plataforma ciudadana + agentes públicos + dashboard |
 
-**En cualquier escenario, los 3 frentes operativos van.** Son los productos de mayor impacto con el menor tiempo de entrega. Lo que se ajusta es la plataforma ciudadana — el componente de mayor inversión y mayor tiempo de desarrollo.
+**En cualquier escenario, los 3 frentes operativos van** — el agente del Secretario, el caso ejecutivo del Gobernador, y la herramienta de planeación del Plan QRO 2050. Lo que se ajusta es la plataforma ciudadana: el componente que más recursos requiere, pero que puede esperar mientras los 3 frentes ya generan valor.
 
 ---
 
@@ -222,6 +247,6 @@ El SIC-Q es la pieza que conecta todo esto y lo hace accionable.
 
 Incorporar el SIC-Q como **infraestructura formal del Gobierno del Estado**. No es un proyecto aislado ni un gasto temporal — es una inversión en la capacidad del gobierno para tomar mejores decisiones con la información que ya genera.
 
-La Secretaría de Planeación ya validó el concepto con $3.7M en prototipo y 30+ entregables. Los talleres ciudadanos confirmaron la demanda de manera espontánea. El CONSEQRO lo evaluó con demos en vivo. Los 3 frentes están listos para operar y entregar resultados en 4 meses.
+La Secretaría de Planeación ya validó el concepto con más de 30 entregables en etapa de prototipo. Los talleres ciudadanos confirmaron la demanda de manera espontánea. El CONSEQRO lo evaluó con demos en vivo. Los 3 frentes están listos para operar y entregar resultados en 4 meses.
 
 Querétaro tiene la oportunidad de ser pionero en un modelo de gobernanza inteligente que otros estados querrán replicar. Lo que se necesita es la decisión presupuestal para escalar.

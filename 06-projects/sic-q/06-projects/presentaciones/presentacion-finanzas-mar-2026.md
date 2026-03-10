@@ -61,7 +61,7 @@ Resultado: **inteligencia procesada, disponible en el teléfono del funcionario*
 | Mar 2026 | 3 bases de conocimiento en construcción (Gobernador, Secretario, Planeación) |
 | Mar 2026 | Leyes del estado cargadas al sistema |
 
-**Inversión a la fecha:** $3.7M MXN → 30+ entregables
+**30+ entregables a la fecha:** prototipo navegable, primer agente de IA funcional, presentación para el Gobernador, demo de agentes, visor de mapas, app de capacitación para moderadores, 2 talleres de codiseño, sesión CONSEQRO, 5 reportes de inteligencia, Citizens Journey, diseño de proceso en 12 fases, simulador de costos, código de ética, benchmarks internacionales, documentos base de conocimientos.
 
 **Hallazgo de los talleres:** 11 de 12 mesas pidieron espontáneamente lo que el SIC-Q propone — sin que se les mencionara el proyecto.
 
@@ -162,30 +162,31 @@ Resultado: **inteligencia procesada, disponible en el teléfono del funcionario*
 
 ## LÁMINA 9 — Presupuesto
 
-### Inversión requerida
+### Inversión total: $16M + IVA
 
 | Concepto | Monto |
 |----------|-------|
-| Ya pagado (prototipo, 30+ entregables) | $3.7M |
-| **3 frentes operativos** (agente secretario + caso gobernador + Plan QRO 2050) | **$6M + IVA** |
-| Plataforma ciudadana + agentes públicos + arquitectura + dashboard | ~$8.6M + IVA |
-| **Total completo** | **$16M + IVA** |
+| Contrato original (plataforma ciudadana, agentes públicos, arquitectura, dashboard) | ~$8.6M + IVA |
+| **3 productos nuevos** (agente secretario + caso gobernador + Plan QRO 2050) | **$6M + IVA** |
+| **Total proyecto completo** | **$16M + IVA** |
 
-### Escenarios
+**Los 3 productos nuevos** surgieron de los talleres y el CONSEQRO — no estaban en el contrato original. No es un incremento arbitrario: es lo que se necesita para generar impacto este año.
 
-| Escenario | Inversión | Qué incluye |
-|-----------|-----------|-------------|
-| **Completo** | $16M + IVA | Todo: 3 frentes + plataforma ciudadana + agentes públicos |
-| **Sin plataforma ciudadana** | $13M + IVA | 3 frentes + agentes públicos + arquitectura + dashboard |
-| **Mínimo viable** | $10M + IVA | 3 frentes + arquitectura básica |
+### Escenarios de ajuste
 
-**En los 3 escenarios, los 3 frentes van.** Lo que se ajusta es la plataforma ciudadana (mayor inversión, mayor tiempo).
+| Escenario | Inversión | Qué incluye | Qué queda fuera |
+|-----------|-----------|-------------|-----------------|
+| **Completo** | $16M + IVA | Todo: 3 frentes + contrato original completo | Nada |
+| **Sin plataforma ciudadana** | $13M + IVA | 3 frentes + agentes públicos + arquitectura + dashboard | Plataforma de Orquestación Ciudadana |
+| **Mínimo viable** | $10M + IVA | 3 frentes + arquitectura básica | Plataforma + agentes públicos + dashboard |
 
-### Cloud (costo operativo anual, aparte)
+**En los 3 escenarios, los 3 frentes van.** Lo que se ajusta es la plataforma ciudadana — el componente de mayor inversión y mayor tiempo, pero que puede esperar mientras los 3 frentes ya generan valor.
 
-- Piloto (500 usuarios): $600K/año
-- Operación estándar (5,000–10,000 usuarios): $1.5M/año
-- Escala completa (50,000 usuarios): $5M/año
+### Cloud (costo operativo anual, aparte del desarrollo)
+
+- Piloto (~500 usuarios: gobierno, consejos): $600K/año
+- Operación estándar (~5,000–10,000 usuarios): $1.5M/año
+- Escala completa (~50,000 usuarios: todos los canales): $5M/año
 
 ---
 
@@ -245,7 +246,7 @@ Resultado: **inteligencia procesada, disponible en el teléfono del funcionario*
 
 ### Incorporar el SIC-Q como infraestructura del Gobierno del Estado
 
-- **Mínimo necesario para arrancar los 3 frentes:** $6M + IVA (sobre los $3.7M ya invertidos)
+- **Mínimo necesario para arrancar los 3 frentes:** $6M + IVA
 - **Proyecto completo con plataforma ciudadana:** $16M + IVA
 - **Timeline de resultados:** primeros productos operando en 4 meses
 
