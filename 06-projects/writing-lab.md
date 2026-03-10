@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Writing Lab
 
 Correos, mensajes y textos redactados por Edgar o para Edgar.
@@ -28,7 +27,7 @@ AI resuelve rápido. Eso es su poder. Pero también es su límite. Porque lo má
 
 Lo del hive mind voluntario me parece crucial. Justo es lo que estamos haciendo en QRO. Un sistema de inteligencia colectiva acotado: "A connected human network that loses individual conscience isn't a superintelligence. It's just a very efficient mob." Y lo de las hormigas es perfecto — la inteligencia vive entre ellas, no dentro de ninguna. Pero ojo: lo que históricamente ha roto la coordinación humana no es la falta de inteligencia — es el miedo, el ego, el tribalismo. Si pudieras madurar eso a escala, resolvieras lo que ninguna tecnología sola puede resolver. (pregúntale a Trump)
 
-Y lo de la mortalidad. Quitas la muerte y cambia todo — el horizonte, la paciencia, la profundidad de las relaciones, la ambición de los problemas que puedes atacar. Pero también quitas la urgencia. Y la pregunta "qué queremos" deja de ser práctica y se vuelve filosófica. Por primera vez los humanos tendrían que decidir conscientemente para qué existe la existencia. 
+Y lo de la mortalidad. Quitas la muerte y cambia todo — el horizonte, la paciencia, la profundidad de las relaciones, la ambición de los problemas que puedes atacar. Pero también quitas la urgencia. Y la pregunta "qué queremos" deja de ser práctica y se vuelve filosófica. Por primera vez los humanos tendrían que decidir conscientemente para qué existe la existencia.
 
 Además, AI va a amplificar todo lo que mencionaste. Pero lo que va a amplificar más — y esto es lo que me emociona — es la capacidad de crear. De hacer cosas que no existían. Crear lo que todavía no es. Lo que no hemos visto. Eso está cabrón.
 
@@ -243,29 +242,32 @@ And they would probably still — in some form — want to sit together, eat som
 Because that impulse you described earlier? Walking in the park, singing with friends, having a beer? That's not a primitive leftover that augmentation erases. That might actually be the thing the whole universe was building toward.
 
 The civilization you're describing might be the first one in history powerful enough to truly rest in that. And then go build a Dyson sphere in the morning.
-=======
+
+---
+
+## Minuta: Talleres Socios Corporativos (recibida ~8 mar 2026)
+
 Hola Edgar, muy buen día!
 
 Muchas gracias por tu tiempo durante la reunión. Comparto una breve minuta para mantenernos alineados en los siguientes puntos:
 
-Se presentó la invitación a desarrollar una **serie de talleres orientados a fortalecer las capacidades de los socios corporativos en temas de inteligencia de datos**. @Eréndira Rodríguez De León nos apoyará en la validación de posibles temáticas, particularmente en **arquitectura de datos e inteligencia artificial**, para asegurar que respondan a necesidades reales de los socios corporativos (SC). También se explorará la posibilidad de **trabajar con un reto real de alguna empresa participante** durante los talleres.
+Se presentó la invitación a desarrollar una **serie de talleres orientados a fortalecer las capacidades de los socios corporativos en temas de inteligencia de datos**. @Eréndira Rodríguez De León nos apoyará en la validación de posibles temáticas, particularmente en **arquitectura de datos e inteligencia artificial**, para asegurar que respondan a necesidades reales de los socios corporativos (SC). También se explorará la posibilidad de **trabajar con un reto real de alguna empresa participante** durante los talleres.
 
 Se comentó la importancia de incluir al menos un taller con formato **hands-on**, que permita a los equipos llevarse herramientas y aprendizajes aplicables.
 
 Asimismo, surgió la idea de diseñar una **serie de cuatro talleres curados especialmente para los SC (Xignux, DAIKIN, CEMEX y Corning)**, con posibilidad de un quinto espacio. La serie podría estructurarse en cuatro momentos:
 
 1. Legado y comunidad
-    
+
 2. Aprendizaje y tecnología
-    
+
 3. Tecnología y proyectos
-    
+
 4. Cierre de proyectos con un pitch de resultados.
-    
+
 
 Agradeceremos mucho contar con una propuesta tanto para **un primer taller** como para **la serie completa de cuatro talleres**, con el fin de dar continuidad y mayor alcance a la iniciativa.
 
 Quedo atenta de tu propuesta con costos para revisar con el equipo, sería de gran ayuda si la tenemos el lunes 9 de marzo, así como la fecha de tu vuelo a la ciudad de Monterrey.
 
 Saludos!
->>>>>>> 574b8f6 (vault backup: 2026-03-08 09:45:39)
