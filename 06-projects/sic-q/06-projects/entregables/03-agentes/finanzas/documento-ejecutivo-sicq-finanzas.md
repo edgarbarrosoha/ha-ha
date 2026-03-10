@@ -31,21 +31,23 @@ El SIC-Q aborda estos tres retos con una sola infraestructura. Es compatible con
 
 ---
 
-## Valor para la Secretaría de Finanzas
+## Valor para el Estado de Querétaro
 
-El SIC-Q es una iniciativa de la Secretaría de Planeación y Participación Ciudadana. La arquitectura de la Fase 1 deja habilitada una primera versión para la Secretaría de Finanzas, sin aumentar el monto total del programa, enfocada en priorización presupuestal, seguimiento y evaluación.
+El SIC-Q fortalece la capacidad del gobierno estatal para coordinar información, tomar decisiones informadas y dar seguimiento a sus compromisos institucionales. Es infraestructura compartida que beneficia al aparato de gobierno en su conjunto.
 
-El sistema es una herramienta de razonamiento que cruza múltiples fuentes, detecta patrones y genera inferencias útiles para la toma de decisiones. Desde la Fase 1, la Secretaría de Finanzas podría contar con:
+1. **Coordinación entre secretarías.** El sistema cruza datos que hoy viven separados en cada dependencia. Un funcionario puede consultar indicadores, marco legal, señales ciudadanas y compromisos pendientes sin coordinar manualmente con otras áreas.
 
-1. **Una vista inicial de inteligencia.** Acceso a cruces de indicadores presupuestales, avance de programas por secretaría, señales ciudadanas y marco legal — habilitada por la misma infraestructura que se construye para los 3 frentes principales.
+2. **Mejor uso de los activos existentes.** Querétaro tiene un Plan a 2050, 23 consejos temáticos, un CONSEQRO con respaldo constitucional y 25 años de crecimiento sostenido. El SIC-Q conecta esos activos y los hace accionables para la toma de decisiones.
 
-2. **Mejor criterio para priorización presupuestal.** El sistema cruza indicadores operativos, compromisos institucionales y señales ciudadanas, lo que permite evaluar con más elementos dónde conviene asignar recursos.
+3. **Modernización de la planeación.** La actualización del Plan QRO 2050 requiere procesar insumos de 18 municipios. El sistema automatiza ese procesamiento y genera control de cambios con trazabilidad ciudadana.
 
-3. **Complemento a la agenda de gobierno digital.** El SIC-Q opera sobre infraestructura en la nube y es compatible con la estrategia de Querétaro Digital. Representa una capa de inteligencia sobre los datos que el gobierno ya genera, sin duplicar sistemas.
+4. **Compatible con la agenda de gobierno digital.** Opera sobre infraestructura en la nube y complementa la estrategia de Querétaro Digital. Representa una capa de inteligencia sobre los datos que el gobierno ya genera, sin duplicar sistemas.
 
-4. **Implementación por etapas con entregables medibles.** Arranca con 3 frentes principales, 3 temas y permisos diferenciados por rol. Cada fase entrega productos concretos antes de ampliar alcance.
+5. **Implementación por etapas con entregables medibles.** Arranca con 3 frentes principales, 3 temas y permisos diferenciados por rol. Cada fase entrega productos concretos antes de ampliar alcance.
 
-En la práctica, la primera versión para la Secretaría de Finanzas no implica construir un sistema paralelo. Es una capa de consulta y síntesis sobre información presupuestal y de seguimiento que el gobierno ya produce o que ya reporta a Planeación. El valor inicial no está en sustituir los procesos formales de control financiero, sino en ordenar mejor la conversación ejecutiva entre presupuesto, avance, indicadores y señales del territorio.
+### Implicaciones para la Secretaría de Finanzas
+
+La arquitectura de la Fase 1 deja habilitada una primera versión para la Secretaría de Finanzas — enfocada en priorización presupuestal, seguimiento y evaluación — sin aumentar el monto total del programa. El detalle operativo de esta vista se describe en la sección de frentes operativos.
 
 ---
 
