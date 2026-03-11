@@ -47,7 +47,7 @@
       "platforms": {
         "darwin": true
       },
-      "pythonExecutable": "/opt/homebrew/bin/python3",
+      "pythonExecutable": "/usr/bin/python3",
       "restoreHistory": false,
       "rightClickAction": "copyPaste",
       "successExitCodes": [

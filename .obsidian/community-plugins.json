@@ -2,8 +2,8 @@
   "dataview",
   "homepage",
   "omnisearch",
-  "terminal",
   "timeline-schedule",
   "widgets",
-  "obsidian-git"
+  "obsidian-git",
+  "terminal"
 ]
