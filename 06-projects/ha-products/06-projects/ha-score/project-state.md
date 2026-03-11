@@ -24,9 +24,9 @@
 
 ## Current Front
 
-- **Deliverable:** Fix descriptions
+- **Deliverable:** Polish titles + visual refinement
 - **Type:** improvement
-- **Context:** Layout is approved. 257 nodes render correctly. But many descriptions are "too short and make no sense" (Edgar, S53). Need contextual generation from file paths, content previews, or metadata. This is the blocker before the score can be shown to others.
+- **Context:** Hour-level granularity done. 525 nodes with chaotic scatter + collision avoidance. Full graph (vault chains + dimension chains). Titles improved with project labels and path context. Edgar: "Better, can be improved." Next: make titles more meaningful, possibly by reading file content.
 
 ## Queue
 
@@ -45,3 +45,4 @@
 |------|----------------|-------|
 | 2026-03-06 | v1 complete | 6 iterations: v1 curated -> v5 distribution -> v6 rejected -> final merge |
 | 2026-03-07 | HA-ize complete | Full 6-dimension project structure |
+| 2026-03-11 | Hour-level + graph | Elastic time, chaotic scatter, collision avoidance, vault+dim chains, meaningful titles |
