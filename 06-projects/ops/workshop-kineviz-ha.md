@@ -11,18 +11,193 @@
 | **Participants** | Kineviz team (Sony Green, Weidong Yang, Wei, + team) |
 | **Format** | Online, 60 minutes |
 | **Facilitator** | Edgar Barroso |
-| **Tools** | GraphXR (shared screen, participants can co-navigate), slides (minimal), shared doc for Part 4 |
+| **Tools** | GraphXR (shared screen, participants can co-navigate), shared doc for discussion |
 
 ---
 
-## Learning objectives
+## Design principle
 
-By the end of this workshop, participants will be able to:
+Examples first. Theory emerges from what they've already seen. By the time HA is named formally, they've watched it rendered five different ways. Each example is a different renderization of the same structure: graph, agents, narrative, file system, academic discipline. The audience should arrive at the theory themselves — "ah, it's the same thing every time."
 
-1. Describe how a 6-dimension structure was used to coordinate 22,000+ people in a state government program
-2. Identify the multiple instantiations of the same structure (data structure, knowledge graph, consulting methodology, agentic federation, teaching tool, discipline, etc.)
-3. Explore a real government dataset in GraphXR organized by the HA ontology
-4. Assess where HA's dimensional structure could apply to Kineviz's own work and products
+---
+
+## Workshop flow
+
+### Part 1: Opening
+**[0:00–0:03] 3 min**
+
+Edgar introduces himself as a composer. Acknowledges shared background: Weidong (dancer/physicist), Sony (sculptor), Edgar (composer). Everyone arrived at graphs from art.
+
+> *"Ideas are software. The question is what notation system you write them in. I'm going to show you five things we built with the same notation — and then I'll show you the notation."*
+
+---
+
+### Part 2: Five renderizations
+**[0:03–0:39] 36 min**
+
+Each example is a different renderization of the same structure. No theory yet — just the thing itself. The pattern becomes visible through repetition. By the end, they should be thinking: "it's the same thing every time."
+
+| # | Example | Renderization |
+|---|---------|---------------|
+| 1 | Guanajuato | Knowledge graph + consultation methodology |
+| 2 | Querétaro | Agentic federation |
+| 3 | Aura + Campus Vision | Reading protocol for qualitative data |
+| 4 | Obsidian vaults | Knowledge infrastructure |
+| 5 | Melissa's thesis | Academic discipline |
+
+---
+
+#### Example 1: Guanajuato — 22,000 people, one structure
+**[0:03–0:18] 15 min**
+**Renderization: HA as knowledge graph + consultation methodology**
+
+| | |
+|---|---|
+| **Format** | Narration + GraphXR visualization of GTO data |
+| **What they see** | How HA structured a massive civic participation process — and what it looks like as a graph |
+
+**The story:**
+
+New governor in Guanajuato — first woman governor in the state's history. Government program for 6 million people. 22,000+ participants. 8,612 proposals. 520 projects. The question: how do you coordinate that scale into a coherent plan?
+
+The answer was a dimensional structure: 6 strategic axes organized everything — proposals, actors, municipalities, institutions. Every proposal had a place. Every gap was visible. People who never met each other produced connected ideas because they were working inside the same architecture.
+
+**Show the GraphXR visualization** of the GTO data. Don't explain GraphXR — they built it. Just show how the data is organized: nodes by type (proposals, projects, participants, municipalities, axes), edges by relationship. Let them see the structure. Let them ask questions about what they're seeing.
+
+**Key points while navigating:**
+- Cross-axis connections that a document can't show
+- Structural gaps visible as sparse regions
+- The funnel: 8,612 → 520. What was selected, what was left out.
+- Different participation channels producing different kinds of proposals
+
+**Close:**
+> *"This program governs Guanajuato right now. The structure held the scale."*
+
+---
+
+#### Example 2: Querétaro — Chat for the Governor
+**[0:18–0:25] 7 min**
+**Renderization: HA as agentic federation**
+
+| | |
+|---|---|
+| **Format** | Screen share + narration |
+| **What they see** | Same structure, but now each dimension is an AI agent |
+
+Querétaro asked: can we turn this into a system the governor can talk to?
+
+- Same 6 dimensions — but each one is now held by an AI agent
+- 74 participants, 778 ideas, structured across the same dimensions
+- The agents reason: Finance cross-references budget with community proposals. Context monitors external signals.
+- The governor chats with the system. It responds from the relevant dimension.
+
+**Key point:** In Guanajuato the structure organized 22,000 humans. In Querétaro it organizes AI agents. Same notation — different renderization.
+
+---
+
+#### Example 3: Aura + Campus Vision
+**[0:25–0:30] 5 min**
+**Renderization: HA as reading protocol for qualitative data**
+
+| | |
+|---|---|
+| **Format** | Narration + visual (if available) |
+| **What they see** | 27 interviews become a coherent narrative through the same structure |
+
+Tec de Monterrey asked: what should this campus become in 2030? 27 interviews — leadership, directors, students, board members. Every interview mapped to the same 6 dimensions. The structure revealed what no single interview could: where the campus converges, where it contradicts itself, where the gaps are.
+
+Output: a narrative called "Colaboración Sistémica" — three transformative bets. The rector presented it. It landed.
+
+**Key point:** 27 different voices, one coherent architecture. Same notation — rendered as narrative.
+
+---
+
+#### Example 4: Obsidian vaults — the structure as a file system
+**[0:30–0:35] 5 min**
+**Renderization: HA as knowledge infrastructure**
+
+| | |
+|---|---|
+| **Format** | Screen share of vault structure |
+| **What they see** | The same 6 dimensions are literal folders, files, and coordination logic |
+
+Show the Obsidian vault:
+- `00-root / 01-legacy / 02-community / 03-learning / 04-technology / 05-context / 06-projects`
+- Same structure in Notion for client-facing work
+- Same structure in the SIC-Q project for Querétaro government
+- Same structure used by HA team members in the US (sovereign nodes, same schema)
+
+**Key point:** The notation is the file system. A vault in Mexico and a vault in the US share the same grammar. Same notation — rendered as infrastructure.
+
+---
+
+#### Example 5: Notation — Melissa's thesis
+**[0:35–0:39] 4 min**
+**Renderization: HA as academic discipline**
+
+| | |
+|---|---|
+| **Format** | Brief narration |
+| **What they see** | Someone used the structure independently, in a context the creators never designed for |
+
+A student at Tec de Monterrey used the 6 dimensions to structure her thesis. Nobody told her to. She took the notation and applied it to her own research problem.
+
+**Key point:** When a structure works in the hands of strangers, in contexts its creators never anticipated — it stops being a framework and becomes a discipline. Same notation — rendered as academic method.
+
+---
+
+### Part 3: The notation — naming what they already saw
+**[0:39–0:47] 8 min**
+
+> *"You saw a graph, an agent system, a narrative, a file system, and a thesis. Same thing every time. Now I'll name it."*
+
+**The axioms:**
+1. Six dimensions are always present (Legacy, Community, Learning, Technology, Context, Projects)
+2. Time is always non-linear and explicit (past–present–future as a living classification)
+3. The structure is fractal (every node contains the same 6 dimensions inside)
+
+**Generative Agentic Ontology (GAO):** Each dimension can generate specialized AI agents. The structure isn't just a map — it's a generative system.
+
+**One sentence:** HA uses axioms not to define truth, but to define orientation — so humans and machines can think, act, and scale together without losing coherence.
+
+**The philosophical stakes** (the punch):
+- HA is a discipline, not a product. A discipline requires a philosophy.
+- We need to resist the idea that LLMs will do everything.
+- Thought should be available to anyone, always.
+- The industry focuses on model capabilities. Not enough on people.
+- Preparing people for a world with AI is not — only — prompting.
+
+---
+
+### Part 4: What this means for Kineviz
+**[0:47–0:57] 10 min**
+
+| | |
+|---|---|
+| **Format** | Collaborative discussion. Shared doc open for notes. |
+
+**Frame** (1 min):
+
+GraphXR makes graphs visible. But interpretation — deciding what the graph *means* — happens unstructured in the user's head. HA provides a reading protocol: Legacy tells you why a cluster matters, Community tells you who's missing, Learning reveals knowledge gaps, Technology shows infrastructure dependencies, Context flags which edges are about to break, Projects tells you what to do next.
+
+**Discussion** (9 min). Pick 2-3 based on energy:
+
+1. *"Could the 6-dimension ontology work as a schema layer inside GraphXR?"*
+2. *"If a GraphXR user could filter any dataset by these 6 dimensions — would that change how they work?"*
+3. *"What does a graph of thinking look like? Can navigating a complex system be an aesthetic experience?"*
+4. *"HA federates sovereign graphs — each node keeps its own data, shares only patterns. Is that a use case GraphXR could serve?"*
+5. *"If you could build a tool that trains people to think in 6 dimensions by navigating graphs — what would you build?"*
+
+---
+
+### Close
+**[0:57–1:00] 3 min**
+
+Thank them for the GraphXR licenses. Share the HA one-pager.
+
+> *"This is the beginning of a conversation, not the end of a presentation."*
+
+**Next steps:** If interest — deeper technical session, joint experiment with Guanajuato data, or keep talking.
 
 ---
 
@@ -30,213 +205,20 @@ By the end of this workshop, participants will be able to:
 
 | Material | Format | Status |
 |----------|--------|--------|
-| Guanajuato dataset for GraphXR | CSV/JSON (nodes: participants, proposals, projects, axes, municipalities; edges: participant→proposal, proposal→axis, participant→municipality) | [ ] To build |
-| HA fractal structure visual | GraphXR project or static diagram | [ ] To build |
-| Instantiation table (1 slide) | Screen share | [ ] Ready (in this doc) |
-| Shared doc for Part 4 | Google Doc or Miro | [ ] To create |
+| GTO data in GraphXR | GraphXR project (existing visualization) | [ ] To prepare |
+| QRO / SIC-Q screenshots | Screen share | [ ] To prepare |
+| Campus Vision visual | Slide or screenshot | [ ] To prepare |
+| Obsidian vault screen share | Live | [x] Ready |
+| Shared doc for discussion | Google Doc or Miro | [ ] To create |
 | HA one-pager | PDF, shared after workshop | [ ] To prepare |
+| Calendar invite | 60 min | [ ] To send |
 
 ---
-
-## Workshop flow
-
-### Part 1: Opening
-**[0:00–0:05] 5 min**
-
-| | |
-|---|---|
-| **Format** | Facilitator introduction |
-| **Facilitator** | Edgar introduces himself as a composer. Acknowledges shared background: Weidong (dancer/physicist), Sony (sculptor), Edgar (composer). Everyone arrived at graphs from art. |
-| **Key message** | The industry spends enormous energy training AI. Almost nobody is working on training humans for a world where AI is already here. Prompting, automation, workflow — that's the current answer. Life is much more than that. HA is a different approach: a notation system that trains the human side of the human-AI partnership. |
-| **Transition** | *"Let me show you what that looks like. In 2024, we were asked to help design the government program for the state of Guanajuato in Mexico — a plan that would shape how 6 million people are governed for 6 years. 22,000 people participated. I'm going to show you the result in GraphXR."* |
-
----
-
-### Part 2: The case — Programa de Gobierno de Guanajuato (GraphXR demo)
-**[0:05–0:25] 20 min**
-
-| | |
-|---|---|
-| **Format** | Live GraphXR exploration + narration |
-| **Facilitator** | Opens GraphXR with Guanajuato dataset. Tells the story through the graph. |
-| **Participants** | Watch, ask questions, point out graph properties. They're the experts on the tool. |
-
-**Story arc (told through the graph):**
-
-**1. The problem** (2 min, before opening GraphXR)
-
-A new governor takes office in Guanajuato, Mexico — first woman governor in the state's history. She needs a government program: a plan that defines what the state will do for the next 6 years across every area — security, education, health, economy, environment, social equity.
-
-The coordination problem: how do you design a coherent plan that covers everything a government does, reflects what 6 million citizens actually need, and can be executed by dozens of agencies that don't share a language?
-
-The traditional approach: a small team writes a document, validates it with experts, publishes it. Guanajuato did something different: 22,000+ people participated in shaping the program through expert working groups, citizen assemblies in 34 municipalities, sector meetings, digital platforms, and community visits.
-
-8,612 proposals came in. 520 specific projects were identified. 230+ experts contributed. The question became: how do you read 8,612 proposals and turn them into a coherent structure?
-
-**2. Open the graph** (3 min)
-
-Show the full Guanajuato graph. Name the node types:
-- Proposals (8,612)
-- Projects (520)
-- Participants (sample from 22,000+)
-- Municipalities (34+)
-- Strategic axes (6)
-- Institutions / agencies
-
-Name the edge types:
-- Participant → submitted → Proposal
-- Proposal → classified in → Axis
-- Proposal → became → Project
-- Participant → from → Municipality
-- Institution → responsible for → Project
-
-**3. Filter by axis** (5 min)
-
-The program produced 6 strategic axes. Walk through each one, filtering the graph:
-
-| Axis | Filter action | What the graph shows |
-|------|--------------|---------------------|
-| Tranquilidad (Security) | Highlight all proposals and projects in this axis | Density of proposals around security, crime prevention, mental health. Which municipalities contributed most. Which institutions are responsible. |
-| Igualdad (Equality) | Filter nodes connected to this axis | Proposals about women's rights, Indigenous communities, disability, LGBTQ+. Cross-connections to education and economy. |
-| Confianza (Trust) | Filter | Anti-corruption, transparency, digital government. Show how these proposals connect to actors across multiple municipalities. |
-| Educación, Cultura y Deporte | Filter | Education proposals linked to cultural institutions. Soft skills, sports, integral development. |
-| Prosperidad (Prosperity) | Filter | Economic development, tourism, innovation. Which municipalities are industrial, which are agricultural. Different needs, same axis. |
-| Armonía (Harmony) | Filter | Sustainable development, water security, urban planning. Environmental proposals with cross-axis connections to prosperity and education. |
-
-**4. Show clusters, gaps, cross-connections** (5 min)
-- Proposals from different municipalities landing in the same axis — people who never met each other producing connected ideas
-- Municipalities with high participation vs. underrepresented ones — structural gaps visible as sparse regions in the graph
-- Cross-axis connections: a proposal classified under Education that depends on infrastructure from Prosperity and actors from Equality. The graph shows the interdependency that a document can't.
-- Proposals that became projects (520 out of 8,612) — show the funnel. What was selected, what was left out, and why.
-
-**5. Layer by participation channel** (3 min)
-Filter by how proposals arrived: expert groups, citizen assemblies, digital platform, community visits. Show how different channels produced different kinds of proposals, connected to different axes and regions.
-
-**Discussion prompt** (2 min):
-*"You're the graph experts. What do you see in this data that I'm not seeing?"*
-
-**Key point to close:**
-This program was delivered. It governs Guanajuato right now. 22,000 people contributed to a coherent structure because they all worked inside the same dimensional framework. The structure held the scale. And every element — every proposal, every actor, every project — is a node in the graph you're looking at.
-
----
-
-### Part 3: What HA is — same structure, many instantiations
-**[0:25–0:40] 15 min**
-
-| | |
-|---|---|
-| **Format** | Presentation (schematic) + discussion |
-| **Facilitator** | Explains the architecture, walks through the instantiation table. |
-| **Participants** | Listen, then respond to discussion prompt. |
-
-**The notation analogy.** Musical staff: 5 fixed lines. All Western music written on them, from Bach to Björk. Lines don't change. What you write on them changes. HA: 6 fixed dimensions, 2 axes (simultaneous complexity × non-linear time). Fractal — zoom into any node, same 6 dimensions inside. Self-similar at every depth.
-
-**The 6 dimensions:**
-
-| Dimension | Question |
-|-----------|----------|
-| Legacy | What do we want to outlast us? |
-| Community | Who participates and who cares? |
-| Learning | What do we need to learn? |
-| Technology | What infrastructure holds it up? |
-| Context | What external forces shape it? |
-| Projects | How do we operate? |
-
-In Guanajuato, the 6 strategic axes of the program were the content. The 6 HA dimensions were the methodology used to produce it — the structure that allowed 22,000 people, 230 experts, and AI agents to coordinate across 34 municipalities and produce 520 projects.
-
-**The same structure, instantiated differently:**
-
-| HA as... | What it means | Example |
-|----------|---------------|---------|
-| Thinking environment | Individual navigates 6 dimensions to read their own complexity | Founder mapping a decision across 6 dimensions instead of collapsing into the 1-2 that feel most urgent |
-| Data structure | 6 node categories, weighted directed edges, queryable | "Show me everything in Learning connected to this actor in Community" — what you just saw in GraphXR |
-| Knowledge graph | Fixed ontology makes graphs from different domains structurally comparable | Guanajuato's government graph and a university campus graph share the same schema |
-| Consulting methodology | Map 6 dimensions with stakeholders before activating any technology | Guanajuato: first question was Legacy — "What should this state become?" Incompatible answers surfaced. The real work began there |
-| Teaching tool | Students apply 6 dimensions to their own research, ventures, decisions | Tec de Monterrey: student maps thesis — Community shapes Learning shapes Technology |
-| Workshop methodology | 6 questions as shared protocol for groups. Each question opens a dimension, generates data | Guanajuato: 22,000 people, same structure, coherent program emerged from massive input |
-| Agentic federation | Each dimension held by an AI agent. Organizations run own instances. Patterns shared, data sovereign | Legacy agent tracks purpose drift. Community agent maps missing voices. Each node sovereign |
-| System thinking framework | 2 axes + 6 dimensions = coordinate space for any endeavor | Past, present, future — all active in every decision |
-| Discipline | Works in the hands of strangers, in contexts creators never anticipated | Practitioners apply 6 dimensions without guidance to unforeseen domains |
-
-**Discussion prompt** (3 min):
-*"Which of these instantiations is closest to what you do at Kineviz? Which one surprised you?"*
-
----
-
-### Part 4: What this means for Kineviz
-**[0:40–0:57] 17 min**
-
-| | |
-|---|---|
-| **Format** | Collaborative discussion. Shared doc open for notes. |
-| **Facilitator** | Frames the question, then guides conversation. |
-| **Participants** | React, propose, challenge. |
-
-**Frame** (2 min):
-
-GraphXR makes graphs visible. Interpretation — deciding what the graph means, which relationships matter, which are noise — happens unstructured inside the user's head. HA provides a reading protocol for graphs:
-
-| Dimension | What it tells the user about a graph |
-|-----------|--------------------------------------|
-| Legacy | Why a cluster matters |
-| Community | Who's missing from a network |
-| Learning | What knowledge gaps the graph reveals |
-| Technology | What infrastructure the graph depends on |
-| Context | Which edges are about to break |
-| Projects | What to do next |
-
-The AI industry is converging on agents and data. The missing layer between them is structure — what tells agents what to attend to and tells humans what the data means. That layer is notation. That layer is abstraction. Musical notation outlived every instrument that ever played it. The abstraction layer will outlast the compute.
-
-**Open discussion** (15 min):
-
-Guiding questions (pick 2-3 based on energy):
-
-1. *"Could the 6-dimension ontology work as a schema layer inside GraphXR? What would that look like technically?"*
-2. *"You just saw 8,612 proposals visualized as a graph. If a GraphXR user could filter any dataset by these 6 dimensions — would that change how they work?"*
-3. *"What does a graph of thinking look like? Can navigating a complex system be an aesthetic experience?"* (Art of Graph connection)
-4. *"HA federates sovereign graphs — each node keeps its own data, shares only patterns. Is that a use case GraphXR could serve?"*
-5. *"If you could build a tool that trains people to think in 6 dimensions by navigating graphs — what would you build?"*
-
-Capture ideas in shared doc as they emerge.
-
----
-
-### Close
-**[0:57–1:00] 3 min**
-
-| | |
-|---|---|
-| **Facilitator** | Thank them for the GraphXR licenses. Share the HA one-pager. |
-| **Key line** | *"This is the beginning of a conversation, not the end of a presentation."* |
-| **Next steps** | If interest: deeper technical session, joint experiment with Guanajuato data, or keep talking. |
-
----
-
-## Workshop output
-
-By the end, participants have:
-- Seen a real government dataset (22,000+ participants, 8,612 proposals) explored through HA's structure in their own tool
-- A table of 9 instantiations showing how one structure becomes many things
-- A shared doc with ideas for HA × GraphXR possibilities
-- An HA one-pager for reference
-
----
-
-## Preparation checklist
-
-- [ ] **Build Guanajuato dataset for GraphXR.** Nodes: proposals (sample from 8,612), projects (520), participants (representative sample), municipalities (34+), axes (6), institutions. Edges: participant→proposal, proposal→axis, proposal→project, participant→municipality, institution→project. Properties: participation channel, axis, municipality, status (proposal vs project). Format: CSV or JSON for GraphXR import.
-- [ ] **Test GraphXR demo flow.** Open graph → full view → filter by axis → show clusters → show gaps → filter by participation channel. Practice transitions. Target 15 min for the demo.
-- [ ] **HA fractal structure visual.** 6-node graph with zoom into one node showing same 6 nodes inside.
-- [ ] **Instantiation table slide.** One slide, the 9-row table.
-- [ ] **Shared doc for Part 4.** Google Doc or Miro with the 5 guiding questions pre-loaded.
-- [ ] **HA one-pager.** PDF to share after the workshop.
-- [ ] **Calendar invite.** 60 min, include GraphXR project link if sharing access.
 
 ## Tone
 
 - Peer to peer
-- Example first, theory after
-- Neutral — let the structure and the data speak
-- The GraphXR demo is the center of the workshop — they see their own tool used in a new way
+- Examples carry the weight — theory is the label, not the content
+- The workshop is about HA, not about GraphXR. They're the GraphXR experts. GTO visualization is one renderization among five.
 - No selling. Intellectual exchange.
 - Let their questions and graph expertise shape the conversation
