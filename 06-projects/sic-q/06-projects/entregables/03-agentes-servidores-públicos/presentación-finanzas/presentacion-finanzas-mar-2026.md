@@ -2,12 +2,12 @@
 ## Secretaría de Finanzas · Marzo 2026
 
 **Audiencia:** Secretario de Finanzas Gustavo Arturo Leal Maya + Jefe de Gabinete
-**Presentan:** Antonio Rangel + Edgar Barroso
+**Presentan:** Antonio Rangel + Edgar Barroso (demo en vivo)
 **Objetivo:** Autorización del programa SIC-Q por $16M + IVA con ejecución por fases
 
 ---
 
-## Portada
+## LÁMINA 1 — Portada
 
 ### Sistema de Inteligencia Colectiva de Querétaro
 ### SIC-Q
@@ -17,7 +17,7 @@ Marzo 2026
 
 ---
 
-## La oportunidad de Estado
+## LÁMINA 2 — La oportunidad de Estado
 
 ### Querétaro ya tiene los activos. Falta conectarlos.
 
@@ -31,7 +31,25 @@ Marzo 2026
 
 ---
 
-## Qué es el SIC-Q
+## LÁMINA 3 — Lo que ya construimos
+
+### 30+ entregables en etapa de prototipo
+
+| Fecha | Hito |
+|-------|------|
+| 2025 | Decisión de arrancar. Benchmark internacional. Diseño de arquitectura |
+| Ene 2026 | Primer agente de IA funcional. Prototipo navegable |
+| Feb 2026 | 2 talleres de codiseño: 74 participantes, 778 ideas, 248 actores |
+| Feb 2026 | Sesión CONSEQRO: 13 consejeros, 4 demos en vivo |
+| Mar 2026 | 3 bases de conocimiento en construcción. Leyes del estado cargadas |
+
+Entregables a la fecha: prototipo navegable, primer agente de IA funcional, demo de agentes, visor de mapas, app de capacitación para moderadores, 5 reportes de inteligencia, Citizens Journey, diseño de proceso en 12 fases, simulador de costos, código de ética, benchmarks internacionales, documentos base de conocimientos.
+
+**Hallazgo de los talleres:** 11 de 12 mesas pidieron espontáneamente lo que el SIC-Q propone — sin que se les mencionara el proyecto.
+
+---
+
+## LÁMINA 4 — Qué es el SIC-Q
 
 ### Un sistema que cruza fuentes y genera inteligencia procesada para la toma de decisiones
 
@@ -48,7 +66,41 @@ El sistema se despliega en versiones personalizadas con permisos diferenciados p
 
 ---
 
-## Valor para el Estado de Querétaro
+## LÁMINA 5 — Cómo funciona
+
+### Un solo sistema, versiones diferenciadas por rol
+
+```
+                         ┌───────────────────────┐
+                         │   SIC-Q (nube)         │
+                         │   Bases de conocimiento│
+                         │   Agentes de IA        │
+                         │   Marco legal          │
+                         └───────────┬───────────┘
+                                     │
+                    ┌────────────────┼────────────────┐
+                    │                │                │
+                    ▼                ▼                ▼
+             ┌────────────┐  ┌────────────┐  ┌────────────┐
+             │ Gobernador │  │ Secretario │  │ Planeación │
+             │            │  │ (Toño)     │  │ (Sergio)   │
+             │ Phone-first│  │ Desktop +  │  │ Desktop    │
+             │ Briefings  │  │ phone      │  │ Control de │
+             │ Giras      │  │ Consejos   │  │ cambios    │
+             │ Alertas    │  │ PED        │  │ Plan 2050  │
+             └────────────┘  └────────────┘  └────────────┘
+
+                    + Vista inicial para Secretaría de Finanzas
+                      (sobre la misma infraestructura)
+```
+
+Permisos diferenciados por rol. Cada usuario ve solo lo que le corresponde. La información sensible está protegida.
+
+El sistema empieza con datos acotados (3 temas: salud, educación, agua + leyes + voz ciudadana) y crece conforme se incorporan más secretarías y fuentes.
+
+---
+
+## LÁMINA 6 — Valor para el Estado de Querétaro
 
 | Capacidad | Qué habilita |
 |-----------|-------------|
@@ -57,7 +109,7 @@ El sistema se despliega en versiones personalizadas con permisos diferenciados p
 | **Modernización de la planeación** | Procesa insumos de 18 municipios con IA para la actualización del Plan QRO 2050 |
 | **Compatible con Querétaro Digital** | Capa de inteligencia sobre los datos que el gobierno ya genera, sin duplicar sistemas |
 
-**Qué recibe la Secretaría de Finanzas desde Fase 1**
+### Qué recibe la Secretaría de Finanzas desde Fase 1
 
 La misma arquitectura habilita una vista inicial para la Secretaría de Finanzas, sin aumentar el monto total del programa. Opera con información que Planeación ya recibe y con cortes que la Secretaría de Finanzas determine compartir.
 
@@ -67,7 +119,21 @@ La misma arquitectura habilita una vista inicial para la Secretaría de Finanzas
 
 ---
 
-## Demo en vivo
+## LÁMINA 7 — Casos de uso por usuario
+
+| Caso de uso | Qué hace | Quién lo usa |
+|-------------|----------|--------------|
+| **Consulta de datos** | Preguntar cualquier dato del estado en lenguaje natural | Gobernador, Toño, Sergio |
+| **Fichas informativas** | Ficha de gira, ficha de persona (CRM), ficha de reunión | Gobernador, Toño |
+| **Síntesis informativa** | Cruce de datos + ciudadanía + prensa + marco legal sobre un tema | Todos |
+| **Consulta jurídica** | "¿Qué dice la ley sobre...?" cruzado con datos reales | Todos |
+| **Control de cambios** | Trazabilidad de cómo la voz ciudadana modifica el Plan QRO 2050 | Sergio |
+| **Alertas automáticas** | Disonancias entre narrativa oficial y percepción ciudadana | Gobernador, Toño |
+| **Seguimiento presupuestal** | Retraso en ejercicio, indicadores PED, alertas de vencimiento | Finanzas |
+
+---
+
+## LÁMINA 8 — Demo en vivo
 
 ### 5 preguntas preparadas · 5 minutos
 
@@ -89,7 +155,7 @@ La misma arquitectura habilita una vista inicial para la Secretaría de Finanzas
 
 ---
 
-## Programa de inversión: $16M + IVA
+## LÁMINA 9 — Programa de inversión: $16M + IVA
 
 ### Ejecución por fases con entregables verificables
 
@@ -102,9 +168,33 @@ La misma arquitectura habilita una vista inicial para la Secretaría de Finanzas
 
 **Cloud (aparte):** $600K/año en piloto, escala según usuarios hasta $5M/año en operación completa.
 
+### Escenarios de ajuste
+
+| Escenario | Inversión | Qué incluye | Qué queda fuera |
+|-----------|-----------|-------------|-----------------|
+| **Completo** | $16M + IVA | Todo: 3 frentes + contrato original completo | Nada |
+| **Sin plataforma ciudadana** | $13M + IVA | 3 frentes + agentes públicos + arquitectura + dashboard | Plataforma de Orquestación Ciudadana |
+| **Mínimo viable** | $10M + IVA | 3 frentes + arquitectura básica | Plataforma + agentes públicos + dashboard |
+
+**En los 3 escenarios, los 3 frentes van.** Lo que se ajusta es la plataforma ciudadana.
+
 ---
 
-## Gobernanza, validación y propiedad
+## LÁMINA 10 — Por qué ahora
+
+### La ventana de oportunidad está abierta
+
+1. **Los activos están listos.** Talleres procesados, bases de conocimiento construidas, leyes del estado cargadas. El sistema ya funciona — solo falta escalarlo.
+
+2. **La demanda está validada.** 11 de 12 mesas ciudadanas pidieron espontáneamente lo que el SIC-Q propone. El CONSEQRO lo evaluó con 4 demos en vivo y lo validó.
+
+3. **El Plan QRO 2050 se actualiza este año.** Es la oportunidad ideal para estrenar el sistema: procesar los insumos de 18 municipios con inteligencia artificial y generar control de cambios con trazabilidad ciudadana.
+
+4. **Compatible con Querétaro Digital.** El SIC-Q complementa la infraestructura digital que ya impulsa la Secretaría de Finanzas — no es un sistema paralelo, es una capa de inteligencia sobre lo existente.
+
+---
+
+## LÁMINA 11 — Gobernanza, validación y propiedad
 
 ### Quién valida
 
@@ -128,7 +218,7 @@ La Secretaría de Planeación y Participación Ciudadana acredita el cumplimient
 
 ---
 
-## La solicitud
+## LÁMINA 12 — La solicitud
 
 ### Autorización del programa SIC-Q por $16M + IVA con liberación por fases
 
@@ -138,7 +228,7 @@ La Secretaría de Planeación y Participación Ciudadana acredita el cumplimient
 | **Ejecución** | 3 fases, 12 meses (marzo 2026 – febrero 2027) |
 | **Liberación** | Por fase, acreditada por la Secretaría de Planeación conforme a entregables verificables |
 | **Primer hito** | Junio 2026: 3 agentes operando + vista inicial para la Secretaría de Finanzas |
-| **Beneficio para el Estado** | Infraestructura de inteligencia colectiva que coordina información, fortalece decisiones y escala la agenda digital |
+| **Beneficio para la Secretaría de Finanzas** | Acceso desde Fase 1 a cruces de indicadores presupuestales, seguimiento al PED y evaluación por secretaría |
 
 El concepto fue validado con más de 30 entregables en prototipo, 2 talleres ciudadanos (74 participantes, 778 ideas) y 4 demos en vivo ante el CONSEQRO. La Fase 1 está lista para arrancar.
 
@@ -147,23 +237,33 @@ El concepto fue validado con más de 30 entregables en prototipo, 2 talleres ciu
 ## NOTAS PARA EL PRESENTADOR
 
 **Estructura sugerida (25–30 min):**
-- Toño abre con oportunidad y contexto (láminas 1–3) — 5 min
-- Edgar presenta valor y demo en vivo (láminas 4–5) — 10 min
-- Toño cierra con programa, gobernanza y solicitud (láminas 6–8) — 7 min
-- Preguntas — 8 min
+- Toño abre con oportunidad, relatoría y contexto (láminas 1–5) — 8 min
+- Edgar presenta casos de uso y demo en vivo (láminas 7–8) — 10 min
+- Toño cierra con programa, gobernanza y solicitud (láminas 9–12) — 7 min
+- Preguntas — 5 min
 
 **Tono:**
 - Abrir con oportunidad de Estado, no con problema ni con visión cívica abstracta.
 - Mostrar que la Secretaría de Finanzas recibe beneficio concreto desde Fase 1.
-- Vincular con Querétaro Digital — complementa la infraestructura existente.
+- Vincular con Querétaro Digital — complementa la infraestructura existente, no es un sistema paralelo.
 - Demo controlada: preguntas preparadas, respuestas cortas, cero improvisación abierta.
 - Cerrar con una decisión administrable: programa por fases, liberación por hitos, validación por Planeación.
+- No abrir con: "plataforma revolucionaria", "nadie en México ha hecho esto", "la IA puede cambiarlo todo".
 
 **Proveedor (si preguntan):**
 Horizons Architecture — spinoff del LET de la Escuela de Gobierno y Transformación Pública del Tec de Monterrey. Especializada en ciencias de la complejidad, ciencia de datos e inteligencia artificial.
 
 **Apertura sugerida para Toño:**
 > Secretario, le venimos a proponer una capacidad institucional para integrar datos, contexto legal y señales del territorio, de manera que el gobierno pueda priorizar mejor, coordinarse más rápido y escalar su agenda digital con control.
+
+**Tips de Toño para esta presentación:**
+- "Empezar del final hacia el principio" — abrir con lo que el sistema ya puede hacer, no con la teoría
+- "Las preguntas no las hagan ellos abiertas" — set de preguntas preparadas
+- "Que vean el cerebrito, cómo funciona" — demo en vivo obligatoria
+- "Desglosar el presupuesto" — ser transparente con los números
+
+**Tip de Edgar Mohar:**
+- Incluir lámina de casos de uso — no solo preguntas, sino para quién sirve y para qué
 
 ---
 

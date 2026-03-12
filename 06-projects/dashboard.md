@@ -7,17 +7,23 @@ type: clock
 
 ## Prioridad
 
-- [ ] Hacer la propuesta de Lina
-- [ ] Compartir con el equipo la estrategia de cursos
+- [ ] **SIC-Q Finanzas:** Preparar presentación para Secretaría de Finanzas QRO — viernes 14 mar 13:00
+- [ ] **SIC-Q Finanzas:** Organizar ejemplos para demo, 3 usuarios: 
+	- [ ] gobernador, 
+		- [ ] Toño Rangel, 
+			- [ ] Sergio Ibarra
+- [ ] Preparar clase
+- [ ] Avanzar paper JIII
 
 ## En curso
 - [ ] UPU: Oscar documentación cierre (semana 24 feb)
-- [ ] Learning Products: Betty, Sarahí y Oscar avanzan. Leiden confirmado mar-jun 2026
+- [ ] Learning Products: Betty, Sarahí y Oscar avanzan. Leiden arrancó mar 2026
 
-## Pendiente2
+## Pendiente
 - [ ] Learning Products: Definir scope Plan de Vida y Carrera
 - [ ] Talisis: Reagendar reunión con Nicho (cancelada 05 mar)
 - [ ] Joel Cano: Agendar reunión con Javier (VP Research Tec)
+- [ ] Compartir con el equipo la estrategia de cursos (Betty Huerta lo maneja, no urgente)
 
 
 ---
@@ -26,7 +32,7 @@ type: clock
 
 | Persona | Esperando | Proyecto | Desde |
 |---------|-----------|----------|-------|
-| **Edgar Mohar / Toño** | Formalización contrato — Mohar habló con Toño 04 mar | SIC-Q | 04 mar |
+| **Sec. Finanzas QRO** | Presentación SIC-Q viernes 14 mar 13:00 — presupuesto $16M + IVA | SIC-Q | 12 mar |
 | **Jorge Blando** | Reunión siguiente paso — prep lista | Beyond | 27 feb |
 | **Equipo Poncho (Docet)** | Esperando respuesta. Probablemente no se concrete. Sin deadline. | Docet-Agentic | ~14 feb |
 | **Gobierno QRO** | Decisión legal CURP vs INE + alineación IF | SIC-Q | feb |
@@ -34,7 +40,7 @@ type: clock
 | **Nicho (Talisis)** | Reagendar reunión (cancelada 05 mar por traslape) | Talisis | 05 mar |
 | **Betty/Sarahí** | Call Netherlands office strategy | Learning Products | 22 feb |
 | **Javier (VP Research Tec)** | Agendar reunión con Joel Cano | HA-Core | ~14 feb |
-| **Héctor Brosig** | Reunión reagendada **Vie 06 Mar 19:00** | Xignux | 05 mar |
+| **Héctor Brosig** | Reunión realizada 06 mar ✅ — touch base inicio abril | Xignux | 06 mar |
 | **Steven Popper** | Respuesta correo reuniones mensuales | Advisory | ~14 feb |
 | Xignux | Follow-up enviado, sin respuesta | — | ~14 feb |
 
@@ -46,7 +52,7 @@ type: clock
 
 | **Project** | **Status** | **Next steps** | **Links** |
 | ----------- | ---------- | -------------- | --------- |
-| **SIC-Q** | 🟢 Propuesta v06 enviada. Mohar/Toño formalizando contrato. Proyecto Cerebro PAN (tentativo) | Seguimiento formalización | `sic-q/` |
+| **SIC-Q** | 🟢 Presentación Sec. Finanzas QRO **vie 14 mar 13:00** — $16M + IVA. 3 usuarios: gobernador, Toño, Sergio | Preparar presentación + ejemplos | `sic-q/` |
 
 ## Education & AI Systems
 
@@ -83,10 +89,10 @@ type: clock
 - [x] Presentación CONSEQRO 19 feb — 4 demos, ~13 consejeros, feedback capturado
 - [x] Talleres co-diseño (16-17 feb) — reportes ejecutivos + técnico completados
 - [x] Propuesta v06 enviada
-- [ ] Formalización contrato — Edgar Mohar habló con Toño (04 mar)
+- [ ] **Presentación Sec. Finanzas QRO — Vie 14 Mar 13:00** — presupuesto $16M + IVA
+- [ ] Preparar ejemplos 3 usuarios (gobernador, Toño Rangel, Sergio Ibarra)
 - [ ] Diseñar piloto operativo con Toño (datasets, productos, métricas)
 - [ ] Identificar datasets iniciales disponibles
-- [ ] Estrategia acercamiento Secretario de Finanzas
 - [ ] Narrativa para presentación al gobernador
 - [ ] Formalizar Instituto del Futuro en El Consejo A.C.
 
@@ -182,7 +188,7 @@ type: clock
 | ~~26 feb 2026~~ | ✅ Reunión consejo representantes — visión validada | Tec Beyond |
 | **~Mar 2026** | Reunión Jorge Blando siguiente paso — prep lista | Tec Beyond |
 | **~Mar 2026** | Reunión Edgar Mohar — subir entregables Wiki Notion | SIC-Q |
-| **~Med marzo** | [tentativo] Pitch Proyecto Cerebro CEN PAN (si Toño confirma) | SIC-Q |
+| **Vie 14 Mar 13:00** | Presentación SIC-Q a Sec. Finanzas QRO — $16M + IVA | SIC-Q |
 | **—** | Sin deadline activo | Docet-Agentic |
 | **Feb-Mar 2026** | Propuesta v06 (cuando Toño responda) | SIC-Q |
 | **Mar-Jun 2026** | Leiden — curso HA confirmado | Learning Products |
@@ -198,7 +204,7 @@ type: clock
 
 | Project | Potential | Status |
 |---------|-----------|--------|
-| SIC-Q | $3.7M pagado + $6M cotizado | Cotización enviada, esperando Toño |
+| SIC-Q | $16M + IVA presupuesto | Presentación Sec. Finanzas 14 mar |
 | Docet-Agentic | $3.9M MXN (~$200K USD) | En pausa — probablemente no se concrete |
 | TEC Monterrey | Consultoría (Narrativa + Tec Beyond) | Activo |
 | Learning Products | Leiden pagado + NL office potential | Activo — emerging fast |
@@ -217,10 +223,10 @@ Oportunidades detectadas que aún no son proyecto formal. Rastrear aquí hasta q
 | AI Training Caribbean | UPU — MBTU presentación 21 feb | José Anson asistió, interés regional | Definir scope y propuesta |
 | Netherlands HA Office | Learning Products — Leiden confirmado | Curso pagado, Betty + Sarahí liderando | Call 3-way para strategy |
 | Project Mara (B2C) | HA-Core — retomando activamente | Beyond community → producto B2C | Definir scope + arquitectura |
-| Héctor — Transformación Digital | Contacto directo | Referencia + interés IA | Agendar llamada |
+| Héctor Brosig — Transformación Digital | Reunión 06 mar ✅ | Fue bien, interés IA | Touch base inicio abril |
 | Proyecto Cerebro CEN PAN | SIC-Q — Toño explorando | Reunión con presidente nacional PAN | Tentativo — esperar confirmación Toño |
 
 ---
 
-*Última actualización: 2026-03-06*
+*Última actualización: 2026-03-12*
 *HA Syntax: `[>]` agent task, `[<]` waiting, `[?]` decision needed, `[!]` urgent, `[x]` done*

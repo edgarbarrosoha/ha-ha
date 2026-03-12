@@ -1,0 +1,1187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIC-Q — Simplificación del citizens journey</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500&amp;family=Roboto+Mono:wght@400&amp;display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ha-blue: #3356F6;
+      --black: #000000;
+      --offset-black: #231F20;
+      --offwhite: #F1F2F2;
+      --white: #FFFFFF;
+      --gray: #666666;
+      --font-primary: "Plus Jakarta Sans", "Helvetica Neue", Helvetica, Arial, system-ui, sans-serif;
+      --font-mono: "Roboto Mono", "SF Mono", Menlo, Monaco, Consolas, monospace;
+      --ease: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      --radius: 16px;
+      --border-light: rgba(35, 31, 32, 0.10);
+      --border-dark: rgba(241, 242, 242, 0.12);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: var(--black);
+    }
+
+    body {
+      font-family: var(--font-primary);
+      font-weight: 400;
+      color: var(--offset-black);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      cursor: default;
+    }
+
+    .deck {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+    }
+
+    .slide {
+      position: absolute;
+      inset: 0;
+      padding: 5.5vh 7vw 6.5vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      opacity: 0;
+      pointer-events: none;
+      transform: translateX(20px);
+      transition: opacity 0.55s var(--ease), transform 0.55s var(--ease);
+      overflow: hidden;
+    }
+
+    .slide.active {
+      opacity: 1;
+      pointer-events: auto;
+      transform: translateX(0);
+    }
+
+    .slide.light {
+      background: var(--offwhite);
+      color: var(--offset-black);
+    }
+
+    .slide.dark {
+      background: var(--black);
+      color: var(--offwhite);
+    }
+
+    .slide.accent {
+      background: var(--ha-blue);
+      color: var(--white);
+    }
+
+    .slide::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background-image:
+        linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+      background-size: 48px 48px;
+      opacity: 0.22;
+    }
+
+    .light::before {
+      background-image:
+        linear-gradient(to right, rgba(35, 31, 32, 0.035) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(35, 31, 32, 0.035) 1px, transparent 1px);
+      opacity: 0.45;
+    }
+
+    .accent::before {
+      background-image:
+        linear-gradient(to right, rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
+      opacity: 0.35;
+    }
+
+    .progress {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 2px;
+      width: 0;
+      background: var(--ha-blue);
+      z-index: 300;
+      transition: width 0.45s var(--ease);
+    }
+
+    .watermark,
+    .slide-counter,
+    .hint {
+      position: fixed;
+      z-index: 200;
+      font-family: var(--font-mono);
+      font-size: 0.62rem;
+      letter-spacing: 0.06em;
+      transition: color 0.45s var(--ease);
+    }
+
+    .watermark {
+      bottom: 2rem;
+      left: 2.4rem;
+    }
+
+    .slide-counter {
+      bottom: 2rem;
+      right: 2.4rem;
+    }
+
+    .hint {
+      top: 2rem;
+      right: 2.4rem;
+      text-transform: uppercase;
+    }
+
+    .on-dark {
+      color: rgba(241, 242, 242, 0.24);
+    }
+
+    .on-light {
+      color: rgba(35, 31, 32, 0.24);
+    }
+
+    .on-accent {
+      color: rgba(255, 255, 255, 0.34);
+    }
+
+    .content {
+      position: relative;
+      z-index: 1;
+      max-width: 1180px;
+    }
+
+    .eyebrow {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.06em;
+      margin-bottom: 1.25rem;
+      display: inline-block;
+    }
+
+    .dark .eyebrow {
+      color: rgba(241, 242, 242, 0.48);
+    }
+
+    .light .eyebrow {
+      color: rgba(35, 31, 32, 0.42);
+    }
+
+    .accent .eyebrow {
+      color: rgba(255, 255, 255, 0.62);
+    }
+
+    .accent-line {
+      width: 44px;
+      height: 2px;
+      margin-bottom: 1.4rem;
+      background: var(--ha-blue);
+      transform-origin: left center;
+    }
+
+    .dark .accent-line {
+      background: var(--ha-blue);
+    }
+
+    .accent .accent-line {
+      background: var(--white);
+    }
+
+    h1,
+    h2,
+    h3,
+    p,
+    .metric,
+    .card,
+    .flow-step,
+    .tier,
+    .decision,
+    .timeline-item,
+    .compare-block {
+      opacity: 0;
+      transform: translateY(14px);
+      animation: none;
+    }
+
+    .slide.active h1,
+    .slide.active h2,
+    .slide.active h3,
+    .slide.active p,
+    .slide.active .metric,
+    .slide.active .card,
+    .slide.active .flow-step,
+    .slide.active .tier,
+    .slide.active .decision,
+    .slide.active .timeline-item,
+    .slide.active .compare-block {
+      animation: fade-up 0.7s var(--ease) forwards;
+    }
+
+    @keyframes fade-up {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .d1 { animation-delay: 0.08s; }
+    .d2 { animation-delay: 0.16s; }
+    .d3 { animation-delay: 0.24s; }
+    .d4 { animation-delay: 0.32s; }
+    .d5 { animation-delay: 0.40s; }
+    .d6 { animation-delay: 0.48s; }
+
+    h1 {
+      font-size: clamp(3rem, 6vw, 5.6rem);
+      font-weight: 500;
+      line-height: 0.98;
+      letter-spacing: -0.03em;
+      max-width: 920px;
+      margin-bottom: 0.95rem;
+    }
+
+    h2 {
+      font-size: clamp(2.2rem, 4vw, 3.5rem);
+      font-weight: 500;
+      line-height: 1.05;
+      letter-spacing: -0.025em;
+      max-width: 860px;
+      margin-bottom: 0.9rem;
+    }
+
+    h3 {
+      font-size: 0.95rem;
+      font-weight: 500;
+      line-height: 1.35;
+      margin-bottom: 0.25rem;
+    }
+
+    p {
+      font-size: clamp(0.98rem, 1.35vw, 1.12rem);
+      line-height: 1.6;
+      max-width: 730px;
+      margin-bottom: 0.65rem;
+    }
+
+    .dark p {
+      color: rgba(241, 242, 242, 0.76);
+    }
+
+    .light p {
+      color: rgba(35, 31, 32, 0.68);
+    }
+
+    .accent p {
+      color: rgba(255, 255, 255, 0.80);
+    }
+
+    .lead {
+      font-size: clamp(1.08rem, 1.55vw, 1.32rem);
+      line-height: 1.65;
+      max-width: 820px;
+    }
+
+    .kicker {
+      font-size: clamp(4rem, 11vw, 9rem);
+      line-height: 0.92;
+      letter-spacing: -0.06em;
+      max-width: 980px;
+    }
+
+    .ghost {
+      position: absolute;
+      right: 6vw;
+      bottom: -1.1rem;
+      font-family: var(--font-mono);
+      font-size: clamp(8rem, 18vw, 18rem);
+      line-height: 1;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .dark .ghost {
+      color: rgba(241, 242, 242, 0.05);
+    }
+
+    .light .ghost {
+      color: rgba(35, 31, 32, 0.05);
+    }
+
+    .accent .ghost {
+      color: rgba(255, 255, 255, 0.10);
+    }
+
+    .meta-row,
+    .metrics,
+    .card-grid,
+    .compare-grid,
+    .flow-row,
+    .tiers,
+    .decision-grid,
+    .timeline,
+    .preserve-grid {
+      position: relative;
+      z-index: 1;
+    }
+
+    .meta-row {
+      display: flex;
+      gap: 2.2rem;
+      margin-top: 2.5rem;
+      flex-wrap: wrap;
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.04em;
+    }
+
+    .dark .meta-row {
+      color: rgba(241, 242, 242, 0.48);
+    }
+
+    .accent .meta-row {
+      color: rgba(255, 255, 255, 0.62);
+    }
+
+    .meta-row span {
+      color: rgba(255, 255, 255, 0.82);
+    }
+
+    .light .meta-row {
+      color: rgba(35, 31, 32, 0.42);
+    }
+
+    .light .meta-row span {
+      color: rgba(35, 31, 32, 0.84);
+    }
+
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 0.75rem;
+      margin-top: 1.8rem;
+      max-width: 1040px;
+    }
+
+    .metric {
+      padding: 1rem 1rem 1.15rem;
+      border: 1px solid var(--border-light);
+      background: rgba(255, 255, 255, 0.48);
+      min-height: 132px;
+    }
+
+    .dark .metric {
+      background: rgba(255, 255, 255, 0.03);
+      border-color: var(--border-dark);
+    }
+
+    .accent .metric {
+      background: rgba(255, 255, 255, 0.08);
+      border-color: rgba(255, 255, 255, 0.18);
+    }
+
+    .metric-value {
+      display: block;
+      font-family: var(--font-mono);
+      font-size: 2.25rem;
+      line-height: 1;
+      margin-bottom: 0.45rem;
+      color: var(--ha-blue);
+    }
+
+    .accent .metric-value {
+      color: var(--white);
+    }
+
+    .dark .metric-value {
+      color: var(--ha-blue);
+    }
+
+    .metric-label {
+      display: block;
+      font-family: var(--font-mono);
+      font-size: 0.66rem;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.55rem;
+    }
+
+    .dark .metric-label {
+      color: rgba(241, 242, 242, 0.46);
+    }
+
+    .light .metric-label {
+      color: rgba(35, 31, 32, 0.44);
+    }
+
+    .accent .metric-label {
+      color: rgba(255, 255, 255, 0.58);
+    }
+
+    .metric p {
+      font-size: 0.84rem;
+      line-height: 1.5;
+      max-width: none;
+      margin-bottom: 0;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 0.8rem;
+      margin-top: 1.5rem;
+      max-width: 1080px;
+    }
+
+    .card,
+    .compare-block,
+    .flow-step,
+    .tier,
+    .decision {
+      padding: 1rem 1.05rem 1.1rem;
+      border: 1px solid var(--border-light);
+      background: rgba(255, 255, 255, 0.45);
+    }
+
+    .dark .card,
+    .dark .compare-block,
+    .dark .flow-step,
+    .dark .tier,
+    .dark .decision {
+      border-color: var(--border-dark);
+      background: rgba(255, 255, 255, 0.03);
+    }
+
+    .accent .card,
+    .accent .compare-block,
+    .accent .flow-step,
+    .accent .tier,
+    .accent .decision {
+      border-color: rgba(255, 255, 255, 0.18);
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    .card-tag,
+    .step-tag,
+    .tier-tag,
+    .decision-tag,
+    .timeline-tag {
+      display: inline-block;
+      margin-bottom: 0.6rem;
+      font-family: var(--font-mono);
+      font-size: 0.62rem;
+      letter-spacing: 0.05em;
+      color: var(--ha-blue);
+    }
+
+    .dark .card-tag,
+    .dark .step-tag,
+    .dark .tier-tag,
+    .dark .decision-tag,
+    .dark .timeline-tag {
+      color: var(--ha-blue);
+    }
+
+    .accent .card-tag,
+    .accent .step-tag,
+    .accent .tier-tag,
+    .accent .decision-tag,
+    .accent .timeline-tag {
+      color: rgba(255, 255, 255, 0.72);
+    }
+
+    .card p,
+    .compare-block p,
+    .flow-step p,
+    .tier p,
+    .decision p {
+      font-size: 0.84rem;
+      line-height: 1.52;
+      max-width: none;
+      margin-bottom: 0;
+    }
+
+    .compare-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1rem;
+      margin-top: 1.5rem;
+      max-width: 1080px;
+    }
+
+    .compare-label {
+      display: block;
+      font-family: var(--font-mono);
+      font-size: 0.66rem;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.8rem;
+    }
+
+    .dark .compare-label {
+      color: rgba(241, 242, 242, 0.46);
+    }
+
+    .light .compare-label {
+      color: rgba(35, 31, 32, 0.42);
+    }
+
+    .flow-row {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 0.8rem;
+      margin-top: 1.5rem;
+      max-width: 1180px;
+    }
+
+    .flow-step h3,
+    .tier h3,
+    .decision h3,
+    .compare-block h3 {
+      margin-bottom: 0.45rem;
+    }
+
+    .flow-step strong,
+    .tier strong,
+    .decision strong,
+    .compare-block strong,
+    .card strong,
+    p strong {
+      font-weight: 500;
+      color: inherit;
+    }
+
+    .flow-step::after {
+      content: "→";
+      position: absolute;
+      right: -0.48rem;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 1rem;
+      color: rgba(35, 31, 32, 0.18);
+    }
+
+    .dark .flow-step::after {
+      color: rgba(241, 242, 242, 0.22);
+    }
+
+    .accent .flow-step::after {
+      color: rgba(255, 255, 255, 0.30);
+    }
+
+    .flow-step:last-child::after {
+      display: none;
+    }
+
+    .tiers {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 0.8rem;
+      margin-top: 1.6rem;
+      max-width: 1120px;
+    }
+
+    .tier-req {
+      display: block;
+      margin-top: 0.75rem;
+      font-family: var(--font-mono);
+      font-size: 0.66rem;
+      letter-spacing: 0.04em;
+    }
+
+    .dark .tier-req {
+      color: rgba(241, 242, 242, 0.48);
+    }
+
+    .light .tier-req {
+      color: rgba(35, 31, 32, 0.42);
+    }
+
+    .accent .tier-req {
+      color: rgba(255, 255, 255, 0.64);
+    }
+
+    .decision-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 0.8rem;
+      margin-top: 1.5rem;
+      max-width: 1120px;
+    }
+
+    .timeline {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 0.8rem;
+      margin-top: 1.5rem;
+      max-width: 1080px;
+    }
+
+    .timeline-item {
+      padding-left: 1rem;
+      border-left: 2px solid rgba(51, 86, 246, 0.60);
+    }
+
+    .accent .timeline-item {
+      border-left-color: rgba(255, 255, 255, 0.48);
+    }
+
+    .timeline-item p {
+      font-size: 0.86rem;
+      margin-bottom: 0;
+      max-width: none;
+    }
+
+    .preserve-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 0.75rem;
+      margin-top: 1.5rem;
+      max-width: 1040px;
+    }
+
+    .preserve-item {
+      padding: 0.95rem 1rem 1rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.18);
+      opacity: 0;
+      transform: translateY(12px);
+      animation: none;
+    }
+
+    .slide.active .preserve-item {
+      animation: fade-up 0.7s var(--ease) forwards;
+    }
+
+    .light .preserve-item {
+      border-top-color: rgba(35, 31, 32, 0.12);
+    }
+
+    .preserve-item h3 {
+      margin-bottom: 0.3rem;
+    }
+
+    .preserve-item p {
+      max-width: none;
+      font-size: 0.84rem;
+      margin-bottom: 0;
+    }
+
+    .closing {
+      max-width: 920px;
+      margin-top: 1.8rem;
+    }
+
+    .closing p {
+      font-size: 1.02rem;
+      line-height: 1.6;
+    }
+
+    .cta-line {
+      margin-top: 2.1rem;
+      font-family: var(--font-mono);
+      font-size: 0.76rem;
+      letter-spacing: 0.06em;
+    }
+
+    @media (max-width: 1100px) {
+      .metrics,
+      .card-grid,
+      .flow-row,
+      .tiers,
+      .decision-grid,
+      .timeline {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .compare-grid,
+      .preserve-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .flow-step:last-child::after,
+      .flow-step:nth-child(2)::after,
+      .flow-step:nth-child(4)::after {
+        display: none;
+      }
+    }
+
+    @media (max-width: 720px) {
+      .slide {
+        padding: 4.5vh 6vw 7.5vh;
+        justify-content: flex-start;
+        overflow-y: auto;
+      }
+
+      .metrics,
+      .card-grid,
+      .flow-row,
+      .tiers,
+      .decision-grid,
+      .timeline,
+      .preserve-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .compare-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .watermark {
+        left: 1.25rem;
+        bottom: 1.1rem;
+      }
+
+      .slide-counter {
+        right: 1.25rem;
+        bottom: 1.1rem;
+      }
+
+      .hint {
+        top: 1rem;
+        right: 1.25rem;
+      }
+
+      .ghost {
+        font-size: 6rem;
+        right: 1rem;
+        bottom: 0;
+      }
+
+      .flow-step::after {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="progress" id="progress"></div>
+  <div class="watermark on-dark" id="watermark">2026 HORIZONS ARCHITECTURE / SIC-Q</div>
+  <div class="hint on-dark" id="hint">flechas o click</div>
+  <div class="slide-counter on-dark" id="counter">01 / 12</div>
+
+  <div class="deck" id="deck">
+    <div class="slide dark active" data-theme="dark">
+      <div class="content">
+        <div class="eyebrow d1">01 / reporte de simplificación</div>
+        <div class="accent-line d2"></div>
+        <h1 class="d3">Simplificar para lanzar el SIC-Q.</h1>
+        <p class="lead d4">El citizens journey v03 sirvió para comunicar visión. Este deck lo traduce a una versión ejecutable para piloto: menos fases, menos fricción, más claridad institucional.</p>
+        <div class="meta-row d5">
+          <div>DOCUMENTO BASE / <span>2026-02-07</span></div>
+          <div>FOCO / <span>piloto implementable</span></div>
+          <div>DECISIÓN / <span>qué simplificar ahora</span></div>
+        </div>
+      </div>
+      <div class="ghost">01</div>
+    </div>
+
+    <div class="slide dark" data-theme="dark">
+      <div class="content">
+        <div class="eyebrow d1">02 / diagnóstico</div>
+        <h2 class="d2">La versión actual explica el sistema completo, pero mezcla la experiencia ciudadana con la maquinaria técnica.</h2>
+        <div class="card-grid">
+          <div class="card d3">
+            <span class="card-tag">PROBLEMA 01</span>
+            <h3>Journey y backend aparecen como si fueran lo mismo.</h3>
+            <p>Las fases de base de conocimiento, sensemaking, agente institucional y gobierno no son pasos que vive la persona usuaria.</p>
+          </div>
+          <div class="card d4">
+            <span class="card-tag">PROBLEMA 02</span>
+            <h3>Hay más opciones de las que el ciudadano necesita.</h3>
+            <p>Cuatro tipos de participación, once fases y varias decisiones tempranas elevan fricción cognitiva antes de generar valor.</p>
+          </div>
+          <div class="card d5">
+            <span class="card-tag">PROBLEMA 03</span>
+            <h3>Se pide demasiado antes de dejar participar.</h3>
+            <p>El registro con CURP, correo, celular y verificación oficial bloquea adopción antes de que la plataforma entregue una primera experiencia útil.</p>
+          </div>
+        </div>
+      </div>
+      <div class="ghost">02</div>
+    </div>
+
+    <div class="slide light" data-theme="light">
+      <div class="content">
+        <div class="eyebrow d1">03 / complejidad visible</div>
+        <h2 class="d2">La complejidad del diseño actual se concentra en cuatro puntos de fricción.</h2>
+        <div class="metrics">
+          <div class="metric d3">
+            <span class="metric-value">11</span>
+            <span class="metric-label">FASES</span>
+            <p>Demasiadas transiciones para una interacción que debería sentirse continua.</p>
+          </div>
+          <div class="metric d4">
+            <span class="metric-value">4</span>
+            <span class="metric-label">JOURNEYS</span>
+            <p>Dos de ellos son redundantes o deberían existir como capacidades transversales.</p>
+          </div>
+          <div class="metric d5">
+            <span class="metric-value">6+</span>
+            <span class="metric-label">DATOS DE REGISTRO</span>
+            <p>La exigencia de identidad completa aparece demasiado pronto, incluso para apoyar una idea.</p>
+          </div>
+          <div class="metric d6">
+            <span class="metric-value">2</span>
+            <span class="metric-label">BASES</span>
+            <p>La separación técnica se comunica como si fueran dos sistemas distintos frente al usuario.</p>
+          </div>
+        </div>
+      </div>
+      <div class="ghost">03</div>
+    </div>
+
+    <div class="slide accent" data-theme="accent">
+      <div class="content">
+        <div class="eyebrow d1">04 / principio rector</div>
+        <div class="accent-line d2"></div>
+        <h1 class="kicker d3">Lo que el ciudadano vive va en el journey. Lo que el sistema procesa va en arquitectura.</h1>
+        <p class="lead d4">Ese corte permite documentar mejor, diseñar mejor y construir un MVP sin inflar la interfaz con pasos que nadie percibe.</p>
+      </div>
+      <div class="ghost">04</div>
+    </div>
+
+    <div class="slide light" data-theme="light">
+      <div class="content">
+        <div class="eyebrow d1">05 / nuevo journey</div>
+        <h2 class="d2">El citizens journey puede pasar de once fases a cinco momentos comprensibles.</h2>
+        <div class="compare-grid">
+          <div class="compare-block d3">
+            <span class="compare-label">ANTES / v03</span>
+            <h3>Diseño demasiado secuencial.</h3>
+            <p>Diseño participativo → Descubrimiento → Primer contacto → Invitación → Orientación → Participación → Base de conocimiento → Sensemaking → Agente institucional → Gobierno → Feedback → Ciclo virtuoso.</p>
+          </div>
+          <div class="compare-block d4">
+            <span class="compare-label">DESPUÉS / v04</span>
+            <h3>Recorrido claro para piloto.</h3>
+            <p>Co-diseño → Descubrimiento → Participar → Seguimiento → Respuesta. El backend queda documentado aparte como almacenamiento, análisis y canalización.</p>
+          </div>
+        </div>
+        <div class="flow-row">
+          <div class="flow-step d3">
+            <span class="step-tag">01</span>
+            <h3>Co-diseño</h3>
+            <p>Construir con ciudadanía antes de escalar.</p>
+          </div>
+          <div class="flow-step d4">
+            <span class="step-tag">02</span>
+            <h3>Descubrimiento</h3>
+            <p>WhatsApp, web, kiosco o taller.</p>
+          </div>
+          <div class="flow-step d5">
+            <span class="step-tag">03</span>
+            <h3>Participar</h3>
+            <p>Llega, decide y actúa sin pasos artificiales.</p>
+          </div>
+          <div class="flow-step d5">
+            <span class="step-tag">04</span>
+            <h3>Seguimiento</h3>
+            <p>Ranking, progreso y tiempo restante.</p>
+          </div>
+          <div class="flow-step d6">
+            <span class="step-tag">05</span>
+            <h3>Respuesta</h3>
+            <p>Resultado institucional e invitación a continuar.</p>
+          </div>
+        </div>
+      </div>
+      <div class="ghost">05</div>
+    </div>
+
+    <div class="slide light" data-theme="light">
+      <div class="content">
+        <div class="eyebrow d1">06 / participación</div>
+        <h2 class="d2">La oferta de participación se reduce a dos acciones reales y una capacidad transversal del agente.</h2>
+        <div class="card-grid">
+          <div class="card d3">
+            <span class="card-tag">ACCIÓN 01</span>
+            <h3>Proponer</h3>
+            <p>Crear una idea nueva mediante diálogo guiado. Requiere registro verificado porque inicia una propuesta que puede escalar a deliberación.</p>
+          </div>
+          <div class="card d4">
+            <span class="card-tag">ACCIÓN 02</span>
+            <h3>Apoyar</h3>
+            <p>Votar una propuesta y, si hace sentido, compartirla. Sustituye “impulsar” y absorbe el journey de “transformar”.</p>
+          </div>
+          <div class="card d5">
+            <span class="card-tag">CAPACIDAD</span>
+            <h3>Platicar</h3>
+            <p>Siempre disponible. No es una categoría aparte; es la forma natural en la que el agente acompaña y detecta intención.</p>
+          </div>
+        </div>
+        <p class="d6">El menú de cuatro cards desaparece. La interfaz ideal es más simple: <strong>Tengo una idea</strong>, <strong>Quiero ver ideas de otros</strong> o texto libre.</p>
+      </div>
+      <div class="ghost">06</div>
+    </div>
+
+    <div class="slide light" data-theme="light">
+      <div class="content">
+        <div class="eyebrow d1">07 / identidad y registro</div>
+        <h2 class="d2">El cambio de mayor impacto es pasar de registro total upfront a registro progresivo.</h2>
+        <div class="tiers">
+          <div class="tier d3">
+            <span class="tier-tag">NIVEL 01</span>
+            <h3>Visitante</h3>
+            <p>Explora propuestas, consulta datos y conversa con el agente sin entregar información personal.</p>
+            <span class="tier-req">REQUISITOS / ninguno</span>
+          </div>
+          <div class="tier d4">
+            <span class="tier-tag">NIVEL 02</span>
+            <h3>Participante</h3>
+            <p>Apoya ideas y recibe seguimiento con una fricción mínima orientada a celular y código postal.</p>
+            <span class="tier-req">REQUISITOS / celular + código postal</span>
+          </div>
+          <div class="tier d5">
+            <span class="tier-tag">NIVEL 03</span>
+            <h3>Ciudadano verificado</h3>
+            <p>Puede publicar propuestas. La verificación fuerte se reserva para el momento en que una idea cruza un umbral institucional.</p>
+            <span class="tier-req">REQUISITOS / celular + CURP + código postal</span>
+          </div>
+        </div>
+        <p class="d6">La implicación ejecutiva es directa: <strong>eliminar INE como requisito universal</strong> y dejarla como validación opcional o tardía cambia la tasa esperada de adopción.</p>
+      </div>
+      <div class="ghost">07</div>
+    </div>
+
+    <div class="slide dark" data-theme="dark">
+      <div class="content">
+        <div class="eyebrow d1">08 / simplificación del piloto</div>
+        <h2 class="d2">El piloto también debe reducir complejidad operacional, no solo complejidad de interfaz.</h2>
+        <div class="compare-grid">
+          <div class="compare-block d3">
+            <span class="compare-label">SELECCIÓN DE PROPUESTAS</span>
+            <h3>Menos reglas para salir antes.</h3>
+            <p>De tres ciclos al año y tres vías de selección a <strong>un solo ciclo de 4-6 meses</strong>, con <strong>top N por apoyos</strong> y 20-30 propuestas a deliberación.</p>
+          </div>
+          <div class="compare-block d4">
+            <span class="compare-label">CO-DISEÑO</span>
+            <h3>Menos actividades paralelas.</h3>
+            <p>De cuatro actividades en nueve semanas a <strong>tres actividades en seis semanas</strong>: dos talleres, 300-500 conversaciones IA y una mesa técnica unificada.</p>
+          </div>
+        </div>
+        <div class="metrics">
+          <div class="metric d4">
+            <span class="metric-value">1</span>
+            <span class="metric-label">CICLO PILOTO</span>
+            <p>Menor complejidad de gobernanza y comunicación.</p>
+          </div>
+          <div class="metric d5">
+            <span class="metric-value">20-30</span>
+            <span class="metric-label">PROPUESTAS</span>
+            <p>Volumen compatible con capacidad real de deliberación.</p>
+          </div>
+          <div class="metric d5">
+            <span class="metric-value">6</span>
+            <span class="metric-label">SEMANAS</span>
+            <p>Plazo más realista para validar antes de desarrollar demasiado.</p>
+          </div>
+          <div class="metric d6">
+            <span class="metric-value">0</span>
+            <span class="metric-label">GAMIFICACIÓN</span>
+            <p>Puntos y rachas salen del piloto para no trivializar participación.</p>
+          </div>
+        </div>
+      </div>
+      <div class="ghost">08</div>
+    </div>
+
+    <div class="slide light" data-theme="light">
+      <div class="content">
+        <div class="eyebrow d1">09 / ajustes de producto</div>
+        <h2 class="d2">Tres cambios de experiencia mejoran el flujo sin elevar costo de desarrollo.</h2>
+        <div class="timeline">
+          <div class="timeline-item d3">
+            <span class="timeline-tag">INTERFAZ</span>
+            <h3>Dos opciones y texto libre.</h3>
+            <p>Desaparece el menú con cuatro journeys. El agente interpreta intención en vez de forzar categorización previa.</p>
+          </div>
+          <div class="timeline-item d4">
+            <span class="timeline-tag">DUPLICADOS</span>
+            <h3>Información lateral, no bloqueo.</h3>
+            <p>La propuesta se publica y luego se invita a unir fuerzas con ideas parecidas. Se protege el momentum de participación.</p>
+          </div>
+          <div class="timeline-item d5">
+            <span class="timeline-tag">ARQUITECTURA</span>
+            <h3>Una base, dos capas lógicas.</h3>
+            <p>Ciudadanía y contexto viven en una misma base de datos con vistas distintas. Se simplifica mantenimiento y análisis.</p>
+          </div>
+        </div>
+      </div>
+      <div class="ghost">09</div>
+    </div>
+
+    <div class="slide accent" data-theme="accent">
+      <div class="content">
+        <div class="eyebrow d1">10 / prioridades y decisiones</div>
+        <h2 class="d2">Cinco decisiones destraban casi todo el rediseño.</h2>
+        <div class="decision-grid">
+          <div class="decision d3">
+            <span class="decision-tag">ALTA PRIORIDAD</span>
+            <h3>Separar journey y backend.</h3>
+            <p>Clarifica producto, narrativa y alcance técnico desde el inicio.</p>
+          </div>
+          <div class="decision d4">
+            <span class="decision-tag">ALTA PRIORIDAD</span>
+            <h3>Confirmar si INE es obligación legal o costumbre.</h3>
+            <p>La respuesta define si el registro progresivo es viable.</p>
+          </div>
+          <div class="decision d5">
+            <span class="decision-tag">ALTA PRIORIDAD</span>
+            <h3>Definir cuántas propuestas puede absorber gobierno.</h3>
+            <p>Ese número fija umbral, ranking y capacidad de respuesta.</p>
+          </div>
+          <div class="decision d4">
+            <span class="decision-tag">ALTA PRIORIDAD</span>
+            <h3>Escoger canal del MVP.</h3>
+            <p>Solo WhatsApp reduce complejidad. Web y kioscos amplían inclusión, pero elevan el alcance inicial.</p>
+          </div>
+          <div class="decision d5">
+            <span class="decision-tag">ALTA PRIORIDAD</span>
+            <h3>Definir si co-diseño va antes o en paralelo.</h3>
+            <p>Afecta calendario, presupuesto y qué se aprende antes de construir.</p>
+          </div>
+          <div class="decision d6">
+            <span class="decision-tag">ENFOQUE</span>
+            <h3>Lanzar simple, aprender rápido.</h3>
+            <p>El criterio rector del piloto debe ser confianza ciudadana y capacidad operativa, no completitud.</p>
+          </div>
+        </div>
+      </div>
+      <div class="ghost">10</div>
+    </div>
+
+    <div class="slide dark" data-theme="dark">
+      <div class="content">
+        <div class="eyebrow d1">11 / lo que se conserva</div>
+        <h2 class="d2">Simplificar no significa abandonar lo que sí le da valor al SIC-Q.</h2>
+        <div class="preserve-grid">
+          <div class="preserve-item d3">
+            <h3>Agente conversacional como interfaz.</h3>
+            <p>Sigue siendo el diferenciador principal entre ciudadanía, gobierno y datos.</p>
+          </div>
+          <div class="preserve-item d4">
+            <h3>Diálogo guiado para estructurar propuestas.</h3>
+            <p>La IA sigue reduciendo barrera de entrada y ordenando lenguaje ciudadano.</p>
+          </div>
+          <div class="preserve-item d4">
+            <h3>Clustering semántico y análisis HA.</h3>
+            <p>El valor técnico real permanece, solo deja de mostrarse como fase visible del usuario.</p>
+          </div>
+          <div class="preserve-item d5">
+            <h3>Feedback y rankings transparentes.</h3>
+            <p>La promesa central se mantiene: la voz ciudadana no desaparece en un hoyo negro.</p>
+          </div>
+          <div class="preserve-item d5">
+            <h3>Canales múltiples a futuro.</h3>
+            <p>WhatsApp, web y kioscos siguen siendo compatibles con inclusión territorial.</p>
+          </div>
+          <div class="preserve-item d6">
+            <h3>Instituto del Futuro como garantía.</h3>
+            <p>La continuidad transexenal sigue siendo una pieza política e institucional clave.</p>
+          </div>
+        </div>
+      </div>
+      <div class="ghost">11</div>
+    </div>
+
+    <div class="slide dark" data-theme="dark">
+      <div class="content">
+        <div class="eyebrow d1">12 / cierre</div>
+        <div class="accent-line d2"></div>
+        <h1 class="d3">La recomendación es simple: lanzar un sistema más pequeño, más legible y más defendible.</h1>
+        <div class="closing">
+          <p class="d4">Si el piloto quiere construir confianza, la experiencia debe ser sencilla para la ciudadanía y operable para gobierno. La simplificación propuesta no reduce ambición: ordena prioridades.</p>
+          <p class="d5">Siguiente secuencia recomendada: validar internamente, producir el citizens journey v04, separar la arquitectura backend y cerrar la decisión jurídica sobre verificación.</p>
+        </div>
+        <div class="cta-line d6">PREGUNTA EJECUTIVA / ¿qué simplificaciones aprobamos hoy para movernos a piloto?</div>
+      </div>
+      <div class="ghost">12</div>
+    </div>
+  </div>
+
+  <script>
+    const slides = Array.from(document.querySelectorAll(".slide"));
+    const progress = document.getElementById("progress");
+    const counter = document.getElementById("counter");
+    const watermark = document.getElementById("watermark");
+    const hint = document.getElementById("hint");
+    const deck = document.getElementById("deck");
+    let index = 0;
+
+    function themeClass(theme) {
+      if (theme === "light") return "on-light";
+      if (theme === "accent") return "on-accent";
+      return "on-dark";
+    }
+
+    function render() {
+      slides.forEach((slide, i) => {
+        slide.classList.toggle("active", i === index);
+      });
+
+      const current = slides[index];
+      const theme = current.dataset.theme || "dark";
+      const themeName = themeClass(theme);
+      const width = ((index + 1) / slides.length) * 100;
+
+      progress.style.width = width + "%";
+      counter.textContent = String(index + 1).padStart(2, "0") + " / " + String(slides.length).padStart(2, "0");
+
+      watermark.className = "watermark " + themeName;
+      counter.className = "slide-counter " + themeName;
+      hint.className = "hint " + themeName;
+    }
+
+    function next() {
+      if (index < slides.length - 1) {
+        index += 1;
+        render();
+      }
+    }
+
+    function prev() {
+      if (index > 0) {
+        index -= 1;
+        render();
+      }
+    }
+
+    document.addEventListener("keydown", (event) => {
+      if (["ArrowRight", "ArrowDown", "PageDown", "Enter", " "].includes(event.key)) {
+        event.preventDefault();
+        next();
+      }
+
+      if (["ArrowLeft", "ArrowUp", "PageUp", "Backspace"].includes(event.key)) {
+        event.preventDefault();
+        prev();
+      }
+    });
+
+    deck.addEventListener("click", (event) => {
+      const threshold = window.innerWidth * 0.35;
+      if (event.clientX < threshold) {
+        prev();
+      } else {
+        next();
+      }
+    });
+
+    render();
+  </script>
+</body>
+</html>
