@@ -1,431 +1,1503 @@
-# Zoom 11.03.2026 — Transcripción en español
+WEBVTT
 
-Traducción al español del archivo `zoom-transcript-11-03-2026.md`.
+Edgar Barroso: Mhm.
 
-Grabación en curso. Hola, buenas tardes. Hola, Sergio, ¿cómo estás? Ahorita solo estamos esperando. Ahí viene mi tocayo. Ok. ¿Qué onda, tocayo?
+iPhone de Sergio L. Ibarra: Hola, buenas tardes.
 
-¿Cómo estás, tocayo? Bien, ¿y tú? Buenos días también. Me agarró en un trayecto, pero me metí a un Starbucks para poder tener la reunión. Muy bien. Las 9. Ah, qué bueno.
+Edgar Barroso: Hola, Sergio, ¿cómo estás.
 
-O sea, los niños hoy dejaron dormir a su mamá hasta las 8, 8 y cachito. Este... ¿Qué temprano? ¿Tan chiquitos?
+iPhone de Sergio L. Ibarra: Y.
 
-Eso sí está un poco rápido.
+Edgar Barroso: Ahorita. Nada más. Estamos esperando Ahí viene, ya mi tocayo.
 
-Y aquí estamos ya en orden. Buenísimo. ¿Viste un poco de para qué es esta llamada? ¿Es para ver lo de finanzas que comentó Toño, no? ¿O cómo lo ven Sergio y Edgar?
+iPhone de Sergio L. Ibarra: De ahí.
 
-O sea, en teoría era para avanzar esto. Ah, perfecto, súper.
+Edgar Mohar: Y a.
 
-Y también no olvidar que traemos una presión, que Antonio no había dicho, porque en el resto de la administración están haciendo varias cosas con inteligencia artificial. Yo no creo que esto sea lo que parece; es más bien lo que definiste en la mañana, esfuerzos como lo que se está haciendo en atención al ciudadano, pero esto no tiene nada que ver con eso. Lo que sí quedó claro el lunes, como dijo Toño, es que tenemos que ponerlos en segundo plano.
+Edgar Barroso: Qué onda tocayo.
 
-Ok.
+Edgar Mohar: Como otras tocayo.
 
-Este, ves que le dije: oye, a ver si puedes empujar lo de finanzas para que sea después de que tengamos la reunión contigo, Toño. ¿Por qué? Porque creo que en esta reunión con Toño podemos aterrizar con finanzas, para que el de finanzas entienda que no es, como dice Sergio, un bot de atención al público de la CEA con inteligencia artificial, sino que este es el cerebro maestro que va a permitir juntar datos que hasta hoy viven aislados en silos y darles un potencial con ciudadanos, con funcionarios, etcétera.
+Edgar Barroso: Bien, y tú.
 
-Creo que si lo aterrizamos, pensaba hace rato en el CRM. Ay, perdón, se oyó raro. ¡Hola, Antonio! Sí.
+Edgar Mohar: Bien, también yo, aquí, en un me agarró en una este
 
-Hola, Toño.
+Edgar Mohar: en un trayecto, pero me metí en un Starbucks para poder este tener la reunión.
 
-No, no, habilidades no; tengo un montón.
+Edgar Barroso: Muy bien.
 
-Perdón, sigue, me toca.
+Edgar Mohar: ¿cómo estás tocayo? ¿tú ¿Qué horas allá para ti?
 
-En CRM, imagínate cosas interesantes como estas. Tú le das un nombre porque te vas a reunir con alguien, ya sea Toño, el ingeniero Ibarra o el gobernador. Le pones que va a ver a Edgar Barroso. Y entonces, lo que decíamos el otro día, empieza a buscar en distintas bases de datos. Va y busca todo lo que tenga que ver con síntesis. Entonces pones Edgar Barroso y te dice: "¿Quieres una ficha de este hombre?"
+Edgar Barroso: Las 9.
 
-Que traiga sus generales, ¿no? Dónde nació, qué partido, qué... ¿Quieres una recopilación de sus declaraciones recientes en prensa? También te puedo decir cuáles son mis acuerdos previos con este señor. Ah, bueno, entonces soy yo, soy el gobernador y me voy a reunir con él. Oye, me interesa todo. Hazme un resumencito de todo esto. O no, me voy a reunir con él y solo quiero, no me importa si debe impuestos o nómina.
+Edgar Mohar: De la noche y todo sereno.
 
-Quiero ahorita nada más acordarme de los últimos puntos de la reunión pasada o quiero ver la ficha que hizo mi particular sobre esto. Un resumen de una ficha que ni siquiera él tuvo que hacer. Si no existiera, si no estuviera en el CRM... Entonces eso lo hace muy poderoso. Es un caso de uso fuertísimo: que cuando vas a reunirte con alguien, por ejemplo, no te sorprendan, que no lleguen a reclamarte algo y resulte que deben impuestos.
+Edgar Barroso: Sí.
 
-Entonces el gobernador ya tiene, o Toño ya tiene: no manches, vienes aquí a pedirnos apoyo del gobierno y no has pagado tu impuesto, amigo, y además me estás exigiendo. No sé, creo que hay muchísimo potencial ahí. O, en el boletín de prensa, lo que decíamos, y luego me dice: "A ver, me interesa este tema. ¿Qué quieres? ¿Quieres que te dé las declaraciones de los distintos actores?"
+Edgar Mohar: Pues está bien.
 
-"¿Quieres que te diga cómo lo están cubriendo los medios? ¿Cuántos lo traen con enfoque positivo, cuántos negativo, cuántos neutral? ¿O quieres que yo...?" Esas propuestas automáticas e inteligentes creo que ahí es donde se puede hacer una diferencia, porque también está revisando un universo de datos e información, ¿no? No es una consulta a una sola base de datos, que de por sí ya es interesante cuando el gobernador no tiene acceso a esas consultas, ¿no?
+Edgar Barroso: Digo los niños. Hoy los durmió su mamá a las 8 8 y tantito.
 
-Como: oye, ¿cómo vamos en salud? Y te responde algo muy específico de una sola base de datos. Pero la integración panorámica de la información me parece que es el gran potencial. No sé si ya me alargué. No, para nada.
+Edgar Barroso: Es.
 
-Hola, Toño, ¿cómo estás?
+Edgar Mohar: Ohh.
 
-No, no quiere saludar, ya dijimos eso, ¿no?
+Edgar Barroso: Chiquitos.
 
-Muy apasionados con...
+Edgar Barroso: Y todos.
 
-Yo estudié mi carrera. Sí. Alguna vez yo era medio rico y medio meticuloso, pero una vez un profesor me tocó fibras sensibles. Dije: este profesor es...
+Edgar Mohar: Ahora está chiquitoso que.
 
-Matute, sí había computadoras.
+Edgar Barroso: Y este, y aquí estamos a la orden.
 
-Me estás ofendiendo, Genel Vargas. No voy a responder a tu agresión.
+Edgar Mohar: Buenísimo.
 
-Cuéntanos tu anécdota.
+Edgar Barroso: Oye, viste un poquito lo de, no sé exactamente para qué es esta llamada.
 
-Muy rápido, muy rápido. Pero obviamente no había, bueno, sí había computadoras, pero lo que no había eran sistemas de inteligencia. Además, lo hizo a la antigua, pero yo fui a ver al rector, que en ese tiempo era Rodolfo Loyola, hermano del exgobernador de Querétaro, y me recibió. Yo tenía buen expediente. Después me di cuenta de que me habían manipulado. Seguramente fue resultado de una ficha ejecutiva. Entonces sí creo que eso tiene muchísimo poder para reuniones de alguien como el gobernador, digo, sin el enfoque maquiavélico que le metieron Lolo y Antonio.
+Edgar Barroso: pero se o sea, es para ver lo de finanzas que comentó toño, ¿no? O como ven, Sergio y Edgar.
 
-Sí, a ver, si quieres, Toño, en realidad hicimos un esfuerzo enorme de ayer a hoy para enseñarte un prototipo y para que pudiéramos construir a partir de ahí. Mira, aquí lo voy a compartir. Básicamente puedes crear una nueva sesión. La idea es que empieces con lo más sencillo: puedes hablar con él, puedes cargar archivos, puedes elegir el modelo que quieras, ya sea en la nube o GPT o Gemini o lo que quieras.
+Edgar Mohar: O sea, en teoría, era para avanzarle en lo de otoño.
 
-Eso ya te da una ventaja sobre, por ejemplo, ChatGPT. Y luego, no hemos tenido mucho tiempo para ver la metodología que usamos, pero es la misma que usamos en los talleres. Entonces, para que empieces a ver las funcionalidades más allá del chat, las puedes ver aquí arriba. Entonces, bueno, desde el chat, por ejemplo, este es el tipo de cosas que puedes hacer. Déjame hacerlo más grande. Por ejemplo, aquí le pedimos que genere un briefing ejecutivo sobre la economía estatal.
+Edgar Barroso: okay.
 
-Entonces te hace un briefing. Y esto parece algo malo, pero la verdad es que es muy bueno porque no tenemos nuestros propios datos de la economía del estado de Querétaro. Entonces te avisa cuándo son datos oficiales, cuándo son datos curados por nosotros y cuándo son datos públicos. Lo que te dice es: no tengo esa información en mis datos, pero sí puedo acceder a bases de datos públicas. Entonces te da un resumen de la situación económica del estado, pero te advierte que lo tomó de internet.
+Edgar Mohar: Y y.
 
-Entonces aquí te dice el PIB, te pone una tabla, etcétera. Te dice cuáles son los sectores estratégicos de Querétaro. Te habla de la brecha territorial y te da las fuentes de Coneval y Conapo, porque fueron las que encontró. Te da las fuentes, te dice cuál es el vínculo con el PED 2021-2027, las recomendaciones operativas. Entonces, digamos que tienes un chat avanzado; por ejemplo, también te renderiza gráficas, es decir, no solo te dice los datos, sino que también te puede hacer gráficas dentro del mismo chat donde estás hablando con la cosa.
+iPhone de Sergio L. Ibarra: Era para avanzar en la de toño.
 
-Entonces, digamos que ya tienes una primera instancia de esto, del SIC. Y luego aquí es donde se pone bueno, tocayo. Aquí es donde puedes empezar a crear herramientas. Entonces, por ejemplo, lo que acabas de decir, digamos el legado, ¿no? El legado de Toño, el legado del gobernador, el legado de Sergio. Entonces puedes crear tus propios enfoques sobre el estado; le puedes decir al chat: "Oye, quiero que nos enfoquemos más en mujeres y niños y que apoyemos más a empresas de tecnología avanzada", lo que tú quieras, ¿no?
+Edgar Barroso: Perfecto. Súper.
 
-Entonces aquí podrías empezar a generar distintos tipos de lo que tú llamabas, tocayo, productos. Luego está la parte de comunidad; por ejemplo, aquí podríamos poner exactamente eso, un directorio de todas las personas con una ficha de cada una para que las puedas consultar. Por ejemplo, aquí hicimos un directorio de actores. Agua y saneamiento, alerta de déficit hídrico, total de alumnos inscritos, toda esta información la puedes buscar por municipio o simplemente por nombre.
+iPhone de Sergio L. Ibarra: No olvidar que traemos una presión que tengo. No había dicho desde que se están haciendo cosas
 
-Y luego aquí está lo que habíamos platicado: aquí está la base de conocimiento. Aquí, por ejemplo, ya está la constitución del estado y están todas las leyes estatales. Todas. O sea, toda la ley ya está cargada ahorita en el SIC. Entonces aquí están todas las leyes listas para consultarse. Y lo que decías, tocayo, puedes prender y apagar las bases de conocimiento. Por ejemplo, puedo decir: ahorita solo quiero ver la constitución del estado.
+iPhone de Sergio L. Ibarra: en el resto de la administración varias personas de inteligencia artificial.
 
-Entonces puedes apagar el resto y dejar encendida solo la constitución del estado. O quiero una fuente nueva. Quiero que te bases en una fuente, en este archivo, en una página web, en un API, en una base de datos o incluso en un servidor... la fuente para que ya quede en tu base de conocimiento. Entonces puedes, Toño... Oye... Va, va... Sí.
+iPhone de Sergio L. Ibarra: Yo no creo que se parezca a esto. Son lo que definiste en la mañana. Esfuerzos como el que está haciendo en la sea de servicio a los clientes, pero que no tiene que ver con eso.
 
-Estaría muy interesante si yo pudiera teclearlo en tu escritorio y entregártelo. Y sí se puede, lo que pasa es que no sé si en este nivel en el que estamos se pueda hacer así. Pero él me decía: oye, trae el problema que tienen los diputados. Entonces me dijo: "Oye, tú que ya fuiste diputado, te quiero preguntar algo. ¿Cómo funciona? Si votan en contra del presupuesto, ¿tengo que atender a sus recomendaciones y hay algún número de rebotes? Y si no, ¿ya se publica así? ¿O tengo que publicar el del año pasado? ¿O pueden hacer todo?
+iPhone de Sergio L. Ibarra: Pero lo que sí quedó claro el lunes. Lo dijo Toño es. Tenemos que meternos en una.
 
-Todos los cambios que quieran y me pueden descuadrar el presupuesto solo con mayoría absoluta, que es el 50 más 1?" Ese era su caso de uso. En teoría, eso se debería poder responder analizando las leyes, la ley orgánica del poder legislativo, para ver cómo funcionan las votaciones, lo que dice la propia constitución y la ley de hacienda. Entonces, si ya cargaste todas las leyes, en teoría, haciendo una pregunta
+Edgar Barroso: Okay.
 
-esto lo podrías resolver, pero no sé hasta dónde pudiéramos llevar ese caso de uso, pues... hasta el día de hoy, cuánto se podría responder con lo que tenemos y cuánto no.
+Edgar Mohar: Entonces yo un poco la la idea. Cuando salió lo cuando toño dijo que esta semana era de finanzas y que ya teníamos programado, ver a toño
 
-Mira, puedo intentarlo, pero sí, se va a poder responder. Esto fue lo que hicimos ayer en la noche, así que no sé si vaya a responder. Ya estoy poniendo la pregunta a ver. ¿Qué alternativas...? No, no necesito saber. ¿Qué alternativas le da la ley al poder ejecutivo? ¿Podría ser? Sí.
+Edgar Mohar: este que ves que le dije oye a ver si puedes empujarla de finanzas a que sea. Después de que tengamos la reunión contigo toño, porque porque creo que en esta reunión de con toño podemos aterrizar
 
-Yo le quitaría la T.
+Edgar Mohar: a lo que decíamos el otro día de productos y casos de uso muy concretos que los tengamos de ejemplo con lo de finanzas para que el de Finanzas se entienda.
 
-¿Qué alternativas le da la ley al poder ejecutivo? Ah, sí, perdón.
+Edgar Barroso: Mhm.
 
-Leda, Leda... ¿Ves? Oye, compadre. Al poder ejecutivo. Compárteme los diversos escenarios. Eso es. Ahora, ¿cómo lo estás limitando para que responda solo con nuestra base de conocimiento? O sea, que realmente se base en las leyes y en el marco jurídico. ¿Tienes más preguntas?
+Edgar Mohar: Que justamente no es lo que dice Sergio. No, no es un bot de atención al público de la Sea con inteligencia artificial, que no es sino que este es el.
 
-Lo puse porque va a tardar un poco, porque le puse el más avanzado. ¿Te acuerdas que había una señal de advertencia que decía "esta información no está en mi base de conocimiento curada"? Correcto. Te va a avisar cuándo está consultando su propio entrenamiento y cuándo está consultando lo suyo.
+Edgar Barroso: El cerebro maestro no que va a permitir.
 
-En este caso, está consultando su propia biblioteca.
+Edgar Mohar: Juntar datos que hasta hoy viven aislados en siglos.
 
-Sí, porque ayer cargamos todas las leyes. Hay una página muy buena que tienen que se llama literalmente "Gobierno del Estado slash leyes".
+Edgar Barroso: Mhm.
 
-No estoy seguro de que esas leyes estén actualizadas.
+Edgar Mohar: Y darles un potencial tanto con ciudadanos, con no con los funcionarios, con etcétera, etcétera. Entonces creo yo que si aterrizamos yo hace rato, pensaba ya, te en el.
 
-Sí, justo. Aquí está, mira.
+iPhone de Toño: Una disco.
 
-En este caso, sí. Sí, ya está respondiendo.
+Edgar Mohar: ¡ay, perdón. Se vio ahí raro en en.
 
-Entonces espérame. Ah, porque además, mira, no sé qué estás haciendo con... Gracias. Mira qué bonito: escenario 1, escenario 2, controversias constitucionales, escenario 4, escenario 5. Luego te los leo, nomás deja que siga generando.
+Edgar Barroso: No.
 
-Impacto específico para la Secretaría de Planeación. Estamos en el de Toño.
+Edgar Mohar: Ahí llegó. Don. Antonio.
 
-Estamos en el de Toño. Sí, estamos en el de Toño. Ok.
+Edgar Barroso: Ya.
 
-Está bien, está bien.
+Edgar Mohar: Hola. Toño.
 
-Perdón por los acentos, eso fue algo que perdimos, nos dimos cuenta hace como 20 minutos y no lo pudimos corregir, pero no va a tener ningún error ortográfico. A ver, aquí está. Escenarios ante la... Déjame hacerlo más grande para que lo veas. Escenarios ante la no aprobación del presupuesto. La pregunta relevante desde la perspectiva de planeación es la tuya, Toño: la operación de programas sectoriales, compromisos del PED y acciones derivadas de participación.
+Edgar Mohar: No nos quieres saludar. Tony.
 
-Marco normativo: la Constitución Política del Estado Libre y Soberano de Querétaro. Artículos relativos a presupuesto, contabilidad, gasto, etcétera. Proceso ordinario, escenarios. Escenario 1: reconducción presupuestal. Operar el presupuesto del ejercicio fiscal anterior como base mínima de operación. Perdonen los falsos autógrafos, soy hijo de maestra, así que esto sí me mueve un poco. ¿Se aplica el principio de reconducción?
+Edgar Barroso: Sí, perdón. Q Siguele tocayo.
 
-¿El gobierno sigue ejerciendo gasto con base en el presupuesto previamente aprobado?
+Edgar Mohar: En en el crm, imagínate cosas así de interesantes. Tú le pones un nombre porque te vas a reunir con alguien, ya sea toño, sea aquí el ingeniero ibarra sea el gobernador. Entonces le ponen a ver Edgar Barroso.
 
-Perdón, perdón. Muchachos.
+Edgar Barroso: Mhm.
 
-Perdón. Te estás cortando, Toño, y no sé si te estoy interrumpiendo, manito. Sí.
+Edgar Mohar: Y entonces lo que decíamos el otro día empieza a buscar en distintas bases de datos. Este a ver va y busca en donde está todo lo que tiene que ver con síntesis.
 
-Y no. Entiendo.
+Edgar Mohar: Y entonces te pone de entrada, tú le pones Edgar Barroso y te dice, ¿quieres una ficha de este señor que trae sus generales. No.
 
-¿Alguien entendió, colegas?
+Edgar Barroso: De dónde nació, de qué partido. No sé qué.
 
-¿Puedes repetir la respuesta?
+Edgar Mohar: Quieres una recopilación de sus declaraciones recientes este en prensa, en caso que tenga declaraciones en prensa que sea un actor
 
-Claro. Te la leo. Este es tu agente. Entonces ya está para planeación. Dice: escenarios ante la no aprobación del presupuesto por el Congreso de Querétaro. Gracias. ...de las entidades federativas y municipales, estados aplicables y la Constitución Política de los Estados Unidos Mexicanos, artículo 116 y principios generales. Proceso ordinario. El Ejecutivo estatal presenta la iniciativa de ley de ingresos y el proyecto de presupuesto de egresos al Congreso antes del plazo establecido, generalmente en noviembre y diciembre de cada año.
+Edgar Mohar: público. No.
 
-El Congreso analiza, modifica en su caso y aprueba ambos instrumentos antes del inicio del ejercicio fiscal el 1 de enero. Escenarios si el Congreso no aprueba el presupuesto. 1. Reconducción presupuestal. 2. Aprobación tardía. 3. La legislación estatal genera un vacío legal. El Ejecutivo podría argumentar la obligación constitucional de garantizar los servicios públicos esenciales y ejercer un gasto mínimo bajo su responsabilidad.
+Edgar Mohar: este quieres ver qué hay en las bases de datos de gobierno relacionados con él. A lo mejor es beneficiario de algún programa social, a lo mejor debe impuestos sobre nómina, y está en un proceso judicial con la Secretaría de Finanzas. A lo mejor este.
 
-Este escenario es de mayor riesgo constitucional y podría derivar en juicio político o responsabilidades administrativas para ambos poderes. Impacto específico en la Secretaría de Planeación, como la tuya, Toño. Te dice: en el escenario 1, reconducción, solo continúan programas existentes del ejercicio anterior, operación básica sin nuevos mecanismos. Funciona con recursos previos y la coordinación intersectorial se limita a los compromisos actuales.
+Edgar Mohar: etcétera, etcétera. O sea, puede aparecer en distintas bases de gobierno del Estado.
 
-Y luego te da los principios jurídicos que protegen al Ejecutivo. Principio de continuidad del Estado: el gobierno no puede dejar de funcionar por falta de presupuesto aprobado. El principio de reconducción presupuestal, aunque no siempre es explícito en la legislación estatal, en la jurisprudencia y la práctica constitucional se reconoce como un mecanismo de salvaguarda. La obligación de garantizar derechos fundamentales, salud, educación, seguridad y servicios básicos, no puede suspenderse.
+Edgar Mohar: y también te puedo decir cuáles son mis acuerdos previos con este señor? Ah, bueno, entonces soy yo. Soy el gobernador. Me voy a reunir con él, oye, me interesa todo. Hazme un resumencito de todo esto o no me reuní con él. Sólo quiero. No me importa si debe impuesto sobre nómina. Quiero ahorita, nada más
 
-Y la ley de disciplina financiera establece techos y reglas que operan independientemente de la aprobación del presupuesto anual. Recomendaciones operativas para tareas de planeación: preparar un plan de contingencia presupuestal que identifique los programas y compromisos del PED que son ineludibles bajo cualquier escenario. Clasificar los 65 retos del PED en tres niveles: operación garantizada, reconducción; operación en riesgo, requiere nuevo presupuesto; y operación suspendida, programas nuevos.
+Edgar Mohar: acordarme los últimos puntos de la reunión pasada, o quiero ver la ficha que hizo mi particular sobre esto. Un resumen de una ficha no.
 
-Documentar compromisos intersectoriales con fecha límite para negociar prioridades con finanzas antes de cualquier restricción. Mantener la operación de participación ciudadana como función esencial con estructuras existentes. La respuesta está muy buena, la verdad...
+Edgar Barroso: Qué?
 
-Ok, eso está bastante interesante. Ok, ese es un caso de uso.
+Edgar Mohar: Que ni siquiera lo tuvo que hacer más bien que le alimentó datos.
 
-Sí, eso se puede hacer ya, desde ahorita.
+Edgar Barroso: Sí.
 
-Lo que hubiera pasado en este caso es, a ver, que venga el Secretario de Finanzas o donde esté, ¿no? Entonces que venga o pregunte. Entonces lo que hace es una ficha o lo que sea; no le va a dar toda esta información. ¿Sí me explico? Sí. Entonces creo que este caso de uso es bastante, bastante interesante. Está interesante. Todas las funciones del Congreso, por ejemplo. Oye, ¿qué nombramientos quedan que requieren dos terceras partes de aprobación en el Congreso en lo que queda de mi periodo?
+Edgar Mohar: Si no existían si no estaba todo en el terreno.
 
-Eso es muy importante, aunque ahí sí necesitamos alimentarlo con las fechas y periodos de cada uno de los magistrados, de los fiscales, etcétera.
+Edgar Mohar: entonces eso, pues lo hace muy potente. Es un caso de uso muy cañón de que cuando te vas a reunir con alguien, pues, por ejemplo, que no te sorprenden no que no te van a reclamar ahí. No sé qué cosa y resulta que debe impuestos.
 
-Así es.
+Edgar Mohar: entonces ya tiene. ¿ya tiene el el gobernador o ya tiene toño una no manches, o sea, vienes aquí a pedirnos un apoyo gobierno de estado y no no has pagado ni tu impuesto sobre nómina compañero y nos estás demandando en.
 
-Sí, eso hay que subirlo porque es un caso raro. Acuérdate: este año, ¿qué debo modificar o qué debe nombrar el Congreso con dos terceras partes? Y te va a decir: ah, bueno, ya es tarde porque en marzo se renueva el fiscal anticorrupción, que lleva 12 años en el cargo, es fulano, no tiene derecho a reelección y se requieren las dos terceras partes de los votos.
+Edgar Mohar: no sé. O sea, creo que ahí tiene muchísimo potencial o esté en el boletín de prensa lo que decíamos
 
-Luego en abril se puede modificar, hay que cambiar a tal magistrado. O sea, creo que esa parte también es un caso de uso importante: todas las alertas en términos de tiempos, nombramientos, lo que el Congreso debe operar año con año. Ese es un caso de uso permanente. Otro. Oye, déjame preguntarte algo: un calendario electoral según la ley electoral del estado de Querétaro. Dime cuándo inicia el periodo.
+Edgar Mohar: antes, no ya tienen. Ya tienes productos que ya existen. Okay como esta cosa los vuelve mucho más potentes.
 
-Hazme un calendario en el que me digas cuándo comienza el periodo electoral. Cuándo, según la ley, son las precampañas y cuándo es el periodo para registrar candidatos ante el Instituto Electoral de Querétaro. También hazme un calendario de los cargos federales. Oye, a ver, la oposición va a jugar en el estado de Querétaro, tomando en cuenta regidurías, todo lo que tenga que ver con eso, ¿no?
+Edgar Barroso: Sí.
 
-Presidentes municipales, gobernador. Oye, dime según la ley, porque quieren reelegirse, cómo fue su resultado electoral en 2024 y en ese mismo distrito cómo fueron los resultados electorales en los años anteriores. Dime en una tabla cuántos votos hemos crecido, porcentaje de votación en ese distrito, para verlo comparativamente con la historia. Sí. Este otro que tiene que ver con... O sea, todo el tema electoral. Yo les voy a tener que dar toda la información que tenemos del padrón o del listado electoral completo
+Edgar Mohar: Tú, yo veo mi boletín perfecto. Pero si escojo una nota.
 
-para que se puedan hacer todos los cruces y todo lo que se le ocurra al gobernador preguntar. Bueno, hasta ahí te he dado varios casos. Buenísimos. Adelante. Buenísimos.
+Edgar Mohar: y entonces me dice a ver este tema, me interesa? ¿qué quieres quieres que te dé las declaraciones de los distintos actores? Quieres que te diga cómo la están, cómo le están cubriendo los medios en cuántos traen una un enfoque positivo, un enfoque negativo, un enfoque neutro
 
-Bueno, si quieres, probamos algunos, y si no, está bien. Solo hay que revisar que los datos, bueno, los que no tenemos, nos los pases, Toño. Pero la infraestructura ya la tenemos; nada más hay que subir las bases.
+Edgar Mohar: o quieres que te no, Esas propuestas automáticas e inteligentes.
 
-Según yo, eso es público en el Instituto Electoral del Estado de Querétaro. ¿No lo pueden sacar?
+Edgar Mohar: Este me parece que es donde puede hacer un diferenciador, porque además está checando un universo de datos y de información. No, No es, no es una consulta a una base de datos que ya
 
-Sí, lo podemos sacar. ¿Cómo se llama?
+Edgar Mohar: por sí misma es interesante cuando el gobernador no tiene acceso a esas consultas. No como oye cómo vamos este en en abasto de salud. Y te contesta algo muy puntual de una sola base de datos, pero la la integración de información panorámica me parece que es el el gran potencial.
 
-Instituto Electoral del Estado de Querétaro.
+Edgar Mohar: No sé si ya me volé, tocayo.
 
-Sí, pero ¿qué quieres saber?
+Edgar Barroso: No para nada. Hola. Toño, ¿Cómo estás.
 
-Ah, pues todos los datos, los números, todos los resultados del proceso electoral 24, 21, 18, 15. Todos esos datos deben ser públicos en la página del Instituto Electoral del Estado de Querétaro. Pero déjame preguntar quién nos trae toda esa información, para saber cómo lo hace, tenerlo garantizado y cómo podemos ayudarle para que realmente lo que estamos subiendo sí sea información curada.
+Edgar Mohar: No nos quiere saludar. Ya habíamos dicho: no.
 
-Sí, mira, lo que puedo hacer es, si puedo... Mira, una de las cosas buenas de esto es que le puedes decir a la cosa si quieres que se conecte a internet o no. Entonces aquí está noticias y prensa, por ejemplo. Aquí, en esta parte de contexto, puedes ver que hay una alerta de déficit hídrico en la zona metropolitana de Querétaro y ahí está la fuente: la CEA Querétaro, Diario de Querétaro.
+Edgar Barroso: Sí.
 
-Te voy a decir otro caso de uso en medios que el gobierno tiene en mente. Oye, dame un análisis de los medios en Querétaro: cuántas notas cubren a Felifer Macías, que es el alcalde, y cuántas notas están cubriendo a Luis Bernardo Navas; y que en ese mismo análisis me digas cuántas son a favor, cuántas son neutrales y cuántas están en contra. Básicamente. En la última semana, o hoy, o en el último mes.
+iPhone de Toño: Qué onda, cómo están? ¿es que los veo muy, este, muy apasionados con
 
-Está bueno. Está bueno. Déjame probar primero con lo electoral. Pero bueno, aquí están. También aquí, Sergio, una cosa que tú nos dijiste era de los proyectos más importantes. Aquí el gobernador, o tú, Toño o Sergio pueden traer los proyectos emblema y saber cómo va cada uno. Pero déjame ver si hace aquí lo que queremos que haga. Dime, ¿cuál fue el principal resultado del proceso electoral de 2024?
+iPhone de Toño: con que el gobernador quiere saber todo de la gente. Señor.
 
-Sí, en 2024. Ok, con eso. Va a hablar un poco. ¿Pero qué le estás preguntando?
+Edgar Barroso: Sí, exacto. Ya aquí es una. Estaba pensando que es una herramienta de coacción en serio.
 
-Solo que me dé los principales resultados del proceso. Ok. ¿Pero te está avisando esa cosa que dice ahí?
+Edgar Mohar: De cojo.
 
-No alcanzo a ver dónde dice eso.
+Edgar Barroso: Versión de la.
 
-Creo que lo detuve por "way". Lo vuelvo a poner aquí. Ok. Ahí está. Le voy a poner una X con el opus. Ahí está. Entonces, Toño, está analizando la consulta. Va a tardar un poco porque es un buen modelo. Pero bueno, va a buscar la información. Aquí está, mira, aquí está la fuente. Entonces te avisa y te dice: "Instituto Electoral del Estado de Querétaro, proceso electoral 2024, histórico, gobierno, ciudadanía, conocimiento".
+iPhone de Toño: Estamos ya estamos derivando.
 
-Y ahí está el agente de investigación. Va a tardar, está procesando, pero ya te va diciendo qué fuentes está buscando.
+Edgar Barroso: Mira. Debes impuestos aquí.
 
-Está consultando. Exactamente.
+Edgar Mohar: Es que me.
 
-Y así sabes que ya no necesariamente está consultando nuestra base de conocimiento, sino que está consultando en internet, básicamente. Y este es el agente que lo está usando. Entonces sí, va a tardar; los agentes tardan. Y mira, por ejemplo, aquí ya terminó la investigación y ya empezó el análisis.
+Edgar Barroso: De de.
 
-Ok, entonces tenemos cuatro. Tenemos cuatro. Uno es búsqueda, otro es análisis y los otros... ahorita te digo.
+Edgar Mohar: Déjenme, les cuento una anécdota en el que sume súper manipulado. Pero todos nos salí muy contentos. No sé si lo mencioné alguna vez, pero cuando estaba yo en el Tec de Monterrey, estudió mi carrera. Si alguna vez
 
-Pero bueno, esos son, digamos, los que puedes... mira, aquí está tecnología, agentes. Tienes uno de investigación, uno de análisis, uno de producción y uno de validación. ¿No? Ok. Entonces... ahí está. Proceso electoral, Instituto Electoral del Estado de Querétaro. Situación del sistema, y está creando esta cosa. Mira, aquí está. Dice... Oye... Dime, dime, dime.
+Edgar Mohar: yo era poco rijoso y poco metiche. Pero alguna vez un maestro me tocó fibras sensibles. No dijiste maestro. Si.
 
-Y una pregunta, por ejemplo: la información que nos está arrojando, o sea, esta información que ya analizaste y procesaste, ¿de alguna manera genera conocimiento o solo nos la da? Y cuando le volvemos a preguntar lo mismo, ¿hace todo el proceso otra vez? ¿Cómo funciona esa parte?
+iPhone de Sergio L. Ibarra: Y ella.
 
-Dime, ¿ves esta parte de la izquierda? ¿La alcanzas a ver? Sí. Pero a diferencia de ChatGPT, esto se va al SIC. Ok. Y también puedes...
+Edgar Mohar: Muy.
 
-Dime, dime, dime. ¿Y cómo va a...? ¿Cuál es la instrucción? ¿Qué está pasando con eso?
+iPhone de Sergio L. Ibarra: Matute Ya había computadoras, no.
 
-Lo que hace es que empieza a evolucionar, a aprender qué es lo que le estás preguntando. Entonces, por ejemplo, si le preguntas sobre algo electoral, va a decir: oye, hoy nos preguntaron que el 60% de las preguntas eran sobre temas electorales. Entonces vamos a fortalecer la parte electoral. Y entonces se van entrenando, bueno, no es entrenamiento, es contextualización. Entonces los agentes van siendo cada vez mejores en lo que se les pregunta.
+Edgar Mohar: Está usted ofendiendo. No voy a contestar su agresión.
 
-Gracias.
+iPhone de Sergio L. Ibarra: Cuenta tú a cuenta tu anécdota.
 
-Creo que sería interesante para el gobernador: oye, bueno, por lo que me has preguntado en las últimas semanas, creo que te va a interesar la respuesta en este sentido.
+Edgar Barroso: Bueno.
 
-Exactamente, sí, eso lo podemos hacer. Eso sí.
+Edgar Mohar: Rápido. Muy rápido, pero obviamente no había One. Sí, había computadoras. Lo que no había era sistemas de inteligencia, y más lo hizo a la antigüita. Pero fui a ver al rector que en esa época era Rodolfo Loyola, hermano del ex Gobernador queretano
 
-Sin duda. Gracias.
+Edgar Mohar: este. Y me recibió, pues, como un güey que hizo la tarea que tal Edgar, cómo estás oye. Ya estás por graduar, ¿verdad? Falta un año. Este, aunque veo que no sé qué, o sea, sabía todo de mí. Obviamente, pidió un expediente antes de recibirme.
 
-Ok. Bueno, sí. Ok.
+Edgar Barroso: Mhm.
 
-Eso ya está hablando de una... Apenas...
+Edgar Mohar: Y este. Y entonces me desarmó cañón de mi queja. Y me dijo, sí, oye con este maestro. Si vamos a atender el asunto, no te preocupes. Yo me fui encantado, me batió,
 
-Yo iba a decir lo mismo, pero no me emocioné. No me emocioné porque no le tengo tanta confianza a Toño.
+Edgar Mohar: No resolvió nada, pero me fui muy contento de que sabía quién era yo y me tenía bien registrado. Ya después caí en cuenta que me había manipulado porque
 
-Es una autocracia. Exactamente. Ya dijo quién va a ser el gobernador y por qué.
+Edgar Mohar: seguramente había sido el resultado de una ficha ejecutiva Este, entonces sí, sí creo que eso tiene mucho poder para la.
 
-Por decreto. Por decreto de Toño. Yo votaría por ti si pudiera votar en Querétaro.
+Edgar Barroso: No es un es.
 
-No, ya no va a haber votos, al parecer. Ah, hombre. Oye. Bueno, hagamos el cierre, porque vamos a revisar.
+Edgar Mohar: De alguien como el gobernador. Y de este. Digo, sin una sin un enfoque maquiavélico como el que luego le pusieron
 
-Ok.
+Edgar Mohar: tú y Antonio.
 
-¿Sí se concretó mañana lo de finanzas o no, Toño? Ah, perdón, no te oí. Estoy aquí viendo si puedes. Va a ser hoy a las 7. No, no es cierto. No, la idea es el viernes a la 1. ¿Cómo ves? Sí, perfecto.
+Edgar Barroso: Sí. A ver si quieres toño, yo nosotros. La verdad es que hicimos un esfuerzo enorme de prácticamente de ayer a hoy para mostrarles un prototipo
 
-Ok.
+Edgar Barroso: y que pudiéramos irlo construyendo desde ahí. Miren aquí. Lo voy a compartir.
 
-Y Edgar también está invitado. Muy bien. Quién sabe, ya tiene comida.
+Edgar Barroso: Entonces, bueno, fundamentalmente, 1 puede crear una nueva sesión.
 
-No, no, no, yo ya estoy apartado.
+Edgar Barroso: Aquí está, digamos, la idea de que tú empieces con lo más sencillo, ya puedes hablarle con vos. Puedes hablarle cargarle archivos. Puedes escoger el modelo que tú quieras.
 
-Ya estoy apartado. Tocayo, te voy a mandar dos de mis casos de uso que sugiero que incluyamos para ver si pueden entrar, y si no, obviamente no vamos a tener todos los datos ahorita, pero si la gente lo sugiere y dice: "¿Quieres que te dé esto?" aunque no tengamos... En fin, te lo mando y lo platicamos.
+Edgar Barroso: ya sea Cloud o G, P. Ts, o jemina, o lo que tú quieras que eso ya te da una ventaja sobre, por ejemplo, Chat, G, P, T, No.
 
-Sí, mándamelo. Yo grabo esto.
+Edgar Barroso: Y luego nosotros no hemos tenido mucho tiempo de ver la metodología que nosotros hacemos, pues es la misma que usamos en los talleres. Entonces, para que tú empieces a ver las funcionalidades más allá del chat, las puedes ir viendo acá. Arriba.
 
-Al menos ya vimos que uno de los casos sí le atinó, que es lo que pasa con el presupuesto.
+Edgar Barroso: Entonces, bueno, del chat, por ejemplo, este es el tipo de cosas que puede ir haciendo. Déjeme, lo hago más grande.
 
-Exacto. Entonces, viernes a la 1:00, ¿verdad?
+Edgar Barroso: Entonces, por ejemplo, aquí le pedimos genera un briefing ejecutivo sobre la economía estatal. ¿no? Entonces hace un briefing.
 
-Sí, ya cerramos la llamada, ¿no?
+Edgar Barroso: Y esto parece algo malo. Pero la verdad es que es muy bueno, porque no tenemos datos de economía estatal de Querétaro nuestros entonces te avisa
 
-No.
+Edgar Barroso: cuando son datos oficiales y cuántos, cuando son datos curados por nosotros. Y cuando son datos públicos, entonces lo que dice es. Yo no tengo en mis datos curados esa información, pero
 
-A lo mejor estoy volado, pero a mí sí me gustan mucho esas cuentas donde tú, el gobernador, quien sea, ponen un lugar: San Juan del Río. Y entonces automáticamente la inteligencia te dice: "Ok, ¿qué quieres? ¿Quieres que te dé un análisis de la cobertura de los servicios del gobierno del estado ahí? ¿Quieres que te diga cómo va el tema de beneficiarios de programas sociales?
+Edgar Barroso: yo sí puedo accesar bases de datos públicas, entonces te hace un resumen de la situación económica estatal.
 
-¿Quieres que te diga los temas mediáticos que han estado pegando o que han estado presentes en los medios locales en San Juan? ¿Quieres que te haga una relación con actores?" ¿Sí me oyen? Sí.
+Edgar Barroso: Pero esto te avisa que lo tomó de Internet, ¿no? Entonces aquí te dice el Pib.
 
-A mí no. Sí, también, a los dos. Yo los oigo bien a los dos.
+Edgar Barroso: te dice una tabla, etcétera. Te pone cuáles son los sectores estratégicos de querétaro. Te dice la brecha territorial, territorial y te da las fuentes de coneval y con appo, porque esas son las que encontró. Te dice las fuentes, te dice cuál es la vinculación con el 2, con el Pet.
 
-Yo tampoco oigo bien a todos, pero creo que Toño no nos escucha, y por eso dice: ¿me oyen?, ¿me oyen?, ¿me oyen?
+Edgar Barroso: 2 021, 2 027 las recomendaciones operativas. Entonces, digamos, tienes un chat avanzado, por ejemplo. También te da las te te renderea
 
-Mira, tocayo, nada más para que veas, aquí están tus fichas temáticas.
+Edgar Barroso: las las gráficas, o sea, no nada más. Te dice el dato, sino también te pueden hacer gráficas dentro de
 
-Cambié de pantalla.
+Edgar Barroso: de la misma del mismo chat donde tú estás hablando con la cosa. Entonces, digamos, ya tienes una una primera infancia, una infancia, una primera instancia de esto del Cic. Y luego aquí es donde se pone. Bueno, tocayo.
 
-Ah, mira, si te vienes a productos... y vienes a ver tu galería de productos, aquí te hace cosas comparativas, por ejemplo entre Querétaro, La Corregidora, etcétera. Te hace, por ejemplo, tu ficha temática. Ok.
+Edgar Barroso: Aquí es donde tú puedes empezar a crear herramientas. Entonces, por ejemplo, eso que acabas de decir, vamos a decir el legado, no el legado de toño, el legado del gobernador, el legado de Sergio.
 
-Pero, por ejemplo, actores clave, el nombre del alcalde, quiénes son los principales actores de oposición, etcétera, de ese lugar, por ejemplo, también lo podríamos poner.
+Edgar Barroso: Entonces tú puedes crear tus propias reflexiones sobre el estado. Oigan. O sea, tú puedes decirle al chat, oye, Quiero que nos enfoquemos más en mujeres y niños, y que apoyemos más a las empresas de tecnología avanzada lo que tú quieras no. Entonces aquí podrías empezar a generar diferentes tipos de lo que tú llamabas productos tocayo.
 
-Sí, claro. Y mira, por ejemplo, esto también tiene geolocalización, por ejemplo, de entidades. Estas son las bases de datos que nos compartieron tus colegas, Sergio. Entonces, por ejemplo, Hospital General de Querétaro, Hospital de Especialidades del IMSS, etcétera. Y ya los puedes ubicar aquí, etcétera. Tienes un mapa de identidad, tienes proyectos, compromisos. Aquí está el plan de Querétaro. Aquí va a estar el plan, todavía no está.
+Edgar Barroso: Luego está la parte de comunidad, Por ejemplo, aquí podríamos poner exactamente eso. Un directorio de todas las personas con una ficha de todas las personas para que tú las puedas ir consultando. Por ejemplo, aquí hicimos un directorio de actores
 
-Y aquí, mira, aquí, perdón, en tecnología, aquí están las habilidades. Entonces eso era lo que te quería enseñar, Toño. Avísame si lo puedes ver. Entonces tú decides...
+Edgar Barroso: entonces de agua y saneamiento de alerta por déficit hídrico, alumnos inscritos. Total, Toda esta información
 
-Espérame un segundo, por favor. Porque llegué aquí a otro lugar y me interesa. Necesito... Gracias. Voy a entrar por otro dispositivo, para que me den acceso, por favor.
+Edgar Barroso: que tú puedas irlos a buscar por municipio, o que simplemente los busques por nombre.
 
-Claro. Mmm. Y tocayo y Sergio, ¿esto sí es posible hacerlo en un día? Porque lo estamos pensando desde la infraestructura del SIC. Entonces, si ya tienes esa infraestructura, puedes generar productos bastante razonables en súper poquito tiempo. Entonces, ¿te acuerdas, tocayo, que me dijiste: bueno, de aquí al viernes no vamos a esperar a esto? Pero mira, el equipo se puso las pilas y aquí estamos.
+Edgar Barroso: Y luego aquí está lo que habíamos hablado aquí. Está la base de conocimiento.
 
-No está terminado. Eso sí está seguro.
+Edgar Barroso: o sea aquí. Por ejemplo, aquí está ya toño. Ya está la Constitución del Estado y están todas las leyes estatales, todas.
 
-Pero es muy impresionante. O sea, creo que tenemos que hacer la aclaración, tenemos que decir: oye, obviamente esto no está terminado, le falta información, hay opciones de mejora. Hay opciones de mejora en la interfaz, pero esto ya es una demostración funcional de lo que está detrás, que son los agentes.
+Edgar Barroso: o sea, ya está toda la ley cargada en el zig ahorita.
 
-Tú les das a las personas las habilidades que quieres. Si no quieres que se conecte a internet porque solo quieres consultar nuestras fuentes de datos, simplemente lo apagas y ya. Y luego, en aprendizaje, ahí están las bases de conocimiento. Entonces sabes qué hay en tu agente, que es muy importante, y también puedes subir documentos.
+Edgar Barroso: Aquí están todas las leyes, ya listas para ser consultadas.
 
-¿Cuántos datos tenemos ahí? Infinitos. Pero ¿cuántos tenemos ahorita?
+Edgar Barroso: y tú, lo que tú, lo que tú decías tocayo. Sea tú puedes prender y apagar las bases de conocimiento. Entonces, por ejemplo, yo puedo decir ahorita, nomás, quiero ver, No sé la constitución del Estado, entonces puedes apagar las demás y prender sobre la constitución del estado o quiero una nueva fuente.
 
-Ahorita esto es lo que tenemos.
+Edgar Barroso: Quiero que te bases en una fuente, en este archivo, en una página web, en una I P, hay en una base de datos o en un servidor, incluso no. Y entonces tú le pones el título. Le pones la descripción y crea la fuente para que ya esté en tu base de conocimiento. Entonces tú puedes toño.
 
-Base de conocimiento. Todavía no hemos conectado nada en tiempo real. No, pero vamos. Esa parte, ¿cómo va?
+iPhone de Toño: De España.
 
-Vamos. Con salud nos vamos a conectar así.
+Edgar Barroso: Dale, Dale.
 
-Y con el de programas sociales de la tarjeta con ustedes no los han puesto, pero Sergio, no sé si tengas noticias de esos colegas. Me va a matar Sergio.
+iPhone de Toño: Sí. A ver. Sí, este a ver, déjame, Te pongo un caso de uso.
 
-Sí, ¿verdad? Tú estás aquí. Ah, sí, claro. Pero era para que nos dieran los datos y esas cosas. O sea, querían saber qué tipo de relación teníamos.
+Edgar Barroso: Ver que.
 
-Pero esos cuates trabajan conmigo. O sea, realmente esos cuates... ¿Ah, sí? O sea... ¿qué pasó?
+iPhone de Toño: Gobernador me pidió la vez pasada.
 
-Entonces, yo no creo que haya problema ahí, Antonio. Nos vamos a conectar seguro. Los de salud, incluso ya tenemos la fecha; el tocayo estuvo en la llamada. Nos dan acceso hoy o mañana a las bases de datos y el martes a otra base que también es un agente, y eso también va a quedar conectado. Entonces sí, también se va a conectar con cosas en tiempo real. Entonces lo interesante es que vamos a poder hacer crecer las funcionalidades de las personas.
+Edgar Barroso: A ver.
 
-Van a tener sus propios proyectos, sus noticias y prensa, agendas y compromisos, alertas, todo lo que quieran, lo vamos a poner aquí. Y te vas a poder comunicar con todo eso desde este chat que está conectado a todo lo demás. Ok.
+iPhone de Toño: Que sería muy interesante que en su escritorio lo pudiera teclear y le pudiera dar. Y si se puede, lo que pasa es que no sé si a este nivel en el que estamos se puede, se puede así, pero me dijo, oye das cuenta que él traía trae la bronca de que los diputados
 
-Listo. Estamos fundidos, ¿eh? Sí.
+iPhone de Toño: de la oposición son más que los diputados del Gobierno.
 
-Déjame dejar de compartir. Y nos quedamos en el caso de uso tuyo, tocayo, creo, ¿no? Ahora que ya acabó Toñón.
+Edgar Barroso: No afines al gobierno.
 
-Edgar, te toca. Edgar, Mohar, Kuri. Curibreña.
+iPhone de Toño: Entonces traía mucho el riesgo de que le votaran en contra el el Este. El presupuesto el año pasado.
 
-Yo tengo dos casos de uso, que son... En los últimos seis meses ha tenido muchas apariciones en medios, lo han mencionado tantas veces, normalmente con un enfoque más favorable en estos medios. En fin, que la IA te sugiera una serie de productos para tus casos de uso, ya sea que te vayas a reunir o que quieras, o estés pensando, en lo que decías hace rato. Viene un candidato a verte y entonces quieres saber sus resultados electorales; es decir, a partir de un nombre, que dispare automáticamente una serie de medidas posibles que crucen distintas bases de datos, ya sea de un lugar, de una persona o de un programa, por ejemplo.
+Edgar Barroso: Sí.
 
-Ok.
+iPhone de Toño: Entonces me dijo ya ver tú que ya fuiste diputado. Te quiero preguntar algo.
 
-Perdón, perdón, me perdí un poquito. Mira, Toño. Esto fue... La pregunta es: "¿Cargos en disputa y bloques de paridad en elecciones municipales en Querétaro?" Primero te dice: "No cuento con fuentes específicas porque no están en nuestra base de conocimiento". La estructura municipal de Querétaro tiene 18 municipios, una presidencia municipal, regidurías, etcétera. Cargos municipales: zona metropolitana, presidencias, sindicaturas, regidurías, etcétera.
+iPhone de Toño: ¿Cómo funciona? Si me votan en contra el presupuesto.
 
-Estimaciones generales de cargos: en una elección municipal ordinaria en Querétaro se disputan aproximadamente entre 200 y 260 cargos municipales. Bloques de paridad de género. Según la reforma constitucional de paridad en todo de 2019 y la legislación electoral de Querétaro, principios aplicables: 50% de candidaturas, alternancia en planillas y bloques de competitividad. PAN versus Morena. Panorama electoral en Querétaro.
+iPhone de Toño: Tengo que atender a sus recomendaciones y hay algún número de rebotes. Y si no ya se publica así,
 
-PAN, alianza Va por Querétaro, históricamente dominante en Querétaro desde 1997. Morena, crecimiento acelerado desde 2018, mayor presencia en municipios de la Sierra Gorda y zonas rurales. En 2024 incrementó significativamente su competitividad en la zona metropolitana. La alianza compite y el Partido Verde también. Implicaciones para la paridad por partido: al ser competitivos en 18 municipios, se requiere distribuir candidaturas de mujeres de manera equitativa en todos los bloques competitivos, incluyendo los municipios donde históricamente ganan.
+iPhone de Toño: o
 
-Etcétera. Y luego te dice: limitación de datos identificada. El sistema no cuenta actualmente con los resultados electorales oficiales. O sea, te está diciendo: no está en mi base de conocimiento, no te puedo garantizar que esto sea correcto. Pero te avisa, y eso está padre.
+iPhone de Toño: este, tengo que publicar el año pasado, O ellos pueden hacer todos los cambios que quieran y me pueden hacer un relajo con el con el presupuesto sólo con la mayoría este con la mayoría absoluta que se llama, que es la de 50 Plus. Uno
 
-Está buenísimo. Creo que lo que dijo Edgar es totalmente cierto. O sea, partiendo de la base de que la IA en realidad te puede dar todos los datos que se te ocurran siempre y cuando los tenga o los pueda investigar. Lo que propone Edgar es: tú pones un municipio y te despliega, digamos, unas tarjetas que son como casos de uso, para guiar al usuario sobre qué le podría preguntar a la IA si no se le ocurre.
+iPhone de Toño: Ese fue su caso de uso, no.
 
-Eso puede pasar y va a pasar mucho, pero no es limitativo. Y en el caso de Edgar y mío, que nos hemos dedicado más a esto, sí pudimos identificar cosas que podrían ser atractivas. Pero ese marco no es limitativo. No es limitativo. Yo podría decir: voy a ver Cadereyta. Y entonces me podría decir: perfecto, ¿cómo quieres que te ayude? Tengo varias opciones para ti. Pero tú dime qué quieres si no está en estas.
+Edgar Barroso: ¿por qué?
 
-Lo puede hacer. Y entonces despliega, yo diría que despliega las 10 cosas que podrían ser más del interés de un gobernador ahorita, de una manera como de ideas que te vayan viniendo a la cabeza. Creo que vale la pena hacer el esfuerzo de marcar esas 10 para que ya las tengamos, ¿no?
+iPhone de Toño: Teoría, eso se debe de poder responder analizando las leyes.
 
-Esa es la que... lo que yo haría es que administro mi perfil,
+iPhone de Toño: la Ley Orgánica del Poder legislativo, este para ver cómo funcionan las votaciones, lo que dice la propia Constitución, este y la Ley de Hacienda ¿no? Entonces, si ya le cargaste todas las leyes, en teoría.
 
-pero al mismo tiempo dejo entrar a mi particular. Sé que lo podríamos limitar, pero la verdad es que esa opción tiene que estar. ¿Por qué? Porque el particular es el que la va a usar. Ese particular va a aprender muchísimo de política y de información. Pero él es el que hace las fichas. Entonces podría usar la herramienta como caso de uso.
+iPhone de Toño: haciendo una pregunta.
 
-En realidad cada quien tiene su propio perfil, no tienen que entrar con el del gobernador. Y les puedes dar permisos para que consulten todo lo que consulta el gobernador y también suban información. Pero cada quien entra con su perfil y así tienen su...
+iPhone de Toño: Este lo podrías resolver, pero no sé hasta dónde, hasta donde pudiéramos ese caso de uso, este pues al día de hoy, qué que tanto pudiera contestarse con lo que tenemos y qué tanto nos.
 
-Podemos hacer perfiles para ambos sin problema.
+Edgar Barroso: Mira, lo puedo probar, pero sí, o sea, va a ser posible contestarlo nada más. Esto lo hicimos ayer en la noche, entonces no sé si va a responder. Bien, ya estoy poniendo la pregunta para ver qué alternativas.
 
-Sí, porque quizá la persona que hace la ficha va a activar información extra que va a querer jalar de una página de internet, o hacer una investigación adicional, etcétera, que pueda atender o enriquecer la ficha, y eso está interesante. Entonces creo que está bien. Eso es mucho trabajo para la oficina particular, pero el gobernador también tendría la opción de preguntarle a la inteligencia artificial o a su cerebro en Querétaro.
+Edgar Mohar: Pero comparte pantallas, tocan.
 
-Porque además, perdón Antonio, la limitación de no tener esta inteligencia hoy es que generalmente una ficha particular a veces puede traer información de más y a veces de menos. Y aquí la ventaja es que en tiempo real le dices: oye, expándeme esto. "¿Qué carajos es esto?" Y entonces, en tiempo real: "Oye, normalmente la ficha no trae lo de la CEA; quiero que me incluyas datos de la CEA ahorita porque va a ser el tema que voy a tratar ahí y quiero que también me des algunas líneas discursivas porque no tenía preparado un discurso, pero me pidieron hablar y pues me voy a meter". No sé.
+Edgar Barroso: Hay perdón, Sí, claro. A ver ahí les va.
 
-Esa interacción dinámica, porque le decía yo el otro día a mi tocayo, y creo que todos coincidimos, el chiste de esta herramienta es que las cosas que ya hacen tú y el gobernador les permita hacerlas mejor. Tú ya tienes un boletín informativo; bueno, ¿cómo esta cosa puede mejorar tu proceso de enterarte de las noticias? ¿Cómo puede hacerlo mucho más a profundidad, más intuitivo, etcétera? O sea, ¿cómo mejoras las cosas?
+iPhone de Toño: Hay que tener un equipo. Ahí. Tiene un equipo de abogados atrás que ya le están haciendo.
 
-Pero no solo eso; también, ¿cómo te permites hacer cosas que hoy no haces porque no había tecnología que te lo permitiera? Pero con esta cosa ahora puedes hacer algo que no hacías en tu día a día, o que no es exactamente lo que yo decía de las fichas, pero tiene que ver con eso. No solo se trata de mejorar la ficha, sino de cómo ahora puedes tener más recursos cuando visitas un lugar, ¿no?
+Edgar Barroso: Oye supieron de esa empresa, hubo una empresa hindú
 
-En fin, yo creo que para... No, está bien, pero mira, estoy un poquito pensando cómo lo aterrizamos. Déjame proponer algo, porque el punto es ver... Dame un segundo. Sí. Sí. Mira, lo que pasa es que parte del... ¿Cuál es el gran problema del gobierno? Entre muchos otros. Que la información está completamente dispersa. ¿Sí? Y hay varios tipos de información. Está la información geográfica y estadística, que siempre está ahí.
+Edgar Barroso: que supuestamente hacía todo con ella, y en realidad eran puros programadores inglés. Te lo juro. Si hubo ese caso a ver ahí te va. Como planteo la pregunta: ¿qué pasa si el Congreso del estado de querétaro
 
-Información en términos de lo que han venido haciendo los gobiernos, que no es de buena calidad y además está dispersa. Y la información que sí es de "buena calidad" es la que tenemos del pasado muy reciente, porque la tenemos más a la mano, pero aun así está dispersa y en distintos formatos. La inteligencia artificial nos ayuda muchísimo a poner todo en el mismo formato, etcétera. Entonces, lo que yo me imagino es que necesitamos generar que cada secretario o cada actor clave del gobierno
+Edgar Barroso: no autoriza el presupuesto.
 
-digamos, voy a inventar, los 50 o 70 actores clave del gobierno, porque no son solo los secretarios, entonces esa es la tarea: que esos 70 actores clave del gobierno alimenten el cerebro del SIC con la información más relevante que en un momento dado le pueda servir al gobernador. Ahora, tenemos que darles una guía. Tenemos que decirles: "Me vas a dar información geográfica y estadística, vas a poner información histórica ahí y me vas a dar toda la información de esta administración".
+Edgar Barroso: ¿qué alternativas te da la ley para para el Poder ejecutivo, si no podría.
 
-Bueno, por ejemplo, si fuera la Secretaría de Educación, yo voy a poner información de cómo está hoy la infraestructura. La histórica es la que voy a tener menos a la mano, no la voy a inventar, así que pondré qué infraestructura tenemos hoy. Cuáles son los indicadores clave que estamos mejorando y cuáles son los resultados más importantes que queremos destacar sobre educación.
+Edgar Mohar: Yo.
 
-Voy a poner la información estadística completa: cuántos estudiantes hay, en qué escuelas están, cuántos niños, cuántas niñas.
+iPhone de Toño: Vamos a ver si.
 
-¿Puedo interrumpirte un momento? Sí. Estando de acuerdo contigo, yo propongo que nos enfoquemos no en todo lo que se necesita, en toda la información que hay que subir, que por supuesto se necesita, sino en los casos de uso otra vez; es decir, qué quiere hacer el gobernador. Y entonces vemos todo lo que tiene que pasar para que el gobernador tenga eso.
+Edgar Mohar: Le quitaría el té, le da la ley al poder ejecutivo.
 
-Es que yo ya pensé lo que quiere el gobernador. Nada más lo voy a hacer al final.
+Edgar Barroso: Ay, Sí. Perdón.
 
-Ok.
+Edgar Mohar: Le da, le da.
 
-Si, por ejemplo, yo soy el Secretario de Educación, también puedo subir todo lo que hemos hecho en esta administración en términos de obra de infraestructura educativa. Puedo poner ahí qué obras están en proceso, cuántos beneficiarios ha habido, en qué comunidades, en qué latitudes. O sea, toda la información, ¿no? Si eso lo hace obras públicas, todas las obras que se han hecho durante este año; si eso lo hace salud, especialmente los hospitales que se equiparon, cuántos beneficiarios tiene cada municipio, etcétera.
+Edgar Barroso: Sí.
 
-Solo estoy dando el ejemplo de estas tres, pero imagina que esta información alimenta a las 70 cabezas más importantes del estado. ¿Qué hemos hecho en Ezequiel Montes? Ah. Entonces lo pones y, obviamente, van a salir 17 mil cosas, ¿no? Pero ya las puedes ir recortando o pedir un resumen, porque muchas veces el gobernador va a un municipio y, como va por un tema de desarrollo rural, quizá lo demás que ya se hizo en Cadereyta
+Edgar Mohar: Edad, la ley al poder.
 
-ya no está en su radar. Entonces, si preguntas: oye, ¿qué es lo más relevante o cuánto dinero le hemos metido, según la información que tenemos de estas 70 dependencias, a Cadereyta?, pues entonces vas a llegar con cuatro, cinco o siete puntos muy importantes que, además de decirles: oye, estamos apoyando muchísimo al campo aquí en Cadereyta. Mira qué interesante: nada más en los últimos dos años hemos metido 150 millones de pesos al municipio.
+iPhone de Toño: Y le.
 
-Ahorita estamos construyendo un centro médico. Ya habíamos construido cuatro clínicas. Hemos sumado todos los beneficiarios, hoy estamos contribuyendo a 400 familias. O sea, solo cierro con esto: necesitamos transitar de los discursos sectorizados a que el gobernador hable de manera holística de lo que está haciendo en el lugar. Así lo dejo.
+Edgar Mohar: No claro, con y.
 
-Pero déjame subir un poquito. El gobernador, déjame ponerlo así, hace como cinco o seis cosas. Una es que se entrevista con gente clave y entonces necesitamos ver cómo le sirve la IA para sus reuniones con otro gobernador, con un candidato, con la oposición, con el dueño del periódico, etcétera. Esa es una de las actividades que hace un gobernador. La otra cosa que hace el gobernador, tú dijiste dos casos de uso.
+iPhone de Toño: Compárteme los diversos escenarios.
 
-De pronto quiere hacer análisis jurídico porque está pensando en sus opciones. Entonces hace un análisis jurídico. De pronto hace análisis electoral porque trae ese chip. Entonces ese es otro caso de uso: se pasa tiempo haciendo análisis electoral. Otro rato lo dedica a ver el funcionamiento del gobierno: cómo van sus programas, cómo van sus funcionarios, los indicadores clave. Buenas noches.
+iPhone de Toño: Ya con eso.
 
-Otro tiempo lo dedica a hacer giras y dar discursos y dar entrevistas, ¿no? Entonces, un poco pensando en esas cosas que hace el gobernador, es lo que decíamos. Todo este punto que tú dijiste ahorita, mira, de aquí salen dos cosas: o va a una reunión de gabinete y entonces quiere darle una ojeada a cómo van sus secretarios, sus programas prioritarios, cómo van los indicadores, entonces se mete y...
+Edgar Mohar: Ahora, ¿cómo lo estás limitando a que se a que sólo conteste con nuestra base de conocimiento que no, que no vaya.
 
-Tiene un primer menú, ¿no? ¿Qué estás haciendo hoy, gobernador? ¿Qué quieres hacer ahorita? No, pues quiero gestionar mi gobierno. Ok, pues mira: te puedo dar un informe de tus indicadores clave, te puedo dar una agenda de los últimos acuerdos de las reuniones de gabinete y las cosas que se... los compromisos que hay por cada secretaría, te puedo decir si algún programa está desfasado; no sé, o sea, hay un menú de cosas
+Edgar Mohar: o sea, que realmente base en en la en las leyes y en el marco legal, le sobró
 
-sobre eso, ¿no? Ok, quiero meterme ahí, pero esa misma lógica, cuando vas de gira a un lugar, también vas a consultar la eficiencia del gobierno y los indicadores, pero centrados en ese lugar porque vas a una gira. Entonces yo ahorita veo como cinco o seis... te da ocho o diez cosas que son las más intuitivas que vas a querer sobre eso, independientemente de lo que sea. Pero el tema clave, y lo dijiste hace rato con tu término holístico, es que la diferencia de esto es que no es un portal que se mete a bases de datos, sino que te permite sumar información dispersa
+Edgar Barroso: Ay, pero le puse porque se va a tardar porque le puse el más avanzadillo, lo te acuerdas que había un un letrero de advertencia que dijo: esa información no está en mi base de conocimiento curada.
 
-para tu uso. O sea, yo voy a ir a una gira. Quiero saber todo lo que pueda ser relevante para mi gira en Cadereyta. Y eso significa que voy y consulto las bases de datos de distintos actores, la ley, todo lo que está en mi ecosistema y que sea relevante para esta visita.
+Edgar Mohar: ¿correcto?
 
-Y sí me gusta mucho esto de que tengas la interfaz de Edgar Barroso. Yo casi diría que esto es justo así. Creo que esta sería como la idea de trabajo: que partamos de la interfaz, que le sigamos metiendo datos, que sigamos jugando con esto, que le pongamos botones, que le pongamos funcionalidades, que le quitemos funcionalidades, y que todo esté pensado por el gobernador y su staff.
+Edgar Barroso: Entonces, si no dice eso es que está en nuestra en nuestra base de conocimiento.
 
-Por ahora. Ok. Esta herramienta es para el gobernador y su staff y los cuatro o cinco más importantes, por ejemplo, toda la información de seguridad. Es una funcionalidad para el staff y para el gobernador. Cien por ciento. Edgar, a ver si podemos hacer que Alfredo Flores nos ayude a conectar la información electoral de manera muy rápida. Él tiene toda la información electoral.
+Edgar Barroso: entonces él te avisa cuando cuando está consultando su propio entrenamiento. Y cuando está consultando su propia cosa, o sea.
 
-Nada más pásennos las bases. Sí, eso es fácil.
+iPhone de Toño: En este caso está consultando su propia biblioteca.
 
-Sí, él casi las ha hecho de manera artesanal, pero bueno.
+Edgar Barroso: Sí, porque ayer cargamos todas las leyes. O sea, hay una página muy buena que ustedes tienen que se llama Bueno, estado. Slash leyes literal.
 
-Sí, o que nos pase algunas, si no quiere todas para el caso de uso. Si quieres, dame el contacto, dile que hable conmigo y yo veo qué podemos sacar para el caso de uso. ¿Lo ubicas? Sí, lo ubico desde aquella sala, ¿te acuerdas cómo se llamaba? En la campaña de Pancho, invención del ingeniero Ibarra, el nombre, y tú e Ibarra eran los... Ay, ya no me acuerdo cómo se llamaba esa cosa.
+iPhone de Toño: No estoy seguro si esas leyes están actuales.
 
-Sí sé, pero no, era como... El Cadre, El Cadre, ahí estaba Alfredo.
+Edgar Barroso: Ah, eso es eso. Sí, aquí está. Mira.
 
-Alfredo era el de esas cosas desde entonces. ¿No? Ya ves.
+iPhone de Toño: O sí, sí.
 
-Yo no ando buscando a Alfredo, Toño, no te preocupes.
+Edgar Barroso: Voy a estar contestando.
 
-No, no, está bien. Búscalo una vez, Edgar. Ya te lo mandé. Ok. Ok. Salud.
+Edgar Barroso: Entonces, Espérame porque además mira, no es que esté haciendo con, guau, Guau!
 
-Pero mándale mensaje, Toño, porque no se va a acordar de mí.
+iPhone de Toño: Sí.
 
-Ok, va. Gracias, gracias. Saludos. Bye. Hasta luego.
+Edgar Barroso: Mira qué bonito escenario. Uno: escenario, 2 controversias constitucional, escenario, 4, escenario, 5, ahorita. Se los leo nomás, que sigue sigue generando.
 
-Les mandé el documento largo. Solo quiero saber si hago para el viernes la presentación con base en ese documento, una versión reducida de cinco o seis láminas para Gustavo. Pero nada más quiero saber si están de acuerdo con lo que voy a presentar.
+Edgar Mohar: Impacto específico para la secretaría de planeación.
 
-Ok, creo que por ahí va a ser, con una versión muy corta, porque creo que vamos a terminar saltando a esto.
+Edgar Mohar: Estamos en el de toño.
 
-Sí, vamos a ir a probarlo, ¿no?
+Edgar Barroso: Estamos en el de toño. Sí, estamos en el de toño.
 
-A probarlo, entonces tiene que ser algo muy breve. Si tengo oportunidad, porque ahorita voy a media carretera, pero en cuanto llegue a mi destino prometo revisarlo otra vez y hacerte comentarios para que mañana lo puedas intentar.
+Edgar Mohar: El que.
 
-Para que mañana pueda ir a la presentación ejecutiva y pueda seguir trabajando en esto. Dime, Sergio. Es nuevo.
+Edgar Barroso: Acuérdense. Uds. Me dijeron: primero el de toño.
 
-Gracias.
+Edgar Mohar: Eso está bien, está bien.
 
-Se acabó la batería.
+Edgar Barroso: Disculpen los acentos. Eso es algo que se nos fue. Y nos dimos cuenta hace como 20 min. Ya no lo pudimos corregir, pero no va a tener ningún error de ortografía. A ver aquí. Está escenarios ante la No deja lo más grande para que lo puedan ver escenarios ante la no aprobación del presupuesto. La pregunta relevante es la perspectiva de planeación es que es el tuyo toño.
 
-Buenas noches.
+Edgar Barroso: ya que la operación de programas sectoriales comprometidos del P de acciones derivadas de participación marco normativo, la constitución política del Estado libre y soberano. En querétaro artículos relativos: ley de presupuesto, contabilidad, gastos, etcétera, no proceso diario, escenarios.
 
-No. No.
+Edgar Barroso: escenarios ante la no aprobación del presupuesto, escenario. Uno: reconducción presupuestal opera el presupuesto del ejercicio fiscal anterior como base mínima de operación disculpen las falsas fotografías. Soy hijo de maestra. Entonces me da roña. Esto
 
-Tenemos el SIC prendido. ¿Me toca? Yo voy a proponer que mejore el internet en Querétaro, porque como parte de la inteligencia colectiva...
+Edgar Barroso: se aplica el principio de reconducción. El gobierno sigue ejerciendo gasto con base del presupuesto previamente aprobado.
 
-Primer paso: poner buen internet en todos lados.
+iPhone de Toño: Sí, claro, no, perdón.
 
-Exactamente, porque Toño y Sergio hoy se cortan muchísimo. Sí, hombre.
+Edgar Barroso: Sí solo se solo, se perdón, te estás cortando. Toñi. No sé si te te estoy interrumpiendo. Ma.
 
-No, pues Sergio de plano no entendía nada.
+iPhone de Toño: Sí.
 
-Ya regresó y ya se cortó completo. Pues está en mute.
+Edgar Barroso: Y es que si, como van un trayecto, se está cambiando de lugar.
 
-Yo creo que está tratando de encontrar un lugar con mejor recepción o algo. Ah, pero mira, si quieres esperamos un minuto. Mira, por ejemplo, esto de "Cadereyta" que decía Toño. Entonces ya hizo un briefing ejecutivo... Ehh... Ay, espérame, me está escribiendo por acá. Dice: ¿dónde? ¿O cuál es el archivo que dice Matute que va a revisar para la revisión, la sesión de...? Ah, bueno, es más bien el presupuesto, tocayo.
+iPhone de Toño: Y es pue de me me cueste decir, puesta que.
 
-Listo. Muy bien, tocayo. Muchas gracias. Ayudan muchísimo todas tus intervenciones, querido. Muchas gracias.
+Edgar Barroso: Y en alguien entendió colegas.
 
-Bueno, perdón, porque yo ya medio construí un menú que no sé si vaya a ser compatible o no. Ah, claro. Pero porque pensé que nos podíamos ir por ahí.
+iPhone de Toño: Me puede repetir la respuesta?
 
-Mira, con presupuesto y tiempo, puedes hacer todo. Está bueno. Entonces, lo que se te ocurra, lo ponemos.
+Edgar Barroso: Claro que sí te lo voy a leer tal cual.
 
-Órale, pues que descanses y ahí mañana seguimos en la guerra.
+Edgar Barroso: Este es tu Este es tu agente. Entonces ya está para planeación. No entonces dice escenarios ante la no aprobación del presupuesto por el Congreso del Querétaro
 
-Venga, un abrazo.
+Edgar Barroso: la pregunta relevante desde la perspectiva de planeación, ya que la operación de programas sectoriales, compromisos del Ped y acciones derivadas de participación ciudadana dependen directamente de la aprobación presupuestal. A continuación te presento el análisis de los escenarios con base al marco normativo aplicable.
 
-Órale, hasta luego.
+Edgar Barroso: marco normativo de referencia, constitución política del Estado libre y soberano de querétaro artículos relativos a facultades del Congreso en materia presupuestal y facultades del ejecutivo
 
-Con cuidado, chao. Con cuidado, chao.
+Edgar Barroso: Ley de Presupuesto Contabilidad Gasto público del Estado de Querétaro Ley de Disciplina Financiera de las entidades federativas y los municipios federal aplicable a Estados y la constitución política de los Estados Unidos mexicanos. Artículo 116 y principios generales
+
+Edgar Barroso: proceso ordinario, el ejecutivo estatal presenta la iniciativa de ley de ingresos y el proyecto de presupuesto de egresos ante el Congreso antes de la fecha límite establecida generalmente. En noviembre diciembre de cada año, el Congreso analiza, modifica, en su caso y aprueba ambos instrumentos antes del inicio del ejercicio fiscal, Primero de enero.
+
+Edgar Barroso: escenarios, Si el Congreso no aprueba el presupuesto.
+
+Edgar Barroso: escenario 1 reconducción presupuestal opera el presupuesto del ejercicio fiscal anterior como base mínima de operación
+
+Edgar Barroso: se aplica el principio de reconducción. El gobierno sigue ejerciendo gasto con base en el presupuesto previamente aprobado, sólo se cubren obligaciones ineludibles, nómina deuda pública, servicios básicos, obligaciones contractuales vigentes
+
+Edgar Barroso: no se pueden iniciar programas nuevos ni ampliar compromisos de gasto. Es el mecanismo de protección constitucional más común a nivel estatal, escenario, 2 negociación, política y aprobación tardía.
+
+Edgar Barroso: El Congreso y el ejecutivo negocian ajustes al proyecto original, se aprueba el presupuesto con retraso y ha iniciado el ejercicio fiscal durante el periodo sin aprobación. Opera La reconducción, una vez aprobado, se regulariza el ejercicio del gasto, es el escenario más frecuente en la práctica. Cuando hay un desacuerdo.
+
+Edgar Barroso: Divergencia principal. La diferencia clave es la duración de la incertidumbre en el escenario. Uno se opera todo el año con el presupuesto anterior. En el escenario, 2, la reconducción es temporal hasta que se logre el acuerdo político. Escenario 3: controversia constitucional.
+
+Edgar Barroso: Si el ejecutivo considera que la negativa del Congreso es arbitraria o viola el principio de continuidad del Estado, puede promover una controversia constitucional ante la Suprema Corte de Justicia de la Nación. Artículo 105, fracción, 1 de la Cpe e u M.
+
+Edgar Barroso: Este mecanismo es lento y no resuelve la operación inmediata, pero establece precedente jurídico.
+
+Edgar Barroso: Mientras se resuelve, opera igualmente la reconducción presupuestal, escenario 4 aprobación parcial o condicionada. El Congreso podría aprobar la Ley de Ingresos, pero no el presupuesto de egresos, o viceversa.
+
+Edgar Barroso: En este caso, el Ejecutivo tendría autorización para recaudar, pero no para gastar conforme al nuevo proyecto, lo que obliga a operar con el presupuesto anterior en la parte no aprobada
+
+Edgar Barroso: También podría aprobarse un presupuesto de reducción de reducciones significativas que obliguen al Ejecutivo a priorizar programas. Escenario, 5 parálisis institucional prolongada si no hay acuerdo y no existe cláusula explícita de reconducción. La legislación estatal se genera un vacío jurídico. El ejecutivo podría argumentar la obligación constitucional de garantizar servicios públicos esenciales y ejercer gasto mínimo bajo su responsabilidad.
+
+Edgar Barroso: Este escenario es el de mayor riesgo institucional y podría derivar en un juicio político o responsabilidades administrativas para ambos poderes.
+
+Edgar Barroso: impacto específico en la secretaría de planeación, como es el tuyo Toño.
+
+Edgar Barroso: Te dice en el escenario Uno: reconducción. Sólo continúan programas existentes del ejercicio anterior, operación básica. Sin nuevos mecanismos funciona con recursos previos y coordinación interserial limita los a compromisos vigentes y luego te dan los principios jurídicos que protegen al ejecutivo
+
+Edgar Barroso: principios de continuidad del Estado. El gobierno no puede dejar de funcionar por falta de presupuesto aprobado, principio de reconducción presupuestal, aunque no siempre está explícito en la legislación estatal, la jurisprudencia y la práctica constitucional lo reconocen como mecanismo de salvaguarda.
+
+Edgar Barroso: obligación de garantizar derechos fundamentales, salud, educación, seguridad, servicios básicos no pueden suspenderse y la Ley de Disciplina Financiera. Establece techos y reglas que operan, independientemente de la aprobación del presupuesto anual.
+
+Edgar Barroso: recomendaciones operativas para la Secretaría de planeación
+
+Edgar Barroso: preparar un plan de contingencia presupuestal que identifique los programas y compromisos del Pet, que son ineludibles. Bajo cualquier escenario, clasificar los 65 retos del Ped en 3 niveles: operación garantizada, reconducción, operación en riesgo requiere nuevo presupuesto y operación suspendida, programas nuevos.
+
+Edgar Barroso: documentar compromisos intersectoriales con fecha límite para negociar prioridades con finanzas antes de cualquier restricción. Mantener la operación de participación ciudadana como función esencial, dado que la conducción, reconducción cubre estructuras existentes. O sea, está muy bien la respuesta, la verdad.
+
+iPhone de Toño: Está bien, Sí, Está bastante interesante.
+
+Edgar Barroso: O que.
+
+iPhone de Toño: Ahora, ese es 1 de uso.
+
+Edgar Barroso: Sí, eso sí lo puede hacer. Ya.
+
+iPhone de Toño: A ver.
+
+Edgar Barroso: De desde Ahorita.
+
+iPhone de Toño: Es que es que para el gobernador es eso solo el tipo de cosas que puede estar en su oficina. Y puede estar preguntando, porque
+
+iPhone de Toño: lo que hubiera ocurrido en este caso es a ver que suba o dónde anda el Secretario de Finanzas, no. Entonces que venga
+
+iPhone de Toño: o le pregunta. Entonces lo que le hace una ficha o le contesta no le va a dar toda esta información. Me explico.
+
+Edgar Barroso: Sí también.
+
+iPhone de Toño: Que está bastante bastante interesante. Este caso de uso. Este está de interesante. Todas las funciones del Congreso. Por ejemplo, oye este: ¿Qué nombramientos quedan o
+
+iPhone de Toño: que requieran 2 terceras partes este de aprobación en el Congreso. En lo que resta de mi periodo.
+
+iPhone de Toño: Eso es importantísimo, Aunque necesitamos alimentarle al día de hoy las fechas y los periodos de cada 1 de los magistrados.
+
+Edgar Barroso: Y a.
+
+iPhone de Toño: A 1 de los Este, de los fiscales, etcétera.
+
+Edgar Barroso: Sobre que su de.
+
+iPhone de Toño: De es sí, habrá que subírselo porque es escaso de uso, es decir, a ver recuérdame este año.
+
+iPhone de Toño: ¿qué debo de modificar o qué debe el Congreso, que debe de nombrar con 2 terceras partes. Y te va a decir a
+
+iPhone de Toño: pues ya estás tarde porque en marzo se renueva
+
+iPhone de Toño: el fiscal anticorrupción que dura 12 años en el cargo. Este funeral, que es fulano, no tiene derecho a reelección y se requieren las 2 terceras partes de los votos. Después, en abril, este se puede ya modificar o se tiene que cambiar al magistrado fulano de tal no. O sea.
+
+iPhone de Toño: creo que esa parte también es caso de uso importante, que son todas las alertas
+
+iPhone de Toño: en términos de tiempos, nombramientos que el Congreso debe operar año con año. Ese es un caso de uso permanente. Otro
+
+iPhone de Toño: oye a ver hazme de volada.
+
+iPhone de Toño: Este un calendario electoral, según la ley electoral del estado de querétaro, dime cuándo inicia el periodo hasta un calendario en el que me digas cuándo inicia el periodo de elecciones cuando dice la ley.
+
+iPhone de Toño: que son las precampañas y cuándo es el periodo para registrar candidatos ante el Instituto Electoral de Querétaro.
+
+iPhone de Toño: Este hazme también un calendario de lo federal
+
+iPhone de Toño: de las posiciones federales. Oye a ver
+
+iPhone de Toño: hazme una ficha de lo más importante de la reforma electoral que está presentando la Presidenta claudia, Sheinbaum. No este le tenemos que cargar la iniciativa.
+
+iPhone de Toño: Espero que estamos este otras. Digo, déjame, sigo con casos de uso. No.
+
+Edgar Barroso: Sí.
+
+iPhone de Toño: Cuántas semanas tengo de aquí al día de la elección? Oye
+
+iPhone de Toño: cuántas en querétaro cuantas este días tengo de aquí al día de la elección en el estado de querétaro, oye cuántas posiciones se van a jugar en el estado de querétaro tomando en cuenta ya regidurías
+
+iPhone de Toño: este todo todo lo que tiene que ver con eso, no Este presidentes municipales, gobernador, oye a ver dime según la ley.
+
+iPhone de Toño: cuáles son los bloques de paridad
+
+iPhone de Toño: este y cómo los debemos de satisfacer, Según la ley.
+
+iPhone de Toño: el Partido Acción Nacional Morena y cada 1, o sea, cuáles son los escenarios para cada 1. En cuanto a los bloques paritarios, según lo que dice la ley electoral del estado de querétaro tomando en cuenta que así lo dice la ley. La última elección.
+
+iPhone de Toño: este del estado de querétaro. Para ello vas a necesitar el archivo de los resultados electorales del año. Dos 1 024. Que eso todo eso lo tenemos, y lo podemos subir fácilmente.
+
+iPhone de Toño: Oye el año pasado digo la última elección: el pan. Cuántos votos sacó y con qué porcentaje ganó en la capital de querétaro todos los cruces de numeralia electoral, necesitamos tenerlos. Así
+
+iPhone de Toño: oye, es que fulano de tal, Voy a Voy a inventar algo, ¿ Que es caso súper de uso, y ese sería buenísimo tenerlo. Ya
+
+iPhone de Toño: este va a venir la diputada del quinto distrito a hablar conmigo porque quiere su reelección a ver platícame cómo estuvo su resultado electoral en el 24.
+
+iPhone de Toño: Y en ese mismo distrito, cómo estuvieron los resultados electorales en los años anteriores una tabla de cuántos votos hemos crecido porcentaje de votación en ese distrito para ver comparativamente con la historia.
+
+iPhone de Toño: Esta diputada que tanto trabajó, que tanto se vio su desempeño en la última elección. Este sí es la que menos ha votado sido votada en ese distrito, porque siempre lo hemos ganado, pero esta casi lo pierde.
+
+Edgar Barroso: Se es.
+
+iPhone de Toño: Argumento no.
+
+Edgar Barroso: Sí.
+
+iPhone de Toño: Este otro, que tiene que ver con
+
+iPhone de Toño: todo lo electoral, va a tener que pasar toda la información.
+
+Edgar Barroso: Que tengamos de toda la numeraria electoral.
+
+iPhone de Toño: Este para que se puedan hacer todos los cruces y todo lo que al gobernador se le vaya ocurriendo.
+
+Edgar Barroso: Preguntar.
+
+iPhone de Toño: Sí.
+
+iPhone de Toño: Bueno, hasta ahí he tenido varios casos de.
+
+Edgar Barroso: No buenísimos, buenísimos.
+
+Edgar Barroso: Pero si quieres probamos algunos, pero si no no pasa nada, nomás, tenemos que checar que la data, pues la que no tengamos nos la pases toño, pero ya pero está, pero ya estamos. Ya tenemos la infraestructura, ya nada más decirle subiendo la.
+
+iPhone de Toño: Segundo es pública en el Instituto Electoral del estado de querétaro, pero eso no lo puede sacar. Si lo puedes.
+
+Edgar Barroso: Sí sí lo podemos sacar. Cuento cómo se llama la.
+
+iPhone de Toño: Instituto Electoral del Estado de Querétaro.
+
+Edgar Barroso: Sí, pero ¿qué qué? ¿qué es lo que quieres saber.
+
+iPhone de Toño: O sea, toda la data de los números de cómo todos los resultados
+
+iPhone de Toño: de el proceso electoral. 24 21, este 18. Quince.
+
+iPhone de Toño: Toda esa data debe estar pública en la página del Instituto Electoral del Estado de Querétaro.
+
+iPhone de Toño: pero déjame si no irte a preguntar con quién nos lleva toda esa información
+
+iPhone de Toño: para saber si si este, cómo, cómo le hace el para tener garantizado eso y cómo le puedo hacer para que nos ayude a que realmente lo que estamos subiendo, esa información realmente curada no.
+
+Edgar Barroso: Sí mira. Lo que puedo hacer es sí, puede, o sea.
+
+Edgar Barroso: miren, o sea, lo que una de las cosas que está bueno de esto es que ustedes pueden decirle la cosa. Si se si quieren que se conecte a Internet o no.
+
+Edgar Barroso: entonces Aquí está ya lo de las noticias y prensa, por ejemplo, no aquí. Ya en esta parte de contexto puedes ver, a mira, hay una alerta por déficit hídrico en la zona metropolitana de querétaro. Y está la fuente, No el sea querétaro diario de querétaro consulta.
+
+iPhone de Toño: Te voy a decir otro. Te voy a decir otro caso de uso ahí en lo de los medios.
+
+Edgar Barroso: Que trae muy el govern en la cabeza.
+
+iPhone de Toño: Oye a ver dime, hazme un análisis
+
+iPhone de Toño: de los medios de comunicación. De querétaro para que me digas cuántas notas
+
+iPhone de Toño: cubren a fellifer macías, que es el alcalde y cuántas notas están cubriendo a Luis Bernardo Nava
+
+iPhone de Toño: y que en ese mismo este análisis, pues me hagas cuentas. Están si son a favor, si son neutras o si son en contra.
+
+Edgar Barroso: Mhm.
+
+iPhone de Toño: Básicamente en la última semana, o bien este hoy, o bien en el último mes.
+
+Edgar Barroso: Sí, está buena. ¿
+
+Edgar Barroso: Eso está buena
+
+Edgar Barroso: a ver. Déjame probar primero con lo electoral. Pero bueno, aquí están también aquí Sergio. Una cosa que nos dijiste era de los proyectos más importantes aquí, el gobernador o tú toño, o Sergio puede traer, como los
+
+Edgar Barroso: los proyectos emblema y saber cómo va cada 1 de los proyectos. Pero déjenme ir a ver si hace lo que queremos que haga acá a ver dame los principales resultados del proceso electoral de del 2 024 fue o qué año fue.
+
+iPhone de Toño: Sí. El 2 000. 24.
+
+Edgar Barroso: Vale. Con eso se va a tardar un.
+
+iPhone de Toño: Pero qué le estás, pero qué le estás preguntando.
+
+Edgar Barroso: Nada más que me dé los principales resultados del proceso.
+
+iPhone de Toño: Okay.
+
+Edgar Barroso: De momento sólo más para ver si se hace la consulta.
+
+iPhone de Toño: Ahí ya te está avisando, que está metiéndose al Internet.
+
+Edgar Barroso: Exacto, o sea, ahorita, está jalando 1 de los agentes ya ahí como 8 resultados esperados.
+
+Edgar Barroso: Pero te está avisando la cosa.
+
+iPhone de Toño: Que sí dice ahí es que no alcanzo a ver dónde dices.
+
+Edgar Barroso: A ver, déjame, es que creo que lo paré por Way.
+
+Edgar Barroso: Me lo pongo otra vez. Acá
+
+Edgar Barroso: Ahí está a ver de los datos principales de los estados del proceso electoral
+
+Edgar Barroso: y le voy a poner con el Opus.
+
+Edgar Barroso: Ahí está. Entonces está analizando la consulta toño se va a tardar porque es un buen modelo.
+
+Edgar Barroso: pero bueno, en fin, o sea, va a buscar la información. Aquí está. Mira aquí, te da la fuente. Entonces te avisa. Y te dice: Instituto Estatal Instituto Electoral del Estado, de Querétaro, proceso electoral. Dos 1 024 histórico gobierno, ciudadanía, conocimiento. Y está el agente de investigación.
+
+Edgar Barroso: Entonces se va a tardar. Está procesando, pero ya te está diciendo cuáles fuentes está buscando.
+
+iPhone de Toño: Están consultando.
+
+Edgar Barroso: Exacto.
+
+Edgar Barroso: Y así tú sabes que ya no está consultando necesariamente en nuestra base de conocimientos, sino que está consultando en Internet básicamente.
+
+Edgar Barroso: y este es el agente que está que está utilizando. Entonces, si se va a tardar, son tardar los agentes.
+
+iPhone de Toño: Me parece.
+
+Edgar Barroso: Y mira, por ejemplo, aquí ya acabó el de investigación y ya empezó el de análisis.
+
+Edgar Barroso: Entonces.
+
+iPhone de Toño: Cuántos agentes tenemos ahí trabajando.
+
+Edgar Barroso: Aquí tenemos 4 que pusimos. Ahorita. Los tengo. Acá. Ahorita. Te los muestro en el.
+
+iPhone de Toño: Potencialmente cuántos deberíamos de tener ya en una herramienta muy avanzada.
+
+Edgar Barroso: En una muy avanzada. Podrías tener 20 30 agentes.
+
+iPhone de Toño: Aunque yo tenemos 4.
+
+Edgar Barroso: Que tenemos una.
+
+iPhone de Toño: Búsqueda, 1 de análisis y otros que son.
+
+Edgar Barroso: Ahorita. Te los ahorita. Te los dejo.
+
+Edgar Barroso: Pero bueno, esos son, digamos, esos. Tú los puedes. Mira, aquí está tecnología, agentes, tienes 1 de investigación, 1 de análisis, 1 de producción y 1 de validación.
+
+iPhone de Toño: Mhm Okay.
+
+Edgar Barroso: Pero te digo, tú puedes tenerlo, o sea, lo que tú quieras.
+
+Edgar Barroso: Entonces
+
+Edgar Barroso: ahí está Proceso electoral, Instituto Electoral del estado de querétaro situación del sistema y está creando la cosa. Está. Mira, Aquí está.
+
+iPhone de Toño: Mhm.
+
+Edgar Barroso: A ver, dice si oye dime, Dime, dime.
+
+iPhone de Toño: O sea, y y una pregunta, por ejemplo, ¿qué hace la gente
+
+iPhone de Toño: con toda esta información que nos está arrojando, es decir, esta información que ya analizó y ya procesó de alguna manera.
+
+Edgar Barroso: Le genera algún conocimiento o no a más nos la da.
+
+iPhone de Toño: Y cuando le volvamos a preguntar, lo mismo vuelve a ser todo el proceso, cómo funciona esa parte.
+
+Edgar Barroso: Fíjate, ves esta parte de acá. A la izquierda. Alcanzas a ver.
+
+iPhone de Toño: Sí.
+
+Edgar Barroso: Aquí se van guardando todas las conversaciones que tú tienes como en chat. G, P, T,
+
+Edgar Barroso: Pero a diferencia de Chatg Pt. Esto te va al cic.
+
+iPhone de Toño: Okay.
+
+Edgar Barroso: Y también puede ser, dime, dime, dime.
+
+iPhone de Toño: Y cómo se o sea, se va.
+
+iPhone de Toño: con qué instrucción se va para allá y qué qué es lo que pasa con eso?
+
+Edgar Barroso: Lo que hace es que empieza a evolucionar, a aprender lo que le estás preguntando. Entonces, por ejemplo, si tú le preguntas de algo electoral va a decir oye hoy. Nos preguntaron: 60 por 100 de las preguntas fueron de cosas electorales.
+
+iPhone de Toño: Okay.
+
+Edgar Barroso: Entonces vamos a. Vamos a fortalecer la parte electoral y entonces se van entrenando. No, no es entrenamiento porque es contextualización, los agentes hacen cada vez más buenos en lo que más les preguntas.
+
+iPhone de Toño: Pero por ejemplo, entonces empiezas a modelar tu perfil en el caso del del gobernador, entonces te va a decir, como a mí alguna vez. Chati Pity
+
+iPhone de Toño: le hice la pregunta sobre un libro, no oye este qué libro me recomiendas que esté en inglés que que esté bien y me pone debido a tu perfil y a lo que estás pretendiendo hacer este a tus este.
+
+Edgar Barroso: Y a tus gustos. No sé qué.
+
+iPhone de Toño: Este tema, recomendar estos, o sea, como que se adelantó, no.
+
+Edgar Barroso: Sí.
+
+iPhone de Toño: Que creo que estaría interesante para el gobernador oye, pues, debido a lo que me has preguntado en los últimos semanas. Creo que a ti te va a interesar la respuesta tal? Bueno.
+
+Edgar Barroso: Sin duda, sin ninguna duda.
+
+iPhone de Toño: Mhm Okay.
+
+Edgar Barroso: Pero como ven, o sea, lo que les queríamos mostrar es que esto ya está jalando. Digo, está súper perfectible, pero ya tendremos algo que mostrar incluso el viernes o cuando nos digas
+
+Edgar Barroso: y ahorita con los casos de uso. Nos podemos ir con el gobernador al cabo se está grabando la llamada. Entonces yo tomo todos estos casos de uso para llevarlo al equipo técnico y el tuyo toño Si si nos.
+
+iPhone de Toño: No sabes que yo yo diría: Saltémonos el mío, Sí, más bien. Yo quiero que veamos el del Gobernador, Sí, más bien el del gobernador. Pongámoslo como como ahorita. Yo voy a ser el gobernador y ya.
+
+Edgar Barroso: Pues sí, Pues sí.
+
+Edgar Mohar: Eso ya habla de una. Este acaba de de.
+
+Edgar Barroso: Iba a decir lo mismo, pues no me animé. No me animé porque donde tengo tanta confianza.
+
+iPhone de Toño: Autocracia. La autocracia ya.
+
+Edgar Barroso: En la.
+
+Edgar Mohar: Acaba de decir quién va a ser el Gobernador y.
+
+Edgar Barroso: Por Decreto Jesús.
+
+Edgar Mohar: Por el decreto de toño.
+
+Edgar Barroso: No. Si votaría por ti, Si pudiera votar en querétaro.
+
+Edgar Mohar: No, ya no va a haber votaciones. Por lo visto.
+
+Edgar Barroso: Que es.
+
+Edgar Mohar: Ha cambiado.
+
+Edgar Barroso: Es el.
+
+iPhone de Toño: Oye.
+
+Edgar Barroso: Sí.
+
+iPhone de Toño: Bueno, entonces hagamos ya el del.
+
+Edgar Mohar: Entonces vamos a revisar este que sí se concretó mañana. Lo de finanzas o no.
+
+iPhone de Toño: Perdón, No, nos no los convoque, que hoy estoy a ver si pueden ustedes, este va a ser hoy a las 7 nada. ¿no es cierto? ¿no? El viernes a la una es la idea, como.
+
+Edgar Barroso: Está bien. Sí, Perfecto.
+
+Edgar Barroso: No sé si yo estoy convocado a ellos, me auto invite, o sea, lo mejor no.
+
+iPhone de Toño: No, no, no, Claro que estás convocado. De hecho tú propones. Ok, Perfecto. Exponemos tú y yo.
+
+Edgar Barroso: Okay.
+
+iPhone de Toño: Y también Edgar está convocado y quién sabe que ya tiene una comida ahí. Si tiene.
+
+Edgar Mohar: No, no, no, Ya ya estoy yo. Estoy.
+
+iPhone de Toño: Anotado.
+
+Edgar Mohar: Ya a.
+
+iPhone de Toño: Sabes, y chela.
+
+Edgar Mohar: Tocayo. Te voy a mandar 2 de mis casos de uso que incluyamos para ver que sí se puede meter y que no. Obviamente, no vamos a tener todos los datos, ahorita, pero sí lo sugiere la gente, y dice: quieres que te dé esto, aunque no tengamos en fin te los mando y.
+
+Edgar Barroso: Y mándame los yo hago esto por lo menos ya vimos que 1 de los casos y lo sacó bien, que es.
+
+iPhone de Toño: Papas en.
+
+Edgar Barroso: El presupuesto.
+
+Edgar Mohar: Sí.
+
+Edgar Barroso: Órale. Entonces el viernes a la una verdad.
+
+iPhone de Toño: Sí que ya ya acabamos la llamada.
+
+Edgar Mohar: No.
+
+Edgar Barroso: No es que yo voy como que ya vas llegando a algún lugar toño.
+
+iPhone de Toño: No, sí, pero no, no.
+
+Edgar Mohar: Vamos a seguirle tantito. ¿cómo ves estos 2 casos de uso Me permites exponerlos? Porque a lo mejor.
+
+iPhone de Toño: Puesto y.
+
+Edgar Mohar: A lo mejor estoy volado, pero a mí sí me gustan mucho.
+
+Edgar Mohar: Uno es hacerse cuenta tú el gobernador, quien sea, le le dan un lugar san san juan del río.
+
+Edgar Mohar: Y entonces, automáticamente la inteligencia te dice, Ok, ¿Qué quieres quieres que te dé un análisis de la cobertura de los servicios de gobierno del Estado. Allí
+
+Edgar Mohar: quieres que te diga cómo va el tema de beneficiarios de programas sociales. Quieres que te diga los temas mediáticos que han estado este afectando o o que han sido estado presentes en la en los medios locales de San Juan. Quieres que te haga una relación de.
+
+iPhone de Toño: Escuchan.
+
+Edgar Barroso: Sí.
+
+Edgar Mohar: A mí, no.
+
+iPhone de Toño: Me escuchan.
+
+Edgar Barroso: Sí también a los 2. Yo los sigo bien a los 2.
+
+Edgar Mohar: Yo yo también oigo bien a todos. Pero Toño yo creo que no nos oye. Y por eso dice: me escuchan.
+
+Edgar Barroso: Me escucho antes.
+
+Edgar Mohar: Me escuchan.
+
+Edgar Barroso: Mira tocayo, nada más para que veas. Aquí están tus fichas temáticas.
+
+Edgar Mohar: A ver dónde me cambié de pantalla.
+
+Edgar Barroso: Mira, O sea, si tú vienes a productos
+
+Edgar Barroso: y vienes a ver tu galería de productos. Aquí te hace cosas comparativas, por ejemplo, entre querétaro, la corregidora, etcétera. Te hace, por ejemplo, tu ficha temática.
+
+Edgar Barroso: o sea, ya os empezamos a tratar de entender un brief ejecutivo del plan estatal de desarrollo.
+
+Edgar Mohar: Ejemplo, actores claves, el nombre, el alcalde, quienes son los principales actores de oposición de no sé qué de ese lugar. Por ejemplo, también podríamos ponerlo.
+
+Edgar Barroso: Sí claro y mira, por ejemplo. Esto también también tiene, ya o sea, geolocalización, por ejemplo, de entidades, por ejemplo. Estas son las bases de datos que nos compartieron tus tus colegas. Sergio Entonces, por ejemplo, Hospital General de querétaro.
+
+iPhone de Toño: Hospital, Ge, hospital, de especialidades del Imms, etcétera. Y ya los puedes localizar aquí, etcétera. Y o sea, tienes mapa de identidades, ¿Tienes proyectos, compromisos? Aquí está el plan de Querétaro. Aquí va a estar el plan Todavía no está.
+
+Edgar Barroso: Y aquí mira aquí. Perdón en tecnología, en lo que nomás en lo que aquí están los Skills.
+
+Edgar Barroso: Entonces eso es lo que te quería enseñar toño. Ahí me avisas. Y si lo puedes ver, o sea, tú decides.
+
+iPhone de Toño: Aguántame, tantito, aguántame.
+
+Edgar Barroso: Dale, Dale, Dale.
+
+iPhone de Toño: Por favor, porque llegué aquí a otro lugar y sí, me interesaba verlo nada más que necesito.
+
+iPhone de Toño: Voy a entrar por otro dispositivo para que.
+
+Edgar Barroso: Vale.
+
+iPhone de Toño: Un poco.
+
+Edgar Barroso: Mhm: Claro que sí.
+
+Edgar Barroso: Deja nomás le mando la liga a toño
+
+Edgar Barroso: y en
+
+Edgar Barroso: y tocayo y Sergio. Esto es esto es posible hacerlo en un día. Porque estamos pensando desde la infraestructura del Zic.
+
+Edgar Barroso: Entonces si ya tienes esa infraestructura, entonces puedes generar productos, pues bastante razonables en en súper poquito tiempo.
+
+Edgar Barroso: Entonces te acuerdas tocayo. Me dijiste, pues, de aquí al viernes no vamos a esperar que esté esto, pero pues mira el equipo, se puso las pilas y aquí estamos.
+
+Edgar Barroso: No está terminado. Eso.
+
+Edgar Barroso: Estáis seguro.
+
+Edgar Mohar: Pero muy impresionante. O sea, creo que hay que hacer el hay que decir: oigan. Obviamente, esto no está terminado. Le falta.
+
+Edgar Barroso: No en.
+
+Edgar Mohar: Información.
+
+Edgar Barroso: En el.
+
+Edgar Mohar: Hay opciones de mejora. Hay opciones de mejora en la interfase, pero esta es un ya una demostración funcional de lo que está atrás, que son los agentes no y.
+
+Edgar Barroso: Exacto. Mira toño, por ejemplo, tú me preguntaba, soy, se conecta a Internet o no? Tú tienes la opción de que se conecte a Internet de que cruce o no fuentes de datos, eso normalmente siempre va a estar prendido de exportar
+
+Edgar Barroso: días. Esto es para nosotros de hacer un análisis espacial y de búsqueda de fuentes, O sea, tú le das los skills que tú quieras a la gente
+
+Edgar Barroso: si no quieres que se conecte a Internet porque nada más quieres que consulten nuestras fuentes de datos nomás, lo pagas. Y hago.
+
+Toño Rangel: Mhm.
+
+Edgar Barroso: Luego en en aprendizaje. Están las bases de conocimiento. Entonces tú puedes. Aquí está aquí. Es lo que tú sabes que hay en tu agente que eso es muy importante. Y también puedes subir documentos.
+
+Toño Rangel: Hoy que tantos datos tenemos ahí en ese.
+
+Edgar Barroso: En fin.
+
+Toño Rangel: Dónde dice.
+
+Edgar Barroso: Infinito.
+
+Toño Rangel: No, Pero pero cuántos tenemos ahorita.
+
+Edgar Barroso: Ah ahorita, ahorita, ahorita. Esto es lo que tenemos.
+
+Toño Rangel: Base de conocimiento, Todavía no nos hemos conectado a ninguna a ninguna cosa en, digamos, como en tiempo real, va a.
+
+Edgar Barroso: Pero tampoco.
+
+Toño Rangel: Buah.
+
+Edgar Barroso: Vamos a.
+
+Toño Rangel: Vamos con esta.
+
+Edgar Barroso: Con salud, nos vamos a conectar así.
+
+Toño Rangel: Ajá y con el de con el de los programas sociales de la tarjeta contigo, no te han puesto peros.
+
+Edgar Barroso: Ahí Sergio. No sé si si tú tienes noticias de sus colegas.
+
+Toño Rangel: Ya se fue a comer Sergio.
+
+Edgar Barroso: Sí, ¿verdad? Pianista aquí. Ah, sí, ¿cierto?
+
+Edgar Barroso: O si, pero si estaba.
+
+Edgar Barroso: bueno, yo te digo, o sea, lo que nos dijeron es que teníamos que firmar un N D A, y
+
+Edgar Barroso: para podernos dar los datos y esas cosas, o sea que que, o sea, o sea, como que querían saber cuál era la relación que teníamos nosotros.
+
+Toño Rangel: Pero si esos gües trabajan conmigo, o sea, es que de verdad estos cuates.
+
+Edgar Barroso: Sí.
+
+Toño Rangel: Pinche, gente, carajo.
+
+Edgar Barroso: Bueno, pero buena onda No, no fue mal rollo ni nos dijeron que no nos van a dar la lata ni nada, pero pero sí hubo como como un rollo de oigan nomás que esta información que onda. Y Y yo le dije, no, pues, o sea, y por eso le pregunté a Sergio porque Sergio es el que, como que dijo, bueno, yo lo hablo con el Secretario ya, pero ya no supe qué onda!
+
+Edgar Barroso: Entonces ahí como que yo no. Pero no, no creo que haya problema toño, O sea, eso nos vamos a conectar seguro
+
+Edgar Barroso: Los de salud. Te inclusive tenemos la fecha, El tocayo estuvo en la llamada. Es, Nos Dan. Nos dan el acceso hoy o mañana, de las bases de datos y el martes a otra base de datos, que es un agente también, y ya va a estar conectada a esto también. Entonces sí se va a conectar también a cosas en tiempo real.
+
+Edgar Mohar: Y.
+
+Edgar Barroso: Lo que es interesante es que vamos a poder ir creciendo las funcionalidades de la gente se van a tener sus propios proyectos, sus noticias y prensa, agendas y compromisos alertas. Todo lo que quieran, los vamos a ir poniendo aquí
+
+Edgar Barroso: y ustedes se pueden comunicar con todo esto a partir de esta de este de este chat que está conectado a todo lo demás.
+
+Toño Rangel: Okay.
+
+Edgar Barroso: Sale.
+
+Edgar Mohar: Mhm.
+
+Edgar Barroso: Listo!
+
+Toño Rangel: Un segundito.
+
+Edgar Barroso: De todo es un
+
+Edgar Barroso: déjenme dejar de compartir
+
+Edgar Barroso: y nos quedamos. En el caso de uso tuyo. Tocayo. Creo, no ahorita que toño. Terminé.
+
+Edgar Mohar: Por la.
+
+Toño Rangel: A ver si estábamos en tu caso de uso. Sergio. Tú, este.
+
+Edgar Barroso: Practicar.
+
+Toño Rangel: El callo a Kuricio kuribreña.
+
+Edgar Mohar: Este en cual te quedaste mi estimado toño. Porque si nos dejaste escuchar decías, me escuchan. Me escuchan.
+
+Edgar Barroso: Sí.
+
+Edgar Mohar: Este, o sea, yo tengo 2 casos de uso que es
+
+Edgar Mohar: pones un lugar por pones, un lugar y te da un montón de opciones de qué hacer con ese lugar, ya sea que te genere una ficha que te traiga información clave de actores que te traiga información clave mediática del lugar
+
+Edgar Mohar: que te traiga este, etcétera, etcétera. Lo mismo con personas, Tú le das el nombre a una persona y que automáticamente te empiece a traer. Okay. ¿quieres ver últimos acuerdos con él. Las últimas reuniones que tuviste con él.
+
+Edgar Barroso: Este que las solicitudes históricamente que ha hecho a.
+
+Edgar Mohar: Quieres ver las bases de datos de gobierno, a ver si debe dinero de impuestos, a ver si está en un programa de beneficiarios quiere saber sus relaciones políticas o
+
+Edgar Mohar: o este o empresariales, por ejemplo, este quiere saber sus declaraciones en medios, y entonces tú le puedes decir Okay, Sí, quiero quiero ver su presencia mediática. Bueno, este cuate.
+
+Edgar Mohar: este en el último 6 meses ha tenido
+
+Edgar Mohar: este. Muchas apariciones en medio lo han mencionado tantas veces, normalmente con un enfoque más favorable en estos medios, en fin, que que la I a te vaya sugiriendo
+
+Edgar Mohar: este a partir de un nombre, una serie de o de productos
+
+Edgar Mohar: que son para tus casos de uso, ya sea que te vas a reunir o que quieres o que estás pensando. Lo que dijiste, ahorita es
+
+Edgar Mohar: es una candidata que te va a venir a ver. Y entonces pues ahí quieres saber sus resultados electorales, quieres, o sea, a partir de un nombre.
+
+Edgar Mohar: te desata una serie de posibles medidas de manera automática que van y cruzan distintas bases de datos, ya sea de un lugar, ya sea de una persona, ya sea de un programa, por ejemplo.
+
+Toño Rangel: Mhm.
+
+Edgar Barroso: Y y perdón tocayo. Discúlpeme que que me desvíe un poquito, mira toño.
+
+Toño Rangel: Fue.
+
+Edgar Barroso: La la pregunta, posiciones en disputa y bloques de paridad en elecciones municipales. De querétaro.
+
+Edgar Barroso: Primero te dice: no cuento con fuentes específicas porque no está en nuestra base de conocimiento.
+
+Edgar Barroso: Pero la estructura municipal de querétaro tiene 18 municipios, un presidente municipal regiduría, posiciones municipales, zona metropolitana, presidencia sindicaturas, regidurías, etcétera. Estimaciones generales de posiciones
+
+Edgar Barroso: en una elección municipal ordinaria en querétaro se disputan aproximadamente 200 y 260 posicionamos ayuntamiento verdad bloques de paridad de género conforme a la reforma constitucional de paridad. En todo 2 019, la legislación electoral de querétaro, principios aplicables. 50 por 100 de candidaturas alternancia en planillas y bloques de competitividad.
+
+Edgar Barroso: pan versus morena, panorama electoral en querétaro
+
+Edgar Barroso: pan alianza va por querétaro históricamente dominante en Querétaro desde 1 997 morena. Crecimiento acelerado de 2 018 mayor plantación en municipios de la sierra gorda y zonas rurales en 2 000. 24 incrementó significativamente su competitividad en zona metropolitana. Alianza con Pt y P Partido Verde.
+
+Edgar Barroso: implicaciones por la paridad por partido, al ser competitivo en 18 municipios, exige distribuir candidaturas de mujeres equitativas en todos los bloques de competitividad, incluyendo los municipios, donde históricamente gana.
+
+Edgar Barroso: etcétera, no, O sea, si si se mete y luego te dice, limitación de datos identificada. El sistema no cuenta actualmente con los resultados electorales oficiales, O sea, te está diciendo, no está. En mi base de conocimiento. Camp no te puedo garantizar que esto sea correcto.
+
+Edgar Barroso: pero te avisa de que eso está chido.
+
+Toño Rangel: Está padrísimo. Este. Yo creo a ver lo que dijiste. Edgar está toda madre, nada más que
+
+Toño Rangel: o sea, es que es como
+
+Toño Rangel: partiendo de la base de que la I A en realidad te puede dar todos los datos que se te ocurran, siempre y cuando los tenga o los pueda investigar.
+
+Edgar Barroso: Mhm.
+
+Toño Rangel: Lo que propone Edgar es pones, un municipio
+
+Toño Rangel: y te despliega, digamos, como una
+
+Toño Rangel: unas tarjetitas que son como casos de uso como para para guiar al al usuario
+
+Toño Rangel: de qué podría él pedirte a la Ia, si es que no se le ocurre que eso puede pasar. Y va a ocurrir mucho
+
+Toño Rangel: este, pero que no es limitativa y que en el caso de Edgar y yo, que nos dedicamos más a esto, podríamos identificar que pudieran ser atractivos, pero ese, esa ese marco.
+
+Edgar Mohar: En mitad de.
+
+Toño Rangel: No es limitativo. Sí, claro, yo podría decir: oye a ver, voy a cadereyta.
+
+Toño Rangel: Y entonces te podría decir perfecto.
+
+Toño Rangel: este. ¿cómo quieres que te ayude? Tengo varias opciones para ti.
+
+Toño Rangel: pero tú dime lo que tú, lo que quieras. Si no está dentro de estas te puedo hacer. Y entonces te despliega. Yo diría que te despliegue las 10 cosas que pudieran ser más del interés de un gobernador que ahorita a manera como de
+
+Toño Rangel: de ideas que se te venían viniendo a la cabeza.
+
+Toño Rangel: Creo que vale la pena que sí hagamos el esfuerzo de enmarcar las 10
+
+Toño Rangel: para que ya ya lo tengamos. No.
+
+Edgar Mohar: Ese es ese que perdón que te interrumpa, que te presente ese menú de esas 10 cosas
+
+Edgar Mohar: y que nos dice que no esté abierto a que tú puedas interactuar de otra manera. Pero además, una de esas 10 este otoño puede ser el formato de ficha que ya usa, ¿Quieres la ficha, este lugar con tu formato, h 24
+
+Edgar Mohar: o con tu formato que te hace tu particular. Sí, Y ya le picas ahí y te hace la ficha, ya descargable en P. D, F de ese lugar a la que estás acostumbrado. O sea, no fuiste a preguntarle cosas ni a estar trabajando con ahí. Fuiste a que te generara un producto específico que usa.
+
+Toño Rangel: Que, de hecho, que, de hecho, si yo fuera el gobernador, este lo que haría
+
+Toño Rangel: es que yo manejo mi mi perfil.
+
+Toño Rangel: pero al mismo tiempo le dejo a mi particular que entre me explico.
+
+Edgar Barroso: Claro.
+
+Toño Rangel: Yo sé que lo podríamos este limitar, y, pero la realidad es que esa opción debe estar este. ¿por qué? Porque el particular es el que lo va a usar. Este particular va a aprender un chingo de política y de y de información, entonces este, pero él es el que hace las fichas. Entonces él podría utilizar la herramienta como caso de.
+
+Edgar Mohar: En realidad le cada quien tiene su perfil, no tiene que entrar con el gobernador, y puedes darle los permisos para que él pueda consultar todo lo que el gobernador consulta y, además, sea el que sube información, No. Pero quién entra con su perfil. Y así, Ok, tiene su exacto.
+
+Edgar Barroso: Y podemos hacer perfiles a los 12 sin problemas.
+
+Toño Rangel: Porque a lo mejor el particular lo que va a hacer o el que le hace la ficha va a activar información extra que él va a querer jalar de alguna página de Internet o hacer una investigación, Además, etcétera, que pueda aderezar o pueda enriquecer la ficha. Y Y eso está interesante. Entonces yo creo que está bien
+
+Toño Rangel: este que eso es mucha chamba del particular, pero que el gobernador también tendría la opción de preguntarle a la inteligencia artificial este o a su cerebro de Querétaro entonces.
+
+Edgar Mohar: Pero.
+
+Toño Rangel: Yo no.
+
+Edgar Mohar: Que además, perdón, toño. Pero porque además, ahí, en, digamos, la limitación de no tener la inteligencia hoy
+
+Edgar Mohar: es que generalmente hace una ficha, el particular que a veces puede traer información de más y a veces información de menos, no es de.
+
+Edgar Mohar: Y aquí. La ventaja es que en tiempo real le dices, oye, Amplía esto, quítale esto ¿no? Y entonces, en tiempo real, oye este normalmente la ficha no trae lo de la sea. Quiero que en este momento le incluyas datos de la Sea porque va a ser el tema que voy a tratar ahí
+
+Edgar Mohar: y quiero que además me hagas unas líneas discursivas este porque no tenía preparado un discurso, pero me pidieron que hablara y órale. Le voy a entrar, No sé, es esa esa
+
+Edgar Mohar: esa interacción dinámica, porque le decía yo, el otro día, a mi tocayo. Creo que coincidimos todos. El chiste. Esta herramienta es que las cosas que ya hacen tú y el gobernador les permitan hacerlas mejor.
+
+Toño Rangel: Tú ya tienes un boletín informativo. ¿qué? Bueno, ¿cómo esta cosa.
+
+Edgar Mohar: Puede mejorar tu proceso de enterarte de las noticias. No, ¿Cómo puede hacerlo mucho más este a profundidad, más este intuitivo, etcétera. Entonces, ¿cómo mejora cosas. Pero no sólo eso, también. ¿cómo te permite hacer cosas
+
+Edgar Mohar: que hoy no estás haciendo, porque no había la tecnología que te lo permitiera. Pero con esta cosa, ahora puedes hacer algo que no hacías, no en tu día a día o en que E no es exactamente lo que dije de las fichas, pero tiene que ver con eso.
+
+Edgar Mohar: No solo es mejorar la ficha, sino como ahora. Puedes tener más recursos en el momento que visitas un lugar. En fin.
+
+Toño Rangel: Yo creo que no, pero no está bien, Pero mira estoy un poquito
+
+Toño Rangel: este pensando, ¿cómo lo aterrizamos? Déjame proponer? Porque el chiste es hirviendo.
+
+Edgar Barroso: Dame un segundito.
+
+Toño Rangel: Pues no es pan, y es
+
+Toño Rangel: este. A ver.
+
+Toño Rangel: miren lo que pasa es que parte de cuál es el gran El gran problema del gobierno, entre otros muchos.
+
+Toño Rangel: es que la información está completamente dispersa.
+
+Edgar Barroso: Mhm.
+
+Toño Rangel: Mhm.
+
+Toño Rangel: Y hay diversos tipos de información.
+
+Toño Rangel: Hay información estadística geográfica que siempre está ahí.
+
+Toño Rangel: Hay información histórica en términos de lo que ha venido haciendo los gobiernos.
+
+Toño Rangel: Tam no está, no es de buena calidad y está dispersa.
+
+Toño Rangel: y la información más, digamos, de buena calidad entre comillas, es la que tenemos en el pasado recientísimo, porque la tenemos muy a la mano.
+
+Toño Rangel: pero sigue igual, dispersa y en diferentes formatos.
+
+Toño Rangel: que la inteligencia artificial nos ayuda muchas veces a ponerlo todo en un mismo formato, etcétera.
+
+Toño Rangel: Entonces yo lo que me imagino es que necesitamos
+
+Toño Rangel: generarle a cada secretario o a cada actor clave del gobierno. Voy a inventar
+
+Toño Rangel: a los 50 o a los 70 actores claves del gobierno, porque nada más son los secretarios. La tarea son los 70 actores clave del gobierno
+
+Toño Rangel: para que ellos alimenten a la a la al cerebro del Cic con la información más relevante
+
+Toño Rangel: que en un momento dado le pueda servir al gobernador. Ahora les tenemos que dar una guía. Entonces que decir a ver, me vas a informar. Me vas a meter información geográfica, estadística. Me vas a meter información histórica. Y me vas a. Me vas a meter toda la información de esta administración de tal suerte
+
+Toño Rangel: que yo le voy a meter, por ejemplo, si fue el Secretario de Educación.
+
+Toño Rangel: pues información de cómo está la infraestructura hoy.
+
+Toño Rangel: la histórica, lo cual la que menos me la voy a tener a la mano. No la voy a inventar. Voy a poner que infraestructura tenemos hoy
+
+Toño Rangel: cuáles son los indicadores clave que nosotros estamos mejorando y cuáles son los resultados más importantes que queremos destacar
+
+Toño Rangel: sobre la educación.
+
+Toño Rangel: Voy a poner el total de número de toda toda la toda la información estadística de cuántos alumnos hay, en qué escuelas están, cuántos niños, cuántos niñas
+
+Toño Rangel: sí.
+
+Edgar Mohar: Te puedo interrumpir el tantito. Estando de acuerdo contigo, propongo que nos enfoquemos no en todo lo que se necesita es en toda la información que hay que subirle que claro que la necesitamos, sino en los casos de uso otra vez, es decir, el gobernador qué quiere hacer?
+
+Edgar Mohar: Y luego ya vemos todo lo que tiene que pasar para que el gobernador tenga eso. Entonces.
+
+Toño Rangel: Que ahí te va es que ya pensé lo que el gobernador quiere. Nada más ahorita. Lo voy a decir al final, Si, por ejemplo.
+
+Toño Rangel: yo soy el secretario de Educación, puedo subir también ahí todo lo que hemos hecho en este en esta administración
+
+Toño Rangel: en cuanto a obra, en infraestructura educativa.
+
+Toño Rangel: ¿puedo ponerle ahí? Cuáles obras están en curso? Cuáles Cuántos han sido los beneficiarios? En qué comunidades en que latitudes, es decir, ¿de acuerdo, toda la información No.
+
+Toño Rangel: Si esto mismo lo hace, obras públicas.
+
+Edgar Mohar: De todas de todas las obras que ha venido haciendo durante este año.
+
+Toño Rangel: Este si eso mismo hace salud. Sobre todos los hospitales, que ha equipado cuantos beneficios tiene en cada municipio, etcétera.
+
+Toño Rangel: Nada más. Voy a dejar el ejemplo en estos 3, pero imagínense que esa información la alimentan las 70 cabezas más importantes del estado. Entonces, si voy a poder como gobernador y en la camioneta y preguntar lo que siempre pregunto a un gobernador.
+
+Toño Rangel: decir: oye qué hemos hecho en que hemos hecho en Ezequiel.
+
+Toño Rangel: Entonces
+
+Toño Rangel: le pones, obviamente te van a salir 17 000, cosas, ¿no? Pero tú las puedes ir empezando como a acotar o pedir que te haga un resumen, o porque muchas veces va al gobernador, a un municipio y como va un tema de desarrollo rural.
+
+Toño Rangel: Ya lo demás que se haya hecho es súper importante en cadereyta.
+
+Toño Rangel: Ya no no está en su radar.
+
+Toño Rangel: Entonces, si pregunta oye qué es lo más relevante.
+
+Toño Rangel: ¿Cuánto dinero hemos metido según la información que tenemos de estas 70 dependencias en en cadereyta. Pues entonces vas a llegar con 4, 7 5 puntos muy importantes que, además
+
+Toño Rangel: de que les digas oigan, estamos apoyando mucho al campo aquí en cadereyta. Fíjense nada más que interesante, nada más. En los últimos 2 años le hemos metido 150 000 000 de pesos al al municipio.
+
+Toño Rangel: Estamos ahorita, acabando de construir tal este centro médico. Ya habíamos construido 4 clínicas. Tenemos
+
+Toño Rangel: sumaditos, ya todos los beneficiarios. Le estamos aportando hoy en día a 400 familias, o sea, pero ya ya ya nada más. Con esto termino.
+
+Toño Rangel: Necesitamos transitar de una discursos sectorizados a
+
+Toño Rangel: a que a que el gobernador hable de manera holística sobre lo que está haciendo en el lugar ya con eso. Así lo dejo.
+
+Edgar Mohar: Pero déjame, déjame, me salgo un poquito hacia arriba.
+
+Edgar Mohar: El gobernador, déjame ponerlo así.
+
+Edgar Mohar: Hace como 5 o 6 cosas. Uno es se entrevista con gente clave.
+
+Edgar Mohar: Y entonces necesitamos ver cómo le sirve la guía para sus encuentros con otro gobernador con un candidato, con el de la oposición, con el dueño del periódico, etcétera, etcétera. Ese es 1 de las actividades que hace un gobernador. La otra cosa que hace el gobernador.
+
+Edgar Mohar: Tú dijiste 2 casos de uso. De repente quiere hacer análisis legal, porque está pensando sus opciones, Y entonces hace un análisis legal, de repente hace análisis electoral porque está metido en su chip de gran Entonces, ese es otro caso. Uso dedica tiempo a hacer análisis electoral.
+
+Edgar Mohar: Un otro otro cuarto dedica tiempo a verla el funcionamiento del gobierno, ¿Cómo van sus programas como sus funcionarios, no los indicadores claves, etcétera.
+
+Edgar Mohar: Otro tiempo lo dedica a hacer giras y dar discursos y dar entrevistas, ¿no? Entonces un poco pensando en esas cosas que hace el gobernador es es lo que es lo que decíamos. Todo este punto que tú
+
+Edgar Mohar: dijiste: ahorita. Fíjate. Salen 2 cosas, ya sea que va a ir a una reunión de gabinete y entonces quiere darle un ojo a en cómo andan sus secretarias sus programas prioritarios. ¿cómo andan los indicadores entonces se mete y
+
+Edgar Mohar: le tiene un primer menú. ¿no? ¿qué estás haciendo hoy gobernador o ¿Qué quieres hacer? Ahorita? No, Pues quiero gestionar mi Gobierno
+
+Edgar Mohar: Okay, Pues mira, te puedo dar un informe, tus indicadores claves. Te puedo dar una agenda de los últimos acuerdos de las reuniones de gabinete. Este y y las cosas que se co los compromisos que hay este por cada secretaría. Te puedo decir si algún algún
+
+Edgar Mohar: este programa está desfasado. No sé, o sea, te hay un menú de cosas este sobre eso? ¿no? Okay. Me quiero clavar en eso. Pero esto mismo, cuando tú es, voy a una gira, un lugar.
+
+Edgar Mohar: También va a consultar este la eficiencia gubernamental y los indicadores, pero centrado en ese lugar porque vas a una gira este. Entonces vamos, yo he visto ahorita como 5 o 6
+
+Edgar Mohar: casos de.
+
+Toño Rangel: Zoom.
+
+Edgar Mohar: Casi casi la guía te dice qué quieres hacer. Ahorita Cover. Y entonces te saca un menú de 6 cosas. Y cuando escoges una de esas a
+
+Edgar Mohar: te saca 8 o 10 cositas este, que son las más intuitivas que vas a querer respecto de eso, independientemente de que que pueda ser lo que sea. Pero el tema clave y lo dijiste, ahorita con tu término holístico.
+
+Edgar Mohar: es La diferencia de esto es que no es, no es un portal que se mete a bases de datos, sino que te permite agregar información dispersa
+
+Edgar Mohar: Este para tu uso, o sea, yo lo que voy a ir es a una gira. Este. Quiero saber
+
+Edgar Mohar: todo lo que pueda ser relevante para mi gira en cadereyta. Y eso quiere decir que valle cheque las bases de datos de distintos actores que va también la ley, este todo lo que esté en mi ecosistema que sea responsable.
+
+Toño Rangel: Iba a.
+
+Edgar Mohar: Para esta visita. No.
+
+Toño Rangel: Pero me gusta.
+
+Edgar Mohar: De acuerdo?
+
+Toño Rangel: Yo yo también miren, yo yo voy a tener que salirme. Yo les rogaría que se queden 10 minutitos más nada más para que aterricen. El viernes tenemos una reunión con de finanzas. Creo que va a salir bien, pero
+
+Toño Rangel: este
+
+Toño Rangel: y me gusta mucho esto que tienes la interfaz Edgar Barroso. Yo casi que lo que diría es justo así. Creo que esta sería como la idea de ir trabajando.
+
+Toño Rangel: que partiéramos ya de la interfaz que le sigamos metiendo datos, que sigamos jugando con esto, que le porque que le pongamos botones, que le pongamos funcionalidades que le quiten las funcionalidades.
+
+Edgar Barroso: Sí.
+
+Toño Rangel: Y que todo sea pensado en el gobernador y su estafa.
+
+Toño Rangel: Por lo pronto, ya si el Secretario de Finanzas, que estoy seguro vas es que yo con esto no vamos. Podría ser 4 o 5 funcionalidades que son las que hago Todavía las haría automático, siempre y que siempre y cuando, pues confiamos.
+
+Edgar Barroso: La edad que nada que confíe en Edgar para que me pueda yo confiar este conectar.
+
+Toño Rangel: Puta, pues creo que
+
+Toño Rangel: yo creo que este este, esta, esta herramienta, la veo al gobernador y a su estafa
+
+Toño Rangel: y a los principales 4 o 5 más importante. Toda la información seguridad capital Nomás está pucamato. Es una una una funcionalidad para el estafa y para el gobernador es
+
+Toño Rangel: cabo en los discursos de tono con un tono superamable con los mullet, depende como él quiera. Este Esa es una funcionalidad principal, No, claro, si el gobernador quisiera, pues despida su particular despide a su.
+
+Edgar Barroso: Sí.
+
+Toño Rangel: Este, a su a su jefe de.
+
+Edgar Mohar: Pero ahorita ahorita lo que lo que estamos pensando, que el jefe discursos va a usar estaban.
+
+Edgar Barroso: Acto no se va a.
+
+Toño Rangel: Lo que y lo que le necesitamos meter también a este a este cerebro anótelo de una vez, es la narrativa del gobierno.
+
+Edgar Barroso: 100 por 100 prima.
+
+Toño Rangel: En cualquier.
+
+Edgar Mohar: Ello.
+
+Toño Rangel: Eso, claro, exactamente o le diga oye sobre este tema que vas a hacer este relacionalo con tal o cual. Bueno, señores, yo los dejo en.
+
+Edgar Barroso: Venga.
+
+Toño Rangel: Va poca madre me entusiasma mucho. Vamos.
+
+Edgar Barroso: Sí.
+
+Toño Rangel: Poco claro.
+
+Edgar Barroso: Poco a poco y preparamos nada más. Yo lo único que necesito tocayo. Si quieres vete daño, sé que te tienes que.
+
+Edgar Mohar: El uso.
+
+Toño Rangel: Oye este nada más este edgar ver al rato a ver si vemos cómo le puedo hacer para que, de manera rapidísima. Este alfredo flores nos puede ayudar a
+
+Toño Rangel: a conectar la información electoral. Él tiene toda la toda la información.
+
+Edgar Mohar: Nada más que nos pase los bases de datos.
+
+Toño Rangel: Sí, con eso tan fácil.
+
+Edgar Mohar: Sí.
+
+Toño Rangel: Sí, nomás que sí, casi que las ha hecho casi artesanales. Pero, bueno, ahora le.
+
+Edgar Mohar: O que nos pase algunas.
+
+Edgar Barroso: Sí compararon el caso de uso.
+
+Edgar Mohar: Pásame el contacto. Dile que hable conmigo, y ya yo veo que le podemos sacar para un caso de tu.
+
+Toño Rangel: Lo ubicas. Sí.
+
+Edgar Mohar: Concretos. Si yo lo ubico de cuando te acuerdas. Aquel cuarto con se llamaba en la campaña de pancho, Este
+
+Edgar Mohar: invención del ingeniero Ibarra, el nombre y el Tuy Ibarra eran los del
+
+Edgar Mohar: Ay. Ya no me acuerdo. Cómo se llamaba esa cosa.
+
+Toño Rangel: Ya se perdono, éste estaba como.
+
+Edgar Mohar: Padre, El padre. Ahí estaba alfredo.
+
+Toño Rangel: Sí.
+
+Edgar Mohar: Alfredo era el de el de estas cosas desde entonces. No.
+
+Toño Rangel: Sí.
+
+Edgar Mohar: De la.
+
+Toño Rangel: Oigan y le vamos a presentar a Gustavo. Se llama el Secretario de Finanzas.
+
+iPhone de Sergio L. Ibarra: Freido toño. No te preocupes.
+
+Toño Rangel: No, no, ya ya no, no está bien, ya Ya búscalo. Tú de una vez este Edgar ya se lo mandé ya.
+
+Edgar Mohar: Aunque ya le dije que lo va a buscar, ella vale, bueno, búscalo a los 2 como quieran.
+
+Toño Rangel: Sally.
+
+Edgar Mohar: Es que le voy a pedir específico. Voy a hablar con él para ver que tiene. Y le voy decir, oye Dame una base de datos, aunque sea solo de un municipio, esté completa y que salió. Y ya con eso trabajamos.
+
+Edgar Barroso: Vale.
+
+Toño Rangel: Va.
+
+Edgar Mohar: Pero mándale un mensaje toño, porque él no se va a acordar de mí.
+
+Toño Rangel: Ya le mandé tu órale todo esto. Por eso decía que ya lo.
+
+Edgar Mohar: Vale, Vale, Sí.
+
+Edgar Barroso: Venga toño.
+
+Edgar Mohar: Gracias.
+
+Toño Rangel: Amigos Bye hasta luego.
+
+Edgar Barroso: Oye tocadito nada más. Una cosa que quería checar contigo de lado. El viernes.
+
+Edgar Mohar: Sí.
+
+Edgar Barroso: Si si tiene chance, yo les mande como como el documento largo, nada más. Quiero saber si hago la presentación para el viernes sobre ese documento, una versión reducida con 5 o 6 slides para gustavo, pero nada más. Quiero saber que están de acuerdo, que es lo que voy a presentar.
+
+Edgar Mohar: Ok, que yo creo que va a ser eso una versión muy reducida.
+
+Edgar Barroso: Sí.
+
+Edgar Mohar: Porque creo que vamos a acabar brincando a esto.
+
+Edgar Barroso: Sí.
+
+Edgar Mohar: No se.
+
+Edgar Barroso: Pasar más a probarlo. No.
+
+Edgar Mohar: Más a probarlo, entonces ser algo muy breve.
+
+Edgar Barroso: Tú qué has hecho.
+
+Edgar Mohar: Sé porque ahorita, estoy a la mitad de la carretera, pero en cuanto llega a mi destino, te prometo que lo vuelvo a revisar y hago comentarios para que mañana.
+
+Edgar Barroso: Para que mañana yo, a la presentación ejecutiva y sigo trabajando.
+
+iPhone de Sergio L. Ibarra: De Édgar.
+
+Edgar Barroso: Dime, Sergio.
+
+iPhone de Sergio L. Ibarra: Es también dónde dónde está el.
+
+Edgar Mohar: Dando un poquito.
+
+Edgar Barroso: Querido Sergio, no te entendemos.
+
+Edgar Mohar: Se te acabó la batería.
+
+iPhone de Sergio L. Ibarra: Ajá, Crip.
+
+Edgar Mohar: No.
+
+Edgar Barroso: No lo siento. Sergio. No tuvimos nada.
+
+Edgar Mohar: Tenemos prendido. El chic tocayo.
+
+Edgar Barroso: Porque voy a proponer que se mejore el Internet. En Querétaro porque, como parte de la inteligencia colectiva, primer paso, poner buen Internet en todos lados.
+
+Edgar Mohar: Y Sergio andan este muy, muy.
+
+Edgar Barroso: Sí. Hombre: No, Pues es que si de plano no, no no entendía nada.
+
+Edgar Mohar: Ya regresó de ella, se cortó completo.
+
+Edgar Barroso: Pues está en Newt, señor, que está tratando de encontrar un lugar para con mejor recepción. Algo.
+
+Edgar Barroso: Pero mira, mientras me si quieres, le esperamos un minutito nada más. Mira, por ejemplo, esto de cadereyta. No que decía ahorita toño.
+
+Edgar Barroso: hizo un brieh ejecutivo.
+
+Edgar Barroso: ¡ay, perdón, estoy escribiendo por acá,
+
+Edgar Barroso: dice dónde o cuál es el archivo que dice: matute, que va a revisar para la revisión la sesión del pues ese es más, el presupuesto tocayo.
+
+Edgar Barroso: No sé si.
+
+Edgar Barroso: Si Sergio lo lo lo tienen.
+
+Edgar Mohar: Lo vio o no lo vio. No sé.
+
+Edgar Barroso: Lo sé, O sea, y si ustedes meros, yo.
+
+Edgar Mohar: Este, pues no sé, no sé este.
+
+Edgar Mohar: Bueno, no tengo ni idea, déjame y consulto.
+
+Edgar Barroso: Sí, para para no regarla.
+
+Edgar Mohar: Vale, Vale, consulto y checamos.
+
+Edgar Barroso: El yo creo que
+
+Edgar Barroso: muy bien tocayo. Muchas gracias. Es muchísima ayuda, tus todas tus intervenciones. Querido. Muchas gracias. Pues Yo perdón porque yo ya medio construir un menú que no sé si va a ser compatible o no, pero este.
+
+Edgar Mohar: Porque se me ocurrió que por ahí podemos partir, no.
+
+Edgar Barroso: Mira con presupuesto y tiempo, se puede hacer todo. Está Bueno, entonces que se te ocurra, lo ponemos.
+
+Edgar Mohar: Órale, pues este que descanses y ahí mañana seguimos seguimos en la guerra.
+
+Edgar Barroso: Venga un abrazo.
+
+Edgar Mohar: Sale hasta luego.
+
+Edgar Barroso: Con cuidado, chao.
+
+Edgar Mohar: No.
