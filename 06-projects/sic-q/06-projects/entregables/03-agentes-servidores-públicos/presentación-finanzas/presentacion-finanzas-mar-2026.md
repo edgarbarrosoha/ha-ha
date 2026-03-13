@@ -21,7 +21,13 @@ Marzo 2026
 
 El gobierno del estado genera información en cada dependencia — indicadores, programas, avance presupuestal, acuerdos de consejos temáticos, participación ciudadana. Son activos que no siempre es fácil conectar entre sí.
 
-Lo que proponemos es una infraestructura que facilite esa conexión para que la información sirva de forma transversal al momento de tomar decisiones. Este año se actualiza el Plan QRO 2050, lo cual abre una ventana para hacerlo. La propuesta es compatible con la agenda de Querétaro Digital.
+Lo que proponemos es una infraestructura que facilite esa conexión para que la información sea más útil y sirva de forma transversal al momento de tomar decisiones. Este año se actualiza el Plan QRO 2050, lo cual abre una ventana para hacerlo. La propuesta es compatible con la agenda de Querétaro Digital.
+
+---
+
+## Qué es el SIC-Q
+
+Un sistema de inteligencia artificial y colectiva que cruza fuentes y genera inteligencia para la toma de decisiones, el diseño de estrategias y la construcción de escenarios futuros.
 
 ---
 
@@ -38,12 +44,6 @@ Hemos socializado y probado las capacidades del SIC-Q antes de traer esta propue
 | Mar 2026 | 4 agentes de IA operando, leyes del estado cargadas, comparativos municipales |
 
 De los talleres: en 11 de 12 mesas, las personas participantes propusieron capacidades que coinciden con lo que el SIC-Q ofrece, sin que se les mencionara el proyecto.
-
----
-
-## Qué es el SIC-Q
-
-Un sistema de inteligencia artificial y colectiva que cruza fuentes y genera inteligencia para la toma de decisiones, el diseño de estrategias y la construcción de escenarios futuros.
 
 ---
 
@@ -70,7 +70,7 @@ El arranque es acotado: 3 temas (salud, educación, agua), leyes del estado y vo
 
 **SIC-Q — Sistema de IA agéntico:**
 - **Memoria** — base de conocimiento y contexto
-- **Razonamiento** — múltiples modelos de IA de última generación
+- **Razonamiento** — analiza, infiere y formula escenarios con múltiples modelos de IA
 - **Herramientas** — gráficas, mapas, búsqueda, documentos, análisis
 
 Especializado por perfil: Gobernador · Planeación · Finanzas · Equipo operativo
@@ -89,7 +89,7 @@ Cada secretaría puede — y debería — desarrollar sus propias herramientas d
 
 Sin una capa que conecte, el gobernador termina con 30 aplicaciones distintas, cada una con su lógica, sus datos y su formato. Eso no escala.
 
-El SIC-Q es esa capa: un punto donde la información de todas las áreas se cruza, se contextualiza y se entrega adaptada a quien la necesita — sin pedirle a nadie que deje de innovar.
+El SIC-Q es esa capa: un punto donde la información de todas las áreas se cruza, se analiza y se entrega como inteligencia adaptada a quien la necesita — sin pedirle a nadie que deje de innovar.
 
 ---
 
@@ -103,20 +103,20 @@ El SIC-Q es esa capa: un punto donde la información de todas las áreas se cruz
 | **Mejor uso de activos existentes** | Conecta el Plan a 2050, los 23 consejos, el CONSEQRO y 25 años de datos                                           |
 | **Modernización de la planeación** | Procesa insumos de 18 municipios con IA para la actualización del Plan QRO 2050                                     |
 | **Integración de iniciativas de IA** | Cada secretaría puede innovar con sus propias herramientas; el SIC-Q integra esas iniciativas para que sirvan a todas las áreas |
-| **Aprendizaje continuo**          | El sistema aprende de las interacciones para identificar necesidades frecuentes y mejorar sus bases de conocimiento |
-| **Compatible con Querétaro Digital** | Capa de inteligencia sobre los datos que el gobierno ya genera                                                      |
+| **Seguimiento y evaluación**      | Facilita el monitoreo de indicadores, la detección de desalineaciones y el seguimiento de compromisos               |
+| **Fortalece Querétaro Digital**   | Capa de inteligencia sobre los datos y la infraestructura que el gobierno ya genera                                 |
 
 ---
 
 ## Por ejemplo, cómo podría crear valor para la Secretaría de Finanzas
 
-La misma arquitectura habilita una vista para Finanzas desde Fase 1, sin costo adicional.
+Desde Finanzas, la pregunta no es solo cuánto se gastó, sino si ese gasto generó los resultados esperados.
 
-- **Conectar gasto con impacto** — Cruzar lo ejercido con indicadores del PED, señales ciudadanas y prensa para ver si el recurso generó el resultado esperado.
+- **Cruzar gasto con resultados** — El sistema razona sobre avance presupuestal junto con indicadores del PED y señales ciudadanas para facilitar una lectura integrada.
 
-- **Anticipar antes de que escale** — Si en un municipio se acumulan quejas sobre agua y el presupuesto hídrico está subejercido, eso es una señal. El SIC-Q facilita ese cruce.
+- **Sugerir dónde poner atención** — Si varios programas muestran retraso, el sistema puede cruzar esa señal con el contexto del territorio y sugerir cuáles revisar primero.
 
-- **"¿Qué está pasando en Corregidora?"** — Presupuesto, programas, indicadores, señales ciudadanas, prensa y marco legal en un solo lugar.
+- **Construir escenarios** — "¿Qué está pasando en Corregidora?" o "¿Qué pasaría si reasignamos este presupuesto?" — el sistema puede formular respuestas con la información disponible.
 
 Opera con información que Planeación ya recibe y con cortes que Finanzas determine compartir.
 
@@ -128,9 +128,22 @@ Opera con información que Planeación ya recibe y con cortes que Finanzas deter
 ---
 ## La IA es infraestructura del estado
 
-La IA se está convirtiendo en infraestructura — como las carreteras, las telecomunicaciones o el internet. El modelo de IA se puede cambiar; lo que toma tiempo es integrar la información de un estado. Esa base de conocimiento es lo que permanece.
+La IA se está convirtiendo en infraestructura — como las carreteras, las telecomunicaciones o el internet. El modelo de IA se puede cambiar; lo que toma tiempo es integrar la información de un estado y construir la capacidad de razonar sobre ella. Esa base de conocimiento es lo que permanece.
 
-Querétaro tiene las condiciones: Querétaro Digital, 23 consejos activos, Plan 2050 en actualización, ecosistema de innovación. Construir ahora es liderazgo, no reacción.
+Querétaro tiene las condiciones: Querétaro Digital, 23 consejos activos, Plan 2050 en actualización, ecosistema de innovación.
+
+---
+
+## Un legado transversal
+
+El SIC-Q inició en la Secretaría de Planeación, pero es un proyecto modular al que se pueden sumar las demás secretarías y direcciones.
+
+- Democracia participativa
+- Datos e información integrada
+- Coordinación institucional
+- Planeación a largo plazo
+
+Es un proyecto factible, con una inversión acotada para el alcance que ofrece, y que puede convertirse en un legado de esta administración — una capacidad que no depende de una sola área y que sirve a todo el gobierno.
 
 ---
 
@@ -138,7 +151,7 @@ Querétaro tiene las condiciones: Querétaro Digital, 23 consejos activos, Plan 
 
 La Secretaría de Planeación acredita el cumplimiento de cada hito antes de solicitar la liberación de la fase siguiente.
 
-**Primer hito — junio 2026:** 4 agentes operando con datos reales, briefings con trazabilidad de fuentes, primer control de cambios del Plan QRO 2050, vista inicial para Finanzas.
+**Primer hito — junio 2026:** 4 agentes operando con datos reales, briefings con trazabilidad de fuentes, primer control de cambios del Plan QRO 2050.
 
 | Componente                | Propiedad                                               |
 | ------------------------- | ------------------------------------------------------- |
@@ -151,7 +164,7 @@ La Secretaría de Planeación acredita el cumplimiento de cada hito antes de sol
 
 ## Detalle de la inversión
 
-### Fase 1 — $6M + IVA (Mar – Jul 2026)
+### Fase 1 — $6M MXN + IVA (Mar – Jul 2026)
 
 | Componente                      | Descripción                                                                                                                                                 |
 | ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -160,7 +173,7 @@ La Secretaría de Planeación acredita el cumplimiento de cada hito antes de sol
 | **Arquitectura técnica**        | Infraestructura cloud a nombre del gobierno, autenticación por rol, pipeline de conocimiento, trazabilidad de fuentes                                       |
 | **Vista inicial para Finanzas** | Consultas presupuestales cruzadas con indicadores y señales ciudadanas desde la misma plataforma                                                            |
 
-### Fase 2 — $4M + IVA (Jul – Oct 2026)
+### Fase 2 — $4M MXN + IVA (Jul – Oct 2026)
 
 | Componente                    | Descripción                                                                                                |
 | ----------------------------- | ---------------------------------------------------------------------------------------------------------- |
@@ -169,7 +182,7 @@ La Secretaría de Planeación acredita el cumplimiento de cada hito antes de sol
 | **Agentes públicos**          | Agentes conversacionales conectados a bases de datos oficiales para consulta ciudadana                     |
 | **Ampliación de fuentes**     | Incorporación de nuevas secretarías, datos municipales y fuentes externas                                  |
 
-### Fase 3 — $6M + IVA (Nov 2026 – Feb 2027)
+### Fase 3 — $6M MXN + IVA (Nov 2026 – Feb 2027)
 
 | Componente | Descripción |
 | ---------- | ----------- |
@@ -193,11 +206,11 @@ El arranque opera en piloto. El costo escala conforme se incorporan más depende
 
 |                              |                                                                                                                     |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| **Inversión total**          | $16M + IVA                                                                                                          |
+| **Inversión total**          | $16M MXN + IVA                                                                                                          |
 | **Ejecución**                | 3 fases, 12 meses (marzo 2026 – febrero 2027)                                                                       |
 | **Liberación**               | Por fase, acreditada por Planeación conforme a entregables verificables                                             |
 | **Primer hito**              | Junio 2026: 4 agentes operando + vista inicial para Finanzas                                                        |
-| **Beneficio para el Estado** | Infraestructura de inteligencia colectiva que coordina información y escala la agenda digital |
+| **Beneficio para el Estado** | Infraestructura de inteligencia colectiva que ordena y coordina información para fortalecer la agenda digital |
 
 ---
 
@@ -208,8 +221,8 @@ El arranque opera en piloto. El costo escala conforme se incorporan más depende
 El equipo tiene experiencia en diseño de sistemas de inteligencia para gobiernos, organismos internacionales y organizaciones educativas. El SIC-Q es la aplicación de esa experiencia al contexto de Querétaro.
 
 ---
-### Despedida 
+### Despedida
 Muchas gracias.
-edgar@horizonsarchitecture.ai 
+edgar@horizonsarchitecture.ai
 +52 477 263 0512
-horizonsarchitecture.ai 
+horizonsarchitecture.ai
