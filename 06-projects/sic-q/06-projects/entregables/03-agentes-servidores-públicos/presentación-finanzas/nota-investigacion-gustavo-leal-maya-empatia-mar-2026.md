@@ -246,3 +246,4 @@ En corto: **menos "IA", más "capacidad institucional útil con control".**
 
 8. La Lupa — "Soy un optimista empedernido": Gustavo Leal Maya, 20 de julio de 2023  
    https://lalupa.mx/2023/07/20/soy-un-optimista-empedernido-gustavo-leal-maya/
+21

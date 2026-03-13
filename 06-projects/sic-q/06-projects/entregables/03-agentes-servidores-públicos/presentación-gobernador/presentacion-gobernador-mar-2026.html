@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SIC-Q — Presentación Ejecutiva · Marzo 2026</title>
+<title>SIC-Q — Presentación Ejecutiva · Gobernador · Marzo 2026</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600&family=Roboto+Mono:wght@400&display=swap" rel="stylesheet">
@@ -159,26 +159,6 @@ body {
 .ha-table.compact { font-size: clamp(0.9rem, 1.15vw, 1.05rem); }
 .ha-table.compact td { padding: 0.45em 1em 0.45em 0; }
 .ha-table.compact td:first-child { white-space: normal; min-width: 10rem; }
-
-/* ═══════════════════════════════════════════
-   CARDS (for Finanzas examples)
-   ═══════════════════════════════════════════ */
-.card {
-  padding: 1.2em 0;
-  border-bottom: 1px solid rgba(128,128,128,0.15);
-}
-.card:last-child { border-bottom: none; }
-.card-title {
-  font-weight: 500;
-  font-size: clamp(0.95rem, 1.3vw, 1.15rem);
-  margin-bottom: 0.3em;
-}
-.card-body {
-  font-size: clamp(0.85rem, 1.15vw, 1.05rem);
-  line-height: 1.55;
-  opacity: 0.8;
-  max-width: 48rem;
-}
 
 /* ═══════════════════════════════════════════
    DATA CHANNEL LIST
@@ -428,29 +408,6 @@ body {
 .accent .callout { border-left-color: rgba(255,255,255,0.4); }
 
 /* ═══════════════════════════════════════════
-   NUMBERED LIST (Por qué ahora)
-   ═══════════════════════════════════════════ */
-.num-list { list-style: none; max-width: 50rem; counter-reset: numlist; }
-.num-list li {
-  counter-increment: numlist;
-  padding: 0.6em 0;
-  padding-left: 2.2em;
-  position: relative;
-  font-size: clamp(0.9rem, 1.2vw, 1.1rem);
-  line-height: 1.55;
-}
-.num-list li::before {
-  content: counter(numlist);
-  position: absolute;
-  left: 0;
-  top: 0.6em;
-  font-family: var(--mono);
-  font-size: 0.85em;
-  opacity: 0.4;
-}
-.num-list li strong { font-weight: 500; }
-
-/* ═══════════════════════════════════════════
    ANIMATIONS
    ═══════════════════════════════════════════ */
 .a {
@@ -473,10 +430,7 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
-/* Stagger table rows via JS-applied --d */
 .ha-table tbody tr { transition-delay: var(--d, 0s); }
-
-/* (flow diagram animations are inline with .flow styles above) */
 
 /* Card animation */
 .card {
@@ -511,18 +465,6 @@ body {
 }
 .slide.active .phase-col,
 .slide.active .cloud-bar {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-/* Numbered list animation */
-.num-list li {
-  opacity: 0;
-  transform: translateY(8px);
-  transition: opacity 0.45s var(--ease), transform 0.45s var(--ease);
-  transition-delay: var(--d, 0s);
-}
-.slide.active .num-list li {
   opacity: 1;
   transform: translateY(0);
 }
@@ -621,7 +563,7 @@ body {
 
   /* Show all animated elements */
   .a, .card, .channel-list li, .phase-col, .cloud-bar,
-  .num-list li, .ha-table tbody tr,
+  .ha-table tbody tr,
   .sys-side, .sys-arrow, .sys-cloud, .sys-infra {
     opacity: 1 !important;
     transform: none !important;
@@ -657,88 +599,26 @@ body {
 </section>
 
 <!-- ═══════════════════════════════════════════
-     SLIDE 2 — EL CONTEXTO
+     SLIDE 2 — EL RETO
      ═══════════════════════════════════════════ -->
 <section class="slide light" id="s2">
   <div>
-    <h2 class="title a" style="--d:0.2s">El contexto</h2>
+    <h2 class="title a" style="--d:0.2s">Querétaro compite con Bangalore,<br>Austin, Singapur e Irlanda.</h2>
     <div class="spacer-sm"></div>
     <div class="accent-line a" style="--d:0.35s"></div>
     <div class="spacer"></div>
-    <p class="body-text a" style="--d:0.4s">El gobierno del estado genera información en cada dependencia — indicadores, programas, avance presupuestal, acuerdos de consejos temáticos, participación ciudadana. Son activos que no siempre es fácil conectar entre sí.</p>
-    <p class="body-text a" style="--d:0.65s">Lo que proponemos es una infraestructura que facilite esa conexión para que la información sea más útil y sirva de forma <span class="highlight">transversal</span> al momento de tomar decisiones. Este año se actualiza el <span class="highlight">Plan QRO 2050</span>, lo cual abre una ventana para hacerlo. La propuesta es compatible con la agenda de <span class="highlight">Querétaro Digital</span>.</p>
+    <p class="body-text a" style="--d:0.45s">Querétaro: <span class="highlight">menos del 2%</span> de la población, menos del 1% del territorio, <span class="highlight">#1 en IED per cápita</span>. Nearshoring, data centers, Agencia de Energía, Acueducto III — el estado crece a velocidad de metrópoli global.</p>
+    <p class="body-text a" style="--d:0.65s">Coordinar talento, datos y decisiones a esa escala requiere infraestructura nueva. Lo que falta no es voluntad ni inversión: es <span class="highlight">infraestructura para decidir</span>.</p>
+    <p class="body-text a" style="--d:0.85s">Hoy, preparar una decisión que cruza tres secretarías toma días o semanas. En un estado que compite a este nivel, eso no es sostenible.</p>
   </div>
 </section>
 
 <!-- ═══════════════════════════════════════════
-     SLIDE 3 — QUÉ ES EL SIC-Q
+     SLIDE 3 — QUÉ ES + CÓMO FUNCIONA
      ═══════════════════════════════════════════ -->
-<section class="slide dark2" id="s3">
+<section class="slide light" id="s3">
   <div>
-    <h2 class="title a" style="--d:0.25s">Qué es el SIC-Q</h2>
-    <div class="spacer-sm"></div>
-    <div class="accent-line a" style="--d:0.4s"></div>
-    <div class="spacer"></div>
-    <p class="subtitle a" style="--d:0.55s; max-width:42rem;">Un sistema de <span class="highlight">inteligencia artificial y colectiva</span> que cruza fuentes y genera inteligencia para la toma de decisiones, el diseño de estrategias y la construcción de escenarios futuros.</p>
-  </div>
-</section>
-
-<!-- ═══════════════════════════════════════════
-     SLIDE 4 — LO QUE HEMOS VALIDADO
-     ═══════════════════════════════════════════ -->
-<section class="slide light" id="s4">
-  <div>
-    <h2 class="title a" style="--d:0.2s">Lo que hemos validado</h2>
-    <div class="spacer-sm"></div>
-    <div class="accent-line a" style="--d:0.35s"></div>
-    <div class="spacer-sm"></div>
-    <p class="body-text a" style="--d:0.4s">Hemos socializado y probado las capacidades del SIC-Q antes de traer esta propuesta.</p>
-    <div class="spacer-sm"></div>
-    <table class="ha-table a" style="--d:0.5s">
-      <thead><tr><th>Fecha</th><th>Hito</th></tr></thead>
-      <tbody>
-        <tr style="--d:0.55s"><td>2025</td><td>Benchmark internacional. Diseño de arquitectura</td></tr>
-        <tr style="--d:0.65s"><td>Ene 2026</td><td>Primer agente de IA funcional</td></tr>
-        <tr style="--d:0.75s"><td>Feb 2026</td><td>2 talleres de codiseño: <strong>74</strong> participantes, <strong>778</strong> ideas, <strong>248</strong> perfiles</td></tr>
-        <tr style="--d:0.85s"><td>Feb 2026</td><td>Sesión con integrantes del CONSEQRO: 4 demos en vivo</td></tr>
-        <tr style="--d:0.95s"><td>Mar 2026</td><td>4 agentes de IA operando, leyes del estado cargadas, comparativos municipales</td></tr>
-      </tbody>
-    </table>
-    <div class="callout a" style="--d:1.1s">En <strong>11 de 12 mesas</strong>, las personas participantes propusieron capacidades que coinciden con lo que el SIC-Q ofrece — sin que se les mencionara el proyecto.</div>
-  </div>
-</section>
-
-<!-- ═══════════════════════════════════════════
-     SLIDE 5 — FUENTES
-     ═══════════════════════════════════════════ -->
-<section class="slide light" id="s5">
-  <div>
-    <h2 class="title a" style="--d:0.2s">Fuentes (ejemplos)</h2>
-    <div class="spacer-sm"></div>
-    <div class="accent-line a" style="--d:0.35s"></div>
-    <div class="spacer"></div>
-    <table class="ha-table a" style="--d:0.45s">
-      <thead><tr><th>Fuente</th><th>Ejemplos</th></tr></thead>
-      <tbody>
-        <tr style="--d:0.5s"><td>Datos oficiales</td><td>INEGI, CONAPO, PED, indicadores por secretaría, avance presupuestal</td></tr>
-        <tr style="--d:0.6s"><td>Voz ciudadana</td><td>Propuestas, quejas, talleres, consejos temáticos</td></tr>
-        <tr style="--d:0.7s"><td>Marco legal</td><td>Leyes del estado, reglamentos, periódico oficial</td></tr>
-        <tr style="--d:0.8s"><td>Contexto operativo</td><td>Prensa, compromisos pendientes, calendarios de reporte</td></tr>
-        <tr style="--d:0.9s"><td>Datos electorales</td><td>Resultados por distrito, bloques de paridad, calendario electoral</td></tr>
-        <tr style="--d:1.0s"><td>Y más</td><td>Diseñado para incorporar fuentes nuevas conforme se necesiten</td></tr>
-      </tbody>
-    </table>
-    <div class="spacer-sm"></div>
-    <p class="mono-label a" style="--d:1.1s">El arranque es acotado: 3 temas (salud, educación, agua), leyes del estado y voz ciudadana. Crece conforme se incorporan más secretarías y fuentes.</p>
-  </div>
-</section>
-
-<!-- ═══════════════════════════════════════════
-     SLIDE 6 — CÓMO FUNCIONA (Architecture)
-     ═══════════════════════════════════════════ -->
-<section class="slide light" id="s6">
-  <div>
-    <h2 class="title a" style="--d:0.2s">Cómo funciona</h2>
+    <h2 class="title a" style="--d:0.2s">Inteligencia ejecutiva<br>en su teléfono</h2>
     <div class="spacer-sm"></div>
     <div class="accent-line a" style="--d:0.35s"></div>
     <div class="spacer-sm"></div>
@@ -751,7 +631,6 @@ body {
         <div class="sys-node">Marco legal</div>
         <div class="sys-node">Voz ciudadana</div>
         <div class="sys-node">Prensa y medios</div>
-        <div class="sys-node">Datos electorales</div>
         <div class="sys-node">Secretarías</div>
       </div>
 
@@ -773,7 +652,7 @@ body {
           <div class="sys-line"></div>
           <div class="sys-cap sys-cap-core">
             <div class="sys-cap-name">Razonamiento</div>
-            <div class="sys-cap-detail">Analiza, infiere<br>y formula escenarios<br>con múltiples modelos</div>
+            <div class="sys-cap-detail">Analiza, cruza<br>e infiere con<br>múltiples modelos</div>
           </div>
           <div class="sys-line"></div>
           <div class="sys-cap">
@@ -785,7 +664,6 @@ body {
         <div class="sys-profiles">
           <div class="sys-prof">Gobernador</div>
           <div class="sys-prof">Planeación</div>
-          <div class="sys-prof">Finanzas</div>
           <div class="sys-prof">Equipo operativo</div>
         </div>
       </div>
@@ -793,106 +671,116 @@ body {
       <!-- Arrow out -->
       <div class="sys-arrow" style="--d:1.1s">&#8594;</div>
 
-      <!-- Right: Casos de uso -->
+      <!-- Right: Productos -->
       <div class="sys-side" style="--d:1.2s">
-        <div class="sys-side-label">Casos de uso</div>
-        <div class="sys-node">Fichas de reunión</div>
-        <div class="sys-node">Consultas jurídicas</div>
-        <div class="sys-node">Briefings de gira</div>
-        <div class="sys-node">Análisis electoral</div>
-        <div class="sys-node">Gestión de gobierno</div>
-        <div class="sys-node">Control de cambios</div>
-        <div class="sys-node">Seguimiento presupuestal</div>
+        <div class="sys-side-label">Productos</div>
+        <div class="sys-node">Briefing matutino</div>
+        <div class="sys-node">Ficha de gira</div>
+        <div class="sys-node">CRM de personas</div>
+        <div class="sys-node">Monitor PED</div>
+        <div class="sys-node">Alertas</div>
       </div>
 
       <!-- Infra bar -->
-      <div class="sys-infra" style="--d:1.4s">Nube del gobierno · Trazabilidad de fuentes · Acceso por rol · Múltiples proveedores de IA</div>
+      <div class="sys-infra" style="--d:1.4s">Nube del gobierno · Trazabilidad de fuentes · Permisos exclusivos · Phone-first</div>
     </div>
   </div>
 </section>
 
 <!-- ═══════════════════════════════════════════
-     SLIDE 7 — POR QUÉ INTELIGENCIA COLECTIVA
+     SLIDE 4 — QUÉ RECIBE EL GOBERNADOR
      ═══════════════════════════════════════════ -->
-<section class="slide dark2" id="s7">
+<section class="slide accent" id="s4">
   <div>
-    <h2 class="title a" style="--d:0.2s">¿Por qué un sistema de<br>inteligencia colectiva?</h2>
+    <h2 class="title a" style="--d:0.2s">Qué recibe el gobernador</h2>
     <div class="spacer-sm"></div>
     <div class="accent-line a" style="--d:0.35s"></div>
     <div class="spacer-sm"></div>
-    <div class="callout a" style="--d:0.45s; font-style:italic; opacity:0.7;">"Nadie sabe todo, pero todos saben algo."</div>
-    <div class="spacer"></div>
-    <p class="body-text a" style="--d:0.6s">Cada secretaría puede — y debería — desarrollar sus propias herramientas de IA. El SIC-Q no sustituye esos esfuerzos: los integra.</p>
+    <p class="subtitle a" style="--d:0.4s">5 productos. En su teléfono. Con datos duros.</p>
     <div class="spacer-sm"></div>
-    <p class="body-text a" style="--d:0.8s">Sin una capa que conecte, el gobernador termina con 30 aplicaciones distintas, cada una con su lógica, sus datos y su formato. Eso no escala.</p>
-    <div class="spacer-sm"></div>
-    <p class="body-text a" style="--d:1.0s">El SIC-Q es esa capa: un punto donde la información de todas las áreas se cruza, se analiza y se entrega como inteligencia adaptada a quien la necesita — sin pedirle a nadie que deje de innovar.</p>
-  </div>
-</section>
-
-<!-- ═══════════════════════════════════════════
-     SLIDE 8 — VALOR PARA EL ESTADO
-     ═══════════════════════════════════════════ -->
-<section class="slide accent" id="s8">
-  <div>
-    <h2 class="title a" style="--d:0.2s">Valor para el Estado</h2>
-    <div class="spacer-sm"></div>
-    <div class="accent-line a" style="--d:0.35s"></div>
-    <div class="spacer"></div>
-    <table class="ha-table">
+    <table class="ha-table compact">
       <tbody>
-        <tr style="--d:0.5s"><td>Coordinación entre secretarías</td><td>Facilita cruzar datos que no siempre se conectan entre dependencias</td></tr>
-        <tr style="--d:0.6s"><td>Mejor uso de activos existentes</td><td>Conecta el Plan a 2050, los 23 consejos, el CONSEQRO y 25 años de datos</td></tr>
-        <tr style="--d:0.7s"><td>Modernización de la planeación</td><td>Procesa insumos de 18 municipios con IA para la actualización del Plan QRO 2050</td></tr>
-        <tr style="--d:0.8s"><td>Integración de iniciativas de IA</td><td>Cada secretaría puede innovar con sus propias herramientas; el SIC-Q integra esas iniciativas para que sirvan a todas las áreas</td></tr>
-        <tr style="--d:0.9s"><td>Seguimiento y evaluación</td><td>Facilita el monitoreo de indicadores, la detección de desalineaciones y el seguimiento de compromisos</td></tr>
-        <tr style="--d:1.0s"><td>Fortalece Querétaro Digital</td><td>Capa de inteligencia sobre los datos y la infraestructura que el gobierno ya genera</td></tr>
+        <tr style="--d:0.5s"><td>Briefing matutino</td><td>Agenda + compromisos que vencen + alertas + prensa. Antes de la primera reunión, ya sabe qué viene.</td></tr>
+        <tr style="--d:0.6s"><td>Ficha de gira</td><td>Datos del municipio + propuestas ciudadanas + compromisos pendientes + marco legal + visitas anteriores. En segundos.</td></tr>
+        <tr style="--d:0.7s"><td>Ficha de persona</td><td>Quién es, historial, temas pendientes, contexto institucional. Un CRM de relaciones de gobierno.</td></tr>
+        <tr style="--d:0.8s"><td>Monitor PED</td><td>65 retos, indicadores por secretaría, señales ciudadanas. Desviaciones en rojo.</td></tr>
+        <tr style="--d:0.9s"><td>Alerta de disonancia</td><td>La prensa dice una cosa, los datos dicen otra. El sistema lo detecta y lo señala.</td></tr>
       </tbody>
     </table>
+    <div class="spacer-sm"></div>
+    <p class="mono-label a" style="--d:1.05s">Phone-first · Permisos exclusivos · Datos clasificados solo para el gobernador</p>
   </div>
 </section>
 
 <!-- ═══════════════════════════════════════════
-     SLIDE 9 — VALOR PARA FINANZAS
+     SLIDE 5 — DEMO
      ═══════════════════════════════════════════ -->
-<section class="slide light" id="s9">
+<section class="slide dark" id="s5">
   <div>
-    <h2 class="title a" style="--d:0.2s">Cómo podría crear valor para<br>la Secretaría de Finanzas</h2>
+    <div class="spacer"></div>
+    <h2 class="title-large a" style="--d:0.3s"><span class="pulse-dot"></span>Demo en vivo</h2>
+    <div class="spacer"></div>
+    <div class="accent-line a" style="--d:0.6s"></div>
+    <div class="spacer"></div>
+    <ul class="channel-list">
+      <li style="--d:0.7s"><strong>Ficha de gira:</strong> "Prepárame la gira a Corregidora mañana" — datos del municipio, quejas de agua, marco legal, compromisos pendientes</li>
+      <li style="--d:0.85s"><strong>Cruce ejecutivo:</strong> "¿Qué secretarías tienen indicadores del PED sin actualizar?" — estado de avance con alertas</li>
+      <li style="--d:1.0s"><strong>Alerta de disonancia:</strong> "¿Qué dice la ciudadanía sobre educación vs. lo que reporta la secretaría?" — cruce de fuentes con contexto legal</li>
+    </ul>
+    <div class="spacer"></div>
+    <p class="mono-label a" style="--d:1.2s">3 preguntas concretas · Phone-first · Datos reales del estado</p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     SLIDE 6 — LO QUE HEMOS VALIDADO
+     ═══════════════════════════════════════════ -->
+<section class="slide light" id="s6">
+  <div>
+    <h2 class="title a" style="--d:0.2s">Lo que hemos validado</h2>
     <div class="spacer-sm"></div>
     <div class="accent-line a" style="--d:0.35s"></div>
     <div class="spacer-sm"></div>
-    <p class="body-text a" style="--d:0.4s">Desde Finanzas, la pregunta no es solo cuánto se gastó, sino si ese gasto generó los resultados esperados.</p>
+    <p class="body-text a" style="--d:0.4s">Esto no es una idea. Ya está construido y probado.</p>
     <div class="spacer-sm"></div>
-    <div class="card" style="--d:0.5s">
-      <div class="card-title">Cruzar gasto con resultados</div>
-      <div class="card-body">El sistema razona sobre avance presupuestal junto con indicadores del PED y señales ciudadanas para facilitar una lectura integrada.</div>
-    </div>
-    <div class="card" style="--d:0.65s">
-      <div class="card-title">Sugerir dónde poner atención</div>
-      <div class="card-body">Si varios programas muestran retraso, el sistema puede cruzar esa señal con el contexto del territorio y sugerir cuáles revisar primero.</div>
-    </div>
-    <div class="card" style="--d:0.8s">
-      <div class="card-title">Construir escenarios</div>
-      <div class="card-body">"¿Qué está pasando en Corregidora?" o "¿Qué pasaría si reasignamos este presupuesto?" — el sistema puede formular respuestas con la información disponible.</div>
-    </div>
+    <table class="ha-table a" style="--d:0.5s">
+      <thead><tr><th>Fecha</th><th>Hito</th></tr></thead>
+      <tbody>
+        <tr style="--d:0.55s"><td>2025</td><td>Benchmark internacional. Diseño de arquitectura</td></tr>
+        <tr style="--d:0.65s"><td>Ene 2026</td><td>Primer agente de IA funcional</td></tr>
+        <tr style="--d:0.75s"><td>Feb 2026</td><td>2 talleres de codiseño: <strong>74</strong> participantes, <strong>778</strong> ideas, <strong>248</strong> perfiles</td></tr>
+        <tr style="--d:0.85s"><td>Feb 2026</td><td>Sesión con integrantes del CONSEQRO: 4 demos en vivo</td></tr>
+        <tr style="--d:0.95s"><td>Mar 2026</td><td>4 agentes de IA operando, leyes del estado cargadas, comparativos municipales</td></tr>
+      </tbody>
+    </table>
+    <div class="callout a" style="--d:1.1s">En <strong>11 de 12 mesas</strong>, las personas participantes propusieron capacidades que coinciden con lo que el SIC-Q ofrece — sin que se les mencionara el proyecto.</div>
   </div>
 </section>
 
 <!-- ═══════════════════════════════════════════
-     SLIDE 10 — PROTOTIPO
+     SLIDE 7 — COSTO DE NO TENERLO
      ═══════════════════════════════════════════ -->
-<section class="slide dark" id="s10">
+<section class="slide dark" id="s7">
   <div>
+    <h2 class="title a" style="--d:0.25s">¿Cuánto le cuesta al estado<br>no tener esto?</h2>
+    <div class="spacer-sm"></div>
+    <div class="accent-line a" style="--d:0.4s"></div>
     <div class="spacer"></div>
-    <h2 class="title-large a" style="--d:0.5s"><span class="pulse-dot"></span>Prototipo</h2>
+    <ul class="channel-list">
+      <li style="--d:0.6s">¿Cuántas horas se destinan cada semana a compilar información que cruza tres secretarías?</li>
+      <li style="--d:0.75s">¿Cuántas decisiones se retrasan porque no hay forma rápida de cruzar datos territoriales con marco legal y compromisos pendientes?</li>
+      <li style="--d:0.9s">¿Cuántas señales del territorio llegan tarde — cuando ya son problema, no cuando todavía son oportunidad?</li>
+      <li style="--d:1.05s">¿Cuántas veces se repiten las mismas preguntas en reuniones distintas porque no hay memoria institucional accesible?</li>
+    </ul>
     <div class="spacer"></div>
+    <p class="body-text a" style="--d:1.25s; opacity:0.6">Coordinación lenta entre secretarías. Puntos ciegos territoriales. Decisiones sin contexto cruzado.</p>
   </div>
 </section>
 
 <!-- ═══════════════════════════════════════════
-     SLIDE 11 — LA IA ES INFRAESTRUCTURA DEL ESTADO
+     SLIDE 8 — LEGADO E INFRAESTRUCTURA
      ═══════════════════════════════════════════ -->
-<section class="slide dark2" id="s11">
+<section class="slide dark2" id="s8">
   <div>
     <h2 class="title a" style="--d:0.2s">La IA es infraestructura del estado</h2>
     <div class="spacer-sm"></div>
@@ -900,92 +788,32 @@ body {
     <div class="spacer"></div>
     <p class="body-text a" style="--d:0.45s">La IA se está convirtiendo en infraestructura — como las carreteras, las telecomunicaciones o el internet. El modelo de IA se puede cambiar; <span class="highlight">lo que toma tiempo es integrar la información de un estado y construir la capacidad de razonar sobre ella.</span> Esa base de conocimiento es lo que permanece.</p>
     <div class="spacer"></div>
-    <p class="body-text a" style="--d:0.75s">Querétaro tiene las condiciones: Querétaro Digital, 23 consejos activos, Plan 2050 en actualización, ecosistema de innovación.</p>
+    <p class="body-text a" style="--d:0.7s">Querétaro tiene las condiciones: Querétaro Digital, 23 consejos activos, Plan 2050 en actualización, ecosistema de innovación, data centers de clase mundial.</p>
+    <div class="spacer"></div>
+    <div class="callout a" style="--d:0.95s; font-style:italic; opacity:0.75;">"Gobernar pensando en la próxima generación, no en la próxima elección."</div>
+    <div class="spacer-sm"></div>
+    <p class="body-text a" style="--d:1.15s">El SIC-Q es un legado transversal: no depende de una sola secretaría, no se deprecia con el tiempo, y cada dato nuevo lo hace más valioso.</p>
   </div>
 </section>
 
 <!-- ═══════════════════════════════════════════
-     SLIDE 12 — UN LEGADO TRANSVERSAL
+     SLIDE 9 — INVERSIÓN + GOBERNANZA
      ═══════════════════════════════════════════ -->
-<section class="slide dark2" id="s12">
+<section class="slide light" id="s9">
   <div>
-    <h2 class="title a" style="--d:0.2s">Un legado transversal</h2>
-    <div class="spacer-sm"></div>
-    <div class="accent-line a" style="--d:0.35s"></div>
-    <div class="spacer-sm"></div>
-    <p class="subtitle a" style="--d:0.45s">El SIC-Q inició en la Secretaría de Planeación, pero es un proyecto modular<br>al que se pueden sumar las demás secretarías y direcciones.</p>
-    <div class="spacer"></div>
-    <ul class="channel-list">
-      <li style="--d:0.6s"><strong>Democracia participativa</strong></li>
-      <li style="--d:0.7s"><strong>Datos e información integrada</strong></li>
-      <li style="--d:0.8s"><strong>Coordinación institucional</strong></li>
-      <li style="--d:0.9s"><strong>Planeación a largo plazo</strong></li>
-    </ul>
-    <div class="spacer"></div>
-    <p class="body-text a" style="--d:1.05s">Es un proyecto factible, con una inversión <span class="highlight">acotada para el alcance que ofrece</span>, y que puede convertirse en un legado de esta administración — una capacidad que no depende de una sola área y que sirve a todo el gobierno.</p>
-  </div>
-</section>
-
-<!-- ═══════════════════════════════════════════
-     SLIDE 13 — COSTO DE NO TENERLO
-     ═══════════════════════════════════════════ -->
-<section class="slide dark" id="s13">
-  <div>
-    <h2 class="title a" style="--d:0.25s">¿Cuánto le cuesta al estado<br>no tener esto?</h2>
-    <div class="spacer-sm"></div>
-    <div class="accent-line a" style="--d:0.4s"></div>
-    <div class="spacer"></div>
-    <ul class="channel-list">
-      <li style="--d:0.6s">¿Cuánto recurso federal se ha devuelto por subejercicio en programas donde la demanda ciudadana existía pero no se detectó a tiempo?</li>
-      <li style="--d:0.8s">¿Cuántas observaciones de auditoría se originan en la dificultad de documentar la relación entre gasto ejercido y resultados del PED?</li>
-      <li style="--d:1.0s">¿Cuántas horas-persona se destinan cada trimestre a compilar reportes que crucen avance presupuestal con indicadores de desempeño?</li>
-    </ul>
-  </div>
-</section>
-
-<!-- ═══════════════════════════════════════════
-     SLIDE 14 — LIDERAZGO
-     ═══════════════════════════════════════════ -->
-<section class="slide light" id="s14">
-  <div>
-    <h2 class="title a" style="--d:0.2s">Liderazgo</h2>
-    <div class="spacer-sm"></div>
-    <div class="accent-line a" style="--d:0.35s"></div>
-    <div class="spacer"></div>
-    <p class="body-text a" style="--d:0.45s">La Secretaría de Planeación acredita el cumplimiento de cada hito antes de solicitar la liberación de la fase siguiente.</p>
-    <div class="spacer-sm"></div>
-    <div class="callout a" style="--d:0.6s"><strong>Primer hito — junio 2026:</strong> 4 agentes operando con datos reales, briefings con trazabilidad de fuentes, primer control de cambios del Plan QRO 2050.</div>
-    <div class="spacer"></div>
-    <table class="ha-table a" style="--d:0.7s">
-      <thead><tr><th>Componente</th><th>Propiedad</th></tr></thead>
-      <tbody>
-        <tr style="--d:0.8s"><td>Infraestructura cloud</td><td>Gobierno del Estado</td></tr>
-        <tr style="--d:0.9s"><td>Bases de conocimiento</td><td>Gobierno del Estado</td></tr>
-        <tr style="--d:1.0s"><td>Código fuente</td><td>Entregable al gobierno al cierre de cada fase</td></tr>
-        <tr style="--d:1.1s"><td>Datos sensibles</td><td>Bajo control del gobierno, acceso regulado por permisos de rol</td></tr>
-      </tbody>
-    </table>
-  </div>
-</section>
-
-<!-- ═══════════════════════════════════════════
-     SLIDE 15 — DETALLE DE LA INVERSIÓN
-     ═══════════════════════════════════════════ -->
-<section class="slide light" id="s15">
-  <div>
-    <h2 class="title a" style="--d:0.2s">Detalle de la inversión</h2>
+    <h2 class="title a" style="--d:0.2s">Inversión + Gobernanza</h2>
     <div class="spacer-sm"></div>
     <div class="accent-line a" style="--d:0.35s"></div>
     <div class="spacer"></div>
     <div class="phases-grid">
       <div class="phase-col" style="--d:0.5s">
-        <div class="phase-label">Fase 1 · Mar – Jul 2026</div>
+        <div class="phase-label">Fase 1 · Mar – Jun 2026</div>
         <div class="phase-amount">$6M MXN <span style="font-weight:300; font-size:0.65em; opacity:0.6">+ IVA</span></div>
         <ul class="phase-items">
-          <li>4 agentes de inteligencia especializados</li>
-          <li>Bases de conocimiento: leyes, indicadores PED, voz ciudadana, prensa</li>
-          <li>Arquitectura técnica: cloud, autenticación, trazabilidad</li>
-          <li>Vista inicial para Finanzas</li>
+          <li>5 productos del gobernador operando</li>
+          <li>Bases de conocimiento curadas</li>
+          <li>Arquitectura técnica + permisos</li>
+          <li>3 agentes de inteligencia</li>
         </ul>
       </div>
       <div class="phase-col" style="--d:0.75s">
@@ -994,8 +822,8 @@ body {
         <ul class="phase-items">
           <li>IA para Plan QRO 2050</li>
           <li>Dashboard de inteligencia</li>
-          <li>Agentes públicos para consulta ciudadana</li>
-          <li>Ampliación de fuentes y secretarías</li>
+          <li>CRM completo, comparativos</li>
+          <li>Ampliación de fuentes</li>
         </ul>
       </div>
       <div class="phase-col" style="--d:1.0s">
@@ -1003,7 +831,7 @@ body {
         <div class="phase-amount">$6M MXN <span style="font-weight:300; font-size:0.65em; opacity:0.6">+ IVA</span></div>
         <ul class="phase-items">
           <li>Plataforma de Orquestación Ciudadana</li>
-          <li>Integración multicanal: web, móvil, WhatsApp</li>
+          <li>Canales: web, móvil, WhatsApp</li>
           <li>Escalamiento de infraestructura</li>
         </ul>
       </div>
@@ -1011,13 +839,23 @@ body {
     <div class="cloud-bar" style="--d:1.2s">
       <strong>Infraestructura cloud</strong> (costo operativo anual, aparte) — Piloto ~500 usuarios: $600K MXN &nbsp;·&nbsp; Operación estándar ~5,000–10,000: $1.5M MXN &nbsp;·&nbsp; Escala completa ~50,000: $5M MXN
     </div>
+    <div class="spacer-sm"></div>
+    <table class="ha-table compact a" style="--d:1.35s; max-width:40rem;">
+      <thead><tr><th>Componente</th><th>Propiedad</th></tr></thead>
+      <tbody>
+        <tr style="--d:1.4s"><td>Cloud</td><td>Gobierno del Estado</td></tr>
+        <tr style="--d:1.45s"><td>Conocimiento</td><td>Gobierno del Estado</td></tr>
+        <tr style="--d:1.5s"><td>Código fuente</td><td>Entregable por fase</td></tr>
+        <tr style="--d:1.55s"><td>Datos sensibles</td><td>Permisos por rol</td></tr>
+      </tbody>
+    </table>
   </div>
 </section>
 
 <!-- ═══════════════════════════════════════════
-     SLIDE 16 — LA SOLICITUD
+     SLIDE 10 — LA SOLICITUD
      ═══════════════════════════════════════════ -->
-<section class="slide accent" id="s16">
+<section class="slide accent" id="s10">
   <div>
     <h2 class="title a" style="--d:0.25s">La solicitud</h2>
     <div class="spacer-sm"></div>
@@ -1027,34 +865,20 @@ body {
       <tbody>
         <tr style="--d:0.55s"><td>Inversión total</td><td>$16M MXN + IVA</td></tr>
         <tr style="--d:0.7s"><td>Ejecución</td><td>3 fases, 12 meses (marzo 2026 – febrero 2027)</td></tr>
-        <tr style="--d:0.85s"><td>Liberación</td><td>Por fase, acreditada por Planeación conforme a entregables verificables</td></tr>
-        <tr style="--d:1.0s"><td>Primer hito</td><td>Junio 2026: 4 agentes operando con datos reales</td></tr>
-        <tr style="--d:1.15s"><td>Beneficio para el Estado</td><td>Infraestructura de inteligencia colectiva que ordena y coordina información para fortalecer la agenda digital</td></tr>
+        <tr style="--d:0.85s"><td>Liberación</td><td>Por fase, con entregables verificables</td></tr>
+        <tr style="--d:1.0s"><td>Primer hito</td><td>Junio 2026: 5 productos del gobernador operando con datos reales</td></tr>
+        <tr style="--d:1.15s"><td>Beneficio</td><td>Inteligencia ejecutiva directa — briefing, gira, CRM, monitor, alertas — en el teléfono</td></tr>
       </tbody>
     </table>
-  </div>
-</section>
-
-<!-- ═══════════════════════════════════════════
-     SLIDE 17 — ACERCA DEL PROVEEDOR
-     ═══════════════════════════════════════════ -->
-<section class="slide light" id="s17">
-  <div>
-    <h2 class="title a" style="--d:0.2s">Acerca del proveedor</h2>
-    <div class="spacer-sm"></div>
-    <div class="accent-line a" style="--d:0.35s"></div>
     <div class="spacer"></div>
-    <p class="subtitle a" style="--d:0.5s; font-weight:500;">Horizons Architecture</p>
-    <div class="spacer-sm"></div>
-    <p class="body-text a" style="--d:0.65s">Spinoff del Laboratorio de Emprendimiento y Transformación (LET) de la Escuela de Gobierno y Transformación Pública del Tec de Monterrey. Se especializa en ciencias de la complejidad, ciencia de datos e inteligencia artificial aplicada a problemas de política pública y transformación institucional.</p>
-    <p class="body-text a" style="--d:0.85s">El equipo tiene experiencia en diseño de sistemas de inteligencia para gobiernos, organismos internacionales y organizaciones educativas. El SIC-Q es la aplicación de esa experiencia al contexto de Querétaro.</p>
+    <p class="body-text a" style="--d:1.35s; opacity:0.85">La infraestructura ya se construyó. Ya se probó. Ya se validó. La pregunta no es si funciona. La pregunta es cuándo arranca.</p>
   </div>
 </section>
 
 <!-- ═══════════════════════════════════════════
-     SLIDE 18 — DESPEDIDA
+     SLIDE 11 — DESPEDIDA
      ═══════════════════════════════════════════ -->
-<section class="slide dark" id="s18">
+<section class="slide dark" id="s11">
   <div>
     <div class="spacer"></div>
     <h2 class="title-large a" style="--d:0.3s">Muchas gracias.</h2>
@@ -1071,7 +895,7 @@ body {
      PROGRESS + COUNTER
      ═══════════════════════════════════════════ -->
 <div class="progress-bar" id="progress"></div>
-<div class="slide-counter on-dark" id="counter">1 / 18</div>
+<div class="slide-counter on-dark" id="counter">1 / 11</div>
 
 <!-- ═══════════════════════════════════════════
      JAVASCRIPT

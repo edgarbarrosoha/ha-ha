@@ -1,6 +1,19 @@
 - HA lies in moving beyond "project management" into **"complexity navigation,"** treating organizations and lives as living, breathing ecosystems rather than linear assembly lines.
 - The framework is scale-invariant. The same 6-dimensional structure used to manage a single individual’s life (micro) is used to manage a corporation, a city, or a government (macro). This eliminates the need for different methodologies for different scales. If you learn to manage yourself using HA, you instinctively know how to manage a complex organization.
+<<<<<<< HEAD
 - The "Value" Equation (V=M×IV=M×) Value is redefined not just as profit or output, but as Meaning multiplied by Impact. It forces a qualitative check on quantitative work. High impact with zero meaning (soul-sucking work) results in zero value. High meaning with zero impact (dreaming without doing) also results in zero value. Both must exist for true success.
+=======
+- The "Value" Equation (V=M×IV=M×) Value is redefined not just as profit or output, but as Meaning multiplied by Impact. It forces a qualitative check on quantitative work. High impact with zero meaning (soul-sucking work) results in zero value. High meaning with zero impact (dreaming without doing) also results in zero value. Both must exist for true success.
+- The 6-Dimensional Whole Most frameworks focus on Time, Budget, and Scope. HA expands this to a holistic view:
+	- **Legacy:** Honoring where we came from and what we leave behind.
+	- **Community:** Who is involved and how they interact.
+	- **Learning:** The continuous acquisition of new knowledge required to evolve.
+	- **Technology:** The tools (AI/Hardware) used to amplify capacity.
+	- **Context:** The environmental, political, and social reality.
+	- **Projects:** The actual execution units.
+	- 
+-  
+>>>>>>> origin/main
 
 - The 6-Dimensional Whole Most frameworks focus on Time, Budget, and Scope. HA expands this to a holistic view:
 	- **Legacy:** Honoring where we came from and what we leave behind.
