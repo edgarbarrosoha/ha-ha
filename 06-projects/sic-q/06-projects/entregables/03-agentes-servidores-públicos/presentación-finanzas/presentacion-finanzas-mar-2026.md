@@ -147,6 +147,14 @@ Es un proyecto factible, con una inversión acotada para el alcance que ofrece, 
 
 ---
 
+## ¿Cuánto le cuesta al estado no tener esto?
+
+- ¿Cuánto recurso federal se ha devuelto por subejercicio en programas donde la demanda ciudadana existía pero no se detectó a tiempo?
+- ¿Cuántas observaciones de auditoría se originan en la dificultad de documentar la relación entre gasto ejercido y resultados del PED?
+- ¿Cuántas horas-persona se destinan cada trimestre a compilar reportes que crucen avance presupuestal con indicadores de desempeño?
+
+---
+
 ## Liderazgo
 
 La Secretaría de Planeación acredita el cumplimiento de cada hito antes de solicitar la liberación de la fase siguiente.
@@ -194,9 +202,9 @@ La Secretaría de Planeación acredita el cumplimiento de cada hito antes de sol
 
 | Escala | Descripción | Costo anual |
 | ------ | ----------- | ----------- |
-| Piloto | ~500 personas usuarias | $600K |
-| Operación estándar | ~5,000–10,000 | $1.5M |
-| Escala completa | ~50,000 | $5M |
+| Piloto | ~500 personas usuarias | $600K MXN |
+| Operación estándar | ~5,000–10,000 | $1.5M MXN |
+| Escala completa | ~50,000 | $5M MXN |
 
 El arranque opera en piloto. El costo escala conforme se incorporan más dependencias y canales.
 
@@ -209,7 +217,7 @@ El arranque opera en piloto. El costo escala conforme se incorporan más depende
 | **Inversión total**          | $16M MXN + IVA                                                                                                          |
 | **Ejecución**                | 3 fases, 12 meses (marzo 2026 – febrero 2027)                                                                       |
 | **Liberación**               | Por fase, acreditada por Planeación conforme a entregables verificables                                             |
-| **Primer hito**              | Junio 2026: 4 agentes operando + vista inicial para Finanzas                                                        |
+| **Primer hito**              | Junio 2026: 4 agentes operando con datos reales                                                        |
 | **Beneficio para el Estado** | Infraestructura de inteligencia colectiva que ordena y coordina información para fortalecer la agenda digital |
 
 ---
