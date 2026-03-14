@@ -45,6 +45,18 @@ El SIC-Q fortalece la capacidad del gobierno estatal para coordinar información
 
 5. **Implementación por etapas con entregables medibles.** Arranca con 3 frentes principales, 3 temas y permisos diferenciados por rol. Cada fase entrega productos concretos antes de ampliar alcance.
 
+### Alineación con Querétaro Digital
+
+El SIC-Q se integra con la estrategia de Querétaro Digital como una evolución natural del programa que la Secretaría de Finanzas ya impulsa:
+
+| Capa | Qué hace | Quién lidera |
+|------|----------|-------------|
+| **Capa 1: Operaciones Digitales** (QD existente) | E-gobierno, servicios digitales, modernización | Finanzas (Leal Maya) |
+| **Capa 2: Integración de Datos** (infraestructura SIC-Q) | Conectar datos entre secretarías, bases de conocimiento curadas | Planeación + Finanzas como co-beneficiario |
+| **Capa 3: Inteligencia Institucional** (agentes SIC-Q) | Consultas IA, alertas, reportes, síntesis de voz ciudadana | Todos los usuarios de gobierno |
+
+El Comité Querétaro Digital — que el Secretario de Finanzas preside — fungirá como órgano de supervisión del despliegue SIC-Q, con visibilidad en cada fase, control de protocolos de acceso y validación de resultados.
+
 ### Implicaciones para la Secretaría de Finanzas
 
 La arquitectura de la Fase 1 deja habilitada una primera versión para la Secretaría de Finanzas — enfocada en priorización presupuestal, seguimiento y evaluación — sin aumentar el monto total del programa. El detalle operativo de esta vista se describe en la sección de frentes operativos.
@@ -164,7 +176,9 @@ A diferencia del software tradicional, donde el valor está en el código y las 
 
 ## Dimensión presupuestal
 
-### Inversión total del proyecto
+### Inversión escalonada con validación por fase
+
+La inversión se estructura en fases independientes. Nunca se compromete más de $6M. La Secretaría de Planeación certifica entregables ANTES de solicitar la fase siguiente. Si Fase 1 no entrega, Fase 2 no procede.
 
 | Fase | Periodo | Inversión | Entregables principales |
 |------|---------|-----------|------------------------|
@@ -175,6 +189,14 @@ A diferencia del software tradicional, donde el valor está en el código y las 
 | Cloud (aparte) | Anual | $600K – $5M | Según escala de usuarios |
 
 Cada fase entrega productos medibles antes de avanzar a la siguiente. La Secretaría de Planeación y Participación Ciudadana, como líder del proyecto, acredita el cumplimiento de cada hito antes de solicitar la liberación de la fase siguiente.
+
+### Infraestructura, no servicio
+
+La base de conocimiento es un activo del gobierno. El código se entrega por fase. La infraestructura cloud opera en cuentas del gobierno. Al finalizar el contrato, el gobierno opera independientemente.
+
+### Proporcionalidad
+
+$16M MXN (~US$800K) representa menos de 0.1% de la IED anual de Querétaro. Es equivalente a un proyecto de infraestructura mal asignado — el sistema existe para prevenir esos errores. Como extensión de la línea presupuestal de Querétaro Digital, se inscribe dentro de un programa existente que la Secretaría de Finanzas ya impulsa.
 
 **Lectura presupuestal:** el monto corresponde a desarrollo, curación de conocimiento, arquitectura, pruebas, despliegue y acompañamiento de implementación por fase. La infraestructura cloud de operación se presupuesta aparte.
 
@@ -277,15 +299,51 @@ Cada fase entrega productos funcionales antes de avanzar a la siguiente. Los res
 
 ---
 
+## Resultados esperados para la Secretaría de Finanzas
+
+### Primeros 6 meses — Eficiencia operativa
+- Tiempo para generar reporte presupuestal cruzado: de días a minutos
+- Reducción de solicitudes inter-dependencia para datos
+- Detección temprana de subejercicio: de fin de trimestre a umbral de 15% de desviación
+
+### Meses 4-8 — Calidad de decisión
+- Índice de alineación presupuesto-ciudadanía: % de asignación correlacionada con prioridades ciudadanas
+- Cobertura de indicadores PED con seguimiento presupuestal activo
+- Cumplimiento de reporte por secretaría
+
+### Meses 6-12 — Valor institucional
+- Crecimiento de la base de conocimiento curada
+- Adopción de usuarios activos en gobierno
+- Memoria institucional capturada para transición
+- Costo evitado: subejercicio prevenido, observaciones de auditoría reducidas
+
+**Cadencia de reporte:** Mensual al equipo de Finanzas → Trimestral al Comité Querétaro Digital → Por hito de fase al Jefe de Gabinete.
+
+---
+
+## Ruta de implementación
+
+| Periodo | Actividad | Resultado |
+|---------|-----------|-----------|
+| **Mar-Abr 2026** | Demo en vivo con consultas de Finanzas | Consultas presupuestales cruzadas con datos reales |
+| **Abr-May 2026** | 3 productos de Finanzas operativos | Fichas ejecutivas, consultas comparativas, alertas de seguimiento |
+| **Jun 2026** | Reporte de validación Fase 1 | Evidencia documentada: tiempo ahorrado, cruces realizados, desalineaciones detectadas |
+| **Jul-Ago 2026** | Pestaña de Finanzas en dashboard SIC-Q | Mapa de calor de ejecución, vista PED-Presupuesto, tracker de cumplimiento trimestral |
+| **Sep 2026** | Evaluación basada en resultados | Costo por unidad de resultado, análisis de alineación gasto-resultado, riesgo de subejercicio |
+| **Oct-Nov 2026** | Adopción multi-secretaría | Rollout a más secretarías; red de dependencia transversal |
+| **Ene-Mar 2027** | Base de conocimiento de transición | Memoria institucional lista para equipo entrante |
+
+---
+
 ## Visión de largo plazo
 
-El SIC-Q está concebido como **infraestructura institucional** diseñada para crecer con el estado:
+El SIC-Q está concebido como **infraestructura institucional** diseñada para crecer con el estado. La reforma constitucional de horizonte de 30 años ya es ley — el SIC-Q es el instrumento operativo para cumplirla.
 
 1. **2026:** Herramienta de inteligencia para 3 frentes operativos + vista inicial para la Secretaría de Finanzas
-2. **2026–2027:** Versiones personalizadas para más secretarías
+2. **2026–2027:** Versiones personalizadas para más secretarías, evaluación basada en resultados
 3. **2027:** Canales ciudadanos abiertos — WhatsApp, redes, plataforma de propuestas
 
-La arquitectura permite escalar sin rediseñar. El gobierno mantiene la propiedad de la infraestructura y los datos.
+La arquitectura permite escalar sin rediseñar. El gobierno mantiene la propiedad de la infraestructura y los datos. Al iniciarse la transición, el equipo entrante hereda inteligencia analizada — no solo datos crudos.
 
 ---
 
@@ -357,14 +415,15 @@ Al término del contrato, el gobierno cuenta con la infraestructura, el código 
 
 ## La solicitud
 
-La Secretaría de Planeación y Participación Ciudadana solicita la autorización del programa completo del SIC-Q por **$16M + IVA**, con ejecución por fases y liberación de recursos conforme a hitos de entrega.
+La Secretaría de Planeación y Participación Ciudadana solicita la autorización del programa SIC-Q. **La primera fase requiere $6M + IVA** con entregables medibles; las fases siguientes están condicionadas a resultados verificados. La vista de Finanzas está incluida en Fase 1 sin costo adicional.
 
 | | |
 |---|---|
-| **Inversión total** | $16M + IVA |
-| **Ejecución** | 3 fases, 12 meses (marzo 2026 – febrero 2027) |
+| **Primera fase** | $6M + IVA (marzo – junio 2026) |
+| **Inversión total** | $16M + IVA en 3 fases, 12 meses |
 | **Liberación** | Por fase, acreditada por la Secretaría de Planeación conforme a entregables verificables |
+| **Supervisión** | Comité Querétaro Digital como órgano de validación del despliegue |
 | **Primer hito** | Junio 2026: 3 agentes de inteligencia operando + vista inicial para la Secretaría de Finanzas |
-| **Beneficio para la Secretaría de Finanzas** | Acceso desde Fase 1 a cruces de indicadores presupuestales, seguimiento al PED y evaluación por secretaría |
+| **Beneficio para Finanzas** | Acceso desde Fase 1 a cruces de indicadores presupuestales, seguimiento al PED y evaluación por secretaría — sin costo adicional |
 
-El concepto ya fue validado en etapa de prototipo, 2 talleres ciudadanos (74 participantes, 778 ideas) y 4 demos en vivo ante el CONSEQRO. La Fase 1 está lista para arrancar.
+La reforma constitucional de horizonte de 30 años y la actualización del Plan QRO 2050 crean la ventana óptima para implementar esta infraestructura. El concepto ya fue validado en etapa de prototipo, 2 talleres ciudadanos (74 participantes, 778 ideas) y 4 demos en vivo ante el CONSEQRO. La Fase 1 está lista para arrancar.

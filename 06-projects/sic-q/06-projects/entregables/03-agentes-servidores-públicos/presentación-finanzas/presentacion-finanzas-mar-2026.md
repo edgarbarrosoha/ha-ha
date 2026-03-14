@@ -122,10 +122,40 @@ Opera con información que Planeación ya recibe y con cortes que Finanzas deter
 
 ---
 
-## Prototipo
+## Quick wins para Finanzas — Primeros 3 meses
 
+### Mes 1: Demo con datos reales
+3 consultas que resuelven dolores operativos actuales:
+- "¿Qué programas tienen retraso de ejecución presupuestal este trimestre?"
+- "Comparativo: asignación presupuestal vs. prioridades ciudadanas en salud"
+- "¿Qué secretarías no han actualizado indicadores PED?"
+
+### Mes 2: Tres productos operativos
+1. **Ficha ejecutiva por secretaría** — avance reportado + indicadores + alertas + compromisos pendientes
+2. **Consulta comparativa temática** — cruce de asignación, avance e indicadores en salud, educación, agua
+3. **Alertas de seguimiento** — retrasos de captura, indicadores desactualizados, desalineación del 15%
+
+### Mes 3: Reporte de validación
+Métricas documentadas: tiempo ahorrado vs. proceso manual, cruces realizados, desalineaciones detectadas. Evidencia para justificar continuación a Fase 2.
 
 ---
+
+## Alineación con Querétaro Digital
+
+| Capa | Qué hace | Quién lidera |
+|------|----------|-------------|
+| **Operaciones Digitales** (QD existente) | E-gobierno, servicios digitales, modernización | Finanzas |
+| **Integración de Datos** (infraestructura SIC-Q) | Conectar datos entre secretarías | Planeación + Finanzas |
+| **Inteligencia Institucional** (agentes SIC-Q) | Consultas IA, alertas, reportes | Todo gobierno |
+
+El Comité Querétaro Digital — que el Secretario de Finanzas preside — funge como órgano de supervisión del despliegue.
+
+---
+
+## Prototipo
+
+---
+
 ## La IA es infraestructura del estado
 
 La IA se está convirtiendo en infraestructura — como las carreteras, las telecomunicaciones o el internet. El modelo de IA se puede cambiar; lo que toma tiempo es integrar la información de un estado y construir la capacidad de razonar sobre ella. Esa base de conocimiento es lo que permanece.
@@ -214,11 +244,13 @@ El arranque opera en piloto. El costo escala conforme se incorporan más depende
 
 |                              |                                                                                                                     |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| **Inversión total**          | $16M MXN + IVA                                                                                                          |
-| **Ejecución**                | 3 fases, 12 meses (marzo 2026 – febrero 2027)                                                                       |
+| **Primera fase**             | $6M MXN + IVA — con entregables medibles                                                                           |
+| **Inversión total**          | $16M MXN + IVA en 3 fases condicionadas a resultados                                                               |
+| **Ejecución**                | 12 meses (marzo 2026 – febrero 2027)                                                                               |
 | **Liberación**               | Por fase, acreditada por Planeación conforme a entregables verificables                                             |
-| **Primer hito**              | Junio 2026: 4 agentes operando con datos reales                                                        |
-| **Beneficio para el Estado** | Infraestructura de inteligencia colectiva que ordena y coordina información para fortalecer la agenda digital |
+| **Supervisión**              | Comité Querétaro Digital como órgano de validación                                                                  |
+| **Primer hito**              | Junio 2026: 4 agentes operando con datos reales                                                                    |
+| **Beneficio para Finanzas**  | Vista incluida en Fase 1 sin costo adicional                                                                        |
 
 ---
 
