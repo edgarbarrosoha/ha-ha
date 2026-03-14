@@ -5,10 +5,14 @@ type: clock
 [EB](obsidian://open?vault=ha-eb&file=06-projects%2Fdashboard) | [Tec](obsidian://open?vault=ha-eb&file=06-projects%2Ftec.link%2F06-projects%2Fdashboard) | [Research](obsidian://open?vault=ha-eb&file=06-projects%2Fresearch.link%2F06-projects%2Fdashboard) | [AL](obsidian://open?vault=ha-al&file=06-projects%2Fdashboard)
 
 ```schedule
-[Start]: 03/14/26 - 10:00 AM
-[Invalid date]: 
+[Start]: 03/14/26 - 03:45 PM
+[Invalid date]: HA Session — status + pendientes (30min)
+[Invalid date]: Libre — descanso, Duolingo, paseo (2h)
 [Finish]: Invalid date
 ```
+
+# Consejo Business (14-20/03)
+> Proteger a Oscar mientras avanza SIC-Q y cierra UPU el viernes. Extraer conocimiento operativo en runbooks — aunque sean notas rough — para que Salvador y Diego absorban scope. Seguimiento proactivo a Edgar Mohar para confirmar reunión técnica y mantener momentum antes de que el proceso admin se estanque. Pipeline (Lina, Patricia, Tec Beyond) se mantiene tibio pero no se acelera hasta que la carga de Oscar esté distribuida — cerrar sin capacidad de entrega es el único movimiento que dañaría la trayectoria de $1.5M.
 
 # Week (15/03 – 20/03)
 - [ ] **Lun 16/03** → [ ] HA Arranque (15:00) → [ ] SIC-Q semanal (17:00)
@@ -18,6 +22,7 @@ type: clock
 ---
 # Priorities
 - [ ] SIC-Q: preparar reunión técnica + proceso administrativo
+- [ ] **Tec Beyond: hacer modelo de negocio**
 - [ ] UPU: cerrar documentación Vie 20/03
 - [ ] Contactar Nicho (Talisis)
 - [ ] TEC Narrativa: ajustar datos, archivar
@@ -151,7 +156,7 @@ type: clock
 | Netherlands HA Office | Learning Products | Call 3-way strategy |
 | Héctor Brosig — Xignux | Reunión 06 mar | Touch base abril |
 | Cerebro CEN PAN | SIC-Q — Toño | Tentativo |
-| **Lina Fuensanta — Talleres corporativos** | Tec vinculación | Responder propuesta (piloto jun 15-17) |
+| **Lina Fuensanta — Talleres corporativos** | Tec vinculación | Draft listo en Writing Lab — enviar |
 | **Patricia Martínez — Taller IA** | Tec | Call Mar 24 |
 
 ---
