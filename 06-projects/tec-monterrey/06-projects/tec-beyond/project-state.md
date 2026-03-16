@@ -23,34 +23,54 @@
 | 9 | Anexo 2: Estructura de datos y privacidad | [x] complete | `06-projects/entregables/anexos/` |
 | 10 | Anexo 3: Business Case framework | [x] complete | `06-projects/entregables/anexos/` |
 | 11 | Anexo 4: Modelo de escalabilidad | [x] complete | `06-projects/entregables/anexos/` |
+| 12 | Modelo de negocio v1 | [>] in review | `06-projects/entregables/modelo-de-negocio-tec-beyond-v1.md` |
 
 ## Current Front
 
-- **Deliverable:** Reunión técnica con Edgar (datos, algoritmo, membresías)
-- **Type:** Technical review — preparar postura sobre IP, licenciamiento, datos
-- **Context:** Reunión Blando del 25 feb fue positiva. Jorge quiere continuidad y transferencia de know-how. Evaluación TI en proceso. Lanzamiento potencial 27 de abril.
-- **Key concern:** Propiedad intelectual y dependencia tecnológica — Jorge quiere asegurar que el Tec no quede cautivo del proveedor. Edgar's take: abiertos a compartir, la ventaja está en la curva de evolución, no en el código estático.
-- **Edgar's assessment:** "El Tec no tiene tiempo de hacer estas cosas y nosotros siempre iremos adelante de la curva."
+- **Deliverable:** Modelo de negocio para la Comunidad Beyond
+- **Type:** Business model — definir estructura financiera, modelo de membresía, pricing, y plan de escalamiento
+- **Context:** Evento de lanzamiento confirmado (28 abril). Ulrick Noel (IE:EGL) entregó evaluación de 71 células de innovación con framework cuantitativo. Mario lanzó Save the Date. Edgar invitado como "maestro de integración" del evento.
+- **Key input:** Evaluación Ulrick (ver `05-context/evaluacion-celulas-innovacion-ulrick.md`) — valida necesidad de medición continua. Dashboard de innovación + rankings personalizados como features de alto valor.
+- **Deadline implícito:** Modelo listo antes del 28 de abril
+
+## Key Event
+
+**Reencuentro Empresarial Comunidad Beyond**
+- **Fecha:** 28 de abril de 2026, 14:00-21:00
+- **Lugar:** Tec Campus León
+- **Rol Edgar:** Maestro de integración / magistral
+- **Audiencia:** Todas las generaciones (G1-G8)
+- **Contenido planeado:** Lanzamiento Comunidad Beyond, premios innovación, entrega personalizada de rankings, reconocimiento células destacadas
+- **Contexto previo:** Víctor Gutiérrez visita 22 de abril
+
+## Community Launch Plan (Mario, 14 mar)
+
+1. **Piloto (año 1):** 40 empresarios designados — más comprometidos, representantes del consejo + 2 por generación
+2. **Escalar León:** crecer por módulos hasta conectar a todos los miembros
+3. **Replicar nacional:** implementar con lo aprendido en cada plaza Beyond
 
 ## Queue
 
-1. Reunión técnica Edgar + Mario (viernes 28 feb, 9:00) — datos, algoritmo, membresías <-- CURRENT
+1. **Modelo de negocio** — estructura financiera, membresías, pricing, IP <-- CURRENT
 2. Edgar define postura IP: joint venture / licenciamiento / híbrido
 3. Jorge + TI evalúan plataforma y modelo contractual
-4. Mario informa generaciones (jueves) sobre banderazo de salida
-5. Comité de IA approval (marzo 2026)
-6. Lanzamiento potencial: reunión de generaciones (27 abril)
-7. Explore B2C product from this community → Project Mara
+4. Integrar evaluación Ulrick como módulo de la plataforma (dashboard de innovación)
+5. Preparar materiales para evento 28 de abril
+6. Comité de IA approval
+7. Lanzamiento: Reencuentro Empresarial 28 de abril
+8. Explore B2C product from this community → Project Mara
 
 ## Blockers
 
 - Definición modelo contractual (IP/licenciamiento) — TI del Tec evaluando
 - Cierre pendiente con Laurance (Mario + Irma lo trabajan)
+- Modelo de negocio necesario antes del evento (28 abril)
 
 ## Session Log
 
 | Date | Units Completed | Notes |
 |------|----------------|-------|
+| 2026-03-16 | — | Procesada comunicación Mario 14 mar: evento 28 abril confirmado, Edgar = maestro de integración. Evaluación Ulrick archivada (71 proyectos, framework cuantitativo). Community launch plan documentado. Modelo de negocio es el current front. |
 | 2026-02-26 | — | Minuta reunión 25 feb registrada. Blando positivo, concern = IP/continuidad. Reunión técnica viernes 28. |
 | 2026-02-22 | — | Trip debrief. Project assessed as perfect HA fractal case. B2C insight → Mara |
 | 2026-02-18 | — | Actualización gobernanza + 4 anexos complete |
