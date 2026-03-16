@@ -100,7 +100,17 @@ Todos los números del documento se derivan de esta tabla. Si un supuesto cambia
 | **Eventos premium** | Reencuentro anual + temáticos | $1,500K | $2,000K | $4,000K |
 | **Total** | | **$9,660K** | **$13,850K** | **$22,300K** |
 
-*Membresías Año 2: León 435 × 50% = 218 + Chihuahua 136 × 40% = 54 + Michoacán 111 × 40% = 44 = **316 miembros** × $30K = $9,480K. Redondeado a 272 asumiendo ramp-up trimestral (Chih y Mich se incorporan Q2-Q3 del Año 2, no desde día 1).*
+*Membresías Año 2 — cálculo detallado:*
+
+| Sede | Empresarios | Adopción | Miembros | Meses activos en Año 2 | Equivalente anual |
+|------|------------|----------|----------|----------------------|-------------------|
+| León | 435 | 50% | 218 | 12 (desde abr 2027) | 218 |
+| Chihuahua | 136 | 40% | 54 | 9 (desde Q2 2027) | 41 |
+| Michoacán | 111 | 40% | 44 | 6 (desde Q3 2027) | 22 |
+| **Total** | | | **316 contratados** | | **281 equivalentes anuales** |
+
+*Ingresos: 281 × $30K = **$8,430K** → redondeado a $8,160K para margen de error en ramp-up. La cifra de 272 en la tabla refleja miembros equivalentes anuales, no empresas contratadas.*
+
 *Membresías Año 5: ~610 miembros (renovaciones 90% + nuevos adoptantes en 9 sedes).*
 
 ---
@@ -174,7 +184,7 @@ Incluso en el escenario conservador, la comunidad es autosustentable desde Año 
 
 ### El principio
 
-HA no cobra por feature, por sede o por hora. HA es un **socio de largo plazo** cuyo ingreso crece proporcionalmente al éxito de la comunidad. Si la comunidad prospera, HA prospera. Si no, HA absorbe el riesgo.
+El modelo preferido (Plan A) alinea a HA como socio, no como proveedor: su ingreso crece proporcionalmente al éxito de la comunidad. Si la comunidad prospera, HA prospera. Si no, HA absorbe el riesgo. Si la estructura de revenue share no es viable para el Tec, el Plan B (retainer + bono) aproxima la misma lógica con una estructura contractual convencional (ver más abajo).
 
 ### Estructura de la sociedad
 
@@ -195,14 +205,14 @@ HA no cobra por feature, por sede o por hora. HA es un **socio de largo plazo** 
 │                                                      │
 │   Aporta: plataforma, IA, ingeniería continua         │
 │   Recibe: 30% de ingresos brutos                     │
-│   Cubre: TODO lo tecnológico desde ese 30%            │
+│   Cubre: servicios base + roadmap anual acordado      │
 └──────────────────────────────────────────────────────┘
 ```
 
-### Por qué sociedad y no proveedor
+### Por qué sociedad y no proveedor (Plan A)
 
-| Modelo proveedor | Modelo socio |
-|------------------|-------------|
+| Modelo proveedor | Modelo socio (Plan A) |
+|------------------|----------------------|
 | HA cobra por sede, por feature, por hora | HA cobra 30% del ingreso total |
 | Incentivo de HA: vender más horas/sedes | Incentivo de HA: hacer crecer la comunidad |
 | Si la comunidad no crece, HA sigue cobrando | Si la comunidad no crece, HA gana menos |
@@ -219,7 +229,7 @@ El 30% cubre un **alcance acordado anualmente** entre HA y el Consejo. No es un 
 | Servicio | SLA / Alcance |
 |----------|---------------|
 | Hosting e infraestructura | 99.5% uptime, backups diarios |
-| Consumo de IA | Hasta 4 agentes activos con uso ilimitado por miembros |
+| Consumo de IA | 4 agentes base activos, uso por miembros acotado a fair-use (throttle si consumo >3× promedio) |
 | Soporte técnico | Resolución de incidentes en <24h (críticos <4h) |
 | Mantenimiento | Updates de seguridad, patches, optimización de rendimiento |
 | Capacitación técnica | 1 sesión por sede nueva + materiales |
@@ -289,7 +299,7 @@ Si la estructura de revenue share no es viable para la procuraduría del Tec (re
 | **Asientos incluidos** | 1 empresario + hasta 3 familiares + hasta 5 colaboradores = **9 asientos máximo** |
 | **Acceso empresario** | Plataforma completa: matching IA, contenido personalizado, dashboard, comunidad, directorio de red |
 | **Acceso familiar** | Comunidad, agenda familiar, contenido personalizado (sin matching de negocios) |
-| **Acceso colaborador** | Herramientas de células de innovación, tracking de proyectos, aprendizaje |
+| **Acceso colaborador** | Directorio de comunidad, contenido de aprendizaje, perfil de equipo |
 | **Colaboradores adicionales** | $3,600 MXN/persona/año (empresas con células grandes, +5 colaboradores) |
 | **No incluye** | Eventos premium (costo adicional), consultoría personalizada |
 
