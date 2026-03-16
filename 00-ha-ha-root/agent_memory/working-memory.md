@@ -2,6 +2,38 @@
 
 ## Sessions
 
+### 2026-03-16 | Session 25 | TEC BEYOND MODELO DE NEGOCIO
+- **Focus:** Business model completo para Comunidad Beyond + artifacts de deal-making
+- **Achievements:**
+  - **Comunicaciones procesadas:** WhatsApp Mario (14 mar) + cadena de correos Ulrick→Mario→grupo archivadas en `reuniones/comunicacion-14.03.2026-mario-evento-celulas.md`
+  - **Evento confirmado:** Reencuentro Empresarial Comunidad Beyond, 28 abril 2026, Tec Campus León 14:00-21:00. Edgar = maestro de integración
+  - **Spreadsheet analizado:** Descargado y procesado xlsx de Mario (5 sheets). 498 empresarios hoy, 1,387 proyectados 2030, 9 sedes, multiplicador 19×. Reporte en `05-context/proyeccion-impacto-sedes-2016-2030.md`
+  - **Sedes actualizadas:** Michoacán activa desde 2023 (no documentada antes), Laguna+Querétaro+Ags arrancan 2025, Puebla/Hermosillo/Yucatán proyectadas
+  - **Evaluación Ulrick archivada:** 71 proyectos, 4 STAR, 18 TAIL, framework Balanced Innovation Index. En `05-context/evaluacion-celulas-innovacion-ulrick.md`
+  - **Modelo de negocio construido** (5 iteraciones con revisión Codex):
+    - v1: vendor model → rechazado (Edgar: "socios, no proveedores")
+    - v2: partnership 30% revenue share → 4 rondas de fix con Codex
+    - Final: timeline limpio (Año 1 free pilot, Año 2 membresías), Plan B como default, ROFO, gates reales con KPI comercial, innovation module separado del core
+  - **4 artifacts de deal-making creados:**
+    - `memo-decision-consejo.md` — 1 página para Mario/Jorge/Víctor
+    - `term-sheet-ha-interno.md` — playbook de negociación (Plan B default, Plan A upgrade, red lines, concesiones, depósitos, ROFO, exit)
+    - `plan-conversion-piloto.md` — funnel 435→200→120→50 depósitos, anchor companies, Mario como llave
+    - `narrativas-reunion.md` — dos versiones: aprobación institucional + negociación con Jorge
+  - **Todo organizado en** `entregables/modelo-de-negocio/`
+  - **Community doc actualizado** con datos reales de sedes (02-community)
+  - **Project-state actualizado** con event, community launch plan, current front = modelo de negocio
+- **Decisions:**
+  - HA = socio tecnológico (30% revenue share o retainer $180K/mes + bono 15%). No vendor.
+  - $2.8M + IVA para desarrollo — confirmado
+  - Año 1 = piloto gratuito (institucional $4M). Año 2 = membresías
+  - Innovation module fuera del core model — oportunidad futura separada
+  - Plan B como default de negociación, Plan A como upgrade si procurement permite
+  - Membresía: $30K/año por empresa, 9 asientos máximo
+  - ROFO para expansión a futuras sedes y comunidades adyacentes del Tec
+  - 50 depósitos ($5K reembolsables) como KPI comercial del piloto
+- **Deliverables:** 5 nuevas notas (comunicación, evaluación, proyección, Writing Lab draft Mario) + modelo de negocio + 4 artifacts deal-making
+- **Open threads:** Revisar business plan mañana. Presentar a Mario/Jorge antes del 28 abril. Alinear con Mario lista de anchor companies. Víctor visita 22 abril.
+
 ### 2026-03-14 | Session 24 | QUICK BOOT (Saturday)
 - **Focus:** Boot protocol + status check — weekend session
 - **Achievements:**

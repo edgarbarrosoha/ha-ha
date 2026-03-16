@@ -21,7 +21,8 @@ type: clock
 ---
 # Priorities
 - [ ] SIC-Q: preparar reunión técnica + proceso administrativo
-- [ ] **Tec Beyond: hacer modelo de negocio**
+- [x] **Tec Beyond: modelo de negocio** ✅ — listo en `entregables/modelo-de-negocio/`
+- [ ] **Tec Beyond: revisar business plan + presentar a Mario/Jorge antes del 28 abril**
 - [ ] UPU: cerrar documentación Vie 20/03
 - [ ] Contactar Nicho (Talisis)
 - [ ] TEC Narrativa: ajustar datos, archivar
@@ -55,7 +56,7 @@ type: clock
 ## Education & AI Systems
 | **Project** | **Status** | **Next steps** |
 | --- | --- | --- |
-| **Tec Beyond** | 🔶 | Reunión Jorge Blando — prep ready, need date |
+| **Tec Beyond** | 🟢 | Modelo de negocio listo. Negociar con Jorge antes del 22 abr. Evento 28 abr. |
 | **TEC Narrativa** | ✅ | Ajustar datos, archivar |
 | **Docet-Agentic** | ⏸ | Paused. Not priority. |
 | **Talisis** | 🔶 | Contactar Nicho |
@@ -160,4 +161,4 @@ type: clock
 
 ---
 
-*Última actualización: 2026-03-14 (Recalibration Session 59)*
+*Última actualización: 2026-03-16 (Session 25)*

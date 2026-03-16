@@ -78,35 +78,35 @@
 ## ZONE C: State (Dynamic)
 
 ### Last Session
-- **Date:** 2026-03-14 (Saturday)
-- **Type:** Quick boot — weekend status check
-- **Achievements:** Boot ejecutado. Sin correos, intercom clear, sin directives. Edgar agregó Consejo Business para la semana + prioridad Tec Beyond modelo de negocio.
+- **Date:** 2026-03-16 (Monday)
+- **Type:** Deep work — Tec Beyond business model + deal-making
+- **Achievements:** Modelo de negocio completo (5 iteraciones con Codex). 4 artifacts de deal-making. Evento 28 abril confirmado. Spreadsheet de impacto procesado. Evaluación Ulrick archivada. Todo en `entregables/modelo-de-negocio/`.
 
 ### Active Threads
-- SIC-Q: Finanzas ✅ (fue bien). Mohar revisando contrato. Siguiente: reunión técnica → proceso admin → demo Toño → demo Gobernador
-- SIC-Q: Consejo Business (14-20 mar): proteger Oscar, runbooks Salvador+Diego, seguimiento Mohar proactivo
-- Tec Beyond: **Modelo de negocio** como nueva prioridad. Prep Jorge Blando lista. Entregables plataforma v2 listos
+- **Tec Beyond:** Modelo de negocio LISTO. Próximo: revisar mañana, presentar a Mario/Jorge antes del 28 abril. Víctor visita 22 abril.
+- SIC-Q: Finanzas ✅. Mohar revisando contrato. Reunión técnica pendiente.
+- SIC-Q: Consejo Business (14-20 mar): proteger Oscar, runbooks, seguimiento Mohar
 - UPU: Oscar documentación — **deadline Vie 20/03**
-- Docet-Agentic: En pausa — not priority
+- Docet-Agentic: En pausa
 - TEC Narrativa: Ajustar datos, archivar
 - Learning Products: Betty + Sarahí avanzan. Leiden corriendo
-- Talisis: Contactar Nicho (pendiente)
+- Talisis: Contactar Nicho (pendiente 2+ semanas)
 - **Emerging:** Cerebro CEN PAN, Caribbean AI (UPU), NL office, Mara B2C, Lina talleres corp (draft listo), Patricia Taller IA (call 24 mar)
 
 ### Waiting For
-- Edgar Mohar / Toño → Formalización contrato (Mohar habló con Toño 04 mar) | SIC-Q
-- Jorge Blando → Reunión siguiente paso (prep lista) | Beyond
+- **Mario Orozco** → Validar lista anchor companies + confirmar presupuesto piloto | Beyond
+- **Jorge Blando** → Reunión negociación comercial (antes de abr 22) | Beyond
+- Edgar Mohar / Toño → Formalización contrato | SIC-Q
 - Equipo Poncho (Docet) → Evaluación indicadores/métricas | Docet
 - Gobierno QRO → Decisión legal + alineación IF | SIC-Q
 - Héctor Brosig → Touch base inicio abril | Xignux
 - Nicho (Talisis) → Reagendar reunión (cancelada 05 mar) | Talisis
-- Javier (VP Research Tec) → Agendar reunión con Joel Cano | HA-Core
 - Steven Popper → Respuesta correo reuniones mensuales | Advisory
 - Betty/Sarahí/Edgar → Call Netherlands office strategy | Learning Products
 
 ### Next Session Priorities
-1. SIC-Q: Seguimiento Mohar (contrato + reunión técnica)
-2. Tec Beyond: Hacer modelo de negocio
+1. **Tec Beyond: Revisar business plan** (Edgar + HA-HA)
+2. SIC-Q: Seguimiento Mohar (contrato + reunión técnica)
 3. UPU: Verificar avance Oscar (deadline Vie 20/03)
 4. Enviar draft Lina desde Writing Lab
 5. Contactar Nicho (Talisis)
@@ -115,6 +115,7 @@
 
 | Date | Session | Focus | Key Achievement |
 |------|---------|-------|-----------------|
+| 2026-03-16 | 25 | Tec Beyond modelo de negocio | Business model + 4 deal-making artifacts, 5 iteraciones con Codex, evento 28 abr confirmado |
 | 2026-03-14 | 24 | Quick boot (Sat) | Status check, Consejo Business agregado, Tec Beyond modelo negocio |
 | 2026-03-08 | 23 | Quick boot | Intercom review, status check, no deliverables |
 | 2026-03-06 | 21 | Tec Beyond entregables plataforma | desc + spec técnica reescritas, pipeline docx-js, fuentes HA |

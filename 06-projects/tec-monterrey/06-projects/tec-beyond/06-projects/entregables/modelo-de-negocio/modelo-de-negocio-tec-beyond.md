@@ -20,11 +20,11 @@ La Comunidad Beyond convierte a los egresados de Tec Beyond en una red de valor 
 |---------|-------|-------|-------|-------|
 | Sedes activas | 1 | 3 | 5 | 9 |
 | Empresarios en la red | 390 | 682 | 875 | 1,387 |
-| Miembros pagadores | 0 (piloto gratis) | 272 | 395 | 610 |
-| Ingreso comunidad | $4.0M (institucional) | $9.7M | $13.9M | $22.3M |
-| Costo total | $4.0M | $5.3M | $7.6M | $12.1M |
-| Excedente | $0 (piloto) | +$4.3M | +$6.3M | +$10.2M |
-| Membresías cubren costos sin subsidio | — | **Sí, desde Año 2** | Sí | Sí |
+| Miembros pagadores | 0 (piloto gratis) | 281 (eq. anual) | 395 | 610 |
+| Ingreso comunidad | $4.0M (institucional) | $9.9M | $13.9M | $22.3M |
+| Costo total | $4.0M | $5.4M | $7.6M | $12.1M |
+| Excedente | $0 (piloto) | +$4.5M | +$6.3M | +$10.2M |
+| León solo cubre costos sin subsidio | — | **Sí** ($6.5M vs $4.7M) | Sí | Sí |
 
 ---
 
@@ -96,9 +96,9 @@ Todos los números del documento se derivan de esta tabla. Si un supuesto cambia
 
 | Fuente | Descripción | Año 2 | Año 3 | Año 5 |
 |--------|-------------|-------|-------|-------|
-| **Membresías** | Empresarios × adopción × $30K | $8,160K | $11,850K | $18,300K |
+| **Membresías** | Empresarios × adopción × $30K | $8,430K | $11,850K | $18,300K |
 | **Eventos premium** | Reencuentro anual + temáticos | $1,500K | $2,000K | $4,000K |
-| **Total** | | **$9,660K** | **$13,850K** | **$22,300K** |
+| **Total** | | **$9,930K** | **$13,850K** | **$22,300K** |
 
 *Membresías Año 2 — cálculo detallado:*
 
@@ -109,7 +109,7 @@ Todos los números del documento se derivan de esta tabla. Si un supuesto cambia
 | Michoacán | 111 | 40% | 44 | 6 (desde Q3 2027) | 22 |
 | **Total** | | | **316 contratados** | | **281 equivalentes anuales** |
 
-*Ingresos: 281 × $30K = **$8,430K** → redondeado a $8,160K para margen de error en ramp-up. La cifra de 272 en la tabla refleja miembros equivalentes anuales, no empresas contratadas.*
+*Ingresos: 281 equivalentes anuales × $30K = **$8,430K**. Esta cifra se usa en todo el modelo.*
 
 *Membresías Año 5: ~610 miembros (renovaciones 90% + nuevos adoptantes en 9 sedes).*
 
@@ -119,10 +119,10 @@ Todos los números del documento se derivan de esta tabla. Si un supuesto cambia
 
 | Concepto | Año 1 | Año 2 | Año 3 | Año 5 |
 |----------|-------|-------|-------|-------|
-| **Socio tecnológico (HA)** | $3,248K | $2,898K | $4,155K | $6,690K |
+| **Socio tecnológico (HA)** | $3,248K | $2,979K | $4,155K | $6,690K |
 | Equipo comunidad | $480K | $1,440K | $1,920K | $2,880K |
 | Eventos (producción) | $272K | $1,000K | $1,500K | $2,500K |
-| **Total costos** | **$4,000K** | **$5,338K** | **$7,575K** | **$12,070K** |
+| **Total costos** | **$4,000K** | **$5,419K** | **$7,575K** | **$12,070K** |
 
 **Detalle del costo "Socio tecnológico":**
 
@@ -141,21 +141,21 @@ Todos los números del documento se derivan de esta tabla. Si un supuesto cambia
 |-|-------|-------|-------|-------|-------|---------------|
 | **Ingresos** | | | | | | |
 | Institucional | $4,000K | — | — | — | — | $4,000K |
-| Membresías | — | $8,160K | $11,850K | $15,720K | $18,300K | $54,030K |
+| Membresías | — | $8,430K | $11,850K | $15,720K | $18,300K | $54,300K |
 | Eventos | — | $1,500K | $2,000K | $3,000K | $4,000K | $10,500K |
-| **Total ingresos** | **$4,000K** | **$9,660K** | **$13,850K** | **$18,720K** | **$22,300K** | **$68,530K** |
+| **Total ingresos** | **$4,000K** | **$9,930K** | **$13,850K** | **$18,720K** | **$22,300K** | **$68,800K** |
 | | | | | | | |
 | **Costos** | | | | | | |
-| HA (socio tecnológico) | $3,248K | $2,898K | $4,155K | $5,616K | $6,690K | $22,607K |
+| HA (socio tecnológico) | $3,248K | $2,979K | $4,155K | $5,616K | $6,690K | $22,688K |
 | Equipo comunidad | $480K | $1,440K | $1,920K | $2,400K | $2,880K | $9,120K |
 | Eventos (producción) | $272K | $1,000K | $1,500K | $2,000K | $2,500K | $7,272K |
-| **Total costos** | **$4,000K** | **$5,338K** | **$7,575K** | **$10,016K** | **$12,070K** | **$38,999K** |
+| **Total costos** | **$4,000K** | **$5,419K** | **$7,575K** | **$10,016K** | **$12,070K** | **$39,080K** |
 | | | | | | | |
-| **Excedente** | **$0** | **+$4,322K** | **+$6,275K** | **+$8,704K** | **+$10,230K** | **+$29,531K** |
+| **Excedente** | **$0** | **+$4,511K** | **+$6,275K** | **+$8,704K** | **+$10,230K** | **+$29,720K** |
 | **Margen** | 0% | 45% | 45% | 46% | 46% | 43% |
 
 *Año 1 = break-even by design: inversión institucional cubre el piloto.*
-*HA Año 2: max(30% × $9,660K, $1,800K) = $2,898K.*
+*HA Año 2: max(30% × $9,930K, $1,800K) = $2,979K.*
 
 ---
 
@@ -170,13 +170,13 @@ Todos los números del documento se derivan de esta tabla. Si un supuesto cambia
 
 | Resultado | Conservador | Base | Optimista |
 |-----------|-------------|------|-----------|
-| Miembros Año 2 | 163 | 272 | 381 |
+| Miembros Año 2 (eq. anual) | 163 | 281 | 381 |
 | Miembros Año 5 | 320 | 610 | 890 |
 | Ingresos Año 5 (membresías + eventos) | $8.8M | $22.3M | $46.7M |
 | Excedente acumulado 5 años | +$3.1M | +$29.5M | +$78.2M |
 | Membresías cubren costos sin subsidio | Año 3 | **Año 2** | Año 2 |
 
-Incluso en el escenario conservador, la comunidad es autosustentable desde Año 3 con solo dos fuentes de ingreso: membresías y eventos.
+Incluso en el escenario conservador, León solo se sostiene desde Año 3 con membresías + eventos. La autosustentabilidad en Año 2 no depende de la expansión a otras sedes — León tiene suficiente masa (435 empresarios × 50% = 218 × $30K = $6.5M) para cubrir costos operativos ($4.7M con HA al 30%). Las sedes adicionales aceleran el excedente, pero no son condición de supervivencia.
 
 ---
 
@@ -314,7 +314,7 @@ Si la estructura de revenue share no es viable para la procuraduría del Tec (re
 
 | Miembros | Asientos estimados | Hosting+IA presupuestado (Apéndice A) | Costo por asiento/mes |
 |----------|--------------------|----------------------------------------|-----------------------|
-| 272 empresas (Año 2) | ~1,500 asientos | $960K/año = $80K/mes | **$53 MXN (~$3 USD)** |
+| 281 empresas eq. anual (Año 2) | ~1,550 asientos | $960K/año = $80K/mes | **$52 MXN (~$3 USD)** |
 | 610 empresas (Año 5) | ~3,400 asientos | $2,400K/año = $200K/mes | **$59 MXN (~$3 USD)** |
 
 *Hosting+IA es solo una fracción de los costos de HA. El grueso es ingeniería (equipo que desarrolla y mantiene). El costo total de HA por asiento incluyendo ingeniería: Año 2 = $3,060K / 1,500 / 12 = $170/asiento/mes. Pero HA cubre esto internamente desde el revenue share — la comunidad solo ve el 30% como línea de costo.*
@@ -325,6 +325,8 @@ Si la estructura de revenue share no es viable para la procuraduría del Tec (re
 
 ### Gate 1: Piloto → Membresías León (Mes 12 — Marzo 2027)
 
+**KPIs de producto (3 de 4 requeridos):**
+
 | KPI | Meta | Medición |
 |-----|------|----------|
 | Miembros activos mensuales | ≥70% de los 40 piloto (≥28) | Login + interacción ≥1×/mes |
@@ -332,20 +334,32 @@ Si la estructura de revenue share no es viable para la procuraduría del Tec (re
 | NPS | ≥40 | Encuesta al cierre del piloto |
 | Contenido consumido | ≥60% de pilotos interactúan con contenido personalizado | Lecturas + interacciones con agente Contenidos |
 
-**3 de 4 cumplidos → abrir membresías León (Año 2).**
-**2 de 4 → extender piloto 3 meses, no abrir membresías.**
-**≤1 → reevaluar producto antes de cualquier cobro.**
+**KPI comercial (obligatorio para pasar el gate):**
 
-### Gate 2: León → Expansión (Mes 18 — Sept 2027)
+| KPI | Meta | Medición |
+|-----|------|----------|
+| Cartas de intención o pre-compromisos | ≥100 empresarios de León dispuestos a pagar membresía | LOI firmada o compromiso verbal documentado durante el piloto |
+
+*El KPI comercial convierte el piloto en un funnel de ventas, no solo en un experimento de producto. Si el producto funciona (3 de 4 KPIs) pero nadie quiere pagar (no hay 100 LOIs), no se abren membresías.*
+
+**3 de 4 producto + KPI comercial → abrir membresías León.**
+**3 de 4 producto sin KPI comercial → ajustar pricing/propuesta, extender 3 meses.**
+**≤2 producto → reevaluar antes de cualquier cobro.**
+
+### Gate 2: León 6 meses → Implementar Sedes 2 y 3 (Mes 18 — Oct 2027)
+
+Evaluado 6 meses después de abrir membresías León (abr → oct 2027). Chihuahua y Michoacán **no se implementan** hasta que este gate se pase.
 
 | KPI | Meta |
 |-----|------|
-| Miembros pagadores León | ≥200 (de 435 elegibles) |
-| Tasa de renovación | ≥85% |
-| Ingresos por membresía | ≥$6M MXN/año |
-| ≥1 match verificado por miembro | ≥60% de miembros |
+| Miembros pagadores León | ≥150 de 435 elegibles (35%) |
+| Ingresos por membresía León (6 meses) | ≥$3.5M MXN |
+| Tasa de retención a 6 meses | ≥85% de los primeros pagadores |
+| ≥1 match verificado por miembro | ≥50% de miembros |
 
-**3 de 4 → implementar Sede 2.**
+**3 de 4 → implementar Chihuahua (Q4 2027) y Michoacán (Q1 2028).**
+**2 de 4 → implementar solo 1 sede, evaluar la segunda en 6 meses.**
+**≤1 → consolidar León antes de expandir.**
 
 ---
 
@@ -356,14 +370,14 @@ Si la estructura de revenue share no es viable para la procuraduría del Tec (re
 | **28 abr 2026** | Reencuentro Empresarial — Preview + onboarding 40 piloto | Aprobación presupuesto |
 | **May-Jun 2026** | Desarrollo plataforma MVP | — |
 | **Jul 2026** | Beta con 40 empresarios piloto (acceso gratuito) | — |
-| **Mar 2027** | Cierre piloto — evaluación completa, evidencia recopilada | Gate 1: KPIs piloto |
+| **Mar 2027** | Cierre piloto — evaluación completa, evidencia recopilada | Gate 1: KPIs piloto + comerciales |
 | **Abr 2027** | **Año 2 inicia:** Membresías activas León (435 elegibles) | — |
-| **Q2 2027** | Implementación Chihuahua (136 empresarios) | — |
-| **Q3 2027** | Implementación Michoacán (111 empresarios) | — |
-| **Sept 2027** | 3 sedes activas — evaluación de expansión | Gate 2: KPIs León + Sedes |
+| **Oct 2027** | León 6 meses de membresías — evaluación de expansión | Gate 2: ¿Implementar Sedes 2 y 3? |
+| **Q4 2027** | Implementación Chihuahua (136 empresarios) — si Gate 2 pasa | — |
+| **Q1 2028** | Implementación Michoacán (111 empresarios) — si Gate 2 pasa | — |
 | **2028-2030** | Expansión nacional (5→9 sedes) | Gate por sede |
 
-*Año 1 (abr 2026 – mar 2027) = piloto gratuito. Año 2 (abr 2027 – mar 2028) = membresías + expansión. Sin ambigüedad.*
+*Año 1 (abr 2026 – mar 2027) = piloto gratuito. Año 2 (abr 2027 – mar 2028) = membresías León, expansión condicionada a Gate 2.*
 
 ---
 
@@ -394,6 +408,11 @@ Para avanzar, se requiere aprobación de:
 ### 4. Validar KPIs de fase-gate
 - Confirmar metas de Gate 1 y Gate 2 como criterios de go/no-go
 
+### 5. Derecho de primera oferta para expansión
+- **Qué:** Si el modelo funciona en León, HA tiene derecho de primera oferta para implementar en futuras sedes Tec Beyond y comunidades adyacentes del Tec (alumni, posgrado, ejecutivos)
+- **Por qué:** HA invierte margen en Años 1-2 a cambio de upside a largo plazo. Ese upside solo se materializa si la expansión es parte del acuerdo, no negociación sede por sede
+- **Mecanismo:** Cláusula ROFO (Right of First Offer) en el contrato — si Tec Beyond decide expandir o crear una comunidad similar, HA presenta propuesta primero
+
 ---
 
 ## Apéndice A: Economía de HA (referencia interna)
@@ -405,8 +424,8 @@ Para avanzar, se requiere aprobación de:
 | | Año 1 | Año 2 | Año 3 | Año 4 | Año 5 | **Total** |
 |-|-------|-------|-------|-------|-------|-----------|
 | Fee desarrollo | $3,248K | — | — | — | — | $3,248K |
-| Revenue share (30%) | — | $2,898K | $4,155K | $5,616K | $6,690K | $19,359K |
-| **Total HA** | **$3,248K** | **$2,898K** | **$4,155K** | **$5,616K** | **$6,690K** | **$22,607K** |
+| Revenue share (30%) | — | $2,979K | $4,155K | $5,616K | $6,690K | $19,440K |
+| **Total HA** | **$3,248K** | **$2,979K** | **$4,155K** | **$5,616K** | **$6,690K** | **$22,688K** |
 
 *Fee desarrollo: $2.8M + 16% IVA = $3.248M.*
 
@@ -423,9 +442,9 @@ Para avanzar, se requiere aprobación de:
 
 | | Año 1 | Año 2 | Año 3 | Año 4 | Año 5 | **Total** |
 |-|-------|-------|-------|-------|-------|-----------|
-| Revenue | $3,248K | $2,898K | $4,155K | $5,616K | $6,690K | $22,607K |
+| Revenue | $3,248K | $2,979K | $4,155K | $5,616K | $6,690K | $22,688K |
 | Costos | $2,700K | $3,060K | $4,200K | $4,800K | $6,000K | $20,760K |
-| **Margen** | **+$548K** | **-$162K** | **-$45K** | **+$816K** | **+$690K** | **+$1,847K** |
+| **Margen** | **+$548K** | **-$81K** | **-$45K** | **+$816K** | **+$690K** | **+$1,928K** |
 
 *Años 2-3 son tight — HA opera near break-even. Esto es la inversión del socio: HA apuesta al éxito de la comunidad. El piso de $150K/mes protege contra escenarios peores. A partir de Año 4, margen creciente.*
 
