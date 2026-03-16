@@ -2,6 +2,19 @@
 
 ## Sessions
 
+### 2026-03-14 | Session 24 | QUICK BOOT (Saturday)
+- **Focus:** Boot protocol + status check — weekend session
+- **Achievements:**
+  - Boot ejecutado (calendario, mail, intercom, dashboards 4 vaults)
+  - Intercom: sin mensajes nuevos desde sesión 23 (Tec-computer messages ya revisados)
+  - Dashboard schedule block reparado (tenía Invalid date)
+  - Edgar agregó **Consejo Business (14-20/03):** proteger a Oscar, runbooks para Salvador+Diego, seguimiento Mohar, pipeline tibio hasta capacidad de entrega distribuida
+  - Edgar agregó prioridad: **Tec Beyond: hacer modelo de negocio**
+  - Lina Fuensanta: draft listo en Writing Lab — pendiente enviar
+- **Decisions:** Ninguna nueva
+- **Deliverables:** Ninguno — sesión de contexto
+- **Open threads:** Consejo Business guía la semana. Tec Beyond modelo de negocio como nueva prioridad. UPU deadline Vie 20/03. Lina draft pendiente de enviar.
+
 ### 2026-03-08 | Session 23 | QUICK BOOT
 - **Focus:** Boot protocol + status check + intercom review
 - **Achievements:**

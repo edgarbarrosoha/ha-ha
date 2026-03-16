@@ -5,16 +5,15 @@ type: clock
 [EB](obsidian://open?vault=ha-eb&file=06-projects%2Fdashboard) | [Tec](obsidian://open?vault=ha-eb&file=06-projects%2Ftec.link%2F06-projects%2Fdashboard) | [Research](obsidian://open?vault=ha-eb&file=06-projects%2Fresearch.link%2F06-projects%2Fdashboard) | [AL](obsidian://open?vault=ha-al&file=06-projects%2Fdashboard)
 
 ```schedule
-[Start]: 03/14/26 - 03:45 PM
-[Invalid date]: HA Session — status + pendientes (30min)
-[Invalid date]: Libre — descanso, Duolingo, paseo (2h)
+[Start]: 03/16/26 - 09:00 AM
+[Invalid date]: 
 [Finish]: Invalid date
 ```
 
 # Consejo Business (14-20/03)
 > Proteger a Oscar mientras avanza SIC-Q y cierra UPU el viernes. Extraer conocimiento operativo en runbooks — aunque sean notas rough — para que Salvador y Diego absorban scope. Seguimiento proactivo a Edgar Mohar para confirmar reunión técnica y mantener momentum antes de que el proceso admin se estanque. Pipeline (Lina, Patricia, Tec Beyond) se mantiene tibio pero no se acelera hasta que la carga de Oscar esté distribuida — cerrar sin capacidad de entrega es el único movimiento que dañaría la trayectoria de $1.5M.
 
-# Week (15/03 – 20/03)
+# Week (16/03 – 20/03)
 - [ ] **Lun 16/03** → [ ] HA Arranque (15:00) → [ ] SIC-Q semanal (17:00)
 - [ ] **Mar 17/03** → [ ] AURA Overview (16:00) → [ ] Impulsora Innovación México (23:00)
 - [ ] **Mié 18/03** → [ ] Aura Weekly (18:00)

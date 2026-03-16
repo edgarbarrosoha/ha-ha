@@ -11,27 +11,23 @@ fi
 
 # Default calendar filter (all calendars if not configured)
 CALENDAR_FILTER="${HA_CALENDAR_FILTER:-}"
-
-build_cal_args() {
-    local args=""
-    if [ -n "$CALENDAR_FILTER" ]; then
-        args="-ic $CALENDAR_FILTER"
-    fi
-    echo "$args"
-}
+CAL_ARGS=()
+if [ -n "$CALENDAR_FILTER" ]; then
+    CAL_ARGS=(-ic "$CALENDAR_FILTER")
+fi
 
 case "${1:-today}" in
     today)
         echo "=== Calendar: Today ==="
-        icalBuddy $(build_cal_args) -f -nc -nrd -eep "notes,attendees" eventsToday
+        icalBuddy "${CAL_ARGS[@]}" -f -nc -nrd -eep "notes,attendees" eventsToday
         ;;
     week)
         echo "=== Calendar: This Week ==="
-        icalBuddy $(build_cal_args) -f -nc -nrd -eep "notes,attendees" eventsToday+7
+        icalBuddy "${CAL_ARGS[@]}" -f -nc -nrd -eep "notes,attendees" eventsToday+7
         ;;
     tomorrow)
         echo "=== Calendar: Tomorrow ==="
-        icalBuddy $(build_cal_args) -f -nc -nrd -eep "notes,attendees" eventsToday+1
+        icalBuddy "${CAL_ARGS[@]}" -f -nc -nrd -eep "notes,attendees" eventsFrom:tomorrow to:tomorrow
         ;;
     *)
         echo "Usage: ha-calendar [today|week|tomorrow]"

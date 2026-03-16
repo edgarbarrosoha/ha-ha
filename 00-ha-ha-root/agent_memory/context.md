@@ -78,44 +78,44 @@
 ## ZONE C: State (Dynamic)
 
 ### Last Session
-- **Date:** 2026-03-08
-- **Type:** Quick boot — status check + intercom review
-- **Achievements:** Boot ejecutado. Intercom: Tec-computer dejó 3 mensajes (Obsidian Git config, Propuesta Talleres SC docx, git fix). No hay correos ni directives.
+- **Date:** 2026-03-14 (Saturday)
+- **Type:** Quick boot — weekend status check
+- **Achievements:** Boot ejecutado. Sin correos, intercom clear, sin directives. Edgar agregó Consejo Business para la semana + prioridad Tec Beyond modelo de negocio.
 
 ### Active Threads
-- SIC-Q: Propuesta v06 enviada. Edgar Mohar habló con Toño (04 mar) para formalizar contrato — caminando. Proyecto Cerebro CEN PAN (tentativo, pitch ~marzo)
-- SIC-Q: 4 reportes talleres completos (ejecutivos T1/T2, combinado, técnico ~1600 líneas)
-- Tec Beyond: Reunión consejo 26 feb exitosa. **Prep reunión Jorge Blando lista (4 docs)**. Entregables plataforma v2 listos (descripción + spec técnica, md + docx)
-- Docet-Agentic: En pausa — esperando evaluación equipo Poncho. Deadline febrero vencido
-- TEC Narrativa: Feedback JP recibido. Mario Adrián presenta a Consejo. Sarahí da insumos. 27 entrevistas totales
-- UPU: Oscar documentación para cerrar
-- Learning Products: Betty + Sarahí avanzan canvases. Leiden Mar-Jun 2026 confirmado
-- Talisis: Reunión Nicho cancelada 05 mar (traslape), reagendar pendiente
-- **Emerging:** Proyecto Cerebro CEN PAN (SIC-Q), Caribbean AI training (UPU), Netherlands office (Learning Products), Project Mara B2C (Beyond)
-- **Infraestructura:** Notion MCP configurado, pendiente restart para activar
+- SIC-Q: Finanzas ✅ (fue bien). Mohar revisando contrato. Siguiente: reunión técnica → proceso admin → demo Toño → demo Gobernador
+- SIC-Q: Consejo Business (14-20 mar): proteger Oscar, runbooks Salvador+Diego, seguimiento Mohar proactivo
+- Tec Beyond: **Modelo de negocio** como nueva prioridad. Prep Jorge Blando lista. Entregables plataforma v2 listos
+- UPU: Oscar documentación — **deadline Vie 20/03**
+- Docet-Agentic: En pausa — not priority
+- TEC Narrativa: Ajustar datos, archivar
+- Learning Products: Betty + Sarahí avanzan. Leiden corriendo
+- Talisis: Contactar Nicho (pendiente)
+- **Emerging:** Cerebro CEN PAN, Caribbean AI (UPU), NL office, Mara B2C, Lina talleres corp (draft listo), Patricia Taller IA (call 24 mar)
 
 ### Waiting For
 - Edgar Mohar / Toño → Formalización contrato (Mohar habló con Toño 04 mar) | SIC-Q
 - Jorge Blando → Reunión siguiente paso (prep lista) | Beyond
 - Equipo Poncho (Docet) → Evaluación indicadores/métricas | Docet
 - Gobierno QRO → Decisión legal + alineación IF | SIC-Q
-- Héctor Brosig → Reunión reagendada Vie 06 Mar 19:00 | Xignux
+- Héctor Brosig → Touch base inicio abril | Xignux
 - Nicho (Talisis) → Reagendar reunión (cancelada 05 mar) | Talisis
 - Javier (VP Research Tec) → Agendar reunión con Joel Cano | HA-Core
 - Steven Popper → Respuesta correo reuniones mensuales | Advisory
 - Betty/Sarahí/Edgar → Call Netherlands office strategy | Learning Products
 
 ### Next Session Priorities
-1. Obsidian Git config: Verificar auto-pull/push = 5 min en My-computer
-2. Propuesta de Lina (dashboard prioridad)
-3. Revisar Propuesta Talleres SC docx y subir a Google Docs
-4. SIC-Q: Seguimiento formalización contrato (Mohar/Toño)
-5. Tec Beyond: Seguimiento Jorge Blando
+1. SIC-Q: Seguimiento Mohar (contrato + reunión técnica)
+2. Tec Beyond: Hacer modelo de negocio
+3. UPU: Verificar avance Oscar (deadline Vie 20/03)
+4. Enviar draft Lina desde Writing Lab
+5. Contactar Nicho (Talisis)
 
 ### Recent Sessions
 
 | Date | Session | Focus | Key Achievement |
 |------|---------|-------|-----------------|
+| 2026-03-14 | 24 | Quick boot (Sat) | Status check, Consejo Business agregado, Tec Beyond modelo negocio |
 | 2026-03-08 | 23 | Quick boot | Intercom review, status check, no deliverables |
 | 2026-03-06 | 21 | Tec Beyond entregables plataforma | desc + spec técnica reescritas, pipeline docx-js, fuentes HA |
 | 2026-03-06 | 20 | Mara vision + legados + roadmap | Mara = thinking environment, 6 legados, dev roadmap 6 fases |

@@ -12,7 +12,7 @@
 
 ## Status
 
-Session: 24 | active
+Session: 24 | closed
 Editing: none
 Last read other: 2026-03-14 15:35
 
