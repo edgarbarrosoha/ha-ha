@@ -6,7 +6,8 @@ type: clock
 
 ```schedule
 [Start]: 03/17/26 - 09:00 AM
-[Finish]: 03/17/26 - 06:00 PM
+[Invalid date]: 
+[Finish]: Invalid date
 ```
 
 # Consejo Business (14-20/03)
