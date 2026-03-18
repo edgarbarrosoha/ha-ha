@@ -14,6 +14,8 @@
 | **Vinculación Beyond** | Horacio | Conectar con programa Beyond existente |
 | **Director General Campus León** | Juan Carlos Arreola Rivas | Secretario del Consejo |
 | **Proveedor Tecnológico** | Edgar Barroso (HA) | Arquitectura, narrativa y plataforma |
+| **Sponsor Nacional / Innovación** | Ulrick Oliver Noel Solís (Dir. Ejecutivo IE:EGL) | Evaluación células innovación, framework cuantitativo, acompañamiento innovación |
+| **Coordinación Operativa** | Erika Obregón González del Castillo | Coordinación con equipo innovación, enlace Rodrigo |
 | **Comité de IA** | [Miembros por confirmar] | Decisión de contratación |
 
 ### Liderazgo alineado (feb 15-16, 2026)
@@ -101,18 +103,22 @@ Alineados "hasta en junta de presidentes." El proyecto pasó de propuesta en eva
 
 ## Red de Sedes (Actual y Proyectada)
 
-| Sede | Estado | Fuente | Notas |
-|------|--------|--------|-------|
-| **León** | Confirmada (2015, 9 gen) | Pública | ~270-450 alumni (40-50 por gen) |
-| **Chihuahua** | Confirmada (2023) | Pública | 40+ empresarios, 200+ en células. Dir: Luis Almanza |
-| **Aguascalientes** | Confirmada (2024-2025) | Pública | Dir: Roberto Soto |
-| **Morelia** | Por confirmar | Interna | No aparece en fuentes públicas |
-| **Guadalajara** | Por confirmar | Interna | Sesiones de León se imparten allí, pero no como sede propia confirmada |
-| **Laguna** | Proyectada | Interna | — |
-| **Querétaro** | Potencial | — | — |
-| **CDMX** | Potencial | — | — |
+*Fuente: spreadsheet de proyección compartido por Mario Orozco, marzo 2026. Ver `05-context/proyeccion-impacto-sedes-2016-2030.md` para datos completos.*
 
-**Visión 10 años:** ~8,000 miembros en la red nacional
+| Sede | Estado | Arranque | Empresarios acum. (actual o proyectado) |
+|------|--------|----------|----------------------------------------|
+| **León** | Activa (9 gen) | 2016 | 359 (G1-G8) |
+| **Chihuahua** | Activa | 2022 | 85 |
+| **Michoacán** | Activa | 2023 | 54 |
+| **Laguna** | Arranca 2025 | 2025 | 18 (proyectado) |
+| **Querétaro** | Arranca 2025 | 2025 | 7 (proyectado) |
+| **Aguascalientes** | Arranca 2025 | 2025 | 14 (proyectado) |
+| **Puebla** | Proyectada | 2026 | 30 (proyectado) |
+| **Hermosillo** | Proyectada | 2028 | 30 (proyectado) |
+| **Yucatán** | Proyectada | 2029 | 30 (proyectado) |
+
+**Hoy (2024-2025):** 498 empresarios en 3 sedes activas
+**Proyección 2030:** ~1,387 empresarios en 9 sedes → ~26,353 personas de impacto (multiplicador 19×)
 
 > Ver: [[investigación-tec-beyond]] para fuentes y verificación
 

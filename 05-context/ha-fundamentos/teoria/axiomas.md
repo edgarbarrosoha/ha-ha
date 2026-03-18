@@ -197,6 +197,23 @@ This is exactly how axioms function in mature systems:
 
 ---
 
+## Validated properties (emergent from axiomatic design)
+
+The axiomatic structure of HA produces three observable properties when the framework is applied to new domains:
+
+### 1. Fractal scalability
+The architecture functions in domains for which it was not originally designed. The same structural logic (6 dimensions + time axis + fractal recursion) holds whether applied to complex entrepreneurship, academic management, or public policy design — without requiring re-architecture.
+
+### 2. Generativity
+HA produces **new instruments**, not replicas of the original. When users apply the framework to a new domain, the axiomatic structure enables them to create domain-specific tools that did not exist before, while maintaining coherence with the underlying architecture.
+
+### 3. Useful axiomaticity
+The fixed structure does not constrain creativity — it enables it. Users are freed from designing the frame and can focus entirely on composing the content. The axioms function as the staff lines of a musical score: invariant, but enabling infinite compositions.
+
+> **Evidence:** Méndez Acevedo (2026) applied HA to anticipatory governance of AI in Mexico's public sector. She did not replicate the 6 dimensions as governance categories — she created 5 original governance dimensions (derived from OECD, UNESCO, and EU AI Act) while using HA's 6 dimensions as the underlying connective system. The dimensional notation `[Le+Ct+P|H1]` in her Adaptive Governance Matrix demonstrates the architecture operating beneath domain-specific content. This constitutes the first documented application of HA to public policy design, producing an instrument (the Matrix) that none of the reviewed frameworks offered separately.
+
+---
+
 ## One sentence version (if you ever need it)
 
 > _HA uses axioms not to define truth, but to define orientation—so humans and machines can think, act, and scale together without losing coherence._
