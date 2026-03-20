@@ -5,14 +5,15 @@ type: clock
 [EB](obsidian://open?vault=ha-eb&file=06-projects%2Fdashboard) | [Tec](obsidian://open?vault=ha-eb&file=06-projects%2Ftec.link%2F06-projects%2Fdashboard) | [Research](obsidian://open?vault=ha-eb&file=06-projects%2Fresearch.link%2F06-projects%2Fdashboard) | [AL](obsidian://open?vault=ha-al&file=06-projects%2Fdashboard)
 
 ```schedule
-[Start]: 03/01/03 - 12:00 AM
-[12:00 AM]: Lunch + siesta (2h)
-[2:00 AM]: Ética en ciencia de datos e IA — fixed (1.5h)
-[3:30 AM]: Pendientes — seguimiento Mohar, verificar Oscar UPU, responder emails (1h)
-[4:30 AM]: Taekwondo — fixed (2h)
-[6:30 AM]: Buffer (30min)
-[7:00 AM]: Examen de grado Cinthya Prieyto — fixed (1h)
-[Finish]: 03/01/03 - 08:00 AM
+[Start]: 03/19/26 - 09:00 AM
+[9:00 AM]: Deep work — Revisar business plan Tec Beyond (3h)
+[12:00 PM]: Lunch + siesta (2h)
+[2:00 PM]: Ética en ciencia de datos e IA — fixed (1.5h)
+[3:30 PM]: Pendientes — seguimiento Mohar, verificar Oscar UPU, responder emails (1h)
+[4:30 PM]: Taekwondo — fixed (2h)
+[6:30 PM]: Buffer (30min)
+[7:00 PM]: Examen de grado Cinthya Prieyto — fixed (1h)
+[Finish]: 03/19/26 - 08:00 PM
 ```
 
 # Consejo Business (14-20/03)
@@ -25,14 +26,14 @@ type: clock
 - [ ] SIC-Q: preparar reunión técnica + proceso administrativo
 - [x] **Tec Beyond: modelo de negocio** ✅ — listo en `entregables/modelo-de-negocio/`
 - [ ] **Tec Beyond: revisar business plan + presentar a Mario/Jorge antes del 28 abril**
-- [ ] UPU: cerrar documentación Vie 20/03
+- [ ] UPU: terminar subida final + resolver archivos con error
 - [ ] Contactar Nicho (Talisis)
 - [ ] TEC Narrativa: ajustar datos, archivar
 ---
 # To dos
 - [ ] SIC-Q: Preparar demo phone-first gobernador con datos reales
 - [ ] SIC-Q: Revisar carpeta presentación gobernador (11 slides)
-- [ ] Oscar: documentación cierre UPU
+- [ ] UPU: revisar archivos con error en la subida final
 - [ ] Tec: revisar/subir Propuesta Talleres SC docx
 - [ ] Learning Products: Definir scope Plan de Vida y Carrera
 - [ ] Joel Cano: Agendar reunión con Javier (VP Research Tec)
@@ -42,7 +43,7 @@ type: clock
 |---------|-----------|----------|-------|
 | **Sec. Finanzas QRO** | Respuesta presupuesto $16M+IVA — **fue bien!** | SIC-Q | 14 mar |
 | **Edgar Mohar** | Revisión contrato | SIC-Q | 13 mar |
-| **Oscar** | Documentación cierre + Gregor content | UPU | 12 mar |
+| **Oscar** | Archivos con error en subida final | UPU | 20 mar |
 | **Jorge Blando** | Reunión siguiente paso | Tec Beyond | 27 feb |
 | **Nicho (Talisis)** | Reagendar reunión — **contactarlo** | Talisis | 05 mar |
 | **Betty/Sarahí** | Call NL office strategy | Learning Products | 22 feb |
@@ -74,7 +75,7 @@ type: clock
 ## International
 | **Project** | **Status** | **Next steps** |
 | --- | --- | --- |
-| **UPU** | 🔶 | **Cerrar documentación Vie 20/03** |
+| **UPU** | 🔶 | **Subida final + corregir archivos con error** |
 
 ---
 # HA Commands
@@ -131,7 +132,7 @@ type: clock
 | Taller HA 6h | Pendiente |
 
 ## UPU (Universal Postal Union)
-**Deadline:** Vie 20/03 — cerrar documentación (Oscar)
+**Status:** Documentación lista; subida final en curso; algunos archivos con error quedan con Oscar.
 
 ---
 
@@ -164,4 +165,4 @@ type: clock
 
 ---
 
-*Última actualización: 2026-03-9 (Session 26)*
+*Última actualización: 2026-03-20 (Session 26)*

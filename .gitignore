@@ -18,3 +18,5 @@ conflict-files-obsidian-git.md
 .obsidian/workspace-mobile.json
 .obsidian/appearance.json
 .obsidian/themes/
+**/.DS_Store
+.claude/projects/
