@@ -6,14 +6,14 @@ type: clock
 
 ```schedule
 [Start]: 03/19/26 - 09:00 AM
-[9:00 AM]: Deep work — Revisar business plan Tec Beyond (3h)
-[12:00 PM]: Lunch + siesta (2h)
-[2:00 PM]: Ética en ciencia de datos e IA — fixed (1.5h)
-[3:30 PM]: Pendientes — seguimiento Mohar, verificar Oscar UPU, responder emails (1h)
-[4:30 PM]: Taekwondo — fixed (2h)
-[6:30 PM]: Buffer (30min)
-[7:00 PM]: Examen de grado Cinthya Prieyto — fixed (1h)
-[Finish]: 03/19/26 - 08:00 PM
+[Invalid date]: Deep work — Revisar business plan Tec Beyond (3h)
+[Invalid date]: Lunch + siesta (2h)
+[Invalid date]: Ética en ciencia de datos e IA — fixed (1.5h)
+[Invalid date]: Pendientes — seguimiento Mohar, verificar Oscar UPU, responder emails (1h)
+[Invalid date]: Taekwondo — fixed (2h)
+[Invalid date]: Buffer (30min)
+[Invalid date]: Examen de grado Cinthya Prieyto — fixed (1h)
+[Finish]: Invalid date
 ```
 
 # Consejo Business (14-20/03)
