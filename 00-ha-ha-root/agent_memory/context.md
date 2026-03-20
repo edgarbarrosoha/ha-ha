@@ -42,6 +42,7 @@
 - [2026-02-02] DEC: SIC-Q tone for government: humble, narrative-driven, no grandilocuencia | WHY: Edgar's explicit correction — recognize previous governments, don't sell | STATUS: active
 - [2026-02-02] DEC: Start report = conversational partner briefing, not system report | WHY: More useful, less robotic | STATUS: active
 - [2026-02-14] DEC: HA-HA voice = professional COO, never informal/slang | WHY: This is the company, not personal vault | STATUS: active
+- [2026-03-20] DEC: Obsidian Git auto-pull/auto-push stays at 5 minutes on both machines | WHY: Prevent recurring cross-machine rebase conflicts from unsynced local commits | STATUS: active
 
 ### Patterns
 - PAT:client-comms | New lead → research, personalize, warm follow-up | REF: style-guide.md
@@ -78,19 +79,21 @@
 ## ZONE C: State (Dynamic)
 
 ### Last Session
-- **Date:** 2026-03-16 (Monday)
-- **Type:** Deep work — Tec Beyond business model + deal-making
-- **Achievements:** Modelo de negocio completo (5 iteraciones con Codex). 4 artifacts de deal-making. Evento 28 abril confirmado. Spreadsheet de impacto procesado. Evaluación Ulrick archivada. Todo en `entregables/modelo-de-negocio/`.
+- **Date:** 2026-03-20 (Friday)
+- **Type:** Quick boot + ops sync
+- **Achievements:** Boot completo con intercom, dashboard, calendario y mail. Confirmadas prioridades vivas (UPU, SIC-Q, Tec Beyond). Aplicado fix de Obsidian Git en My-computer (`autoPull/autoPush = 5`). Confirmado pendiente de revisar/subir `Propuesta-Talleres-SC-HA-Tec.docx`.
 
 ### Active Threads
-- **Tec Beyond:** Modelo de negocio LISTO. Próximo: revisar mañana, presentar a Mario/Jorge antes del 28 abril. Víctor visita 22 abril.
+- UPU: Oscar documentación — **deadline hoy Vie 20/03**
 - SIC-Q: Finanzas ✅. Mohar revisando contrato. Reunión técnica pendiente.
+- **Tec Beyond:** Modelo de negocio listo. Próximo: revisar business plan y presentar a Mario/Jorge antes del 28 abril. Víctor visita 22 abril.
+- Tec vinculación: revisar/subir `Propuesta-Talleres-SC-HA-Tec.docx`
 - SIC-Q: Consejo Business (14-20 mar): proteger Oscar, runbooks, seguimiento Mohar
-- UPU: Oscar documentación — **deadline Vie 20/03**
 - Docet-Agentic: En pausa
 - TEC Narrativa: Ajustar datos, archivar
 - Learning Products: Betty + Sarahí avanzan. Leiden corriendo
 - Talisis: Contactar Nicho (pendiente 2+ semanas)
+- Obsidian Git: fix aplicado en My-computer; falta recargar plugin/Obsidian
 - **Emerging:** Cerebro CEN PAN, Caribbean AI (UPU), NL office, Mara B2C, Lina talleres corp (draft listo), Patricia Taller IA (call 24 mar)
 
 ### Waiting For
@@ -105,37 +108,21 @@
 - Betty/Sarahí/Edgar → Call Netherlands office strategy | Learning Products
 
 ### Next Session Priorities
-1. **Tec Beyond: Revisar business plan** (Edgar + HA-HA)
+1. UPU: Verificar cierre de documentación con Oscar
 2. SIC-Q: Seguimiento Mohar (contrato + reunión técnica)
-3. UPU: Verificar avance Oscar (deadline Vie 20/03)
-4. Enviar draft Lina desde Writing Lab
-5. Contactar Nicho (Talisis)
+3. **Tec Beyond: Revisar business plan** (Edgar + HA-HA)
+4. Tec vinculación: Revisar/subir propuesta Talleres SC
+5. Enviar draft Lina o contactar Nicho, según capacidad
 
 ### Recent Sessions
 
 | Date | Session | Focus | Key Achievement |
 |------|---------|-------|-----------------|
+| 2026-03-20 | 26 | Quick boot + ops sync | Boot completo, prioridades confirmadas, fix Obsidian Git aplicado, docx Talleres SC confirmado |
 | 2026-03-16 | 25 | Tec Beyond modelo de negocio | Business model + 4 deal-making artifacts, 5 iteraciones con Codex, evento 28 abr confirmado |
 | 2026-03-14 | 24 | Quick boot (Sat) | Status check, Consejo Business agregado, Tec Beyond modelo negocio |
 | 2026-03-08 | 23 | Quick boot | Intercom review, status check, no deliverables |
 | 2026-03-06 | 21 | Tec Beyond entregables plataforma | desc + spec técnica reescritas, pipeline docx-js, fuentes HA |
-| 2026-03-06 | 20 | Mara vision + legados + roadmap | Mara = thinking environment, 6 legados, dev roadmap 6 fases |
-| 2026-03-03 | 19 | Quick boot | Calendario + mail cargados, semana mapeada, git limpio |
-| 2026-02-28 | 18 | Git maintenance | Merge conflicts resueltos, .gitignore, nota sync otra computadora |
-| 2026-02-28 | 17 | Quick reference | Argumento Jorge Blando — por qué HA hace la tecnología |
-| 2026-02-27 | 16 | Notion MCP debug | Token OK, MCP header bug, fix NOTION_TOKEN, restart pendiente |
-| 2026-02-27 | 15 | Beyond consejo + SIC-Q + Notion | Frases clave, prep Jorge Blando, Proyecto Cerebro PAN, Notion MCP |
-| 2026-02-23 | 14 | Beyond + Auditoría | Anexo 1 personas, StatiCrypt, limpieza repo, auditoría sistema |
-| 2026-02-21 | 13 | Tec Beyond presentación | SVGs limpiados, diseño CSS, autoría, GitHub Pages |
-| 2026-02-20 | 12 | SIC-Q update | Minuta Toño, reportes talleres, email Héctor |
-| 2026-02-19 | 11 | Tec Beyond docs | HTML+PDF+Kumu profesionales, GitHub Pages |
-| 2026-02-19 | 10 | Portfolio update | Dashboard actualizado, SIC-Q talleres ✅, JP feedback ✅ |
-| 2026-02-15 | 9 | Auditoría | 5 commits, 42 archivos auditados (feb 11–14) |
-| 2026-02-15 | 8 | Quick boot | Edgar's inter-session updates captured |
-| 2026-02-14 | 7 | Dashboard + IC | Dashboard actualizado, IC content expandido |
-| 2026-02-02 | 6 | Refinement | Start report tone — partner briefing |
-| 2026-02-02 | 5 | Docs / Config | One-pager update |
-| 2026-02-02 | 4 | Dashboard | Populated from 8 projects |
 
 ---
 

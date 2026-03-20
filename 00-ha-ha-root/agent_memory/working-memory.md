@@ -2,6 +2,19 @@
 
 ## Sessions
 
+### 2026-03-20 | Session 26 | QUICK BOOT + OPS SYNC
+- **Focus:** Boot protocol, status check, calendar/mail sync, and cross-machine operational cleanup
+- **Achievements:**
+  - Boot ejecutado con identidad, memoria, intercom, dashboard, calendario y mail
+  - Confirmadas prioridades activas: UPU con deadline el 20 de marzo, SIC-Q en seguimiento con Mohar, y Tec Beyond en revisión de business plan
+  - Intercom de `tec-computer` procesado: confirmado pendiente de revisar/subir `Propuesta-Talleres-SC-HA-Tec.docx`
+  - **Obsidian Git fix aplicado en My-computer:** `autoPullInterval` y `autoPushInterval` quedaron en `5` en `.obsidian/plugins/obsidian-git/data.json`
+  - Intercom `my-computer` actualizado en boot para registrar lectura del otro equipo
+- **Decisions:**
+  - Mantener Obsidian Git con auto-pull y auto-push cada 5 minutos en ambas máquinas para reducir conflictos
+- **Open threads:** UPU cierre hoy con Oscar. SIC-Q seguimiento Mohar + reunión técnica. Tec Beyond business plan. Revisar/subir propuesta Talleres SC. Reload de plugin Obsidian Git pendiente.
+- **Next:** Verificar cierre UPU, dar seguimiento Mohar, revisar business plan Tec Beyond, y decidir sobre la propuesta Talleres SC
+
 ### 2026-03-16 | Session 25 | TEC BEYOND MODELO DE NEGOCIO
 - **Focus:** Business model completo para Comunidad Beyond + artifacts de deal-making
 - **Achievements:**

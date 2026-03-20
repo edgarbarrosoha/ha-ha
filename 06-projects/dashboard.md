@@ -5,17 +5,20 @@ type: clock
 [EB](obsidian://open?vault=ha-eb&file=06-projects%2Fdashboard) | [Tec](obsidian://open?vault=ha-eb&file=06-projects%2Ftec.link%2F06-projects%2Fdashboard) | [Research](obsidian://open?vault=ha-eb&file=06-projects%2Fresearch.link%2F06-projects%2Fdashboard) | [AL](obsidian://open?vault=ha-al&file=06-projects%2Fdashboard)
 
 ```schedule
-[Start]: 03/17/26 - 09:00 AM
-[Invalid date]: 
-[Finish]: Invalid date
+[Start]: 03/01/03 - 12:00 AM
+[12:00 AM]: Lunch + siesta (2h)
+[2:00 AM]: Ética en ciencia de datos e IA — fixed (1.5h)
+[3:30 AM]: Pendientes — seguimiento Mohar, verificar Oscar UPU, responder emails (1h)
+[4:30 AM]: Taekwondo — fixed (2h)
+[6:30 AM]: Buffer (30min)
+[7:00 AM]: Examen de grado Cinthya Prieyto — fixed (1h)
+[Finish]: 03/01/03 - 08:00 AM
 ```
 
 # Consejo Business (14-20/03)
 > Proteger a Oscar mientras avanza SIC-Q y cierra UPU el viernes. Extraer conocimiento operativo en runbooks — aunque sean notas rough — para que Salvador y Diego absorban scope. Seguimiento proactivo a Edgar Mohar para confirmar reunión técnica y mantener momentum antes de que el proceso admin se estanque. Pipeline (Lina, Patricia, Tec Beyond) se mantiene tibio pero no se acelera hasta que la carga de Oscar esté distribuida — cerrar sin capacidad de entrega es el único movimiento que dañaría la trayectoria de $1.5M.
 
-# Week (17/03 – 20/03)
-- [ ] **Mar 17/03** → [ ] AURA Overview (16:00) → [ ] Impulsora Innovación México (23:00)
-- [ ] **Mié 18/03** → [ ] Aura Weekly (18:00)
+# Week (19/03 – 20/03)
 - [ ] **Vie 20/03** → [ ] **UPU documentación deadline**
 ---
 # Priorities
@@ -30,6 +33,7 @@ type: clock
 - [ ] SIC-Q: Preparar demo phone-first gobernador con datos reales
 - [ ] SIC-Q: Revisar carpeta presentación gobernador (11 slides)
 - [ ] Oscar: documentación cierre UPU
+- [ ] Tec: revisar/subir Propuesta Talleres SC docx
 - [ ] Learning Products: Definir scope Plan de Vida y Carrera
 - [ ] Joel Cano: Agendar reunión con Javier (VP Research Tec)
 ---
@@ -160,4 +164,4 @@ type: clock
 
 ---
 
-*Última actualización: 2026-03-16 (Session 25)*
+*Última actualización: 2026-03-9 (Session 26)*
