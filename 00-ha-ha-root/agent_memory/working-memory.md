@@ -2,6 +2,16 @@
 
 ## Sessions
 
+### 2026-03-20 | Session 27 | QUICK BOOT
+- **Focus:** Boot briefing y cierre rápido
+- **Achievements:**
+  - Boot ejecutado: intercom, dashboard, git status revisados
+  - Sin trabajo nuevo — sesión de contexto
+- **Decisions:** Ninguna nueva
+- **Deliverables:** Ninguno
+- **Open threads:** Sin cambios respecto a sesión 26. UPU deadline hoy. Patricia call 24 mar.
+- **Next:** Verificar cierre UPU, seguimiento Mohar, revisar business plan Tec Beyond
+
 ### 2026-03-20 | Session 26 | QUICK BOOT + OPS SYNC
 - **Focus:** Boot protocol, status check, calendar/mail sync, and cross-machine operational cleanup
 - **Achievements:**
