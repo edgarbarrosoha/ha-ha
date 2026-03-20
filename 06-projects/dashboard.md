@@ -6,13 +6,14 @@ type: clock
 
 ```schedule
 [Start]: 03/19/26 - 09:00 AM
-[Invalid date]: Deep work — Revisar business plan Tec Beyond (3h)
-[Invalid date]: Lunch + siesta (2h)
-[Invalid date]: Ética en ciencia de datos e IA — fixed (1.5h)
-[Invalid date]: Pendientes — seguimiento Mohar, verificar Oscar UPU, contactar Nicho (1h)
-[Invalid date]: Taekwondo (2h)
-[Invalid date]: Examen de grado Cinthya Prieyto (1h)
-[Finish]: Invalid date
+[9:00 AM]: Deep work — Revisar business plan Tec Beyond (3h)
+[12:00 PM]: Lunch + siesta (2h)
+[2:00 PM]: Ética en ciencia de datos e IA — fixed (1.5h)
+[3:30 PM]: Pendientes — seguimiento Mohar, verificar Oscar UPU, responder emails (1h)
+[4:30 PM]: Taekwondo — fixed (2h)
+[6:30 PM]: Buffer (30min)
+[7:00 PM]: Examen de grado Cinthya Prieyto — fixed (1h)
+[Finish]: 03/19/26 - 08:00 PM
 ```
 
 # Consejo Business (14-20/03)
@@ -33,6 +34,7 @@ type: clock
 - [ ] SIC-Q: Preparar demo phone-first gobernador con datos reales
 - [ ] SIC-Q: Revisar carpeta presentación gobernador (11 slides)
 - [ ] Oscar: documentación cierre UPU
+- [ ] Tec: revisar/subir Propuesta Talleres SC docx
 - [ ] Learning Products: Definir scope Plan de Vida y Carrera
 - [ ] Joel Cano: Agendar reunión con Javier (VP Research Tec)
 ---
@@ -163,4 +165,4 @@ type: clock
 
 ---
 
-*Última actualización: 2026-03-19 (Session 26)*
+*Última actualización: 2026-03-20 (Session 26)*
