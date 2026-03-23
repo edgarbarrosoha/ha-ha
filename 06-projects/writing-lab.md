@@ -1,5 +1,54 @@
 # Writing Lab
 
+## 2026-03-23
+
+### Draft 4: Paola Abril Campos — WHO HPSR meeting Monday
+- **Status:** New — needs review + send
+- **Para:** Paola Abril Campos <abril.campos@tec.mx>, David Contreras <d.contreras@tec.mx>
+- **Cuenta:** Exchange (Tec)
+- **Contexto:** WHO Alliance invited the team to expand their AI for HPSR case study for inclusion in a manual (section 3.4). Paola proposed meeting Monday morning before David travels to UK. David suggested 9am, Paola 9:30. Edgar hasn't confirmed.
+
+Hola Abril, David,
+
+Perfecto, lunes 9:30 me funciona. Ahí nos vemos.
+
+Saludos,
+Edgar
+
+---
+
+### Draft 5: María Esperanza Plaza Ferreira — Comité MPP
+- **Status:** New — needs review + send
+- **Para:** María Esperanza Plaza Ferreira <plaza.ferreira@tec.mx>
+- **Cuenta:** Exchange (Tec)
+- **Contexto:** Invitation to join the MPP (Maestría en Políticas Públicas) admissions evaluation committee — 20-point profile assessment of incoming students. Relevant to Edgar's role at Escuela de Gobierno.
+
+Estimada María Esperanza,
+
+Muchas gracias por la invitación. Con gusto participo en el Comité de Evaluación de Perfiles de Nuevo Ingreso de la MPP.
+
+¿Me podrías compartir las fechas del proceso y los criterios de evaluación? Así me organizo desde ahora.
+
+Saludos,
+Edgar
+
+---
+
+### Draft 6: Luz Veronica Zúñiga López — Informe Anual Tec León
+- **Status:** New — needs review + send
+- **Para:** Luz Veronica Zúñiga López <luz.veronica.zuniga@tec.mx>
+- **Cuenta:** Exchange (Tec)
+- **Contexto:** Invitation to Tec de Monterrey Campus León Annual Report 2025 event, April 14 at 18:30, Arena Borregos. Edgar is invited as "Arquitectura Horizonte" (sic). Relevant — Tec Beyond operates from León campus.
+
+Estimada Luz Verónica,
+
+Muchas gracias por la invitación. Ahí estaré el 14 de abril.
+
+Saludos cordiales,
+Edgar Barroso
+
+---
+
 ## 2026-03-19
 
 ### Draft 1: Gustavo Lopes (Kineviz)

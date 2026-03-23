@@ -5,22 +5,14 @@ type: clock
 [EB](obsidian://open?vault=ha-eb&file=06-projects%2Fdashboard) | [Tec](obsidian://open?vault=ha-eb&file=06-projects%2Ftec.link%2F06-projects%2Fdashboard) | [Research](obsidian://open?vault=ha-eb&file=06-projects%2Fresearch.link%2F06-projects%2Fdashboard) | [AL](obsidian://open?vault=ha-al&file=06-projects%2Fdashboard)
 
 ```schedule
-[Start]: 03/19/26 - 09:00 AM
-[Invalid date]: Deep work — Revisar business plan Tec Beyond (3h)
-[Invalid date]: Lunch + siesta (2h)
-[Invalid date]: Ética en ciencia de datos e IA — fixed (1.5h)
-[Invalid date]: Pendientes — seguimiento Mohar, verificar Oscar UPU, responder emails (1h)
-[Invalid date]: Taekwondo — fixed (2h)
-[Invalid date]: Buffer (30min)
-[Invalid date]: Examen de grado Cinthya Prieyto — fixed (1h)
-[Finish]: Invalid date
 ```
 
-# Consejo Business (14-20/03)
-> Proteger a Oscar mientras avanza SIC-Q y cierra UPU el viernes. Extraer conocimiento operativo en runbooks — aunque sean notas rough — para que Salvador y Diego absorban scope. Seguimiento proactivo a Edgar Mohar para confirmar reunión técnica y mantener momentum antes de que el proceso admin se estanque. Pipeline (Lina, Patricia, Tec Beyond) se mantiene tibio pero no se acelera hasta que la carga de Oscar esté distribuida — cerrar sin capacidad de entrega es el único movimiento que dañaría la trayectoria de $1.5M.
+# Consejo Business (23-27/03)
+> SIC-Q: $10M autorizados, $6M en gestion. Preparar reunion tecnica. Mohar: seguimiento contrato. Oscar: liberar de UPU para SIC-Q. Patricia Martinez call lunes 16:30. Tec Beyond: business plan review pendiente.
 
-# Week (19/03 – 20/03)
-- [ ] **Vie 20/03** → [ ] **UPU documentación deadline**
+# Week (23/03 – 27/03)
+- [ ] **Lun 24/03** → [ ] Patricia Martinez call (16:30)
+- [ ] SIC-Q: preparar reunion tecnica
 ---
 # Priorities
 - [ ] SIC-Q: preparar reunión técnica + proceso administrativo
@@ -165,4 +157,4 @@ type: clock
 
 ---
 
-*Última actualización: 2026-03-20 (Session 26)*
+*Última actualización: 2026-03-23 (Session 28)*
