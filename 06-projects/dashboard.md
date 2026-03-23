@@ -4,6 +4,10 @@ type: clock
 # Dashboards
 [EB](obsidian://open?vault=ha-eb&file=06-projects%2Fdashboard) | [Tec](obsidian://open?vault=ha-eb&file=06-projects%2Ftec.link%2F06-projects%2Fdashboard) | [Research](obsidian://open?vault=ha-eb&file=06-projects%2Fresearch.link%2F06-projects%2Fdashboard) | [AL](obsidian://open?vault=ha-al&file=06-projects%2Fdashboard)
 
+# Panorama update
+[[panorama-update|Open Panorama Update]]
+> Dictate vault updates in `panorama-update.md`. HA reads, normalizes, and distributes them inside this vault.
+
 ```schedule
 ```
 
