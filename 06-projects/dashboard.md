@@ -21,10 +21,10 @@ type: clock
 [Finish]: 03/24/26 - 11:30 PM
 ```
 
-# Consejo Business (23-27/03)
+# Consejo Business (24-28/03)
 > SIC-Q: $10M autorizados, $6M en gestion. Preparar reunion tecnica. Mohar: seguimiento contrato. Oscar: liberar de UPU para SIC-Q. Patricia Martinez call lunes 16:30. Tec Beyond: business plan review pendiente.
 
-# Week (23/03 – 27/03)
+# Week (24/03 – 28/03)
 - [ ] **Lun 24/03** → [ ] Patricia Martinez call (16:30)
 - [ ] SIC-Q: preparar reunion tecnica
 ---
