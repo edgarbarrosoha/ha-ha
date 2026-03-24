@@ -9,9 +9,16 @@ type: clock
 > Dictate vault updates in `panorama-update.md`. HA reads, normalizes, and distributes them inside this vault.
 
 ```schedule
-[Start]: 23/03/26 - 11:42 AM
-[11:42 AM]: 
-[Finish]: 23/03/26 - 11:42 AM
+[Start]: 03/24/26 - 09:00 AM
+[9:00 AM]: Deep work — Revisar business plan Tec Beyond (3h)
+[12:00 PM]: Lunch + siesta (2h)
+[2:00 PM]: Ética en ciencia de datos e IA — fixed (1.5h)
+[3:30 PM]: Pendientes — seguimiento Mohar, contactar Nicho, Writing Lab drafts (1h)
+[4:30 PM]: Patricia Martínez Barba — Taller IA — fixed (30min)
+[5:00 PM]: Buffer / cierre pendientes (1h)
+[9:00 PM]: Taller de Investigación — fixed (1.5h)
+[10:30 PM]: Conexión Tec (1h)
+[Finish]: 03/24/26 - 11:30 PM
 ```
 
 # Consejo Business (23-27/03)
@@ -164,4 +171,4 @@ type: clock
 
 ---
 
-*Última actualización: 2026-03-23 (Session 28)*
+*Última actualización: 2026-03-24 (Session 28)*
