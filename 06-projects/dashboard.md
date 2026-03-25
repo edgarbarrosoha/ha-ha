@@ -11,10 +11,12 @@ type: clock
 ```schedule
 ```
 
-# Consejo Business (24-28/03)
-> SIC-Q: $10M autorizados, $6M en gestion. Preparar reunion tecnica. Mohar: seguimiento contrato. Oscar: liberar de UPU para SIC-Q. Patricia Martinez call lunes 16:30. Tec Beyond: business plan review pendiente.
+# Consejo Business (25-28/03)
+> SIC-Q: $10M autorizados, $6M en gestion. Reunion tecnica Jue 26/03 17:00. Mohar: seguimiento contrato. Oscar: liberar de UPU para SIC-Q. Tec Beyond: business plan review pendiente.
+> HA POSITIONING UPDATE: JIII paper reframes HA as "coordination architecture for hybrid intelligence" -- the seminal academic paper positions HA as THE coordination substrate for AI at organizational scale. This is now the canonical market thesis.
 
 # Week (25/03 – 28/03)
+- [ ] **Jue 26/03** → [ ] **Reunion tecnica SIC-Q (17:00)**
 - [ ] SIC-Q: preparar reunion tecnica
 ---
 # Priorities
@@ -156,8 +158,9 @@ type: clock
 | Héctor Brosig — Xignux | Reunión 06 mar | Touch base abril |
 | Cerebro CEN PAN | SIC-Q — Toño | Tentativo |
 | **Lina Fuensanta — Talleres corporativos** | Tec vinculación | Draft listo en Writing Lab — enviar |
-| **Patricia Martínez — Taller IA** | Tec | Call Mar 24 |
+| **Patricia Martínez — Taller IA** | Tec | Call Mar 24 DONE |
+| **INEGI — Soluciones IA Politica Social** | Email | Draft INEGI proveedor — enviar |
 
 ---
 
-*Última actualización: 2026-03-24 (Session 28)*
+*Última actualización: 2026-03-25 (Session 29)*
