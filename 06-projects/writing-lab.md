@@ -1,5 +1,25 @@
 # Writing Lab
 
+## 2026-03-25
+
+### Draft 7: María Luisa Monroy Merchán — INEGI Solicitud proveedor IA
+- **Status:** New — needs review + send
+- **Para:** María Luisa Monroy Merchán <maria.merchan@inegi.org.mx>
+- **Cuenta:** edgar@horizonsarchitecture.ai
+- **Contexto:** INEGI busca contratar servicios especializados de IA para procesamiento de información de Política de Desarrollo Social. Están en proceso de identificación de proveedores. Oportunidad nueva — gobierno federal, alineado con SIC-Q y capacidades HA.
+
+Estimada María Luisa,
+
+Muchas gracias por considerarnos. Horizons Architecture trabaja precisamente en la intersección de inteligencia artificial y política pública — actualmente colaboramos con gobiernos estatales en sistemas de inteligencia colectiva y con organismos internacionales en automatización de procesos.
+
+Con gusto participamos en el proceso de identificación. ¿Me podrías compartir los términos de referencia o el alcance del proyecto? Así evaluamos cómo podemos aportar de la mejor manera.
+
+Quedo atento,
+Edgar Barroso
+Horizons Architecture
+
+---
+
 ## 2026-03-23
 
 ### Draft 4: Paola Abril Campos — WHO HPSR meeting Monday
