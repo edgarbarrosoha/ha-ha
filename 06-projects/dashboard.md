@@ -10,15 +10,15 @@ type: clock
 
 ```schedule
 [Start]: 03/24/26 - 09:00 AM
-[9:00 AM]: Deep work — Revisar business plan Tec Beyond (3h)
-[12:00 PM]: Lunch + siesta (2h)
-[2:00 PM]: Ética en ciencia de datos e IA — fixed (1.5h)
-[3:30 PM]: Pendientes — seguimiento Mohar, contactar Nicho, Writing Lab drafts (1h)
-[4:30 PM]: Patricia Martínez Barba — Taller IA — fixed (30min)
-[5:00 PM]: Buffer / cierre pendientes (1h)
-[9:00 PM]: Taller de Investigación — fixed (1.5h)
-[10:30 PM]: Conexión Tec (1h)
-[Finish]: 03/24/26 - 11:30 PM
+[Invalid date]: Deep work — Revisar business plan Tec Beyond (3h)
+[Invalid date]: Lunch + siesta (2h)
+[Invalid date]: Ética en ciencia de datos e IA — fixed (1.5h)
+[Invalid date]: Pendientes — seguimiento Mohar, contactar Nicho, Writing Lab drafts (1h)
+[Invalid date]: Patricia Martínez Barba — Taller IA — fixed (30min)
+[Invalid date]: Buffer / cierre pendientes (1h)
+[Invalid date]: Taller de Investigación — fixed (1.5h)
+[Invalid date]: Conexión Tec (1h)
+[Finish]: Invalid date
 ```
 
 # Consejo Business (24-28/03)
