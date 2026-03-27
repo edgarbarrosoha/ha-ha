@@ -4,23 +4,23 @@ type: clock
 # Dashboards
 [EB](obsidian://open?vault=ha-eb&file=06-projects%2Fdashboard) | [Tec](obsidian://open?vault=ha-eb&file=06-projects%2Ftec.link%2F06-projects%2Fdashboard) | [Research](obsidian://open?vault=ha-eb&file=06-projects%2Fresearch.link%2F06-projects%2Fdashboard) | [AL](obsidian://open?vault=ha-al&file=06-projects%2Fdashboard)
 
+# Panorama update
+[[panorama-update|Open Panorama Update]]
+> Dictate vault updates in `panorama-update.md`. HA reads, normalizes, and distributes them inside this vault.
+
 ```schedule
-[Start]: 03/19/26 - 09:00 AM
-[Invalid date]: Deep work — Revisar business plan Tec Beyond (3h)
-[Invalid date]: Lunch + siesta (2h)
-[Invalid date]: Ética en ciencia de datos e IA — fixed (1.5h)
-[Invalid date]: Pendientes — seguimiento Mohar, verificar Oscar UPU, responder emails (1h)
-[Invalid date]: Taekwondo — fixed (2h)
-[Invalid date]: Buffer (30min)
-[Invalid date]: Examen de grado Cinthya Prieyto — fixed (1h)
-[Finish]: Invalid date
+[Start]: 27/03/26 - 08:52 AM
+[8:52 AM]: 
+[Finish]: 27/03/26 - 08:52 AM
 ```
 
-# Consejo Business (14-20/03)
-> Proteger a Oscar mientras avanza SIC-Q y cierra UPU el viernes. Extraer conocimiento operativo en runbooks — aunque sean notas rough — para que Salvador y Diego absorban scope. Seguimiento proactivo a Edgar Mohar para confirmar reunión técnica y mantener momentum antes de que el proceso admin se estanque. Pipeline (Lina, Patricia, Tec Beyond) se mantiene tibio pero no se acelera hasta que la carga de Oscar esté distribuida — cerrar sin capacidad de entrega es el único movimiento que dañaría la trayectoria de $1.5M.
+# Consejo Business (25-28/03)
+> SIC-Q: $10M autorizados, $6M en gestion. Reunion tecnica Jue 26/03 17:00. Mohar: seguimiento contrato. Oscar: liberar de UPU para SIC-Q. Tec Beyond: business plan review pendiente.
+> HA POSITIONING UPDATE: JIII paper reframes HA as "coordination architecture for hybrid intelligence" -- the seminal academic paper positions HA as THE coordination substrate for AI at organizational scale. This is now the canonical market thesis.
 
-# Week (19/03 – 20/03)
-- [ ] **Vie 20/03** → [ ] **UPU documentación deadline**
+# Week (27/03 – 28/03)
+- [x] **Jue 26/03** → Llamada Finanzas QRO ✅ — interoperabilidad QD mapeada
+- [ ] SIC-Q: actualizar docs técnicos con integración QD (3 expedientes)
 ---
 # Priorities
 - [ ] SIC-Q: preparar reunión técnica + proceso administrativo
@@ -41,7 +41,7 @@ type: clock
 # Waiting For
 | Persona | Esperando | Proyecto | Desde |
 |---------|-----------|----------|-------|
-| **Sec. Finanzas QRO** | Respuesta presupuesto $16M+IVA — **fue bien!** | SIC-Q | 14 mar |
+| **Sec. Finanzas QRO** | Post-llamada QD 26/03 — siguiente paso proceso administrativo | SIC-Q | 26 mar |
 | **Edgar Mohar** | Revisión contrato | SIC-Q | 13 mar |
 | **Oscar** | Archivos con error en subida final | UPU | 20 mar |
 | **Jorge Blando** | Reunión siguiente paso | Tec Beyond | 27 feb |
@@ -55,7 +55,7 @@ type: clock
 ## Government & Civic Tech
 | **Project** | **Status** | **Next steps** |
 | --- | --- | --- |
-| **SIC-Q** | 🟢 | Finanzas ✅ → reunión técnica → proceso administrativo → contrato |
+| **SIC-Q** | 🟢 | Finanzas ✅ → Llamada QD ✅ → actualizar docs con interoperabilidad QD → contrato |
 
 ## Education & AI Systems
 | **Project** | **Status** | **Next steps** |
@@ -161,8 +161,9 @@ type: clock
 | Héctor Brosig — Xignux | Reunión 06 mar | Touch base abril |
 | Cerebro CEN PAN | SIC-Q — Toño | Tentativo |
 | **Lina Fuensanta — Talleres corporativos** | Tec vinculación | Draft listo en Writing Lab — enviar |
-| **Patricia Martínez — Taller IA** | Tec | Call Mar 24 |
+| **Patricia Martínez — Taller IA** | Tec | Call Mar 24 DONE |
+| **INEGI — Soluciones IA Politica Social** | Email | Draft INEGI proveedor — enviar |
 
 ---
 
-*Última actualización: 2026-03-20 (Session 26)*
+*Última actualización: 2026-03-27 (Session 29 close)*

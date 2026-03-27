@@ -79,51 +79,49 @@
 ## ZONE C: State (Dynamic)
 
 ### Last Session
-- **Date:** 2026-03-20 (Thursday)
-- **Type:** Quick boot (Session 27)
-- **Achievements:** Boot briefing ejecutado. Sin trabajo nuevo — solo status check y cierre.
+- **Date:** 2026-03-26 (Thursday)
+- **Type:** SIC-Q Live Support (Session 29)
+- **Achievements:** Soporte en vivo para llamada con Finanzas QRO. Interoperabilidad con Querétaro Digital mapeada. Posicionamiento: QD=Transacción, SIC-Q=Toma de decisiones.
 
 ### Active Threads
-- UPU: Oscar documentación — **deadline hoy Vie 20/03**
-- SIC-Q: Finanzas ✅. Mohar revisando contrato. Reunión técnica pendiente.
+- **SIC-Q:** Llamada Finanzas realizada 26/03. QD tiene 3 expedientes (ciudadano, empresarial, patrimonial). Siguiente: actualizar docs técnicos con interoperabilidad QD. Mohar revisando contrato.
 - **Tec Beyond:** Modelo de negocio listo. Próximo: revisar business plan y presentar a Mario/Jorge antes del 28 abril. Víctor visita 22 abril.
+- UPU: Oscar con archivos con error en subida final
 - Tec vinculación: revisar/subir `Propuesta-Talleres-SC-HA-Tec.docx`
-- SIC-Q: Consejo Business (14-20 mar): proteger Oscar, runbooks, seguimiento Mohar
 - Docet-Agentic: En pausa
 - TEC Narrativa: Ajustar datos, archivar
 - Learning Products: Betty + Sarahí avanzan. Leiden corriendo
-- Talisis: Contactar Nicho (pendiente 2+ semanas)
-- Obsidian Git: fix aplicado en My-computer; falta recargar plugin/Obsidian
-- **Emerging:** Cerebro CEN PAN, Caribbean AI (UPU), NL office, Mara B2C, Lina talleres corp (draft listo), Patricia Taller IA (call 24 mar)
+- Talisis: Contactar Nicho (pendiente 3+ semanas)
+- **Emerging:** INEGI (draft listo), Cerebro CEN PAN, Caribbean AI (UPU), NL office, Lina talleres corp (draft listo), Patricia Taller IA (call done)
 
 ### Waiting For
+- **Sec. Finanzas QRO** → Post-llamada: siguiente paso proceso administrativo | SIC-Q
+- **Edgar Mohar / Toño** → Formalización contrato | SIC-Q
 - **Mario Orozco** → Validar lista anchor companies + confirmar presupuesto piloto | Beyond
 - **Jorge Blando** → Reunión negociación comercial (antes de abr 22) | Beyond
-- Edgar Mohar / Toño → Formalización contrato | SIC-Q
 - Equipo Poncho (Docet) → Evaluación indicadores/métricas | Docet
-- Gobierno QRO → Decisión legal + alineación IF | SIC-Q
 - Héctor Brosig → Touch base inicio abril | Xignux
 - Nicho (Talisis) → Reagendar reunión (cancelada 05 mar) | Talisis
 - Steven Popper → Respuesta correo reuniones mensuales | Advisory
 - Betty/Sarahí/Edgar → Call Netherlands office strategy | Learning Products
 
 ### Next Session Priorities
-1. UPU: Verificar cierre de documentación con Oscar
-2. SIC-Q: Seguimiento Mohar (contrato + reunión técnica)
-3. **Tec Beyond: Revisar business plan** (Edgar + HA-HA)
-4. Tec vinculación: Revisar/subir propuesta Talleres SC
-5. Enviar draft Lina o contactar Nicho, según capacidad
+1. SIC-Q: Actualizar documentación técnica con interoperabilidad QD (3 expedientes)
+2. SIC-Q: Seguimiento post-llamada Finanzas + Mohar (contrato)
+3. INEGI: Enviar draft proveedor IA
+4. **Tec Beyond: Revisar business plan** (Edgar + HA-HA)
+5. Enviar drafts Writing Lab pendientes
 
 ### Recent Sessions
 
 | Date | Session | Focus | Key Achievement |
 |------|---------|-------|-----------------|
+| 2026-03-26 | 29 | SIC-Q llamada Finanzas | Soporte en vivo, interoperabilidad QD mapeada, posicionamiento QD=transacción SIC-Q=decisiones |
 | 2026-03-20 | 27 | Quick boot | Boot briefing, status check, sin deliverables |
-| 2026-03-20 | 26 | Quick boot + ops sync | Boot completo, prioridades confirmadas, fix Obsidian Git aplicado, docx Talleres SC confirmado |
-| 2026-03-16 | 25 | Tec Beyond modelo de negocio | Business model + 4 deal-making artifacts, 5 iteraciones con Codex, evento 28 abr confirmado |
-| 2026-03-14 | 24 | Quick boot (Sat) | Status check, Consejo Business agregado, Tec Beyond modelo negocio |
-| 2026-03-08 | 23 | Quick boot | Intercom review, status check, no deliverables |
-| 2026-03-06 | 21 | Tec Beyond entregables plataforma | desc + spec técnica reescritas, pipeline docx-js, fuentes HA |
+| 2026-03-20 | 26 | Quick boot + ops sync | Boot completo, prioridades confirmadas, fix Obsidian Git aplicado |
+| 2026-03-16 | 25 | Tec Beyond modelo de negocio | Business model + 4 deal-making artifacts, evento 28 abr confirmado |
+| 2026-03-14 | 24 | Quick boot (Sat) | Status check, Consejo Business agregado |
+| 2026-03-08 | 23 | Quick boot | Intercom review, status check |
 
 ---
 
