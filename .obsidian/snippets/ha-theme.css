@@ -152,6 +152,92 @@ strong, b,
 }
 
 /* ============================================
+   HEADING COLORS — force override AnuPpuccin
+   ============================================ */
+
+/* Dark mode headings */
+.theme-dark .markdown-preview-view h1,
+.theme-dark .markdown-source-view .HyperMD-header-1,
+.theme-dark .markdown-source-view .cm-header-1 {
+  color: #F1F2F2 !important;
+}
+.theme-dark .markdown-preview-view h2,
+.theme-dark .markdown-source-view .HyperMD-header-2,
+.theme-dark .markdown-source-view .cm-header-2 {
+  color: #D1D2D2 !important;
+}
+.theme-dark .markdown-preview-view h3,
+.theme-dark .markdown-source-view .HyperMD-header-3,
+.theme-dark .markdown-source-view .cm-header-3 {
+  color: #D1D2D2 !important;
+}
+.theme-dark .markdown-preview-view h4,
+.theme-dark .markdown-source-view .HyperMD-header-4,
+.theme-dark .markdown-source-view .cm-header-4 {
+  color: #A6AAB0 !important;
+}
+.theme-dark .markdown-preview-view h5,
+.theme-dark .markdown-source-view .HyperMD-header-5,
+.theme-dark .markdown-source-view .cm-header-5 {
+  color: #A6AAB0 !important;
+}
+.theme-dark .markdown-preview-view h6,
+.theme-dark .markdown-source-view .HyperMD-header-6,
+.theme-dark .markdown-source-view .cm-header-6 {
+  color: #8E8C8D !important;
+}
+
+/* Light mode headings */
+.theme-light .markdown-preview-view h1,
+.theme-light .markdown-source-view .HyperMD-header-1,
+.theme-light .markdown-source-view .cm-header-1 {
+  color: #000000 !important;
+}
+.theme-light .markdown-preview-view h2,
+.theme-light .markdown-source-view .HyperMD-header-2,
+.theme-light .markdown-source-view .cm-header-2 {
+  color: #231F20 !important;
+}
+.theme-light .markdown-preview-view h3,
+.theme-light .markdown-source-view .HyperMD-header-3,
+.theme-light .markdown-source-view .cm-header-3 {
+  color: #231F20 !important;
+}
+.theme-light .markdown-preview-view h4,
+.theme-light .markdown-source-view .HyperMD-header-4,
+.theme-light .markdown-source-view .cm-header-4 {
+  color: #525252 !important;
+}
+.theme-light .markdown-preview-view h5,
+.theme-light .markdown-source-view .HyperMD-header-5,
+.theme-light .markdown-source-view .cm-header-5 {
+  color: #525252 !important;
+}
+.theme-light .markdown-preview-view h6,
+.theme-light .markdown-source-view .HyperMD-header-6,
+.theme-light .markdown-source-view .cm-header-6 {
+  color: #666666 !important;
+}
+
+/* Heading divider lines — gray, not colored */
+.theme-dark .markdown-preview-view h1,
+.theme-dark .markdown-source-view .HyperMD-header-1 {
+  border-bottom-color: #3A3637 !important;
+}
+.theme-dark .markdown-preview-view h2,
+.theme-dark .markdown-source-view .HyperMD-header-2 {
+  border-bottom-color: #3A3637 !important;
+}
+.theme-light .markdown-preview-view h1,
+.theme-light .markdown-source-view .HyperMD-header-1 {
+  border-bottom-color: #D9D9D9 !important;
+}
+.theme-light .markdown-preview-view h2,
+.theme-light .markdown-source-view .HyperMD-header-2 {
+  border-bottom-color: #D9D9D9 !important;
+}
+
+/* ============================================
    GRAY REFINEMENTS — minimize blue
    ============================================ */
 

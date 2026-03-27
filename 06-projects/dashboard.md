@@ -39,15 +39,15 @@ type: clock
 - [ ] Joel Cano: Agendar reunión con Javier (VP Research Tec)
 ---
 # Waiting For
-| Persona | Esperando | Proyecto | Desde |
-|---------|-----------|----------|-------|
-| **Sec. Finanzas QRO** | Post-llamada QD 26/03 — siguiente paso proceso administrativo | SIC-Q | 26 mar |
-| **Edgar Mohar** | Revisión contrato | SIC-Q | 13 mar |
-| **Oscar** | Archivos con error en subida final | UPU | 20 mar |
-| **Jorge Blando** | Reunión siguiente paso | Tec Beyond | 27 feb |
-| **Nicho (Talisis)** | Reagendar reunión — **contactarlo** | Talisis | 05 mar |
-| **Betty/Sarahí** | Call NL office strategy | Learning Products | 22 feb |
-| **Steven Popper** | Monthly meetings response | Advisory | ~14 feb |
+| Persona               | Esperando                                                     | Proyecto          | Desde   |
+| --------------------- | ------------------------------------------------------------- | ----------------- | ------- |
+| **Sec. Finanzas QRO** | Post-llamada QD 26/03 — siguiente paso proceso administrativo | SIC-Q             | 26 mar  |
+| **Edgar Mohar**       | Revisión contrato                                             | SIC-Q             | 13 mar  |
+| **Oscar**             | Archivos con error en subida final                            | UPU               | 20 mar  |
+| **Jorge Blando**      | Reunión siguiente paso                                        | Tec Beyond        | 27 feb  |
+| **Nicho (Talisis)**   | Reagendar reunión — **contactarlo**                           | Talisis           | 05 mar  |
+| **Betty/Sarahí**      | Call NL office strategy                                       | Learning Products | 22 feb  |
+| **Steven Popper**     | Monthly meetings response                                     | Advisory          | ~14 feb |
 | **Héctor Brosig** | Touch base inicio abril | Xignux | 06 mar |
 ---
 # Active Projects
