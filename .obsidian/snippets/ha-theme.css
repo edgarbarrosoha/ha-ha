@@ -118,6 +118,15 @@
 .markdown-rendered {
   font-family: "Plus Jakarta Sans", "Helvetica Neue", Helvetica, Arial, system-ui, sans-serif;
   text-align: justify;
+  line-height: 1.8 !important;
+}
+
+.markdown-preview-view p,
+.markdown-preview-view ul,
+.markdown-preview-view ol,
+.markdown-preview-view blockquote {
+  margin-top: 0.6em !important;
+  margin-bottom: 0.6em !important;
 }
 
 .markdown-source-view code,
@@ -281,10 +290,30 @@ blockquote,
   border-bottom: 1px solid #464243;
 }
 
-/* Callout borders — gray */
+/* Callout borders + background — gray */
 .callout {
-  border-left-color: #C4C3C3;
+  border-left-color: #C4C3C3 !important;
+  background-color: #F1F2F2 !important;
 }
 .theme-dark .callout {
-  border-left-color: #585556;
+  border-left-color: #585556 !important;
+  background-color: #2E2A2B !important;
+}
+
+/* Blockquotes background — gray */
+body.theme-light .markdown-preview-view blockquote,
+body.theme-light .markdown-source-view blockquote,
+body.theme-light .markdown-reading-view blockquote {
+  background-color: #F1F2F2 !important;
+  border-radius: 4px;
+  padding: 0.8em 1em !important;
+  border-left-color: #C4C3C3 !important;
+}
+body.theme-dark .markdown-preview-view blockquote,
+body.theme-dark .markdown-source-view blockquote,
+body.theme-dark .markdown-reading-view blockquote {
+  background-color: #2E2A2B !important;
+  border-radius: 4px;
+  padding: 0.8em 1em !important;
+  border-left-color: #585556 !important;
 }
