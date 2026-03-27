@@ -1,0 +1,199 @@
+/* HA Theme — Horizons Architecture
+   Palette: Black + gray scale. HA Blue (#3356F6) only as subtle accent.
+   Fonts: Plus Jakarta Sans (primary), Roboto Mono (code/metadata)
+*/
+
+/* ============================================
+   LIGHT MODE
+   ============================================ */
+.theme-light {
+  --background-primary: #FFFFFF;
+  --background-primary-alt: #F1F2F2;
+  --background-secondary: #F7F7F7;
+  --background-secondary-alt: #F1F2F2;
+
+  --text-normal: #231F20;
+  --text-muted: #525252;
+  --text-faint: #8E8C8D;
+
+  /* Blue only here — links and interactive */
+  --text-accent: #3356F6;
+  --text-accent-hover: #1a3ad4;
+  --interactive-accent: #3356F6;
+  --interactive-accent-hover: #1a3ad4;
+  --interactive-accent-rgb: 51, 86, 246;
+
+  --background-modifier-border: #D9D9D9;
+  --background-modifier-border-hover: #C4C3C3;
+  --background-modifier-border-focus: #8E8C8D;
+
+  --link-color: #3356F6;
+  --link-color-hover: #1a3ad4;
+  --link-external-color: #3356F6;
+  --link-external-color-hover: #1a3ad4;
+  --link-unresolved-color: #8E8C8D;
+
+  --tag-color: #525252;
+  --tag-background: #F1F2F2;
+
+  --checkbox-color: #3356F6;
+  --checkbox-border-color: #C4C3C3;
+
+  --scrollbar-thumb-bg: #D9D9D9;
+  --scrollbar-active-thumb-bg: #C4C3C3;
+
+  --nav-item-color: #231F20;
+  --nav-item-color-hover: #000000;
+  --nav-item-color-active: #231F20;
+
+  /* Headers — black, not colored */
+  --h1-color: #000000;
+  --h2-color: #231F20;
+  --h3-color: #231F20;
+  --h4-color: #525252;
+  --h5-color: #525252;
+  --h6-color: #666666;
+
+  --inline-title-color: #000000;
+}
+
+/* ============================================
+   DARK MODE
+   ============================================ */
+.theme-dark {
+  --background-primary: #231F20;
+  --background-primary-alt: #1A1718;
+  --background-secondary: #1A1718;
+  --background-secondary-alt: #131011;
+
+  --text-normal: #F1F2F2;
+  --text-muted: #C4C3C3;
+  --text-faint: #8E8C8D;
+
+  /* Blue only here — links and interactive */
+  --text-accent: #6680F8;
+  --text-accent-hover: #99AAFA;
+  --interactive-accent: #6680F8;
+  --interactive-accent-hover: #99AAFA;
+  --interactive-accent-rgb: 102, 128, 248;
+
+  --background-modifier-border: #3A3637;
+  --background-modifier-border-hover: #464243;
+  --background-modifier-border-focus: #585556;
+
+  --link-color: #6680F8;
+  --link-color-hover: #99AAFA;
+  --link-external-color: #6680F8;
+  --link-external-color-hover: #99AAFA;
+  --link-unresolved-color: #585556;
+
+  --tag-color: #C4C3C3;
+  --tag-background: rgba(255, 255, 255, 0.06);
+
+  --checkbox-color: #6680F8;
+  --checkbox-border-color: #585556;
+
+  --scrollbar-thumb-bg: #3A3637;
+  --scrollbar-active-thumb-bg: #464243;
+
+  --nav-item-color: #D1D2D2;
+  --nav-item-color-hover: #F1F2F2;
+  --nav-item-color-active: #F1F2F2;
+
+  --h1-color: #F1F2F2;
+  --h2-color: #D1D2D2;
+  --h3-color: #D1D2D2;
+  --h4-color: #A6AAB0;
+  --h5-color: #A6AAB0;
+  --h6-color: #8E8C8D;
+
+  --inline-title-color: #F1F2F2;
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+.markdown-source-view,
+.markdown-preview-view,
+.markdown-rendered {
+  font-family: "Plus Jakarta Sans", "Helvetica Neue", Helvetica, Arial, system-ui, sans-serif;
+}
+
+.markdown-source-view code,
+.markdown-preview-view code,
+.markdown-rendered code,
+.cm-s-obsidian .HyperMD-codeblock,
+code[class*="language-"],
+pre[class*="language-"] {
+  font-family: "Roboto Mono", "SF Mono", Menlo, Monaco, Consolas, monospace;
+}
+
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3,
+.markdown-preview-view h4,
+.markdown-preview-view h5,
+.markdown-preview-view h6,
+.markdown-source-view .HyperMD-header,
+.inline-title {
+  font-family: "Plus Jakarta Sans", "Helvetica Neue", Helvetica, Arial, system-ui, sans-serif;
+}
+
+strong, b,
+.markdown-source-view .cm-strong,
+.markdown-preview-view strong {
+  font-weight: 600;
+}
+
+.frontmatter-container,
+.metadata-container {
+  font-family: "Roboto Mono", "SF Mono", Menlo, Monaco, Consolas, monospace;
+  font-size: 0.85em;
+}
+
+/* ============================================
+   GRAY REFINEMENTS — minimize blue
+   ============================================ */
+
+::selection {
+  background-color: rgba(35, 31, 32, 0.12);
+}
+.theme-dark ::selection {
+  background-color: rgba(241, 242, 242, 0.15);
+}
+
+blockquote,
+.markdown-preview-view blockquote {
+  border-left-color: #C4C3C3;
+}
+.theme-dark blockquote,
+.theme-dark .markdown-preview-view blockquote {
+  border-left-color: #585556;
+}
+
+.markdown-preview-view hr {
+  border-color: #D9D9D9;
+}
+.theme-dark .markdown-preview-view hr {
+  border-color: #3A3637;
+}
+
+/* Table headers — gray, no blue */
+.markdown-preview-view th {
+  background-color: #F1F2F2;
+  color: #231F20;
+  border-bottom: 1px solid #D9D9D9;
+}
+.theme-dark .markdown-preview-view th {
+  background-color: #2E2A2B;
+  color: #F1F2F2;
+  border-bottom: 1px solid #464243;
+}
+
+/* Callout borders — gray */
+.callout {
+  border-left-color: #C4C3C3;
+}
+.theme-dark .callout {
+  border-left-color: #585556;
+}

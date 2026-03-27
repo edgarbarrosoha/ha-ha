@@ -15,11 +15,11 @@ type: clock
 ```
 
 # Consejo Business (25-28/03)
+
 > SIC-Q: $10M autorizados, $6M en gestion. Reunion tecnica Jue 26/03 17:00. Mohar: seguimiento contrato. Oscar: liberar de UPU para SIC-Q. Tec Beyond: business plan review pendiente.
 > HA POSITIONING UPDATE: JIII paper reframes HA as "coordination architecture for hybrid intelligence" -- the seminal academic paper positions HA as THE coordination substrate for AI at organizational scale. This is now the canonical market thesis.
 
 # Week (27/03 – 28/03)
-- [x] **Jue 26/03** → Llamada Finanzas QRO ✅ — interoperabilidad QD mapeada
 - [ ] SIC-Q: actualizar docs técnicos con integración QD (3 expedientes)
 ---
 # Priorities
