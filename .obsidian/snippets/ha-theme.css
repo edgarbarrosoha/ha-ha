@@ -317,3 +317,13 @@ body.theme-dark .markdown-reading-view blockquote {
   padding: 0.8em 1em !important;
   border-left-color: #585556 !important;
 }
+
+/* ============================================
+   STATUS BAR — fix invisible text in dark mode
+   ============================================ */
+.theme-dark .status-bar {
+  color: #8E8C8D !important;
+}
+.theme-dark .status-bar .status-bar-item {
+  color: #8E8C8D !important;
+}
