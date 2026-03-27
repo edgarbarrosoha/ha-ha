@@ -117,6 +117,7 @@
 .markdown-preview-view,
 .markdown-rendered {
   font-family: "Plus Jakarta Sans", "Helvetica Neue", Helvetica, Arial, system-ui, sans-serif;
+  text-align: justify;
 }
 
 .markdown-source-view code,
