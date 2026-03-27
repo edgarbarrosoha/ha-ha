@@ -2,6 +2,22 @@
 
 ## 2026-03-27
 
+### Draft 13: Daniel Choperena — Seguimiento propuesta AI for HPSR (deadline 30 mar)
+- **Status:** New — needs review + send
+- **Para:** Daniel Choperena <danielchoperena@tec.mx>
+- **Cc:** Sarahí, Paola Abril Campos, David Contreras
+- **Cuenta:** edgar@horizonsarchitecture.ai
+- **Contexto:** Daniel envió la propuesta AI for HPSR (caso México) el 25/03 y hace follow-up el 27/03 — deadline 30 de marzo (horario Ginebra). Usó material de Sarahí y de la carpeta ArquitecturaHorizontes. Necesita confirmación de que se revisó.
+
+Hola Daniel,
+
+Gracias por el seguimiento. Ya estoy revisando la propuesta — me parece que va bien encaminada. Te doy mis comentarios mañana para que tengamos margen antes del 30.
+
+Saludos,
+Edgar
+
+---
+
 ### Draft 8: Rossio Miranda Oliver — INEGI seguimiento alta proveedor + presupuesto
 - **Status:** New — needs review + send
 - **Para:** Rossio Ivonne Miranda Oliver <rossio_miranda@tec.mx>
