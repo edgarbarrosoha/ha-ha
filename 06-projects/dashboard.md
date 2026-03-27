@@ -18,9 +18,9 @@ type: clock
 > SIC-Q: $10M autorizados, $6M en gestion. Reunion tecnica Jue 26/03 17:00. Mohar: seguimiento contrato. Oscar: liberar de UPU para SIC-Q. Tec Beyond: business plan review pendiente.
 > HA POSITIONING UPDATE: JIII paper reframes HA as "coordination architecture for hybrid intelligence" -- the seminal academic paper positions HA as THE coordination substrate for AI at organizational scale. This is now the canonical market thesis.
 
-# Week (25/03 – 28/03)
-- [ ] **Jue 26/03** → [ ] **Reunion tecnica SIC-Q (17:00)**
-- [ ] SIC-Q: preparar reunion tecnica
+# Week (27/03 – 28/03)
+- [x] **Jue 26/03** → Llamada Finanzas QRO ✅ — interoperabilidad QD mapeada
+- [ ] SIC-Q: actualizar docs técnicos con integración QD (3 expedientes)
 ---
 # Priorities
 - [ ] SIC-Q: preparar reunión técnica + proceso administrativo
@@ -41,7 +41,7 @@ type: clock
 # Waiting For
 | Persona | Esperando | Proyecto | Desde |
 |---------|-----------|----------|-------|
-| **Sec. Finanzas QRO** | Respuesta presupuesto $16M+IVA — **fue bien!** | SIC-Q | 14 mar |
+| **Sec. Finanzas QRO** | Post-llamada QD 26/03 — siguiente paso proceso administrativo | SIC-Q | 26 mar |
 | **Edgar Mohar** | Revisión contrato | SIC-Q | 13 mar |
 | **Oscar** | Archivos con error en subida final | UPU | 20 mar |
 | **Jorge Blando** | Reunión siguiente paso | Tec Beyond | 27 feb |
@@ -55,7 +55,7 @@ type: clock
 ## Government & Civic Tech
 | **Project** | **Status** | **Next steps** |
 | --- | --- | --- |
-| **SIC-Q** | 🟢 | Finanzas ✅ → reunión técnica → proceso administrativo → contrato |
+| **SIC-Q** | 🟢 | Finanzas ✅ → Llamada QD ✅ → actualizar docs con interoperabilidad QD → contrato |
 
 ## Education & AI Systems
 | **Project** | **Status** | **Next steps** |
@@ -166,4 +166,4 @@ type: clock
 
 ---
 
-*Última actualización: 2026-03-25 (Session 29)*
+*Última actualización: 2026-03-27 (Session 29 close)*

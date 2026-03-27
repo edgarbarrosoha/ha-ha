@@ -2,6 +2,26 @@
 
 ## Sessions
 
+### 2026-03-26 | Session 29 | SIC-Q LLAMADA FINANZAS — INTEROPERABILIDAD
+- **Focus:** Soporte en vivo para llamada con Secretaría de Finanzas de Querétaro sobre presupuesto SIC-Q, arquitectura e interoperabilidad
+- **Achievements:**
+  - Boot completo ejecutado (25 mar): calendario, mail, intercom, dashboard, legados
+  - Writing Lab: Draft 7 generado (INEGI — solicitud proveedor IA, oportunidad gobierno federal)
+  - Dashboard limpiado: días pasados removidos, schedule reseteado
+  - **Llamada Finanzas (26 mar):** Soporte en tiempo real durante presentación de Querétaro Digital
+  - **Descubrimiento clave:** QD tiene 3 certificados digitales — Expediente Único Ciudadano, Expediente Único Empresarial, Certificado de Identidad Patrimonial
+  - **Posicionamiento definido:** QD = Transacción, SIC-Q = Toma de decisiones. SIC-Q se conecta a infraestructura QD vía APIs, no duplica
+  - **3 puntos de conexión SIC-Q ↔ QD:** Identidad Digital + Expediente Ciudadano + Agente de Atención Ciudadana
+  - **Narrativa consolidada:** "Ustedes construyeron los datos. Nosotros ponemos la inteligencia que los cruza."
+  - Screenshots de la presentación QD archivados en Desktop de Edgar
+- **Decisions:**
+  - SIC-Q se posiciona como capa de inteligencia sobre Querétaro Digital, no como proyecto paralelo
+  - Interoperabilidad vía APIs — no acceso directo a bases de datos, solo endpoints dentro del perímetro de permisos
+  - Los 3 expedientes de QD (ciudadano, empresarial, patrimonial) son fuentes de datos para SIC-Q
+- **Deliverables:** Briefing presupuestal (desglose 3 fases), análisis arquitectura técnica, mapeo interoperabilidad QD↔SIC-Q, Writing Lab Draft 7 (INEGI)
+- **Open threads:** Formalizar integración técnica con equipo QD. Actualizar propuesta/descripción técnica con referencia explícita a los 3 expedientes de QD. INEGI draft pendiente de enviar.
+- **Next:** Actualizar documentación SIC-Q con interoperabilidad QD. Seguimiento post-llamada Finanzas. Enviar draft INEGI.
+
 ### 2026-03-20 | Session 27 | QUICK BOOT
 - **Focus:** Boot briefing y cierre rápido
 - **Achievements:**
