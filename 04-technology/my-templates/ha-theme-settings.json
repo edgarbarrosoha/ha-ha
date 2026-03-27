@@ -4,7 +4,6 @@
   "anuppuccin-theme-settings@@anuppuccin-light-theme-accents": "ctp-accent-light-blue",
   "anuppuccin-theme-settings@@anuppuccin-theme-accents": "ctp-accent-blue",
   "anuppuccin-theme-settings@@anuppuccin-accent-toggle": true,
-<<<<<<< HEAD
 
   "anuppuccin-theme-settings@@ctp-custom-blue@@light": "#3356F6",
   "anuppuccin-theme-settings@@ctp-custom-blue@@dark": "#6680F8",
@@ -61,24 +60,6 @@
   "anuppuccin-theme-settings@@ctp-custom-crust@@light": "#F1F2F2",
   "anuppuccin-theme-settings@@ctp-custom-crust@@dark": "#131011",
 
-  "_comment": "--- structural settings below ---",
-
-=======
-  "anuppuccin-theme-settings@@ctp-custom-blue@@light": "#231F20",
-  "anuppuccin-theme-settings@@ctp-custom-blue@@dark": "#D1D2D2",
-  "anuppuccin-theme-settings@@ctp-custom-peach@@light": "#231F20",
-  "anuppuccin-theme-settings@@ctp-custom-teal@@dark": "#A6AAB0",
-  "anuppuccin-theme-settings@@ctp-custom-teal@@light": "#525252",
-  "anuppuccin-theme-settings@@ctp-custom-subtext1@@light": "#231F20",
-  "anuppuccin-theme-settings@@ctp-custom-subtext0@@dark": "#F1F2F2",
-  "anuppuccin-theme-settings@@ctp-custom-subtext0@@light": "#525252",
-  "anuppuccin-theme-settings@@ctp-custom-overlay2@@dark": "#A6AAB0",
-  "anuppuccin-theme-settings@@ctp-custom-overlay2@@light": "#525252",
-  "anuppuccin-theme-settings@@ctp-custom-overlay1@@dark": "#686868",
-  "anuppuccin-theme-settings@@ctp-custom-overlay1@@light": "#CCCCCC",
-  "anuppuccin-theme-settings@@ctp-custom-overlay0@@dark": "#808080",
-  "anuppuccin-theme-settings@@ctp-custom-overlay0@@light": "#D1D2D2",
->>>>>>> origin/main
   "anuppuccin-theme-settings@@anp-active-line": "anp-no-highlight",
   "anuppuccin-theme-settings@@anp-callout-select": "anp-callout-sleek",
   "anuppuccin-theme-settings@@anp-callout-color-toggle": true,
@@ -89,7 +70,6 @@
   "anuppuccin-theme-settings@@anp-color-transition-toggle": true,
   "anuppuccin-theme-settings@@anp-cursor": "pointer",
   "anuppuccin-theme-settings@@anp-toggle-scrollbars": true,
-<<<<<<< HEAD
 
   "anuppuccin-theme-settings@@anp-editor-font-source": "Plus Jakarta Sans",
   "anuppuccin-theme-settings@@anp-editor-font-lp": "Plus Jakarta Sans",
@@ -110,25 +90,6 @@
   "anuppuccin-theme-settings@@h6-size": 1.1,
   "anuppuccin-theme-settings@@h6-weight": 600,
 
-=======
-  "anuppuccin-theme-settings@@anp-editor-font-source": "Roboto Mono",
-  "anuppuccin-theme-settings@@anp-editor-font-lp": "Plus Jakarta Sans",
-  "anuppuccin-theme-settings@@bold-weight": "700",
-  "anuppuccin-theme-settings@@anp-font-live-preview-wt": "400",
-  "anuppuccin-theme-settings@@anp-header-color-toggle": false,
-  "anuppuccin-theme-settings@@anp-header-divider-color-toggle": false,
-  "anuppuccin-theme-settings@@h1-weight": 900,
-  "anuppuccin-theme-settings@@h1-line-height": 1.2,
-  "anuppuccin-theme-settings@@anp-h1-divider": true,
-  "anuppuccin-theme-settings@@h2-size": 1.9,
-  "anuppuccin-theme-settings@@h2-weight": 100,
-  "anuppuccin-theme-settings@@h3-size": 1.6,
-  "anuppuccin-theme-settings@@h3-weight": 700,
-  "anuppuccin-theme-settings@@h4-weight": 700,
-  "anuppuccin-theme-settings@@h5-weight": 700,
-  "anuppuccin-theme-settings@@h6-size": 1.1,
-  "anuppuccin-theme-settings@@h6-weight": 700,
->>>>>>> origin/main
   "anuppuccin-theme-settings@@anp-decoration-toggle": true,
   "anuppuccin-theme-settings@@anp-colorful-frame": false,
   "anuppuccin-theme-settings@@anp-file-icons": true,
