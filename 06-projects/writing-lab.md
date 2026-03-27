@@ -2,6 +2,24 @@
 
 ## 2026-03-27
 
+### Draft 14: Margaret Jane Miller — Hoja de cálculo 80 papers metaanálisis
+- **Status:** New — needs review + send
+- **Para:** Margaret Jane Miller <mjmiller@tec.mx>
+- **Cc:** Oscar Díaz
+- **Cuenta:** Exchange (Tec)
+- **Contexto:** Margaret dice que Sergio Iglesias está contratado y quiere empezar la siguiente semana a revisar la codificación de IA de los 80 papers. Pide que le envíen la hoja de cálculo. Dirigido a Edgar y Oscar.
+
+Hola Margaret,
+
+Muchas gracias por el update — me da gusto que Sergio se sume al proyecto. Le pido a Oscar que te envíe la hoja de cálculo con los 80 papers y la codificación para que puedan arrancar la siguiente semana.
+
+Que tengan un excelente fin de semana.
+
+Saludos,
+Edgar
+
+---
+
 ### Draft 13: Daniel Choperena — Seguimiento propuesta AI for HPSR (deadline 30 mar)
 - **Status:** New — needs review + send
 - **Para:** Daniel Choperena <danielchoperena@tec.mx>
