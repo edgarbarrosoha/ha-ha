@@ -1,5 +1,95 @@
 # Writing Lab
 
+## 2026-03-27
+
+### Draft 8: Rossio Miranda Oliver — INEGI seguimiento alta proveedor + presupuesto
+- **Status:** New — needs review + send
+- **Para:** Rossio Ivonne Miranda Oliver <rossio_miranda@tec.mx>
+- **Cuenta:** Exchange (Tec)
+- **Contexto:** Rossio agradece la junta del 26/03 y pide: (1) reenviar correos de alta como proveedor del Tec, (2) TDR o descripción del proyecto, (3) presupuesto de HA. Ella ya está considerando gastos operativos (2 talleres de 20 personas, 1 sesión de transferencia, 1 viaje para presentación final). Oportunidad INEGI avanzando — gobierno federal.
+
+Hola Rossio,
+
+Gracias a ti por la reunión. Me da gusto que avancemos.
+
+Te reenvío los correos sobre el alta como proveedor en un mensaje aparte. En cuanto a los TDR, déjame confirmar si ya los recibimos formalmente — de no ser así, te aviso para solicitarlos directamente.
+
+Sobre el presupuesto de Horizons Architecture, lo preparo y te lo comparto en los próximos días. Los gastos operativos que mencionas me parecen bien planteados. Solo confirmo: ¿los talleres y la sesión de transferencia serían presenciales en CDMX?
+
+Quedo atento,
+Edgar
+
+---
+
+### Draft 9: Gregor Teodorescu — UPU data integration status
+- **Status:** New — needs review + send
+- **Para:** Gregor Teodorescu <TeodorescuG@upu.int>
+- **Cc:** Alexandre Rodrigues, Javier Ocampo, Oscar Díaz
+- **Cuenta:** edgar@horizonsarchitecture.ai
+- **Contexto:** Gregor asks if data has been integrated into the prototype. Oscar is handling the final upload — some files had errors. Need to give a status update.
+
+Dear Gregor,
+
+Thank you for checking in. We're in the final stages of data integration — most of the data has been loaded, and we're resolving a few file formatting issues on the remaining batch. Oscar is working on this and I expect it to be completed shortly.
+
+I'll send you a confirmation once everything is in place.
+
+Best regards,
+Edgar
+
+---
+
+### Draft 10: Edna Jaime — Teradata introduction (Mauricio Romero)
+- **Status:** New — needs review + send
+- **Para:** Edna Jaime <edna.jaime@tec.mx>, Mauricio Romero (en copia)
+- **Cuenta:** Exchange (Tec)
+- **Contexto:** Edna introduces Mauricio Romero from Teradata, who is exploring academic AI partnerships in Mexico. Teradata = global data/AI platform company. Could be an interesting collaboration for HA or Tec.
+
+Querida Edna,
+
+Muchas gracias por la conexión.
+
+Mauricio, mucho gusto. Me da gusto que Teradata esté explorando alianzas académicas en México. Desde el Tec de Monterrey y a través de Horizons Architecture trabajamos en proyectos que combinan inteligencia artificial con transformación institucional — gobiernos, comunidades empresariales y educación.
+
+Con gusto platicamos para explorar puntos de colaboración. ¿Qué día de la siguiente semana te funciona para una llamada breve?
+
+Saludos,
+Edgar Barroso
+
+---
+
+### Draft 11: Paulette Carlos García — Reagendar llamada
+- **Status:** New — needs review + send
+- **Para:** Paulette Carlos García <A01552513@tec.mx>
+- **Cuenta:** Exchange (Tec)
+- **Contexto:** Edgar canceló llamada del jueves 26/03. Paulette propone lunes o martes misma hora. Simple rescheduling.
+
+Hola Paulette,
+
+Lunes a la misma hora está perfecto. Ahí nos vemos.
+
+Saludos,
+Edgar
+
+---
+
+### Draft 12: Diana Pamela Bermea — Avances campaña Política Industrial
+- **Status:** New — needs review + send
+- **Para:** Diana Pamela Bermea <pamela.bermea@tec.mx>
+- **Cuenta:** edgar@horizonsarchitecture.ai
+- **Contexto:** Pamela comparte avances de campaña de atracción para el curso de Política Industrial y Desarrollo Económico. Cero inscritos al día. Inicio 21 mayo. Sugiere correo personalizado a gente de desarrollo económico, cámaras, asociaciones industriales. Buena idea alineada con lo que se hizo en Transformadores.
+
+Hola Pamela,
+
+Gracias por el reporte. Me parece muy buena la idea del correo personalizado — es lo que mejor funcionó en Transformadores. Si nos armas una lista de los perfiles meta (áreas de desarrollo económico, cámaras, asociaciones de industriales), nosotros podemos ayudar con el mensaje.
+
+¿Tienes chance de juntarnos la siguiente semana para definir la estrategia de atracción?
+
+Saludos,
+Edgar
+
+---
+
 ## 2026-03-25
 
 ### Draft 7: María Luisa Monroy Merchán — INEGI Solicitud proveedor IA
