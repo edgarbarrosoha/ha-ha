@@ -23,6 +23,7 @@ type: clock
 - [ ] SIC-Q: actualizar docs técnicos con integración QD (3 expedientes)
 ---
 # Priorities
+- [ ] **INEGI: arquitecturizar proyecto** (aclarar reqs + forma contratacion via Tec)
 - [ ] SIC-Q: preparar reunión técnica + proceso administrativo
 - [x] **Tec Beyond: modelo de negocio** ✅ — listo en `entregables/modelo-de-negocio/`
 - [ ] **Tec Beyond: revisar business plan + presentar a Mario/Jorge antes del 28 abril**
@@ -45,7 +46,7 @@ type: clock
 | **Edgar Mohar**       | Aliado clave — ve oportunidad con municipio. Contrato pendiente. | SIC-Q             | 13 mar  |
 | **Oscar**             | Archivos con error en subida final                            | UPU               | 20 mar  |
 | **Jorge Blando**      | Reunión siguiente paso                                        | Tec Beyond        | 27 feb  |
-| **Nicho (Talisis)**   | Reagendar reunión — **contactarlo**                           | Talisis           | 05 mar  |
+| **Nicho (Talisis)**   | Platico 28/03. Busca presupuesto. Follow up proxima semana.   | Talisis           | 28 mar  |
 | **Betty/Sarahí**      | Call NL office strategy                                       | Learning Products | 22 feb  |
 | **Steven Popper**     | Monthly meetings response                                     | Advisory          | ~14 feb |
 | **Héctor Brosig** | Touch base inicio abril | Xignux | 06 mar |
@@ -55,6 +56,7 @@ type: clock
 ## Government & Civic Tech
 | **Project** | **Status** | **Next steps** |
 | --- | --- | --- |
+| **INEGI** | 🔶 | Primer cliente gob federal. ~$5M via Tec (30% overhead) → ~$3M HA. Aclarar reqs. Formato deadline 30/03. |
 | **SIC-Q** | 🟢 | Demo 27/03 exito. Municipio QRO le impusieron pagar mitad → descontento → pide desarrollos propios. Tono: no sin presupuesto nuevo. Estrategia: presupuesto actual = Estado, nuevo proyecto con municipio. Mohar aliado. Competencia tech inferior — posicionar HA como capa AI. Equipo: Michelle/Rene/Luis (seniors) + Diego/Erick/Salvador. Avanzando bases de datos mientras se resuelve admin. |
 
 ## Education & AI Systems
@@ -62,8 +64,8 @@ type: clock
 | --- | --- | --- |
 | **Tec Beyond** | 🟢 | Modelo de negocio listo. Negociar con Jorge antes del 22 abr. Evento 28 abr. |
 | **TEC Narrativa** | ✅ | Ajustar datos, archivar |
-| **Docet-Agentic** | ⏸ | Paused. Not priority. |
-| **Talisis** | 🔶 | Contactar Nicho |
+| **Docet** | 🟢 | Asesoria escuela primaria/secundaria. ~1h/sem o cada 15d. $3K USD/mes ingreso pasivo. 8-9 anos. Mantener. |
+| **Talisis** | 🟢 | Platico con Nicho. Busca dinero para contratar HA. Puesto consultor OK. Follow up proxima semana. |
 
 ## Products & Frameworks
 | **Project** | **Status** | **Next steps** |
@@ -144,7 +146,7 @@ type: clock
 |---------|-----------|--------|
 | SIC-Q | $16M + IVA | Finanzas ✅ — proceso administrativo |
 | Learning Products | Leiden pagado + NL office | Activo |
-| IECA Cursos | $365K MXN | Activo |
+| IECA Cursos | $365K MXN | ✅ Completado |
 | TEC Monterrey | Consultoría | Activo |
 | UPU | 3,500 CHF | Cerrando |
 | Docet-Agentic | $3.9M MXN | ⏸ Paused |
@@ -162,7 +164,7 @@ type: clock
 | Cerebro CEN PAN | SIC-Q — Toño | Tentativo |
 | **Lina Fuensanta — Talleres corporativos** | Tec vinculación | Draft listo en Writing Lab — enviar |
 | **Patricia Martínez — Taller IA** | Tec | Call Mar 24 DONE |
-| **INEGI — Soluciones IA Politica Social** | Email | Draft INEGI proveedor — enviar |
+| **INEGI — Evaluacion IA** | Primer cliente gob federal | ~$5M via Tec (30% overhead) → ~$3M HA. Aclarar reqs esta semana. Scope y forma de contratacion pendientes. |
 
 ---
 
