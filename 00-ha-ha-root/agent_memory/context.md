@@ -35,6 +35,19 @@
 
 ## ZONE B: Wisdom (Evolving)
 
+### 2026 Strategy (from HA-EB Consejo v2 — 2026-03-28)
+
+**HA-EB Flywheel:** Tec (legitimacy+grants+pension) → HA (projects+papers) → Socios (Docet/Nico, Talisis/Poncho, Anagrama/Javi) → Clients → Reputation → Tec.
+
+**ha-ha relevance:**
+- META 1 (Papers): SIC-Q + INEGI = empirical cases for papers. Document as academic data from day one.
+- META 2 (Revenue $800K-$1.5M cobrado, max 40% one project): SIC-Q as pillar + INEGI + diversify with non-gov client >$100K by Q4. Collect receivables (U-Erre $75K + ~$1M MXN) before June.
+- META 3 (CEO structure): Sarahi leads Gobierno unit. Decision matrix needed — what Sarahi decides alone, what escalates. Sarahi as second contact in gov relationships (Tono, Mohar) before June.
+- META 4 (Tech reliability): Security audit SIC-Q before July. CI/CD Q2. Runbooks. Segundo al mando tech named. Oscar delegation conversation NOW.
+- META 5 (Ecosystem): Nico/Poncho partnership conversation before June (scope, terms, no premature equity). Tec grants for HA work.
+
+**Risk hedges:** SIC-Q admin stall → pivot to INEGI/Edo Mex if no contract by June. Gov concentration → one private client at scale.
+
 ### Decisions
 - [2026-01-30] DEC: Dashboard lives in 06-projects/, not agent_memory | WHY: Action lives in projects dimension, aligned with HA-EB pattern | STATUS: active
 - [2026-01-31] DEC: All 5 Q1 learning products organized under single HA project | WHY: Coherent portfolio, shared resources | STATUS: active
