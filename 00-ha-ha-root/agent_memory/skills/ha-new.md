@@ -52,7 +52,8 @@ Create the 6-dimension folder tree **with agent memory** (every HA is an instanc
 ├── 01-legacy/
 │   └── 01-legacy-{name}.md
 ├── 02-community/
-│   └── 02-community-{name}.md
+│   ├── 02-community-{name}.md
+│   └── equipo.md              ← Organigrama: roles, personas del pool, gaps
 ├── 03-learning/
 │   └── 03-learning-{name}.md
 ├── 04-technology/
@@ -66,11 +67,11 @@ Create the 6-dimension folder tree **with agent memory** (every HA is an instanc
 
 **Critical:** The agent_memory makes this a real HA instance, not just a folder. It can boot, remember, and evolve.
 
-### Step 2.5: DEEP INFERENCE (The HA Difference)
+### Step 2.5: DIMENSIONAL ACTIVATION (The HA Difference)
 
-**This is what makes \ha-new different from a template generator.** Before writing a single file, mine the full context:
+**This is what makes \ha-new different from a template generator.** Each dimension gets its own specialized agent pass -- not templates, real data, real inference. Launch agents in parallel where possible.
 
-#### A. Cross-Vault Scan
+#### A. Cross-Vault Scan (all dimensions)
 Search ALL vaults for related content. A new course in ha-tec might connect to:
 - Research papers in ha-research (theoretical foundation)
 - Business projects in ha-ha (real-world cases)
@@ -79,21 +80,38 @@ Search ALL vaults for related content. A new course in ha-tec might connect to:
 
 **Read, don't guess.** If a related project exists, open it. Extract what's transferable.
 
-#### B. Internal Expertise
-Edgar is a composer (PhD Harvard), systems thinker (HA creator), ethics professor, company founder, government consultant. Every new project connects to his full trajectory. Make those connections explicit — they're the unique angle no one else has.
+#### B. Community Activation (02-community)
+**THE CORE QUESTION: "Para lograr el legado de este proyecto, cual es el equipo que necesitamos?"**
 
-#### C. Literature & Research
-For academic projects: search for foundational literature. Not a placeholder list — real authors, real works, real arguments. Identify:
+Create `02-community/equipo.md` with:
+1. **Roles necesarios** para lograr el legado del proyecto
+2. **Quien del pool ya puede cumplir cada rol** -- search 02-community/people/ across ALL vaults, match by "HA Talent Pool" section (skills, disponibilidad)
+3. **Organizaciones relevantes** del pool (ej. Anagrama para editorial, Tec para academia)
+4. **Organigrama** del proyecto: quien hace que, lineas de reporte/coordinacion
+5. **Gaps** -- roles sin candidato: "Necesitas un [perfil] que no tienes. Sugerencia: conseguir [tipo de persona]."
+
+Include HA Talent Pool level for each persona: Fijo / Recurrente / Pool.
+
+#### C. Learning Activation (03-learning)
+Search ha-research, ha-tec for existing expertise, papers, frameworks. Real literature, real authors. Identify:
 - The seminal works (what MUST be in any serious treatment)
+- What Edgar already has in other vaults that transfers here
 - The surprising connections (what others wouldn't include but Edgar would)
-- The gaps (what hasn't been written yet — that's Edgar's contribution)
+- The gaps (what hasn't been written yet -- that's Edgar's contribution)
 
-For business projects: search for comparable cases, market data, competitive landscape.
+#### D. Technology Activation (04-technology)
+Search existing projects for tech stack patterns. What tools, platforms, systems does this need? Reusable infrastructure vs. new requirements.
 
-#### D. Pattern Transfer
-Look at existing successful projects in the same vault. How are they structured? What worked? A new course should learn from the existing Ética course. A new business project should inherit patterns from SIC-Q or Docet.
+#### E. Context Activation (05-context)
+Research the actual landscape. Comparable projects, institutional constraints, competitive positioning, geographic/regulatory context. Not placeholder text.
 
-**Output of Step 2.5:** A mental model of the project that's richer than what Edgar described, because it incorporates everything the system knows.
+#### F. Internal Expertise
+Edgar is a composer (PhD Harvard), systems thinker (HA creator), ethics professor, company founder, government consultant. Every new project connects to his full trajectory. Make those connections explicit.
+
+#### G. Pattern Transfer
+Look at existing successful projects in the same vault. How are they structured? What worked? A new course should learn from the existing Etica course. A new business project should inherit patterns from SIC-Q.
+
+**Output of Step 2.5:** A mental model of the project that's richer than what Edgar described, because it incorporates everything the system knows -- across ALL 6 dimensions.
 
 ---
 
@@ -107,7 +125,12 @@ Look at existing successful projects in the same vault. How are they structured?
 - The unique angle (what Edgar brings that no one else can)
 - **Connections Edgar didn't mention** but that the system inferred from cross-vault context
 
-**`02-community`** — Who matters? Not generic stakeholders — specific people from Edgar's network (cross-reference 02-community across vaults). Who should be involved that Edgar hasn't thought of yet?
+**`02-community/equipo.md`** — THE TEAM FILE. Organigrama del proyecto:
+- Roles necesarios para el legado
+- Personas del pool asignadas a cada rol (con nivel: Fijo/Recurrente/Pool)
+- Organizaciones relevantes
+- Gaps identificados: "falta un [perfil]"
+- Quien deberia estar involucrado que Edgar no ha pensado? Cross-reference 02-community/people/ across ALL vaults.
 
 **`03-learning`** — Real literature, real frameworks, real expertise map. Include:
 - **Foundational references** with specific works and why they matter
