@@ -23,5 +23,14 @@ kumu_id: "PER-MIGUEL-0045"
 Applied Research | Economic Development | Policy Design | Public Leadership | International Collaboration
 
 
+## HA Talent Pool
+- **Nivel:** Pool
+- **Skills:** Applied research, economic development, policy design, international collaboration, public leadership
+- **Disponibilidad:** As Dean of EGyTP at Tec, available for research collaboration and institutional alignment
+- **Proyectos activos:** Research collaboration (potential)
+- **Proyectos sugeridos:** Research projects, policy design, international development initiatives, institutional partnerships
+- **Nota:** Dean of the School of Government at Tec de Monterrey. Former Harvard Growth Lab director. Strategic for institutional positioning and potential new geographic areas (his international network spans multiple regions). Key institutional ally.
+
+
 ## Connections
 - [[02-community]]

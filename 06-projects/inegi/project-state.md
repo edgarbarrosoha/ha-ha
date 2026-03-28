@@ -28,6 +28,7 @@
 ## Key People
 - INEGI contacto: TBD
 - Via Tec de Monterrey
+- **Consultores:** Carlos Anguiano + Rossana Tornel (economistas/investigadores, excelentes)
 
 ## Notes
 - Entre mas grande el gobierno, mas grandes los contratos — INEGI abre puerta a gobierno federal

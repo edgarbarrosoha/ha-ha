@@ -26,5 +26,14 @@ kumu_id: "PER-OSCARD-0002"
 Artificial Intelligence | Data Analysis | Software Development | Project Management | Cloud Computing | Web Development | Team Leadership | Professional Mentoring | Analytical Skills
 
 
+## HA Talent Pool
+- **Nivel:** Fijo
+- **Skills:** Software architecture, team management, AI systems, data analytics, cloud computing
+- **Disponibilidad:** Full-time CTO, on payroll
+- **Proyectos activos:** SIC-Q, Aura
+- **Proyectos sugeridos:** All tech projects -- leads dev team, first point of contact for any technical initiative
+- **Nota:** Indispensable. Tech lead of HA. Manages the entire dev team and technical architecture.
+
+
 ## Connections
 - [[02-community]]

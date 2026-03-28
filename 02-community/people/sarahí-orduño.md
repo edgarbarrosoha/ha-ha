@@ -28,5 +28,14 @@ kumu_id: "PER-SARAHI-0003"
 Project Management | Entrepreneurship | Client Relations | Strategic Planning | Team Leadership | Program Design | Innovation | Transdisciplinary Project Management
 
 
+## HA Talent Pool
+- **Nivel:** Fijo
+- **Skills:** Relacion con clientes (excelente), reportes de alto nivel, coordinacion de proyectos, capacitacion, liderazgo de equipo, diseno de programas
+- **Disponibilidad:** Core team HA
+- **Proyectos activos:** Learning Products, SIC-Q
+- **Proyectos sugeridos:** Todo lo que sea client-facing, coordinacion, reportes, talleres, gestion de programas
+- **Nota:** Co-founder. Relacion excelente con clientes, resuelve, reportes excelentes. Es la cara de HA ante el cliente junto con Edgar.
+
+
 ## Connections
 - [[02-community]]

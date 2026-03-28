@@ -24,5 +24,14 @@ Backup Ted Dev Team
 Front-end Development | React | Full-stack Development | Software Architecture | Mobile & Web Applications | Team Leadership | J2EE | RESTful Web Services | Agile Development | SDK Development | Software Engineering
 
 
+## HA Talent Pool
+- **Nivel:** Recurrente
+- **Skills:** Senior development, front-end (React), full-stack, software architecture, mobile and web applications
+- **Disponibilidad:** Per-project, backup dev team
+- **Proyectos activos:** SIC-Q (ex-UPU, transitioned)
+- **Proyectos sugeridos:** Front-end heavy projects, full-stack development, mobile/web applications
+- **Nota:** Senior dev. Brother of Michelle and Luis Michel. Previously at UPU, now contributing to SIC-Q. Listed as backup in dev team.
+
+
 ## Connections
 - [[02-community]]

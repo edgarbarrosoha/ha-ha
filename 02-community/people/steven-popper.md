@@ -30,5 +30,14 @@ Policy Analysis | Decision Sciences | Economics | Science and Technology Policy 
 - Future co-author: paper connecting HA to Robust Decision Making framework (don't rush — let him understand HA from inside the board first)
 - Shared intellectual territory: decisions under deep uncertainty, scenarios, policy analysis — exactly where HA operates
 
+## HA Talent Pool
+- **Nivel:** Pool / Advisory
+- **Skills:** Strategy, policy analysis, academic validation, decision sciences, Robust Decision Making, uncertainty analysis
+- **Disponibilidad:** Monthly meetings agreed. Advisory board member since Feb 2026.
+- **Proyectos activos:** Advisory board, future co-authorship (RDM + HA paper)
+- **Proyectos sugeridos:** Strategic advisory, policy validation, academic papers connecting HA to Robust Decision Making
+- **Nota:** RAND Corporation senior economist. Institutional credibility signal -- RAND endorsement positions HA as serious in the policy/multilateral world. Do not rush the co-authorship; let him understand HA from inside the board first.
+
+
 ## Connections
 - [[02-community]]

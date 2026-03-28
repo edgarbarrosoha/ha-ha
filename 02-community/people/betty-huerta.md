@@ -22,5 +22,14 @@ kumu_id: "PER-BETTYH-0008"
 Innovation Programs | Social Entrepreneurship|· Human-Centered Design | Frugal Innovation | AI for Good | Teaching & Mentoring
 
 
+## HA Talent Pool
+- **Nivel:** Pool
+- **Skills:** Talleres, learning design, facilitacion, innovacion frugal, grants internacionales
+- **Disponibilidad:** Consultora externa. Rotterdam/NL. Convocar para talleres y grants conjuntos.
+- **Proyectos activos:** Learning Products (transicion a consultora)
+- **Proyectos sugeridos:** Facilitacion de talleres, grants conjuntos, programas de aprendizaje para audiencias internacionales
+- **Nota:** Buena tallerista, confiable. No es fija -- es consultora/tallerista de HA. A veces grants juntos. Entregables con scope y deadline claros.
+
+
 ## Connections
 - [[02-community]]

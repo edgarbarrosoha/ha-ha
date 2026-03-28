@@ -24,5 +24,11 @@ kumu_id: "PER-ROSSAN-0113"
 Economic Research | Econometrics | Data Analysis | Platform Development | Agricultural Economics | Public Policy
 
 
+## HA Talent Pool
+- **Disponibilidad:** Consultora externa (por proyecto)
+- **Proyectos sugeridos:** INEGI, evaluaciones economicas, analisis de datos, politica publica
+- **Nota:** Edgar la considera excelente. Par con Carlos Anguiano. Consultar para INEGI.
+
 ## Connections
 - [[02-community]]
+- [[carlos-anguiano]]

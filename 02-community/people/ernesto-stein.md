@@ -37,5 +37,14 @@ Regional Economic Analysis |
 - Strategic value: co-authorship with ex-BID chief economist = Edgar's methodology enters the policy canon
 - If Ernesto can cite Edgar's work in his own papers, legitimacy gap narrows significantly
 
+## HA Talent Pool
+- **Nivel:** Pool
+- **Skills:** Economics, research, academic papers, public policy design, macroeconomics, legitimacy
+- **Disponibilidad:** Specialist consultant, called for specific research/co-authorship needs
+- **Proyectos activos:** Paper Finanzas (co-author)
+- **Proyectos sugeridos:** Research papers, policy publications, academic validation, institutional credibility projects
+- **Nota:** High prestige. Ex-chief economist at BID (Inter-American Development Bank). Co-authorship with Ernesto = Edgar's methodology enters the policy canon. Strategic for legitimacy.
+
+
 ## Connections
 - [[02-community]]

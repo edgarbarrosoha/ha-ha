@@ -27,5 +27,14 @@ kumu_id: "PER-ALANMA-0105"
 Software Development | Agile Methodologies | Scrum | Team Leadership | Object-Oriented Programming (OOP) | Software Architecture | Containerization | Project Management | Mentoring
 
 
+## HA Talent Pool
+- **Nivel:** Recurrente
+- **Skills:** Senior software development, software architecture, Agile/Scrum, team leadership, mentoring
+- **Disponibilidad:** Per-project, senior dev under Oscar
+- **Proyectos activos:** HA dev team projects
+- **Proyectos sugeridos:** Complex development projects requiring senior engineering, architecture decisions, team scaling
+- **Nota:** Senior dev with 20+ years of experience. Works under Oscar in the HA dev team. Reliable technical contributor.
+
+
 ## Connections
 - [[02-community]]

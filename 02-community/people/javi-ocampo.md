@@ -23,5 +23,13 @@ kumu_id: "PER-JAVIOC-0004"
 ## Expertise
 Experience Strategy | Brand Strategy & Identity | Business Operations | Digital Strategy | UX | AI & Hybrid Intelligence | Fractal & Systems Thinking | Prompt Engineering
 
+## HA Talent Pool
+- **Nivel:** Fijo
+- **Skills:** Administracion, brand/experience strategy, atencion al detalle, operaciones, UX, prompt engineering
+- **Disponibilidad:** Core team HA
+- **Proyectos activos:** Operaciones HA, Ennovadoras/AT&T, marca HA
+- **Proyectos sugeridos:** Todo lo que requiera brand, experiencia de usuario, presentaciones de alto nivel, operaciones
+- **Nota:** Funcion doble: administrador + visionario de marca. Es el que cuida el detalle y la calidad de experiencia. Razon por la que AT&T nos ama. Pieza clave para la imagen de HA.
+
 ## Connections
 - [[02-community]]
