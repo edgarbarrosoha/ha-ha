@@ -16,7 +16,7 @@ type: clock
 
 # Consejo Business (25-28/03)
 
-> SIC-Q: $10M autorizados, $6M en gestion. Reunion tecnica Jue 26/03 17:00. Mohar: seguimiento contrato. Oscar: liberar de UPU para SIC-Q. Tec Beyond: business plan review pendiente.
+> SIC-Q: $10M autorizados. Demo 27/03 exito. Admin: Municipio QRO impuesto a pagar mitad, negociacion en curso. Equipo reforzado (Michelle/Rene/Luis seniors + juniors). Tec Beyond: business plan review pendiente.
 > HA POSITIONING UPDATE: JIII paper reframes HA as "coordination architecture for hybrid intelligence" -- the seminal academic paper positions HA as THE coordination substrate for AI at organizational scale. This is now the canonical market thesis.
 
 # Week (27/03 – 28/03)
@@ -41,8 +41,8 @@ type: clock
 # Waiting For
 | Persona               | Esperando                                                     | Proyecto          | Desde   |
 | --------------------- | ------------------------------------------------------------- | ----------------- | ------- |
-| **Sec. Finanzas QRO** | Post-llamada QD 26/03 — siguiente paso proceso administrativo | SIC-Q             | 26 mar  |
-| **Edgar Mohar**       | Revisión contrato                                             | SIC-Q             | 13 mar  |
+| **Tono Rangel + Juan Carlos (Mpio QRO)** | Negociacion presupuesto Estado vs Municipio | SIC-Q | 28 mar |
+| **Edgar Mohar**       | Aliado clave — ve oportunidad con municipio. Contrato pendiente. | SIC-Q             | 13 mar  |
 | **Oscar**             | Archivos con error en subida final                            | UPU               | 20 mar  |
 | **Jorge Blando**      | Reunión siguiente paso                                        | Tec Beyond        | 27 feb  |
 | **Nicho (Talisis)**   | Reagendar reunión — **contactarlo**                           | Talisis           | 05 mar  |
@@ -55,7 +55,7 @@ type: clock
 ## Government & Civic Tech
 | **Project** | **Status** | **Next steps** |
 | --- | --- | --- |
-| **SIC-Q** | 🟢 | Finanzas ✅ → Llamada QD ✅ → actualizar docs con interoperabilidad QD → contrato |
+| **SIC-Q** | 🟢 | Demo 27/03 exito. Municipio QRO le impusieron pagar mitad → descontento → pide desarrollos propios. Tono: no sin presupuesto nuevo. Estrategia: presupuesto actual = Estado, nuevo proyecto con municipio. Mohar aliado. Competencia tech inferior — posicionar HA como capa AI. Equipo: Michelle/Rene/Luis (seniors) + Diego/Erick/Salvador. Avanzando bases de datos mientras se resuelve admin. |
 
 ## Education & AI Systems
 | **Project** | **Status** | **Next steps** |
