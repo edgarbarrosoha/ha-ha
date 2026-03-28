@@ -9,27 +9,44 @@ type: clock
 > Dictate vault updates in `panorama-update.md`. HA reads, normalizes, and distributes them inside this vault.
 
 ```schedule
-[Start]: 27/03/26 - 08:52 AM
-[8:52 AM]: 
-[Finish]: 27/03/26 - 08:52 AM
+[Start]: 03/30/26 - 07:45 AM
+[7:45 AM]: Ejercicio (45min)
+[8:30 AM]: Prep (30min)
+[9:00 AM]: INEGI: enviar formato requisitado -- deadline 16:30 CDM (2h)
+[11:00 AM]: Prep reuniones tarde (1h)
+[12:00 PM]: Break (30min)
+[12:30 PM]: Lunch + siesta (1.5h)
+[2:00 PM]: Chores (2h)
+[4:00 PM]: HA Arranque de semana -- fixed (1h)
+[5:00 PM]: SIC-Q reunion semanal -- fixed (1h)
+[Finish]: 03/30/26 - 06:00 PM
 ```
 
-# Consejo Business (25-28/03)
+# Consejo Business (28/03 – 04/04)
 
-> SIC-Q: $10M autorizados. Demo 27/03 exito. Admin: Municipio QRO impuesto a pagar mitad, negociacion en curso. Equipo reforzado (Michelle/Rene/Luis seniors + juniors). Tec Beyond: business plan review pendiente.
-> HA POSITIONING UPDATE: JIII paper reframes HA as "coordination architecture for hybrid intelligence" -- the seminal academic paper positions HA as THE coordination substrate for AI at organizational scale. This is now the canonical market thesis.
+> SIC-Q: Demo exito. Admin: Municipio QRO impuesto a pagar mitad, negociacion Estado vs Municipio. Estrategia: presupuesto actual = Estado, nuevo proyecto = Municipio. Equipo reforzado. Avanzando bases de datos.
+> INEGI: Primer cliente gob federal. ~$5M via Tec. Formato deadline Lun 30/03. Arquitecturizar proyecto.
+> Ennovadoras/AT&T: exito. AT&T quiere dar dinero. Follow up Miguel Casas.
+> Betty: presentacion Mie 01/04. No entrego lo acordado. Definir relacion: colaboradora puntual.
+> Talisis: Nicho busca presupuesto. Follow up proxima semana.
 
-# Week (27/03 – 28/03)
-- [ ] SIC-Q: actualizar docs técnicos con integración QD (3 expedientes)
+# Week (30/03 – 04/04)
+> Semana Santa Jue-Vie. Reuniones Lun-Mie, Vie ligero.
+
+- [ ] **Lun 30/03** → [ ] INEGI formato (deadline 16:30 CDM) → [ ] HA Arranque de semana (16:00) → [ ] SIC-Q reunion semanal (17:00)
+- [ ] **Mar 31/03** → [ ] INEGI: arquitecturizar reqs (AM) → [ ] Etica IA (14:00) → [ ] Arquitectura horizontes/Edo Mex + COPLADEM (19:00)
+- [ ] **Mie 01/04** → [ ] Leer docs Betty (AM) → [ ] Learning Strategy -- presentacion Betty (16:00) → [ ] Agustina-Edgar (17:30) → [ ] Mara x Anagrama Web UI/UX (18:00) → [ ] Aura Weekly (19:00)
+- [ ] **Jue 02/04** (Holy Thursday) → Sin reuniones business
+- [ ] **Vie 03/04** (Good Friday) → [ ] Sesion semanal (16:00) → [ ] Sec. Economia - Impulsora Innovacion (19:30)
 ---
 # Priorities
-- [ ] **INEGI: arquitecturizar proyecto** (aclarar reqs + forma contratacion via Tec)
-- [ ] SIC-Q: preparar reunión técnica + proceso administrativo
-- [x] **Tec Beyond: modelo de negocio** ✅ — listo en `entregables/modelo-de-negocio/`
+- [ ] **INEGI: formato requisitado** (deadline Lun 30/03 16:30 CDM) + arquitecturizar proyecto
+- [ ] **Betty: leer docs** antes de presentacion Mie 01/04
+- [ ] SIC-Q: monitorear negociacion admin Estado vs Municipio
+- [ ] Nicho (Talisis): follow up esta semana
+- [ ] Ennovadoras/AT&T: follow up Miguel Casas
 - [ ] **Tec Beyond: revisar business plan + presentar a Mario/Jorge antes del 28 abril**
 - [ ] UPU: terminar subida final + resolver archivos con error
-- [ ] Contactar Nicho (Talisis)
-- [ ] TEC Narrativa: ajustar datos, archivar
 ---
 # To dos
 - [ ] SIC-Q: Preparar demo phone-first gobernador con datos reales
@@ -47,7 +64,7 @@ type: clock
 | **Oscar**             | Archivos con error en subida final                            | UPU               | 20 mar  |
 | **Jorge Blando**      | Reunión siguiente paso                                        | Tec Beyond        | 27 feb  |
 | **Nicho (Talisis)**   | Platico 28/03. Busca presupuesto. Follow up proxima semana.   | Talisis           | 28 mar  |
-| **Betty/Sarahí**      | Call NL office strategy                                       | Learning Products | 22 feb  |
+| **Betty Huerta**      | Presentacion proxima semana. No entrego lo acordado. Definir relacion: colaboradora puntual, no fija. | Learning Products | 28 mar |
 | **Steven Popper**     | Monthly meetings response                                     | Advisory          | ~14 feb |
 | **Héctor Brosig** | Touch base inicio abril | Xignux | 06 mar |
 ---
@@ -72,7 +89,7 @@ type: clock
 | --- | --- | --- |
 | **HA-Core / Mara** | ⏸ | Scope pending. Post-SIC-Q. |
 | **HA-Products** | → | Oscar revisa vision + roadmap |
-| **Learning Products** | 🟢 | Leiden running. Betty + Sarahí. |
+| **Learning Products** | 🔶 | Leiden running. Betty: presentacion proxima semana, pero no entrego lo acordado. Buena tallerista, confiable, pero no cultural fit (actitud "ayudenme con mis proyectos" vs ser parte del equipo). No contratar fijo — caro y ROI bajo. Mantener como colaboradora puntual. |
 
 ## International
 | **Project** | **Status** | **Next steps** |
@@ -115,8 +132,8 @@ type: clock
 - [ ] Diseñar piloto operativo con Toño
 - [ ] Formalizar Instituto del Futuro en El Consejo A.C.
 
-## Docet-Agentic (SIA-DOCET)
-**Status:** ⏸ Paused. Not priority. Waiting on Poncho's team (~30 days, unlikely).
+## Docet
+**Status:** 🟢 Activo. Asesoria escuela primaria/secundaria. ~1h/sem o cada 15d. $3K USD/mes ingreso pasivo. 8-9 anos de relacion. Mantener.
 
 ## TEC Monterrey — Tec Beyond
 **Cliente:** Mario Orozco, Jorge Blando
@@ -149,8 +166,10 @@ type: clock
 | IECA Cursos | $365K MXN | ✅ Completado |
 | TEC Monterrey | Consultoría | Activo |
 | UPU | 3,500 CHF | Cerrando |
-| Docet-Agentic | $3.9M MXN | ⏸ Paused |
-| Talisis | TBD | Contactar Nicho |
+| INEGI | ~$5M MXN via Tec | Formato deadline 30/03. Arquitecturizar. |
+| Docet | $3K USD/mes | Ingreso pasivo. Mantener. |
+| Ennovadoras/AT&T | TBD | AT&T quiere dar dinero. Follow up. |
+| Talisis | TBD | Nicho busca presupuesto. Follow up. |
 
 ---
 
@@ -164,8 +183,8 @@ type: clock
 | Cerebro CEN PAN | SIC-Q — Toño | Tentativo |
 | **Lina Fuensanta — Talleres corporativos** | Tec vinculación | Draft listo en Writing Lab — enviar |
 | **Patricia Martínez — Taller IA** | Tec | Call Mar 24 DONE |
-| **INEGI — Evaluacion IA** | Primer cliente gob federal | ~$5M via Tec (30% overhead) → ~$3M HA. Aclarar reqs esta semana. Scope y forma de contratacion pendientes. |
+| **Ennovadoras/AT&T** | Tec / Fundacion | Evento exito. AT&T quiere dar dinero. Follow up Miguel Casas. Metas atraccion fondos. |
 
 ---
 
-*Última actualización: 2026-03-27 (Session 29 close)*
+*Ultima actualizacion: 2026-03-28 (Session 66)*
