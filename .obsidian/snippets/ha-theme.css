@@ -61,7 +61,7 @@
    DARK MODE
    ============================================ */
 .theme-dark {
-  --background-primary: #231F20;
+  --background-primary: #3B3738;
   --background-primary-alt: #1A1718;
   --background-secondary: #1A1718;
   --background-secondary-alt: #131011;
@@ -285,7 +285,7 @@ blockquote,
   border-bottom: 1px solid #D9D9D9;
 }
 .theme-dark .markdown-preview-view th {
-  background-color: #2E2A2B;
+  background-color: #474344;
   color: #F1F2F2;
   border-bottom: 1px solid #464243;
 }
@@ -297,7 +297,7 @@ blockquote,
 }
 .theme-dark .callout {
   border-left-color: #585556 !important;
-  background-color: #2E2A2B !important;
+  background-color: #474344 !important;
 }
 
 /* Blockquotes background — gray */
@@ -312,7 +312,7 @@ body.theme-light .markdown-reading-view blockquote {
 body.theme-dark .markdown-preview-view blockquote,
 body.theme-dark .markdown-source-view blockquote,
 body.theme-dark .markdown-reading-view blockquote {
-  background-color: #2E2A2B !important;
+  background-color: #474344 !important;
   border-radius: 4px;
   padding: 0.8em 1em !important;
   border-left-color: #585556 !important;
@@ -417,53 +417,33 @@ body.theme-dark .markdown-reading-view blockquote {
   --rainbow-folder-color: 175, 135, 200; /* solid mauve */
 }
 
+
 /* ============================================
-   PANE SEPARATION — background color difference, not hard borders
+   CARD PANELS — force light gray on card layout
    ============================================ */
 
-/* Dark mode: subtle gap color between panes */
-.theme-dark {
-  --divider-color: #2E2A2B;
-  --divider-width: 2px;
-  --tab-outline-color: transparent;
+/* Content card panels */
+.theme-dark .mod-root .workspace-leaf,
+.theme-dark .mod-root .workspace-leaf-content {
+  background-color: #3B3738 !important;
 }
 
-/* Resize handles = visible gray gap between panes */
-.theme-dark .workspace-leaf-resize-handle {
-  background-color: #2E2A2B !important;
-  opacity: 1 !important;
+/* Sidebar card panel */
+.theme-dark .mod-left-split .workspace-leaf-content,
+.theme-dark .mod-left-split .nav-files-container {
+  background-color: #3B3738 !important;
 }
 
-/* Tab container = slightly different shade from content */
-.theme-dark .workspace-tab-header-container {
+/* Right sidebar card panel */
+.theme-dark .mod-right-split .workspace-leaf-content {
+  background-color: #3B3738 !important;
+}
+
+/* Workspace background behind cards — stays dark */
+.theme-dark .workspace,
+.theme-dark .workspace-split,
+.theme-dark .mod-root {
   background-color: #1A1718 !important;
-  border-bottom: none !important;
-}
-
-/* Remove hard borders on leaves */
-.theme-dark .workspace-leaf {
-  border: none !important;
-}
-
-/* Light mode */
-.theme-light {
-  --divider-color: #E8E8E8;
-  --divider-width: 2px;
-  --tab-outline-color: transparent;
-}
-
-.theme-light .workspace-leaf-resize-handle {
-  background-color: #E8E8E8 !important;
-  opacity: 1 !important;
-}
-
-.theme-light .workspace-tab-header-container {
-  background-color: #F1F2F2 !important;
-  border-bottom: none !important;
-}
-
-.theme-light .workspace-leaf {
-  border: none !important;
 }
 
 /* ============================================
