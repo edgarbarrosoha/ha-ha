@@ -322,106 +322,148 @@ body.theme-dark .markdown-reading-view blockquote {
    RAINBOW FOLDERS — restore Catppuccin colors
    HA palette greys all --ctp-* for text/headings,
    but sidebar folders need the original rainbow.
+   Cycle shifted: Red starts at position 1.
    ============================================ */
 
-/* Dark mode: Catppuccin Frappe palette */
+/* Dark mode: Catppuccin Frappe */
 .theme-dark .nav-folder-children > .nav-folder:nth-child(11n+1),
 .theme-dark .nav-files-container > div > .nav-folder:nth-child(11n+1) {
-  --rainbow-folder-color: 166, 209, 137; /* green */
+  --rainbow-folder-color: 231, 130, 132; /* red */
 }
 .theme-dark .nav-folder-children > .nav-folder:nth-child(11n+2),
 .theme-dark .nav-files-container > div > .nav-folder:nth-child(11n+2) {
-  --rainbow-folder-color: 231, 130, 132; /* red */
+  --rainbow-folder-color: 234, 153, 156; /* maroon */
 }
 .theme-dark .nav-folder-children > .nav-folder:nth-child(11n+3),
 .theme-dark .nav-files-container > div > .nav-folder:nth-child(11n+3) {
-  --rainbow-folder-color: 234, 153, 156; /* maroon */
+  --rainbow-folder-color: 239, 159, 118; /* peach */
 }
 .theme-dark .nav-folder-children > .nav-folder:nth-child(11n+4),
 .theme-dark .nav-files-container > div > .nav-folder:nth-child(11n+4) {
-  --rainbow-folder-color: 239, 159, 118; /* peach */
+  --rainbow-folder-color: 229, 200, 144; /* yellow */
 }
 .theme-dark .nav-folder-children > .nav-folder:nth-child(11n+5),
 .theme-dark .nav-files-container > div > .nav-folder:nth-child(11n+5) {
-  --rainbow-folder-color: 229, 200, 144; /* yellow */
+  --rainbow-folder-color: 166, 209, 137; /* green */
 }
 .theme-dark .nav-folder-children > .nav-folder:nth-child(11n+6),
 .theme-dark .nav-files-container > div > .nav-folder:nth-child(11n+6) {
-  --rainbow-folder-color: 166, 209, 137; /* green */
+  --rainbow-folder-color: 129, 200, 190; /* teal */
 }
 .theme-dark .nav-folder-children > .nav-folder:nth-child(11n+7),
 .theme-dark .nav-files-container > div > .nav-folder:nth-child(11n+7) {
-  --rainbow-folder-color: 129, 200, 190; /* teal */
+  --rainbow-folder-color: 153, 209, 219; /* sky */
 }
 .theme-dark .nav-folder-children > .nav-folder:nth-child(11n+8),
 .theme-dark .nav-files-container > div > .nav-folder:nth-child(11n+8) {
-  --rainbow-folder-color: 153, 209, 219; /* sky */
+  --rainbow-folder-color: 133, 193, 220; /* sapphire */
 }
 .theme-dark .nav-folder-children > .nav-folder:nth-child(11n+9),
 .theme-dark .nav-files-container > div > .nav-folder:nth-child(11n+9) {
-  --rainbow-folder-color: 133, 193, 220; /* sapphire */
+  --rainbow-folder-color: 140, 170, 238; /* blue */
 }
 .theme-dark .nav-folder-children > .nav-folder:nth-child(11n+10),
 .theme-dark .nav-files-container > div > .nav-folder:nth-child(11n+10) {
-  --rainbow-folder-color: 140, 170, 238; /* blue */
+  --rainbow-folder-color: 186, 187, 241; /* lavender */
 }
 .theme-dark .nav-folder-children > .nav-folder:nth-child(11n+11),
 .theme-dark .nav-files-container > div > .nav-folder:nth-child(11n+11) {
-  --rainbow-folder-color: 186, 187, 241; /* lavender */
-}
-.theme-dark .nav-folder-children > .nav-folder:nth-child(11n+12),
-.theme-dark .nav-files-container > div > .nav-folder:nth-child(11n+12) {
   --rainbow-folder-color: 202, 158, 230; /* mauve */
 }
 
-/* Light mode: Catppuccin Latte palette */
+/* Light mode: solid muted tones (more saturated base, reads solid at 0.9 opacity) */
 .theme-light .nav-folder-children > .nav-folder:nth-child(11n+1),
 .theme-light .nav-files-container > div > .nav-folder:nth-child(11n+1) {
-  --rainbow-folder-color: 64, 160, 43; /* green */
+  --rainbow-folder-color: 195, 120, 120; /* solid rose */
 }
 .theme-light .nav-folder-children > .nav-folder:nth-child(11n+2),
 .theme-light .nav-files-container > div > .nav-folder:nth-child(11n+2) {
-  --rainbow-folder-color: 210, 15, 57; /* red */
+  --rainbow-folder-color: 200, 135, 140; /* solid blush */
 }
 .theme-light .nav-folder-children > .nav-folder:nth-child(11n+3),
 .theme-light .nav-files-container > div > .nav-folder:nth-child(11n+3) {
-  --rainbow-folder-color: 230, 69, 83; /* maroon */
+  --rainbow-folder-color: 210, 160, 120; /* solid apricot */
 }
 .theme-light .nav-folder-children > .nav-folder:nth-child(11n+4),
 .theme-light .nav-files-container > div > .nav-folder:nth-child(11n+4) {
-  --rainbow-folder-color: 254, 100, 11; /* peach */
+  --rainbow-folder-color: 205, 190, 125; /* solid cream */
 }
 .theme-light .nav-folder-children > .nav-folder:nth-child(11n+5),
 .theme-light .nav-files-container > div > .nav-folder:nth-child(11n+5) {
-  --rainbow-folder-color: 223, 142, 29; /* yellow */
+  --rainbow-folder-color: 130, 190, 120; /* solid sage */
 }
 .theme-light .nav-folder-children > .nav-folder:nth-child(11n+6),
 .theme-light .nav-files-container > div > .nav-folder:nth-child(11n+6) {
-  --rainbow-folder-color: 64, 160, 43; /* green */
+  --rainbow-folder-color: 115, 180, 170; /* solid mint */
 }
 .theme-light .nav-folder-children > .nav-folder:nth-child(11n+7),
 .theme-light .nav-files-container > div > .nav-folder:nth-child(11n+7) {
-  --rainbow-folder-color: 23, 146, 153; /* teal */
+  --rainbow-folder-color: 120, 178, 200; /* solid powder */
 }
 .theme-light .nav-folder-children > .nav-folder:nth-child(11n+8),
 .theme-light .nav-files-container > div > .nav-folder:nth-child(11n+8) {
-  --rainbow-folder-color: 4, 165, 229; /* sky */
+  --rainbow-folder-color: 115, 170, 195; /* solid steel */
 }
 .theme-light .nav-folder-children > .nav-folder:nth-child(11n+9),
 .theme-light .nav-files-container > div > .nav-folder:nth-child(11n+9) {
-  --rainbow-folder-color: 32, 159, 181; /* sapphire */
+  --rainbow-folder-color: 130, 150, 205; /* solid periwinkle */
 }
 .theme-light .nav-folder-children > .nav-folder:nth-child(11n+10),
 .theme-light .nav-files-container > div > .nav-folder:nth-child(11n+10) {
-  --rainbow-folder-color: 30, 102, 245; /* blue */
+  --rainbow-folder-color: 158, 155, 210; /* solid lavender */
 }
 .theme-light .nav-folder-children > .nav-folder:nth-child(11n+11),
 .theme-light .nav-files-container > div > .nav-folder:nth-child(11n+11) {
-  --rainbow-folder-color: 114, 135, 253; /* lavender */
+  --rainbow-folder-color: 175, 135, 200; /* solid mauve */
 }
-.theme-light .nav-folder-children > .nav-folder:nth-child(11n+12),
-.theme-light .nav-files-container > div > .nav-folder:nth-child(11n+12) {
-  --rainbow-folder-color: 136, 57, 239; /* mauve */
+
+/* ============================================
+   PANE SEPARATION — background color difference, not hard borders
+   ============================================ */
+
+/* Dark mode: subtle gap color between panes */
+.theme-dark {
+  --divider-color: #2E2A2B;
+  --divider-width: 2px;
+  --tab-outline-color: transparent;
+}
+
+/* Resize handles = visible gray gap between panes */
+.theme-dark .workspace-leaf-resize-handle {
+  background-color: #2E2A2B !important;
+  opacity: 1 !important;
+}
+
+/* Tab container = slightly different shade from content */
+.theme-dark .workspace-tab-header-container {
+  background-color: #1A1718 !important;
+  border-bottom: none !important;
+}
+
+/* Remove hard borders on leaves */
+.theme-dark .workspace-leaf {
+  border: none !important;
+}
+
+/* Light mode */
+.theme-light {
+  --divider-color: #E8E8E8;
+  --divider-width: 2px;
+  --tab-outline-color: transparent;
+}
+
+.theme-light .workspace-leaf-resize-handle {
+  background-color: #E8E8E8 !important;
+  opacity: 1 !important;
+}
+
+.theme-light .workspace-tab-header-container {
+  background-color: #F1F2F2 !important;
+  border-bottom: none !important;
+}
+
+.theme-light .workspace-leaf {
+  border: none !important;
 }
 
 /* ============================================
