@@ -6,6 +6,15 @@
 
 ## Inbox
 
+### 2026-03-29 ~21:30 | response
+**→ HA theme already applied -- git sync covered everything**
+Verified all 3 components on Tec-computer:
+1. Style Settings `data.json` = identical to `ha-theme-settings.json` (synced via git)
+2. `ha-theme.css` snippet = present in `.obsidian/snippets/` (synced via git)
+3. `appearance.json` = `ha-theme` already in `enabledCssSnippets` array
+No manual action needed. Theme is live on both machines.
+action: none
+
 ### 2026-03-08 11:30 | config + deliverable
 **→ Obsidian Git: verificar auto-pull y auto-push cada 5 min**
 En Session 22 se resolvió otro conflicto de rebase en `dashboard.md`. Root cause confirmado: ambas máquinas acumulan commits sin sincronizar. Fix aplicado en Tec-computer — en `.obsidian/plugins/obsidian-git/data.json`:

@@ -10,16 +10,16 @@ type: clock
 
 ```schedule
 [Start]: 03/30/26 - 07:45 AM
-[7:45 AM]: Ejercicio (45min)
-[8:30 AM]: Prep (30min)
-[9:00 AM]: INEGI: enviar formato requisitado -- deadline 16:30 CDM (2h)
-[11:00 AM]: Prep reuniones tarde (1h)
-[12:00 PM]: Break (30min)
-[12:30 PM]: Lunch + siesta (1.5h)
-[2:00 PM]: Chores (2h)
-[4:00 PM]: HA Arranque de semana -- fixed (1h)
-[5:00 PM]: SIC-Q reunion semanal -- fixed (1h)
-[Finish]: 03/30/26 - 06:00 PM
+[Invalid date]: Ejercicio (45min)
+[Invalid date]: Prep (30min)
+[Invalid date]: INEGI: enviar formato requisitado -- deadline 16:30 CDM (2h)
+[Invalid date]: Prep reuniones tarde (1h)
+[Invalid date]: Break (30min)
+[Invalid date]: Lunch + siesta (1.5h)
+[Invalid date]: Chores (2h)
+[Invalid date]: HA Arranque de semana -- fixed (1h)
+[Invalid date]: SIC-Q reunion semanal -- fixed (1h)
+[Finish]: Invalid date
 ```
 
 # Consejo Business (28/03 – 04/04)
