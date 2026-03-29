@@ -75,4 +75,6 @@
 - `05-context/sintesis-del-servicio-ia-inegi.md` — TDR del proyecto
 - `05-context/meps-presentacion-18032026.md` — Presentación oficial del MEPS
 - `05-context/marco-metodologico-oscar.md` — Marco de Oscar (visión, no enviar aún)
-- `06-projects/presupuesto-ha.md` — Presupuesto $3.2M
+- `06-projects/propuestas/presupuesto-ha.md` — Presupuesto $3.2M
+- `06-projects/propuestas/propuesta-ha-tec-inegi.md` — Propuesta formal HA→Tec
+- `06-projects/propuestas/proceso-participativo.md` — Diseño del proceso participativo

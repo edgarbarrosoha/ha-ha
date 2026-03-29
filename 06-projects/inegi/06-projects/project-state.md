@@ -70,7 +70,9 @@ INEGI necesita producir 2 documentos de evaluación que son componentes de la ev
 | Síntesis del servicio (INEGI) | `05-context/sintesis-del-servicio-ia-inegi.md` | TDR del proyecto — lo que INEGI pide |
 | Presentación MEPS (INEGI) | `05-context/meps-presentacion-18032026.md` | Modelo de evaluación, timeline sexenal, dimensiones |
 | Marco metodológico (Oscar) | `05-context/marco-metodologico-oscar.md` | Propuesta técnica HA — sobredimensionada, no enviar aún |
-| Presupuesto HA | `06-projects/presupuesto-ha.md` | $3.2M desglosado por entregable |
+| Propuesta HA→Tec | `06-projects/propuestas/propuesta-ha-tec-inegi.md` | Propuesta formal completa |
+| Presupuesto HA | `06-projects/propuestas/presupuesto-ha.md` | $3.2M desglosado por entregable |
+| Proceso participativo | `06-projects/propuestas/proceso-participativo.md` | Diseño del proceso de validación con expertos |
 
 ## Next Steps
 - [ ] **Formato requisitado INEGI** (deadline 30/03 16:30 CDM)
