@@ -6,15 +6,16 @@
 
 ## Inbox
 
-### 2026-03-27 18:00 | theme update
-**→ Tema HA actualizado — headings grises + texto justificado**
-Se corrigieron los headings que se veían en rosa (Catppuccin override). Cambios:
-1. `.obsidian/snippets/ha-theme.css` — agregados overrides `!important` para heading colors (grises HA) + `text-align: justify` + divider lines grises
-2. `.obsidian/plugins/obsidian-style-settings/data.json` — `anp-header-color-toggle` y `anp-header-divider-color-toggle` en `false`
-3. `04-technology/my-templates/ha-theme-settings.json` — merge conflict resuelto, template canónico limpio
+### 2026-03-29 21:00 | request
+**→ Copiar tema HA completo a Tec-computer — light + dark idénticos**
+El tema quedó perfecto en My-computer. Necesito copia exacta en Tec-computer. Dos pasos:
 
-**En Tec-computer:** Los archivos llegan por git sync. Solo verificar que el snippet `ha-theme.css` esté activo en Settings → Appearance → CSS Snippets. Si los headings siguen rosas, copiar `ha-theme-settings.json` sobre `.obsidian/plugins/obsidian-style-settings/data.json`.
-action: verify snippet active + reload Obsidian
+**Paso 1 — Style Settings:** Copiar el contenido de `04-technology/my-templates/ha-theme-settings.json` y sobreescribir `.obsidian/plugins/obsidian-style-settings/data.json` con él. Este archivo tiene toda la paleta HA (grises + azul #3356F6), tipografía Plus Jakarta Sans, header weights, card layout, safari tabs, etc.
+
+**Paso 2 — CSS Snippet:** El archivo `.obsidian/snippets/ha-theme.css` ya está en el vault vía git sync. Solo hay que activarlo: Settings → Appearance → CSS Snippets → toggle ON `ha-theme`. Este snippet tiene overrides `!important` para headings grises (no rosa), `text-align: justify`, line-height 1.8, y status bar fix para dark mode.
+
+**Verificación:** Después de aplicar, los headings deben verse en escala de grises (NO rosa/colores Catppuccin). Texto body justificado. Links en azul HA.
+action: copiar settings JSON + activar snippet + verificar
 
 ### 2026-03-20 08:00 | response
 **→ Obsidian Git ya quedó sincronizando cada 5 min en My-computer**

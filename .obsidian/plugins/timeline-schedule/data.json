@@ -4,7 +4,7 @@
   "endBlockName": "Finish",
   "enablePrettyPreview": true,
   "enableCodeblockTextAutofill": true,
-  "startDateFormat": "DD/MM/YY - hh:mm A",
+  "startDateFormat": "MM/DD/YY - hh:mm A",
   "endDateFormat": "DD/MM/YY - hh:mm A",
   "eventDateFormat": "h:mm A"
 }
