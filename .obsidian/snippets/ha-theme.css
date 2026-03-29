@@ -319,6 +319,112 @@ body.theme-dark .markdown-reading-view blockquote {
 }
 
 /* ============================================
+   RAINBOW FOLDERS — restore Catppuccin colors
+   HA palette greys all --ctp-* for text/headings,
+   but sidebar folders need the original rainbow.
+   ============================================ */
+
+/* Dark mode: Catppuccin Frappe palette */
+.theme-dark .nav-folder-children > .nav-folder:nth-child(11n+1),
+.theme-dark .nav-files-container > div > .nav-folder:nth-child(11n+1) {
+  --rainbow-folder-color: 166, 209, 137; /* green */
+}
+.theme-dark .nav-folder-children > .nav-folder:nth-child(11n+2),
+.theme-dark .nav-files-container > div > .nav-folder:nth-child(11n+2) {
+  --rainbow-folder-color: 231, 130, 132; /* red */
+}
+.theme-dark .nav-folder-children > .nav-folder:nth-child(11n+3),
+.theme-dark .nav-files-container > div > .nav-folder:nth-child(11n+3) {
+  --rainbow-folder-color: 234, 153, 156; /* maroon */
+}
+.theme-dark .nav-folder-children > .nav-folder:nth-child(11n+4),
+.theme-dark .nav-files-container > div > .nav-folder:nth-child(11n+4) {
+  --rainbow-folder-color: 239, 159, 118; /* peach */
+}
+.theme-dark .nav-folder-children > .nav-folder:nth-child(11n+5),
+.theme-dark .nav-files-container > div > .nav-folder:nth-child(11n+5) {
+  --rainbow-folder-color: 229, 200, 144; /* yellow */
+}
+.theme-dark .nav-folder-children > .nav-folder:nth-child(11n+6),
+.theme-dark .nav-files-container > div > .nav-folder:nth-child(11n+6) {
+  --rainbow-folder-color: 166, 209, 137; /* green */
+}
+.theme-dark .nav-folder-children > .nav-folder:nth-child(11n+7),
+.theme-dark .nav-files-container > div > .nav-folder:nth-child(11n+7) {
+  --rainbow-folder-color: 129, 200, 190; /* teal */
+}
+.theme-dark .nav-folder-children > .nav-folder:nth-child(11n+8),
+.theme-dark .nav-files-container > div > .nav-folder:nth-child(11n+8) {
+  --rainbow-folder-color: 153, 209, 219; /* sky */
+}
+.theme-dark .nav-folder-children > .nav-folder:nth-child(11n+9),
+.theme-dark .nav-files-container > div > .nav-folder:nth-child(11n+9) {
+  --rainbow-folder-color: 133, 193, 220; /* sapphire */
+}
+.theme-dark .nav-folder-children > .nav-folder:nth-child(11n+10),
+.theme-dark .nav-files-container > div > .nav-folder:nth-child(11n+10) {
+  --rainbow-folder-color: 140, 170, 238; /* blue */
+}
+.theme-dark .nav-folder-children > .nav-folder:nth-child(11n+11),
+.theme-dark .nav-files-container > div > .nav-folder:nth-child(11n+11) {
+  --rainbow-folder-color: 186, 187, 241; /* lavender */
+}
+.theme-dark .nav-folder-children > .nav-folder:nth-child(11n+12),
+.theme-dark .nav-files-container > div > .nav-folder:nth-child(11n+12) {
+  --rainbow-folder-color: 202, 158, 230; /* mauve */
+}
+
+/* Light mode: Catppuccin Latte palette */
+.theme-light .nav-folder-children > .nav-folder:nth-child(11n+1),
+.theme-light .nav-files-container > div > .nav-folder:nth-child(11n+1) {
+  --rainbow-folder-color: 64, 160, 43; /* green */
+}
+.theme-light .nav-folder-children > .nav-folder:nth-child(11n+2),
+.theme-light .nav-files-container > div > .nav-folder:nth-child(11n+2) {
+  --rainbow-folder-color: 210, 15, 57; /* red */
+}
+.theme-light .nav-folder-children > .nav-folder:nth-child(11n+3),
+.theme-light .nav-files-container > div > .nav-folder:nth-child(11n+3) {
+  --rainbow-folder-color: 230, 69, 83; /* maroon */
+}
+.theme-light .nav-folder-children > .nav-folder:nth-child(11n+4),
+.theme-light .nav-files-container > div > .nav-folder:nth-child(11n+4) {
+  --rainbow-folder-color: 254, 100, 11; /* peach */
+}
+.theme-light .nav-folder-children > .nav-folder:nth-child(11n+5),
+.theme-light .nav-files-container > div > .nav-folder:nth-child(11n+5) {
+  --rainbow-folder-color: 223, 142, 29; /* yellow */
+}
+.theme-light .nav-folder-children > .nav-folder:nth-child(11n+6),
+.theme-light .nav-files-container > div > .nav-folder:nth-child(11n+6) {
+  --rainbow-folder-color: 64, 160, 43; /* green */
+}
+.theme-light .nav-folder-children > .nav-folder:nth-child(11n+7),
+.theme-light .nav-files-container > div > .nav-folder:nth-child(11n+7) {
+  --rainbow-folder-color: 23, 146, 153; /* teal */
+}
+.theme-light .nav-folder-children > .nav-folder:nth-child(11n+8),
+.theme-light .nav-files-container > div > .nav-folder:nth-child(11n+8) {
+  --rainbow-folder-color: 4, 165, 229; /* sky */
+}
+.theme-light .nav-folder-children > .nav-folder:nth-child(11n+9),
+.theme-light .nav-files-container > div > .nav-folder:nth-child(11n+9) {
+  --rainbow-folder-color: 32, 159, 181; /* sapphire */
+}
+.theme-light .nav-folder-children > .nav-folder:nth-child(11n+10),
+.theme-light .nav-files-container > div > .nav-folder:nth-child(11n+10) {
+  --rainbow-folder-color: 30, 102, 245; /* blue */
+}
+.theme-light .nav-folder-children > .nav-folder:nth-child(11n+11),
+.theme-light .nav-files-container > div > .nav-folder:nth-child(11n+11) {
+  --rainbow-folder-color: 114, 135, 253; /* lavender */
+}
+.theme-light .nav-folder-children > .nav-folder:nth-child(11n+12),
+.theme-light .nav-files-container > div > .nav-folder:nth-child(11n+12) {
+  --rainbow-folder-color: 136, 57, 239; /* mauve */
+}
+
+/* ============================================
    STATUS BAR — fix invisible text in dark mode
    ============================================ */
 .theme-dark .status-bar {
