@@ -57,7 +57,7 @@ Tec Beyond es la primera instancia de HA operando como plataforma comunitaria. N
 - Project Mara (B2C) — insight: la plataforma Beyond puede convertirse en producto público
 
 ## Links
-- [[project-state]]
+- [[06-projects/upu/project-state]]
 - [[05-context-tec-beyond]]
 
 ## Connections

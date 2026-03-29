@@ -29,7 +29,7 @@ Dotar al Campus Monterrey de una narrativa de transformación que articule lo qu
 - Materiales entregados a Mario Adrián para presentación a Consejo
 
 ## Links
-- [[project-state]]
+- [[06-projects/upu/project-state]]
 
 ## Connections
 - [[ha-ha]]

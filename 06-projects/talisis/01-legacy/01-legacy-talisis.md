@@ -29,7 +29,7 @@ Un sistema donde "Tali" — un agente conversacional — acompaña al líder en 
 - En pausa — esperando alineación de liderazgo interno de Talisis
 
 ## Links
-- [[project-state]]
+- [[06-projects/upu/project-state]]
 
 ## Connections
 - [[ha-ha]]

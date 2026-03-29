@@ -28,7 +28,7 @@ Crear espacios físicos donde comunidades locales en México practican HA con ap
 - Modelo de 6 estaciones alineadas con las 6 dimensiones de HA
 
 ## Links
-- [[project-state]]
+- [[06-projects/upu/project-state]]
 
 ## Connections
 - [[ha-ha]]

@@ -29,7 +29,7 @@ El proyecto UPU es un punto de entrada. Lo que importa no es el contrato en sí 
 - Preservar la relación. El contrato termina, la conexión institucional no.
 
 ## Links
-- [[project-state]]
+- [[06-projects/upu/project-state]]
 
 ## Connections
 - [[ha-ha]]

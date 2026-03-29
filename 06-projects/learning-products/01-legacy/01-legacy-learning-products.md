@@ -41,7 +41,7 @@ A largo plazo: una oficina en Holanda, presencia en universidades europeas, y un
 - Demanda detectada: Aguascalientes (pensamiento profundo), PVEM, corporativos
 
 ## Links
-- [[project-state]]
+- [[06-projects/upu/project-state]]
 
 ## Connections
 - [[ha-ha]]
