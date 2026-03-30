@@ -480,20 +480,8 @@ body.theme-dark .markdown-reading-view blockquote {
 /* ============================================
    VAULT SWITCHER + SIDEBAR ICONS — fix invisible on dark bg
    ============================================ */
-.theme-dark .workspace-drawer-vault-switcher,
-.theme-dark .workspace-drawer-vault-switcher svg,
-.theme-dark .workspace-drawer-vault-switcher .clickable-icon,
-.theme-dark .sidebar-toggle-button,
-.theme-dark .sidebar-toggle-button svg {
-  color: #C4C3C3 !important;
-}
-.theme-dark .workspace-drawer-vault-switcher .clickable-icon:hover,
-.theme-dark .workspace-drawer-vault-switcher svg:hover,
-.theme-dark .sidebar-toggle-button:hover {
-  color: #F1F2F2 !important;
-}
 
-/* General icon color fix for dark mode UI chrome */
+/* Global icon color variables for dark mode */
 .theme-dark {
   --icon-color: #C4C3C3;
   --icon-color-hover: #F1F2F2;
@@ -503,8 +491,44 @@ body.theme-dark .markdown-reading-view blockquote {
   --clickable-icon-color-hover: #F1F2F2;
 }
 
+/* Force all SVG icons visible — stroke only, no fill */
+.theme-dark svg.svg-icon,
+.theme-dark .clickable-icon svg {
+  color: #C4C3C3 !important;
+  stroke: #C4C3C3 !important;
+  fill: none !important;
+}
+.theme-dark .clickable-icon:hover svg {
+  color: #F1F2F2 !important;
+  stroke: #F1F2F2 !important;
+}
+.theme-dark .clickable-icon {
+  color: #C4C3C3 !important;
+}
+.theme-dark .clickable-icon:hover {
+  color: #F1F2F2 !important;
+}
+
+/* Light mode — same fix */
+.theme-light svg.svg-icon,
+.theme-light .clickable-icon svg {
+  color: #525252 !important;
+  stroke: #525252 !important;
+  fill: none !important;
+}
+.theme-light .clickable-icon:hover svg {
+  color: #231F20 !important;
+  stroke: #231F20 !important;
+}
+.theme-light .clickable-icon {
+  color: #525252 !important;
+}
+.theme-light .clickable-icon:hover {
+  color: #231F20 !important;
+}
+
 /* ============================================
-   LIGHT MODE — darken window control buttons
+   LIGHT MODE — darken titlebar/tab icons for contrast
    ============================================ */
 .theme-light .titlebar-button,
 .theme-light .titlebar-button-container {
@@ -513,4 +537,18 @@ body.theme-dark .markdown-reading-view blockquote {
 .theme-light .mod-left-split,
 .theme-light .workspace-ribbon {
   background-color: #E8E8E8 !important;
+}
+.theme-light .workspace-tab-header-container svg.svg-icon,
+.theme-light .workspace-tab-header svg.svg-icon,
+.theme-light .titlebar svg.svg-icon,
+.theme-light .mod-top .workspace-tab-header-inner-icon svg {
+  color: #231F20 !important;
+  stroke: #231F20 !important;
+  fill: none !important;
+}
+.theme-light .workspace-tab-header-container .clickable-icon svg,
+.theme-light .sidebar-toggle-button svg {
+  color: #231F20 !important;
+  stroke: #231F20 !important;
+  fill: none !important;
 }
