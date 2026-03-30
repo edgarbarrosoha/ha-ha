@@ -447,11 +447,70 @@ body.theme-dark .markdown-reading-view blockquote {
 }
 
 /* ============================================
-   STATUS BAR — fix invisible text in dark mode
+   STATUS BAR — fix invisible text/icons in dark mode
    ============================================ */
 .theme-dark .status-bar {
-  color: #8E8C8D !important;
+  color: #C4C3C3 !important;
 }
 .theme-dark .status-bar .status-bar-item {
-  color: #8E8C8D !important;
+  color: #C4C3C3 !important;
+}
+.theme-dark .status-bar svg {
+  color: #C4C3C3 !important;
+  stroke: #C4C3C3 !important;
+}
+.theme-dark .status-bar .clickable-icon {
+  color: #C4C3C3 !important;
+}
+
+/* ============================================
+   TITLEBAR — fix line crossing traffic lights
+   ============================================ */
+.titlebar,
+.titlebar-inner {
+  border-bottom: none !important;
+}
+.mod-left-split .workspace-tab-header-container {
+  border-top: none !important;
+}
+.workspace-ribbon {
+  border-right: none !important;
+}
+
+/* ============================================
+   VAULT SWITCHER + SIDEBAR ICONS — fix invisible on dark bg
+   ============================================ */
+.theme-dark .workspace-drawer-vault-switcher,
+.theme-dark .workspace-drawer-vault-switcher svg,
+.theme-dark .workspace-drawer-vault-switcher .clickable-icon,
+.theme-dark .sidebar-toggle-button,
+.theme-dark .sidebar-toggle-button svg {
+  color: #C4C3C3 !important;
+}
+.theme-dark .workspace-drawer-vault-switcher .clickable-icon:hover,
+.theme-dark .workspace-drawer-vault-switcher svg:hover,
+.theme-dark .sidebar-toggle-button:hover {
+  color: #F1F2F2 !important;
+}
+
+/* General icon color fix for dark mode UI chrome */
+.theme-dark {
+  --icon-color: #C4C3C3;
+  --icon-color-hover: #F1F2F2;
+  --icon-color-active: #F1F2F2;
+  --icon-color-focused: #F1F2F2;
+  --clickable-icon-color: #C4C3C3;
+  --clickable-icon-color-hover: #F1F2F2;
+}
+
+/* ============================================
+   LIGHT MODE — darken window control buttons
+   ============================================ */
+.theme-light .titlebar-button,
+.theme-light .titlebar-button-container {
+  opacity: 0.8 !important;
+}
+.theme-light .mod-left-split,
+.theme-light .workspace-ribbon {
+  background-color: #E8E8E8 !important;
 }
