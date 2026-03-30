@@ -507,60 +507,59 @@ body.theme-dark .markdown-reading-view blockquote {
   color: #F1F2F2 !important;
 }
 
-/* Light mode icon color variables */
-.theme-light {
-  --icon-color: #525252;
-  --icon-color-hover: #231F20;
-  --icon-color-active: #231F20;
-  --icon-color-focused: #231F20;
-  --clickable-icon-color: #525252;
-  --clickable-icon-color-hover: #231F20;
-  --icon-opacity: 1;
-  --icon-opacity-hover: 1;
+/* ============================================
+   LIGHT MODE — force all icons black
+   Overrides AnuPpuccin colorful-frame + card-layout
+   which sets icon color to --background-secondary-alt
+   ============================================ */
+body.theme-light {
+  --icon-color: #231F20 !important;
+  --icon-color-hover: #000000 !important;
+  --icon-color-active: #000000 !important;
+  --icon-color-focused: #000000 !important;
+  --clickable-icon-color: #231F20 !important;
+  --clickable-icon-color-hover: #000000 !important;
+  --icon-opacity: 1 !important;
+  --icon-opacity-hover: 1 !important;
+  --tab-text-color: #231F20 !important;
+  --tab-text-color-focused: #231F20 !important;
+  --tab-text-color-active: #000000 !important;
+  --tab-text-color-focused-active: #000000 !important;
+  --tab-text-color-focused-active-current: #000000 !important;
+  --colorful-icon-color: #231F20 !important;
+  --colorful-icon-color-alt: #231F20 !important;
 }
 
-/* Light mode — force all icons visible */
-.theme-light svg.svg-icon,
-.theme-light .clickable-icon svg {
-  color: #525252 !important;
+body.theme-light .workspace-tab-header-inner-icon,
+body.theme-light .workspace-tab-header-container .clickable-icon,
+body.theme-light .sidebar-toggle-button,
+body.theme-light .workspace-tab-header-container,
+body.theme-light .workspace-tab-container,
+body.theme-light .mod-top .workspace-tab-header,
+body.theme-light .mod-top .workspace-tab-header.is-active {
+  --icon-color: #231F20 !important;
+  --icon-color-hover: #000000 !important;
+  --icon-color-focused: #000000 !important;
+  --tab-text-color: #231F20 !important;
+  --tab-text-color-focused: #231F20 !important;
+  --tab-text-color-focused-active: #000000 !important;
+  --tab-text-color-focused-active-current: #000000 !important;
+  color: #231F20 !important;
+}
+
+body.theme-light svg.svg-icon {
+  color: #231F20 !important;
   opacity: 1 !important;
 }
-.theme-light .clickable-icon:hover svg {
-  color: #231F20 !important;
-}
-.theme-light .clickable-icon {
-  color: #525252 !important;
-}
-.theme-light .clickable-icon:hover {
-  color: #231F20 !important;
+body.theme-light .clickable-icon:hover svg.svg-icon {
+  color: #000000 !important;
 }
 
-/* ============================================
-   LIGHT MODE — darken titlebar/tab icons for contrast
-   ============================================ */
-.theme-light .titlebar-button,
-.theme-light .titlebar-button-container {
+body.theme-light .titlebar-button,
+body.theme-light .titlebar-button-container {
   opacity: 0.8 !important;
 }
-.theme-light .mod-left-split,
-.theme-light .workspace-ribbon {
+body.theme-light .mod-left-split,
+body.theme-light .workspace-ribbon {
   background-color: #E8E8E8 !important;
-}
-/* Tab header icons — all locations */
-.theme-light .workspace-tab-header-container svg.svg-icon,
-.theme-light .workspace-tab-header svg.svg-icon,
-.theme-light .titlebar svg.svg-icon,
-.theme-light .mod-top .workspace-tab-header-inner-icon svg,
-.theme-light .workspace-tab-header-inner-icon svg.svg-icon {
-  color: #525252 !important;
-  opacity: 1 !important;
-}
-.theme-light .workspace-tab-header.is-active svg.svg-icon,
-.theme-light .workspace-tab-header.is-active .workspace-tab-header-inner-icon svg {
-  color: #231F20 !important;
-}
-.theme-light .workspace-tab-header-container .clickable-icon svg,
-.theme-light .sidebar-toggle-button svg {
-  color: #525252 !important;
-  opacity: 1 !important;
 }
