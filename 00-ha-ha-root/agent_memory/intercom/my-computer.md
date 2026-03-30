@@ -6,16 +6,27 @@
 
 ## Inbox
 
-### 2026-03-29 21:00 | request
-**→ Copiar tema HA completo a Tec-computer — light + dark idénticos**
-El tema quedó perfecto en My-computer. Necesito copia exacta en Tec-computer. Dos pasos:
+### 2026-03-30 | request
+**→ Replicar tema HA completo en Tec-computer — 3 pasos exactos**
+El tema está perfecto en My-computer (paneles grises, headings grises, justified text). Para replicar:
 
-**Paso 1 — Style Settings:** Copiar el contenido de `04-technology/my-templates/ha-theme-settings.json` y sobreescribir `.obsidian/plugins/obsidian-style-settings/data.json` con él. Este archivo tiene toda la paleta HA (grises + azul #3356F6), tipografía Plus Jakarta Sans, header weights, card layout, safari tabs, etc.
+**Paso 1 — Style Settings JSON:** Leer `04-technology/my-templates/ha-theme-settings.json` y sobreescribir `.obsidian/plugins/obsidian-style-settings/data.json` con su contenido. Clave: `"anp-layout-select": "anp-card-layout"` activa los paneles separados. Sin esto NO hay paneles grises.
 
-**Paso 2 — CSS Snippet:** El archivo `.obsidian/snippets/ha-theme.css` ya está en el vault vía git sync. Solo hay que activarlo: Settings → Appearance → CSS Snippets → toggle ON `ha-theme`. Este snippet tiene overrides `!important` para headings grises (no rosa), `text-align: justify`, line-height 1.8, y status bar fix para dark mode.
+**Paso 2 — CSS Snippet:** El archivo `.obsidian/snippets/ha-theme.css` ya está en el vault vía git. Activarlo: Settings → Appearance → CSS Snippets → toggle ON `ha-theme`. Este snippet fuerza:
+- Cards dark: `#3B3738` sobre fondo `#1A1718` (paneles grises)
+- Headings: escala de grises (NO rosa Catppuccin)
+- Blockquotes/callouts: fondo `#474344`
+- Texto justificado, line-height 1.8
 
-**Verificación:** Después de aplicar, los headings deben verse en escala de grises (NO rosa/colores Catppuccin). Texto body justificado. Links en azul HA.
-action: copiar settings JSON + activar snippet + verificar
+**Paso 3 — Verificación visual:**
+- [ ] Paneles del workspace se ven como cards con bordes redondeados y fondo `#3B3738`
+- [ ] Fondo detrás de los paneles es casi negro `#1A1718`
+- [ ] Headings en grises (no rosa/colores)
+- [ ] Sidebar tiene rainbow folders con colores Catppuccin
+- [ ] Blockquotes tienen fondo gris sólido
+
+**Si los paneles no aparecen:** Verificar que `anp-card-layout` esté en el JSON. Si los colores no son grises: verificar que el snippet esté ON (toggle verde).
+action: ejecutar 3 pasos + confirmar con screenshot
 
 ### 2026-03-20 08:00 | response
 **→ Obsidian Git ya quedó sincronizando cada 5 min en My-computer**
