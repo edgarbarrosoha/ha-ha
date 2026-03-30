@@ -419,36 +419,31 @@ body.theme-dark .markdown-reading-view blockquote {
 
 
 /* ============================================
-   CARD PANELS — force gray cards on dark background
-   High specificity to override AnuPpuccin card layout
+   CARD PANELS — force light gray on card layout
    ============================================ */
 
-/* Background behind cards — dark */
-body.theme-dark .workspace,
-body.theme-dark .workspace-split,
-body.theme-dark .mod-root,
-body.theme-dark .workspace-tab-container {
+/* Content card panels */
+.theme-dark .mod-root .workspace-leaf,
+.theme-dark .mod-root .workspace-leaf-content {
+  background-color: #3B3738 !important;
+}
+
+/* Sidebar card panel */
+.theme-dark .mod-left-split .workspace-leaf-content,
+.theme-dark .mod-left-split .nav-files-container {
+  background-color: #3B3738 !important;
+}
+
+/* Right sidebar card panel */
+.theme-dark .mod-right-split .workspace-leaf-content {
+  background-color: #3B3738 !important;
+}
+
+/* Workspace background behind cards — stays dark */
+.theme-dark .workspace,
+.theme-dark .workspace-split,
+.theme-dark .mod-root {
   background-color: #1A1718 !important;
-}
-
-/* Card panels — gray */
-body.theme-dark .mod-root .workspace-leaf,
-body.theme-dark .mod-root .workspace-leaf-content,
-body.theme-dark .mod-root .workspace-leaf .view-content,
-body.theme-dark .mod-root .workspace-leaf .view-header,
-body.theme-dark .mod-left-split .workspace-leaf,
-body.theme-dark .mod-left-split .workspace-leaf-content,
-body.theme-dark .mod-left-split .nav-files-container,
-body.theme-dark .mod-left-split .workspace-tab-header-container,
-body.theme-dark .mod-right-split .workspace-leaf,
-body.theme-dark .mod-right-split .workspace-leaf-content,
-body.theme-dark .mod-right-split .workspace-tab-header-container {
-  background-color: #3B3738 !important;
-}
-
-/* Tab header bar */
-body.theme-dark .workspace-tab-header-container {
-  background-color: #3B3738 !important;
 }
 
 /* ============================================
