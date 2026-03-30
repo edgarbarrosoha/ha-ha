@@ -16,6 +16,15 @@
   --text-muted: #525252;
   --text-faint: #8E8C8D;
 
+  /* Fix: colorful frame uses --background-secondary for icons — override */
+  --colorful-icon-color: #231F20;
+  --colorful-icon-color-alt: #231F20;
+  --tab-text-color: #231F20;
+  --tab-text-color-focused: #231F20;
+  --tab-text-color-active: #000000;
+  --tab-text-color-focused-active: #000000;
+  --tab-text-color-focused-active-current: #000000;
+
   /* Blue only here — links and interactive */
   --text-accent: #3356F6;
   --text-accent-hover: #1a3ad4;
@@ -508,53 +517,8 @@ body.theme-dark .markdown-reading-view blockquote {
 }
 
 /* ============================================
-   LIGHT MODE — force all icons black
-   Overrides AnuPpuccin colorful-frame + card-layout
-   which sets icon color to --background-secondary-alt
+   LIGHT MODE — sidebar and titlebar
    ============================================ */
-body.theme-light {
-  --icon-color: #231F20 !important;
-  --icon-color-hover: #000000 !important;
-  --icon-color-active: #000000 !important;
-  --icon-color-focused: #000000 !important;
-  --clickable-icon-color: #231F20 !important;
-  --clickable-icon-color-hover: #000000 !important;
-  --icon-opacity: 1 !important;
-  --icon-opacity-hover: 1 !important;
-  --tab-text-color: #231F20 !important;
-  --tab-text-color-focused: #231F20 !important;
-  --tab-text-color-active: #000000 !important;
-  --tab-text-color-focused-active: #000000 !important;
-  --tab-text-color-focused-active-current: #000000 !important;
-  --colorful-icon-color: #231F20 !important;
-  --colorful-icon-color-alt: #231F20 !important;
-}
-
-body.theme-light .workspace-tab-header-inner-icon,
-body.theme-light .workspace-tab-header-container .clickable-icon,
-body.theme-light .sidebar-toggle-button,
-body.theme-light .workspace-tab-header-container,
-body.theme-light .workspace-tab-container,
-body.theme-light .mod-top .workspace-tab-header,
-body.theme-light .mod-top .workspace-tab-header.is-active {
-  --icon-color: #231F20 !important;
-  --icon-color-hover: #000000 !important;
-  --icon-color-focused: #000000 !important;
-  --tab-text-color: #231F20 !important;
-  --tab-text-color-focused: #231F20 !important;
-  --tab-text-color-focused-active: #000000 !important;
-  --tab-text-color-focused-active-current: #000000 !important;
-  color: #231F20 !important;
-}
-
-body.theme-light svg.svg-icon {
-  color: #231F20 !important;
-  opacity: 1 !important;
-}
-body.theme-light .clickable-icon:hover svg.svg-icon {
-  color: #000000 !important;
-}
-
 body.theme-light .titlebar-button,
 body.theme-light .titlebar-button-container {
   opacity: 0.8 !important;
