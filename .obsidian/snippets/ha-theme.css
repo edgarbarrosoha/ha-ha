@@ -16,15 +16,6 @@
   --text-muted: #525252;
   --text-faint: #8E8C8D;
 
-  /* Fix: colorful frame uses --background-secondary for icons — override */
-  --colorful-icon-color: #231F20;
-  --colorful-icon-color-alt: #231F20;
-  --tab-text-color: #231F20;
-  --tab-text-color-focused: #231F20;
-  --tab-text-color-active: #000000;
-  --tab-text-color-focused-active: #000000;
-  --tab-text-color-focused-active-current: #000000;
-
   /* Blue only here — links and interactive */
   --text-accent: #3356F6;
   --text-accent-hover: #1a3ad4;
@@ -517,8 +508,37 @@ body.theme-dark .markdown-reading-view blockquote {
 }
 
 /* ============================================
-   LIGHT MODE — sidebar and titlebar
+   LIGHT MODE — fix colorful-frame icon contrast
+   AnuPpuccin sets icon/tab colors to --background-secondary-alt
+   which our palette makes near-white. Override at matching specificity.
    ============================================ */
+body.theme-light {
+  --colorful-icon-color: #231F20 !important;
+  --colorful-icon-color-alt: #231F20 !important;
+}
+.theme-light.anp-colorful-frame.anp-card-layout,
+.theme-light.anp-colorful-frame.anp-card-layout .workspace-tab-container,
+.theme-light.anp-colorful-frame.anp-card-layout .workspace-tab-header-container,
+.theme-light.anp-colorful-frame .mod-top .workspace-tab-header,
+.theme-light.anp-colorful-frame .mod-top .workspace-tab-header.is-active,
+.theme-light.anp-colorful-frame .mod-top .workspace-tab-header-container,
+.theme-light.anp-colorful-frame .workspace-tab-header,
+.theme-light.anp-colorful-frame .workspace-tab-header .workspace-tab-header-inner-close-button {
+  --tab-text-color: #231F20 !important;
+  --tab-text-color-focused: #231F20 !important;
+  --tab-text-color-active: #000000 !important;
+  --tab-text-color-focused-active: #000000 !important;
+  --tab-text-color-focused-active-current: #000000 !important;
+  --icon-color: #231F20 !important;
+  --icon-color-hover: #000000 !important;
+  --icon-color-focused: #000000 !important;
+}
+.theme-light.anp-colorful-frame .workspace-tab-header-inner-icon svg,
+.theme-light.anp-colorful-frame .workspace-tab-header-container .clickable-icon svg,
+.theme-light.anp-colorful-frame .sidebar-toggle-button svg {
+  color: #231F20 !important;
+}
+
 body.theme-light .titlebar-button,
 body.theme-light .titlebar-button-container {
   opacity: 0.8 !important;
