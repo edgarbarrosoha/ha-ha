@@ -491,16 +491,14 @@ body.theme-dark .markdown-reading-view blockquote {
   --clickable-icon-color-hover: #F1F2F2;
 }
 
-/* Force all SVG icons visible — stroke only, no fill */
+/* Force all SVG icons visible */
 .theme-dark svg.svg-icon,
 .theme-dark .clickable-icon svg {
   color: #C4C3C3 !important;
-  stroke: #C4C3C3 !important;
-  fill: none !important;
+  opacity: 1 !important;
 }
 .theme-dark .clickable-icon:hover svg {
   color: #F1F2F2 !important;
-  stroke: #F1F2F2 !important;
 }
 .theme-dark .clickable-icon {
   color: #C4C3C3 !important;
@@ -509,16 +507,26 @@ body.theme-dark .markdown-reading-view blockquote {
   color: #F1F2F2 !important;
 }
 
-/* Light mode — same fix */
+/* Light mode icon color variables */
+.theme-light {
+  --icon-color: #525252;
+  --icon-color-hover: #231F20;
+  --icon-color-active: #231F20;
+  --icon-color-focused: #231F20;
+  --clickable-icon-color: #525252;
+  --clickable-icon-color-hover: #231F20;
+  --icon-opacity: 1;
+  --icon-opacity-hover: 1;
+}
+
+/* Light mode — force all icons visible */
 .theme-light svg.svg-icon,
 .theme-light .clickable-icon svg {
   color: #525252 !important;
-  stroke: #525252 !important;
-  fill: none !important;
+  opacity: 1 !important;
 }
 .theme-light .clickable-icon:hover svg {
   color: #231F20 !important;
-  stroke: #231F20 !important;
 }
 .theme-light .clickable-icon {
   color: #525252 !important;
@@ -538,17 +546,21 @@ body.theme-dark .markdown-reading-view blockquote {
 .theme-light .workspace-ribbon {
   background-color: #E8E8E8 !important;
 }
+/* Tab header icons — all locations */
 .theme-light .workspace-tab-header-container svg.svg-icon,
 .theme-light .workspace-tab-header svg.svg-icon,
 .theme-light .titlebar svg.svg-icon,
-.theme-light .mod-top .workspace-tab-header-inner-icon svg {
+.theme-light .mod-top .workspace-tab-header-inner-icon svg,
+.theme-light .workspace-tab-header-inner-icon svg.svg-icon {
+  color: #525252 !important;
+  opacity: 1 !important;
+}
+.theme-light .workspace-tab-header.is-active svg.svg-icon,
+.theme-light .workspace-tab-header.is-active .workspace-tab-header-inner-icon svg {
   color: #231F20 !important;
-  stroke: #231F20 !important;
-  fill: none !important;
 }
 .theme-light .workspace-tab-header-container .clickable-icon svg,
 .theme-light .sidebar-toggle-button svg {
-  color: #231F20 !important;
-  stroke: #231F20 !important;
-  fill: none !important;
+  color: #525252 !important;
+  opacity: 1 !important;
 }

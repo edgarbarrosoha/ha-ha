@@ -110,5 +110,6 @@
   "anuppuccin-theme-settings@@anp-border-radius": 16,
   "anuppuccin-theme-settings@@anp-border-padding": 20,
   "anuppuccin-theme-settings@@anp-h3-color-custom": "anp-h3-blue",
+  "anuppuccin-theme-settings@@anp-colorful-frame-icon-toggle-light": true,
   "anuppuccin-theme-settings@@anp-colorful-frame-opacity": 1
 }
